@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:cie="https://www.cartaidentita.interno.gov.it/saml-extensions" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_708fef4d-4f93-4587-8659-25cc5de205c9" entityID="https://anciprod.b2clogin.com/AnciProd.onmicrosoft.com/B2C_1A_TrustFrameworkBase"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_708fef4d-4f93-4587-8659-25cc5de205c9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>D7dTabDcOW+wirl4qH2RRwsRgI+cZqf3sF/PGuIB0Gk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+v6BJwHf+57nNSOZtyRJ9mQ1Dezlw0+YDL1OF+je4UPeSHefCH4OYwOIuG44OBy24QE5+nHpb++7i
+Wur9mef6g1p6yePaf+I4HpGBgvjGeh4m5oemPiNEy73nWOZswt5dHhHyC/eJI97Y5c227E7ey3qd
+rNFcDP50gNhBWUyEXsZMX2+LLShDoXzSYMdCikoXpjEYcD3/IoUDhyAks1n1fvNi4HxQGcKdDZD3
+LjSkIKM42FHm2/LhkYKpW1OKi0/iqMe2rVJlCICfzlrb3Dcafuqv7QFJc++xbs9njPt7H91w0O+D
+9GVLyKLTGfZZKEyxHJL571ZKB4L/Vjk9nkEx6w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2uUD5VKikmupvIYhRoWizrlOAI1b9PExZSb2/96pCWIwQf9kd5RYDpUO1zavY0cJYjoc62z+sF6l
+YpTApLTfhKa82aDOIz6soqrVvY921a8+XYl1+ygTiqVZ72G8IJLYkYTckLooPWb19JFtG4M7YZfX
+2D6gDnJkDPIme9/IC2i26FGU7mEnUp1E9pvcQxZXG/jmXZMWCv9Y51oDg6UT5V80XHGcHuNemPLP
+kD77K+EwBmLdX4dFmx0CNniaViuruW/CmplRgI5++wiqhB/JZDutSOxkWkp7TSQjY/9rLW911z3T
+ZYoWjMfTJthAitYutiAWHcS8naIzZuK9bUGbEQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDPDCCAiSgAwIBAgIQOuv/m9wOBJZGZ+vpEzZjIDANBgkqhkiG9w0BAQsFADAxMS8wLQYDVQQD
+DCZ5b3VyYXBwbmFtZS55b3VydGVuYW50Lm9ubWljcm9zb2Z0LmNvbTAeFw0yNDEyMDkxMTM0MzZa
+Fw0yNjEyMDkxMTQ0MzBaMDExLzAtBgNVBAMMJnlvdXJhcHBuYW1lLnlvdXJ0ZW5hbnQub25taWNy
+b3NvZnQuY29tMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2uUD5VKikmupvIYhRoWi
+zrlOAI1b9PExZSb2/96pCWIwQf9kd5RYDpUO1zavY0cJYjoc62z+sF6lYpTApLTfhKa82aDOIz6s
+oqrVvY921a8+XYl1+ygTiqVZ72G8IJLYkYTckLooPWb19JFtG4M7YZfX2D6gDnJkDPIme9/IC2i2
+6FGU7mEnUp1E9pvcQxZXG/jmXZMWCv9Y51oDg6UT5V80XHGcHuNemPLPkD77K+EwBmLdX4dFmx0C
+NniaViuruW/CmplRgI5++wiqhB/JZDutSOxkWkp7TSQjY/9rLW911z3TZYoWjMfTJthAitYutiAW
+HcS8naIzZuK9bUGbEQIDAQABo1AwTjAOBgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUH
+AwIGCCsGAQUFBwMBMB0GA1UdDgQWBBSaSnJJ3yg5Vr7X5iJpFNi6oSLXqTANBgkqhkiG9w0BAQsF
+AAOCAQEAJLkjEh/7guda46LSvL78yddI4NAiXfUGaZ0rz/Tal2FaugL+Z5rA8skXu8ft/c/j7DdH
+9oUkXU3vZHmH500hGB5apwRN0oOQNkhbXCjrw06/aMLBNsZeVXfyIGCm1FkEOFu0icSyYas9qMjh
+yaHw29Lvn7oL089QAPTwSgxLBaDvLkEVC106gYVLk1bdjox57jGcURb08O2c8r0ee0SpDtDuSmKy
+QNc2T27WouHSGgtuM6SnduWEw4dwXOXifvxKGUji5BHy05e7jPHi1FLJTE16x0SH2HQjPv91PGWf
+0zHkDcVdW3px8RR4e6tCT4OoCKGoEVu8xqBSYByeKfngMA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:Extensions xmlns:alg="urn:oasis:names:tc:SAML:metadata:algsupport">
+			<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+			<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha384"/>
+			<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+			<alg:DigestMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#sha224"/>
+			<alg:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha384"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha224"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha384"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2009/xmldsig11#dsa-sha256"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha1"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#rsa-sha1"/>
+			<alg:SigningMethod Algorithm="http://www.w3.org/2000/09/xmldsig#dsa-sha1"/>
+		</md:Extensions>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+			<md:Extensions>
+				<init:RequestInitiator xmlns:init="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Binding="urn:oasis:names:tc:SAML:profiles:SSO:request-init" Location="https://AnciProd.b2clogin.com/AnciProd.onmicrosoft.com/oauth2/v2.0/authorize"/>
+				</md:Extensions>
+				<md:KeyDescriptor use="signing">
+					<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+						<ds:X509Data>
+							<ds:X509Certificate>MIIDPDCCAiSgAwIBAgIQOuv/m9wOBJZGZ+vpEzZjIDANBgkqhkiG9w0BAQsFADAx
+MS8wLQYDVQQDDCZ5b3VyYXBwbmFtZS55b3VydGVuYW50Lm9ubWljcm9zb2Z0LmNv
+bTAeFw0yNDEyMDkxMTM0MzZaFw0yNjEyMDkxMTQ0MzBaMDExLzAtBgNVBAMMJnlv
+dXJhcHBuYW1lLnlvdXJ0ZW5hbnQub25taWNyb3NvZnQuY29tMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2uUD5VKikmupvIYhRoWizrlOAI1b9PExZSb2
+/96pCWIwQf9kd5RYDpUO1zavY0cJYjoc62z+sF6lYpTApLTfhKa82aDOIz6soqrV
+vY921a8+XYl1+ygTiqVZ72G8IJLYkYTckLooPWb19JFtG4M7YZfX2D6gDnJkDPIm
+e9/IC2i26FGU7mEnUp1E9pvcQxZXG/jmXZMWCv9Y51oDg6UT5V80XHGcHuNemPLP
+kD77K+EwBmLdX4dFmx0CNniaViuruW/CmplRgI5++wiqhB/JZDutSOxkWkp7TSQj
+Y/9rLW911z3TZYoWjMfTJthAitYutiAWHcS8naIzZuK9bUGbEQIDAQABo1AwTjAO
+BgNVHQ8BAf8EBAMCB4AwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMBMB0G
+A1UdDgQWBBSaSnJJ3yg5Vr7X5iJpFNi6oSLXqTANBgkqhkiG9w0BAQsFAAOCAQEA
+JLkjEh/7guda46LSvL78yddI4NAiXfUGaZ0rz/Tal2FaugL+Z5rA8skXu8ft/c/j
+7DdH9oUkXU3vZHmH500hGB5apwRN0oOQNkhbXCjrw06/aMLBNsZeVXfyIGCm1FkE
+OFu0icSyYas9qMjhyaHw29Lvn7oL089QAPTwSgxLBaDvLkEVC106gYVLk1bdjox5
+7jGcURb08O2c8r0ee0SpDtDuSmKyQNc2T27WouHSGgtuM6SnduWEw4dwXOXifvxK
+GUji5BHy05e7jPHi1FLJTE16x0SH2HQjPv91PGWf0zHkDcVdW3px8RR4e6tCT4Oo
+CKGoEVu8xqBSYByeKfngMA==</ds:X509Certificate>
+						</ds:X509Data>
+					</ds:KeyInfo>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes128-gcm"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes192-gcm"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#aes256-gcm"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes192-cbc"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes256-cbc"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#tripledes-cbc"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2009/xmlenc11#rsa-oaep"/>
+					<md:EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#rsa-oaep-mgf1p"/>
+				</md:KeyDescriptor>
+				<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://AnciProd.b2clogin.com/AnciProd.onmicrosoft.com/B2C_1A_signup_signin_SPID/samlp/sso/logout" ResponseLocation="https://AnciProd.b2clogin.com/AnciProd.onmicrosoft.com/B2C_1A_signup_signin_SPID/samlp/sso/logout/response"/>
+				<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app-spidproxy-prod-btf7a6gse5cjffgs.italynorth-01.azurewebsites.net/proxy/assertionconsumer"/>
+				<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app-spidproxy-prod-btf7a6gse5cjffgs.italynorth-01.azurewebsites.net/proxy/logout"/>
+				<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://AnciProd.b2clogin.com/AnciProd.onmicrosoft.com/B2C_1A_TrustFrameworkBase/samlp/sso/assertionconsumer" index="0" isDefault="true"/>
+				<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app-spidproxy-prod-btf7a6gse5cjffgs.italynorth-01.azurewebsites.net/proxy/assertionconsumer" index="0"/>
+				<md:AttributeConsumingService index="0">
+					<md:ServiceName xml:lang="it">Associazione Nazionale Comuni Italiani</md:ServiceName>
+					<md:ServiceDescription xml:lang="it">Associazione Nazionale Comuni Italiani</md:ServiceDescription>
+					<md:RequestedAttribute Name="spidCode"/>
+					<md:RequestedAttribute Name="name"/>
+					<md:RequestedAttribute Name="familyName"/>
+					<md:RequestedAttribute Name="fiscalNumber"/>
+				</md:AttributeConsumingService>
+			</md:SPSSODescriptor>
+            			 <md:Organization>
+    <md:OrganizationName xml:lang="it">Associazione Nazionale Dei Comuni Italiani</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ANCI</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.anci.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>anci</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Associazione Nazionale Dei Comuni Italiani</md:Company>
+    <md:EmailAddress>info@anci.it</md:EmailAddress>
+    <md:TelephoneNumber>+3906680091</md:TelephoneNumber>
+  </md:ContactPerson>
+</EntityDescriptor>
