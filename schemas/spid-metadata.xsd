@@ -9,6 +9,9 @@
   <xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
              schemaLocation="xmldsig-core-schema.xsd"/>
 
+  <xs:import namespace="urn:oasis:names:tc:SAML:2.0:metadata"
+             schemaLocation="saml-schema-metadata-2.0.xsd"/>
+  
   <!-- ========================================= -->
   <!-- Restrizioni aggiuntive SPID su metadata   -->
   <!-- ========================================= -->
