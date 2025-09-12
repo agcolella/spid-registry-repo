@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ghjd7fK8jafdfDFD5SDFk42344fds3fQfsd34rf3DgH" entityID="https://spid.aslcaserta.it/shibboleth"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_ghjd7fK8jafdfDFD5SDFk42344fds3fQfsd34rf3DgH">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>skXEA79h8PEEhTuxVBc4hjv6uZLJPFGolnflvrrHkAc=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+U5HRX0c9G6kHPejoC/21YIqeHtBY+7rJcIOPs2VVkW5/tm8Yaso+e49Oo7cQ+qaUs3FYJlHM0KoQ
+lp1hv3UNX+XX4iRTfqiY5hClq0EktjrcNMkP1LdIl09fQmyg6oeTrheS6NHt0m6yxS4ktKK38IJV
+p4YUHN2VwrZY3TJNIZLjwIRFC6gCtrs6PmqyMn1foOmAR9Nhk300NJj04AAuGAPWj6BYJfUfi7do
+e4rBTa7CqzA+dbPkB0iCx5BKNjZTobfbVX3w7OKwpkl2kgfqWu5v7+QeZ7bu+EV98H/eqBZm34Qs
+4fU5E56erTSdXEwIFIIo9TNzQ6v5s72g7lFmJg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+6wPC0FIB0/XPKzwNAZjOMOaT3+WddBZzcvHAltD/dhnj1mne/rnR4b1HmW0AeG75OwTZXx4QfkC4
+PbzzBj/Z3t9olHMFc+2ZKwjSH43jR5tQr11oXfQaUolVR3QwrAhQQmiJBG0NkFF7D3kbNIofbQ0s
+4Ia4fWn/ONmKzKb+36al0x4LDD44JRb9LunsKyaXftVaOajA8A27DdsDY65eSrA+193TgDKaI8aY
+HGhrJYbaYcTHL5XeueIBCqHlPSAvjNE68yGnHn4O4qFsvoBCRsMT4bIV3BK+221OtMqL/u/kUnww
+zlvx1pukY8ub+XwHI8WrXnDP7ZpiuYAX2i+rDw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDqzCCApOgAwIBAgIUTKinXLMAKwzfSOcm9R9/tvb4aVYwDQYJKoZIhvcNAQELBQAwZTELMAkG
+A1UEBhMCSVQxEDAOBgNVBAgMB0Nhc2VydGExEDAOBgNVBAcMB0Nhc2VydGExFDASBgNVBAoMC0FT
+TCBDYXNlcnRhMRwwGgYDVQQDDBNhdXRoMi5hc2xjYXNlcnRhLml0MB4XDTI0MDQyNjA5NDcyNloX
+DTM0MDQyNDA5NDcyNlowZTELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0Nhc2VydGExEDAOBgNVBAcM
+B0Nhc2VydGExFDASBgNVBAoMC0FTTCBDYXNlcnRhMRwwGgYDVQQDDBNhdXRoMi5hc2xjYXNlcnRh
+Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6wPC0FIB0/XPKzwNAZjOMOaT3+Wd
+dBZzcvHAltD/dhnj1mne/rnR4b1HmW0AeG75OwTZXx4QfkC4PbzzBj/Z3t9olHMFc+2ZKwjSH43j
+R5tQr11oXfQaUolVR3QwrAhQQmiJBG0NkFF7D3kbNIofbQ0s4Ia4fWn/ONmKzKb+36al0x4LDD44
+JRb9LunsKyaXftVaOajA8A27DdsDY65eSrA+193TgDKaI8aYHGhrJYbaYcTHL5XeueIBCqHlPSAv
+jNE68yGnHn4O4qFsvoBCRsMT4bIV3BK+221OtMqL/u/kUnwwzlvx1pukY8ub+XwHI8WrXnDP7Zpi
+uYAX2i+rDwIDAQABo1MwUTAdBgNVHQ4EFgQUIz9LI4NfYLNU8lR58t1GXiaL6eYwHwYDVR0jBBgw
+FoAUIz9LI4NfYLNU8lR58t1GXiaL6eYwDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOC
+AQEAZPveJb+QPOL5MVLSSA409V62ZtqvSIlBIBnRVRS9hVED/hZP/yQD/599CoNvlLOb5Tahxjgz
+oIlV+k4NqA4jyvWdWJqX8tWH7/l1ibKVbDRUpPk7JIf40nUKDa1Mmr1zoyYcyAzYQ6x30e8rUBiu
+eFagO5F+jE441gzigATBdRyJhe87/uaJw9TempY3ymyg8rcBMhPyRvGv9bR2gSUhOG1I/shUcNV0
+lis6StisOH/eyrFhgOqn//1Dx1odiR5pJyozi9QyILCWlc9lQy05GbLnNzwjx1a/5kn+UWCTgru9
+EatkNxn1eJkLSyKvsdheKI6ldTkzfGeztXn+XkjJsg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIFbjCCA9agAwIBAgIUJl9goOY8JqjEi2cv7Th5JOiatX4wDQYJKoZIhvcNAQEL
+BQAwgaYxFDASBgNVBAMMC0FTTCBDYXNlcnRhMQswCQYDVQQGEwJJVDEQMA4GA1UE
+BwwHQ2FzZXJ0YTEUMBIGA1UEYQwLUEE6SVQtYXNfQ0UxKTAnBgNVBAoMIEF6aWVu
+ZGEgU2FuaXRhcmlhIExvY2FsZSBDYXNlcnRhMS4wLAYDVQRTDCVodHRwczovL3Nw
+aWQuYXNsY2FzZXJ0YS5pdC9zaGliYm9sZXRoMB4XDTIzMDYyMjEwNDUxM1oXDTMz
+MDYxOTEwNDUxM1owgaYxFDASBgNVBAMMC0FTTCBDYXNlcnRhMQswCQYDVQQGEwJJ
+VDEQMA4GA1UEBwwHQ2FzZXJ0YTEUMBIGA1UEYQwLUEE6SVQtYXNfQ0UxKTAnBgNV
+BAoMIEF6aWVuZGEgU2FuaXRhcmlhIExvY2FsZSBDYXNlcnRhMS4wLAYDVQRTDCVo
+dHRwczovL3NwaWQuYXNsY2FzZXJ0YS5pdC9zaGliYm9sZXRoMIIBojANBgkqhkiG
+9w0BAQEFAAOCAY8AMIIBigKCAYEA4Lfg1MD4Am6JzWcWkYtwj4DymEiRRjr3KaEw
+9xf1+J4oQa5L6kezpQiVd/33L3JVbk9rG0wAItnAJoEJSCrJdy3of82Afock+NLB
+4h/5D6R8Djh3efWW/LJRWwdHlKEeyFbZnPMidklmwM7lDGVf6Vd5MFqF0rmLw3cL
+S8JmJ6+S9Y8ysI3PDn9QwOwOqFevxBEmaIzvrWH0SVfEWXpzeMeF19xJbkcZCrY7
+LcrTjAA5aAeRhPInnsC0v6Jo6T0WylN1fth0VrQWPXfAYQZFFoyKCyXEhKt3ln67
+BOEqNxUaAkaG3tWsrnauZ7Ka9QJnGSm+B6sxjPxDH+st9qgqBYDcQlrubuvzG2NN
+MZwsDthHdhiZ9OkfYSpacXplS0u2sT95C/DV0u/aLuhc66GWuq/uxNbZ3V26CdzU
+xbDlcOkJSG9KMJvle0GWT7QsDmJJrXT9hvQjUnxnXzkq5EAPILxLQ8VUnFfMDoVu
+0m9alMNwJJ50oJRbKTNtP1GfrU+DAgMBAAGjgZEwgY4wCQYDVR0TBAIwADAOBgNV
+HQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoI
+YWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIw
+HQYDVR0OBBYEFL17hnzi4pk3gAaHPvj40yrQ1vaFMA0GCSqGSIb3DQEBCwUAA4IB
+gQBbKuIZvYG58KdClhiskMhTQyJQh+AU8Ivt2+3cBy4jwxYEizDzBXYE098FQZuD
+hl8LAVvcrjfIhecceAxLe4vq63UKrM077R+4RwH3muCBLrTlBc8x17s3AsfF81Ss
+PlNZM1FIEWzdUS7wB8QTN5wYSXa4cXC0EBYfco6Y42onaTI6Ft066mztC+JIjyHy
+WS88QypuwFxmquv6H2nLR52/zH4MOQFKfpFBrXW1f/VIzKisbOOM7i2PyU0W0ABj
+Gjt6QUQfqbYJXzpcleWROkDa3+Xsfgot3SzcK0rb1lnzeDQgJNezYiifv/nngXk8
+wrsg2riEi5JZ2xEVffGxJ2xBnSyNO7B04PgMpEXHsbYxPqq1hP745N2RJL7emoPz
+AILjiNmeZrKuv7Nxhk7tOApIopROKpomGBB6J2SclGRQhqH/v7me3LHXOYRALMfZ
+hDHkGKfU7O7fb4agUqH1Q8X5Rvghq+LhloR0IUYn8mV9d0b5LJ/amnG07aImVgwo
+Anw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:KeyName>Qw7ygq7-cFGjFFZfEtvu_niDih6_MiyVwOejvncL96A</ds:KeyName>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFfDCCA+SgAwIBAgIUaipLQxxlUlQu4ETbIiIRHx1jaqIwDQYJKoZIhvcNAQENBQAwga0xFDASBgNVBAMMC0FTTCBDYXNlcnRhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ2FzZXJ0YTEUMBIGA1UEYQwLUEE6SVQtYXNfQ0UxKTAnBgNVBAoMIEF6aWVuZGEgU2FuaXRhcmlhIExvY2FsZSBDYXNlcnRhMTUwMwYDVQRTDCxodHRwczovL2F1dGgyLmFzbGNhc2VydGEuaXQvYXV0aC9yZWFsbXMvc3BpZDAeFw0yNDA0MTUxMzI2MDJaFw0zNDA0MTMxMzI2MDJaMIGtMRQwEgYDVQQDDAtBU0wgQ2FzZXJ0YTELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB0Nhc2VydGExFDASBgNVBGEMC1BBOklULWFzX0NFMSkwJwYDVQQKDCBBemllbmRhIFNhbml0YXJpYSBMb2NhbGUgQ2FzZXJ0YTE1MDMGA1UEUwwsaHR0cHM6Ly9hdXRoMi5hc2xjYXNlcnRhLml0L2F1dGgvcmVhbG1zL3NwaWQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC0PhJkuu9pIvmlG7v67SMoGsgJJJ4vjLTIDbqasIOiVlanZvbbFm+0wSGhkI3mdJ89iiiGOPtcat6SZd4+VHi372pclnQ9qHX2Qt+Peg/GkFJ29zG7W1A0IEm+nhFVgNLa08P4rWzVYnt6Sj+ltOxicqcmb1Zw7y327mIivFtM2vLWLtuK9pL9eo/89PT6V/lx4XJSep8TNXD15aIQSIcVOdcyHzV+ebMuOR8ts2AWYL43NFBmFyvaASosiEP9KrI+vcIObfMhazJIWlsvOabRDeSx/Ah/qDgW7mRhAtG8EfHgdoNpE/x7bTe6tHPb6pS0xkxNMUCrPR4FCOOmjzoOnZBqjBJz3Eb4k397Tu7RNy7OdVXd9/FO035K/jg0LkpoM46xMkkxcyO6H713L64Xu/ujfsROPbHgtqi8EEK3Z6kjtHgmjFSJWMMcMOP1EEXx2+PgqwZwn4EugVe2/gEHFKwl2bXvekm9LNw9MOun4DwoIpRjAHzaKS8O+0zk40sCAwEAAaOBkTCBjjAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjAdBgNVHQ4EFgQUP3RiyclR1I+q5AeDCfIFhS/YfaswDQYJKoZIhvcNAQENBQADggGBABmTgXgh6xAvpCWIHPI9Q3Gs67XhqAq6o359pIs90fmHZhACot65duyGydSeJ30xGf2cxLMFQ3h2CdQ0/fTJvw6y+bh14KOplPwbJMZEcp3+5lg/NUVtIUvfFFVgpBlZmptvZWu+eGdCVnFRgOJWO6BUAztY1Xk4GTkXx74OAiU8GCQT/6LWq6UMYfLpUvSfhSVuBddjV7c99StVtKG0czxD8UkFKxf+lVyDxbDbXm9lZXt248su2yFvEXiM+tepZKdPzZ/fNZxf+fJF9qyo/DVmT7lpBvq39k/Fd00RTapu1FFJnBgIVuH0TEsKosGxzstY9kR8EhPF4uQX4cImhUuD2efLhYRVIbpgExuIdSlpR/0dYqS7SGbe4N2lD5uIVMceutvZpo8sG1YVnx5xs5vfAKPYHU1wO7B0Rh9IE8xqUsM1dVNKROT5rTtQyUhWF6BxDC8Z5F+e5P+MBGDvAvZtnpLZFtbjwycQm3CTaka2WQUNeCAlcxnY91QLW2fBbA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://spid.aslcaserta.it/Shibboleth.sso/SLO/SOAP"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.aslcaserta.it/Shibboleth.sso/SLO/Redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.aslcaserta.it/Shibboleth.sso/SLO/POST"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Aruba%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/EtnaHitech%20S.C.p.A./endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/InfoCamere%20S.C.p.A./endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Infocert%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Intesi%20Group%20S.p.A./endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Lepida%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Namirial%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Poste%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/SPIDItalia%20Register.it/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Sielte%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Spid%20saml%20check/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Spid%20validator%20AgID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Team%20System%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Tim%20ID/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/demo%20spid%20validator/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp00/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp01/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp02/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp03/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp04/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp05/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp06/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp07/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp08/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp09/endpoint"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/spid-demo/endpoint"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.aslcaserta.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Aruba%20ID/endpoint" index="1"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/EtnaHitech%20S.C.p.A./endpoint" index="2"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/InfoCamere%20S.C.p.A./endpoint" index="3"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Infocert%20ID/endpoint" index="4"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Intesi%20Group%20S.p.A./endpoint" index="5"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Lepida%20ID/endpoint" index="6"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Namirial%20ID/endpoint" index="7"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Poste%20ID/endpoint" index="8"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/SPIDItalia%20Register.it/endpoint" index="9"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Sielte%20ID/endpoint" index="10"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Spid%20saml%20check/endpoint" index="11"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Spid%20validator%20AgID/endpoint" index="12"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Team%20System%20ID/endpoint" index="13"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/Tim%20ID/endpoint" index="14"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/demo%20spid%20validator/endpoint" index="15"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp00/endpoint" index="16"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp01/endpoint" index="17"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp02/endpoint" index="18"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp03/endpoint" index="19"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp04/endpoint" index="20"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp05/endpoint" index="21"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp06/endpoint" index="22"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp07/endpoint" index="23"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp08/endpoint" index="24"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/idp09/endpoint" index="25"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth2.aslcaserta.it/auth/realms/spid/broker/spid-demo/endpoint" index="26"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">StandardCallbackASLCEService</md:ServiceName>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="99">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="100">
+      <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">auth</md:ServiceName>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyFiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Azienda Sanitaria Locale Caserta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">ASL Caserta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://spid.aslcaserta.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>as_CE</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Azienda Sanitaria Locale Caserta</md:Company>
+    <md:EmailAddress>supportospid@aslcaserta.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
