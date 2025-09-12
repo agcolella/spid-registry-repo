@@ -1,0 +1,50 @@
+name: SPID Metadata Pipeline (senza firma)
+
+on:
+  push:
+    branches:
+      - main
+    paths:
+      - "metadata/*.xml"
+
+jobs:
+  validate-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y libxml2-utils
+          python3 -m pip install --upgrade pip
+          pip install -r requirements.txt
+
+      - name: Validate metadata (XSD)
+        run: |
+          for f in metadata/*.xml; do
+            xmllint --noout --schema schemas/spid-metadata.xsd "$f"
+          done
+
+      - name: Semantic validation (QAD checks)
+        run: |
+          for f in metadata/*.xml; do
+            python scripts/validate_metadata.py "$f"
+          done
+
+      - name: Check entityID duplicates
+        run: |
+          python scripts/check_entityid_unique.py
+
+      - name: Publish to GitHub Pages
+        run: |
+          rm -rf public || true
+          mkdir -p public/metadata
+          cp metadata/*.xml public/metadata/
+          touch public/.nojekyll
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+          git add public
+          git commit -m "Aggiornati metadata validati [ci skip]" || echo "nothing to commit"
+          git push origin `git subtree split --prefix public main`:gh-pages --force

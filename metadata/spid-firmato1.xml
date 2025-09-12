@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e0aea629b77c40c6884d11692fa11743" entityID="https://securespid.lavoro.gov.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e0aea629b77c40c6884d11692fa11743">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>YW7LbtQE6zKsQ/0jtR7F4Z/4aL8YSOTc7ZSr9MMEeXw=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+BZI13DkB9A4LLzDgCP/G3f0ywYnelwtYfSX0+ncjV3PtI7kZ92bZogPmgeR+z01ouopahYs4ld/9
+EcTzAz9QQVOcJiUjyfZ+dnrT1uK9OpHw9qxXD9U++GbL12KZWSdXqy1ERUUNlILFoO5AuCnFR8tJ
+TC310QKEA7victnxe2lQRJ5tFvPTk83HvGRsGXcHzs73vw42nypoxTEAApnJnQIP76ggDp6SJnZ2
+xsgWEXLunfJ9jjCJPUnOUhoUXSJuTL4VDNE2NA38IzDemu155GirLfaB0kEnVcMPBO5gPYQyYzLF
+CB/dsjeKysG+mOSRNwUUQgQJnn2jAOJ7SuxklA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nf5DcHwpAFQBpo1+wn0BuHtbtFbcw0Weyor39NyXc4QIpNdzidxr7VtcS5DOVvwp4YQeOC541CdG
+JTajtqjrJyjYcbP8kWyj32prduOB45j66vWuukq8j3LPbG3XQvnw68E1yUUM0ljfcw8LnBhXKwdq
+N947izvbRZ9SEYYAGGE5i2SNtGGgjFRyXln757uzKz+g9atG+8yyf5urDaKqdL11/Imj/UsEjjVW
+RtoXYdJ/UAEjTIwl3icstuGQeK9ihhreDrBd6Pxqdjwf79/t6aygNqGO9fwB+5nSiAx6ELLASf5B
+PiQRhOFb4U4SutDRB19W2hnBcZxAB5M6FPsDqQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIG8DCCBdigAwIBAgIQCJU6bVkRmaNfE1J0ksmL/jANBgkqhkiG9w0BAQsFADBZMQswCQYDVQQG
+EwJVUzEVMBMGA1UEChMMRGlnaUNlcnQgSW5jMTMwMQYDVQQDEypEaWdpQ2VydCBHbG9iYWwgRzIg
+VExTIFJTQSBTSEEyNTYgMjAyMCBDQTEwHhcNMjUwMjE4MDAwMDAwWhcNMjYwMzEwMjM1OTU5WjB4
+MQswCQYDVQQGEwJJVDENMAsGA1UEBxMEUm9tYTE3MDUGA1UEChMuTWluaXN0ZXJvIGRlbCBMYXZv
+cm8gZSBkZWxsZSBwb2xpdGljaGUgc29jaWFsaTEhMB8GA1UEAxMYc2VjdXJlc3BpZC5sYXZvcm8u
+Z292Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnf5DcHwpAFQBpo1+wn0BuHtb
+tFbcw0Weyor39NyXc4QIpNdzidxr7VtcS5DOVvwp4YQeOC541CdGJTajtqjrJyjYcbP8kWyj32pr
+duOB45j66vWuukq8j3LPbG3XQvnw68E1yUUM0ljfcw8LnBhXKwdqN947izvbRZ9SEYYAGGE5i2SN
+tGGgjFRyXln757uzKz+g9atG+8yyf5urDaKqdL11/Imj/UsEjjVWRtoXYdJ/UAEjTIwl3icstuGQ
+eK9ihhreDrBd6Pxqdjwf79/t6aygNqGO9fwB+5nSiAx6ELLASf5BPiQRhOFb4U4SutDRB19W2hnB
+cZxAB5M6FPsDqQIDAQABo4IDkzCCA48wHwYDVR0jBBgwFoAUdIWAwGbH3zfez70pN6oDHb7tzRcw
+HQYDVR0OBBYEFHPMVJefLtLUvB8XCdBmmovYBa+IMCMGA1UdEQQcMBqCGHNlY3VyZXNwaWQubGF2
+b3JvLmdvdi5pdDA+BgNVHSAENzA1MDMGBmeBDAECAjApMCcGCCsGAQUFBwIBFhtodHRwOi8vd3d3
+LmRpZ2ljZXJ0LmNvbS9DUFMwDgYDVR0PAQH/BAQDAgWgMB0GA1UdJQQWMBQGCCsGAQUFBwMBBggr
+BgEFBQcDAjCBnwYDVR0fBIGXMIGUMEigRqBEhkJodHRwOi8vY3JsMy5kaWdpY2VydC5jb20vRGln
+aUNlcnRHbG9iYWxHMlRMU1JTQVNIQTI1NjIwMjBDQTEtMS5jcmwwSKBGoESGQmh0dHA6Ly9jcmw0
+LmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExTUlNBU0hBMjU2MjAyMENBMS0xLmNybDCB
+hwYIKwYBBQUHAQEEezB5MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5kaWdpY2VydC5jb20wUQYI
+KwYBBQUHMAKGRWh0dHA6Ly9jYWNlcnRzLmRpZ2ljZXJ0LmNvbS9EaWdpQ2VydEdsb2JhbEcyVExT
+UlNBU0hBMjU2MjAyMENBMS0xLmNydDAMBgNVHRMBAf8EAjAAMIIBfQYKKwYBBAHWeQIEAgSCAW0E
+ggFpAWcAdQAOV5S8866pPjMbLJkHs/eQ35vCPXEyJd0hqSWsYcVOIQAAAZUY5NsvAAAEAwBGMEQC
+IBa4vagYuKXuRw3apG/1/63uUB9Vy6chwuOss9ITfCwKAiA0HHH3ScAcP/w8Io0T8lv4eUOpDo9G
+e0xxX5eVj1f4CAB2AGQRxGykEuyniRyiAi4AvKtPKAfUHjUnq+r+1QPJfc3wAAABlRjk21QAAAQD
+AEcwRQIgWq0iG8i7YVU14R7FGnfud011XETnBo/JjF/HxZAnsrgCIQC+fbRK3/0S2DnPg1IhAJz/
+CSbAfRa5bdgdyhHSM8576gB2AEmcm2neHXzs/DbezYdkprhbrwqHgBnRVVL76esp3fjDAAABlRjk
+22YAAAQDAEcwRQIgHBzpa0WN+jPQWm8EGCFpcw3C6KVyY0Ifis875Qp37Y0CIQDnr5rbxEZL+zQ0
+pgdhgdrukGFqiMd6d2W15HUnsbvylDANBgkqhkiG9w0BAQsFAAOCAQEAbmWUnAUkuJUVPaPmKF0W
+cbRd/oqwE06yvWGq3aec65Bv6LgE9ltPkQ48Oja4Wkuyu1sRrHAOQs1F4ZKnwRxIaK5nx1aCkvmH
+LKp5NsZMuZaKeQn4FVam/zcMQj/KEOaH3BAYM47kERAlcrvdJVdJaqIStm8P7kHStlXSG0prbgG9
+tAEAiYk2MLcYDx3V7i+4q8+eaKDQX9ATRE55R2R2z1aD88M+X2y6SyB4Pye1EWtSU0CLTFTPkpqS
+O1w/UGMPx5AumZd/ICqNiLzzdKKUUKxO3jfJrSrADvk2PUMQFBHgzMjxbmNZ08zHoOcUyrS5ziuR
+DnmRPyW4UnM7MLSEnw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIFzDCCA7SgAwIBAgIIZxa7QIpNNOwwDQYJKoZIhvcNAQELBQAwZTELMAkGA1UEBhMCSVQxHjAcBgNVBAoMFVBvc3RlIEl0YWxpYW5lIFMucC5BLjEaMBgGA1UEYQwRVkFUSVQtMDExMTQ2MDEwMDYxGjAYBgNVBAMMEVBvc3RlIEl0YWxpYW5lIENBMB4XDTI0MDIyMDA4NTg1N1oXDTI5MDIxOTA4NTg1N1owgf4xCzAJBgNVBAYTAklUMTcwNQYDVQQKDC5NaW5pc3Rlcm8gZGVsIExhdm9ybyBlIGRlbGxlIFBvbGl0aWNoZSBTb2NpYWxpMV4wXAYDVQQLDFVELiBHLiBzaXN0ZW1pIGluZm9ybWF0aXZpLCBpbm5vdmF6aW9uZSB0ZWNub2xvZ2ljYSwgbW9uaXRvcmFnZ2lvIGRhdGkgZSBjb211bmljYXppb25lMRowGAYDVQRhDBFWQVRJVC04MDIzNzI1MDU4NjE6MDgGA1UEAwwxU1AtTWluaXN0ZXJvIGRlbCBMYXZvcm8gZSBkZWxsZSBQb2xpdGljaGUgU29jaWFsaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIAfbKD2TVr2HEuZXGb61EM1lwiDRWSczwt3rftWyxFD9D9WW7ePaQmNPUvrS1aOiJaBHh9CxgdrKWK8x4f5+N0ptgnaQW+j7ihaE5gdnfy+uCxKJcY5Aynm0/L79V55LkAHaf1KkoS9QPtH0unn2nf317iRkQ5o9TUY6pjl5DDYlW8Ef23jHWaA/J16uMTSGAa59VrVgUZvAVVTMxH1dPgVHgV7sZTtQx8hT1xfaUQ2H7WEJlwRctzGSGA201pqX4BsUnMLLXuDLiiUykO4sAUNPPWnriRJfpNaEwvflCXTVqXKpO3U3BlLJPJ6o7zWcoUEVQr/0J1OphjGATlSog8CAwEAAaOB5TCB4jA/BggrBgEFBQcBAQQzMDEwLwYIKwYBBQUHMAGGI2h0dHA6Ly9wb3N0ZWNlcnQucG9zdGUuaXQvcGktb2NzcENBMB0GA1UdDgQWBBQb3j4yLMenTJ97cJbJS2AXo+/RLjAfBgNVHSMEGDAWgBRs0025F7hHd0d+ULyAaELPZ7w/eTAVBgNVHSAEDjAMMAoGCCtMMAEFAQEDMDgGA1UdHwQxMC8wLaAroCmGJ2h0dHA6Ly9wb3N0ZWNlcnQucG9zdGUuaXQvcGktQ0EvY3JsLmNybDAOBgNVHQ8BAf8EBAMCBLAwDQYJKoZIhvcNAQELBQADggIBAFcgYdFNvWPSOAobGV3DIxt41cLEj+dPHBn0sFUQpw6wN7UVeyN7AoFIbaPfcsYIR8ubFkPYbD+ihRwRRBbIo7L825XoILpYa/k0Kf7QL1aG0X+HKqL07x5c0nYT8pKQHyvT55lgOQcOOcxIslFQuYyy/o17cEKKfan+ECNzhEGdDgeZyD5TDX4cpD3vgPjGFrJ6OhV1cMkbgONWgwaP5Wgv2dsDAPC2D4MirN41PQBkyzUyZ84l9PJ3OHLNfHZTFvEYrj5WjjJVEdwcNG7nmODJqgfUlKCf5sMcagzf4f/07KmgBNKKc4Sonehb3PoJBGr1UbL8WHJM7E0gc73LVYXN/X8S767kEJQyvcnKZwx8YlTAaQK17m345wtstcdH8M3TC+BzdpOPsiiOdl0C6FLtApP/qLFJ/+JVL3//O1o21vS9AAsg4fxO/LVfa5xcvbGulDfAJ9z5k0dBpaghVl/B8IlF9RiuX9dpdxdShKzzUZMfcdKYwAIvfqRtoshryr0gijHo1qli2QfFh/uoNH6FyBuKc1UUxKCOVLLX6dBsyvXbYMCLuEfJ/VPwhinkHKqsduxKeUzix7B0h1jZb1RKF9izmX1kp3Hm9mKOS3oaOJqtldf5cLq7VBBb4DXPJU+RhRwU1JSy4OS8CpfelcKh0FIU8Eg5GzAx3qjduC2N</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+					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
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>
+					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
+					</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://securespid.lavoro.gov.it/logout"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stage-login.lavoro.gov.it/oamfed/sp/samlv20"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.lavoro.gov.it/oamfed/sp/samlv20"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.redditodicittadinanza.gov.it/jod-saml-sp-client/federation/saml/logoutrequestpost"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siisl.wmo.lavoro.gov.it/spfl/logout_spid"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siisl.lavoro.gov.it/spfl/logout_spid"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://Dlearning.lavoro.gov.it/spfl/logout_spid"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://Dlearningstg.lavoro.gov.it/spfl/logout_spid"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-aruba/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-demo/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-etnahitech/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-infocamere/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-infocert/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-intesi-group/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-lepida/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-namirial/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-poste/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-register.it/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-sielte/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-teamsystem/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-tim/endpoint"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-validator/endpoint"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://securespid.lavoro.gov.it/response" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://stage-login.lavoro.gov.it/oam/server/fed/sp/sso" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.lavoro.gov.it/oam/server/fed/sp/sso" index="2"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.redditodicittadinanza.gov.it/jod-saml-sp-client/federation/saml/proxy/v1/assertionconsumer" index="3"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siisl.wmo.lavoro.gov.it/spfl/login_spid" index="4"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://siisl.lavoro.gov.it/spfl/login_spid" index="5"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://Dlearning.lavoro.gov.it/spfl/login_spid" index="6"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://Dlearningstg.lavoro.gov.it/spfl/login_spid" index="7"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-aruba/endpoint" index="8"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-demo/endpoint" index="9"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-etnahitech/endpoint" index="10"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-infocamere/endpoint" index="11"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-infocert/endpoint" index="12"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-intesi-group/endpoint" index="13"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-lepida/endpoint" index="14"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-namirial/endpoint" index="15"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-poste/endpoint" index="16"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-register.it/endpoint" index="17"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-sielte/endpoint" index="18"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-teamsystem/endpoint" index="19"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-tim/endpoint" index="20"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://appli-staging.mlps-appli.it/realms/spid-test/broker/spid-validator/endpoint" index="21"/>
+		<md:AttributeConsumingService index="0">
+		        <md:ServiceName xml:lang="it">set0</md:ServiceName>
+                        <md:RequestedAttribute Name="spidCode"/>
+                        <md:RequestedAttribute Name="name"/>
+                        <md:RequestedAttribute Name="familyName"/>
+                        <md:RequestedAttribute Name="placeOfBirth"/>
+                        <md:RequestedAttribute Name="countyOfBirth"/>
+                        <md:RequestedAttribute Name="dateOfBirth"/>
+                        <md:RequestedAttribute Name="gender"/>
+                        <md:RequestedAttribute Name="companyName"/>
+                        <md:RequestedAttribute Name="registeredOffice"/>
+                        <md:RequestedAttribute Name="fiscalNumber"/>
+                        <md:RequestedAttribute Name="ivaCode"/>
+                        <md:RequestedAttribute Name="idCard"/>
+                        <md:RequestedAttribute Name="mobilePhone"/>
+                        <md:RequestedAttribute Name="email"/>
+                        <md:RequestedAttribute Name="address"/>
+                        <md:RequestedAttribute Name="expirationDate"/>
+                        <md:RequestedAttribute Name="digitalAddress"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">Richiesta Reddito di Cittadinanza</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="idCard"/>
+			<md:RequestedAttribute Name="expirationDate"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="3">
+			<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="spidCode"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="4">
+			<md:ServiceName xml:lang="it">SIISL</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="5">
+			<md:ServiceName xml:lang="it">Dlearning</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="6">
+			<md:ServiceName xml:lang="it"> Dlearningstg</md:ServiceName>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="7">
+			  <md:ServiceName xml:lang="en">APPLI</md:ServiceName>
+			  <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			  <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Ministero del Lavoro e delle Politiche Sociali</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Ministero del Lavoro e delle Politiche Sociali</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.lavoro.gov.it/</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+                <md:Extensions>
+			<spid:IPACode>m_lps</spid:IPACode>
+			<spid:VATNumber>IT80237250586</spid:VATNumber>
+			<spid:FiscalCode>80237250586</spid:FiscalCode>
+			<spid:Public/>
+                </md:Extensions>
+                <md:Company>Ministero del Lavoro e delle Politiche Sociali</md:Company>
+                <md:EmailAddress>dginnovazione@pec.lavoro.gov.it</md:EmailAddress>
+        </md:ContactPerson>
+</md:EntityDescriptor>
