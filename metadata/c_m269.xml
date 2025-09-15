@@ -1,0 +1,240 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://www.comune.paterno.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>l9u2g+TESgUS/s2P5VRTD464GUQLDmNoejyrFmosBxk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+RF9xqwMmm0wAjQYc1G8/yaMTViW72bExzG3f15U6W8qfN8vVPuPCCO4Qv7uI2rQwmKE3EyRiiBmJ
+tALRhJukeKbbgRpPeDCg9l+n0GoRH5jd5+EONCVA1kmFWP+/uTQEQugJqemT/4Ems6hu2riZu4WA
+h8+8hunwvmOqLEHsjBsdWS6xmx44Ip1xk/ilnzgEShsPzmsz4gH6k1aeJkt5uxJXyABLjJbgIWaw
+naUKyfIURCBwpbql53k6XwS7h57cgUyjAS29QyZEd88rRyZUJ2dsRmfLze3G0m/mYF83qpYPtLY3
+pwQQWvKpOVPL8aWLLi7RhsZKraSULC7f4l7f586XVlWSpgdoiCtfo4E3RwHnQFy343wJDs0dGZoH
+EhQhov1PNnpERKGaedqDGVii3MSGUxjyud/tb0cC2lXSti/a03qpgQG/08xoWvBFJFXq11YivfvA
+mtdInXg+82xmAivUfRdCDSHQe0bphnnrAbJj7L6GkcnJR+s5B6bQrXOMRexT8o7tveruZe08eKES
+2nVH2u7ODBcqOA+fKtp7nWCdplhMf2ZOdDMpafSjMcKatmoYPbWFQrGhWGvQNGRhjN/VYv9fUDFR
+UFlY6w7a1qBEjeFcejogVGKEm9Qt7wdsZv8tlnYaETKsSpcn6Lsul96PVVkkb5E+WWDaFs28E1Y=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zIrGtp5rMfLsBMu9uJwPw7XaXM/CEkGojJLjH901dQD0/I1QMW4bMmsEP/2TJQYGM6LycXJZparZ
+vbKvD+VWmubzByhxcKgZyw6JAPaWIPLHJjNwH/iOZ39ZClfWCf8A8A3qO3lZSRogZDpEYWXYWk6a
+nt+NRlCeYvQPLy1VR2WyAxVKWXW9Jgz8ybp7OzReZmbzb0U7lW4A6ZMNYn9rAT8oiZBNDYQ8jdUy
+pSS8JiHnzDi4zYhrM4uri19dLcgVCQvH7XP7AvY+o04XLLemQXHR0M4eBrog3zqDLrPhqyMdMNNz
+cNhuhsvsYUDeMcAIqaOfgPMZgThyZuxo2NzZKc+kDsuh8FeIdlHsdJPPiTwDqy5Q+w+zxzpMVk7B
++PBruYPtPaAbtL6nFO9dQ9fsTfEglHez4MxCA0ZwKwnfq/fsMabF0CF2NABOL9pHc+cbfaeugutT
+p+8yLdIoWJ1hZzlqpIdN8Q9cdEPS0UDZG4TC3igfLzEyq7Ji9pbCWwTKSX0+kNTJCZLtUPZcSDLG
+AFNkRzc+ZX0v9nkiF5Bi9E1Xmk77lj5op5r4CXRMj8pgn5+xVoHVdg2Tpda0pblGzXxOmNIOS8VA
+IUTLelTth6XPyZ7qBBhqX+HYDJLRNVo2VV1iL+7AsTZiBwdA0uIK3ZQ/AJ4O96K0lUQ6YTk+UFk=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIGLDCCBBSgAwIBAgIJANq4mSEqZZqNMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHUG90ZW56YTEQMA4GA1UEBwwHUGF0ZXJubzEaMBgGA1UECgwRQ29tdW5lIGRpIFBh
+dGVybm8xDTALBgNVBAsMBFNwaWQxFTATBgNVBAMMDHNwaWQtcGF0ZXJubzE1MDMGCSqGSIb3DQEJ
+ARYmY29tdW5lLnBhdGVybm9AY2VydC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMzE4MDg1NTUy
+WhcNMjYwMzE3MDg1NTUyWjCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEDAOBgNV
+BAcMB1BhdGVybm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBQYXRlcm5vMQ0wCwYDVQQLDARTcGlkMRUw
+EwYDVQQDDAxzcGlkLXBhdGVybm8xNTAzBgkqhkiG9w0BCQEWJmNvbXVuZS5wYXRlcm5vQGNlcnQu
+cnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAzIrGtp5r
+MfLsBMu9uJwPw7XaXM/CEkGojJLjH901dQD0/I1QMW4bMmsEP/2TJQYGM6LycXJZparZvbKvD+VW
+mubzByhxcKgZyw6JAPaWIPLHJjNwH/iOZ39ZClfWCf8A8A3qO3lZSRogZDpEYWXYWk6ant+NRlCe
+YvQPLy1VR2WyAxVKWXW9Jgz8ybp7OzReZmbzb0U7lW4A6ZMNYn9rAT8oiZBNDYQ8jdUypSS8JiHn
+zDi4zYhrM4uri19dLcgVCQvH7XP7AvY+o04XLLemQXHR0M4eBrog3zqDLrPhqyMdMNNzcNhuhsvs
+YUDeMcAIqaOfgPMZgThyZuxo2NzZKc+kDsuh8FeIdlHsdJPPiTwDqy5Q+w+zxzpMVk7B+PBruYPt
+PaAbtL6nFO9dQ9fsTfEglHez4MxCA0ZwKwnfq/fsMabF0CF2NABOL9pHc+cbfaeugutTp+8yLdIo
+WJ1hZzlqpIdN8Q9cdEPS0UDZG4TC3igfLzEyq7Ji9pbCWwTKSX0+kNTJCZLtUPZcSDLGAFNkRzc+
+ZX0v9nkiF5Bi9E1Xmk77lj5op5r4CXRMj8pgn5+xVoHVdg2Tpda0pblGzXxOmNIOS8VAIUTLelTt
+h6XPyZ7qBBhqX+HYDJLRNVo2VV1iL+7AsTZiBwdA0uIK3ZQ/AJ4O96K0lUQ6YTk+UFkCAwEAAaNT
+MFEwHQYDVR0OBBYEFH9EDheRUUIKezGaBVkwFXLu5mhYMB8GA1UdIwQYMBaAFH9EDheRUUIKezGa
+BVkwFXLu5mhYMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBAKCBwV+y6WNd+o7f
+UFhFhgu6qx2bDmOxvT/kPcvdZi6BOgOMm3VNr5i/hirpHJVUUdbaakNHKMTIV4Gx7oS2JOq+K6nE
+6bP/bEoUoZ3vs0wgxVM6QooyH8Wu89X0/xsiSOcRCMaWdSsJU4NzlBhVncWMZRs9yEM4sHtYnFHp
+mZideTdffKVE66XQg2akflWfJyX+4Djlvx8pBQLkk9M/7dYOu6QEfdYsl8sSnNPj8fPuwKzdaEnE
+miuaQYvHiQ4dc1arDNPHfd1vN+ArCewdGSuU8N47qodVyxnwIP2cKh/8p7iBGyaTJO31kRe1WjE9
+AqQP8YKqqQ+kTEQDxzM1gzfXpeB1EUio/TH1aTbsj5tu7/PpnC435G37/i0FqvW/8Z2MJAo+JSnw
+uZpwpXCO+rhZezVQaWFpvtHxh+P9jl482O0oXw+D8NNcYEUokF4fwr6rdywGBve9NBkNFY5/V7Aj
+UHhdLZVRPqQk7qMF9w/VKiM4Dq2UFtZmxftWj9ttALqEW5Cb27B0M8qK5rbl1P2uK9XoRZ71b/4U
+dO7pNXjjukH3CTHaeaYXBZ/X5L6T0j3U7uLFsGmJxvY0queRyflDhoO5tjRLkshzZ7KHtvkgKTlt
+KjbwoN8/iIDdWZumo1RIjnSEZaWLwqbHrFjFixxA2tAYHIikYwh8PuCDWvbD
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGLDCCBBSgAwIBAgIJANq4mSEqZZqNMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEQMA4GA1UEBwwHUGF0ZXJubzEaMBgG
+A1UECgwRQ29tdW5lIGRpIFBhdGVybm8xDTALBgNVBAsMBFNwaWQxFTATBgNVBAMM
+DHNwaWQtcGF0ZXJubzE1MDMGCSqGSIb3DQEJARYmY29tdW5lLnBhdGVybm9AY2Vy
+dC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMzE4MDg1NTUyWhcNMjYwMzE3MDg1
+NTUyWjCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEDAOBgNVBAcM
+B1BhdGVybm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBQYXRlcm5vMQ0wCwYDVQQLDART
+cGlkMRUwEwYDVQQDDAxzcGlkLXBhdGVybm8xNTAzBgkqhkiG9w0BCQEWJmNvbXVu
+ZS5wYXRlcm5vQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0B
+AQEFAAOCAg8AMIICCgKCAgEAzIrGtp5rMfLsBMu9uJwPw7XaXM/CEkGojJLjH901
+dQD0/I1QMW4bMmsEP/2TJQYGM6LycXJZparZvbKvD+VWmubzByhxcKgZyw6JAPaW
+IPLHJjNwH/iOZ39ZClfWCf8A8A3qO3lZSRogZDpEYWXYWk6ant+NRlCeYvQPLy1V
+R2WyAxVKWXW9Jgz8ybp7OzReZmbzb0U7lW4A6ZMNYn9rAT8oiZBNDYQ8jdUypSS8
+JiHnzDi4zYhrM4uri19dLcgVCQvH7XP7AvY+o04XLLemQXHR0M4eBrog3zqDLrPh
+qyMdMNNzcNhuhsvsYUDeMcAIqaOfgPMZgThyZuxo2NzZKc+kDsuh8FeIdlHsdJPP
+iTwDqy5Q+w+zxzpMVk7B+PBruYPtPaAbtL6nFO9dQ9fsTfEglHez4MxCA0ZwKwnf
+q/fsMabF0CF2NABOL9pHc+cbfaeugutTp+8yLdIoWJ1hZzlqpIdN8Q9cdEPS0UDZ
+G4TC3igfLzEyq7Ji9pbCWwTKSX0+kNTJCZLtUPZcSDLGAFNkRzc+ZX0v9nkiF5Bi
+9E1Xmk77lj5op5r4CXRMj8pgn5+xVoHVdg2Tpda0pblGzXxOmNIOS8VAIUTLelTt
+h6XPyZ7qBBhqX+HYDJLRNVo2VV1iL+7AsTZiBwdA0uIK3ZQ/AJ4O96K0lUQ6YTk+
+UFkCAwEAAaNTMFEwHQYDVR0OBBYEFH9EDheRUUIKezGaBVkwFXLu5mhYMB8GA1Ud
+IwQYMBaAFH9EDheRUUIKezGaBVkwFXLu5mhYMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggIBAKCBwV+y6WNd+o7fUFhFhgu6qx2bDmOxvT/kPcvdZi6B
+OgOMm3VNr5i/hirpHJVUUdbaakNHKMTIV4Gx7oS2JOq+K6nE6bP/bEoUoZ3vs0wg
+xVM6QooyH8Wu89X0/xsiSOcRCMaWdSsJU4NzlBhVncWMZRs9yEM4sHtYnFHpmZid
+eTdffKVE66XQg2akflWfJyX+4Djlvx8pBQLkk9M/7dYOu6QEfdYsl8sSnNPj8fPu
+wKzdaEnEmiuaQYvHiQ4dc1arDNPHfd1vN+ArCewdGSuU8N47qodVyxnwIP2cKh/8
+p7iBGyaTJO31kRe1WjE9AqQP8YKqqQ+kTEQDxzM1gzfXpeB1EUio/TH1aTbsj5tu
+7/PpnC435G37/i0FqvW/8Z2MJAo+JSnwuZpwpXCO+rhZezVQaWFpvtHxh+P9jl48
+2O0oXw+D8NNcYEUokF4fwr6rdywGBve9NBkNFY5/V7AjUHhdLZVRPqQk7qMF9w/V
+KiM4Dq2UFtZmxftWj9ttALqEW5Cb27B0M8qK5rbl1P2uK9XoRZ71b/4UdO7pNXjj
+ukH3CTHaeaYXBZ/X5L6T0j3U7uLFsGmJxvY0queRyflDhoO5tjRLkshzZ7KHtvkg
+KTltKjbwoN8/iIDdWZumo1RIjnSEZaWLwqbHrFjFixxA2tAYHIikYwh8PuCDWvbD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGLDCCBBSgAwIBAgIJANq4mSEqZZqNMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+VQQGEwJJVDEQMA4GA1UECAwHUG90ZW56YTEQMA4GA1UEBwwHUGF0ZXJubzEaMBgG
+A1UECgwRQ29tdW5lIGRpIFBhdGVybm8xDTALBgNVBAsMBFNwaWQxFTATBgNVBAMM
+DHNwaWQtcGF0ZXJubzE1MDMGCSqGSIb3DQEJARYmY29tdW5lLnBhdGVybm9AY2Vy
+dC5ydXBhcmJhc2lsaWNhdGEuaXQwHhcNMjMwMzE4MDg1NTUyWhcNMjYwMzE3MDg1
+NTUyWjCBqjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB1BvdGVuemExEDAOBgNVBAcM
+B1BhdGVybm8xGjAYBgNVBAoMEUNvbXVuZSBkaSBQYXRlcm5vMQ0wCwYDVQQLDART
+cGlkMRUwEwYDVQQDDAxzcGlkLXBhdGVybm8xNTAzBgkqhkiG9w0BCQEWJmNvbXVu
+ZS5wYXRlcm5vQGNlcnQucnVwYXJiYXNpbGljYXRhLml0MIICIjANBgkqhkiG9w0B
+AQEFAAOCAg8AMIICCgKCAgEAzIrGtp5rMfLsBMu9uJwPw7XaXM/CEkGojJLjH901
+dQD0/I1QMW4bMmsEP/2TJQYGM6LycXJZparZvbKvD+VWmubzByhxcKgZyw6JAPaW
+IPLHJjNwH/iOZ39ZClfWCf8A8A3qO3lZSRogZDpEYWXYWk6ant+NRlCeYvQPLy1V
+R2WyAxVKWXW9Jgz8ybp7OzReZmbzb0U7lW4A6ZMNYn9rAT8oiZBNDYQ8jdUypSS8
+JiHnzDi4zYhrM4uri19dLcgVCQvH7XP7AvY+o04XLLemQXHR0M4eBrog3zqDLrPh
+qyMdMNNzcNhuhsvsYUDeMcAIqaOfgPMZgThyZuxo2NzZKc+kDsuh8FeIdlHsdJPP
+iTwDqy5Q+w+zxzpMVk7B+PBruYPtPaAbtL6nFO9dQ9fsTfEglHez4MxCA0ZwKwnf
+q/fsMabF0CF2NABOL9pHc+cbfaeugutTp+8yLdIoWJ1hZzlqpIdN8Q9cdEPS0UDZ
+G4TC3igfLzEyq7Ji9pbCWwTKSX0+kNTJCZLtUPZcSDLGAFNkRzc+ZX0v9nkiF5Bi
+9E1Xmk77lj5op5r4CXRMj8pgn5+xVoHVdg2Tpda0pblGzXxOmNIOS8VAIUTLelTt
+h6XPyZ7qBBhqX+HYDJLRNVo2VV1iL+7AsTZiBwdA0uIK3ZQ/AJ4O96K0lUQ6YTk+
+UFkCAwEAAaNTMFEwHQYDVR0OBBYEFH9EDheRUUIKezGaBVkwFXLu5mhYMB8GA1Ud
+IwQYMBaAFH9EDheRUUIKezGaBVkwFXLu5mhYMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggIBAKCBwV+y6WNd+o7fUFhFhgu6qx2bDmOxvT/kPcvdZi6B
+OgOMm3VNr5i/hirpHJVUUdbaakNHKMTIV4Gx7oS2JOq+K6nE6bP/bEoUoZ3vs0wg
+xVM6QooyH8Wu89X0/xsiSOcRCMaWdSsJU4NzlBhVncWMZRs9yEM4sHtYnFHpmZid
+eTdffKVE66XQg2akflWfJyX+4Djlvx8pBQLkk9M/7dYOu6QEfdYsl8sSnNPj8fPu
+wKzdaEnEmiuaQYvHiQ4dc1arDNPHfd1vN+ArCewdGSuU8N47qodVyxnwIP2cKh/8
+p7iBGyaTJO31kRe1WjE9AqQP8YKqqQ+kTEQDxzM1gzfXpeB1EUio/TH1aTbsj5tu
+7/PpnC435G37/i0FqvW/8Z2MJAo+JSnwuZpwpXCO+rhZezVQaWFpvtHxh+P9jl48
+2O0oXw+D8NNcYEUokF4fwr6rdywGBve9NBkNFY5/V7AjUHhdLZVRPqQk7qMF9w/V
+KiM4Dq2UFtZmxftWj9ttALqEW5Cb27B0M8qK5rbl1P2uK9XoRZ71b/4UdO7pNXjj
+ukH3CTHaeaYXBZ/X5L6T0j3U7uLFsGmJxvY0queRyflDhoO5tjRLkshzZ7KHtvkg
+KTltKjbwoN8/iIDdWZumo1RIjnSEZaWLwqbHrFjFixxA2tAYHIikYwh8PuCDWvbD</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.paterno.pz.it/api/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.paterno.pz.it/api/acs" index="0" isDefault="true"/> 
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.paterno.pz.it/api/acs" index="1"/> 
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://paterno.wemapp.eu/api/acs" index="2"/> 
+            <md:AttributeConsumingService index="0"> 
+                <md:ServiceName xml:lang="it">Comune di Paterno</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+            <md:AttributeConsumingService index="1"> 
+                <md:ServiceName xml:lang="it">Comune di Paterno</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+		<md:AttributeConsumingService index="2"> 
+                <md:ServiceName xml:lang="it">Comune di Paterno</md:ServiceName> 
+                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Paterno</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Paterno</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.paterno.pz.it</md:OrganizationURL>
+  </md:Organization>
+  
+<md:ContactPerson contactType="other"> 
+<md:Extensions> 
+<spid:IPACode>c_m269</spid:IPACode> 
+<spid:Public/> 
+</md:Extensions> 
+<md:Company>Comune di Paterno</md:Company> 
+<md:EmailAddress>comune.paterno@cert.ruparbasilicata.it</md:EmailAddress> 
+<md:TelephoneNumber>+390975340301</md:TelephoneNumber> 
+</md:ContactPerson> 
+  
+</md:EntityDescriptor>
