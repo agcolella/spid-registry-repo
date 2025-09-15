@@ -1,55 +1,18 @@
-<?xml version="1.0" encoding="UTF-8"?>
 <xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema"
            xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
-           xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
            targetNamespace="urn:oasis:names:tc:SAML:2.0:metadata"
            elementFormDefault="qualified"
            attributeFormDefault="unqualified">
 
-  <xs:import namespace="http://www.w3.org/2000/09/xmldsig#"
-             schemaLocation="xmldsig-core-schema.xsd"/>
+  <!-- Include dello schema base SAML Metadata -->
+  <xs:include schemaLocation="saml-schema-metadata-2.0.xsd"/>
 
-  <xs:import namespace="urn:oasis:names:tc:SAML:2.0:metadata"
-             schemaLocation="saml-schema-metadata-2.0.xsd"/>
-  
-  <!-- ========================================= -->
-  <!-- Restrizioni aggiuntive SPID su metadata   -->
-  <!-- ========================================= -->
-
-  <!-- entityID deve essere URI -->
-  <xs:attribute name="entityID" type="xs:anyURI"/>
-
-  <!-- Binding consentiti -->
+  <!-- Restrizioni SPID -->
   <xs:simpleType name="BindingType">
     <xs:restriction base="xs:anyURI">
       <xs:enumeration value="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"/>
       <xs:enumeration value="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
     </xs:restriction>
   </xs:simpleType>
-
-  <!-- AssertionConsumerService con HTTPS obbligatorio -->
-  <xs:complexType name="AssertionConsumerServiceType">
-    <xs:sequence/>
-    <xs:attribute name="Binding" type="md:BindingType" use="required"/>
-    <xs:attribute name="Location" type="xs:anyURI" use="required"/>
-    <xs:attribute name="index" type="xs:nonNegativeInteger" use="required"/>
-    <xs:attribute name="isDefault" type="xs:boolean" use="optional"/>
-  </xs:complexType>
-
-  <!-- SingleLogoutService -->
-  <xs:complexType name="SingleLogoutServiceType">
-    <xs:sequence/>
-    <xs:attribute name="Binding" type="md:BindingType" use="required"/>
-    <xs:attribute name="Location" type="xs:anyURI" use="required"/>
-  </xs:complexType>
-
-  <!-- Organization -->
-  <xs:complexType name="OrganizationType">
-    <xs:sequence>
-      <xs:element ref="md:OrganizationName" maxOccurs="unbounded"/>
-      <xs:element ref="md:OrganizationDisplayName" maxOccurs="unbounded"/>
-      <xs:element ref="md:OrganizationURL" maxOccurs="unbounded"/>
-    </xs:sequence>
-  </xs:complexType>
 
 </xs:schema>

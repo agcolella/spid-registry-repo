@@ -97,14 +97,8 @@
             <element ref="md:Extensions" minOccurs="0"/>
             <choice>
                 <choice maxOccurs="unbounded">
-                    <element ref="md:RoleDescriptor"/>
-                    <element ref="md:IDPSSODescriptor"/>
                     <element ref="md:SPSSODescriptor"/>
-                    <element ref="md:AuthnAuthorityDescriptor"/>
-                    <element ref="md:AttributeAuthorityDescriptor"/>
-                    <element ref="md:PDPDescriptor"/>
                 </choice>
-                <element ref="md:AffiliationDescriptor"/>
             </choice>
             <element ref="md:Organization" minOccurs="0"/>
             <element ref="md:ContactPerson" minOccurs="0" maxOccurs="unbounded"/>
@@ -220,21 +214,6 @@
     <element name="ManageNameIDService" type="md:EndpointType"/>
     <element name="NameIDFormat" type="anyURI"/>
 
-    <element name="IDPSSODescriptor" type="md:IDPSSODescriptorType"/>
-    <complexType name="IDPSSODescriptorType">
-        <complexContent>
-            <extension base="md:SSODescriptorType">
-                <sequence>
-                    <element ref="md:SingleSignOnService" maxOccurs="unbounded"/>
-                    <element ref="md:NameIDMappingService" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:AssertionIDRequestService" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:AttributeProfile" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="saml:Attribute" minOccurs="0" maxOccurs="unbounded"/>
-                </sequence>
-                <attribute name="WantAuthnRequestsSigned" type="boolean" use="optional"/>
-            </extension>
-        </complexContent>
-    </complexType>
     <element name="SingleSignOnService" type="md:EndpointType"/>
     <element name="NameIDMappingService" type="md:EndpointType"/>
     <element name="AssertionIDRequestService" type="md:EndpointType"/>
@@ -275,63 +254,4 @@
         </complexContent>
     </complexType>
   
-    <element name="AuthnAuthorityDescriptor" type="md:AuthnAuthorityDescriptorType"/>
-    <complexType name="AuthnAuthorityDescriptorType">
-        <complexContent>
-            <extension base="md:RoleDescriptorType">
-                <sequence>
-                    <element ref="md:AuthnQueryService" maxOccurs="unbounded"/>
-                    <element ref="md:AssertionIDRequestService" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:NameIDFormat" minOccurs="0" maxOccurs="unbounded"/>
-                </sequence>
-            </extension>
-        </complexContent>
-    </complexType>
-    <element name="AuthnQueryService" type="md:EndpointType"/>
-
-    <element name="PDPDescriptor" type="md:PDPDescriptorType"/>
-    <complexType name="PDPDescriptorType">
-        <complexContent>
-            <extension base="md:RoleDescriptorType">
-                <sequence>
-                    <element ref="md:AuthzService" maxOccurs="unbounded"/>
-                    <element ref="md:AssertionIDRequestService" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:NameIDFormat" minOccurs="0" maxOccurs="unbounded"/>
-                </sequence>
-            </extension>
-        </complexContent>
-    </complexType>
-    <element name="AuthzService" type="md:EndpointType"/>
-
-    <element name="AttributeAuthorityDescriptor" type="md:AttributeAuthorityDescriptorType"/>
-    <complexType name="AttributeAuthorityDescriptorType">
-        <complexContent>
-            <extension base="md:RoleDescriptorType">
-                <sequence>
-                    <element ref="md:AttributeService" maxOccurs="unbounded"/>
-                    <element ref="md:AssertionIDRequestService" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:NameIDFormat" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="md:AttributeProfile" minOccurs="0" maxOccurs="unbounded"/>
-                    <element ref="saml:Attribute" minOccurs="0" maxOccurs="unbounded"/>
-                </sequence>
-            </extension>
-        </complexContent>
-    </complexType>
-    <element name="AttributeService" type="md:EndpointType"/>
-   
-    <element name="AffiliationDescriptor" type="md:AffiliationDescriptorType"/>
-    <complexType name="AffiliationDescriptorType">
-        <sequence>
-            <element ref="ds:Signature" minOccurs="0"/>
-            <element ref="md:Extensions" minOccurs="0"/>
-            <element ref="md:AffiliateMember" maxOccurs="unbounded"/>
-            <element ref="md:KeyDescriptor" minOccurs="0" maxOccurs="unbounded"/>
-        </sequence>
-        <attribute name="affiliationOwnerID" type="md:entityIDType" use="required"/>
-        <attribute name="validUntil" type="dateTime" use="optional"/>
-        <attribute name="cacheDuration" type="duration" use="optional"/>
-        <attribute name="ID" type="ID" use="optional"/>
-        <anyAttribute namespace="##other" processContents="lax"/>
-    </complexType>
-    <element name="AffiliateMember" type="md:entityIDType"/>
 </schema>
