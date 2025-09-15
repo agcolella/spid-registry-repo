@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_b235"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Kai0zBHH6sXrWQ2paWOosUieYAsCs3VuCR7u4zG50u4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+hEd/4HsktnCQh123twfy04ADyrLf73dHXcofA5E0UBUSmZrYyneZzKFiwQsjprJdBQXL1nsEfsFM
+tuwwET8Syii7J/Z3FgW9zAklgoSV62rV7e+v/xI+RWubgICkNh38IXqmEeNCjz/HmE3CoOelpY4i
+xo2sUSa52tBz6YFXqPnrxcpGuS+opFy7W+JlylwmbPin3djBRirPBgYTEPBIGBjlk6yU5Bx/HqNA
+jXghPp+AX/qXc8MkhkFhJJDKYqp3zM2g84+Xly8qyF6sQ7KvbzV8UDhuk5p52/7LiloA7K0TtvPw
+Qa6K+FIb6SM6Fwz1FS4FtwF1TpOU1Dcm0YJ4eA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGNDCCBBygAwIBAgIJAKbhte+FS6bvMA0GCSqGSIb3DQEBCwUAMIGuMQswCQYD
+                              VQQGEwJJVDENMAsGA1UECAwEUm9tYTERMA8GA1UEBwwIQnViYmlhbm8xETAPBgNV
+                              BAoMCEJ1YmJpYW5vMRAwDgYDVQQLDAdEaWdpdElEMSYwJAYDVQQDDB1idWJiaWFu
+                              by5jb211bmUucGx1Z2FuZHBheS5pdDEwMC4GCSqGSIb3DQEJARYhcHJvdG9jb2xs
+                              by5jb211bmUuYnViYmlhbm9AcGVjLml0MB4XDTI0MDYyMTEwMTYxNVoXDTI3MDYy
+                              MTEwMTYxNVowga4xCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMREwDwYDVQQH
+                              DAhCdWJiaWFubzERMA8GA1UECgwIQnViYmlhbm8xEDAOBgNVBAsMB0RpZ2l0SUQx
+                              JjAkBgNVBAMMHWJ1YmJpYW5vLmNvbXVuZS5wbHVnYW5kcGF5Lml0MTAwLgYJKoZI
+                              hvcNAQkBFiFwcm90b2NvbGxvLmNvbXVuZS5idWJiaWFub0BwZWMuaXQwggIiMA0G
+                              CSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCzrzG+9aWuYwqRYUW+wx2mZq1jxSkN
+                              xF0mjGzEn6mmKlDmnaMZXmmEbvwffYE8MxGv+PsY6kyHb/S8nBWwY4hg2Wikbh0H
+                              J+ti3mjd4R8Gp7ASpHMk0WZllDrfHte+zlTVHYrNJLqAFg2XJ82MGrgzaBso+0pb
+                              W/4Ig/UN3OECYThn4eL3LU7g0JvhVWqgLGo5PznOSzdUDcLEasfimQy1vRKXlUhx
+                              k2muRc3upiIaVKUxxyfmkgIIqb+/LfrC9jkgYOO0B2jU821N6tZQny6Onw6LFdo1
+                              I+iRX95xG5/An+CGrEwKUYlsr4nRJGvrQLMxcL9mPNVh1vP1RkxXI/H5hnHDEQq2
+                              UawLhj5Bo7CC+PUszA6bE2KAosPYmjy4M+dX6wXHtb3YpBcHzKiB8nYAEMIWnA67
+                              CAWSl0eShuxm2sICBI25yhgbqbghVQvEl5Qa/MD8cC6hGZ8MSyG0YVErtmfnuqt8
+                              pNzRJgaDKEwh2pqLj2Zaa3T4k68bnUtAhhkBa8/6OymOrzLS27KBIaAv2U10SKd/
+                              N7JhoommVoHX/mnXSkSv0dfcGONLmVyMTXAiepFYA/d4YzNs+mMFigYp8VXM8755
+                              D3/rI96haqKkax+TMmRNagJlnPo47EfW8uf6ad4sw0NT/h58q9vjRLuHMrIu5QYv
+                              fAbyeBcYL/IrlwIDAQABo1MwUTAdBgNVHQ4EFgQUz8IbQXFzqr72NMGbY7DILMZx
+                              9ccwHwYDVR0jBBgwFoAUz8IbQXFzqr72NMGbY7DILMZx9ccwDwYDVR0TAQH/BAUw
+                              AwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAr20J0dmlZv+oy34x41l8jSchHMUlnZRO
+                              hGqVyTn9AMp7ymUd9hSPRGatVoEHKbnm5D4Njz+iXSeo/Rg0nu/PzohCyWKJIchJ
+                              JlzEHECNE21xGmNCDfMpn0ju35u4KStVgrtCyphoquKi6f6U0GH5jJPmdcpOygyq
+                              zQHTdxEi3gkgCsNJ+RyI5Dx6MOHh0CmBd9Ni9vHxhN5BK+kA9UABb/mrX5MY0cRW
+                              5cAIxm6MYS7CAm0uPXoEjmiQFyBMqkf+F6UkXPT2Kj+9ABKHKmrH+skbJ9A6XgyA
+                              0iaRJxnvbS8FeHUqICMTYwjtwzVnFKG+gIvnY+TbXvKevoovG77dJ/5KOCnbiFSh
+                              L5VGqJAi5JfbXVABeKEQHb9AX9w5X1mtS6U4XiK1yBimvRZs0BSOsSmPhS+wIIh1
+                              Y5dX9Y6mSBMztPUsfiElKYjliorgQ4FdYCt0rHHiFuMlrdB7AmTaeuGkHd+ljPR9
+                              lvdRmqC0aC7rESV9lRgirV4OCboSIXQ0QwQrr0GoOoFhIghLFhAF5VPQSkYQkPrQ
+                              ENVXcEFYX/ji84v2IwZVElebcUDrTINXBXGBpPglEEniyBF4ZD6eBEjtGZLp9gQQ
+                              GOauAirB9fYR2A3mxolB6dgADgFTcwEocSVJ1qrTBvOiAoI1XPcXa4skmNpsB9dI
+                              GgCKJ3YUoNQ=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://bubbiano.comune.plugandpay.it/spidslo"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/9436b681-a6cc-4926-a4c8-b63929de1f81/c_b235"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bubbiano.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/9436b681-a6cc-4926-a4c8-b63929de1f81/c_b235" index="1" isDefault="false"/>
+   	<md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService> 
+<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Comune di Bubbiano</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>	
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Bubbiano</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Bubbiano</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">http://www.comune.bubbiano.mi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_b235</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Bubbiano</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_santamariacapuavetere516" entityID="https://www.appnet-it.com/pub-ag-full/SANTAMARIACAPUAVETERE"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_santamariacapuavetere516">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BBoYkCk9g4WjGyMaypRjkvs/IGnNz4SOT9RK3YHQodE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+MR3qKh5oZ9BAz0ZSpI6swdXwfRACl0kwoQ1Tfa+MJGRE7kuVBtxyG25GtoCuMeAOYq0iJoBc8NKY
+XR0CbEWVSmBGYQigf/SuP2pAsdJjZndC+/VdT1HI02LPEDnRcBAJN1DbfioGIfskUuwTWIUwy3ob
+5aaP/TjkLqdW4SvOmbNdVcqEyfhvTVRvJtjzymcsccXvhX8VKHgKOiEniKzC3zNKaALNJNuxpORf
+ND8GDygtEpWH1+4vEzKq2N1LSdreM1ClJNNWl+AiRiAg1jmzzeAo9FmMPOKG+fayhkeLjiz9Geyl
+HLEIYo/FEU6R1rJJ3iT+w1Jwseei8G4qIvyi3Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+72l8AVahBmIgbL4nAvlf+5a7/c3fKfWLtGUrw+Lpi9C6aHTdPSX3/70BMucZb0H/Kz5eaZcGVj6q
+bE9k8dHhPeAD23FpiXvW21Zgs1g5/ZzKSKJe7y5GOpQdrfwsYHl5wW1UnVrQALxAKlNfaP36rho5
+ouaF0+Kz4g2xnsV2CaLPYPv5FR8JQW2f5CZOj6kdIjqmowG6zUgBR895uEprb7elTz0/ckRRb7t1
+LXy1iJdnAqf+LjiXajnmw9iRRx2FeAhDGsYbhIEicW++iUvoK5w2gg8ZubJ9GHHe5cEB9U+MRPC0
+tmjmeRdWE8XWDgSTex+GN1s8NzQf5+Rgv2Py/Q==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH8TCCBdmgAwIBAgIIcUpBd4jBxCswDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAyNzAwMDAw
+MFoXDTM2MTAyNjIzNTk1OVowgbIxFjAUBgNVBAcMDUFiYmlhdGVncmFzc28xCzAJBgNVBAYTAklU
+MQ8wDQYDVQQIDAZNaWxhbm8xCzAJBgNVBAsMAklUMQ8wDQYDVQQKDAZBcHBOZXQxDzANBgNVBAMM
+BkFwcE5ldDEaMBgGA1UEYQwRVkFUSVQtMDkzNTU1NDA5NjUxLzAtBgNVBFMMJmh0dHBzOi8vd3d3
+LmFwcG5ldC1pdC5jb20vcHViLWFnLWZ1bGwvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKC
+AQEA72l8AVahBmIgbL4nAvlf+5a7/c3fKfWLtGUrw+Lpi9C6aHTdPSX3/70BMucZb0H/Kz5eaZcG
+Vj6qbE9k8dHhPeAD23FpiXvW21Zgs1g5/ZzKSKJe7y5GOpQdrfwsYHl5wW1UnVrQALxAKlNfaP36
+rho5ouaF0+Kz4g2xnsV2CaLPYPv5FR8JQW2f5CZOj6kdIjqmowG6zUgBR895uEprb7elTz0/ckRR
+b7t1LXy1iJdnAqf+LjiXajnmw9iRRx2FeAhDGsYbhIEicW++iUvoK5w2gg8ZubJ9GHHe5cEB9U+M
+RPC0tmjmeRdWE8XWDgSTex+GN1s8NzQf5+Rgv2Py/QIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIw
+ADAdBgNVHQ4EFgQUDRHar8n0Ma15OuVIGMm47RTet50wHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm
+6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7
+MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9TQS5j
+cmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3Yu
+aXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDga
+NkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBE
+BggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVl
+IGd1aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVnYXRvcmUg
+J2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVibGljLXNl
+cnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEW
+N2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYw
+TwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0Fn
+SURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAEvMirPhKPIKnz9MsMRA
+I0tD6NmZi5viy+Ho+8R4lOG4SMT/3bv85NIP1CkE1lNRSVXJSFbAlnj/F0gAot9FEYH7l5Cmc5SW
+yRGpqpQnn0pW5dZUkyDnxPBAObYSWAxjHJzZyy0LzoCSp1mrhEHlfys58HN2boEHbHR6h0oCbN4z
+QU93RLCwJQNOgX7ZfZYslvXYC/g8MvvRw+F2UACyWwTSk0dRoXHRikKdSe4zx74EKDNzfsYLshCX
+KDK5YId1QN4+qJ1CcYBQssK2FFg8P5gBkuCS7soYeLtPIV8DjDEVt/dEhAYY0R1BDjHju/n0Fiq4
+7lghwtjQ6ua84UQmo80aSdGOB7j6TzZWcE09jalednuHD4OIi8yMbv9ANS84Y2DfeZcs8RRWLK2Y
+V5TTyVm1/RqmJbMY/Ys1OhBtyjarJoM4j7kSq47Cr9i0s6+X/XfomWhFYdmDvNX+JlFIb5T39MPI
+Y38iua76m8swlF7JSKkd90roiMQr7LYRRrGmq5NgfqjACujCiqxT6sMPZOQZyJlbnWVSk7ZCMiQd
+9DMMOL1T7LM0K8uW1oNso+j0zJSzIKUzX3LJIEialDh5WW2zhQAvAaV6PIougHR+K/KlSslRl12u
+D34S+/J0MBg6sHnq8fZnBuZqH4ZFBZjxqu/dwwVgWxUJnab1DDgFk2sO
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIH8TCCBdmgAwIBAgIIcUpBd4jBxCswDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+            BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+            YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+            ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+            dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+            aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAyNzAwMDAwMFoX
+            DTM2MTAyNjIzNTk1OVowgbIxFjAUBgNVBAcMDUFiYmlhdGVncmFzc28xCzAJBgNV
+            BAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xCzAJBgNVBAsMAklUMQ8wDQYDVQQKDAZB
+            cHBOZXQxDzANBgNVBAMMBkFwcE5ldDEaMBgGA1UEYQwRVkFUSVQtMDkzNTU1NDA5
+            NjUxLzAtBgNVBFMMJmh0dHBzOi8vd3d3LmFwcG5ldC1pdC5jb20vcHViLWFnLWZ1
+            bGwvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA72l8AVahBmIgbL4n
+            Avlf+5a7/c3fKfWLtGUrw+Lpi9C6aHTdPSX3/70BMucZb0H/Kz5eaZcGVj6qbE9k
+            8dHhPeAD23FpiXvW21Zgs1g5/ZzKSKJe7y5GOpQdrfwsYHl5wW1UnVrQALxAKlNf
+            aP36rho5ouaF0+Kz4g2xnsV2CaLPYPv5FR8JQW2f5CZOj6kdIjqmowG6zUgBR895
+            uEprb7elTz0/ckRRb7t1LXy1iJdnAqf+LjiXajnmw9iRRx2FeAhDGsYbhIEicW++
+            iUvoK5w2gg8ZubJ9GHHe5cEB9U+MRPC0tmjmeRdWE8XWDgSTex+GN1s8NzQf5+Rg
+            v2Py/QIDAQABo4IC1DCCAtAwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUDRHar8n0
+            Ma15OuVIGMm47RTet50wHwYDVR0jBBgwFoAUPLtt6x79nW7L7lTm6jnViaBH1zQw
+            DgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIGA1UdHwQ7
+            MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElE
+            X1B1Yl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczov
+            L29jc3BfU0EuYWdpZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYC
+            MIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNh
+            dGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4
+            GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1
+            aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVn
+            YXRvcmUgJ2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRon
+            U1BJRDogcHVibGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oB
+            AzBNBgQrTBAEMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3Yu
+            aXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwTwYGBACORgEFMEUwQwYI
+            KwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlE
+            QVNfcm9vdENBX2Nwcy5wZGYwDQYJKoZIhvcNAQENBQADggIBAEvMirPhKPIKnz9M
+            sMRAI0tD6NmZi5viy+Ho+8R4lOG4SMT/3bv85NIP1CkE1lNRSVXJSFbAlnj/F0gA
+            ot9FEYH7l5Cmc5SWyRGpqpQnn0pW5dZUkyDnxPBAObYSWAxjHJzZyy0LzoCSp1mr
+            hEHlfys58HN2boEHbHR6h0oCbN4zQU93RLCwJQNOgX7ZfZYslvXYC/g8MvvRw+F2
+            UACyWwTSk0dRoXHRikKdSe4zx74EKDNzfsYLshCXKDK5YId1QN4+qJ1CcYBQssK2
+            FFg8P5gBkuCS7soYeLtPIV8DjDEVt/dEhAYY0R1BDjHju/n0Fiq47lghwtjQ6ua8
+            4UQmo80aSdGOB7j6TzZWcE09jalednuHD4OIi8yMbv9ANS84Y2DfeZcs8RRWLK2Y
+            V5TTyVm1/RqmJbMY/Ys1OhBtyjarJoM4j7kSq47Cr9i0s6+X/XfomWhFYdmDvNX+
+            JlFIb5T39MPIY38iua76m8swlF7JSKkd90roiMQr7LYRRrGmq5NgfqjACujCiqxT
+            6sMPZOQZyJlbnWVSk7ZCMiQd9DMMOL1T7LM0K8uW1oNso+j0zJSzIKUzX3LJIEia
+            lDh5WW2zhQAvAaV6PIougHR+K/KlSslRl12uD34S+/J0MBg6sHnq8fZnBuZqH4ZF
+            BZjxqu/dwwVgWxUJnab1DDgFk2sO
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.eticasoluzioni.com/santamariacapuavetereportalegen/Spid/Logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www3.eticasoluzioni.com/santamariacapuavetereportalegen/Spid/ACS" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">acs</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">acs</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Santa Maria Capua Vetere</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Santa Maria Capua Vetere</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.santa-maria-capua-vetere.ce.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT09355540965</spid:VATNumber>
+      <spid:FiscalCode>09355540965</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>AppNet srl</md:Company>
+    <md:EmailAddress>amministrazione@appnet-it.com</md:EmailAddress>
+    <md:TelephoneNumber>+390250043177</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>c_i234</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Santa Maria Capua Vetere</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

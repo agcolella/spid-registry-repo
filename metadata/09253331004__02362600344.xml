@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="f5cf49c1-5cf9-4b88-81d1-b1bc6393da5e" entityID="https://www.net4market.com/pri-ag-full/albo_profitng"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#f5cf49c1-5cf9-4b88-81d1-b1bc6393da5e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>325y4eccxYVfaa/QKzsEhGwGuMiU8J9SraWF1pLJk50=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+Us9pEV+3jNHUyD7VoNAHJkuBqeKpque8XENE5x4gvETmG+vCqtN6uLBhQ4T5qrJjy4Q3e0L3QEle
+RNbXQ6RgvCa4X6oopvFch9II+IH8iUr/vjFAsmSPWxtu+NndTaxIPWy6TzUB08d+BDS8V2G8NfsV
+I6y2UFutAXrAIfl3ocVYh7i94IEsaXlKFNf0lvfzUnOApTctPSVjrDsa7gW89TDqHYzF9Tke+eHT
+ox5VJfkbIv1+HEOtvMdeIIiPIckZYA2np1Ron+01DtaDZnj/iloAhrGwpY7lvpKZKxsV6UKUEpFR
+f2xxOOHxQruWOw5hssZ0SR8cMJiQSKt0twqNoQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vXqiujSHTSlnMrByxxVkebim0fQKTQbGst8vdV0M/29Gti4qhZKv2q2pcfXYj0tpDjWX3p3ozzR4
+jF5DG457MI3KT7J3hXgMXNYvIWmac3XSayr5ZVaS8TNxFNAj9ypU6gKTYzUWUMB/TGF8jsTt4FKc
+EeESlFCA+5/aB6hJOhC/cMsl7hX1HabAJDn6u2+JJtcvW4xxDlgpwz2EHOMYfY09ye7SvLgKwI9b
+0jExvbo4ostbQdUkDoK/WGe5yceMoEbANYEv52vEsYY3KfcoAxHgwtvOz+FXiUuOk/B5vAIU2DL5
+SmkI02z9N66eKZqhA/fCQQYGiNc6g25Ydw/RCQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH6jCCBdKgAwIBAgIIZ02ZwzPVVhswDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDQwMzAw
+MDAwMFoXDTM5MDQwMjIzNTk1OVowgaoxIzAhBgNVBAMMGk5ldDRtYXJrZXQgLSBDU0FtZWQgcy5y
+LmwuMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ3JlbW9uYTEaMBgGA1UEYQwRVkFUSVQtMDIzNjI2
+MDAzNDQxIzAhBgNVBAoMGk5ldDRtYXJrZXQgLSBDU0FtZWQgcy5yLmwuMSMwIQYDVQRTDBpodHRw
+czovL3d3dy5uZXQ0bWFya2V0LmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL16
+oro0h00pZzKwcscVZHm4ptH0Ck0GxrLfL3VdDP9vRrYuKoWSr9qtqXH12I9LaQ41l96d6M80eIxe
+QxuOezCNyk+yd4V4DFzWLyFpmnN10msq+WVWkvEzcRTQI/cqVOoCk2M1FlDAf0xhfI7E7eBSnBHh
+EpRQgPuf2geoSToQv3DLJe4V9R2mwCQ5+rtviSbXL1uMcQ5YKcM9hBzjGH2NPcnu0ry4CsCPW9Ix
+Mb26OKLLW0HVJA6Cv1hnucnHjKBGwDWBL+drxLGGNyn3KAMR4MLbzs/hV4lLjpPwebwCFNgy+Upp
+CNNs/TeunimaoQP3wkEGBojXOoNuWHcP0QkCAwEAAaOCAtIwggLOMAwGA1UdEwEB/wQCMAAwHQYD
+VR0OBBYEFJELrxG8cQPGJZo3raZTl/kF8YNOMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gds
+zmRWMA4GA1UdDwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDATBDBgNVHR8EPDA6MDigNqA0
+hjJodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NBLmNybDA3Bggr
+BgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkG
+A1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ry
+b25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUF
+BwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEg
+QWdJRDB9BgYrTBAEAwIwczA5BggrBgEFBQcCAjAtGitTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcg
+ZGkgc2Vydml6aSBwcml2YXRpMDYGCCsGAQUFBwICMCoaKFNQSUQ6IHByaXZhdGUtc2VydmljZXMg
+J2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5G
+AQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURB
+U19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEArYPmA1VF0n+wqxB2jKK0dHgbpQ6t
+nT4X+ytUw13TI6OoFjDpfHMYKI/GE6TGgr87eb9s/2v80ZyNnMH01LWnAprHzBNa7t/gO8SmKIe+
+NMWi6K5DX7dL/GmTkptdeutGVujYP82PESepNk8tD6bOuwZCUVcSXJW9B3WwWCm6PgrpmPfzgoDM
+7oZcPHprS5CpWfWEL6A+bgQFjr+T0Ze1qxznrv5+CLkdqEyJaamm/UOOxlk5fm9v36iw/sg4y2d7
+7unAPRRsmbP/Z4QsJJxRdBvJxHI2AqgbEFF834/8GbHnwOKYRejquKT0Kcyh2Ffh+V6XiZW5BGOh
+7+R98EinDjXEl7NCkbtCxiZ2SxmWjqAtIO2TMdMdiwa2X7VJtYVKcg7GdyepzUwmEyAU+Pz4FRDc
+gHbr8xDMdSXrxSWrSbmqooNY66y0cKA2N40yrIEqVpEtVEYfBFnmWJL1tMdpMdh8zyyQOVcHkNDW
+bgSYTI3EU4kZ5hFbdIMw6Fx9N+7vdcLoj5RkuTdrpBvkK9wBgCcpFHLgq+jkEvrER199WfNdur1H
+Ypm1LMKKC4qL9M6DeD6DwYE//mdQEAew5niDDqI0w9kLcM3n/ED4FKlmWsCuo44BbOqQp6wXvQOP
+oHM3OAoTX5rNe4UL+S3kfLqDEg8DP0P5s3NOsa+Fy1xtdV4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIH6jCCBdKgAwIBAgIIZ02ZwzPVVhswDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDQwMzAwMDAw
+MFoXDTM5MDQwMjIzNTk1OVowgaoxIzAhBgNVBAMMGk5ldDRtYXJrZXQgLSBDU0Ft
+ZWQgcy5yLmwuMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHQ3JlbW9uYTEaMBgGA1UE
+YQwRVkFUSVQtMDIzNjI2MDAzNDQxIzAhBgNVBAoMGk5ldDRtYXJrZXQgLSBDU0Ft
+ZWQgcy5yLmwuMSMwIQYDVQRTDBpodHRwczovL3d3dy5uZXQ0bWFya2V0LmNvbTCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL16oro0h00pZzKwcscVZHm4
+ptH0Ck0GxrLfL3VdDP9vRrYuKoWSr9qtqXH12I9LaQ41l96d6M80eIxeQxuOezCN
+yk+yd4V4DFzWLyFpmnN10msq+WVWkvEzcRTQI/cqVOoCk2M1FlDAf0xhfI7E7eBS
+nBHhEpRQgPuf2geoSToQv3DLJe4V9R2mwCQ5+rtviSbXL1uMcQ5YKcM9hBzjGH2N
+Pcnu0ry4CsCPW9IxMb26OKLLW0HVJA6Cv1hnucnHjKBGwDWBL+drxLGGNyn3KAMR
+4MLbzs/hV4lLjpPwebwCFNgy+UppCNNs/TeunimaoQP3wkEGBojXOoNuWHcP0QkC
+AwEAAaOCAtIwggLOMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFJELrxG8cQPGJZo3
+raZTl/kF8YNOMB8GA1UdIwQYMBaAFJxFMMRND6D6Jg+p1vwg1gdszmRWMA4GA1Ud
+DwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDATBDBgNVHR8EPDA6MDigNqA0
+hjJodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9wcml2X1NB
+LmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9T
+QS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtM
+EAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25m
+b3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRp
+ZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJ
+RDB9BgYrTBAEAwIwczA5BggrBgEFBQcCAjAtGitTUElEOiBhZ2dyZWdhdG9yZSAn
+ZnVsbCcgZGkgc2Vydml6aSBwcml2YXRpMDYGCCsGAQUFBwICMCoaKFNQSUQ6IHBy
+aXZhdGUtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtM
+EAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMv
+QWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcC
+ARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290
+Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEArYPmA1VF0n+wqxB2jKK0dHgb
+pQ6tnT4X+ytUw13TI6OoFjDpfHMYKI/GE6TGgr87eb9s/2v80ZyNnMH01LWnAprH
+zBNa7t/gO8SmKIe+NMWi6K5DX7dL/GmTkptdeutGVujYP82PESepNk8tD6bOuwZC
+UVcSXJW9B3WwWCm6PgrpmPfzgoDM7oZcPHprS5CpWfWEL6A+bgQFjr+T0Ze1qxzn
+rv5+CLkdqEyJaamm/UOOxlk5fm9v36iw/sg4y2d77unAPRRsmbP/Z4QsJJxRdBvJ
+xHI2AqgbEFF834/8GbHnwOKYRejquKT0Kcyh2Ffh+V6XiZW5BGOh7+R98EinDjXE
+l7NCkbtCxiZ2SxmWjqAtIO2TMdMdiwa2X7VJtYVKcg7GdyepzUwmEyAU+Pz4FRDc
+gHbr8xDMdSXrxSWrSbmqooNY66y0cKA2N40yrIEqVpEtVEYfBFnmWJL1tMdpMdh8
+zyyQOVcHkNDWbgSYTI3EU4kZ5hFbdIMw6Fx9N+7vdcLoj5RkuTdrpBvkK9wBgCcp
+FHLgq+jkEvrER199WfNdur1HYpm1LMKKC4qL9M6DeD6DwYE//mdQEAew5niDDqI0
+w9kLcM3n/ED4FKlmWsCuo44BbOqQp6wXvQOPoHM3OAoTX5rNe4UL+S3kfLqDEg8D
+P0P5s3NOsa+Fy1xtdV4=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app.albofornitori.it/auth/logout-callback"/>
+
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://app.albofornitori.it/auth/login-callback" index="0" isDefault="true"/>
+
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Albofornitori e piattaforma di e-procurement</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+
+	</md:SPSSODescriptor>
+	
+	<md:Organization>	
+		<md:OrganizationName xml:lang="it">PROFIT N.G. SRL</md:OrganizationName>	
+		<md:OrganizationDisplayName xml:lang="it">PROFIT N.G. SRL</md:OrganizationDisplayName>	
+		<md:OrganizationURL xml:lang="it">https://www.dabliu.com</md:OrganizationURL>
+	</md:Organization>
+
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">	
+		<md:Extensions>	
+			<spid:VATNumber>IT02362600344</spid:VATNumber>	
+			<spid:FiscalCode>02362600344</spid:FiscalCode>	
+			<spid:PrivateServicesFullAggregator/>	
+		</md:Extensions>	
+		<md:Company>Net4market - CSAmed SRL</md:Company>	
+		<md:EmailAddress>sviluppo@csamed.it</md:EmailAddress>	
+		<md:TelephoneNumber>+390372801730</md:TelephoneNumber>
+	</md:ContactPerson>
+
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">	
+		<md:Extensions>
+			<spid:VATNumber>IT09253331004</spid:VATNumber>	
+			<spid:FiscalCode>09253331004</spid:FiscalCode>
+			<spid:Private/>
+		</md:Extensions>	
+		<md:Company>PROFIT N.G. SRL</md:Company>	
+	</md:ContactPerson>
+	
+	<md:ContactPerson contactType="billing">
+		<md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>02362600344</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+			           <fpa:Denominazione>Net4market - CSAmed SRL</fpa:Denominazione> 
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+		             <fpa:Indirizzo>Corso Giacomo Matteotti</fpa:Indirizzo>
+		             <fpa:NumeroCivico>15</fpa:NumeroCivico>
+		             <fpa:CAP>26100</fpa:CAP>
+		             <fpa:Comune>Cremona</fpa:Comune>
+		             <fpa:Provincia>CR</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>Net4market - CSAmed SRL</md:Company>
+        <md:EmailAddress>fatture@csamed.it</md:EmailAddress>
+        <md:TelephoneNumber>+390372801730</md:TelephoneNumber>
+    </md:ContactPerson>
+	
+</md:EntityDescriptor>

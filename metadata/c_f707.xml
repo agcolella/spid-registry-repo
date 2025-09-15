@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.moranosulpo.cn.it" ID="https___login_comune_moranosulpo_cn_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_moranosulpo_cn_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/Q38E+/vc+P/lqzQtnRVl9OdyHiVP2mMTmggZn7xPOY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>tkG9RaE5yF7rxy8YPr547GejaOl8M7ebO2htJdgcARRBOw5OTbgHm5nN988nNb9bFP49cj9YknHZOpBoIj87+FhTxqxjx1f9K6CkMnv4J8B53Rm1NO1sOaCmnw2fjsf/YuhsxxbmFMjl8kEDZcjBr1OJEDtITIq+INNYwKrVG39U1/X7XKmb6Ja4p8u7XOFKyFBfGJDGi4ObOGfqDM0tKka0nD8ub+IIVouw3wyca8DlxvwbS7LNNX/Qrb7GoTmk4yYc4IcAVgFP/ZdFLzgHADUNCtc7z6rhQrUedZtbtIoIkfb/wv6lYceEqcX9jSUAGyhxpWaNsUyCYy6B49oHxQ==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEGjCCAwKgAwIBAgIIE24+GvEwVBwwDQYJKoZIhvcNAQELBQAwgcwxIDAeBgNVBAoMF0NvbXVuZSBkaSBNb3Jhbm8gU3VsIFBvMRUwEwYDVQRhDAxQQTpJVC1jX2Y3MDcxCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1Nb3Jhbm8gU3VsIFBvMRYwFAYDVQQDDA1Nb3Jhbm8gU3VsIFBvMSMwIQYJKoZIhvcNAQkBFhRtb3Jhbm9zdWxwb0BwY2VydC5pdDEvMC0GA1UEUwwmaHR0cHM6Ly9sb2dpbi5jb211bmUubW9yYW5vc3VscG8uY24uaXQwHhcNMjMwODAzMTE0MjIyWhcNMjUwODAyMTE0MjIyWjCBzDEgMB4GA1UECgwXQ29tdW5lIGRpIE1vcmFubyBTdWwgUG8xFTATBgNVBGEMDFBBOklULWNfZjcwNzELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDU1vcmFubyBTdWwgUG8xFjAUBgNVBAMMDU1vcmFubyBTdWwgUG8xIzAhBgkqhkiG9w0BCQEWFG1vcmFub3N1bHBvQHBjZXJ0Lml0MS8wLQYDVQRTDCZodHRwczovL2xvZ2luLmNvbXVuZS5tb3Jhbm9zdWxwby5jbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKd19sOSeM+VEUnsOroPm7C8xjCn9vXsWouyuef2E9EK1SenRkDS9jmpXEojfTw4E6Eu8kbzq9RIUV8K2+UspaJnrg8XVr/YoCA1ToQWxPLrLbtJ5qmyymR4xP18k9jgs3bk/YDwWBjVJ6Py6yPYcj5qS8NrhDgH/zlezBwrTgGhlMUvXv9kdLnl/0GAFIqG7E+JblN5+4Jzb3lzaGN0+rDR1KleiiGgDYKyMgt6w/wr5zPfZDFPHWdSHpd4A67Ye5viOuPm7/cjrXIwcZWJkiOEwyEedXb5CeZQq6CiN/JiMc5NEshFKYwdT9rGuiCDQiZ4mM3i0FtHXK3N5ZQsh0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAl3LOC1iGtAJBw4ZAr/7A52vh0U20grJYfuSv1gA0uOWNffnrMAw5I7pxJBpOFauSXJgUS7+TFflIOy4EoJoa9YDy7G4Nl4DbbGH3v78KTi4+jfRtsyquJdeFWtdPXxGjEyqrfrL0GXsMbVpu4DgzYeZ+Q7xe+xmjTWV3MqtqMsXfR7S8ya2BmZyncUu8S6vzfP+HtKvPonl6OR0qRKF16TVPEauBt85F6pzsqt0qwQ2iS+gyHgiT9Jya7yethLRYgnuel1L4zsZhyD33prWP89qPTBmwXcAyHP9TVEKQdt/BEh5yTHV/xbuha+FAjLbPf3CBMXF3DL/e0PcxoFRXRg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIEGjCCAwKgAwIBAgIIE24+GvEwVBwwDQYJKoZIhvcNAQELBQAwgcwxIDAeBgNVBAoMF0NvbXVuZSBkaSBNb3Jhbm8gU3VsIFBvMRUwEwYDVQRhDAxQQTpJVC1jX2Y3MDcxCzAJBgNVBAYTAklUMRYwFAYDVQQHDA1Nb3Jhbm8gU3VsIFBvMRYwFAYDVQQDDA1Nb3Jhbm8gU3VsIFBvMSMwIQYJKoZIhvcNAQkBFhRtb3Jhbm9zdWxwb0BwY2VydC5pdDEvMC0GA1UEUwwmaHR0cHM6Ly9sb2dpbi5jb211bmUubW9yYW5vc3VscG8uY24uaXQwHhcNMjMwODAzMTE0MjIyWhcNMjUwODAyMTE0MjIyWjCBzDEgMB4GA1UECgwXQ29tdW5lIGRpIE1vcmFubyBTdWwgUG8xFTATBgNVBGEMDFBBOklULWNfZjcwNzELMAkGA1UEBhMCSVQxFjAUBgNVBAcMDU1vcmFubyBTdWwgUG8xFjAUBgNVBAMMDU1vcmFubyBTdWwgUG8xIzAhBgkqhkiG9w0BCQEWFG1vcmFub3N1bHBvQHBjZXJ0Lml0MS8wLQYDVQRTDCZodHRwczovL2xvZ2luLmNvbXVuZS5tb3Jhbm9zdWxwby5jbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANKd19sOSeM+VEUnsOroPm7C8xjCn9vXsWouyuef2E9EK1SenRkDS9jmpXEojfTw4E6Eu8kbzq9RIUV8K2+UspaJnrg8XVr/YoCA1ToQWxPLrLbtJ5qmyymR4xP18k9jgs3bk/YDwWBjVJ6Py6yPYcj5qS8NrhDgH/zlezBwrTgGhlMUvXv9kdLnl/0GAFIqG7E+JblN5+4Jzb3lzaGN0+rDR1KleiiGgDYKyMgt6w/wr5zPfZDFPHWdSHpd4A67Ye5viOuPm7/cjrXIwcZWJkiOEwyEedXb5CeZQq6CiN/JiMc5NEshFKYwdT9rGuiCDQiZ4mM3i0FtHXK3N5ZQsh0CAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAl3LOC1iGtAJBw4ZAr/7A52vh0U20grJYfuSv1gA0uOWNffnrMAw5I7pxJBpOFauSXJgUS7+TFflIOy4EoJoa9YDy7G4Nl4DbbGH3v78KTi4+jfRtsyquJdeFWtdPXxGjEyqrfrL0GXsMbVpu4DgzYeZ+Q7xe+xmjTWV3MqtqMsXfR7S8ya2BmZyncUu8S6vzfP+HtKvPonl6OR0qRKF16TVPEauBt85F6pzsqt0qwQ2iS+gyHgiT9Jya7yethLRYgnuel1L4zsZhyD33prWP89qPTBmwXcAyHP9TVEKQdt/BEh5yTHV/xbuha+FAjLbPf3CBMXF3DL/e0PcxoFRXRg==</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://moranosulpo.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://moranosulpo.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Morano Sul Po</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Morano Sul Po</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.moranosulpo.cn.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_f707</spid:IPACode><spid:Public/><spid:FiscalCode>00451080063</spid:FiscalCode></md:Extensions><md:EmailAddress>moranosulpo@pcert.it</md:EmailAddress><md:TelephoneNumber>+39014285123</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.progettiesoluzioni.it/pub-ag-full/comune.aosta.it" ID="pfx2a5ad769-e112-482d-d85e-4fb2a57f56df"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfx2a5ad769-e112-482d-d85e-4fb2a57f56df"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>MQQwoqRhqq1AcXTr1U9+0uZXVdFu8vKILEhtveobQ+w=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>1tB1tLlc2xpzUxsAVHeV6hHpFo/PXUl4QEutUEDaR9stQtIeJsohkPTUi8OptZsUS4Jju1MvznEFx3Jh/7aWb7iNpWdC01hpI9JXmC0JPIxJtwU0NecZKC5CugtuShKAOGkDmkfcwPWvUfXcgGjV/5h9t1ezP2i6GepPerZ7YhuPkgKNsIgpMz89PfUnW6GVhi9yoFoQ//tkhmHdnZqiZ/WoxSKPRK6+0leqRY23tnvt4aj2IPFlsJjdTIp38LDcbvLnhfw62lwWU2mjoNDb+1yXeJKOlGS6Grffx9+JVWSA3fO4KvevwgsrEs2fnTCmFxsjsgMuHdnTLwvZ7NyvGg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIMjCCBhqgAwIBAgIINujtcym26GAwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDIxODAwMDAwMFoXDTM2MDIxNzIzNTk1OVowgfMxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJCQTENMAsGA1UEBwwEQkFSSTEhMB8GA1UECgwYUFJPR0VUVEkgRSBTT0xVWklPTkkgU1BBMRQwEgYDVQQLDAtTUElER0FURVdBWTEjMCEGA1UEAwwac3BpZC5wcm9nZXR0aWVzb2x1emlvbmkuaXQxKTAnBgkqhkiG9w0BCQEWGnNwaWRAcHJvZ2V0dGllc29sdXppb25pLml0MSMwIQYDVQRTDBpzcGlkLnByb2dldHRpZXNvbHV6aW9uaS5pdDEaMBgGA1UEYQwRVkFUSVQtMDY0MjMyNDA3MjcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDghvZN36+4UoDI2RmxQQlzq4BdHEYVEpTedPKHBHSqZB6mXsH3km6uSpvy1Rzi7F8seL+ntCpu3XburPUtLy0d7Qf0WAAriqmX/1rFXyWe0O9TapBC2WSHd0OylhpOFT4qUA9HtaPnV9ii6+pvGBeI+edmPWHg1amdyT4xgEVOAJh+uW51UjD49lMiJwn58QfQAxsZkoxR43jVa+KuIBVtYpYQK3Ec1QL73hbCCVFgIeRPQvG7dJhrvcmhloutdu+N9sg8/u5N0iA8xY1LwGjtM0PKmgkoAm81DvHgAeAV9ehCMam1igUbPvATpCamH1r13XxbUqh81zMyMXWVBLqjAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBQupUCuVHJYShUPC0dU9QmmjNvypzAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAl15ENh2BkjoDIf5HMLSNlGjswameGjJPjcgMLOD2YL9OZxZLL+BICqacMWkdivMLwWPEQx0kI/nXlH31zy2SDr76gOiDmqe4mvphqlVuhsTqEc1PZ30MGq3f52Vh8wXe27BsGrHi6ISYhS5BJmw0v5pCIvuFtDWZTKgq/+Mtx646DQ1oG1JnigPaEOcWbH5JS31yykgLkjF+XFmdugoDlZZBDfJSG7RDcsMzXw7nyDbP6SFSZ9eK3ueTjkaKZYdD/wtu04UszCU2kWENTJsyPbSUMYOONhLWRpYKEmvuZWtq4devpUrZEVMdKwpxRap72cgofQ9QW+xiGCwzzTx5JvgleSwB9V30O5clqHvzfDGOOJjcP/ue861RNhm8KUUxj/uMbhTKooG/SfFvwgMnk4mvtRYzw627GSoOJzhXypl3JpUv+kaQDoo//TtUUHeqyMGr4mZD+Q1+2KOLvLEbtUPQ5TNMUV2tNV/a62FGF9T79yPb2LjARXSPVLmbTCOFAmYIS5iRI6KQWvkAfjY7VjZJrl1wnQ3tBMgMAzRVC+9S7F72ihxRJ5NcisPid9j+dexvbT7fxy8BBH5dyytTKnvqY/nupNIth08H7qf/UOZHBOR4KhkJKOTL76t+J7JUdL6keGylIg4MyvMnnazdbxz+DteerHpEC2rH6BEtCCI=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.progettiesoluzioni.it/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.progettiesoluzioni.it/acs" isDefault="true" index="0"/>
+<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.progettiesoluzioni.it/acs" index="1"/>
+    <md:AttributeConsumingService index="0">
+          <md:ServiceName xml:lang="it">Servizi Scolastici a domanda individuale</md:ServiceName>
+                <md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="fiscalNumber"/>
+</md:AttributeConsumingService><md:AttributeConsumingService index="1">
+          <md:ServiceName xml:lang="it">Servizi Scolastici a domanda individuale</md:ServiceName>
+                <md:RequestedAttribute Name="spidCode"/>
+<md:RequestedAttribute Name="name"/>
+<md:RequestedAttribute Name="familyName"/>
+<md:RequestedAttribute Name="fiscalNumber"/>
+</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Aosta</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Aosta</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.comune.aosta.it/</md:OrganizationURL></md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+        <spid:VATNumber>IT06423240727</spid:VATNumber>
+        <spid:FiscalCode>06423240727</spid:FiscalCode>
+        <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>Progetti e Soluzioni SpA</md:Company>
+    <md:EmailAddress>spid@progettiesoluzioni.it</md:EmailAddress>
+    <md:TelephoneNumber>+390802149474</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+      <md:Extensions>
+          <spid:IPACode>c_a326</spid:IPACode>
+          <spid:Public/>
+      </md:Extensions>
+      <md:Company>Comune di Aosta</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

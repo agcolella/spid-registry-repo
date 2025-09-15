@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="https___login_facilepa_it_pub-ag-lite_c_c111" entityID="https://login.facilepa.it/pub-ag-lite/c_c111"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#https___login_facilepa_it_pub-ag-lite_c_c111">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>pQMDll20sFfSKQCcq2ldDCuJscmQmAty+/2pH5u4y7g=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ehEC+64YQxIkx+WNZvgrwfDNZWBMGUbEY12UY6t8kp3l7HCBd7QjhnGbELrQQhc09eEvPxAjUP10
+rqPN1BuhKhkxwVNr4Paa+qub0yv7BHodLqt4no4WpvsJdqxi1CaRxVenfWy7cGk50IZWfLxIY32l
+Y9XhRp1YnaPcNev0ja6cI4ZzH1Vf+CROOxxXC1wVeHMMOwzlqawJ6NhZOLyB+7JY10XuF7/xszZu
+N4wQqlHBhiV0pAt6IsII1Mq7a+6uDLgAiVsS4dWxOKTrzfKf4BVax2bQ3qouT59r+3BA8VUzBXxi
+v5l+jzL53+LhdS/nnEi3lVCSaLSBkbJceFkHYQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rko/lranJ8s2/uNvv9sruzts59EvwT0VNS1ILoIbsw2FkjH9LUaAbHX/e2Fi9Qj/8GRuNzLcfyry
+XMcCFw1mfWRL24p+CJZ8fAZz8rdm+m2CDkREzwt36i0shqZmHwK34gxWaNDDaoKWOQ5XHNzTPaLz
+zOf6HliebENwG31vc31BZk1uqGa31Lob5mVFdA86aq/7Qki9a0gw/TUCsO5G66t5g6WR5Fjo0jO0
+x8/PcvSmnlK4nZ24N9WyAssy41lAfDN/dy54KE7MrN/gRZezKtapgUA/Air+rdgnO2PeQ0t9g+N5
+l6SxJtJdevIvEzkt0KHfrExkA/sDl23eeIYH9w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIBzCCBe+gAwIBAgIIerWvkV4Yf4cwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTI0MDExMDAwMDAw
+MFoXDTM5MDEwOTIzNTk1OVowgasxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdWZW5lemlhMRswGQYD
+VQQHDBJTYW4gRG9uYScgZGkgUGlhdmUxEjAQBgNVBAoMCVEtV2ViIFNybDENMAsGA1UEAwwEUXdl
+YjEaMBgGA1UEYQwRVkFUSVQtMDMyMjIxMjAyNzUxLjAsBgNVBFMMJWh0dHBzOi8vbG9naW4uZmFj
+aWxlcGEuaXQvcHViLWFnLWxpdGUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCuSj+W
+tqcnyzb+42+/2yu7O2zn0S/BPRU1LUgughuzDYWSMf0tRoBsdf97YWL1CP/wZG43Mtx/KvJcxwIX
+DWZ9ZEvbin4Ilnx8BnPyt2b6bYIORETPC3fqLSyGpmYfArfiDFZo0MNqgpY5Dlcc3NM9ovPM5/oe
+WJ5sQ3AbfW9zfUFmTW6oZrfUuhvmZUV0Dzpqr/tCSL1rSDD9NQKw7kbrq3mDpZHkWOjSM7THz89y
+9KaeUridnbg31bICyzLjWUB8M393LngoTsys3+BFl7Mq1qmBQD8CKv6t2Cc7Y95DS32D43mXpLEm
+0l168i8TOS3Qod+sTGQD+wOXbd54hgf3AgMBAAGjggLxMIIC7TASBgNVHRMBAf8ECDAGAQH/AgEA
+MB0GA1UdDgQWBBQPbrl7z0ElEbazEFJ1Q+GJWJ+zPDAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObq
+OdWJoEfXNDAOBgNVHQ8BAf8EBAMCAcYwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYB
+BQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAfUGA1UdIASCAewwggHoMIGVBgQr
+TBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3
+aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmlj
+byBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwgaMGBitMEAQCBTCBmDBMBggrBgEFBQcC
+AjBAGj5TUElEOiBDQSBpbnRlcm1lZGlhIGRhIEFnZ3JlZ2F0b3JlICdsaWdodCcgZGkgc2Vydml6
+aSBwdWJibGljaTBIBggrBgEFBQcCAjA8GjpTUElEOiBwdWJsaWMtc2VydmljZXMgJ2xpZ2h0JyBB
+Z2dyZWdhdG9yJ3MgaW50ZXJtZWRpYXRlIENBMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYBBQUH
+AgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5w
+ZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Bz
+L0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEQYJYIZIAYb4QgEBBAQDAgAHMA0GCSqGSIb3DQEB
+DQUAA4ICAQBY+kGqa+c0Pqhrb5DdRDmHmjHUUJkQV0f//UJMLisuYewuezqK9TlmdpU+18TTGeRI
+4LX/pJISO4XyTl09edhvx+x2sd90O2RtS/NeMPvGRio33/oe6asEDN0GlO1KxE58MaWleUNkqaHu
+wyT8NG1/30qnil9eADDqYfvZc1RIgxse2GHXpswiCsBQH5BubyD1h+M/TUpIco8352tqIQZBNwNN
+sbVAOF312fg/ToGyHIwmQ7LBFubOXhu5x3dYUDGOv5iPBBjS+NrC0767XZPd61aTkoddXYC9yPz5
+N3FSG/6FLoOTa05nLJdOWhegoJEvPWoBpyAMowGkuZGRNvo9EMlvp4V/qc+aKzaPvDgHP9At6gqK
+cglNhp3LaJpyVXU/7mOHvXsFg8gNtKDd8GRT0nZOFma5rELE6cjClvvVT1tuFmAKDTeIwtjyUm6q
+u5I+Pwe9qsIyCNoVnwVO0cwTGO3Hbq8ABqURMby2J9ej+wxsuaJQmKq6HNWo6cbB4nuEMr9+gyHu
+b8It9d0e9vaTfUXvvrpnpy50KhHHFPTQbzB6FKdD8EnIXhqVZeVNSHeMbSFqffkbIdD6FUD4N6fL
+A5Dkq1kkq4AD0OGfSI3er7eKvYCyAMkutkC65b60Y/bPcXYB9LYp/yIJhLj9nc29kvyyWh2EvXIZ
+77NbbS5dsw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.castelfrancoveneto.tv.it/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://login.comune.castelfrancoveneto.tv.it/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.castelfrancoveneto.tv.it/spid/acs" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Servizi Online by QWEB</md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Comune di Castelfranco Veneto</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Comune di Castelfranco Veneto</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.comune.castelfrancoveneto.tv.it/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT03222120275</spid:VATNumber>
+            <spid:FiscalCode>03222120275</spid:FiscalCode>
+            <spid:PublicServicesLightAggregator/>
+            <spid:KeyDescriptor md:use="spid:validation">
+                <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                    <ds:X509Data>
+                        <ds:X509Certificate>
+                            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
+                        </ds:X509Certificate>
+                    </ds:X509Data>
+                </ds:KeyInfo>
+            </spid:KeyDescriptor>
+        </md:Extensions>
+        <md:Company>Q-Web Srl</md:Company>
+        <md:EmailAddress>info@qweb.eu</md:EmailAddress>
+        <md:TelephoneNumber>+390421307703</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>c_c111</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Comune di Castelfranco Veneto</md:Company>
+    </md:ContactPerson>
+</md:EntityDescriptor>

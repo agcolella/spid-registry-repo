@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_9effbb5b-c8d6-4a85-ae4f-5d32bb119b65" entityID="https://unispid.unimaticaspa.it/pri-ag-full/mediatorino"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference URI="#_9effbb5b-c8d6-4a85-ae4f-5d32bb119b65"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>jDNUXzF96jLBi95VXxWmo6Ff8qyko+m/StNjlpXFHwA=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>aoqp5qOnRGLRf0wsSI1AS3hLyzp+QKMyGtGo6RqHIoyXw0JNDPZKz0rtPwhRN6sOdHfXtiPhYxc7wpgGycFX/vNE21UEA50b7Qy3k+PpSICpzXwwL8gDsVqhDDRuXE6fBRU6VtqBx6Z4FSqkUVhHkdkR84k4QwlOeODd6CY0I8GETAmaTz1eIRUiifHyyMfEoAMIjT387uNLjbxSGK086purowe76cnAdyQWcUD3neUj2x55OxP4yxhV3ZRNe5xk63HUZSe59xTqq2czbXA831QNp6mu822kWHCksz0Qj9521410K1gj2mlbGHNRfTt+VxtlFMQ3ZuvswLXanMHX5Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>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</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://unispid.unimaticaspa.it/unispid/samlsls/redirect"></md:SingleLogoutService>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unispid.unimaticaspa.it/unispid/samlsls/post"></md:SingleLogoutService>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unispid.unimaticaspa.it/unispid/samlacs/post" index="0" isDefault="true"></md:AssertionConsumerService>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">EasyProcess</md:ServiceName>
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"></md:RequestedAttribute>
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"></md:RequestedAttribute>
+            <md:RequestedAttribute FriendlyName="Codice Fiscale" Name="fiscalNumber"></md:RequestedAttribute>
+            <md:RequestedAttribute FriendlyName="Codice identificativo" Name="spidCode"></md:RequestedAttribute>
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName"></md:RequestedAttribute>
+            <md:RequestedAttribute FriendlyName="Codice fiscale Persona Giuridica" Name="companyFiscalNumber"></md:RequestedAttribute>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">MEDIATORINO SRL</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">MEDIATORINO SRL</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.mediatorino.org</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:VATNumber>IT02098391200</spid:VATNumber>
+            <spid:FiscalCode>02098391200</spid:FiscalCode>
+            <spid:PrivateServicesFullAggregator></spid:PrivateServicesFullAggregator>
+        </md:Extensions>
+        <md:Company>UNIMATICA-RGI S.P.A.</md:Company>
+        <md:EmailAddress>unispid@unimaticaspa.it</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:VATNumber>IT10441480018</spid:VATNumber>
+            <spid:Private></spid:Private>
+        </md:Extensions>
+        <md:Company>MEDIATORINO SRL</md:Company>
+        <md:EmailAddress>info@mediatorino.org</md:EmailAddress>
+        <md:TelephoneNumber>00390115691649</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>02098391200</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+                        <fpa:Denominazione>UNIMATICA-RGI S.P.A.</fpa:Denominazione>
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>Via Cristoforo Colombo</fpa:Indirizzo>
+                    <fpa:NumeroCivico>21</fpa:NumeroCivico>
+                    <fpa:CAP>40131</fpa:CAP>
+                    <fpa:Comune>Bologna</fpa:Comune>
+                    <fpa:Provincia>BO</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>UNIMATICA-RGI S.P.A.</md:Company>
+        <md:EmailAddress>unispid@unimaticaspa.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

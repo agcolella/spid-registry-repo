@@ -1,0 +1,59 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" validUntil="2024-06-22T06:33:32Z" cacheDuration="PT604800S" entityID="https://my-spid.it/pub-ag-full/c_g782" ID="pfxf3f29ce5-ab73-eb1e-47d1-a66d69dc8fdd"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxf3f29ce5-ab73-eb1e-47d1-a66d69dc8fdd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ZxfsFeENQvHngGUkazOdRYdSHtktdcEuObhRPRYyq1I=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>GIdjzuUanCieibKR9RSXnSH70odKLLOOBeSrtdswzEsNHWlVYUAr45sAfk+mA3Z7RT1Q8phppyZ7mQGcy2Ei9yyDW+FzOAmLtDRT2XoYV1a4L5Z4osGgDKpnMMbRjSMjboWRPsR5uvne8VOgu5VXly97C1PCIzyLSR8ss9Q0dT6LxaVJk5WS7ff2m6nnY1YDJiYG5bpinkiSev10MagWURxr76MX0GI26IxkaTMEmXckFktZUS5npvrhhXhleWcpBtwGkyXKm1L2AoUrj0ujbMv8KiA+L9NbgRprKv/uzijtgPpjXOoEGP6sJrpLMUKe31pEd1T/L88PyZkv8+v4kA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://my-spid.it/spid/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService index="0" isDefault="true" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://my-spid.it/spid/acs"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="en">Sportello al cittadino del Comune di Polesella tramite MyCity</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="address"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="en">Comune di Polesella</md:OrganizationName>
+    <md:OrganizationName xml:lang="it">Comune di Polesella</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Polesella</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Polesella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="en">https://comune.polesella.ro.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="it">https://comune.polesella.ro.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT00089070403</spid:VATNumber>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>Grafiche E. Gaspari SRL</md:Company>
+    <md:EmailAddress>mail@gaspari.it</md:EmailAddress>
+    <md:TelephoneNumber>+39051763201</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>c_g782</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Polesella</md:Company>
+    <md:EmailAddress>segreteria@comune.polesella.ro.it</md:EmailAddress>
+    <md:TelephoneNumber>+390425447111</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,164 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_41293ec6df6d5c31cbbadbb78652aee5" entityID="https://sso.ecivis.it/pub-ag-full/c_c758"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_41293ec6df6d5c31cbbadbb78652aee5">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>F5MF1MMo3PKxehpwfmiCxUsszA84Awh2b6M2hhFd9nE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+U27GeGmfyKJ07YTUAcu8NfigEJ6cGL04O0ALPoK0KSpYrmqqHQZ3duEP2374RpbowDw3qLdkHqMo
+/y0QkgrdF0NXOLSQ8k0CbEkdqh3pid3FYgH1IvFiI594M8yEWaD/WlYvCkcVvQJgauN6g9nKmCy8
+mZysh7L41vjI7HSoDdzZ4CYdzSrQEOLDF0J08gtLrXsiRyF/z8ehknVFpfPXQDX1PaWajHTFBkWZ
+LsItxlQOHeim//FdPu7wJejKzd00AkGKGmn8y507FWSlV3R2/PsvDvP1p2iFHNKEc3/wLdJGofeP
+P90B0fPvqYN7fAXl7nDPvrth2fMxXYNHOWEXDg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+3vF3ddyaQvgDV3VFIMOHUNRQdeh49hAjMf90/E1KYWXyeZM9xhPX/fBlWkS7mIQVfKDKM1A3sRMF
+ngS91+33F50oolzNI3Jc50HoM3fb+Sx3uplc4boUtmJUMXyonLGSBSpfu2q38IpxBHRSidfkzusu
+Izp6XYPTHZsSKtsdGp8GFT/X3vmPb/7nRtZbAZR538oFfVBODDQdKriGpr2641pMIILba0Knd8qC
+Iiv8CeqQc8CJvykjmdmzZzkxU4ykfMuQJDJHA2bCwn65t0EnJboglyiVRAc5o43/fF2Pkrh036yT
+oM2VRof2nT7KSTgdWbgtMaP5XlNN4DM1mmkfGQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIBTCCBe2gAwIBAgIIX8CPTqvknekwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDIxODAwMDAw
+MFoXDTM2MDIxNzIzNTk1OVowgcYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJVEFMWTEPMA0GA1UE
+BwwGQ2VydmlhMRAwDgYDVQQDDAdQcm9qZWN0MSIwIAYJKoZIhvcNAQkBFhNpbmZvQHByb2plY3Rz
+cmwuY29tMSQwIgYDVQQKDBtQcm9qZWN0IFMuci5sLiBVbmlwZXJzb25hbGUxHjAcBgNVBFMMFWh0
+dHBzOi8vc3NvLmVjaXZpcy5pdDEaMBgGA1UEYQwRVkFUSVQtMDEyMzk0MDAzOTEwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDe8Xd13JpC+ANXdUUgw4dQ1FB16Hj2ECMx/3T8TUphZfJ5
+kz3GE9f98GVaRLuYhBV8oMozUDexEwWeBL3X7fcXnSiiXM0jclznQegzd9v5LHe6mVzhuhS2YlQx
+fKicsZIFKl+7arfwinEEdFKJ1+TO6y4jOnpdg9MdmxIq2x0anwYVP9fe+Y9v/udG1lsBlHnfygV9
+UE4MNB0quIamvbrjWkwggttrQqd3yoIiK/wJ6pBzwIm/KSOZ2bNnOTFTjKR8y5AkMkcDZsLCfrm3
+QScluiCXKJVEBzmjjf98XY+SuHTfrJOgzZVGh/adPspJOB1ZuC0xo/leU03gMzWaaR8ZAgMBAAGj
+ggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBS5qC7RJMLa7uep1I8THj8Saiio1zAfBgNV
+HSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYIL
+c3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9j
+cmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBz
+Oi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtM
+EAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdp
+dGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNv
+IGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAu
+GixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcC
+AjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0G
+BCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9l
+SURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRh
+cy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0F
+AAOCAgEAOEQ9Qc1Yl1isGfNBkRuQhRkq+XLuSp97NiunSOJyTacK/jADC+6yFS1uv70F8lAAdEt+
+YZq5XW+r4YqxFESlTw5ozKGLq5Cs9kC+CD5S5hsLIVxrj7yCJDaW1ZSF90QiALBClAa9xpovEStQ
+cNiplb46oFfJ8uzgYcVHRsfWwLgtGITKYHxjmlwnzT6iE//3C5XlJWuGw0LAjsP5gGkN8BtRtZIp
+zphxwAgI2AOdOCCRiyvZIUe01qqOAdCJfZacEEKM1JPW5GGv7cj2CauLcDvdV3lCKTlcEhaRgIUI
+uSyWbZwmFus9ywMXmC7Iti6WPpAN+ei/SO9yzuk8eFGHoLc0RT4XbxHg0GTt+hvvAmxM/wqceGe/
+RT0Z1Km2HxZ++zpo/UINc2xyGO+t1CXM20GiBzg0DMGe7TGlEH+wtjn7zatp8qNwHER+pJCH1vZs
+yplIwNfElx7eBMu7kZtRax4WMz6g7zgIEUvnR1+nLegkOIWvuJJkGC315LGklKz79l61xifKpRkZ
+XMCjd9USkv3nJqyAivN3cuByNv7X81K/8WfRbPJ+/TFHYKUkKaSjIk5RcTIjvXIEcCrOG+rPXXN5
+c5V+n0uw41Gzt6QG1wjbuKgh0UTw2/eipjTesCMsQqWoVofAsj9ZGhs/r4P/77mi0EY6gALFRpTm
+8teSssc=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+MIIIBTCCBe2gAwIBAgIIX8CPTqvknekwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDIxODAwMDAwMFoX
+DTM2MDIxNzIzNTk1OVowgcYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJVEFMWTEP
+MA0GA1UEBwwGQ2VydmlhMRAwDgYDVQQDDAdQcm9qZWN0MSIwIAYJKoZIhvcNAQkB
+FhNpbmZvQHByb2plY3RzcmwuY29tMSQwIgYDVQQKDBtQcm9qZWN0IFMuci5sLiBV
+bmlwZXJzb25hbGUxHjAcBgNVBFMMFWh0dHBzOi8vc3NvLmVjaXZpcy5pdDEaMBgG
+A1UEYQwRVkFUSVQtMDEyMzk0MDAzOTEwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQDe8Xd13JpC+ANXdUUgw4dQ1FB16Hj2ECMx/3T8TUphZfJ5kz3GE9f9
+8GVaRLuYhBV8oMozUDexEwWeBL3X7fcXnSiiXM0jclznQegzd9v5LHe6mVzhuhS2
+YlQxfKicsZIFKl+7arfwinEEdFKJ1+TO6y4jOnpdg9MdmxIq2x0anwYVP9fe+Y9v
+/udG1lsBlHnfygV9UE4MNB0quIamvbrjWkwggttrQqd3yoIiK/wJ6pBzwIm/KSOZ
+2bNnOTFTjKR8y5AkMkcDZsLCfrm3QScluiCXKJVEBzmjjf98XY+SuHTfrJOgzZVG
+h/adPspJOB1ZuC0xo/leU03gMzWaaR8ZAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8E
+AjAAMB0GA1UdDgQWBBS5qC7RJMLa7uep1I8THj8Saiio1zAfBgNVHSMEGDAWgBQ8
+u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYIL
+c3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQrMCkw
+JwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1Ud
+IASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2
+RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlk
+ZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNv
+bmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6BggrBgEF
+BQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6aSBwdWJi
+bGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwn
+IEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0
+cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3Bz
+LnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0B
+AQ0FAAOCAgEAOEQ9Qc1Yl1isGfNBkRuQhRkq+XLuSp97NiunSOJyTacK/jADC+6y
+FS1uv70F8lAAdEt+YZq5XW+r4YqxFESlTw5ozKGLq5Cs9kC+CD5S5hsLIVxrj7yC
+JDaW1ZSF90QiALBClAa9xpovEStQcNiplb46oFfJ8uzgYcVHRsfWwLgtGITKYHxj
+mlwnzT6iE//3C5XlJWuGw0LAjsP5gGkN8BtRtZIpzphxwAgI2AOdOCCRiyvZIUe0
+1qqOAdCJfZacEEKM1JPW5GGv7cj2CauLcDvdV3lCKTlcEhaRgIUIuSyWbZwmFus9
+ywMXmC7Iti6WPpAN+ei/SO9yzuk8eFGHoLc0RT4XbxHg0GTt+hvvAmxM/wqceGe/
+RT0Z1Km2HxZ++zpo/UINc2xyGO+t1CXM20GiBzg0DMGe7TGlEH+wtjn7zatp8qNw
+HER+pJCH1vZsyplIwNfElx7eBMu7kZtRax4WMz6g7zgIEUvnR1+nLegkOIWvuJJk
+GC315LGklKz79l61xifKpRkZXMCjd9USkv3nJqyAivN3cuByNv7X81K/8WfRbPJ+
+/TFHYKUkKaSjIk5RcTIjvXIEcCrOG+rPXXN5c5V+n0uw41Gzt6QG1wjbuKgh0UTw
+2/eipjTesCMsQqWoVofAsj9ZGhs/r4P/77mi0EY6gALFRpTm8teSssc=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cividaledelfriuli.ecivis.it/spid/logout"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cividaledelfriuli.ecivis.it/spid/login" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">eCivis Solution</md:ServiceName>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Cividale del Friuli</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Cividale del Friuli</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.cividale-del-friuli.ud.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT01239400391</spid:VATNumber>
+      <spid:FiscalCode>01239400391</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>Project</md:Company>
+    <md:EmailAddress>info@projectsrl.com</md:EmailAddress>
+    <md:TelephoneNumber>+390544975898</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>c_c758</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Cividale del Friuli</md:Company>
+    <md:EmailAddress>affari.generali@cividale.net</md:EmailAddress>
+    <md:TelephoneNumber>+390432710100</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

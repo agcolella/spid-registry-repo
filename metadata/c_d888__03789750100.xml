@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_d888"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9uX1BSYTcPeF0/MR5jkFoqYkmjZJkeaCmN+UjJ42ICM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SBpgV9kN5rm69sUW9N+mPrMGDWggDCfHw06mhi22Y5DPz0YfU2KcssrMcTiZtzxnRhSmKOx28QyE
+9ERdkj7QoE2ESaDbbSCLmC/ezprKndBpmBHbPweXApAgToW1vKB7hOriCE6bi5kWnTOV8xPzXWYy
+LjCZ6RbtgBm9kUZiDyW+jxUzsMLZmUOu+dwERYmbZsOAtnkcflXAZsONEtLK6X9ROmS7S/szYIyG
+S8Ibxyz8GNvqfrvM6LQlCItvXWmEjlnqYZ69rk7OJUPLGuSizO3PvsjdV4UZ+MnbjZgqh+QXdm5t
+m5Y3O0JKGGvd1jUNNbTQe93aeLExRmo33YOS8Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIGOjCCBCKgAwIBAgIJAMwCPVN1NBe9MA0GCSqGSIb3DQEBCwUAMIGxMQswCQYD
+			VQQGEwJJVDENMAsGA1UECAwEUm9tYTERMA8GA1UEBwwIR2FsdGVsbGkxETAPBgNV
+			BAoMCEdhbHRlbGxpMRAwDgYDVQQLDAdEaWdpdElEMSYwJAYDVQQDDB1nYWx0ZWxs
+			aS5jb211bmUucGx1Z2FuZHBheS5pdDEzMDEGCSqGSIb3DQEJARYkcHJvdG9jb2xs
+			b0BwZWMuY29tdW5lLmdhbHRlbGxpLm51Lml0MB4XDTI0MDYyNDA5NTQxM1oXDTI3
+			MDYyNDA5NTQxM1owgbExCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMREwDwYD
+			VQQHDAhHYWx0ZWxsaTERMA8GA1UECgwIR2FsdGVsbGkxEDAOBgNVBAsMB0RpZ2l0
+			SUQxJjAkBgNVBAMMHWdhbHRlbGxpLmNvbXVuZS5wbHVnYW5kcGF5Lml0MTMwMQYJ
+			KoZIhvcNAQkBFiRwcm90b2NvbGxvQHBlYy5jb211bmUuZ2FsdGVsbGkubnUuaXQw
+			ggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDvZl1moS9w2xhVN0I2D0/j
+			Ux1BDi2lmkFj9K9VdGvoiqo6iPVBEzUhOS9/DQiNaPCbS3JGVNbgfcVcLXdNfayB
+			OlJ+UHiLTEKbTwSrpu+iGguBK9lefuBRmNkpnit3smdHrkvub+BkIra+8pp100/c
+			hjcfiBrFc5yOIQauKWhO+8y7yQlFs9CrpdD4zHjV6/P22eO0kfN2qfx26y0te8Xh
+			mk7y8gu3JteE1kCyoe+axSJWHaP4Q2i2xvacDxG84QarfDH5l+ryraZ3fxqo3dPS
+			yaJkvPlXHMhIPGck8fwMVT2sMBYDkFPl02AeCxEvY59UF180x+lE7OhA5OieAulY
+			+8RgX1//8biQgMts685gAmf1tdvBX/5wBlU5D1mT7TzwkBkXWunV4WXn58p/moO+
+			cU6ilGmcrxdMeIuG0cTHP2r8D6zwuQFvXh47KTC6dji9iw6ATqQFE+grETCfhQjg
+			hk07vWapvkT9jqCmlmXbm8MWI/hcF111Qm1oeGbbCksMovPqn9hV9rhElS4522+/
+			qk5ziA2XiASKIo2zMzQgYT+BeVogeJ1p9VwEypV/KrN68QN5r6cYXZ5q2z7Hcv29
+			okZI3NYQEphaonUnS+qo5LmJikuCvYjHX5fTjT/az2I3il6DiMFy/Ru1w5N+JbEQ
+			pcVxn43kaKgMAXhU3T6tHQIDAQABo1MwUTAdBgNVHQ4EFgQUexcZBFfm2XwrI5ao
+			QGFBtsAxatYwHwYDVR0jBBgwFoAUexcZBFfm2XwrI5aoQGFBtsAxatYwDwYDVR0T
+			AQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAgsfPeO3Uj0s2WsQRYzr1BR5V
+			Ma5NSa4d0My8MOFI+D+eJhV0XxIMN0sbtOrh0O17GSLxsE+g2qOy6kDya3JoRqpf
+			l/lWiP5UwTODwSAhTKqXhw+GR+CSX5CnLdvx7b1+xIjISRCKIjja0lPITaIJP2Rc
+			1AC8Az71N3ZwB09MW9GZo2ZhE+68h1u2RG8KrIzEC7vQJnlx0+ATT+2iL6Sm2+Sc
+			mj/am527sbx/lUlRVO0vFmzkngL0gqqWNO6KLazYv+UMkPT26mq7qhLlNoTksDS2
+			ndukP2YjtDzvlaGB/nUOVhajBb2MWXMtzsC/AnexKN7Xcj5Yd5AEF8NmjM6jTcp6
+			ydhX7bKpai/IWD35FRB5I7fbcgyk9NZLb6W1M6wVCfeJqRpyEBcD6Mf0uyX9twTs
+			I3lvNOsRFguE8NNyPGH6FgWIeulE6JyNbpzP0SjsvbipCtvSroRQ0B+v9Pjly4PQ
+			wGGOODQ3ZNAfsc+sPhMz4qUMaEbzJZthlgwZqEtDQUjkiHKRoYXlBGty02I3t0Eq
+			laCa5EL4hKPB3Kz7HSUSOaF31BuccjNcdkhqTgeeU0uHZZV8OUHXJXQwVWVlzDGQ
+			9Z/woI/NmXU4orAW+h3rPSZWMvD7pt/A4+uSG/QNaH1K92WM0/gfP2bnqGsIpVDa
+			JWCCH1Z/A2Hvtqg2PM8=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://galtelli.comune.plugandpay.it/spidslo"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idppaproxy.plugandpay.it/spidslo/fc7461ce-6b96-4361-986d-1f001c472361/c_d888"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://galtelli.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idppaproxy.plugandpay.it/spidacs/fc7461ce-6b96-4361-986d-1f001c472361/c_d888" index="1" isDefault="false"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>
+	<md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Comune di Galtelli</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService> 	
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Galtelli</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Galtelli</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.comune.galtelli.nu.it/it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_d888</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Galtelli</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>
