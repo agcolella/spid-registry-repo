@@ -1,11 +1,9 @@
 name: Validate SPID Metadata
-
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   discover:
     name: Discover metadata files
@@ -15,7 +13,6 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - id: set-matrix
         run: |
           if ls metadata/*.xml 1> /dev/null 2>&1; then
@@ -24,33 +21,28 @@ jobs:
             files="[]"
           fi
           echo "files=$files" >> $GITHUB_OUTPUT
-
   validate:
     name: Validate metadata
     needs: discover
-    if: ${{ fromJson(needs.discover.outputs.files) != [] }}
+    if: ${{ needs.discover.outputs.files != '[]' }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         file: ${{ fromJson(needs.discover.outputs.files) }}
-
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Install dependencies
         run: |
           sudo apt-get update
           sudo apt-get install -y xmlsec1 openssl jq
           python3 -m pip install --upgrade pip
           pip install lxml cryptography certifi
-
       - name: Run QAD validation
         run: |
           echo "🔎 Validating ${{ matrix.file }}"
           python3 scripts/validate_metadata_qad.py "${{ matrix.file }}"
-
   report:
     name: Generate validation report
     needs: [discover, validate]
@@ -59,10 +51,8 @@ jobs:
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
-
       - name: Install Python deps
         run: pip install lxml
-
       - name: Collect validation results
         run: |
           mkdir -p results
@@ -78,11 +68,9 @@ jobs:
           else
             echo "Nessun metadata presente" > results/results.txt
           fi
-
       - name: Generate HTML report
         run: |
           python3 scripts/generate_status_html.py results/results.txt status.html
-
       - name: Deploy status.html to GitHub Pages
         uses: peaceiris/actions-gh-pages@v3
         with:
