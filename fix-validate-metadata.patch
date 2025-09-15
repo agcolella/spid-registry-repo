@@ -1,0 +1,15 @@
+--- a/scripts/validate_metadata_qad.py
++++ b/scripts/validate_metadata_qad.py
+@@ def main():
+-    parser = etree.XMLParser(remove_blank_text=True)
+-    tree = etree.parse(xmlfile, parser)
+-    root = tree  # ❌ root era l'albero completo, non l'elemento radice
+-
+-    ca_bundle = certifi.where()
+-    errors = run_qad_checks(root, xmlfile, ca_bundle)
++    parser = etree.XMLParser(remove_blank_text=True)
++    tree = etree.parse(xmlfile, parser)
++    root = tree.getroot()  # ✅ Element radice corretto
++
++    ca_bundle = certifi.where()
++    errors = run_qad_checks(root, xmlfile, ca_bundle)

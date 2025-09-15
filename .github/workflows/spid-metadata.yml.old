@@ -1,50 +1,71 @@
-name: SPID Metadata Pipeline (senza firma)
+name: Validate and publish SPID Metadata
 
 on:
   push:
-    branches:
-      - main
-    paths:
-      - "metadata/*.xml"
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
 
 jobs:
-  validate-publish:
+  discover:
     runs-on: ubuntu-latest
+    outputs:
+      files: ${{ steps.set-matrix.outputs.files }}
     steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Install dependencies
-        run: |
-          sudo apt-get update
-          sudo apt-get install -y libxml2-utils
-          python3 -m pip install --upgrade pip
-          pip install -r requirements.txt
+    - id: set-matrix
+      run: |
+        files=$(ls metadata/*.xml | jq -R -s -c 'split("\n")[:-1]')
+        echo "files=$files" >> $GITHUB_OUTPUT
 
-      - name: Validate metadata (XSD)
-        run: |
-          for f in metadata/*.xml; do
-            xmllint --noout --schema schemas/spid-metadata.xsd "$f"
-          done
+  validate:
+    needs: discover
+    runs-on: ubuntu-latest
+    strategy:
+      fail-fast: false
+      matrix:
+        file: ${{ fromJson(needs.discover.outputs.files) }}
 
-      - name: Semantic validation (QAD checks)
-        run: |
-          for f in metadata/*.xml; do
-            python scripts/validate_metadata.py "$f"
-          done
+    steps:
+    - name: Checkout repo
+      uses: actions/checkout@v3
 
-      - name: Check entityID duplicates
-        run: |
-          python scripts/check_entityid_unique.py
+    - name: Install dependencies
+      run: |
+        sudo apt-get update
+        sudo apt-get install -y xmlsec1 openssl jq
+        python3 -m pip install lxml cryptography certifi
 
-      - name: Publish to GitHub Pages
-        run: |
-          rm -rf public || true
-          mkdir -p public/metadata
-          cp metadata/*.xml public/metadata/
-          touch public/.nojekyll
-          git config user.name "github-actions"
-          git config user.email "actions@github.com"
-          git add public
-          git commit -m "Aggiornati metadata validati [ci skip]" || echo "nothing to commit"
-          git push origin `git subtree split --prefix public main`:gh-pages --force
+    - name: Validate SPID metadata with QAD rules
+      run: |
+        echo "🔎 Validating ${{ matrix.file }}"
+        python3 scripts/validate_metadata_qad.py "${{ matrix.file }}"
+
+    - name: Collect results
+      if: always()
+      run: |
+        mkdir -p results
+        for f in metadata/*.xml; do
+          echo "Processing $f"
+          if python3 scripts/validate_metadata_qad.py "$f" > out.log 2>&1; then
+            echo "$f;OK;Valid" >> results/results.txt
+          else
+            details=$(tail -n 5 out.log | tr '\n' ' ')
+            echo "$f;FAIL;$details" >> results/results.txt
+          fi
+        done
+
+    - name: Generate HTML report
+      run: |
+        python3 scripts/generate_status_html.py results/results.txt status.html
+
+    - name: Deploy status.html to GitHub Pages
+      uses: peaceiris/actions-gh-pages@v3
+      with:
+        github_token: ${{ secrets.GITHUB_TOKEN }}
+        publish_dir: ./
+        publish_branch: gh-pages
+        force_orphan: true
+        keep_files: false
