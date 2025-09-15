@@ -1,3 +1,9 @@
+# SPID Metadata Registry
+
+[![Validate and publish SPID Metadata](https://github.com/agcolella/spid-registry-repo/actions/workflows/spid-metadata.yml/badge.svg)](https://github.com/<ORG>/<REPO>/actions/workflows/spid-metadata.yml)
+
+
+
 # Registro SPID – Pipeline CI/CD (senza firma digitale)
 
 Questo repository gestisce la **validazione e pubblicazione** dei metadata SPID.  
