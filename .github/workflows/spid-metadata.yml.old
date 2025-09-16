@@ -1,71 +1,81 @@
-name: Validate and publish SPID Metadata
-
+name: Validate SPID Metadata
 on:
   push:
     branches: [ main ]
   pull_request:
     branches: [ main ]
-
 jobs:
   discover:
+    name: Discover metadata files
     runs-on: ubuntu-latest
     outputs:
       files: ${{ steps.set-matrix.outputs.files }}
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
-
-    - id: set-matrix
-      run: |
-        files=$(ls metadata/*.xml | jq -R -s -c 'split("\n")[:-1]')
-        echo "files=$files" >> $GITHUB_OUTPUT
-
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - id: set-matrix
+        run: |
+          if ls metadata/*.xml 1> /dev/null 2>&1; then
+            files=$(ls metadata/*.xml | jq -R -s -c 'split("\n")[:-1]')
+          else
+            files="[]"
+          fi
+          echo "files=$files" >> $GITHUB_OUTPUT
   validate:
+    name: Validate metadata
     needs: discover
+    if: ${{ needs.discover.outputs.files != '[]' }}
     runs-on: ubuntu-latest
     strategy:
       fail-fast: false
       matrix:
         file: ${{ fromJson(needs.discover.outputs.files) }}
-
     steps:
-    - name: Checkout repo
-      uses: actions/checkout@v3
-
-    - name: Install dependencies
-      run: |
-        sudo apt-get update
-        sudo apt-get install -y xmlsec1 openssl jq
-        python3 -m pip install lxml cryptography certifi
-
-    - name: Validate SPID metadata with QAD rules
-      run: |
-        echo "🔎 Validating ${{ matrix.file }}"
-        python3 scripts/validate_metadata_qad.py "${{ matrix.file }}"
-
-    - name: Collect results
-      if: always()
-      run: |
-        mkdir -p results
-        for f in metadata/*.xml; do
-          echo "Processing $f"
-          if python3 scripts/validate_metadata_qad.py "$f" > out.log 2>&1; then
-            echo "$f;OK;Valid" >> results/results.txt
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y xmlsec1 openssl jq
+          python3 -m pip install --upgrade pip
+          pip install lxml cryptography certifi
+      - name: Run QAD validation
+        run: |
+          echo "🔎 Validating ${{ matrix.file }}"
+          python3 scripts/validate_metadata_qad.py "${{ matrix.file }}"
+  report:
+    name: Generate validation report
+    needs: [discover, validate]
+    runs-on: ubuntu-latest
+    if: always()
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v3
+      - name: Install Python deps
+        run: pip install lxml
+      - name: Collect validation results
+        run: |
+          mkdir -p results
+          if ls metadata/*.xml 1> /dev/null 2>&1; then
+            for f in metadata/*.xml; do
+              if python3 scripts/validate_metadata_qad.py "$f" > out.log 2>&1; then
+                echo "$f;OK;Valid" >> results/results.txt
+              else
+                details=$(tail -n 5 out.log | tr '\n' ' ')
+                echo "$f;FAIL;$details" >> results/results.txt
+              fi
+            done
           else
-            details=$(tail -n 5 out.log | tr '\n' ' ')
-            echo "$f;FAIL;$details" >> results/results.txt
+            echo "Nessun metadata presente" > results/results.txt
           fi
-        done
-
-    - name: Generate HTML report
-      run: |
-        python3 scripts/generate_status_html.py results/results.txt status.html
-
-    - name: Deploy status.html to GitHub Pages
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./
-        publish_branch: gh-pages
-        force_orphan: true
-        keep_files: false
+      - name: Generate HTML report
+        run: |
+          python3 scripts/generate_status_html.py results/results.txt status.html
+      - name: Deploy status.html to GitHub Pages
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./
+          publish_branch: gh-pages
+          force_orphan: true
+          keep_files: false
