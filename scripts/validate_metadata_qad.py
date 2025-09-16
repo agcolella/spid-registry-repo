@@ -4,7 +4,7 @@ validate_metadata_qad.py
 
 Validatore SPID Metadata secondo QAD.
 Esegue controlli sintattici e semantici, verifica della firma XML
-e della catena dei certificati.
+(opzionale se xmlsec1 è disponibile) e scadenza dei certificati.
 
 Usage:
     python scripts/validate_metadata_qad.py <metadata.xml>
@@ -13,11 +13,11 @@ Usage:
 import os
 import sys
 import subprocess
+import shutil
 from datetime import datetime
 from lxml import etree
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
-import certifi
 
 # Namespaces comuni
 NSMAP = {
@@ -68,25 +68,25 @@ def check_signature(xmlfile, errors):
         errors.append(f"[Firma] Errore durante verifica firma: {e}")
 
 
-def check_certificates(root, ca_bundle, errors):
-    """Estrae certificati e verifica chain + scadenza."""
+def check_certificates(root, errors):
+    """Estrae certificati e controlla la scadenza (self-signed accettati)."""
     certs = root.findall(".//ds:X509Certificate", NSMAP)
     for idx, node in enumerate(certs, start=1):
         try:
-            pem = "-----BEGIN CERTIFICATE-----\n" + node.text.strip() + "\n-----END CERTIFICATE-----\n"
+            pem = (
+                "-----BEGIN CERTIFICATE-----\n"
+                + node.text.strip()
+                + "\n-----END CERTIFICATE-----\n"
+            )
             cert = x509.load_pem_x509_certificate(pem.encode(), default_backend())
             # scadenza
             if cert.not_valid_after < datetime.utcnow():
                 errors.append(f"[Cert {idx}] Certificato scaduto il {cert.not_valid_after} ❌")
-            # chain minima: trust store presente
-            # (qui simuliamo: in un contesto reale dovremmo validare la CA)
-            with open(ca_bundle, "rb") as caf:
-                caf.read()
         except Exception as e:
             errors.append(f"[Cert {idx}] Errore parsing certificato: {e}")
 
 
-def run_qad_checks(root, xmlfile, ca_bundle):
+def run_qad_checks(root, xmlfile):
     errors = []
 
     if root.tag is None or not root.tag.endswith("EntityDescriptor"):
@@ -112,8 +112,8 @@ def run_qad_checks(root, xmlfile, ca_bundle):
     # Firma XML
     check_signature(xmlfile, errors)
 
-    # Certificati
-    check_certificates(root, ca_bundle, errors)
+    # Certificati (solo scadenza)
+    check_certificates(root, errors)
 
     return errors
 
@@ -129,9 +129,7 @@ def main():
         sys.exit(1)
 
     root = parse_xml(xmlfile)
-    ca_bundle = certifi.where()
-
-    errors = run_qad_checks(root, xmlfile, ca_bundle)
+    errors = run_qad_checks(root, xmlfile)
 
     if errors:
         print(f"--- ERRORI in {xmlfile} ---")
@@ -144,5 +142,4 @@ def main():
 
 
 if __name__ == "__main__":
-    import shutil
     main()
