@@ -177,32 +177,23 @@ jobs:
           echo "          </body>" >> gh-pages_index.html
           echo "          </html>" >> gh-pages_index.html
 
-      - name: Setup Git user
+      - name: Prepare GitHub Pages content
         if: always()
         run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
-
-      - name: Deploy to gh-pages
-        if: always()
-        run: |
-          git fetch origin
-          git checkout gh-pages || git checkout --orphan gh-pages
-          
-          # Pulisci completamente il branch gh-pages
-          git rm -rf . 2>/dev/null || true
-          rm -rf .* 2>/dev/null || true
+          # Crea una directory pulita per GitHub Pages
+          mkdir -p gh-pages-deploy
+          cd gh-pages-deploy
           
           # Crea .nojekyll per disabilitare Jekyll
           touch .nojekyll
           
-          # Copia solo i file necessari per il sito
+          # Copia i file validati (se esistono)
           if [ "$(ls -A ../validated/ 2>/dev/null)" ]; then
             cp -r ../validated/* . || true
           fi
           
           # Copia sempre il report e l'index
-          cp ../reports/report.log . || echo "No report found"
+          cp ../reports/report.log . || echo "Missing report, creating placeholder" > report.log
           cp ../gh-pages_index.html index.html
           
           # Crea un README semplice
@@ -211,12 +202,18 @@ jobs:
           
           Questo repository contiene i metadata SPID validati automaticamente.
           
-          - [Visualizza il sito](https://TUOUSERNAME.github.io/TWOREPOSITORY/)
+          - [Visualizza il registry](index.html)
           - [Report di validazione](report.log)
-          EOF
           
-          git add .
-          git commit -m "Update metadata validation report [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages --force
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          Aggiornato automaticamente via GitHub Actions.
+          EOF
+
+      - name: Deploy to GitHub Pages
+        if: always()
+        uses: peaceiris/actions-gh-pages@v3
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: ./gh-pages-deploy
+          force_orphan: true
+          enable_jekyll: false
+          cname: false
