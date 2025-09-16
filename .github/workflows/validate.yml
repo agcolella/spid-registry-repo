@@ -188,19 +188,35 @@ jobs:
         run: |
           git fetch origin
           git checkout gh-pages || git checkout --orphan gh-pages
-          rm -rf ./*
           
-          # Copia i file validati (se esistono)
-          if [ "$(ls -A validated/ 2>/dev/null)" ]; then
-            cp -r validated/* . || true
+          # Pulisci completamente il branch gh-pages
+          git rm -rf . 2>/dev/null || true
+          rm -rf .* 2>/dev/null || true
+          
+          # Crea .nojekyll per disabilitare Jekyll
+          touch .nojekyll
+          
+          # Copia solo i file necessari per il sito
+          if [ "$(ls -A ../validated/ 2>/dev/null)" ]; then
+            cp -r ../validated/* . || true
           fi
           
           # Copia sempre il report e l'index
-          cp reports/report.log . || echo "No report found"
-          cp gh-pages_index.html index.html
+          cp ../reports/report.log . || echo "No report found"
+          cp ../gh-pages_index.html index.html
+          
+          # Crea un README semplice
+          cat > README.md <<'EOF'
+          # SPID Metadata Registry
+          
+          Questo repository contiene i metadata SPID validati automaticamente.
+          
+          - [Visualizza il sito](https://TUOUSERNAME.github.io/TWOREPOSITORY/)
+          - [Report di validazione](report.log)
+          EOF
           
           git add .
           git commit -m "Update metadata validation report [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages --force
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
