@@ -81,7 +81,7 @@ jobs:
 
           for f in validated/*.xml; do
             DATE=$(date +"%Y-%m-%d")
-            echo "<tr><td><a href=\"$f\">$(basename $f)</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
+            echo "<tr><td><a href=\"$(basename $f)\">$(basename $f)</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
           done
 
           cat >> gh-pages_index.html <<'EOF'
@@ -112,6 +112,7 @@ jobs:
           cp -r ../validated/* .
           cp ../reports/report.log .
           cp ../gh-pages_index.html index.html
+          touch .nojekyll   # ✅ disabilita Jekyll su GitHub Pages
           git add .
           git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
