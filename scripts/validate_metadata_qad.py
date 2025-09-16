@@ -14,7 +14,7 @@ import os
 import sys
 import subprocess
 import shutil
-from datetime import datetime, UTC
+from datetime import datetime, timezone
 from lxml import etree
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
@@ -79,8 +79,8 @@ def check_certificates(root, errors):
                 + "\n-----END CERTIFICATE-----\n"
             )
             cert = x509.load_pem_x509_certificate(pem.encode(), default_backend())
-            # controllo scadenza con not_valid_after_utc
-            if cert.not_valid_after_utc < datetime.now(UTC):
+            # controllo scadenza con not_valid_after_utc + timezone.utc
+            if cert.not_valid_after_utc < datetime.now(timezone.utc):
                 errors.append(f"[Cert {idx}] Certificato scaduto il {cert.not_valid_after_utc} ❌")
         except Exception as e:
             errors.append(f"[Cert {idx}] Errore parsing certificato: {e}")
