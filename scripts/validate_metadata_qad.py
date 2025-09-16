@@ -68,6 +68,7 @@ def check_signature(xmlfile):
         print(f"[WARN] Errore durante verifica firma: {e}")
 
 
+
 def check_certificates(root, errors):
     """Estrae certificati e controlla la scadenza (self-signed accettati)."""
     certs = root.findall(".//ds:X509Certificate", NSMAP)
@@ -79,9 +80,10 @@ def check_certificates(root, errors):
                 + "\n-----END CERTIFICATE-----\n"
             )
             cert = x509.load_pem_x509_certificate(pem.encode(), default_backend())
-            # controllo scadenza con not_valid_after_utc + timezone.utc
-            if cert.not_valid_after_utc < datetime.now(timezone.utc):
-                errors.append(f"[Cert {idx}] Certificato scaduto il {cert.not_valid_after_utc} ❌")
+            # compatibile con tutte le versioni
+            expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
+            if expiry < datetime.now(timezone.utc):
+                errors.append(f"[Cert {idx}] Certificato scaduto il {expiry} ❌")
         except Exception as e:
             errors.append(f"[Cert {idx}] Errore parsing certificato: {e}")
 
