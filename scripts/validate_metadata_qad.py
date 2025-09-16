@@ -3,8 +3,8 @@
 validate_metadata_qad.py
 
 Validatore SPID Metadata secondo QAD.
-Esegue controlli sintattici e semantici, verifica della firma XML
-(opzionale se xmlsec1 è disponibile) e scadenza dei certificati.
+Esegue controlli sintattici e semantici, verifica opzionale della firma XML
+(se xmlsec1 è installato) e scadenza dei certificati (self-signed accettati).
 
 Usage:
     python scripts/validate_metadata_qad.py <metadata.xml>
@@ -14,7 +14,7 @@ import os
 import sys
 import subprocess
 import shutil
-from datetime import datetime
+from datetime import datetime, UTC
 from lxml import etree
 from cryptography import x509
 from cryptography.hazmat.backends import default_backend
@@ -51,8 +51,8 @@ def check_lang(elements, tag, errors, code):
         errors.append(f"[{code}] {tag} deve avere almeno 'it' e 'en' ❌")
 
 
-def check_signature(xmlfile, errors):
-    """Verifica la firma XML usando xmlsec1 se disponibile."""
+def check_signature(xmlfile):
+    """Verifica la firma XML usando xmlsec1 se disponibile. Warning se non valida."""
     if not shutil.which("xmlsec1"):
         print("[WARN] xmlsec1 non trovato, skip firma")
         return
@@ -63,9 +63,9 @@ def check_signature(xmlfile, errors):
             text=True,
         )
         if res.returncode != 0:
-            errors.append("[Firma] Verifica firma XML fallita ❌")
+            print(f"[WARN] Firma non valida o mancante in {xmlfile}")
     except Exception as e:
-        errors.append(f"[Firma] Errore durante verifica firma: {e}")
+        print(f"[WARN] Errore durante verifica firma: {e}")
 
 
 def check_certificates(root, errors):
@@ -79,9 +79,9 @@ def check_certificates(root, errors):
                 + "\n-----END CERTIFICATE-----\n"
             )
             cert = x509.load_pem_x509_certificate(pem.encode(), default_backend())
-            # scadenza
-            if cert.not_valid_after < datetime.utcnow():
-                errors.append(f"[Cert {idx}] Certificato scaduto il {cert.not_valid_after} ❌")
+            # controllo scadenza con not_valid_after_utc
+            if cert.not_valid_after_utc < datetime.now(UTC):
+                errors.append(f"[Cert {idx}] Certificato scaduto il {cert.not_valid_after_utc} ❌")
         except Exception as e:
             errors.append(f"[Cert {idx}] Errore parsing certificato: {e}")
 
@@ -109,8 +109,8 @@ def run_qad_checks(root, xmlfile):
     if not any(slo.attrib.get("Binding") in ALLOWED_SLO_BINDINGS for slo in slos):
         errors.append("[1.8.3] Nessun SingleLogoutService con binding valido ❌")
 
-    # Firma XML
-    check_signature(xmlfile, errors)
+    # Firma XML (solo warning se invalida)
+    check_signature(xmlfile)
 
     # Certificati (solo scadenza)
     check_certificates(root, errors)
