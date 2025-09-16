@@ -1,5 +1,4 @@
 name: Validate SPID Metadata
-
 on:
   push:
     paths:
@@ -7,46 +6,106 @@ on:
   pull_request:
     paths:
       - "metadata/**.xml"
-
 permissions:
   contents: write   # ✅ necessario per push su gh-pages
-
 jobs:
   validate:
     runs-on: ubuntu-latest
-
     steps:
       - name: Checkout repo
         uses: actions/checkout@v4
-
       - name: Setup Python
         uses: actions/setup-python@v5
         with:
           python-version: "3.11"
-
       - name: Install dependencies
         run: |
           pip install lxml xmlsec cryptography
-
       - name: Run metadata validation
+        continue-on-error: true  # ✅ Non blocca il workflow anche se fallisce
         run: |
           mkdir -p validated reports
           echo "=== Validation Report ===" > reports/report.log
-          EXIT_CODE=0
+          echo "Generated at: $(date)" >> reports/report.log
+          echo "" >> reports/report.log
+          
+          TOTAL_FILES=0
+          VALID_FILES=0
+          INVALID_FILES=0
+          
           for f in metadata/*.xml; do
+            if [ ! -f "$f" ]; then
+              echo "No XML files found in metadata directory" >> reports/report.log
+              break
+            fi
+            
+            TOTAL_FILES=$((TOTAL_FILES + 1))
             echo "🔎 Validating $f"
-            python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1
-            if [ $? -eq 0 ]; then
+            echo "--- Validating $(basename $f) ---" >> reports/report.log
+            
+            if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
               echo "✅ $f is valid"
-              cp "$f" validated/
+              echo "✅ $(basename $f): VALID" >> reports/report.log
+              cp "$f" validated/ || echo "Failed to copy $f"
+              VALID_FILES=$((VALID_FILES + 1))
             else
               echo "❌ $f has errors"
-              EXIT_CODE=1
+              echo "❌ $(basename $f): INVALID" >> reports/report.log
+              INVALID_FILES=$((INVALID_FILES + 1))
             fi
+            echo "" >> reports/report.log
           done
-          exit 0   # 👉 non blocca il job, anche con errori
+          
+          # Aggiungi summary al report
+          echo "=== SUMMARY ===" >> reports/report.log
+          echo "Total files: $TOTAL_FILES" >> reports/report.log
+          echo "Valid files: $VALID_FILES" >> reports/report.log
+          echo "Invalid files: $INVALID_FILES" >> reports/report.log
+          
+          # Salva le statistiche per gli step successivi
+          echo "TOTAL_FILES=$TOTAL_FILES" >> $GITHUB_ENV
+          echo "VALID_FILES=$VALID_FILES" >> $GITHUB_ENV
+          echo "INVALID_FILES=$INVALID_FILES" >> $GITHUB_ENV
 
+  generate_report:
+    runs-on: ubuntu-latest
+    needs: validate
+    if: always()  # ✅ Esegue SEMPRE, anche se validate fallisce
+    steps:
+      - name: Checkout repo
+        uses: actions/checkout@v4
+      - name: Download artifacts from validation
+        run: |
+          # Ricrea le directory anche se validate è fallito
+          mkdir -p validated reports
+          
+          # Se validate è fallito, crea un report di base
+          if [ ! -f reports/report.log ]; then
+            echo "=== Validation Report ===" > reports/report.log
+            echo "Generated at: $(date)" >> reports/report.log
+            echo "❌ Validation step failed or was skipped" >> reports/report.log
+            echo "" >> reports/report.log
+            
+            # Prova comunque a validare i file per il report
+            if ls metadata/*.xml 1> /dev/null 2>&1; then
+              pip install lxml xmlsec cryptography
+              for f in metadata/*.xml; do
+                echo "--- Validating $(basename $f) ---" >> reports/report.log
+                if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
+                  echo "✅ $(basename $f): VALID" >> reports/report.log
+                  cp "$f" validated/ 2>/dev/null || true
+                else
+                  echo "❌ $(basename $f): INVALID" >> reports/report.log
+                fi
+                echo "" >> reports/report.log
+              done
+            else
+              echo "No XML files found in metadata directory" >> reports/report.log
+            fi
+          fi
+          
       - name: Generate index.html
+        if: always()
         run: |
           cat > gh-pages_index.html <<'EOF'
           <!DOCTYPE html>
@@ -57,6 +116,10 @@ jobs:
             <style>
               body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
               h1 { color: #2c3e50; }
+              .status { padding: 10px; border-radius: 5px; margin: 1em 0; }
+              .success { background: #d4edda; border: 1px solid #c3e6cb; color: #155724; }
+              .warning { background: #fff3cd; border: 1px solid #ffeaa7; color: #856404; }
+              .error { background: #f8d7da; border: 1px solid #f5c6cb; color: #721c24; }
               table { border-collapse: collapse; width: 100%; margin-top: 1em; }
               th, td { padding: 8px 12px; border: 1px solid #ccc; }
               th { background: #34495e; color: #fff; text-align: left; }
@@ -65,55 +128,79 @@ jobs:
             </style>
           </head>
           <body>
-            <h1>Registro SPID - Metadata Validati ✅</h1>
+            <h1>Registro SPID - Metadata Validati</h1>
+          EOF
+          
+          # Aggiungi status basato sui file validati
+          if [ "$(ls -A validated/ 2>/dev/null)" ]; then
+            VALID_COUNT=$(ls validated/*.xml 2>/dev/null | wc -l)
+            echo "<div class=\"status success\">✅ $VALID_COUNT metadata validati con successo</div>" >> gh-pages_index.html
+          else
+            echo "<div class=\"status error\">❌ Nessun metadata validato</div>" >> gh-pages_index.html
+          fi
+          
+          cat >> gh-pages_index.html <<'EOF'
             <p>Questa pagina elenca i metadata validati e pubblicati automaticamente tramite pipeline CI/CD.</p>
-
             <h2>Metadata disponibili</h2>
             <table>
               <thead>
                 <tr>
                   <th>Nome file</th>
                   <th>Ultimo aggiornamento</th>
+                  <th>Stato</th>
                 </tr>
               </thead>
               <tbody>
           EOF
-
-          for f in validated/*.xml; do
-            DATE=$(date +"%Y-%m-%d")
-            echo "<tr><td><a href=\"$f\">$(basename $f)</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
-          done
-
+          
+          if [ "$(ls -A validated/ 2>/dev/null)" ]; then
+            for f in validated/*.xml; do
+              DATE=$(date +"%Y-%m-%d")
+              echo "<tr><td><a href=\"$(basename $f)\">$(basename $f)</a></td><td>$DATE</td><td>✅ Valid</td></tr>" >> gh-pages_index.html
+            done
+          else
+            echo "<tr><td colspan=\"3\">Nessun metadata validato disponibile</td></tr>" >> gh-pages_index.html
+          fi
+          
           cat >> gh-pages_index.html <<'EOF'
               </tbody>
             </table>
-
             <h2>Report di validazione</h2>
             <p><a href="report.log">📄 Scarica il report completo</a></p>
-
             <div class="footer">
               Generato automaticamente dal workflow GitHub Actions →
-              <code>gh-pages</code>
-            </div>
-          </body>
-          </html>
+              <code>gh-pages</code><br>
+              Last update: 
           EOF
+          echo "$(date)" >> gh-pages_index.html
+          echo "            </div>" >> gh-pages_index.html
+          echo "          </body>" >> gh-pages_index.html
+          echo "          </html>" >> gh-pages_index.html
 
       - name: Setup Git user
+        if: always()
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-      - name: Deploy validated metadata to gh-pages
+      - name: Deploy to gh-pages
+        if: always()
         run: |
           git fetch origin
           git checkout gh-pages || git checkout --orphan gh-pages
           rm -rf ./*
-          cp -r ../validated/* .
-          cp ../reports/report.log .
-          cp ../gh-pages_index.html index.html
+          
+          # Copia i file validati (se esistono)
+          if [ "$(ls -A validated/ 2>/dev/null)" ]; then
+            cp -r validated/* . || true
+          fi
+          
+          # Copia sempre il report e l'index
+          cp reports/report.log . || echo "No report found"
+          cp gh-pages_index.html index.html
+          
           git add .
-          git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
+          git commit -m "Update metadata validation report [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
