@@ -111,12 +111,13 @@ jobs:
           git fetch origin
           git checkout gh-pages || git checkout --orphan gh-pages
           rm -rf ./*
-          cp -r ../validated/* .
-          cp ../reports/report.log .
-          cp ../gh-pages_index.html index.html
-          touch .nojekyll   # ✅ disabilita Jekyll su GitHub Pages
+          cp -r validated/* . || echo "⚠️ Nessun metadata valido trovato"
+          cp reports/report.log .
+          cp gh-pages_index.html index.html
+          touch .nojekyll
           git add .
           git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
