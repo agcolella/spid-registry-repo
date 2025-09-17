@@ -30,76 +30,20 @@ jobs:
 
       - name: Run metadata validation
         run: |
-          set +e   # 👈 disabilita 'exit on error'
-          mkdir -p validated reports
+          mkdir -p validated reports .gh-pages-tmp
           echo "=== Validation Report ===" > reports/report.log
-          EXIT_CODE=0
+          set +e   # non fermarti al primo errore
           for f in metadata/*.xml; do
             echo "🔎 Validating $f"
-            python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1
-            if [ $? -eq 0 ]; then
+            if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
               echo "✅ $f is valid"
               cp "$f" validated/
             else
               echo "❌ $f has errors"
-              EXIT_CODE=1
             fi
           done
-          exit 0
-
-
-      - name: Generate index.html
-        run: |
-          cat > gh-pages_index.html <<'EOF'
-          <!DOCTYPE html>
-          <html lang="it">
-          <head>
-            <meta charset="UTF-8">
-            <title>Registro SPID - Metadata Validati</title>
-            <style>
-              body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
-              h1 { color: #2c3e50; }
-              table { border-collapse: collapse; width: 100%; margin-top: 1em; }
-              th, td { padding: 8px 12px; border: 1px solid #ccc; }
-              th { background: #34495e; color: #fff; text-align: left; }
-              tr:nth-child(even) { background: #ecf0f1; }
-              .footer { margin-top: 2em; font-size: 0.9em; color: #777; }
-            </style>
-          </head>
-          <body>
-            <h1>Registro SPID - Metadata Validati ✅</h1>
-            <p>Questa pagina elenca i metadata validati e pubblicati automaticamente tramite pipeline CI/CD.</p>
-
-            <h2>Metadata disponibili</h2>
-            <table>
-              <thead>
-                <tr>
-                  <th>Nome file</th>
-                  <th>Ultimo aggiornamento</th>
-                </tr>
-              </thead>
-              <tbody>
-          EOF
-
-          for f in validated/*.xml; do
-            DATE=$(date +"%Y-%m-%d")
-            echo "<tr><td><a href=\"$(basename $f)\">$(basename $f)</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
-          done
-
-          cat >> gh-pages_index.html <<'EOF'
-              </tbody>
-            </table>
-
-            <h2>Report di validazione</h2>
-            <p><a href="report.log">📄 Scarica il report completo</a></p>
-
-            <div class="footer">
-              Generato automaticamente dal workflow GitHub Actions →
-              <code>gh-pages</code>
-            </div>
-          </body>
-          </html>
-          EOF
+          # Salva gli output in una cartella temporanea (sopravvive al checkout gh-pages)
+          cp -r validated reports gh-pages_index.html .gh-pages-tmp/
 
       - name: Setup Git user
         run: |
@@ -111,13 +55,16 @@ jobs:
           git fetch origin
           git checkout gh-pages || git checkout --orphan gh-pages
           rm -rf ./*
-          cp -r validated/* . || echo "⚠️ Nessun metadata valido trovato"
-          cp reports/report.log .
-          cp gh-pages_index.html index.html
-          touch .nojekyll
+
+          # Recupera i file dalla cartella temporanea
+          cp -r .gh-pages-tmp/validated/* . 2>/dev/null || echo "⚠️ Nessun metadata valido trovato"
+          cp .gh-pages-tmp/reports/report.log . 2>/dev/null || echo "⚠️ Nessun report trovato"
+          cp .gh-pages-tmp/gh-pages_index.html index.html || echo "⚠️ Nessun index generato"
+
+          touch .nojekyll   # ✅ disabilita Jekyll su GitHub Pages
+
           git add .
           git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
           git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
