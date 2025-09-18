@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<EntityDescriptor xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid.comune.bergamo.it" ID="https___spid_comune_bergamo_it"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI="#https___spid_comune_bergamo_it"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>43o14TnqNeY8pcyQFCOhad+STfSJ+pLsRCKFG+cof2E=</DigestValue></Reference></SignedInfo><SignatureValue>TxbbZAUE9N6KxXW9oS5ouWwzhmRtaosTT8LdPvlZEo7FjPOlj/XJsp1E1yTbzrDWTa0ewrg3YYl1l9yFbdc0GhE10JxFerH+osbcdSVPr3tphyshkEE7dZStBo/jEWTQT6cdks2/7FUw2BwG506NjJ8EnjEu8N69mP9PxRbGvxCZqSKbOTcFI5wzEArNIDc/etvrJ/qPgF5VQzICWlgHXHjjLxEVAiHJSoh0qPOkzZZ2fTC897czyQfCoHfMSLj7T5A++X5rQ2SOhVAnYO084rV7T1HrwKOKm/SNmrts/1kdS0bKq459nIep3bqxtP9L2c3uLVS89BuRNsFjZPZjWg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIID2zCCAsOgAwIBAgIJAOU+WqkW1NS4MA0GCSqGSIb3DQEBCwUAMIGDMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFU3RhdGUxDTALBgNVBAcMBENpdHkxEzARBgNVBAoM
+CkFjbWUgSW5jLiAxFjAUBgNVBAsMDUlUIERlcGFydG1lbnQxKDAmBgNVBAMMH3Nw
+aWQtZXhwcmVzcy5zZWxmc2lnbmVkLmV4YW1wbGUwHhcNMjIxMTIyMDUzODI4WhcN
+MzIxMTE5MDUzODI4WjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVN0YXRlMQ0w
+CwYDVQQHDARDaXR5MRMwEQYDVQQKDApBY21lIEluYy4gMRYwFAYDVQQLDA1JVCBE
+ZXBhcnRtZW50MSgwJgYDVQQDDB9zcGlkLWV4cHJlc3Muc2VsZnNpZ25lZC5leGFt
+cGxlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6tGUW2mK73I4JiWE
+vuLAuR9cVjmx3voUcNc0FYVjV+bI1FSECw+9SR9hy5CUjOaOjqGKgm4QxVxCORlB
+zdwaPhZdyZyVQB0HZyqgxXTH8+9YvuiJAFFsnvyyn0btuVVs8SsTDj4gbw4YGcyI
+YRF7swkHkMhD/rVZtelUGhjIkVLkqXqi6YdCOAFf8ZRMGRNylO81833mfpnXL2bR
+Sx5iXqYCYpotWZqxIu4jOJNSxhZYWP4ZEQEXX22vzoWMsO7f0MeN9ngctE2cdT2y
+EXpLEZRJ06VmCSEcfxtCNAiwR6j+0FXwioQ2tYIfdhUQ1AOuUDQ525LL1N4UU/RE
+XBlVswIDAQABo1AwTjAdBgNVHQ4EFgQUJRRNoshlJC3UCBvwy95zj1Mks1wwHwYD
+VR0jBBgwFoAUJRRNoshlJC3UCBvwy95zj1Mks1wwDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAw/CoikDD2QtPOBe4WiDhz1feMpmHAiwgqjEcc159pRmP
++QggxG63oRkLKALaXHuI5E3B5576mhHwb+GuWHqZJV7V1T6sQIfdnXHxYHq8ye+y
+DOrZ6h8f4e+3u2DQv6GQefbhNgb7WpnP2zs8VCkmLh7CeyFNqBa+6AyvNMqSFX3L
+4IGNK+7NnRqAilZYT8Wy6tnJUg+tLTMrYg/33BtoxQCtOa/HjX2r42x1IHKuNV2H
+yRVVe4NbRJw/jcUfKYfeaCXPvk48ZpVemxpzzdG89tmq/UGYCfuwiTO8/CpUnS+4
+iTHPVQWEkV5pP8e54AOEOOFaGsgNZfIMTZ7VbH4LMg==
+</X509Certificate></X509Data></KeyInfo></Signature>
+  <SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAOU+WqkW1NS4MA0GCSqGSIb3DQEBCwUAMIGDMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFU3RhdGUxDTALBgNVBAcMBENpdHkxEzARBgNVBAoM
+CkFjbWUgSW5jLiAxFjAUBgNVBAsMDUlUIERlcGFydG1lbnQxKDAmBgNVBAMMH3Nw
+aWQtZXhwcmVzcy5zZWxmc2lnbmVkLmV4YW1wbGUwHhcNMjIxMTIyMDUzODI4WhcN
+MzIxMTE5MDUzODI4WjCBgzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBVN0YXRlMQ0w
+CwYDVQQHDARDaXR5MRMwEQYDVQQKDApBY21lIEluYy4gMRYwFAYDVQQLDA1JVCBE
+ZXBhcnRtZW50MSgwJgYDVQQDDB9zcGlkLWV4cHJlc3Muc2VsZnNpZ25lZC5leGFt
+cGxlMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6tGUW2mK73I4JiWE
+vuLAuR9cVjmx3voUcNc0FYVjV+bI1FSECw+9SR9hy5CUjOaOjqGKgm4QxVxCORlB
+zdwaPhZdyZyVQB0HZyqgxXTH8+9YvuiJAFFsnvyyn0btuVVs8SsTDj4gbw4YGcyI
+YRF7swkHkMhD/rVZtelUGhjIkVLkqXqi6YdCOAFf8ZRMGRNylO81833mfpnXL2bR
+Sx5iXqYCYpotWZqxIu4jOJNSxhZYWP4ZEQEXX22vzoWMsO7f0MeN9ngctE2cdT2y
+EXpLEZRJ06VmCSEcfxtCNAiwR6j+0FXwioQ2tYIfdhUQ1AOuUDQ525LL1N4UU/RE
+XBlVswIDAQABo1AwTjAdBgNVHQ4EFgQUJRRNoshlJC3UCBvwy95zj1Mks1wwHwYD
+VR0jBBgwFoAUJRRNoshlJC3UCBvwy95zj1Mks1wwDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAw/CoikDD2QtPOBe4WiDhz1feMpmHAiwgqjEcc159pRmP
++QggxG63oRkLKALaXHuI5E3B5576mhHwb+GuWHqZJV7V1T6sQIfdnXHxYHq8ye+y
+DOrZ6h8f4e+3u2DQv6GQefbhNgb7WpnP2zs8VCkmLh7CeyFNqBa+6AyvNMqSFX3L
+4IGNK+7NnRqAilZYT8Wy6tnJUg+tLTMrYg/33BtoxQCtOa/HjX2r42x1IHKuNV2H
+yRVVe4NbRJw/jcUfKYfeaCXPvk48ZpVemxpzzdG89tmq/UGYCfuwiTO8/CpUnS+4
+iTHPVQWEkV5pP8e54AOEOOFaGsgNZfIMTZ7VbH4LMg==
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIE9DCCA1ygAwIBAgIUIHSRWTqdRbTaJ+afIfPEkDffBo0wDQYJKoZIhvcNAQELBQAwgZcxGjAYBgNVBAoMEUNvbXVuZSBkaSBCZXJnYW1vMRowGAYDVQQDDBFDb211bmUgZGkgQmVyZ2FtbzEnMCUGA1UEUwweaHR0cHM6Ly9zcGlkLmNvbXVuZS5iZXJnYW1vLml0MRUwEwYDVQRhDAxQQTpJVC1jX2E3OTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdCZXJnYW1vMB4XDTIyMDMxMDIxMDkyNloXDTI0MDMwOTIxMDkyNlowgZcxGjAYBgNVBAoMEUNvbXVuZSBkaSBCZXJnYW1vMRowGAYDVQQDDBFDb211bmUgZGkgQmVyZ2FtbzEnMCUGA1UEUwweaHR0cHM6Ly9zcGlkLmNvbXVuZS5iZXJnYW1vLml0MRUwEwYDVQRhDAxQQTpJVC1jX2E3OTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdCZXJnYW1vMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuEU6keMwKMBTAGzJyQ/4szAJDe3sQh4bEoO3QTpfNrKsfMNjBZ5M7Jy2p9Eou9lZkhoZ6MVpaq2Njc1g1kwdhitCQCp3hKo45UXucFS2uklJmpbkdAc9LFRGHJiuoYma/JOANTZMwz6CgaVLbjYolpINwIh58usou7j6N3L7In864wGMl+nSneFuKBg8slPZ5NzFaTgez5d1FTbHLxH3bZhezHPGOskDB2eSMHXRqm4Diibczc72PX+Q74LNqwDXOaTgyqi0WSqTpUpZxdL8Jf4xqzjex1ndmyabRDyAVZftoYqQ4lB/xbPCEcM0uEGbUeSWb6Im9CwGn4YThMCC5bOfrvaJF7ho0VT12dKhS5XBxwVq1P36PJ4zPRSjMPG+XRlpFR1em3Y1UQTHm03HbcdGqwjzsIxyDQn1bdwkqqQgQFx66FxQDZkg+tTnkaSmZhRsNwh9O2PWEaNRvQI9CPATDOwHbwtHCa8TUm6a4DwUdDyXOCVlq5KgHLg27lYDAgMBAAGjNjA0MBMGA1UdIAQMMAowCAYGK0wQBAIBMB0GA1UdDgQWBBTSDGUroiXyCzNRfc25G0roL+YAIjANBgkqhkiG9w0BAQsFAAOCAYEAB0GTmh+XUmhn7xVfYgEfWQPowLh6y0dtXYJVIqbhdPPbVJQTgRI25+WBmmMD2qD30gk/GdCEOrgwc+f4/+yyT2SKkraEGvnSv2UrBjmWx+KR1yLrgQZ3nRH2ruzGOtw5eUYFppai/MmoXmDhmxaBF475o27YYxMCrkU/lTcXL7hylYOAc1TOj6vdSpTkDW9v+6GOpoMyUbhzJG0nmoV9+11Yr5C/Qn9dcp9xqVn3xsIrxx3O/3HDr71YPosLKIxFYCFfn8HYs4dG1545908Z7AbW0uQ/iTn0eyYhwiYiG8AUFTdHK8SfVcKK1fA1jLnYcmltVOjYxXag84XiHN9LSsiGgclVKymyrz3wLL4KjpVTmSm32xW/pBSPXsu27mGBUvJtJqAL+bxLJt+tpE0TH2eoHYmsSvD6nOtD+w3BVYS1NjTv5G+Zu3jxberGx4i45dhJL3Ht/RBCqtT69w/ZJWdQKhxdDQpo72m7EBS7JNUTrYpok2/kICw+FRTLmDig</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIE9DCCA1ygAwIBAgIUIHSRWTqdRbTaJ+afIfPEkDffBo0wDQYJKoZIhvcNAQELBQAwgZcxGjAYBgNVBAoMEUNvbXVuZSBkaSBCZXJnYW1vMRowGAYDVQQDDBFDb211bmUgZGkgQmVyZ2FtbzEnMCUGA1UEUwweaHR0cHM6Ly9zcGlkLmNvbXVuZS5iZXJnYW1vLml0MRUwEwYDVQRhDAxQQTpJVC1jX2E3OTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdCZXJnYW1vMB4XDTIyMDMxMDIxMDkyNloXDTI0MDMwOTIxMDkyNlowgZcxGjAYBgNVBAoMEUNvbXVuZSBkaSBCZXJnYW1vMRowGAYDVQQDDBFDb211bmUgZGkgQmVyZ2FtbzEnMCUGA1UEUwweaHR0cHM6Ly9zcGlkLmNvbXVuZS5iZXJnYW1vLml0MRUwEwYDVQRhDAxQQTpJVC1jX2E3OTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdCZXJnYW1vMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuEU6keMwKMBTAGzJyQ/4szAJDe3sQh4bEoO3QTpfNrKsfMNjBZ5M7Jy2p9Eou9lZkhoZ6MVpaq2Njc1g1kwdhitCQCp3hKo45UXucFS2uklJmpbkdAc9LFRGHJiuoYma/JOANTZMwz6CgaVLbjYolpINwIh58usou7j6N3L7In864wGMl+nSneFuKBg8slPZ5NzFaTgez5d1FTbHLxH3bZhezHPGOskDB2eSMHXRqm4Diibczc72PX+Q74LNqwDXOaTgyqi0WSqTpUpZxdL8Jf4xqzjex1ndmyabRDyAVZftoYqQ4lB/xbPCEcM0uEGbUeSWb6Im9CwGn4YThMCC5bOfrvaJF7ho0VT12dKhS5XBxwVq1P36PJ4zPRSjMPG+XRlpFR1em3Y1UQTHm03HbcdGqwjzsIxyDQn1bdwkqqQgQFx66FxQDZkg+tTnkaSmZhRsNwh9O2PWEaNRvQI9CPATDOwHbwtHCa8TUm6a4DwUdDyXOCVlq5KgHLg27lYDAgMBAAGjNjA0MBMGA1UdIAQMMAowCAYGK0wQBAIBMB0GA1UdDgQWBBTSDGUroiXyCzNRfc25G0roL+YAIjANBgkqhkiG9w0BAQsFAAOCAYEAB0GTmh+XUmhn7xVfYgEfWQPowLh6y0dtXYJVIqbhdPPbVJQTgRI25+WBmmMD2qD30gk/GdCEOrgwc+f4/+yyT2SKkraEGvnSv2UrBjmWx+KR1yLrgQZ3nRH2ruzGOtw5eUYFppai/MmoXmDhmxaBF475o27YYxMCrkU/lTcXL7hylYOAc1TOj6vdSpTkDW9v+6GOpoMyUbhzJG0nmoV9+11Yr5C/Qn9dcp9xqVn3xsIrxx3O/3HDr71YPosLKIxFYCFfn8HYs4dG1545908Z7AbW0uQ/iTn0eyYhwiYiG8AUFTdHK8SfVcKK1fA1jLnYcmltVOjYxXag84XiHN9LSsiGgclVKymyrz3wLL4KjpVTmSm32xW/pBSPXsu27mGBUvJtJqAL+bxLJt+tpE0TH2eoHYmsSvD6nOtD+w3BVYS1NjTv5G+Zu3jxberGx4i45dhJL3Ht/RBCqtT69w/ZJWdQKhxdDQpo72m7EBS7JNUTrYpok2/kICw+FRTLmDig</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </KeyDescriptor>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.bergamo.retteweb.eu/logout"/>
+    <SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://cimiteriali.comune.bergamo.it/cwsp/module.php/saml/sp/saml2-logout.php/service"/>
+    <NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</NameIDFormat>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.bergamo.retteweb.eu/acs" index="0" isDefault="true"/>
+    <AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cimiteriali.comune.bergamo.it/cwsp/module.php/saml/sp/saml2-acs.php/service" index="1"/>
+    <AttributeConsumingService index="0">
+      <ServiceName xml:lang="it">RetteWeb</ServiceName>
+      <RequestedAttribute FriendlyName="Email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </AttributeConsumingService>
+    <AttributeConsumingService index="1">
+      <ServiceName xml:lang="it">cwsp</ServiceName>
+      <RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </AttributeConsumingService>
+  </SPSSODescriptor>
+  <Organization>
+    <OrganizationName xml:lang="it">Comune di Bergamo</OrganizationName>
+    <OrganizationDisplayName xml:lang="it">Comune di Bergamo</OrganizationDisplayName>
+    <OrganizationURL xml:lang="it">https://www.comune.bergamo.it</OrganizationURL>
+  </Organization>
+  <ContactPerson contactType="other">
+    <Extensions>
+      <IPACode xmlns="https://spid.gov.it/saml-extensions">c_a794</IPACode>
+      <Public xmlns="https://spid.gov.it/saml-extensions"/>
+    </Extensions>
+    <EmailAddress>segreteriadirezioneagendadigitale@comune.bg.it</EmailAddress>
+    <TelephoneNumber>+39035399610</TelephoneNumber>
+  </ContactPerson>
+</EntityDescriptor>
