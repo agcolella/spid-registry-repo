@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ba5bcf98946a53312e999928edccef069f11cc6d6c59c0c2699b80974fa82085" entityID="https://www.comune.brolo.me.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_ba5bcf98946a53312e999928edccef069f11cc6d6c59c0c2699b80974fa82085">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>kMQFcvsy9zOW58VfbhDHbqNPW4WYE/Tio6tjAUAxhm8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+qw3QWX0cw6roSmMiGy1eMY6t5qmBmqyfqnZAboli3gtULeY+rgQ45ENqYDWB94fCsO3t1mC9uFx3
+FWDIU3kuKykJzCifPvG6UqcGcWt7JEU+BT9acFJpzB7qzy1tDUozd0SeosDdiER4qLPqvpWp+3tS
+8NLGEv/ROQgv153meC7zRpW6w7x1ohMXrvL+jcrX8Mw29SYETXXg5bnSuu3DyQ/mBW6bgVeRveFr
+lT/fijl6x0wl3N3U0ypKT1dbQddPE5c8EY3FRDdgMQzcs9Iac+IWimqJU1odshIyV7ojY19BxKTU
+riEvTVlpMbVZy0hAXINSPn8DoZOgkMsCOvVCxA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+80kf/W40bNYSeqjltOXEln6EaeiBKf2dOnbV3Z3j8pDRiZomK6V7J9lVNYNNB7CvWNBe8WmZ1uoA
+jayYrf4o+f4psyQh8loHQsBO9mlarlHUpizFL1I0gHASJd8PWL31b0yyfVfjtcSKHhbvOrGBoiCD
+9bgyoN61dK3j7gTpMeIbj/qfwjJrEubaO3nF3v0otV2WnjZbbHsShwNldqByoZPeyWvLyIeTj1P0
+ce+RORZHopJq5W1QAed+B0is6ZjBqrqQTWZy4rk6Mjd+pZ41IlHk3yKtzIZcKA2kgr2XkA+lHLSi
+ErgT9cXhu4lJ6cgdWka5Vxdp8eet3yWLXeNryw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDozCCAougAwIBAgIJAP/MYyeItKP/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEf
+MB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDAeFw0yMzA1MTEwNzM5MDNaFw0zMzA1MTAw
+NzM5MDNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAW
+BgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPNJH/1uNGzWEnqo5bTlxJZ+hGnogSn9nTp2
+1d2d4/KQ0YmaJiuleyfZVTWDTQewr1jQXvFpmdbqAI2smK3+KPn+KbMkIfJaB0LATvZpWq5R1KYs
+xS9SNIBwEiXfD1i99W9Msn1X47XEih4W7zqxgaIgg/W4MqDetXSt4+4E6THiG4/6n8IyaxLm2jt5
+xd79KLVdlp42W2x7EocDZXagcqGT3slry8iHk49T9HHvkTkWR6KSauVtUAHnfgdIrOmYwaq6kE1m
+cuK5OjI3fqWeNSJR5N8ircyGXCgNpIK9l5APpRy0ohK4E/XF4buJSenIHVpGuVcXafHnrd8li13j
+a8sCAwEAAaNQME4wHQYDVR0OBBYEFGg7qIFQ97Gpm03i88zuLh/bRAjcMB8GA1UdIwQYMBaAFGg7
+qIFQ97Gpm03i88zuLh/bRAjcMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZBpmk1
+VYPnVZjwMjP6BmwWLGyXT+qwy/BvhhLRoYrYnhIBfO2zy71kGzWYZvt27+wk1TYdUl5+f4FuY33i
+lg32f5dY8v7gSF1O8MkBG8QwpBWtLxOw90xG+yM+PiW784LcjIe5biy1nJUOT8w5+z2biyRxujgj
+XFiApGoVlIn6sZFqOwzresRSHecO3x7egKKVFxqlu+YpVkGkePQDBZBaS1EKywJqrWuHgSep5Atb
+aTirJg2p+jGu2O7gLzBVz/HgpOXGfshMvgViS6MMQ5t8T0p7L+UlXtwrnY2nKpDRziBVSrnXqrPe
+7kah4XYfs1H8YSGQob157VuYiu2fMpQ=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAP/MYyeItKP/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDAeFw0yMzA1MTEwNzM5MDNaFw0zMzA1MTAwNzM5MDNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPNJH/1uNGzWEnqo5bTlxJZ+hGnogSn9nTp21d2d4/KQ0YmaJiuleyfZVTWDTQewr1jQXvFpmdbqAI2smK3+KPn+KbMkIfJaB0LATvZpWq5R1KYsxS9SNIBwEiXfD1i99W9Msn1X47XEih4W7zqxgaIgg/W4MqDetXSt4+4E6THiG4/6n8IyaxLm2jt5xd79KLVdlp42W2x7EocDZXagcqGT3slry8iHk49T9HHvkTkWR6KSauVtUAHnfgdIrOmYwaq6kE1mcuK5OjI3fqWeNSJR5N8ircyGXCgNpIK9l5APpRy0ohK4E/XF4buJSenIHVpGuVcXafHnrd8li13ja8sCAwEAAaNQME4wHQYDVR0OBBYEFGg7qIFQ97Gpm03i88zuLh/bRAjcMB8GA1UdIwQYMBaAFGg7qIFQ97Gpm03i88zuLh/bRAjcMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZBpmk1VYPnVZjwMjP6BmwWLGyXT+qwy/BvhhLRoYrYnhIBfO2zy71kGzWYZvt27+wk1TYdUl5+f4FuY33ilg32f5dY8v7gSF1O8MkBG8QwpBWtLxOw90xG+yM+PiW784LcjIe5biy1nJUOT8w5+z2biyRxujgjXFiApGoVlIn6sZFqOwzresRSHecO3x7egKKVFxqlu+YpVkGkePQDBZBaS1EKywJqrWuHgSep5AtbaTirJg2p+jGu2O7gLzBVz/HgpOXGfshMvgViS6MMQ5t8T0p7L+UlXtwrnY2nKpDRziBVSrnXqrPe7kah4XYfs1H8YSGQob157VuYiu2fMpQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDozCCAougAwIBAgIJAP/MYyeItKP/MA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDAeFw0yMzA1MTEwNzM5MDNaFw0zMzA1MTAwNzM5MDNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFQnJvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBCcm9sbzEfMB0GA1UEAwwWd3d3LmNvbXVuZS5icm9sby5tZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPNJH/1uNGzWEnqo5bTlxJZ+hGnogSn9nTp21d2d4/KQ0YmaJiuleyfZVTWDTQewr1jQXvFpmdbqAI2smK3+KPn+KbMkIfJaB0LATvZpWq5R1KYsxS9SNIBwEiXfD1i99W9Msn1X47XEih4W7zqxgaIgg/W4MqDetXSt4+4E6THiG4/6n8IyaxLm2jt5xd79KLVdlp42W2x7EocDZXagcqGT3slry8iHk49T9HHvkTkWR6KSauVtUAHnfgdIrOmYwaq6kE1mcuK5OjI3fqWeNSJR5N8ircyGXCgNpIK9l5APpRy0ohK4E/XF4buJSenIHVpGuVcXafHnrd8li13ja8sCAwEAAaNQME4wHQYDVR0OBBYEFGg7qIFQ97Gpm03i88zuLh/bRAjcMB8GA1UdIwQYMBaAFGg7qIFQ97Gpm03i88zuLh/bRAjcMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEZBpmk1VYPnVZjwMjP6BmwWLGyXT+qwy/BvhhLRoYrYnhIBfO2zy71kGzWYZvt27+wk1TYdUl5+f4FuY33ilg32f5dY8v7gSF1O8MkBG8QwpBWtLxOw90xG+yM+PiW784LcjIe5biy1nJUOT8w5+z2biyRxujgjXFiApGoVlIn6sZFqOwzresRSHecO3x7egKKVFxqlu+YpVkGkePQDBZBaS1EKywJqrWuHgSep5AtbaTirJg2p+jGu2O7gLzBVz/HgpOXGfshMvgViS6MMQ5t8T0p7L+UlXtwrnY2nKpDRziBVSrnXqrPe7kah4XYfs1H8YSGQob157VuYiu2fMpQ=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.brolo.me.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.brolo.me.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.brolo.me.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Brolo</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Brolo</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Brolo</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Brolo</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.brolo.me.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.brolo.me.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_b198</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Brolo</md:Company>
+    <md:EmailAddress>oriti@comune.brolo.me.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
