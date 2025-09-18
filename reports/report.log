@@ -2,11 +2,16 @@
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
+✅ metadata/40B59AWR.xml valido secondo QAD
+[Thu Sep 18 10:18:01 UTC 2025] VALID: 40B59AWR.xml
+/home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
+  expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
+[WARN] xmlsec1 non trovato, skip firma
 --- ERRORI in metadata/C_I998.xml ---
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:14 UTC 2025] INVALID: C_I998.xml
+[Thu Sep 18 10:18:01 UTC 2025] INVALID: C_I998.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -14,7 +19,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:14 UTC 2025] INVALID: agid_suap.xml
+[Thu Sep 18 10:18:01 UTC 2025] INVALID: agid_suap.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -22,7 +27,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:14 UTC 2025] INVALID: c_a613.xml
+[Thu Sep 18 10:18:01 UTC 2025] INVALID: c_a613.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -32,12 +37,12 @@
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
 [Cert 3] Certificato scaduto il 2024-03-09 21:09:26+00:00 ❌
 [Cert 4] Certificato scaduto il 2024-03-09 21:09:26+00:00 ❌
-[Thu Sep 18 10:15:14 UTC 2025] INVALID: c_a794.xml
+[Thu Sep 18 10:18:01 UTC 2025] INVALID: c_a794.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_b198.xml valido secondo QAD
-[Thu Sep 18 10:15:14 UTC 2025] VALID: c_b198.xml
+[Thu Sep 18 10:18:01 UTC 2025] VALID: c_b198.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -45,22 +50,22 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: c_b415.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: c_b415.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_b441.xml valido secondo QAD
-[Thu Sep 18 10:15:15 UTC 2025] VALID: c_b441.xml
+[Thu Sep 18 10:18:02 UTC 2025] VALID: c_b441.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_c954.xml valido secondo QAD
-[Thu Sep 18 10:15:15 UTC 2025] VALID: c_c954.xml
+[Thu Sep 18 10:18:02 UTC 2025] VALID: c_c954.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_fu3v.xml valido secondo QAD
-[Thu Sep 18 10:15:15 UTC 2025] VALID: c_fu3v.xml
+[Thu Sep 18 10:18:02 UTC 2025] VALID: c_fu3v.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -68,17 +73,17 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: c_h422.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: c_h422.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_h772.xml valido secondo QAD
-[Thu Sep 18 10:15:15 UTC 2025] VALID: c_h772.xml
+[Thu Sep 18 10:18:02 UTC 2025] VALID: c_h772.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 ✅ metadata/c_i393.xml valido secondo QAD
-[Thu Sep 18 10:15:15 UTC 2025] VALID: c_i393.xml
+[Thu Sep 18 10:18:02 UTC 2025] VALID: c_i393.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -86,7 +91,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: c_i704.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: c_i704.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -94,7 +99,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: c_m269.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: c_m269.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -102,7 +107,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: c_m384.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: c_m384.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:82: CryptographyDeprecationWarning: Parsed a serial number which wasn't positive (i.e., it was negative or zero), which is disallowed by RFC 5280. Loading this certificate will cause an exception in a future release of cryptography.
   cert = x509.load_pem_x509_certificate(pem.encode(), default_backend())
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
@@ -112,7 +117,7 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:15 UTC 2025] INVALID: cdgdgbr.xml
+[Thu Sep 18 10:18:02 UTC 2025] INVALID: cdgdgbr.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
@@ -120,16 +125,16 @@
 [1.5.2] OrgName deve avere almeno 'it' e 'en' ❌
 [1.5.5] OrgDisplayName deve avere almeno 'it' e 'en' ❌
 [1.5.8] OrgURL deve avere almeno 'it' e 'en' ❌
-[Thu Sep 18 10:15:16 UTC 2025] INVALID: itemt__m_pi.xml
+[Thu Sep 18 10:18:03 UTC 2025] INVALID: itemt__m_pi.xml
 /home/runner/work/spid-registry-repo/spid-registry-repo/scripts/validate_metadata_qad.py:84: CryptographyDeprecationWarning: Properties that return a naïve datetime object have been deprecated. Please switch to not_valid_after_utc.
   expiry = cert.not_valid_after.replace(tzinfo=timezone.utc)
 [WARN] xmlsec1 non trovato, skip firma
 --- ERRORI in metadata/r_veneto.xml ---
 [Cert 1] Certificato scaduto il 2023-08-08 05:27:34+00:00 ❌
 [Cert 2] Certificato scaduto il 2023-08-08 05:27:34+00:00 ❌
-[Thu Sep 18 10:15:16 UTC 2025] INVALID: r_veneto.xml
+[Thu Sep 18 10:18:03 UTC 2025] INVALID: r_veneto.xml
 
 === SUMMARY ===
-Valid metadata:   6
+Valid metadata:   7
 Invalid metadata: 12
-Total processed:  18
+Total processed:  19
