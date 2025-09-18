@@ -1,0 +1,52 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_pfx8cdfef6c-7dff-4e1c-a9eb-2c51cac9d137" entityID="https://www.ordineingegneri.milano.it/odi/sp/saml/metadata.xml">
+
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:CanonicalizationMethod><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"></ds:SignatureMethod><ds:Reference URI="#_pfx8cdfef6c-7dff-4e1c-a9eb-2c51cac9d137"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"></ds:Transform><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod><ds:DigestValue>xle/0XqvpQJdr9WA0BPNQsGxOZ4jT/qg4ytk4TAqwns=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>eQG0v7hjDfahQM7px0H49qiJqbM9GP5wraaXi3pcl0n+FX8xJad2fWOfwVV4HKrErYC3WR8q6Ci7KHmoxhX7SDiuCJ7lXgZNnulTir8saqF9emCAqh1fT+o5YMtjHnnxzc3co6vDJPJTp1lnbhfDkFvKt+ddLKbL2g+FY5IzHtBmBvlPSrKPkwgizurzFxqW6I8pz7qsBlVNQt2CTysUjXbBHbAe7fTazvqVFK+scOl3TfZ9k5UdVq2PzQWSx3tezQv+t9A9PR8FSsvGzSTCcxk4QJVDNqRrFRAEymLjQxlUOKDGC5H9xlY+kFDCs2oEBsaQEzwB3EliDyc3O1gjMRJvO4akdMzoKSr+Mb99MQymsSVHG/Oj3EORYH5wAttRoU/1kutWu7W3EnWyQ51QSiUi7DSMYxgOU729cgAFrG/tBzO0jzmpBm015vuvSYIbwEgcDcnqaWKzrBQaWbq14fj1DDlHCTGZZ6gLidD+/mRVuBd5+ZRT6H1UTbLfHod0</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFjDCCA/SgAwIBAgIJALMmBz5GlUNGMA0GCSqGSIb3DQEBDQUAMIHLMQ4wDAYDVQQDDAVPSVBNSTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBk1pbGFubzEXMBUGA1UEYQwOUEE6SVQtb2RpcF8wMTUxOTA3BgNVBAoMME9yZGluZSBkZWdsaSBJbmdlZ25lcmkgZGVsbGEgUHJvdmluY2lhIGRpIE1pbGFubzFHMEUGA1UEUww+aHR0cHM6Ly93d3cub3JkaW5laW5nZWduZXJpLm1pbGFuby5pdC9vZGkvc3Avc2FtbC9tZXRhZGF0YS54bWwwHhcNMjEwNjA0MTY0MzE3WhcNMzEwNjAyMTY0MzE3WjCByzEOMAwGA1UEAwwFT0lQTUkxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xFzAVBgNVBGEMDlBBOklULW9kaXBfMDE1MTkwNwYDVQQKDDBPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBNaWxhbm8xRzBFBgNVBFMMPmh0dHBzOi8vd3d3Lm9yZGluZWluZ2VnbmVyaS5taWxhbm8uaXQvb2RpL3NwL3NhbWwvbWV0YWRhdGEueG1sMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuaZCbxc/zciKTvO5TOMpEXXOz/nzPAAGbfsgepGkGKv01FBW38PoN94x4WOcWbH27zYHbBOPmMug8QpWx1IVYWvHJxVCL1ws05hQo5sBArpBa8TFlTj3Dn+T5dy7ossXuCYdftBXDPdVomT6YWquzRuH7dk8IgIblvjQMjIleSiCWwe5W+8Yf3gXAjaY/+NJLubuqyzI27dqLLO2y7h1ZN0oAx2Sk1VlAdvdVHVC+6vHEPNg6yNenR3TWfTG487Cy0se7z+1icI3qcfDXAOj6PoCGdqZ/roehnAZZpvB59cZBgZ4372pTF3MfODwzjE+9D4NRPY2QEjgLUpgLru1PH0fKjMNDSEYRjRcMTdvsdTHhcCVag71Trq7/HO20i11hH23oivHgNKFggPs7gvI5eMxlCbJqLd9Z1K7GH4hfF3TfP5taucwrPjl/BZuvrcNV7w4OXGDjSTAsHozPLa8L4bJZKOjA1OQrnHRRbmqC/i6YwC/r55pI6UvrFdiLmv1AgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQCIDQ51EPJvGkySvC3WW7NFuokEiZyBOWLyUfFMWXSgJ0yEYbnkIflxHyzDunBTnsqz1OUskGtg9a40NM4s8876mu5Mfyg1YUQbTWkPi6eF6jUGxxOswzz0Sst1eFZVWENTU6+lZRpLUA0BEEIC2Z2UKsN+pIYLU10yU2NXCgUrD5NEzMPf6QA+gjGAjIdGt6ftGx0DWGCjOpgFVkZzMyKohtAQ+kCESkqbzrMJJ30w430OE1lNKLaJ/jGLXkhUnmjSqlzQua15sMOwGwE6Iv7rjIdG9WeL0vOhBe1ZxVsphGItuSLZ7VnfQhOsWvFK200BHMysROLD5WoSdIpKxF0HV5eEKwgRSL3iifcUcfiyiB3NlIuQjxw/m/Xmu+9eXLTVnJUF7qoBHj10D/Vuq8KMA52BS/lXcDyPhji96fVB9G8jlLZuk5OUTWlLPApmXaUcaioDvu1R+Ul/+qEvAhHI/Br7AKWWwSW5ZlnhL+ebw/b5wttLRhgdHHRCBobB2h0=</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFjDCCA/SgAwIBAgIJALMmBz5GlUNGMA0GCSqGSIb3DQEBDQUAMIHLMQ4wDAYDVQQDDAVPSVBNSTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBk1pbGFubzEXMBUGA1UEYQwOUEE6SVQtb2RpcF8wMTUxOTA3BgNVBAoMME9yZGluZSBkZWdsaSBJbmdlZ25lcmkgZGVsbGEgUHJvdmluY2lhIGRpIE1pbGFubzFHMEUGA1UEUww+aHR0cHM6Ly93d3cub3JkaW5laW5nZWduZXJpLm1pbGFuby5pdC9vZGkvc3Avc2FtbC9tZXRhZGF0YS54bWwwHhcNMjEwNjA0MTY0MzE3WhcNMzEwNjAyMTY0MzE3WjCByzEOMAwGA1UEAwwFT0lQTUkxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xFzAVBgNVBGEMDlBBOklULW9kaXBfMDE1MTkwNwYDVQQKDDBPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBNaWxhbm8xRzBFBgNVBFMMPmh0dHBzOi8vd3d3Lm9yZGluZWluZ2VnbmVyaS5taWxhbm8uaXQvb2RpL3NwL3NhbWwvbWV0YWRhdGEueG1sMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuaZCbxc/zciKTvO5TOMpEXXOz/nzPAAGbfsgepGkGKv01FBW38PoN94x4WOcWbH27zYHbBOPmMug8QpWx1IVYWvHJxVCL1ws05hQo5sBArpBa8TFlTj3Dn+T5dy7ossXuCYdftBXDPdVomT6YWquzRuH7dk8IgIblvjQMjIleSiCWwe5W+8Yf3gXAjaY/+NJLubuqyzI27dqLLO2y7h1ZN0oAx2Sk1VlAdvdVHVC+6vHEPNg6yNenR3TWfTG487Cy0se7z+1icI3qcfDXAOj6PoCGdqZ/roehnAZZpvB59cZBgZ4372pTF3MfODwzjE+9D4NRPY2QEjgLUpgLru1PH0fKjMNDSEYRjRcMTdvsdTHhcCVag71Trq7/HO20i11hH23oivHgNKFggPs7gvI5eMxlCbJqLd9Z1K7GH4hfF3TfP5taucwrPjl/BZuvrcNV7w4OXGDjSTAsHozPLa8L4bJZKOjA1OQrnHRRbmqC/i6YwC/r55pI6UvrFdiLmv1AgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQCIDQ51EPJvGkySvC3WW7NFuokEiZyBOWLyUfFMWXSgJ0yEYbnkIflxHyzDunBTnsqz1OUskGtg9a40NM4s8876mu5Mfyg1YUQbTWkPi6eF6jUGxxOswzz0Sst1eFZVWENTU6+lZRpLUA0BEEIC2Z2UKsN+pIYLU10yU2NXCgUrD5NEzMPf6QA+gjGAjIdGt6ftGx0DWGCjOpgFVkZzMyKohtAQ+kCESkqbzrMJJ30w430OE1lNKLaJ/jGLXkhUnmjSqlzQua15sMOwGwE6Iv7rjIdG9WeL0vOhBe1ZxVsphGItuSLZ7VnfQhOsWvFK200BHMysROLD5WoSdIpKxF0HV5eEKwgRSL3iifcUcfiyiB3NlIuQjxw/m/Xmu+9eXLTVnJUF7qoBHj10D/Vuq8KMA52BS/lXcDyPhji96fVB9G8jlLZuk5OUTWlLPApmXaUcaioDvu1R+Ul/+qEvAhHI/Br7AKWWwSW5ZlnhL+ebw/b5wttLRhgdHHRCBobB2h0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFjDCCA/SgAwIBAgIJALMmBz5GlUNGMA0GCSqGSIb3DQEBDQUAMIHLMQ4wDAYDVQQDDAVPSVBNSTELMAkGA1UEBhMCSVQxDzANBgNVBAcMBk1pbGFubzEXMBUGA1UEYQwOUEE6SVQtb2RpcF8wMTUxOTA3BgNVBAoMME9yZGluZSBkZWdsaSBJbmdlZ25lcmkgZGVsbGEgUHJvdmluY2lhIGRpIE1pbGFubzFHMEUGA1UEUww+aHR0cHM6Ly93d3cub3JkaW5laW5nZWduZXJpLm1pbGFuby5pdC9vZGkvc3Avc2FtbC9tZXRhZGF0YS54bWwwHhcNMjEwNjA0MTY0MzE3WhcNMzEwNjAyMTY0MzE3WjCByzEOMAwGA1UEAwwFT0lQTUkxCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZNaWxhbm8xFzAVBgNVBGEMDlBBOklULW9kaXBfMDE1MTkwNwYDVQQKDDBPcmRpbmUgZGVnbGkgSW5nZWduZXJpIGRlbGxhIFByb3ZpbmNpYSBkaSBNaWxhbm8xRzBFBgNVBFMMPmh0dHBzOi8vd3d3Lm9yZGluZWluZ2VnbmVyaS5taWxhbm8uaXQvb2RpL3NwL3NhbWwvbWV0YWRhdGEueG1sMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAuaZCbxc/zciKTvO5TOMpEXXOz/nzPAAGbfsgepGkGKv01FBW38PoN94x4WOcWbH27zYHbBOPmMug8QpWx1IVYWvHJxVCL1ws05hQo5sBArpBa8TFlTj3Dn+T5dy7ossXuCYdftBXDPdVomT6YWquzRuH7dk8IgIblvjQMjIleSiCWwe5W+8Yf3gXAjaY/+NJLubuqyzI27dqLLO2y7h1ZN0oAx2Sk1VlAdvdVHVC+6vHEPNg6yNenR3TWfTG487Cy0se7z+1icI3qcfDXAOj6PoCGdqZ/roehnAZZpvB59cZBgZ4372pTF3MfODwzjE+9D4NRPY2QEjgLUpgLru1PH0fKjMNDSEYRjRcMTdvsdTHhcCVag71Trq7/HO20i11hH23oivHgNKFggPs7gvI5eMxlCbJqLd9Z1K7GH4hfF3TfP5taucwrPjl/BZuvrcNV7w4OXGDjSTAsHozPLa8L4bJZKOjA1OQrnHRRbmqC/i6YwC/r55pI6UvrFdiLmv1AgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQCIDQ51EPJvGkySvC3WW7NFuokEiZyBOWLyUfFMWXSgJ0yEYbnkIflxHyzDunBTnsqz1OUskGtg9a40NM4s8876mu5Mfyg1YUQbTWkPi6eF6jUGxxOswzz0Sst1eFZVWENTU6+lZRpLUA0BEEIC2Z2UKsN+pIYLU10yU2NXCgUrD5NEzMPf6QA+gjGAjIdGt6ftGx0DWGCjOpgFVkZzMyKohtAQ+kCESkqbzrMJJ30w430OE1lNKLaJ/jGLXkhUnmjSqlzQua15sMOwGwE6Iv7rjIdG9WeL0vOhBe1ZxVsphGItuSLZ7VnfQhOsWvFK200BHMysROLD5WoSdIpKxF0HV5eEKwgRSL3iifcUcfiyiB3NlIuQjxw/m/Xmu+9eXLTVnJUF7qoBHj10D/Vuq8KMA52BS/lXcDyPhji96fVB9G8jlLZuk5OUTWlLPApmXaUcaioDvu1R+Ul/+qEvAhHI/Br7AKWWwSW5ZlnhL+ebw/b5wttLRhgdHHRCBobB2h0=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.ordineingegneri.milano.it/odi/sp/saml/sls/"></md:SingleLogoutService>
+
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ordineingegneri.milano.it/odi/sp/saml/acs/" index="0" isDefault="true"></md:AssertionConsumerService>
+
+    <md:AttributeConsumingService index="0">
+        <md:ServiceName xml:lang="it">Nome del servizio</md:ServiceName>
+        <md:ServiceDescription xml:lang="it">Descrizione del servizio</md:ServiceDescription>
+        <md:RequestedAttribute Name="fiscalNumber" isRequired="true"></md:RequestedAttribute>
+        <md:RequestedAttribute Name="spidCode" isRequired="true"></md:RequestedAttribute>
+        <md:RequestedAttribute Name="email" isRequired="true"></md:RequestedAttribute>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+
+  <md:Organization> 
+    <md:OrganizationName xml:lang="it">Ordine degli Ingegneri della Provincia di Milano</md:OrganizationName> 
+    <md:OrganizationDisplayName xml:lang="it">OIPMI</md:OrganizationDisplayName> 
+    <md:OrganizationURL xml:lang="it">https://www.ordineingegneri.milano.it/</md:OrganizationURL>
+  </md:Organization>
+
+  <md:ContactPerson contactType="other"> 
+    <md:Extensions> 
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">odip_015</spid:IPACode> 
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"></spid:Public>  
+    </md:Extensions> 
+    <md:EmailAddress>spid@ordineingegneri.milano.it</md:EmailAddress> 
+    <md:TelephoneNumber>+390276003731</md:TelephoneNumber>
+  </md:ContactPerson> 
+
+</md:EntityDescriptor>

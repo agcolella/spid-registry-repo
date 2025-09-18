@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_M263-bf0fac80-3e81-4a14-823c-f279a29332e0" entityID="https://cizrm.municipia.eng.it/metadata/M263"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_M263-bf0fac80-3e81-4a14-823c-f279a29332e0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jCoBRlzQHZsr+TZWMNyrzzbktopPLnLQ3/0iBOXY3e4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PTvPQL5ciQOjCtgwIlaMfi8mFUC8FDUtieUKDfg+B3CJ6lxucThfWewM8OL2qMg3OrcaV9gsBgDf
+VJIWkLzAMq81sSL7f9fvrJg/pjzHHxEZwO44tCGvU1Qa6DHLMmVV46pTuJwgHev4uW6I5gSGapGo
+ubkcbc5jbXSrET8V0HlY60QFqoSgHpnIW/JxLdlB8GzMVGehz4dfNm47XeaGmyVSn9AsvUAuY7jW
+VD/25Ue52d2bZczYRyQo1L82lTe610bxWbh9wqpPLcioe3xITaNmA7D/JOv37zkRcbDEng9SRhaw
+EAC7lJIi4yR5jrrkbeDozSGh072QRtB0qlfKzA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qPrVG1W5lHMXlW1Y7ratXbDQpAPr2RYkhN9wm7UEBl0SKYNKZNi3BFl5cygruJXCKiPYr0bSabtb
+lhePBpF4TPMuGv8V9ilQKuVUc412ZwXWTvXqooYiVMLjxfHPe3nWUKZ46symrpR9f2RTkKhJoTMH
+Y6lajGwLhNTjYIj2PEKwuW2HS5xS0UquzZTGUQmbeUaIb4Fp9LokrQLiW2gsSPyV5H/mh8EFs9XK
++SxNhkIM+1UCyBqa9LGJn7CvsB/YXXd7UE3JYw64l7jGSoiW2j9XnicYWNcPtdOsAred+2crxFbR
+l84B3WQsPL5ar8rIKSa3gmahyNicRYJshXSecw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDcTCCAlmgAwIBAgIEXzIvJzANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJJVDELMAkGA1UE
+CBMCQk8xEDAOBgNVBAcTB0JvbG9nbmExEjAQBgNVBAoTCU11bmljaXBpYTETMBEGA1UECxMKT3Bl
+cmF0aW9uczESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTE4MDcxNzE1NDY1NloXDTI4MDcxNDE1NDY1
+NlowaTELMAkGA1UEBhMCSVQxCzAJBgNVBAgTAkJPMRAwDgYDVQQHEwdCb2xvZ25hMRIwEAYDVQQK
+EwlNdW5pY2lwaWExEzARBgNVBAsTCk9wZXJhdGlvbnMxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIw
+DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKj61RtVuZRzF5VtWO62rV2w0KQD69kWJITfcJu1
+BAZdEimDSmTYtwRZeXMoK7iVwioj2K9G0mm7W5YXjwaReEzzLhr/FfYpUCrlVHONdmcF1k716qKG
+IlTC48Xxz3t51lCmeOrMpq6UfX9kU5CoSaEzB2OpWoxsC4TU42CI9jxCsLlth0ucUtFKrs2UxlEJ
+m3lGiG+BafS6JK0C4ltoLEj8leR/5ofBBbPVyvksTYZCDPtVAsgamvSxiZ+wr7Af2F13e1BNyWMO
+uJe4xkqIlto/V54nGFjXD7XTrAK3nftnK8RW0ZfOAd1kLDy+Wq/KyCkmt4JmocjYnEWCbIV0nnMC
+AwEAAaMhMB8wHQYDVR0OBBYEFMxUIz9pyKP7ypluWp9qN8GZgMsMMA0GCSqGSIb3DQEBCwUAA4IB
+AQCADGJcwiJ2YeIgLcjCFO6PPTEnPx8PfEGg9jpUHU7cXocuGQWha0SwxxLoObAVSuptFK9k8GMF
+HZ5VjwT2nsjpuEubfrvLeIKRnzCGAbnL/ZBYE6L1PNtup/T99196dPDHtTDWXlGw6pKyokk3oEWY
+xAy+htV6XdPtUWQysZFAhh80i6ik3alOOWyiii74Fn0Mh7R80LZQBE6r/B9pRt3OTJiF4aTxBHm2
+JVniWWJu8luSnMhuwEL2Wg9UJtWvvP11YRreRWxaTWurwhqfZF/gsvKRUPHx+ZIEh74zFvBhq5MW
+tDHxLKNCMVRfly/DUosV2BQ3akE1fx92rzzS5pqC
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDcTCCAlmgAwIBAgIEXzIvJzANBgkqhkiG9w0BAQsFADBpMQswCQYDVQQGEwJJVDELMAkGA1UECBMCQk8xEDAOBgNVBAcTB0JvbG9nbmExEjAQBgNVBAoTCU11bmljaXBpYTETMBEGA1UECxMKT3BlcmF0aW9uczESMBAGA1UEAxMJbG9jYWxob3N0MB4XDTE4MDcxNzE1NDY1NloXDTI4MDcxNDE1NDY1NlowaTELMAkGA1UEBhMCSVQxCzAJBgNVBAgTAkJPMRAwDgYDVQQHEwdCb2xvZ25hMRIwEAYDVQQKEwlNdW5pY2lwaWExEzARBgNVBAsTCk9wZXJhdGlvbnMxEjAQBgNVBAMTCWxvY2FsaG9zdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKj61RtVuZRzF5VtWO62rV2w0KQD69kWJITfcJu1BAZdEimDSmTYtwRZeXMoK7iVwioj2K9G0mm7W5YXjwaReEzzLhr/FfYpUCrlVHONdmcF1k716qKGIlTC48Xxz3t51lCmeOrMpq6UfX9kU5CoSaEzB2OpWoxsC4TU42CI9jxCsLlth0ucUtFKrs2UxlEJm3lGiG+BafS6JK0C4ltoLEj8leR/5ofBBbPVyvksTYZCDPtVAsgamvSxiZ+wr7Af2F13e1BNyWMOuJe4xkqIlto/V54nGFjXD7XTrAK3nftnK8RW0ZfOAd1kLDy+Wq/KyCkmt4JmocjYnEWCbIV0nnMCAwEAAaMhMB8wHQYDVR0OBBYEFMxUIz9pyKP7ypluWp9qN8GZgMsMMA0GCSqGSIb3DQEBCwUAA4IBAQCADGJcwiJ2YeIgLcjCFO6PPTEnPx8PfEGg9jpUHU7cXocuGQWha0SwxxLoObAVSuptFK9k8GMFHZ5VjwT2nsjpuEubfrvLeIKRnzCGAbnL/ZBYE6L1PNtup/T99196dPDHtTDWXlGw6pKyokk3oEWYxAy+htV6XdPtUWQysZFAhh80i6ik3alOOWyiii74Fn0Mh7R80LZQBE6r/B9pRt3OTJiF4aTxBHm2JVniWWJu8luSnMhuwEL2Wg9UJtWvvP11YRreRWxaTWurwhqfZF/gsvKRUPHx+ZIEh74zFvBhq5MWtDHxLKNCMVRfly/DUosV2BQ3akE1fx92rzzS5pqC</ds:X509Certificate> 
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cizrm.municipia.eng.it/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cizrm-be.municipia.eng.it/auth-middleware/acs" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">fe-cittadino</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">ARGO - Portale Cittadino</md:ServiceDescription>
+			<md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune Di Porto Cesareo</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune Di Porto Cesareo</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.portocesareo.le.it/</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>c_m263</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune Di Porto Cesareo</md:Company>
+		<md:EmailAddress>RAGIONERIA@COMUNE.PORTOCESAREO.LE.IT</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>
