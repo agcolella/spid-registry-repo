@@ -87,9 +87,9 @@ jobs:
 
             <h2>Riepilogo validazione</h2>
             <table>
-              <tr><th>Validi</th><td>\$VALID</td></tr>
-              <tr><th>Invalidi</th><td>\$INVALID</td></tr>
-              <tr><th>Totali</th><td>\$TOTAL</td></tr>
+              <tr><th>Validi</th><td>$VALID</td></tr>
+              <tr><th>Invalidi</th><td>$INVALID</td></tr>
+              <tr><th>Totali</th><td>$TOTAL</td></tr>
             </table>
 
             <p><a href="report.log">📄 Scarica il report completo</a></p>
