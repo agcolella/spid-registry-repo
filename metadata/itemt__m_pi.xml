@@ -1,0 +1,249 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ID_6ff30a31-6c86-44fb-a446-9ba551e93eed" entityID="https://spid.pubblica.istruzione.it/pub-ag-full/itemt"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ID_6ff30a31-6c86-44fb-a446-9ba551e93eed">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>FxPwzvhYFs90GuL2wa7wczbZuvL9WlhsjI311qG5KQM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SSqUoD3jMhxiGIeKTK6HfQUSLLQgP7KA+bZAjqp7DyLJdXhYwnedAfI+JHIgoNnDFopeJA0ncnad
+H3hxUnjI2K23GrucwFPAa9gQlasQh9KGzYnPuYdS6Ql8UJ1Avc86RrrlSqx3UqRsN22N4WN5v2/P
+4WAzVj6n3J6LzSVv6X0EPiBfoK5rNgANZfVDv01eqHbxFp30gCn3dtOHzHxugMUAZFvMbwnvJ7n2
+SosyzNDr/nRW2pM1t1XBzIO+hJHY+CI2ZeFRrljwMKnMz33ZxxmoeAoSpT4vHWJlSTc/bpu9l/RD
+gjpm92VM8VZmKAQiDf883PCw2pF/I+5Pd4aq4A==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wlFYgtl5ET9o9azmfZi2wnDfaXI0mjnIvkloJTm/biAff7xWLdCfFx+WnzgHrIbc/XnxX6nGeWY7
+znZwZIR1ZD2LTpOf9MRkpefE/Mw3crTv9CUNg+LIsqcha0nQ6iniPIR1NnlEVesJ2zKyk+YlQ76o
+8QBzJcb16CvgqBE8yA35xizysVau8k59LYBPrvkXuxM6upEipCqmLM2dKOf4JxKlaZp8wjW9xSuy
+VJxfsO4IXr+7wkIfyR1t9524l9PqH8G50k5Ei9gQTan1ry9/Bc8QbzFKkKVXc9AA8WU4jHK5EBKc
+iINr6vkebFJVPzWxYwS+wvZpEZpVK4UOUvm0rQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEFjCCAv6gAwIBAgIJALhPaoQenH/fMA0GCSqGSIb3DQEBCwUAMIGbMSIwIAYDVQQKDBlNaW5p
+c3Rlcm8gZGVsbCdJc3RydXppb25lMSIwIAYDVQQDDBlNaW5pc3Rlcm8gZGVsbCdJc3RydXppb25l
+MSAwHgYDVQRTDBdodHRwczovL3d3dy5taXVyLmdvdi5pdDETMBEGA1UEYQwKUEE6SVQtbV9waTEL
+MAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwHhcNMjEwMjIyMTQyNDU1WhcNMzEwMjIwMTQyNDU1
+WjCBmzEiMCAGA1UECgwZTWluaXN0ZXJvIGRlbGwnSXN0cnV6aW9uZTEiMCAGA1UEAwwZTWluaXN0
+ZXJvIGRlbGwnSXN0cnV6aW9uZTEgMB4GA1UEUwwXaHR0cHM6Ly93d3cubWl1ci5nb3YuaXQxEzAR
+BgNVBGEMClBBOklULW1fcGkxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwlFYgtl5ET9o9azmfZi2wnDfaXI0mjnIvkloJTm/biAff7xW
+LdCfFx+WnzgHrIbc/XnxX6nGeWY7znZwZIR1ZD2LTpOf9MRkpefE/Mw3crTv9CUNg+LIsqcha0nQ
+6iniPIR1NnlEVesJ2zKyk+YlQ76o8QBzJcb16CvgqBE8yA35xizysVau8k59LYBPrvkXuxM6upEi
+pCqmLM2dKOf4JxKlaZp8wjW9xSuyVJxfsO4IXr+7wkIfyR1t9524l9PqH8G50k5Ei9gQTan1ry9/
+Bc8QbzFKkKVXc9AA8WU4jHK5EBKciINr6vkebFJVPzWxYwS+wvZpEZpVK4UOUvm0rQIDAQABo1sw
+WTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIGwDA/BgNVHSAEODA2MDQGBitMEAQCATAqMCgGCCsGAQUF
+BwICMBwaGuKAnHNwaWQtcHVibGljc2VjdG9yLVNQ4oCdMA0GCSqGSIb3DQEBCwUAA4IBAQBLcQW5
+YYszZsda4NCqse+Fl+JiXj0lkZG8rKvfeVXemu/ddXoae/L002i/6mZB6ExUbHY8ZQcQqWm4LFZx
+eiXGaIiXjEKJN0aM87T6Rg4NAhTaVUTOy2PJNcGLE5UDc6a+o/aKu4v58YN4ORVX0uhfQ/5Y4iIz
+Sn/DUuhyLfl3IzdBFvzuc4udAlBix5OEjVMyF0SNcS0lOhrAcDqMx1W47agSO+Q3vxFSKGzmE5jz
+nUlu4GbnfUMGJ5J7JwF82LWgNRBIRbE13yR2/vqhLK9pUaqqyBiK2GNXhgm35192rXehO+3aqJRl
+WmidBudjAqLNIQNEYrZvQNL0GNjry+Bn
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIEFjCCAv6gAwIBAgIJALhPaoQenH/fMA0GCSqGSIb3DQEBCwUAMIGbMSIwIAYD
+                        VQQKDBlNaW5pc3Rlcm8gZGVsbCdJc3RydXppb25lMSIwIAYDVQQDDBlNaW5pc3Rl
+                        cm8gZGVsbCdJc3RydXppb25lMSAwHgYDVQRTDBdodHRwczovL3d3dy5taXVyLmdv
+                        di5pdDETMBEGA1UEYQwKUEE6SVQtbV9waTELMAkGA1UEBhMCSVQxDTALBgNVBAcM
+                        BFJvbWEwHhcNMjEwMjIyMTQyNDU1WhcNMzEwMjIwMTQyNDU1WjCBmzEiMCAGA1UE
+                        CgwZTWluaXN0ZXJvIGRlbGwnSXN0cnV6aW9uZTEiMCAGA1UEAwwZTWluaXN0ZXJv
+                        IGRlbGwnSXN0cnV6aW9uZTEgMB4GA1UEUwwXaHR0cHM6Ly93d3cubWl1ci5nb3Yu
+                        aXQxEzARBgNVBGEMClBBOklULW1fcGkxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARS
+                        b21hMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAwlFYgtl5ET9o9azm
+                        fZi2wnDfaXI0mjnIvkloJTm/biAff7xWLdCfFx+WnzgHrIbc/XnxX6nGeWY7znZw
+                        ZIR1ZD2LTpOf9MRkpefE/Mw3crTv9CUNg+LIsqcha0nQ6iniPIR1NnlEVesJ2zKy
+                        k+YlQ76o8QBzJcb16CvgqBE8yA35xizysVau8k59LYBPrvkXuxM6upEipCqmLM2d
+                        KOf4JxKlaZp8wjW9xSuyVJxfsO4IXr+7wkIfyR1t9524l9PqH8G50k5Ei9gQTan1
+                        ry9/Bc8QbzFKkKVXc9AA8WU4jHK5EBKciINr6vkebFJVPzWxYwS+wvZpEZpVK4UO
+                        Uvm0rQIDAQABo1swWTAJBgNVHRMEAjAAMAsGA1UdDwQEAwIGwDA/BgNVHSAEODA2
+                        MDQGBitMEAQCATAqMCgGCCsGAQUFBwICMBwaGuKAnHNwaWQtcHVibGljc2VjdG9y
+                        LVNQ4oCdMA0GCSqGSIb3DQEBCwUAA4IBAQBLcQW5YYszZsda4NCqse+Fl+JiXj0l
+                        kZG8rKvfeVXemu/ddXoae/L002i/6mZB6ExUbHY8ZQcQqWm4LFZxeiXGaIiXjEKJ
+                        N0aM87T6Rg4NAhTaVUTOy2PJNcGLE5UDc6a+o/aKu4v58YN4ORVX0uhfQ/5Y4iIz
+                        Sn/DUuhyLfl3IzdBFvzuc4udAlBix5OEjVMyF0SNcS0lOhrAcDqMx1W47agSO+Q3
+                        vxFSKGzmE5jznUlu4GbnfUMGJ5J7JwF82LWgNRBIRbE13yR2/vqhLK9pUaqqyBiK
+                        2GNXhgm35192rXehO+3aqJRlWmidBudjAqLNIQNEYrZvQNL0GNjry+Bn
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>        
+		
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid.istruzione.it/eid-gateway/saml2/spid/single-logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-test.istruzione.it/eid-gateway/saml2/spid/single-logout"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-coll.istruzione.it/eid-gateway/saml2/spid/single-logout"/>		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid.istruzione.it/eid-gateway/saml2/eidas/single-logout"/>			
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid.istruzione.it/eid-gateway/saml2/spid/assertion-consumer" index="0" isDefault="true"/>   
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-coll.istruzione.it/eid-gateway/saml2/spid/assertion-consumer" index="1"/>				
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid-test.istruzione.it/eid-gateway/saml2/spid/assertion-consumer" index="2"/>	
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://eid.istruzione.it/eid-gateway/saml2/eidas/assertion-consumer" index="3"/>						
+				
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">MI Attribute defaul
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">MI Attributi Estesi
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">MI Attributi Base
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">MI SPID - Login
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it">MI SPID - Registrazione
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5">
+            <md:ServiceName xml:lang="it">MI Minimum Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="6">
+            <md:ServiceName xml:lang="it">MI Minimum Set + Mail
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="7">
+            <md:ServiceName xml:lang="it">MI - Minimum Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="8">
+            <md:ServiceName xml:lang="it">MI Attributi Estesi (con indirizzo)</md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+	        <md:RequestedAttribute Name="domicileStreetAddress"/>
+	        <md:RequestedAttribute Name="domicilePostalCode"/>
+	        <md:RequestedAttribute Name="domicileMunicipality"/>
+	        <md:RequestedAttribute Name="domicileProvince"/>
+	        <md:RequestedAttribute Name="domicileNation"/>		    
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">MI Natural Person Minimum
+                Attribute Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">MI Natural Person Full
+                Attribute Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+
+        <md:Organization>
+            <md:OrganizationName xml:lang="it">Istituto Tecnico Economico E. Montale</md:OrganizationName>
+            <md:OrganizationDisplayName xml:lang="it">Istituto Tecnico Economico E. Montale</md:OrganizationDisplayName>
+            <md:OrganizationURL xml:lang="it">www.isismontaletradate.com</md:OrganizationURL>
+        </md:Organization>
+
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:IPACode>m_pi</spid:IPACode>
+            <spid:PublicServicesFullAggregator/>
+        </md:Extensions>
+        <md:Company>Ministero dell'Istruzione e del Merito</md:Company>
+        <md:EmailAddress>id-digitale.supporto@istruzione.it</md:EmailAddress>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+        <md:Extensions>
+            <spid:IPACode>itemt</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Istituto Tecnico Economico E. Montale</md:Company>
+        <md:EmailAddress>VATD22000N@istruzione.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
