@@ -1,0 +1,222 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx3b271450-6f37-c65e-dfd7-8a6182e59e3b" entityID="https://spid.indire.it/sso/module.php/saml/sp/metadata.php/spid"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx3b271450-6f37-c65e-dfd7-8a6182e59e3b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ZGKkvInaowWl59d9NUOw6tzpDx31JDpfe4/7mx5oV/A=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+SAcYcrZVdX3hjWT4BWymf4xZSdiubfJSUIUOZIlEfy5yeVyVmT38APBuSXl8s8Uo5tbIoXD9Gg+i
+OE4LKzl6h/jRd8c7lDSGQ4tbumIpx0G/V/0AWPX4lgti8zwDYL096H5jkymtbZsqHCrYrGOB7VpQ
+aKTpZo5ehEgY/2VoW5nZRUJR1CgS4Hy95In6ZDaGAtUdavWG+7iN6F3Zy9e0tlrx3RDK0eB4YaWG
+O4VM2pPpCIf6yTY+CLR4raGW1jt1el2dyaqxUw+UOXun3PK0zOporVyEy0+eZhOX3oE9l9wD33ta
+IPTQnsC6Sv6nmv6erKsndvJ4WiQWEkwI4QFRlqMMlUAoYbMz49EEiQNbFQ9Nhxmc3ZY+Q48NnK/j
+79B4SEcndjuBm7bj3iEmdrSnJJsYhI/ebhU9pDS2Da83WXGuj2VLRIDShbx4pDLjrYMDnL8fYpQe
+8vsOmtmDM9Ks2MEm6u0WWyZdTsT6IEI153/HNuKDC5kB6DYlfMSDKWKx
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+zOw3mMUf3YfDM4wH5JLRAgv3EqV79/t4WM2hoCSuIk1xf+mpjm62phpqdcNkYa9B1fBs4x+5FEln
+uGPXyWY0odyf0cbeTZDy+zjrI7RWPQiLE6ukYUSYAM+AjKndDgVP8NJ+tKeyTRBhkqcwiab+akla
++FJs3zJgh3/MwAUcksokP3b1Fuo0GPQJ9q4jmuQ6vY019xP7qucak1OqZyVKz0AQsUD2U+5yUVwm
+nRKq3FsqKm12pVwGUtOQ1Eiw9qO4t6KwHcIutp3Zo0ahqkL3BMreCgReMWa0kgdYFyVDsGhgHqKe
+AOdbAbdwtIHmC8JE/wr71N9owdSaPSFSHInURWy1QPSA0NFVhl+HEI4oh5pA4zN9o8W0n4Z3Z3De
+WtHZ/6F4ie75jXOo+rxtjQyoY5LeCTeyPLTrMCBAeGK1youLTEIt0Jpe4rT1PuxfelaEoWtHevXr
+LPQ6aadgo3HCzR/2jUh0QTmUf/ZkSZQ1Z2dzdB6VI4/pHM6UR/BPZ3JT
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEpTCCAw2gAwIBAgIUZpBDspEYsG3zZz4+oEA6Hq/MKTwwDQYJKoZIhvcNAQELBQAwYjELMAkG
+A1UEBhMCSVQxEDAOBgNVBAgMB0ZpcmVuemUxEDAOBgNVBAcMB0ZpcmVuemUxDzANBgNVBAoMBklO
+RElSRTEeMBwGA1UEAwwVaHR0cHM6Ly93d3cuaW5kaXJlLml0MB4XDTIyMDQxMjA0NTE0OFoXDTMy
+MDQxMTA0NTE0OFowYjELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0ZpcmVuemUxEDAOBgNVBAcMB0Zp
+cmVuemUxDzANBgNVBAoMBklORElSRTEeMBwGA1UEAwwVaHR0cHM6Ly93d3cuaW5kaXJlLml0MIIB
+ojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAzOw3mMUf3YfDM4wH5JLRAgv3EqV79/t4WM2h
+oCSuIk1xf+mpjm62phpqdcNkYa9B1fBs4x+5FElnuGPXyWY0odyf0cbeTZDy+zjrI7RWPQiLE6uk
+YUSYAM+AjKndDgVP8NJ+tKeyTRBhkqcwiab+akla+FJs3zJgh3/MwAUcksokP3b1Fuo0GPQJ9q4j
+muQ6vY019xP7qucak1OqZyVKz0AQsUD2U+5yUVwmnRKq3FsqKm12pVwGUtOQ1Eiw9qO4t6KwHcIu
+tp3Zo0ahqkL3BMreCgReMWa0kgdYFyVDsGhgHqKeAOdbAbdwtIHmC8JE/wr71N9owdSaPSFSHInU
+RWy1QPSA0NFVhl+HEI4oh5pA4zN9o8W0n4Z3Z3DeWtHZ/6F4ie75jXOo+rxtjQyoY5LeCTeyPLTr
+MCBAeGK1youLTEIt0Jpe4rT1PuxfelaEoWtHevXrLPQ6aadgo3HCzR/2jUh0QTmUf/ZkSZQ1Z2dz
+dB6VI4/pHM6UR/BPZ3JTAgMBAAGjUzBRMB0GA1UdDgQWBBQ9UgtUDrgkaIsjBQ0q+p8thUGBVzAf
+BgNVHSMEGDAWgBQ9UgtUDrgkaIsjBQ0q+p8thUGBVzAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBgQAEVZTEDsSrbO9kQuodRkeWxYHFHsxqjoCtAiAD0LEtbkWuyK5TE6DeJV5BetQW
+IF4rvMtnSGEtvAjwZsmc1l/MeEjg/OUgXfJIB9pFLIYbP7JfY/dZJAN3b4fSkuxEmvq8+mauu0sK
+ogJD00gIqSMZ3mdyKRIBVFV0XWQRWoheUP1TYKfzNWcxgssKRETp5GCO3aDasGO3+IsNhd6zM+5z
+jjF8QJLgiIZp0lW5cJBFq/qOomd66kQ4cNxOa6m02R2ah51stnR62JNwN7uqmiK8XBLLK6rumO7k
+VHeUPbDZwZRuFGhR+OJfmjTFM2bjAZL52W2+4rkzSnLXy5TXVwyqemDxrbk80aU/3Z82f48wTi/N
+BEEplxZkbuxNQ6C7RW8+U48yACvloHWDNguT5QgoUW02LQ4XZxtdDoJhCzSjbt3nZB/MubXXyAzf
+k2SmqhgWvkrYNbWNgMmRkyGd3yub8U0No8GF7XJKjOW16IbMf5ZYFCd4VR034iklSGHQfVI=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAOAUhE+38OXyMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHRmlyZW56ZTEQMA4GA1UEBwwHRmlyZW56ZTEPMA0GA1UECgwGSU5ESVJFMR0wGwYDVQQDDBRodHRwOi8vd3d3LmluZGlyZS5pdDEgMB4GCSqGSIb3DQEJARYRYS5yb25jYUBpbmRpcmUuaXQwHhcNMjAwOTA5MDgzNzM0WhcNMzAwOTA3MDgzNzM0WjCBgzELMAkGA1UEBhMCSVQxEDAOBgNVBAgMB0ZpcmVuemUxEDAOBgNVBAcMB0ZpcmVuemUxDzANBgNVBAoMBklORElSRTEdMBsGA1UEAwwUaHR0cDovL3d3dy5pbmRpcmUuaXQxIDAeBgkqhkiG9w0BCQEWEWEucm9uY2FAaW5kaXJlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxgXfS6BhBJW1kSoDA0Cqpir51EZyPU5au6r/fBTcxNfkaMdsF8j3hv49g9UB5Gw6jqzreIHhUsip0GknifZXt6PuxF56uwlZ/RUuINTqL91Pe2sjPWC1gDmj3NxMR0JBqY8f3lA3SZlkLRySMy8Q7CdjhCX+6aeQk5PIDqKXuNvwAJdDqV61rJvKe5giSNbl1pKWj/vfrQUc5p8/9UHBR/Yl4eLq0B7k46XEryB/G9jvPBh3Bclf/3PVcIVf+ZFYMYnCzwMaA+JvVpmmNus7+Ea0P+NGybviQN33UNVzkQfKP+5zp9PLK8ajjvPm1yfuEY3ckSJP9aHzXvZKdBT80wIDAQABo1AwTjAdBgNVHQ4EFgQUzq4AGb6STDozIkE1AsC549SY9lswHwYDVR0jBBgwFoAUzq4AGb6STDozIkE1AsC549SY9lswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEADZ8Q3YlevfVviCGY/nrx9Srcr/2ps0czGGPOIcGYEdiBnKGXJkPZ/OwUXYNXoGe/yXXbt4pKdqlxdQTpDCmI6wAcuhpGCcV7rS/1B9UoU++Qxjnysa+Z/o71Ih5UCGrDwmHiWtLy90U5AMJaIbRDf9QGqJB/UWCovKDKdMPgbo+4oBwUvE5sdA2Yj2QYIhofNwpG7e0H65p1f6dJ9cCPzxS+MEFa4T41/eAF7WWYom/fYNUPPMHrF+XDXJLVy/6WQB1dcFFCdSczbwxJ/XMx2+3C4nSxzw69Qm2B+dNk0gckxwubYpDDZZdALmvPdunLDXwE3bocMparCF0uiD2l0g==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIID2zCCAsOgAwIBAgIJAOAUhE+38OXyMA0GCSqGSIb3DQEBCwUAMIGDMQswCQYDVQQGEwJJVDEQ
+MA4GA1UECAwHRmlyZW56ZTEQMA4GA1UEBwwHRmlyZW56ZTEPMA0GA1UECgwGSU5ESVJFMR0wGwYD
+VQQDDBRodHRwOi8vd3d3LmluZGlyZS5pdDEgMB4GCSqGSIb3DQEJARYRYS5yb25jYUBpbmRpcmUu
+aXQwHhcNMjAwOTA5MDgzNzM0WhcNMzAwOTA3MDgzNzM0WjCBgzELMAkGA1UEBhMCSVQxEDAOBgNV
+BAgMB0ZpcmVuemUxEDAOBgNVBAcMB0ZpcmVuemUxDzANBgNVBAoMBklORElSRTEdMBsGA1UEAwwU
+aHR0cDovL3d3dy5pbmRpcmUuaXQxIDAeBgkqhkiG9w0BCQEWEWEucm9uY2FAaW5kaXJlLml0MIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAxgXfS6BhBJW1kSoDA0Cqpir51EZyPU5au6r/
+fBTcxNfkaMdsF8j3hv49g9UB5Gw6jqzreIHhUsip0GknifZXt6PuxF56uwlZ/RUuINTqL91Pe2sj
+PWC1gDmj3NxMR0JBqY8f3lA3SZlkLRySMy8Q7CdjhCX+6aeQk5PIDqKXuNvwAJdDqV61rJvKe5gi
+SNbl1pKWj/vfrQUc5p8/9UHBR/Yl4eLq0B7k46XEryB/G9jvPBh3Bclf/3PVcIVf+ZFYMYnCzwMa
+A+JvVpmmNus7+Ea0P+NGybviQN33UNVzkQfKP+5zp9PLK8ajjvPm1yfuEY3ckSJP9aHzXvZKdBT8
+0wIDAQABo1AwTjAdBgNVHQ4EFgQUzq4AGb6STDozIkE1AsC549SY9lswHwYDVR0jBBgwFoAUzq4A
+Gb6STDozIkE1AsC549SY9lswDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEADZ8Q3Yle
+vfVviCGY/nrx9Srcr/2ps0czGGPOIcGYEdiBnKGXJkPZ/OwUXYNXoGe/yXXbt4pKdqlxdQTpDCmI
+6wAcuhpGCcV7rS/1B9UoU++Qxjnysa+Z/o71Ih5UCGrDwmHiWtLy90U5AMJaIbRDf9QGqJB/UWCo
+vKDKdMPgbo+4oBwUvE5sdA2Yj2QYIhofNwpG7e0H65p1f6dJ9cCPzxS+MEFa4T41/eAF7WWYom/f
+YNUPPMHrF+XDXJLVy/6WQB1dcFFCdSczbwxJ/XMx2+3C4nSxzw69Qm2B+dNk0gckxwubYpDDZZdA
+LmvPdunLDXwE3bocMparCF0uiD2l0g==</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIDkTCCAnmgAwIBAgIGAXZNSVcgMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMDEyMTAxNTMz
+NDBaFw0zMDA5MDkxNDMzNDBaMGExHjAcBgNVBAMMFWh0dHBzOi8vd3d3LmluZGlyZS5pdDEJMAcG
+A1UECgwAMRUwEwYDVQQFEwxQQTpJVC1JTkRJUkUxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdGaXJl
+bnplMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAy+I6N2vV6gLoEO/rzjC+SilSHKXJ
+DGg6qWhJedSJS/4IuhjGR4N4RIN46kvRvTDCHAGSm4bYLlC/76Q81GmXvU6tfB2lfCtBxS9IzbjM
+wKa1qf9s9oLvyj/JBY5IBn93hJd4SuiZBDgx125HtiVH2aLuShNsM0nGRHIXhJZCoId6kQbwlpOl
+B9NK9zq5AGKXuUjlVRDRpNcSWdyV0Qm0FkwTgf1JdTLRN5MY/h++x8717e7kIcODwhGTcQW+dRG7
+a0Y2F+Hj2iOWWiL/h7kDJbogqLDmZ7k97ZYsS41OtIXQnnlF9uN7xk/M8bUhUnGZW1H4VMncOdFe
+CW1eqGQPbwIDAQABozkwNzA1BgNVHSAELjAsBgYrTBAEAgEwIjAgBggrBgEFBQcCARYUc3BpZC1w
+dWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQELBQADggEBAI1Zf2XmQxLpz7wpq689Y8Nbvwbu1lBl
+w06EBVbG9gcZVNlvdMozPeaRUOhjjVZRl9TB+EN8dmPANC1es9zuFqjU0aVY/eOEExcxKaCqRCmA
+NjwrAwJ1LmGYPNaiCKq8+Knii0hImKjEgZFeXiSpngC3Q/Wh/gIHBoFvod+UI1F3RumPkVAHG6NK
+HmqNh3X5VEpbjJWiv/C69gXt9A+0FFycZcsNJn/mk5UbhTmh7SEbq8TK2VewXh2dZqCqHTHaorhF
+BK2RBbU8LG2hQyU1P9HU8wT+6C8yRitECKm3TRw45DVfY8duJvWiFHv/BdnkI6ahpwVvFtDIYPXK
+tBwKmv4=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+	   <md:KeyDescriptor use="signing">
+		  <ds:KeyInfo>
+			<ds:X509Data>
+			  <ds:X509Certificate>MIIEhzCCAu+gAwIBAgIJAOBg3i9VvboZMA0GCSqGSIb3DQEBCwUAMFoxCzAJBgNV
+BAYTAklUMRAwDgYDVQQIDAdGaXJlbnplMRAwDgYDVQQHDAdGaXJlbnplMQ8wDQYD
+VQQKDAZJTkRJUkUxFjAUBgNVBAMMDXd3dy5pbmRpcmUuaXQwHhcNMjIwNDExMTEw
+MzE0WhcNMzIwNDEwMTEwMzE0WjBaMQswCQYDVQQGEwJJVDEQMA4GA1UECAwHRmly
+ZW56ZTEQMA4GA1UEBwwHRmlyZW56ZTEPMA0GA1UECgwGSU5ESVJFMRYwFAYDVQQD
+DA13d3cuaW5kaXJlLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA
+/MYoFXSHzGUffkvXaD/SPYEcUkndropAYXjSnkOTU/K/dHghG9oA+kqYxib3+XTH
+TlTGaEGtQHfx5ORZe0bN+y9nC72IVdQ8b+MVRl8nbjEsP+c15YDBy5Wbz50prYVK
+i3da3l6eX80GGOzT6tTlVuw2pV3fVei69yJDLVydRuEIUZS1dl1cls5wFlW33CO0
+wpzeToxQFlj2BFLaW58vDcJaxhcozlu2BLAUG/Ytcjj0tl/RHX+6QM0+1LHLKbhH
+NXaUlNvbr2APAStjyoMqROLAKIlFhVULJ0MUFfbBHyuYugM6z6Jpn2a+KQg12YSY
+MNxaNQtj9kuyNhcifbh/EE8/benjzQYqoLyVXPvy/n8Fyjd7YrzRn2oRwKpLO2Hn
+Fn9dYtu+yx7d+bLtPP/wdk9ajSsl5D3Y0mFy/cXw0vZMmSoGPVOU0FxAKrVTrXsW
+g7KqLoY4LN6r+cIjONDFrBVq+G85PYWMXyRCLESV0np2OWqOezNLNUSaJNEJghYH
+AgMBAAGjUDBOMB0GA1UdDgQWBBRC2/bI1V6YP3PYbjM8hWEb9qF/yjAfBgNVHSME
+GDAWgBRC2/bI1V6YP3PYbjM8hWEb9qF/yjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBgQCBbhq6v34PgVRcfIsxOx+We1d5kA+OQ6xtXgUmt2lFI39XGhFz
+pMmMaRVbu3mx4xwixVNaG78chbppmeGdUs3/HAfxI1axjC5CoQ/MErAsPz3R8PwN
+SWKt6BsTaztOdXA7IUpxupEEVzAKq8uWcf2coUKANBwT7JCGFtUf300/vr/+MadB
+vG3ZFKyqsdhqyNu15IzyvfZRI2wzdUU2Ij1O3G51WIukcKZ8XAmfv4OkCx2XXFid
+oEtgsoC1iWfKLto740HWqvJkDqdKuJyTiDX7zEQCkASfhbznKS9LfJPXZngfbQ9S
+3En1Q9ZOUg1p6kX6GNuuElHDw7z3CMdZNF2if3SGyo2FMbnRxQEx30plGLCQvhFV
+J/XVS/G2/uht1P8GlfNZZ5RMidPPjJVHom5PFm85/45kto6drTH3YawRUyDxCcYv
+BrPM4DP4007LkDeY0Na5Ryfwn7XIQAlzYadxw/u8gCOTiGPJqs2oUD8uQhtpqNI/
+asoj6nATPqZwYFA=</ds:X509Certificate>
+			</ds:X509Data>
+		  </ds:KeyInfo>
+		</md:KeyDescriptor>		
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://bandi.indire.it/spid/module.php/saml/sp/saml2-logout.php/service"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://scuola2030.indire.it/sso/module.php/saml/sp/saml2-logout.php/service"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://repertorio.indire.it/app/public/login/spid/logout"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://scuola2030.indire.it/sso/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://bandi.indire.it/spid/module.php/saml/sp/saml2-acs.php/service" index="1"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://repertorio.indire.it/app/public/login/spid/acs" index="3"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">Bandi</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Procedura per la presentazione di domande per bandi del personale</md:ServiceDescription>
+			<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1">
+			<md:ServiceName xml:lang="it">scuola2030</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">Educazione allo sviluppo sostenibile</md:ServiceDescription>
+			<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="2">
+			<md:ServiceName xml:lang="it">SOL</md:ServiceName>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="3">
+		  <md:ServiceName xml:lang="it">Repertorio</md:ServiceName>
+		  <md:RequestedAttribute Name="spidCode"/>
+		  <md:RequestedAttribute Name="name"/>
+		  <md:RequestedAttribute Name="familyName"/>
+		  <md:RequestedAttribute Name="placeOfBirth"/>
+		  <md:RequestedAttribute Name="countyOfBirth"/>
+		  <md:RequestedAttribute Name="dateOfBirth"/>
+		  <md:RequestedAttribute Name="gender"/>
+		  <md:RequestedAttribute Name="fiscalNumber"/>
+		  <md:RequestedAttribute Name="companyName"/>
+		  <md:RequestedAttribute Name="registeredOffice"/>
+		  <md:RequestedAttribute Name="ivaCode"/>
+		  <md:RequestedAttribute Name="idCard"/>
+		  <md:RequestedAttribute Name="email"/>
+		  <md:RequestedAttribute Name="address"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">INDIRE</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Istituto Nazionale di Documentazione, Innovazione e Ricerca Educativa</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">http://www.indire.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:IPACode>indire</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Istituto Nazionale di documentazione, Innovazione e Ricerca Educativa</md:Company>
+		<md:EmailAddress>indire@pec.it</md:EmailAddress>
+	</md:ContactPerson>
+</md:EntityDescriptor>
