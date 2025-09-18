@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8e73a8d8e4015fb3d4086b02012660b0db33b9adc02ae3922ef8573ff47292b3" entityID="https://servizionline.comune.lusevera.ud.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_8e73a8d8e4015fb3d4086b02012660b0db33b9adc02ae3922ef8573ff47292b3">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iUdJV7O6xQGzDcFnr5pg7kYy7xgQGYTyeUC/wn2cVDA=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+DE8ulE8LmwjDd3WKrf8Yh5HR5g+PIEPYzOr/c+++CxS4xkxnDKxDS6aBjZGDddWmCrdHbwvKhKpx
+tVb0WQy+ODfa5A3idnJPbCfBujmkPXGCzGU+RhpE/tz/QHDGM6OGwjKMpT84kiz47a9gXj8Ue0U2
+cdigpDNsap4VZnnLKtLO4Lqkj25vmaHAQOJtYKTICdX2ZBE1UxoCT2th3r1KElwk/3RcMZiyXZ+p
+YWcu1FE4zpp3f8hYSJN4FMyQ56azuQtPmUTXqMYxuORcJaDPK+pKiSbA7hYbNkx3vlDJOfm0z7Yi
+jO/1LgH7p+/tjWZobRmZoxVP9u5i+lHQbitYwQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+q+lR1kukckUx1IO6gFrMzLW/KRmRXT/+NsP5dlH9YfkVGLh+ByJep8Qe7HdNDFrV7QKGU81mBnGP
+zQi0tJag50V9wsIPI4qsSK7KgEsuZLA1SJOb89+IoNy+DNDabeUmbNoL/z/CHh+ERZ9RxiYjsSOq
+L69rL8ek+x5OX2ya18QF+gH7AV9jmFqmVoEmOWKFmTFD+7BbwIh5QiMx0dQpQ0S0PWMuhbcrA844
+jJydj+qkB9c9txNoVhZD4mmMkZiL9SV5HkTx/ZW8zpcDhAO7T71hGsOGVNFqTrkdF6f6sYUI+J24
+GVDBpLa2tCANvD0lRKs9/JVliQYW3i+Ec3CidQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDyTCCArGgAwIBAgIJAMKC5HXqr6wjMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwITHVzZXZlcmExGzAZBgNVBAoMEkNvbXVuZSBkaSBMdXNl
+dmVyYTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUubHVzZXZlcmEudWQuaXQwHhcNMjMw
+NTI5MTAyNjU0WhcNMzMwNTI4MTAyNjU0WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkx
+ETAPBgNVBAcMCEx1c2V2ZXJhMRswGQYDVQQKDBJDb211bmUgZGkgTHVzZXZlcmExLDAqBgNVBAMM
+I3NlcnZpemlvbmxpbmUuY29tdW5lLmx1c2V2ZXJhLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAq+lR1kukckUx1IO6gFrMzLW/KRmRXT/+NsP5dlH9YfkVGLh+ByJep8Qe7HdN
+DFrV7QKGU81mBnGPzQi0tJag50V9wsIPI4qsSK7KgEsuZLA1SJOb89+IoNy+DNDabeUmbNoL/z/C
+Hh+ERZ9RxiYjsSOqL69rL8ek+x5OX2ya18QF+gH7AV9jmFqmVoEmOWKFmTFD+7BbwIh5QiMx0dQp
+Q0S0PWMuhbcrA844jJydj+qkB9c9txNoVhZD4mmMkZiL9SV5HkTx/ZW8zpcDhAO7T71hGsOGVNFq
+TrkdF6f6sYUI+J24GVDBpLa2tCANvD0lRKs9/JVliQYW3i+Ec3CidQIDAQABo1AwTjAdBgNVHQ4E
+FgQUx2ljMTvNsk7Le02R6+HNVmwworgwHwYDVR0jBBgwFoAUx2ljMTvNsk7Le02R6+HNVmwworgw
+DAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARvKw3JSqNTPCbailwb2s0Gpnen4uUtq5
+HaN7gCqZN04Gsc+BIJy+gFZEjAwnRL9y5ljVAQsJlSeRyP+u6LQJ1R1SDqbXU0YPQSQ5WOV7MwSs
+JwxQbcn1qgalZyCASgddsFlPzv7RWbEQwv/MRBhxYokhqg4g30YJLUag7EYVjCbQWkpH9dkX2LZG
+LwY/oSJq33sZWbqOXgEXikk0438Ri2JytG93RhhNbU3rozNHr3ZrUzOzpvHcGTvRgC+zVVJ8YibB
+v+gGxlT6VgM11I1Uag8s0UMd14Rd0AYX3hjwmfap7X32wZjxmbyHFZoecxymA5RF7E44EV7vJFju
+P6C9sQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAMKC5HXqr6wjMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwITHVzZXZlcmExGzAZBgNVBAoMEkNvbXVuZSBkaSBMdXNldmVyYTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUubHVzZXZlcmEudWQuaXQwHhcNMjMwNTI5MTAyNjU0WhcNMzMwNTI4MTAyNjU0WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCEx1c2V2ZXJhMRswGQYDVQQKDBJDb211bmUgZGkgTHVzZXZlcmExLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLmx1c2V2ZXJhLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq+lR1kukckUx1IO6gFrMzLW/KRmRXT/+NsP5dlH9YfkVGLh+ByJep8Qe7HdNDFrV7QKGU81mBnGPzQi0tJag50V9wsIPI4qsSK7KgEsuZLA1SJOb89+IoNy+DNDabeUmbNoL/z/CHh+ERZ9RxiYjsSOqL69rL8ek+x5OX2ya18QF+gH7AV9jmFqmVoEmOWKFmTFD+7BbwIh5QiMx0dQpQ0S0PWMuhbcrA844jJydj+qkB9c9txNoVhZD4mmMkZiL9SV5HkTx/ZW8zpcDhAO7T71hGsOGVNFqTrkdF6f6sYUI+J24GVDBpLa2tCANvD0lRKs9/JVliQYW3i+Ec3CidQIDAQABo1AwTjAdBgNVHQ4EFgQUx2ljMTvNsk7Le02R6+HNVmwworgwHwYDVR0jBBgwFoAUx2ljMTvNsk7Le02R6+HNVmwworgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARvKw3JSqNTPCbailwb2s0Gpnen4uUtq5HaN7gCqZN04Gsc+BIJy+gFZEjAwnRL9y5ljVAQsJlSeRyP+u6LQJ1R1SDqbXU0YPQSQ5WOV7MwSsJwxQbcn1qgalZyCASgddsFlPzv7RWbEQwv/MRBhxYokhqg4g30YJLUag7EYVjCbQWkpH9dkX2LZGLwY/oSJq33sZWbqOXgEXikk0438Ri2JytG93RhhNbU3rozNHr3ZrUzOzpvHcGTvRgC+zVVJ8YibBv+gGxlT6VgM11I1Uag8s0UMd14Rd0AYX3hjwmfap7X32wZjxmbyHFZoecxymA5RF7E44EV7vJFjuP6C9sQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDyTCCArGgAwIBAgIJAMKC5HXqr6wjMA0GCSqGSIb3DQEBCwUAMHsxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwITHVzZXZlcmExGzAZBgNVBAoMEkNvbXVuZSBkaSBMdXNldmVyYTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUubHVzZXZlcmEudWQuaXQwHhcNMjMwNTI5MTAyNjU0WhcNMzMwNTI4MTAyNjU0WjB7MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCEx1c2V2ZXJhMRswGQYDVQQKDBJDb211bmUgZGkgTHVzZXZlcmExLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLmx1c2V2ZXJhLnVkLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq+lR1kukckUx1IO6gFrMzLW/KRmRXT/+NsP5dlH9YfkVGLh+ByJep8Qe7HdNDFrV7QKGU81mBnGPzQi0tJag50V9wsIPI4qsSK7KgEsuZLA1SJOb89+IoNy+DNDabeUmbNoL/z/CHh+ERZ9RxiYjsSOqL69rL8ek+x5OX2ya18QF+gH7AV9jmFqmVoEmOWKFmTFD+7BbwIh5QiMx0dQpQ0S0PWMuhbcrA844jJydj+qkB9c9txNoVhZD4mmMkZiL9SV5HkTx/ZW8zpcDhAO7T71hGsOGVNFqTrkdF6f6sYUI+J24GVDBpLa2tCANvD0lRKs9/JVliQYW3i+Ec3CidQIDAQABo1AwTjAdBgNVHQ4EFgQUx2ljMTvNsk7Le02R6+HNVmwworgwHwYDVR0jBBgwFoAUx2ljMTvNsk7Le02R6+HNVmwworgwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEARvKw3JSqNTPCbailwb2s0Gpnen4uUtq5HaN7gCqZN04Gsc+BIJy+gFZEjAwnRL9y5ljVAQsJlSeRyP+u6LQJ1R1SDqbXU0YPQSQ5WOV7MwSsJwxQbcn1qgalZyCASgddsFlPzv7RWbEQwv/MRBhxYokhqg4g30YJLUag7EYVjCbQWkpH9dkX2LZGLwY/oSJq33sZWbqOXgEXikk0438Ri2JytG93RhhNbU3rozNHr3ZrUzOzpvHcGTvRgC+zVVJ8YibBv+gGxlT6VgM11I1Uag8s0UMd14Rd0AYX3hjwmfap7X32wZjxmbyHFZoecxymA5RF7E44EV7vJFjuP6C9sQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.lusevera.ud.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.lusevera.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.lusevera.ud.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Lusevera</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Lusevera</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Lusevera</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Lusevera</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.lusevera.ud.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.lusevera.ud.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_e760</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Lusevera</md:Company>
+    <md:EmailAddress>protocollo@comune.lusevera.ud.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
