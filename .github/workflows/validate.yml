@@ -129,14 +129,11 @@ jobs:
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-
-
       - name: Deploy validated metadata to gh-pages
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          # Prepara una directory separata per gh-pages
           rm -rf .publish
           git fetch origin gh-pages || true
           git worktree add .publish gh-pages || git worktree add .publish -b gh-pages origin/gh-pages
@@ -144,13 +141,18 @@ jobs:
           # Copia i file generati
           cp -r .gh-pages-tmp/* .publish/
 
+          # ⚠️ Forza index.html aggiornato
+          cp .gh-pages-tmp/gh-pages_index.html .publish/index.html
+
           # Commit e push
           cd .publish
           touch .nojekyll
           git add .
           git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages --force
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
           cd ..
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+
 
