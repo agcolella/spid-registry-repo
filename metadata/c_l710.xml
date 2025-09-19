@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxa160201d-5d93-3808-14ae-93b2765a7d0d" entityID="http://www.comune.veggiano.pd.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxa160201d-5d93-3808-14ae-93b2765a7d0d">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    FqM7GTGc9VSLgGYwQnK+iRcu5lugmSrlVDZYEfxKR0U=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+KnG+RC+Tlvje4xTq+iLdJ5B9rZ6Bmh25akjT9Ie4hXDKYt7gsh96PzTjIYdpIvfQLRtqlCw89fqW
+kDSSyfluBio9FkZcqT4u2wY2VAbDKEg1lQTtJqqKBMpMqrbtS+aH4btj6scBfVInyUPPLPfbVR0e
+M8N8XALVrxnhk+ys7wdjgjohxPG1bot6OK/zPfndzumzRpYRf73Vl5yiRs/gPNbvXjcJKEaaFkcO
+g8aiULBRmvoSYBdmzfhnGla42D0hqa9Axmla8xmo3aK7KUmeB6CbX1H01009Lw7RpimVHRPPYm+6
+CCn3YSc8v6ys9JdkB1gYfwHLuX+/PpahcXFi0Q==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+0J1P/pmixWfqsw1QFNb7OTKV/y9vszzUp4qJakn4kKzHYbbbPsVZD/YvtXm/w4Yh5Q8xpzCMohQc
+FdiGTUd/kQxgpoK/POiQs7xm8a6AU5DSoiHTRbllbF23tcok8ZrCqsOl0PXy1Cn1ba+JObByoUM/
+vZH8C8O70s8ZReucVzqnzborEC+J6DcpRKlvo90eFTbNcoa3bv4wMuDS7DX5kg5Zu4N3VR4eVvjL
+F46jjU3qQ9fMjm30nBkL37S1Pf6jmXKkJ0RlUNxbAzPpPvcLnYo3dj1gl4wK8UCEsQG2r7A7RJwQ
+f+R23VsGgoONCKOwCdEj2h6g8IpVG4rTRWcjww==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDjTCCAnWgAwIBAgIJALWRjzHyCRVVMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmVnZ2lhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWZWdn
+aWFubzEOMAwGA1UEAwwFaHR0cDowHhcNMjIwMjAyMDgwMzAyWhcNMzIwMjAyMDgwMzAyWjBdMQsw
+CQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZlZ2dpYW5vMRswGQYDVQQKDBJD
+b211bmUgZGkgVmVnZ2lhbm8xDjAMBgNVBAMMBWh0dHA6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEA0J1P/pmixWfqsw1QFNb7OTKV/y9vszzUp4qJakn4kKzHYbbbPsVZD/YvtXm/w4Yh
+5Q8xpzCMohQcFdiGTUd/kQxgpoK/POiQs7xm8a6AU5DSoiHTRbllbF23tcok8ZrCqsOl0PXy1Cn1
+ba+JObByoUM/vZH8C8O70s8ZReucVzqnzborEC+J6DcpRKlvo90eFTbNcoa3bv4wMuDS7DX5kg5Z
+u4N3VR4eVvjLF46jjU3qQ9fMjm30nBkL37S1Pf6jmXKkJ0RlUNxbAzPpPvcLnYo3dj1gl4wK8UCE
+sQG2r7A7RJwQf+R23VsGgoONCKOwCdEj2h6g8IpVG4rTRWcjwwIDAQABo1AwTjAdBgNVHQ4EFgQU
+BT2dsxGZYCk/gpFCFMo8oplKhogwHwYDVR0jBBgwFoAUBT2dsxGZYCk/gpFCFMo8oplKhogwDAYD
+VR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAyU8QwNBabpJn0MuzTH1oRfXxEMuQgKA9Bmr5
+pzwxkynBfNjNESzyQtk8jSEq5K0hFdl1FNrapFRwJfCSg/abUNZoao9w8VKzec5Aq0EHkGg08WdN
+5Djr7ax57E+BLgtTTLzCNDAg5ZpeJhueSHqYiSGN5q/lFzYcsq2XcEEB3u/wY47ji0iCq4SO3dxW
+o8cJaLn4EJJ+MWqeMSrgMkRqmKG5/KhqGkypwpn7xpS2QkctaXmBoqQdmyHuvmgCQVSUD9xC15D5
+zTsMCDIviYUbyTP5vmSwVmPUW/zSQv+VAEZW9Pn6CCDUU+AV5MAY/lJ7uYbmFwz088pNI/wm3Hij
+sw==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDjTCCAnWgAwIBAgIJALWRjzHyCRVVMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmVnZ2lhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWZWdnaWFubzEOMAwGA1UEAwwFaHR0cDowHhcNMjIwMjAyMDgwMzAyWhcNMzIwMjAyMDgwMzAyWjBdMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZlZ2dpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgVmVnZ2lhbm8xDjAMBgNVBAMMBWh0dHA6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0J1P/pmixWfqsw1QFNb7OTKV/y9vszzUp4qJakn4kKzHYbbbPsVZD/YvtXm/w4Yh5Q8xpzCMohQcFdiGTUd/kQxgpoK/POiQs7xm8a6AU5DSoiHTRbllbF23tcok8ZrCqsOl0PXy1Cn1ba+JObByoUM/vZH8C8O70s8ZReucVzqnzborEC+J6DcpRKlvo90eFTbNcoa3bv4wMuDS7DX5kg5Zu4N3VR4eVvjLF46jjU3qQ9fMjm30nBkL37S1Pf6jmXKkJ0RlUNxbAzPpPvcLnYo3dj1gl4wK8UCEsQG2r7A7RJwQf+R23VsGgoONCKOwCdEj2h6g8IpVG4rTRWcjwwIDAQABo1AwTjAdBgNVHQ4EFgQUBT2dsxGZYCk/gpFCFMo8oplKhogwHwYDVR0jBBgwFoAUBT2dsxGZYCk/gpFCFMo8oplKhogwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAyU8QwNBabpJn0MuzTH1oRfXxEMuQgKA9Bmr5pzwxkynBfNjNESzyQtk8jSEq5K0hFdl1FNrapFRwJfCSg/abUNZoao9w8VKzec5Aq0EHkGg08WdN5Djr7ax57E+BLgtTTLzCNDAg5ZpeJhueSHqYiSGN5q/lFzYcsq2XcEEB3u/wY47ji0iCq4SO3dxWo8cJaLn4EJJ+MWqeMSrgMkRqmKG5/KhqGkypwpn7xpS2QkctaXmBoqQdmyHuvmgCQVSUD9xC15D5zTsMCDIviYUbyTP5vmSwVmPUW/zSQv+VAEZW9Pn6CCDUU+AV5MAY/lJ7uYbmFwz088pNI/wm3Hijsw==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDjTCCAnWgAwIBAgIJALWRjzHyCRVVMA0GCSqGSIb3DQEBCwUAMF0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTERMA8GA1UEBwwIVmVnZ2lhbm8xGzAZBgNVBAoMEkNvbXVuZSBkaSBWZWdnaWFubzEOMAwGA1UEAwwFaHR0cDowHhcNMjIwMjAyMDgwMzAyWhcNMzIwMjAyMDgwMzAyWjBdMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxETAPBgNVBAcMCFZlZ2dpYW5vMRswGQYDVQQKDBJDb211bmUgZGkgVmVnZ2lhbm8xDjAMBgNVBAMMBWh0dHA6MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA0J1P/pmixWfqsw1QFNb7OTKV/y9vszzUp4qJakn4kKzHYbbbPsVZD/YvtXm/w4Yh5Q8xpzCMohQcFdiGTUd/kQxgpoK/POiQs7xm8a6AU5DSoiHTRbllbF23tcok8ZrCqsOl0PXy1Cn1ba+JObByoUM/vZH8C8O70s8ZReucVzqnzborEC+J6DcpRKlvo90eFTbNcoa3bv4wMuDS7DX5kg5Zu4N3VR4eVvjLF46jjU3qQ9fMjm30nBkL37S1Pf6jmXKkJ0RlUNxbAzPpPvcLnYo3dj1gl4wK8UCEsQG2r7A7RJwQf+R23VsGgoONCKOwCdEj2h6g8IpVG4rTRWcjwwIDAQABo1AwTjAdBgNVHQ4EFgQUBT2dsxGZYCk/gpFCFMo8oplKhogwHwYDVR0jBBgwFoAUBT2dsxGZYCk/gpFCFMo8oplKhogwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAyU8QwNBabpJn0MuzTH1oRfXxEMuQgKA9Bmr5pzwxkynBfNjNESzyQtk8jSEq5K0hFdl1FNrapFRwJfCSg/abUNZoao9w8VKzec5Aq0EHkGg08WdN5Djr7ax57E+BLgtTTLzCNDAg5ZpeJhueSHqYiSGN5q/lFzYcsq2XcEEB3u/wY47ji0iCq4SO3dxWo8cJaLn4EJJ+MWqeMSrgMkRqmKG5/KhqGkypwpn7xpS2QkctaXmBoqQdmyHuvmgCQVSUD9xC15D5zTsMCDIviYUbyTP5vmSwVmPUW/zSQv+VAEZW9Pn6CCDUU+AV5MAY/lJ7uYbmFwz088pNI/wm3Hijsw==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.veggiano.pd.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.veggiano.pd.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Veggiano
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Veggiano
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.veggiano.pd.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_l710
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Veggiano
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            hostmaster@comune.veggiano.pd.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

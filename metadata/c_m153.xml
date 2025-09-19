@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.zeddiani.or.it" ID="https___login_comune_zeddiani_or_it">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#https___login_comune_zeddiani_or_it">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    dnzr0av1/vdU5ajFaZzNDsrj+LythiHb5Oy30E2ZwvM=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            bwMU5iUAkcS5RVJpcRA3ciuD3MkhmEeizuT8kOdB0VKKAxcbo7YRoxbmCG2VtxWNy2KylAsP9VhAsAaRM0xSlLR6eBPYTi6DZOsf2GOhE65DEagvzdoRedOvrjG175NfMEGXy8VpfyHa/QqcTxds7TteAUx2zrH1kbLDVE19UJa8hTbYQLDZJnaDAyAYxCssMiwCXoGOBfshffuGOIqSgekDSKgrx5QrwKBcUqi/dC0TmTLDU3uOj9sgRe4vjl0t9ftVQrm28PjcpnEKag+Y3yZ8/pBfI6+U8Zni6IhZtW09ji+i8AiOPE+NAOMG1TlbefuFGAZEO17LHSFvZVC2ILgm1FdS/SIsih2iHz4Yn5df5F1j02RlauR+sykCTzM2Pfxc2ecHxSLM9NgdzchrMScgoLWc4cqEbTo6j0Ntd9HwE6/muJ7RLAbmYsZ5Z1gbugOihomzhHz+R9ed7i0MFIMrAaowTdwCjs9N4jvaACNapKxotqA3WH0VsILiepLPn5LY6GI5aU3gzKMlb+Sp1TyLNLZBZCGOqgP/NyYZTyAvCuiJmA7SZ3QbQVWrtA1UGBMNjsC8I01/QRHbyk1fw7Kxt97s+lPjJBJ/AbR+vXZgxRH6lCoNSuUNGC/o5UIGoesoY6UUFd76IG8xWbEqXzpujz4hrtyGpgZGYfBkH9k=
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    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
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+    
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+        
+        <md:KeyDescriptor use="signing">
+            
+            
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+                
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+            
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.zeddiani.or.it/slo"/>
+                
+        
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+        
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://login.comune.zeddiani.or.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        
+        
+        <md:AttributeConsumingService index="0">
+            
+            
+            <md:ServiceName xml:lang="it">
+                Set 0
+            </md:ServiceName>
+                   
+            
+            <md:RequestedAttribute Name="gender"/>
+            
+            
+            <md:RequestedAttribute Name="companyName"/>
+            
+            
+            <md:RequestedAttribute Name="registeredOffice"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="ivaCode"/>
+            
+            
+            <md:RequestedAttribute Name="idCard"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="address"/>
+            
+            
+            <md:RequestedAttribute Name="expirationDate"/>
+            
+            
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Zeddiani
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            openlogin-zeddiani
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://login.comune.zeddiani.or.it
+        </md:OrganizationURL>
+        
+
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_m153
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            info@comune.zeddiani.or.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            00390783418000
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>
