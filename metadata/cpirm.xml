@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxf944110a-95bb-99c3-5856-5d3d1f80a655" entityID="https://portal.opi.roma.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/>
+<ds:DigestValue>KwFkDhcuyNO26QCx0eLvq/cSLGRvYWmWr3bcKrhedgps6cLTJdefPnco2+YtKtClUU6T6CTil7ts
+2cjSl6sPuw==</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+dBeAtuxuly37juh8a+jU4v43gnqBGT/5/fuCNfY5vrieekA195IVGwRut+VMh33MHdsRTs4YHAGr
+NFttbWwWSiKua7869l4lY4Vcj6eALhWOx0nHNrz5MUolRG2n5kcLUIe65HSO5sIcBXEiSfJFC04A
+Z0ThkPSAATSCCqDcgFK5opaY+mvEWOmTwju6auztTxJ0HP8bW8y/iVFnyRqEYZDvpHbsxh0YtWST
+9qwqsmz07K0GOvonoyh1zpd/ijyU4iCr4huFLMerB2M7jExruJxtHt0ci5kDrVeiNmkyfoLHq7tY
+W6eoz1hJdBCSAGeQ5R/BE0VlKcHROFi0WTVY3w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+rLKj7v8IdI/k0WBJ5GLCLgnSvK+x/6Sr63R/usCBw1NFP3OJrByd/bIc5nydoGkq0vG1uvYP++iX
+YgweupdswlMaekD90c3zd74feRwArghMMZ/epmIaDfLMymKxN8gv6aR8lfKjFdJ4Dq66i/yB5hc7
+dBtPMGOoP3t8LTbq6an9sHFvVB1iycQc+qHEphLvdbUCoLT0qQgKDXjDkRT934qcTbWxSXJ/9TfS
+AM1+hhbDj+TCAYCi9serhWjMIH4gGZoShaWicUc/ETPyaD89phclTxAFXhnwMBy/yTVvuH5/QlnO
+lrvxA3x/P14JD7n12J4F6x/UoGrXPKDvj1hQXQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIC+zCCAeOgAwIBAgIUDdNynK6r2fgPyxFH6PIRYZgnwZAwDQYJKoZIhvcNAQELBQAwDTELMAkG
+A1UEBhMCSVQwHhcNMjAwOTA0MTIxODU0WhcNMjEwODI2MTIxODU0WjANMQswCQYDVQQGEwJJVDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKyyo+7/CHSP5NFgSeRiwi4J0ryvsf+kq+t0
+f7rAgcNTRT9ziawcnf2yHOZ8naBpKtLxtbr2D/vol2IMHrqXbMJTGnpA/dHN83e+H3kcAK4ITDGf
+3qZiGg3yzMpisTfIL+mkfJXyoxXSeA6uuov8geYXO3QbTzBjqD97fC026ump/bBxb1QdYsnEHPqh
+xKYS73W1AqC09KkICg14w5EU/d+KnE21sUlyf/U30gDNfoYWw4/kwgGAovbHq4VozCB+IBmaEoWl
+onFHPxEz8mg/PaYXJU8QBV4Z8DAcv8k1b7h+f0JZzpa78QN8fz9eCQ+59dieBesf1KBq1zyg749Y
+UF0CAwEAAaNTMFEwHQYDVR0OBBYEFAsGzjI3ANFRZtWrOztHKyf6KYJTMB8GA1UdIwQYMBaAFAsG
+zjI3ANFRZtWrOztHKyf6KYJTMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJIl
+Ro4XSZYo1OPKHUMS0rHQKqcXIOQn8A5N2JL+wVIIvAX/ajlsTKoNSbqytEIvDxgoNqN+9hJIZf+z
+nXEGXCgMVvXJFohg/uHVeE1iywHGc7sV/YyaeWXPKdXRtSwssylVzFUmCEw6VP0ymh/kocJ896Lh
+3+A3AaC2pJKNuv8wMP9xc5C3v4Xv8lTRBP4Go/LQIxbNIgGyq5qIbAQ6magn8YoUERFvbWA7HQmV
+mzZfuDDSXbgOJdoiVfsRgM/YCrzdajq/8Jxn17m1qNmcRJb1ftjz3ulsWqMFZmuyiIw5mokNugZF
+jyIcsWTe4YZnhMckKmlW7MBnT3sqB2kPblc=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIC+zCCAeOgAwIBAgIUDdNynK6r2fgPyxFH6PIRYZgnwZAwDQYJKoZIhvcNAQELBQAwDTELMAkGA1UEBhMCSVQwHhcNMjAwOTA0MTIxODU0WhcNMjEwODI2MTIxODU0WjANMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKyyo+7/CHSP5NFgSeRiwi4J0ryvsf+kq+t0f7rAgcNTRT9ziawcnf2yHOZ8naBpKtLxtbr2D/vol2IMHrqXbMJTGnpA/dHN83e+H3kcAK4ITDGf3qZiGg3yzMpisTfIL+mkfJXyoxXSeA6uuov8geYXO3QbTzBjqD97fC026ump/bBxb1QdYsnEHPqhxKYS73W1AqC09KkICg14w5EU/d+KnE21sUlyf/U30gDNfoYWw4/kwgGAovbHq4VozCB+IBmaEoWlonFHPxEz8mg/PaYXJU8QBV4Z8DAcv8k1b7h+f0JZzpa78QN8fz9eCQ+59dieBesf1KBq1zyg749YUF0CAwEAAaNTMFEwHQYDVR0OBBYEFAsGzjI3ANFRZtWrOztHKyf6KYJTMB8GA1UdIwQYMBaAFAsGzjI3ANFRZtWrOztHKyf6KYJTMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJIlRo4XSZYo1OPKHUMS0rHQKqcXIOQn8A5N2JL+wVIIvAX/ajlsTKoNSbqytEIvDxgoNqN+9hJIZf+znXEGXCgMVvXJFohg/uHVeE1iywHGc7sV/YyaeWXPKdXRtSwssylVzFUmCEw6VP0ymh/kocJ896Lh3+A3AaC2pJKNuv8wMP9xc5C3v4Xv8lTRBP4Go/LQIxbNIgGyq5qIbAQ6magn8YoUERFvbWA7HQmVmzZfuDDSXbgOJdoiVfsRgM/YCrzdajq/8Jxn17m1qNmcRJb1ftjz3ulsWqMFZmuyiIw5mokNugZFjyIcsWTe4YZnhMckKmlW7MBnT3sqB2kPblc=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIC+zCCAeOgAwIBAgIUDdNynK6r2fgPyxFH6PIRYZgnwZAwDQYJKoZIhvcNAQELBQAwDTELMAkGA1UEBhMCSVQwHhcNMjAwOTA0MTIxODU0WhcNMjEwODI2MTIxODU0WjANMQswCQYDVQQGEwJJVDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKyyo+7/CHSP5NFgSeRiwi4J0ryvsf+kq+t0f7rAgcNTRT9ziawcnf2yHOZ8naBpKtLxtbr2D/vol2IMHrqXbMJTGnpA/dHN83e+H3kcAK4ITDGf3qZiGg3yzMpisTfIL+mkfJXyoxXSeA6uuov8geYXO3QbTzBjqD97fC026ump/bBxb1QdYsnEHPqhxKYS73W1AqC09KkICg14w5EU/d+KnE21sUlyf/U30gDNfoYWw4/kwgGAovbHq4VozCB+IBmaEoWlonFHPxEz8mg/PaYXJU8QBV4Z8DAcv8k1b7h+f0JZzpa78QN8fz9eCQ+59dieBesf1KBq1zyg749YUF0CAwEAAaNTMFEwHQYDVR0OBBYEFAsGzjI3ANFRZtWrOztHKyf6KYJTMB8GA1UdIwQYMBaAFAsGzjI3ANFRZtWrOztHKyf6KYJTMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJIlRo4XSZYo1OPKHUMS0rHQKqcXIOQn8A5N2JL+wVIIvAX/ajlsTKoNSbqytEIvDxgoNqN+9hJIZf+znXEGXCgMVvXJFohg/uHVeE1iywHGc7sV/YyaeWXPKdXRtSwssylVzFUmCEw6VP0ymh/kocJ896Lh3+A3AaC2pJKNuv8wMP9xc5C3v4Xv8lTRBP4Go/LQIxbNIgGyq5qIbAQ6magn8YoUERFvbWA7HQmVmzZfuDDSXbgOJdoiVfsRgM/YCrzdajq/8Jxn17m1qNmcRJb1ftjz3ulsWqMFZmuyiIw5mokNugZFjyIcsWTe4YZnhMckKmlW7MBnT3sqB2kPblc=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portal.opi.roma.it/spid/logout"/>
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portal.opi.roma.it/spid/acs" index="0" isDefault="true"/>
+
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">Portale dell'OPI Roma</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Portale per la gestione delle informazioni e dei pagamenti relativi
+                all'iscrizione all'Ordine delle Professioni Infermieristiche di Roma
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+
+    </md:SPSSODescriptor>
+
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Ordine delle Professioni Infermieristiche di Roma</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">OPI Roma</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://portal.opi.roma.it</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>cpirm</spid:IPACode>
+            <spid:FiscalCode>80195030582</spid:FiscalCode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Ordine delle Professioni Infermieristiche di Roma</md:Company>
+        <md:EmailAddress>ordine@opi.roma.it</md:EmailAddress>
+    </md:ContactPerson>
+
+</md:EntityDescriptor>
