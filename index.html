@@ -11,7 +11,19 @@
     th { background: #34495e; color: #fff; text-align: left; }
     tr:nth-child(even) { background: #ecf0f1; }
     .footer { margin-top: 2em; font-size: 0.9em; color: #777; }
+    #searchBox { margin: 1em 0; padding: 8px; width: 100%; max-width: 400px; }
   </style>
+  <script>
+    function searchTable() {
+      let input = document.getElementById("searchBox").value.toLowerCase();
+      let rows = document.querySelectorAll("#metadataTable tbody tr");
+      rows.forEach(row => {
+        let filename = row.cells[0].textContent.toLowerCase();
+        let date = row.cells[1].textContent.toLowerCase();
+        row.style.display = (filename.includes(input) || date.includes(input)) ? "" : "none";
+      });
+    }
+  </script>
 </head>
 <body>
   <h1>Registro SPID - Metadata Validati ✅</h1>
@@ -20,14 +32,16 @@
   <h2>Riepilogo validazione</h2>
   <table>
     <tr><th>Validi</th><td>11</td></tr>
-    <tr><th>Invalidi</th><td>19</td></tr>
-    <tr><th>Totali</th><td>30</td></tr>
+    <tr><th>Invalidi</th><td>21</td></tr>
+    <tr><th>Totali</th><td>32</td></tr>
   </table>
 
   <p><a href="report.log">📄 Scarica il report completo</a></p>
 
   <h2>Metadata disponibili</h2>
-  <table>
+  <input type="text" id="searchBox" onkeyup="searchTable()" placeholder="🔍 Cerca per nome o data...">
+
+  <table id="metadataTable">
     <thead>
       <tr>
         <th>Nome file</th>
@@ -35,17 +49,17 @@
       </tr>
     </thead>
     <tbody>
-<tr><td><a href="40B59AWR.xml">40B59AWR.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_a485.xml">c_a485.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_b198.xml">c_b198.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_b441.xml">c_b441.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_c954.xml">c_c954.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_e760.xml">c_e760.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_fu3v.xml">c_fu3v.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_h772.xml">c_h772.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_i120.xml">c_i120.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_i393.xml">c_i393.xml</a></td><td>2025-09-19</td></tr>
-<tr><td><a href="c_l583.xml">c_l583.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/40B59AWR.xml">40B59AWR.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_a485.xml">c_a485.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_b198.xml">c_b198.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_b441.xml">c_b441.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_c954.xml">c_c954.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_e760.xml">c_e760.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_fu3v.xml">c_fu3v.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_h772.xml">c_h772.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_i120.xml">c_i120.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_i393.xml">c_i393.xml</a></td><td>2025-09-19</td></tr>
+<tr><td><a href="validated/c_l583.xml">c_l583.xml</a></td><td>2025-09-19</td></tr>
     </tbody>
   </table>
 
