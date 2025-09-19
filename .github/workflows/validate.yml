@@ -59,6 +59,7 @@ jobs:
           echo "$INVALID" > .gh-pages-tmp/invalid_count
           echo "$TOTAL" > .gh-pages-tmp/total_count
 
+
       - name: Generate index.html
         run: |
           VALID=$(cat .gh-pages-tmp/valid_count)
@@ -79,7 +80,19 @@ jobs:
               th { background: #34495e; color: #fff; text-align: left; }
               tr:nth-child(even) { background: #ecf0f1; }
               .footer { margin-top: 2em; font-size: 0.9em; color: #777; }
+              #searchBox { margin: 1em 0; padding: 8px; width: 100%; max-width: 400px; }
             </style>
+            <script>
+              function searchTable() {
+                let input = document.getElementById("searchBox").value.toLowerCase();
+                let rows = document.querySelectorAll("#metadataTable tbody tr");
+                rows.forEach(row => {
+                  let filename = row.cells[0].textContent.toLowerCase();
+                  let date = row.cells[1].textContent.toLowerCase();
+                  row.style.display = (filename.includes(input) || date.includes(input)) ? "" : "none";
+                });
+              }
+            </script>
           </head>
           <body>
             <h1>Registro SPID - Metadata Validati ✅</h1>
@@ -95,7 +108,9 @@ jobs:
             <p><a href="report.log">📄 Scarica il report completo</a></p>
 
             <h2>Metadata disponibili</h2>
-            <table>
+            <input type="text" id="searchBox" onkeyup="searchTable()" placeholder="🔍 Cerca per nome o data...">
+
+            <table id="metadataTable">
               <thead>
                 <tr>
                   <th>Nome file</th>
@@ -107,7 +122,9 @@ jobs:
 
           for f in validated/*.xml; do
             DATE=$(date +"%Y-%m-%d")
-            echo "<tr><td><a href=\"$(basename $f)\">$(basename $f)</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
+            # 👉 I link puntano alla sottocartella validated/
+            BASENAME=$(basename "$f")
+            echo "<tr><td><a href=\"validated/$BASENAME\">$BASENAME</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
           done
 
           cat >> gh-pages_index.html <<'EOF'
@@ -123,6 +140,10 @@ jobs:
           EOF
 
           cp -r validated reports gh-pages_index.html .gh-pages-tmp/
+
+
+
+
 
       - name: Setup Git user
         run: |
