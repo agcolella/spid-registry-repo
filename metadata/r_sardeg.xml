@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="c01898f74a16c9f135bff651c89fb8b20ac40993" entityID="accessmanager.spid.regione.sardegna.it" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#c01898f74a16c9f135bff651c89fb8b20ac40993">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    Ql8tYqvrTDsCdaq7cKWD7f7tOKHeeXGcGclDJR+17UM=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            jN7Snq18rWhexmwtHGP3F3l13igIf33TP8Jf/O9H0UA8DAAegcI4elLEAAQz08YO+PJ/pIIyikiQFquQNTTLPecZqn3fQmArkvmZPge9FEbn1vlG78+/D05gIGwEJP6U6m3pkpQuILHXLwgcVl9mfx4hkuaUrnpriOZKFLWXPJSzd6FqRsbF8oMvirMco4R0rVodUJ+3nSh+z1ptK5BDpyIL7ih489EwdPdLbljF+7L2yHlH/UJi00avrBy+DlYqNxVvdse32BcFOgN9Jra0f/BHQKs0JsiYiww7es++g0QM/Y8ihWKWtSciG4fqWOjWDNBRuVVC5GfVrohdGCOpDQ==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIEYzCCA0ugAwIBAgIUOff+k9BilxWlNgq/53ZfKL29J8UwDQYJKoZIhvcNAQELBQAwgb4xCzAJ
+BgNVBAYTAklUMREwDwYDVQQHDAhDYWdsaWFyaTEoMCYGA1UECgwfUmVnaW9uZSBBdXRvbm9tYSBk
+ZWxsYSBTYXJkZWduYTEXMBUGA1UEYQwOUEE6SVQtcl9zYXJkZWcxLzAtBgNVBFMMJmFjY2Vzc21h
+bmFnZXIuc3BpZC5yZWdpb25lLnNhcmRlZ25hLml0MSgwJgYDVQQDDB9SZWdpb25lIEF1dG9ub21h
+IGRlbGxhIFNhcmRlZ25hMB4XDTIxMDExMzEzNTgzMFoXDTMxMDExMTEzNTgzMFowgb4xCzAJBgNV
+BAYTAklUMREwDwYDVQQHDAhDYWdsaWFyaTEoMCYGA1UECgwfUmVnaW9uZSBBdXRvbm9tYSBkZWxs
+YSBTYXJkZWduYTEXMBUGA1UEYQwOUEE6SVQtcl9zYXJkZWcxLzAtBgNVBFMMJmFjY2Vzc21hbmFn
+ZXIuc3BpZC5yZWdpb25lLnNhcmRlZ25hLml0MSgwJgYDVQQDDB9SZWdpb25lIEF1dG9ub21hIGRl
+bGxhIFNhcmRlZ25hMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzM65/JM867h2c4dH
+Scq6rD0qiHOfGLZnXa7i4/XC6WtRfuladdmHblyP9AnCw/zn6DAXJi8AOVneQ7D71YYLxd8GUDk4
+JxTQ2hJa5uLoQkOUhpxTj7/WdZz5q4372NK1ZTSA5WyW9I1aqRdgH5MtGQxpRPF4RxbSJlDISFP0
+43Jm2w93saVOkJRZ2IqrTZMjVmdWsBO73/LmP2DLEBtIRSDWlLJ27dNKmJywunFbDMKDlWUAzbhv
+uP8A21wlx15UiRJv0QJXH+pBTqtPXRBAA9GSFAWTb8lNSEbNMN8yXnVV1YoDXeMumgSWT47fgFzZ
+34hndnj1Bm8LNOATG5xFiQIDAQABo1cwVTAdBgNVHQ4EFgQUD6wuHdy0kpgAoq01l/vP6f+hsVgw
+HwYDVR0jBBgwFoAUD6wuHdy0kpgAoq01l/vP6f+hsVgwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJ
+KoZIhvcNAQELBQADggEBAEqJTWtq0NwVLxtcQ5bsusJ1LbfFnACRdUIGC/87jIgifp1KLQuXBdJu
+mIx/S8AXC+fpbmesoMK0xw949vhFkyKTzHCbwrD1aIH/3ol2eP4SXb8IWa4O1It2LdKqfIjQfEJq
+0oLHcSEkVZdpxsj30ZKyQQ6zCheasXiop6PVni5gQD2u9qt7eY05piYC2IcvCFP0Y/b8995LRs19
+aitUlkfWaaW9s92IblrDJfFH98TzVgnvuQic9zXllDlpy7NQcJOJxUj49k9r7UaPDVWWQE0TwoEC
+JJbjjlMhEuXeowFnJDPHBrlF58SkcteMZMqGC94UT/FDjcmOylDUfveHtWI=
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIEcDCCA1igAwIBAgIBBzANBgkqhkiG9w0BAQsFADCBsDELMAkGA1UEBhMCSVQxETAPBgNVBAgTCENhZ2xpYXJpMREwDwYDVQQHEwhDYWdsaWFyaTEUMBIGA1UEChMLU2FyZGVnbmEgSVQxJTAjBgNVBAsTHFNlbGYgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkxFzAVBgNVBAMTDkNBIFNhcmRlZ25hIElUMSUwIwYJKoZIhvcNAQkBFhZnZm9sbGVzYUBzYXJkZWduYWl0Lml0MB4XDTE3MDMwMTA4NDk0NloXDTI3MDIyNzA4NDk0NlowgbkxCzAJBgNVBAYTAklUMQswCQYDVQQIEwJDQTEoMCYGA1UEChMfUmVnaW9uZSBBdXRvbm9tYSBkZWxsYSBTYXJkZWduYTEvMC0GA1UECxMmQWNjZXNzIE1hbmFnZXIgU1AgcGVyIHBpYXR0YWZvcm1hIFNQSUQxLzAtBgNVBAMTJmFjY2Vzc21hbmFnZXIuc3BpZC5yZWdpb25lLnNhcmRlZ25hLml0MREwDwYDVQQHEwhDYWdsaWFyaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAILpJTGEGXDdZfAwluIOCqM6iKIHqYr8gWmuez3OSpC6hEFQcIcE/zcIaPoDyZ1R/eIEGG4laGqmo2sCYZ5af2SQ06K3Y4SiQbhl/4hcP4U74BQ/7HNVLmIRNutDewK3kl8f4DFtSVYXFUTV5cS2Nr1VAF97BPmbspTWBcpJ7v3zY2xkwCSM0bBqSXVHVrB7L9KCowH1GZSNlwISTbQq2vOS3gn0mViV0PkT6HBVPybRb4wIXg6E7gFqqTtt+z0fgEDfCWIJ5Qytg4xJ5CCZ4tFEAFfiFVlDZKvN/BpM8GqcIcfjq8XgSaM/yECM5Mi//cE7NYwaLWj1EuNHSbyoDjUCAwEAAaOBiTCBhjAJBgNVHRMEAjAAMAsGA1UdDwQEAwIF4DAsBglghkgBhvhCAQ0EHxYdT3BlblNTTCBHZW5lcmF0ZWQgQ2VydGlmaWNhdGUwHQYDVR0OBBYEFBz18byb7xAw10HESwKdO5rnNZMXMB8GA1UdIwQYMBaAFOry7StttI6VwzJk7TRW1xwRw++TMA0GCSqGSIb3DQEBCwUAA4IBAQCo0NipHN74DqYmTVgFVhnYf2KcwMjnaErlotdiiYbgxGKaVmhoyjiW9t/e8OKLt94JkhsbKzgS2IOTW4P8lCQqVNF1wsKDXi46jtxcgmfM0f+aoWHbh7DFQvsHSr58pkMwaHD5Z91KJFfvILJiZOJBJVwfWVeRpb7eZaF04sR7hJyCo3Tx5fgpNL8EzO6ROwnjbFz0Z5qc1lgVsaKPdguMRDJliAllZaojX06Xkq2PZBTDw2DlYhQEJZ0WMuyo9RBzqJvPWeaPNqWSq/vweKKtIjQCer+P7aAy/eRzvjsf1QEzcHcV1p9dY1o0OEgUMjJmIp6B42gI7e0rLoK/iaaT
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIEYzCCA0ugAwIBAgIUOff+k9BilxWlNgq/53ZfKL29J8UwDQYJKoZIhvcNAQELBQAwgb4xCzAJBgNVBAYTAklUMREwDwYDVQQHDAhDYWdsaWFyaTEoMCYGA1UECgwfUmVnaW9uZSBBdXRvbm9tYSBkZWxsYSBTYXJkZWduYTEXMBUGA1UEYQwOUEE6SVQtcl9zYXJkZWcxLzAtBgNVBFMMJmFjY2Vzc21hbmFnZXIuc3BpZC5yZWdpb25lLnNhcmRlZ25hLml0MSgwJgYDVQQDDB9SZWdpb25lIEF1dG9ub21hIGRlbGxhIFNhcmRlZ25hMB4XDTIxMDExMzEzNTgzMFoXDTMxMDExMTEzNTgzMFowgb4xCzAJBgNVBAYTAklUMREwDwYDVQQHDAhDYWdsaWFyaTEoMCYGA1UECgwfUmVnaW9uZSBBdXRvbm9tYSBkZWxsYSBTYXJkZWduYTEXMBUGA1UEYQwOUEE6SVQtcl9zYXJkZWcxLzAtBgNVBFMMJmFjY2Vzc21hbmFnZXIuc3BpZC5yZWdpb25lLnNhcmRlZ25hLml0MSgwJgYDVQQDDB9SZWdpb25lIEF1dG9ub21hIGRlbGxhIFNhcmRlZ25hMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzM65/JM867h2c4dHScq6rD0qiHOfGLZnXa7i4/XC6WtRfuladdmHblyP9AnCw/zn6DAXJi8AOVneQ7D71YYLxd8GUDk4JxTQ2hJa5uLoQkOUhpxTj7/WdZz5q4372NK1ZTSA5WyW9I1aqRdgH5MtGQxpRPF4RxbSJlDISFP043Jm2w93saVOkJRZ2IqrTZMjVmdWsBO73/LmP2DLEBtIRSDWlLJ27dNKmJywunFbDMKDlWUAzbhvuP8A21wlx15UiRJv0QJXH+pBTqtPXRBAA9GSFAWTb8lNSEbNMN8yXnVV1YoDXeMumgSWT47fgFzZ34hndnj1Bm8LNOATG5xFiQIDAQABo1cwVTAdBgNVHQ4EFgQUD6wuHdy0kpgAoq01l/vP6f+hsVgwHwYDVR0jBBgwFoAUD6wuHdy0kpgAoq01l/vP6f+hsVgwEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBAEqJTWtq0NwVLxtcQ5bsusJ1LbfFnACRdUIGC/87jIgifp1KLQuXBdJumIx/S8AXC+fpbmesoMK0xw949vhFkyKTzHCbwrD1aIH/3ol2eP4SXb8IWa4O1It2LdKqfIjQfEJq0oLHcSEkVZdpxsj30ZKyQQ6zCheasXiop6PVni5gQD2u9qt7eY05piYC2IcvCFP0Y/b8995LRs19aitUlkfWaaW9s92IblrDJfFH98TzVgnvuQic9zXllDlpy7NQcJOJxUj49k9r7UaPDVWWQE0TwoECJJbjjlMhEuXeowFnJDPHBrlF58SkcteMZMqGC94UT/FDjcmOylDUfveHtWI=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://login.regione.sardegna.it/saml/SingleLogout"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.regione.sardegna.it/saml/SSO" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2" isDefault="false">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="3">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="4">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="5">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="6">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="gender"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="7">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="8">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="9">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="10">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="11">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="gender"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="12">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="13">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="14">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="15">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="16">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="17">
+            <md:ServiceName xml:lang="it">
+                Servizi online della Regione Sardegna
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Minimum Attribute Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Full Attribute Set
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="gender"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+        <md:OrganizationName xml:lang="it">
+            Regione Autonoma della Sardegna
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Regione Autonoma della Sardegna
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            http://www.regione.sardegna.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+        <md:Extensions>
+            <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">
+                r_sardeg
+            </spid:IPACode>
+            <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+        </md:Extensions>
+        <md:EmailAddress>
+            innovazione@regione.sardegna.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
