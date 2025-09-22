@@ -1,0 +1,81 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.dianomarina.im.it" ID="pfxc5593203-d3ef-b398-0a0c-08217ea7510f"><ds:Signature>
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ds:Reference URI="#pfxc5593203-d3ef-b398-0a0c-08217ea7510f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kEkbxDoyZaEc+E2wsfOgjJTq2TB8h1lfeG5SPvFchoI=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Zar8Ri8T/uLoL6CzZbBvpiI7+3vYCRdQEgcB4SMpNIc68FMuP0Uu7W7tYsPbJUOPHw70pCWMEyV8+bXjnL8wps5XA4SjhXcQUtxprp7D6W/XmZu7mroT2nCn9nt4NLuCa4O9s3GozTyEQJzP5HaqNdvhs3Y4RMLMblhX1P391YXkacJXoROHM61kzwWMxzCGosfI0RAyqIe/T0LLP1I8oZInw6NDkHS3UFcURn7YkPh5ORTNCuQzBxoIxYbE5x6Gz0Z3NcsbzC/NTPk7t855UGN7HDJ/0d0M/+xSWfksBFM+OK+juGAGUkN1l/4laVqcAOHp3QeLXFTvLU6A78f7RA==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIETjCCAzagAwIBAgIHBmZx4iPWSDANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCSVQxFTATBgNVBAcMDERpYW5vIE1hcmluYTEfMB0GA1UECgwWQ29tdW5lIGRpIERpYW5vIE1hcmluYTEfMB0GA1UEAwwWQ29tdW5lIGRpIERpYW5vIE1hcmluYTEuMCwGA1UEUwwlaHR0cHM6Ly93d3cuY29tdW5lLmRpYW5vbWFyaW5hLmltLml0LzEVMBMGA1UEYQwMUEE6SVQtY19kMjk3MB4XDTI0MDYxMDE1MzkxNFoXDTQ0MDYwOTE1MzkxNFowga0xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxEaWFubyBNYXJpbmExHzAdBgNVBAoMFkNvbXVuZSBkaSBEaWFubyBNYXJpbmExHzAdBgNVBAMMFkNvbXVuZSBkaSBEaWFubyBNYXJpbmExLjAsBgNVBFMMJWh0dHBzOi8vd3d3LmNvbXVuZS5kaWFub21hcmluYS5pbS5pdC8xFTATBgNVBGEMDFBBOklULWNfZDI5NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALRW4yGjkdKbIAwsyjAMj8NTkjEoQU+rjbPtetnue8FKVN9cmKRcVPq09KA3YIuWZJMB78w7Nr4TbccBwI6eQZsNzoR3J7HBQ/ZICqlMXrm4lQft+QGIaH2RArCup6FLZp6Nx6KbdqD0vch0DN9PEDHyx2NY7TKQqwz2PthnuC7EQoc9AbEGnqZQXvNpgQWH7lLVlDREIy5KK95CCawU0VG3Y/3MRvRoL50bjOpNm+Hw3vC/KSX8sB6bePIn/XJtP9cyBezWGiOVbXfGcQu7WHYQxcFGMGAyjGjD4gwiIIN1xkh3v8TM2TwfioL8/lWuTBeg7DXOKz//A3J1LotHjtECAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAAmxDv0fX6PE/5aRnT4C29LYUfjEYOu+bWOTokHZ6MfOjs027w9GbUvrTGWwvJQC/B3m81HJDtvY4ECM8SXbrX+w+TgFlOEOMBibBUBlL8EKqp1mK5hsrhUHxzKsidSIn63m8xPVFe/TyTNrEOmwa1BPheGXi5WW0rIb4j3RyEKptuIwEMQo+KqEB4Akk2EGTQPFjZOdMq/pYfGYy7N01fG//t9ad23U+aghwTljfQifIrqIQWk+LN8u6GAR1NixpftkExznCc/GhY7AT69EPhCF3ytOly2PC/O9eucihe2UlaLvQBpgx528V/6+ec9bpWvmCQLWRiPoSjlnY93cPNc=</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIETjCCAzagAwIBAgIHBmZx4iPWSDANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCSVQxFTATBgNVBAcMDERpYW5vIE1hcmluYTEfMB0GA1UECgwWQ29tdW5lIGRpIERpYW5vIE1hcmluYTEfMB0GA1UEAwwWQ29tdW5lIGRpIERpYW5vIE1hcmluYTEuMCwGA1UEUwwlaHR0cHM6Ly93d3cuY29tdW5lLmRpYW5vbWFyaW5hLmltLml0LzEVMBMGA1UEYQwMUEE6SVQtY19kMjk3MB4XDTI0MDYxMDE1MzkxNFoXDTQ0MDYwOTE1MzkxNFowga0xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxEaWFubyBNYXJpbmExHzAdBgNVBAoMFkNvbXVuZSBkaSBEaWFubyBNYXJpbmExHzAdBgNVBAMMFkNvbXVuZSBkaSBEaWFubyBNYXJpbmExLjAsBgNVBFMMJWh0dHBzOi8vd3d3LmNvbXVuZS5kaWFub21hcmluYS5pbS5pdC8xFTATBgNVBGEMDFBBOklULWNfZDI5NzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALRW4yGjkdKbIAwsyjAMj8NTkjEoQU+rjbPtetnue8FKVN9cmKRcVPq09KA3YIuWZJMB78w7Nr4TbccBwI6eQZsNzoR3J7HBQ/ZICqlMXrm4lQft+QGIaH2RArCup6FLZp6Nx6KbdqD0vch0DN9PEDHyx2NY7TKQqwz2PthnuC7EQoc9AbEGnqZQXvNpgQWH7lLVlDREIy5KK95CCawU0VG3Y/3MRvRoL50bjOpNm+Hw3vC/KSX8sB6bePIn/XJtP9cyBezWGiOVbXfGcQu7WHYQxcFGMGAyjGjD4gwiIIN1xkh3v8TM2TwfioL8/lWuTBeg7DXOKz//A3J1LotHjtECAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAAmxDv0fX6PE/5aRnT4C29LYUfjEYOu+bWOTokHZ6MfOjs027w9GbUvrTGWwvJQC/B3m81HJDtvY4ECM8SXbrX+w+TgFlOEOMBibBUBlL8EKqp1mK5hsrhUHxzKsidSIn63m8xPVFe/TyTNrEOmwa1BPheGXi5WW0rIb4j3RyEKptuIwEMQo+KqEB4Akk2EGTQPFjZOdMq/pYfGYy7N01fG//t9ad23U+aghwTljfQifIrqIQWk+LN8u6GAR1NixpftkExznCc/GhY7AT69EPhCF3ytOly2PC/O9eucihe2UlaLvQBpgx528V/6+ec9bpWvmCQLWRiPoSjlnY93cPNc=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.dianomarina.im.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.dianomarina.im.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService> 
+ 	<md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="gender"/>
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Diano Marina</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Diano Marina</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.comune.dianomarina.im.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+      <md:Extensions>
+        <spid:IPACode>c_d297</spid:IPACode>
+        <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>protocollo@comune.dianomarina.im.it</md:EmailAddress>
+      <md:TelephoneNumber>+3901834901</md:TelephoneNumber>
+    </md:ContactPerson>
+ 
+</md:EntityDescriptor>

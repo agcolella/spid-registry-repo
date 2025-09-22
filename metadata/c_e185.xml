@@ -1,0 +1,38 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.grisolia.cs.it" ID="https___login_comune_grisolia_cs_it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#https___login_comune_grisolia_cs_it"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>lo4JXEeAjUcmUZqnK2Q6wAEY64/7h0XhE6gFjZRm8tU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Di6GbwT1C1W49OBJg/WKX+mSjIrSSsYofVNwHZs0qo9UDTOCNmT43ioqAp1M+jLBJgeZcBGJlptPqMR8tJN13DZ3AgyMTI/BV4HNCcBZMRgttbqF8DfDQnYfRR2O+nRpqz+CiMZZbAbI8qwnEGNLiM1gffismRyKTGLAP2arAvQH9UTFNP1AnBj6gOvdaO0iiSnJtzrzUZHG5fTDhPH/lZcumzLAee0pnMR89HMDCwYab4FxSQ303Ap4GhP6deqN+NWQpBmjKTj04YmBUR/wZzg1EzbjkG9oBI3bbQuUzX8AQz6KUUjG1//t/fdAAWhJduGRXzQCFvT8eDg8OZj3Tg==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECjCCAvKgAwIBAgIIOX7Kn7S8B9swDQYJKoZIhvcNAQELBQAwgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBHcmlzb2xpYTEVMBMGA1UEYQwMUEE6SVQtY19lMTg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIR3Jpc29saWExETAPBgNVBAMMCEdyaXNvbGlhMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLmdyaXNvbGlhQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLmdyaXNvbGlhLmNzLml0MB4XDTI0MDQyNjEwNDI1NloXDTI2MDQyNjEwNDI1NlowgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBHcmlzb2xpYTEVMBMGA1UEYQwMUEE6SVQtY19lMTg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIR3Jpc29saWExETAPBgNVBAMMCEdyaXNvbGlhMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLmdyaXNvbGlhQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLmdyaXNvbGlhLmNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA58OVJQB/x0KqPq+5Uk1wC3IlbTRr8jrLqTOqkguNAVAAuwobxItZEAN7GRQAV+8lvwLoAOFsK7xOAKRGwiTFp4RbB5f6QhicxSSKePWukcSFnW5mRU3BrFMR3NJjmQCpHx1d3XipB8eDcx3dfF3wds65/YjTi4keKqum2gIc3G7KH3W4zFwrnrnj5JNHBYuDD4oWndaafjnZjgEvzwTdGZKBw+UPBPWFcaU5dvrf7l9lXg36AcZ5LV8dz/9cj0kxOE8NplKg/NhL6jHMEZNnEQzP6SREP5N3gIFR4rqlY6y88vMcFCMbigy/TGCm/APpy2yJYOn8ybwvtvHxo5IwaQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDlAuGCWmVV2m4xs7PnbKE8T2exIR+k/rlW9NGHgLAkild9aMm6znHr+XxufIs/NVHYeTUnek3nu4lA6Km98AHjjV4vO6i/e78saL4FqV9lnEAuu2HwEQL/eOaQnKYoWHMjVJ0O2/XC5wqXH7RrDzYFybYYIGpCW7hFWe8uwFYowSoB4928zhfu7sFBRCAvJVZncbvFNrcjJUgmF4eLFyOSKQfqgyirTnKfHfYoefrajQwVS9inrEFGZHqmeHkTCSYYT3kVcrzBdeBKC/Lg4aHo8+SHQllJH1djsyWkXxpdGhTX75QrX8844kP8hImMjeBMd+jzendQnX8tLQpPwxEw</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIECjCCAvKgAwIBAgIIOX7Kn7S8B9swDQYJKoZIhvcNAQELBQAwgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBHcmlzb2xpYTEVMBMGA1UEYQwMUEE6SVQtY19lMTg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIR3Jpc29saWExETAPBgNVBAMMCEdyaXNvbGlhMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLmdyaXNvbGlhQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLmdyaXNvbGlhLmNzLml0MB4XDTI0MDQyNjEwNDI1NloXDTI2MDQyNjEwNDI1NlowgcQxGzAZBgNVBAoMEkNvbXVuZSBkaSBHcmlzb2xpYTEVMBMGA1UEYQwMUEE6SVQtY19lMTg1MQswCQYDVQQGEwJJVDERMA8GA1UEBwwIR3Jpc29saWExETAPBgNVBAMMCEdyaXNvbGlhMS0wKwYJKoZIhvcNAQkBFh5wcm90b2NvbGxvLmdyaXNvbGlhQGFzbWVwZWMuaXQxLDAqBgNVBFMMI2h0dHBzOi8vbG9naW4uY29tdW5lLmdyaXNvbGlhLmNzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA58OVJQB/x0KqPq+5Uk1wC3IlbTRr8jrLqTOqkguNAVAAuwobxItZEAN7GRQAV+8lvwLoAOFsK7xOAKRGwiTFp4RbB5f6QhicxSSKePWukcSFnW5mRU3BrFMR3NJjmQCpHx1d3XipB8eDcx3dfF3wds65/YjTi4keKqum2gIc3G7KH3W4zFwrnrnj5JNHBYuDD4oWndaafjnZjgEvzwTdGZKBw+UPBPWFcaU5dvrf7l9lXg36AcZ5LV8dz/9cj0kxOE8NplKg/NhL6jHMEZNnEQzP6SREP5N3gIFR4rqlY6y88vMcFCMbigy/TGCm/APpy2yJYOn8ybwvtvHxo5IwaQIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQDlAuGCWmVV2m4xs7PnbKE8T2exIR+k/rlW9NGHgLAkild9aMm6znHr+XxufIs/NVHYeTUnek3nu4lA6Km98AHjjV4vO6i/e78saL4FqV9lnEAuu2HwEQL/eOaQnKYoWHMjVJ0O2/XC5wqXH7RrDzYFybYYIGpCW7hFWe8uwFYowSoB4928zhfu7sFBRCAvJVZncbvFNrcjJUgmF4eLFyOSKQfqgyirTnKfHfYoefrajQwVS9inrEFGZHqmeHkTCSYYT3kVcrzBdeBKC/Lg4aHo8+SHQllJH1djsyWkXxpdGhTX75QrX8844kP8hImMjeBMd+jzendQnX8tLQpPwxEw</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+            <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://grisolia.login.opencityitalia.it/slo"/>        
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://grisolia.login.opencityitalia.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">Set 0</md:ServiceName>       
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="digitalAddress"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Grisolia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Grisolia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://login.comune.grisolia.cs.it</md:OrganizationURL>
+</md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_e185</spid:IPACode><spid:Public/><spid:FiscalCode>00431430784</spid:FiscalCode></md:Extensions><md:EmailAddress>protocollo.grisolia@asmepec.it</md:EmailAddress><md:TelephoneNumber>+39098583645</md:TelephoneNumber></md:ContactPerson></md:EntityDescriptor>

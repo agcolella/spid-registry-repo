@@ -1,0 +1,66 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://www.comune.serramanna.ca.it/" ID="dg85c848ac-dd5b-45a8-bd67-723d10a56ebf" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg85c848ac-dd5b-45a8-bd67-723d10a56ebf"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>VVhwSR1x2MyH1WQlst2JHBEZW/jZ9wq8ZmeGjiQvcVE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>M0nDUlmmlYuI5zO/NMlEVsDWwkY1YT3hpvGn8mNodDfqrYhEE1vmfEj1LCshxZfZ0EM2mQXErDUjWss6MC+bOb4RwHY2Iz3s4IZpi2VTgTL9hubtt7tZzYYxrcfSZZ4IafFkQEevCDz7nnJlaghPVXTyrYJpN31TYfBc+jlZP4ChFtUtZRSdo3U1KG5oSXDmJkgtb3rKklBAV+9prjjxBRnH2Lp3lbYM2Vw2of9Z9FcQTPBq297dVHRaur8CtpZvObLgKUeIx5ZRFF/hoOPdsZiaIGbPuA7DgEdC702CQuhrRrEkwKoIhAsqt+B5YdtgxqhYUzNetqGDoHMN+yQvKg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAJNNdjtQX9tDMA0GCSqGSIb3DQEBCwUAMIGeMR0wGwYDVQQKDBRDb211bmUgZGkgU2VycmFtYW5uYTEdMBsGA1UEAwwUQ29tdW5lIGRpIFNlcnJhbWFubmExFTATBgNVBGEMDFBBOklULWNfaTY0NzELMAkGA1UEBhMCSVQxEzARBgNVBAcMClNlcnJhbWFubmExJTAjBgNVBFMMHGh0dHBzOi8vc2VycmFtYW5uYS5jb211bmUuaXQwHhcNMjQwMzE5MDcyNjIzWhcNMjcwMzE5MDcyNjIzWjCBnjEdMBsGA1UECgwUQ29tdW5lIGRpIFNlcnJhbWFubmExHTAbBgNVBAMMFENvbXVuZSBkaSBTZXJyYW1hbm5hMRUwEwYDVQRhDAxQQTpJVC1jX2k2NDcxCzAJBgNVBAYTAklUMRMwEQYDVQQHDApTZXJyYW1hbm5hMSUwIwYDVQRTDBxodHRwczovL3NlcnJhbWFubmEuY29tdW5lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeQlIOJkKS6ZwZnkyKbW9qwkSpUIFiSI4DdsqocaK9MwdBnCshK60CxV9QraXtq6yhHM4su73pf/pO7tEb0d+C50au28ubi4VjTJlV1amyZCvpb1u6i8jQKnBoM90K2kHkmdD8jYYtSrCJKoVDAt+oMcLxeHIOIC0XFemRK587UOEeZQKiWr9zlLInLOtqAuIF1KGbClqUZWpHfJ4vD3sK93gLD9L7+9JX/YobwIi3+H8Gs0RMGj8Ago7w85yTVOoc7Nzs4iTnq0qyYVz9fNk/1SuYmmatfQ1/NlvmmBy98juOfgPwmKLiJvC1fcUK+c8cN84hMnMzqtFi85EaLajQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAQEAvKEyLzfVgtU3vRJj45B9KI1LeNzw+owaoIfT7FrtZHed9GvR+GIFEDCTMv0UW7JffT0hSmjbLtwLtHIQE3uZn+PHWdXGwEY+n7Iz+VI4le6++SCEDpY7j3vs7NQYBhmVn4gGc9Enul+mq5Ppn2gChLN9BFFWImVa8ljdpAKySLUjKhQ58XNYBqJiFA2zO2ipPWGpv3LzRBI2j2y05+KjfEdSfIeLqqG1Y8r4x8VqltUnkHEw8yRkIhhieqzkRxc1D0dyB4OmH8zkFCoHD6DQCr67pDG4rvyhCKdLS0dXKksdlNCQg9Rkl243dRaprPe4Kb1CgoA012IgA9hBgboEEA==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAJNNdjtQX9tDMA0GCSqGSIb3DQEBCwUAMIGeMR0wGwYDVQQKDBRDb211bmUgZGkgU2VycmFtYW5uYTEdMBsGA1UEAwwUQ29tdW5lIGRpIFNlcnJhbWFubmExFTATBgNVBGEMDFBBOklULWNfaTY0NzELMAkGA1UEBhMCSVQxEzARBgNVBAcMClNlcnJhbWFubmExJTAjBgNVBFMMHGh0dHBzOi8vc2VycmFtYW5uYS5jb211bmUuaXQwHhcNMjQwMzE5MDcyNjIzWhcNMjcwMzE5MDcyNjIzWjCBnjEdMBsGA1UECgwUQ29tdW5lIGRpIFNlcnJhbWFubmExHTAbBgNVBAMMFENvbXVuZSBkaSBTZXJyYW1hbm5hMRUwEwYDVQRhDAxQQTpJVC1jX2k2NDcxCzAJBgNVBAYTAklUMRMwEQYDVQQHDApTZXJyYW1hbm5hMSUwIwYDVQRTDBxodHRwczovL3NlcnJhbWFubmEuY29tdW5lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeQlIOJkKS6ZwZnkyKbW9qwkSpUIFiSI4DdsqocaK9MwdBnCshK60CxV9QraXtq6yhHM4su73pf/pO7tEb0d+C50au28ubi4VjTJlV1amyZCvpb1u6i8jQKnBoM90K2kHkmdD8jYYtSrCJKoVDAt+oMcLxeHIOIC0XFemRK587UOEeZQKiWr9zlLInLOtqAuIF1KGbClqUZWpHfJ4vD3sK93gLD9L7+9JX/YobwIi3+H8Gs0RMGj8Ago7w85yTVOoc7Nzs4iTnq0qyYVz9fNk/1SuYmmatfQ1/NlvmmBy98juOfgPwmKLiJvC1fcUK+c8cN84hMnMzqtFi85EaLajQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAQEAvKEyLzfVgtU3vRJj45B9KI1LeNzw+owaoIfT7FrtZHed9GvR+GIFEDCTMv0UW7JffT0hSmjbLtwLtHIQE3uZn+PHWdXGwEY+n7Iz+VI4le6++SCEDpY7j3vs7NQYBhmVn4gGc9Enul+mq5Ppn2gChLN9BFFWImVa8ljdpAKySLUjKhQ58XNYBqJiFA2zO2ipPWGpv3LzRBI2j2y05+KjfEdSfIeLqqG1Y8r4x8VqltUnkHEw8yRkIhhieqzkRxc1D0dyB4OmH8zkFCoHD6DQCr67pDG4rvyhCKdLS0dXKksdlNCQg9Rkl243dRaprPe4Kb1CgoA012IgA9hBgboEEA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEMjCCAxqgAwIBAgIJAJNNdjtQX9tDMA0GCSqGSIb3DQEBCwUAMIGeMR0wGwYDVQQKDBRDb211bmUgZGkgU2VycmFtYW5uYTEdMBsGA1UEAwwUQ29tdW5lIGRpIFNlcnJhbWFubmExFTATBgNVBGEMDFBBOklULWNfaTY0NzELMAkGA1UEBhMCSVQxEzARBgNVBAcMClNlcnJhbWFubmExJTAjBgNVBFMMHGh0dHBzOi8vc2VycmFtYW5uYS5jb211bmUuaXQwHhcNMjQwMzE5MDcyNjIzWhcNMjcwMzE5MDcyNjIzWjCBnjEdMBsGA1UECgwUQ29tdW5lIGRpIFNlcnJhbWFubmExHTAbBgNVBAMMFENvbXVuZSBkaSBTZXJyYW1hbm5hMRUwEwYDVQRhDAxQQTpJVC1jX2k2NDcxCzAJBgNVBAYTAklUMRMwEQYDVQQHDApTZXJyYW1hbm5hMSUwIwYDVQRTDBxodHRwczovL3NlcnJhbWFubmEuY29tdW5lLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAyeQlIOJkKS6ZwZnkyKbW9qwkSpUIFiSI4DdsqocaK9MwdBnCshK60CxV9QraXtq6yhHM4su73pf/pO7tEb0d+C50au28ubi4VjTJlV1amyZCvpb1u6i8jQKnBoM90K2kHkmdD8jYYtSrCJKoVDAt+oMcLxeHIOIC0XFemRK587UOEeZQKiWr9zlLInLOtqAuIF1KGbClqUZWpHfJ4vD3sK93gLD9L7+9JX/YobwIi3+H8Gs0RMGj8Ago7w85yTVOoc7Nzs4iTnq0qyYVz9fNk/1SuYmmatfQ1/NlvmmBy98juOfgPwmKLiJvC1fcUK+c8cN84hMnMzqtFi85EaLajQIDAQABo3EwbzAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDBSBgNVHSAESzBJMCAGBCtMEAYwGDAWBggrBgEFBQcCAjAKGghhZ0lEY2VydDAlBgYrTBAEAgEwGzAZBggrBgEFBQcCAjANGgtjZXJ0X1NQX1B1YjANBgkqhkiG9w0BAQsFAAOCAQEAvKEyLzfVgtU3vRJj45B9KI1LeNzw+owaoIfT7FrtZHed9GvR+GIFEDCTMv0UW7JffT0hSmjbLtwLtHIQE3uZn+PHWdXGwEY+n7Iz+VI4le6++SCEDpY7j3vs7NQYBhmVn4gGc9Enul+mq5Ppn2gChLN9BFFWImVa8ljdpAKySLUjKhQ58XNYBqJiFA2zO2ipPWGpv3LzRBI2j2y05+KjfEdSfIeLqqG1Y8r4x8VqltUnkHEw8yRkIhhieqzkRxc1D0dyB4OmH8zkFCoHD6DQCr67pDG4rvyhCKdLS0dXKksdlNCQg9Rkl243dRaprPe4Kb1CgoA012IgA9hBgboEEA==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://serramanna.comune.plugandpay.it/spidslo" />
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/serramanna/CNS/idpSpid/logout.ashx" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://serramanna.comune.plugandpay.it/spidacs" index="0" isDefault="true" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://albo.comune.it/serramanna/CNS/idpSpid/ACS.ashx" index="1" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+      <md:ServiceDescription xml:lang="it" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Cognome" />
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Nome" />
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Azienda" />
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Partita IVA" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Sesso" />
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Luogo di nascita" />
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Nazione nascita" />
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Data nascita" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Serramanna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Serramanna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.serramanna.ca.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_i647</spid:IPACode>
+      <spid:Public />
+    </md:Extensions>
+    <md:EmailAddress>spid@comune.serramanna.ca.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

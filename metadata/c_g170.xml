@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx18c673f7-dac0-f5c8-7599-746ded924971" entityID="https://servizi.comune.ospitaletto.bs.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx18c673f7-dac0-f5c8-7599-746ded924971">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qsgHzIEoi1XZ9Ldz0QwyCi+LLti2SNdowkPvP+INobE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ftGocUsJDjl2MBC3Up2CXm9wIF7eVbhH2YhqiwnRPJne8prTJ8tn4H50SwMGcFX3HEtnMla3G2jZ
+Xry/kjPt0tFipanWqfAThyxUODjcU7siG56zhq4cxYWwujsRTM9mFhpnLGE/GJBdKAUddN6QFgou
+RpfUgRlklm6vICA5vrF8+H2Vraaiu1wW66nZ5Jj9eJDfQdyLI4EkdIeQav14pEFf1fXoRB/ghHmz
+3l/tUiZthxUzqmkCfXd5TXifukeOHlJCuWEMMjw/XJ3DMW9b+X/vvBGzshhyfTQPRH8Kx67zX5Ky
+00tl6nA4hKi5jt9mzv273W7hly8sNAgiOxFyRw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+mxIl6ruJph4TFjwQQr2oSpFatRfIoR0R9kn/m6nRJhqybHKsxna+2dBMTsMjGTLg+Hgsy1jahgTQ
+joue+1duzSR/AhbYmofGAgLjM7aFRVT2aOCsCW4c2CdZUgwUEEEgb63tzicSWQY9MyC6TC55oako
+g/gYgqGFvOfHz/kgBVSPKFXOszNCFaU5XVk4pFwDAYod8b5chTd4expCsuYFWd9wujwSV+QcrdnB
+PUcQy8GEgvxtqLwT1uQ0+OV8tHFfntKYnMB6fFQzyZ9XI03mxumTXfVLYhpajp9WGpZldljW+znu
+e3hK3eRiQ550B/00LT1fB3jYcf5ep/Ri8zeanw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIETjCCAzagAwIBAgIHBmaAwuivcTANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCSVQxFDAS
+BgNVBAcMC09zcGl0YWxldHRvMR4wHAYDVQQKDBVDb211bmUgZGkgT3NwaXRhbGV0dG8xHjAcBgNV
+BAMMFUNvbXVuZSBkaSBPc3BpdGFsZXR0bzExMC8GA1UEUwwoaHR0cHM6Ly9zZXJ2aXppLmNvbXVu
+ZS5vc3BpdGFsZXR0by5icy5pdDEVMBMGA1UEYQwMUEE6SVQtY19nMTcwMB4XDTI0MDYxMTA4MzQ1
+NFoXDTQ0MDYxMDA4MzQ1NFowga0xCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtPc3BpdGFsZXR0bzEe
+MBwGA1UECgwVQ29tdW5lIGRpIE9zcGl0YWxldHRvMR4wHAYDVQQDDBVDb211bmUgZGkgT3NwaXRh
+bGV0dG8xMTAvBgNVBFMMKGh0dHBzOi8vc2Vydml6aS5jb211bmUub3NwaXRhbGV0dG8uYnMuaXQx
+FTATBgNVBGEMDFBBOklULWNfZzE3MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJsS
+Jeq7iaYeExY8EEK9qEqRWrUXyKEdEfZJ/5up0SYasmxyrMZ2vtnQTE7DIxky4Ph4LMtY2oYE0I6L
+nvtXbs0kfwIW2JqHxgIC4zO2hUVU9mjgrAluHNgnWVIMFBBBIG+t7c4nElkGPTMgukwueaGpKIP4
+GIKhhbznx8/5IAVUjyhVzrMzQhWlOV1ZOKRcAwGKHfG+XIU3eHsaQrLmBVnfcLo8ElfkHK3ZwT1H
+EMvBhIL8bai8E9bkNPjlfLRxX57SmJzAenxUM8mfVyNN5sbpk131S2IaWo6fVhqWZXZY1vs57nt4
+St3kYkOedAf9NC09Xwd42HH+Xqf0YvM3mp8CAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8E
+BAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQ
+BAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAFUn48jU
+++1KkEx7TBwWIRvshr5gV1giQcL3eA7jsI7hD76+5gGcnReAaXYTeczYrmws7mWbgUK/2500KN7i
+sbuhOap13/x/Zq9PeOOjyv6ecgoicAdDCywiOEgbhH2JD7mLzOo5wYoFmi9eHaY1QLdozBs1o0bn
+ieNxDazERDrHSsUYpfc39rkk9Vuw6pqJuTgFiej6nhef3vUqn46BJfrH0oSfNZDIwDrUIdTT6x0Q
+4UtEtb/Usb02uttv7fggDoFLzXhwBkGfVEr7rDHj0bltsXwx7rwD8gX5T88x8MOkTXyMb/ViU749
+kjZFqvjcGpPSWoRiPQJmjDhuDfjZhR8=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzzCCAregAwIBAgIJAKFHo4Zu0QRhMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLT3NwaXRhbGV0dG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBPc3BpdGFsZXR0bzEpMCcGA1UEAwwgc2Vydml6aS5jb211bmUub3NwaXRhbGV0dG8uYnMuaXQwHhcNMjEwNjE1MDc0ODE1WhcNMzEwNjE1MDc0ODE1WjB+MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFDASBgNVBAcMC09zcGl0YWxldHRvMR4wHAYDVQQKDBVDb211bmUgZGkgT3NwaXRhbGV0dG8xKTAnBgNVBAMMIHNlcnZpemkuY29tdW5lLm9zcGl0YWxldHRvLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OwsgitQzsD1KCL42AlGMUsluteck1fVFgsix9Adhly38I9qVxq6lhEDR015a32HCSI2sf2nv1JUsOCUzAIWvfz7a+VkptuvLuXM5+CnAulKQHbdmKH8IceLvYcJpTVfCsvSNCp9OODJXhH1RUegx6eEVOsptPeZheV+cwKe5wzinbQ4iGGGCS0210Y5IIIYFmcTLUZyJS6zhv8zj4BErGEPapM/Zno1aslJJwzeMxYD7u7iT4TQ1I/9+6KPicu7gBK4RFAOC9S6Zj9K4OdTov6htNMXE2fvwb31+KI+6Q9NuBVNZK0X7OrZ+CJAveVC16mIh0yMdI0TMjH86GGzqQIDAQABo1AwTjAdBgNVHQ4EFgQUtT0GtDkY+BpZlSTTXZMZlFn5ZmEwHwYDVR0jBBgwFoAUtT0GtDkY+BpZlSTTXZMZlFn5ZmEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALbPcnzyGoNnnWTWE7nQJAdGTLTtvtKZLtBkMfxfc1AsdbLcejiQy11ZuVDjFHwCiufywlsrFbQ1Jep6/CIcRfYpQ/vWXIz9cnCXdKSFGByJmrweNgyYp21tQHObtBjh+GJwAHiMFCXjYh8ltc7mRuy71AnmzOvFoFHdzafVJSPTI9+s7+tvqW00Obai7nmKptDFCDOey/VFQp2Y1x6ZAeTiMRNvdsyhAt4HpDWNmbivu5Q1AUoCL14KdoXTe804z0FHATq//mod/gExIQ70Jb4L/U3MLahJjd1rj0YrQx5p8jB+zEayOOpT0eHkGW+6+w40R/FCa3qsXbQlNzuFlyQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDzzCCAregAwIBAgIJAKFHo4Zu0QRhMA0GCSqGSIb3DQEBCwUAMH4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLT3NwaXRhbGV0dG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBPc3BpdGFsZXR0bzEpMCcGA1UEAwwgc2Vydml6aS5jb211bmUub3NwaXRhbGV0dG8uYnMuaXQwHhcNMjEwNjE1MDc0ODE1WhcNMzEwNjE1MDc0ODE1WjB+MQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFDASBgNVBAcMC09zcGl0YWxldHRvMR4wHAYDVQQKDBVDb211bmUgZGkgT3NwaXRhbGV0dG8xKTAnBgNVBAMMIHNlcnZpemkuY29tdW5lLm9zcGl0YWxldHRvLmJzLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6OwsgitQzsD1KCL42AlGMUsluteck1fVFgsix9Adhly38I9qVxq6lhEDR015a32HCSI2sf2nv1JUsOCUzAIWvfz7a+VkptuvLuXM5+CnAulKQHbdmKH8IceLvYcJpTVfCsvSNCp9OODJXhH1RUegx6eEVOsptPeZheV+cwKe5wzinbQ4iGGGCS0210Y5IIIYFmcTLUZyJS6zhv8zj4BErGEPapM/Zno1aslJJwzeMxYD7u7iT4TQ1I/9+6KPicu7gBK4RFAOC9S6Zj9K4OdTov6htNMXE2fvwb31+KI+6Q9NuBVNZK0X7OrZ+CJAveVC16mIh0yMdI0TMjH86GGzqQIDAQABo1AwTjAdBgNVHQ4EFgQUtT0GtDkY+BpZlSTTXZMZlFn5ZmEwHwYDVR0jBBgwFoAUtT0GtDkY+BpZlSTTXZMZlFn5ZmEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEALbPcnzyGoNnnWTWE7nQJAdGTLTtvtKZLtBkMfxfc1AsdbLcejiQy11ZuVDjFHwCiufywlsrFbQ1Jep6/CIcRfYpQ/vWXIz9cnCXdKSFGByJmrweNgyYp21tQHObtBjh+GJwAHiMFCXjYh8ltc7mRuy71AnmzOvFoFHdzafVJSPTI9+s7+tvqW00Obai7nmKptDFCDOey/VFQp2Y1x6ZAeTiMRNvdsyhAt4HpDWNmbivu5Q1AUoCL14KdoXTe804z0FHATq//mod/gExIQ70Jb4L/U3MLahJjd1rj0YrQx5p8jB+zEayOOpT0eHkGW+6+w40R/FCa3qsXbQlNzuFlyQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+	<md:KeyDescriptor use="signing"> 
+		<ds:KeyInfo> 
+			<ds:X509Data> 
+				<ds:X509Certificate>MIIETjCCAzagAwIBAgIHBmaAwuivcTANBgkqhkiG9w0BAQsFADCBrTELMAkGA1UEBhMCSVQxFDASBgNVBAcMC09zcGl0YWxldHRvMR4wHAYDVQQKDBVDb211bmUgZGkgT3NwaXRhbGV0dG8xHjAcBgNVBAMMFUNvbXVuZSBkaSBPc3BpdGFsZXR0bzExMC8GA1UEUwwoaHR0cHM6Ly9zZXJ2aXppLmNvbXVuZS5vc3BpdGFsZXR0by5icy5pdDEVMBMGA1UEYQwMUEE6SVQtY19nMTcwMB4XDTI0MDYxMTA4MzQ1NFoXDTQ0MDYxMDA4MzQ1NFowga0xCzAJBgNVBAYTAklUMRQwEgYDVQQHDAtPc3BpdGFsZXR0bzEeMBwGA1UECgwVQ29tdW5lIGRpIE9zcGl0YWxldHRvMR4wHAYDVQQDDBVDb211bmUgZGkgT3NwaXRhbGV0dG8xMTAvBgNVBFMMKGh0dHBzOi8vc2Vydml6aS5jb211bmUub3NwaXRhbGV0dG8uYnMuaXQxFTATBgNVBGEMDFBBOklULWNfZzE3MDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJsSJeq7iaYeExY8EEK9qEqRWrUXyKEdEfZJ/5up0SYasmxyrMZ2vtnQTE7DIxky4Ph4LMtY2oYE0I6LnvtXbs0kfwIW2JqHxgIC4zO2hUVU9mjgrAluHNgnWVIMFBBBIG+t7c4nElkGPTMgukwueaGpKIP4GIKhhbznx8/5IAVUjyhVzrMzQhWlOV1ZOKRcAwGKHfG+XIU3eHsaQrLmBVnfcLo8ElfkHK3ZwT1HEMvBhIL8bai8E9bkNPjlfLRxX57SmJzAenxUM8mfVyNN5sbpk131S2IaWo6fVhqWZXZY1vs57nt4St3kYkOedAf9NC09Xwd42HH+Xqf0YvM3mp8CAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQELBQADggEBAFUn48jU++1KkEx7TBwWIRvshr5gV1giQcL3eA7jsI7hD76+5gGcnReAaXYTeczYrmws7mWbgUK/2500KN7isbuhOap13/x/Zq9PeOOjyv6ecgoicAdDCywiOEgbhH2JD7mLzOo5wYoFmi9eHaY1QLdozBs1o0bnieNxDazERDrHSsUYpfc39rkk9Vuw6pqJuTgFiej6nhef3vUqn46BJfrH0oSfNZDIwDrUIdTT6x0Q4UtEtb/Usb02uttv7fggDoFLzXhwBkGfVEr7rDHj0bltsXwx7rwD8gX5T88x8MOkTXyMb/ViU749kjZFqvjcGpPSWoRiPQJmjDhuDfjZhR8=</ds:X509Certificate> 
+			</ds:X509Data> 
+		</ds:KeyInfo> 
+	</md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.ospitaletto.bs.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+	<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.ospitaletto.bs.it/microspid_logout"/> 
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.ospitaletto.bs.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.ospitaletto.bs.it/microspid_acs" index="2"/> 
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+   <md:AttributeConsumingService index="2"> 
+		<md:ServiceName xml:lang="it">Portale Comunale</md:ServiceName> 
+		<md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+		<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+		<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		<md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	</md:AttributeConsumingService> 
+<md:AttributeConsumingService index="99">
+		<md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+		<md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="name"/>
+		<md:RequestedAttribute Name="familyName"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>
+	</md:AttributeConsumingService>
+	<md:AttributeConsumingService index="100">
+		<md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+		<md:RequestedAttribute Name="spidCode"/>
+		<md:RequestedAttribute Name="name"/>
+		<md:RequestedAttribute Name="familyName"/>
+		<md:RequestedAttribute Name="dateOfBirth"/>
+		<md:RequestedAttribute Name="placeOfBirth"/>
+		<md:RequestedAttribute Name="address"/>
+		<md:RequestedAttribute Name="gender"/>
+	</md:AttributeConsumingService> 
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ospitaletto</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ospitaletto</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.ospitaletto.bs.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_g170</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Ospitaletto</md:Company>
+    <md:EmailAddress>segreteria@comune.ospitaletto.bs.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>
