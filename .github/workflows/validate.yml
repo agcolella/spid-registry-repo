@@ -81,6 +81,8 @@ jobs:
               tr:nth-child(even) { background: #ecf0f1; }
               .footer { margin-top: 2em; font-size: 0.9em; color: #777; }
               #searchBox { margin: 1em 0; padding: 8px; width: 100%; max-width: 400px; }
+              .valid { color: green; font-weight: bold; }
+              .invalid { color: red; font-weight: bold; }
             </style>
             <script>
               function searchTable() {
@@ -88,15 +90,16 @@ jobs:
                 let rows = document.querySelectorAll("#metadataTable tbody tr");
                 rows.forEach(row => {
                   let filename = row.cells[0].textContent.toLowerCase();
-                  let date = row.cells[1].textContent.toLowerCase();
-                  row.style.display = (filename.includes(input) || date.includes(input)) ? "" : "none";
+                  let status = row.cells[1].textContent.toLowerCase();
+                  let date = row.cells[2].textContent.toLowerCase();
+                  row.style.display = (filename.includes(input) || status.includes(input) || date.includes(input)) ? "" : "none";
                 });
               }
             </script>
           </head>
           <body>
-            <h1>Registro SPID - Metadata Validati ✅</h1>
-            <p>Questa pagina elenca i metadata validati e pubblicati automaticamente tramite pipeline CI/CD.</p>
+            <h1>Registro SPID - Metadata ✅❌</h1>
+            <p>Questa pagina elenca tutti i metadata presenti e il risultato dell’ultima validazione.</p>
 
             <h2>Riepilogo validazione</h2>
             <table>
@@ -108,23 +111,31 @@ jobs:
             <p><a href="report.log">📄 Scarica il report completo</a></p>
 
             <h2>Metadata disponibili</h2>
-            <input type="text" id="searchBox" onkeyup="searchTable()" placeholder="🔍 Cerca per nome o data...">
+            <input type="text" id="searchBox" onkeyup="searchTable()" placeholder="🔍 Cerca per nome, stato o data...">
 
             <table id="metadataTable">
               <thead>
                 <tr>
                   <th>Nome file</th>
-                  <th>Ultimo aggiornamento</th>
+                  <th>Stato</th>
+                  <th>Ultima validazione</th>
                 </tr>
               </thead>
               <tbody>
           EOF
 
-          for f in validated/*.xml; do
-            DATE=$(date +"%Y-%m-%d")
-            # 👉 I link puntano alla sottocartella validated/
+          DATE=$(date +"%Y-%m-%d")
+
+          for f in metadata/*.xml; do
             BASENAME=$(basename "$f")
-            echo "<tr><td><a href=\"validated/$BASENAME\">$BASENAME</a></td><td>$DATE</td></tr>" >> gh-pages_index.html
+            if [ -f validated/"$BASENAME" ]; then
+              STATUS="<span class='valid'>Valido</span>"
+              LINK="validated/$BASENAME"
+            else
+              STATUS="<span class='invalid'>Non valido</span>"
+              LINK="metadata/$BASENAME"
+            fi
+            echo "<tr><td><a href=\"$LINK\">$BASENAME</a></td><td>$STATUS</td><td>$DATE</td></tr>" >> gh-pages_index.html
           done
 
           cat >> gh-pages_index.html <<'EOF'
@@ -143,6 +154,9 @@ jobs:
 
 
 
+
+
+      
 
 
       - name: Setup Git user
