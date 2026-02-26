@@ -176,6 +176,10 @@ jobs:
           # Copia i file generati
           cp -r .gh-pages-tmp/* .publish/
 
+          # 👇 Copia anche TUTTI i metadata originali
+          mkdir -p .publish/metadata
+          cp metadata/*.xml .publish/metadata/ 2>/dev/null || echo "⚠️ Nessun metadata sorgente trovato"
+
           # ⚠️ Forza index.html aggiornato
           cp .gh-pages-tmp/gh-pages_index.html .publish/index.html
 
