@@ -26,7 +26,7 @@ spid-registry-repo/
 ├── requirements.txt
 └── README.md
 
-
+![SPID Registry](https://img.shields.io/endpoint?url=https://agcolella.github.io/spid-registry-repo/badge.json)
 ---
 
 ## ⚙️ Flusso pipeline

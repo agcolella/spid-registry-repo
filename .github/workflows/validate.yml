@@ -28,99 +28,183 @@ jobs:
         run: |
           pip install lxml xmlsec cryptography
 
-      - name: Run metadata validation
+      - name: Run metadata validation (Enterprise Mode)
         run: |
           mkdir -p validated reports .gh-pages-tmp
           echo "=== Validation Report ===" > reports/report.log
-          set +e   # non fermarti al primo errore
+
           VALID=0
           INVALID=0
+          FIRST=1
+          echo "{" > validation_data.json
+
           for f in metadata/*.xml; do
-            echo "🔎 Validating $f"
+            BASENAME=$(basename "$f")
+            NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
+
+            echo "🔎 Validating $BASENAME"
+
             if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
-              echo "✅ $f is valid"
-              echo "[$(date)] VALID: $(basename $f)" >> reports/report.log
+              STATUS="valid"
               cp "$f" validated/
               VALID=$((VALID+1))
             else
-              echo "❌ $f has errors"
-              echo "[$(date)] INVALID: $(basename $f)" >> reports/report.log
+              STATUS="invalid"
               INVALID=$((INVALID+1))
             fi
+
+            if [ $FIRST -eq 0 ]; then echo "," >> validation_data.json; fi
+            FIRST=0
+            echo "  \"$BASENAME\": {\"status\": \"$STATUS\", \"validated_at\": \"$NOW\"}" >> validation_data.json
           done
+
+          echo "}" >> validation_data.json
+
           TOTAL=$((VALID+INVALID))
+
           echo "" >> reports/report.log
           echo "=== SUMMARY ===" >> reports/report.log
           echo "Valid metadata:   $VALID" >> reports/report.log
           echo "Invalid metadata: $INVALID" >> reports/report.log
           echo "Total processed:  $TOTAL" >> reports/report.log
-          # Salva numeri in file temporanei per index.html
+
           echo "$VALID" > .gh-pages-tmp/valid_count
           echo "$INVALID" > .gh-pages-tmp/invalid_count
           echo "$TOTAL" > .gh-pages-tmp/total_count
 
-      - name: Generate index.html
+          cp validation_data.json .gh-pages-tmp/
+          cp -r validated reports .gh-pages-tmp/
+
+      - name: Generate Enterprise index.html
         run: |
           VALID=$(cat .gh-pages-tmp/valid_count)
           INVALID=$(cat .gh-pages-tmp/invalid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
-          DATE=$(date +"%Y-%m-%d")
 
-          ROWS=""
+          cat > gh-pages_index.html <<EOF
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Registro Metadata SPID</title>
+<style>
+body { font-family: Arial; margin:0; background:#f4f6f9; }
+header { background:#005ea5; color:white; padding:1.5em; }
+h1 { margin:0; }
+.container { padding:2em; }
+.badge { padding:6px 12px; border-radius:20px; color:white; font-weight:bold; }
+.green { background:#27ae60; }
+.red { background:#c0392b; }
+.gray { background:#7f8c8d; }
+table { border-collapse: collapse; width:100%; margin-top:1em; background:white; }
+th, td { padding:10px; border:1px solid #ddd; }
+th { background:#003d73; color:white; }
+.valid { color:#27ae60; font-weight:bold; }
+.invalid { color:#c0392b; font-weight:bold; }
+.footer { margin-top:2em; font-size:0.9em; color:#555; }
+</style>
+</head>
+<body>
 
-          for f in metadata/*.xml; do
-            BASENAME=$(basename "$f")
-            if [ -f validated/"$BASENAME" ]; then
-              STATUS="<span class='valid'>Valido</span>"
-              LINK="<a href=\"validated/$BASENAME\">$BASENAME</a>"
-            else
-              STATUS="<span class='invalid'>Non valido</span>"
-              LINK="$BASENAME"
-            fi
-            ROWS="$ROWS<tr><td>$LINK</td><td>$STATUS</td><td>$DATE</td></tr>"
-          done
+<header>
+<h1>Registro Pubblico Metadata SPID</h1>
+<p>Validazione automatica conforme linee guida</p>
+</header>
 
-          cp templates/index_template.html gh-pages_index.html
+<div class="container">
 
-          sed -i "s/{{VALID}}/$VALID/g" gh-pages_index.html
-          sed -i "s/{{INVALID}}/$INVALID/g" gh-pages_index.html
-          sed -i "s/{{TOTAL}}/$TOTAL/g" gh-pages_index.html
-          sed -i "s|{{ROWS}}|$ROWS|g" gh-pages_index.html
+<span class="badge green">Validi: $VALID</span>
+<span class="badge red">Non validi: $INVALID</span>
+<span class="badge gray">Totale: $TOTAL</span>
 
-          cp -r validated reports gh-pages_index.html .gh-pages-tmp/
-      - name: Setup Git user
-        run: |
-          git config user.name "github-actions[bot]"
-          git config user.email "github-actions[bot]@users.noreply.github.com"
+<p><a href="report.log">Scarica report completo</a></p>
 
-      - name: Deploy validated metadata to gh-pages
+<table>
+<thead>
+<tr>
+<th>Nome file</th>
+<th>Stato</th>
+<th>Ultima validazione (UTC)</th>
+</tr>
+</thead>
+<tbody>
+EOF
+
+          python3 <<PYCODE >> gh-pages_index.html
+import json
+
+with open(".gh-pages-tmp/validation_data.json") as f:
+    data = json.load(f)
+
+for filename, info in sorted(data.items()):
+    status = info["status"]
+    date = info["validated_at"]
+
+    if status == "valid":
+        link = f'<a href="validated/{filename}">{filename}</a>'
+        status_html = '<span class="valid">Valido</span>'
+    else:
+        link = filename
+        status_html = '<span class="invalid">Non valido</span>'
+
+    print(f"<tr><td>{link}</td><td>{status_html}</td><td>{date}</td></tr>")
+PYCODE
+
+          cat >> gh-pages_index.html <<EOF
+</tbody>
+</table>
+
+<div class="footer">
+Generato automaticamente tramite GitHub Actions – branch gh-pages
+</div>
+
+</div>
+</body>
+</html>
+EOF
+
+          cp gh-pages_index.html .gh-pages-tmp/
+
+      - name: Deploy Enterprise Registry to gh-pages
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
           rm -rf .publish
           git fetch origin gh-pages || true
-          git worktree add .publish gh-pages || git worktree add .publish -b gh-pages origin/gh-pages
+          git worktree add .publish gh-pages || git worktree add .publish -b gh-pages
 
-          # Copia i file generati
           cp -r .gh-pages-tmp/* .publish/
+          mkdir -p .publish/history
 
-          # 👇 Copia anche TUTTI i metadata originali
-          mkdir -p .publish/metadata
-          cp metadata/*.xml .publish/metadata/ 2>/dev/null || echo "⚠️ Nessun metadata sorgente trovato"
+          TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
+          mkdir -p .publish/history/$TIMESTAMP
+          cp .gh-pages-tmp/validation_data.json .publish/history/$TIMESTAMP/
+          cp .gh-pages-tmp/reports/report.log .publish/history/$TIMESTAMP/
 
-          # ⚠️ Forza index.html aggiornato
-          cp .gh-pages-tmp/gh-pages_index.html .publish/index.html
+          # Badge dinamico
+          VALID=$(cat .gh-pages-tmp/valid_count)
+          TOTAL=$(cat .gh-pages-tmp/total_count)
 
-          # Commit e push
+          COLOR="green"
+          if [ "$VALID" -lt "$TOTAL" ]; then
+            COLOR="yellow"
+          fi
+
+          cat > .publish/badge.json <<BADGE
+{
+  "schemaVersion": 1,
+  "label": "SPID Metadata",
+  "message": "$VALID validi / $TOTAL totali",
+  "color": "$COLOR"
+}
+BADGE
+
+          touch .publish/.nojekyll
+
           cd .publish
-          touch .nojekyll
           git add .
-          git commit -m "Update validated metadata [skip ci]" || echo "No changes to commit"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
-          cd ..
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-
-
+          git commit -m "Enterprise registry update [skip ci]" || echo "No changes"
+          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages --force
