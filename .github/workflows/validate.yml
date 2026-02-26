@@ -16,11 +16,9 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - name: Checkout repo
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
-      - name: Setup Python
-        uses: actions/setup-python@v5
+      - uses: actions/setup-python@v5
         with:
           python-version: "3.11"
 
@@ -30,23 +28,19 @@ jobs:
           sudo apt-get update
           sudo apt-get install -y jq
 
-      - name: Run metadata validation
+      - name: Validate metadata
         run: |
           mkdir -p validated reports .gh-pages-tmp
-          echo "=== Validation Report ===" > reports/report.log
+          echo "{}" > validation_data.json
 
           VALID=0
           INVALID=0
 
-          echo "{}" > validation_data.json
-
           for f in metadata/*.xml; do
-            BASENAME=$(basename "$f")
+            FILE=$(basename "$f")
             NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-            echo "🔎 Validating $BASENAME"
-
-            if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
+            if python scripts/validate_metadata_qad.py "$f" > /dev/null 2>&1; then
               STATUS="valid"
               cp "$f" validated/
               VALID=$((VALID+1))
@@ -55,7 +49,7 @@ jobs:
               INVALID=$((INVALID+1))
             fi
 
-            jq --arg file "$BASENAME" \
+            jq --arg file "$FILE" \
                --arg status "$STATUS" \
                --arg date "$NOW" \
                '. + {($file): {status: $status, validated_at: $date}}' \
@@ -64,16 +58,12 @@ jobs:
 
           TOTAL=$((VALID+INVALID))
 
-          echo "Valid: $VALID"
-          echo "Invalid: $INVALID"
-          echo "Total: $TOTAL"
-
           echo "$VALID" > .gh-pages-tmp/valid_count
           echo "$INVALID" > .gh-pages-tmp/invalid_count
           echo "$TOTAL" > .gh-pages-tmp/total_count
 
           cp validation_data.json .gh-pages-tmp/
-          cp -r validated reports .gh-pages-tmp/
+          cp -r validated .gh-pages-tmp/
 
       - name: Generate index.html
         run: |
@@ -81,71 +71,34 @@ jobs:
           INVALID=$(cat .gh-pages-tmp/invalid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
 
-          cat > gh-pages_index.html <<EOF
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8">
-<title>Registro Metadata SPID</title>
-<style>
-body { font-family: Arial; margin:0; background:#f4f6f9; }
-header { background:#005ea5; color:white; padding:1.5em; }
-.container { padding:2em; }
-.badge { padding:6px 12px; border-radius:20px; color:white; font-weight:bold; }
-.green { background:#27ae60; }
-.red { background:#c0392b; }
-.gray { background:#7f8c8d; }
-table { border-collapse: collapse; width:100%; margin-top:1em; background:white; }
-th, td { padding:10px; border:1px solid #ddd; }
-th { background:#003d73; color:white; }
-.valid { color:#27ae60; font-weight:bold; }
-.invalid { color:#c0392b; font-weight:bold; }
-</style>
-</head>
-<body>
+          OUT="gh-pages_index.html"
 
-<header>
-<h1>Registro Pubblico Metadata SPID</h1>
-<p>Validazione automatica conforme linee guida</p>
-</header>
+          printf '<!DOCTYPE html>\n' > $OUT
+          printf '<html lang="it">\n<head>\n<meta charset="UTF-8">\n' >> $OUT
+          printf '<title>Registro Metadata SPID</title>\n' >> $OUT
+          printf '<style>body{font-family:Arial;background:#f4f6f9;margin:0;} header{background:#005ea5;color:white;padding:1.5em;} .container{padding:2em;} .badge{padding:6px 12px;border-radius:20px;color:white;font-weight:bold;} .green{background:#27ae60;} .red{background:#c0392b;} .gray{background:#7f8c8d;} table{border-collapse:collapse;width:100%%;margin-top:1em;background:white;} th,td{padding:10px;border:1px solid #ddd;} th{background:#003d73;color:white;} .valid{color:#27ae60;font-weight:bold;} .invalid{color:#c0392b;font-weight:bold;}</style>\n' >> $OUT
+          printf '</head><body>\n' >> $OUT
 
-<div class="container">
+          printf '<header><h1>Registro Pubblico Metadata SPID</h1><p>Validazione automatica</p></header>\n' >> $OUT
+          printf '<div class="container">\n' >> $OUT
 
-<span class="badge green">Validi: $VALID</span>
-<span class="badge red">Non validi: $INVALID</span>
-<span class="badge gray">Totale: $TOTAL</span>
+          printf '<span class="badge green">Validi: %s</span> ' "$VALID" >> $OUT
+          printf '<span class="badge red">Non validi: %s</span> ' "$INVALID" >> $OUT
+          printf '<span class="badge gray">Totale: %s</span>' "$TOTAL" >> $OUT
 
-<p><a href="report.log">Scarica report completo</a></p>
-
-<table>
-<thead>
-<tr>
-<th>Nome file</th>
-<th>Stato</th>
-<th>Ultima validazione (UTC)</th>
-</tr>
-</thead>
-<tbody>
-EOF
+          printf '<table><thead><tr><th>Nome file</th><th>Stato</th><th>Ultima validazione (UTC)</th></tr></thead><tbody>\n' >> $OUT
 
           jq -r 'to_entries[] | "\(.key)|\(.value.status)|\(.value.validated_at)"' .gh-pages-tmp/validation_data.json | sort | while IFS="|" read FILE STATUS DATE; do
             if [ "$STATUS" = "valid" ]; then
-              echo "<tr><td><a href=\"validated/$FILE\">$FILE</a></td><td class=\"valid\">Valido</td><td>$DATE</td></tr>" >> gh-pages_index.html
+              printf '<tr><td><a href="validated/%s">%s</a></td><td class="valid">Valido</td><td>%s</td></tr>\n' "$FILE" "$FILE" "$DATE" >> $OUT
             else
-              echo "<tr><td>$FILE</td><td class=\"invalid\">Non valido</td><td>$DATE</td></tr>" >> gh-pages_index.html
+              printf '<tr><td>%s</td><td class="invalid">Non valido</td><td>%s</td></tr>\n' "$FILE" "$DATE" >> $OUT
             fi
           done
 
-          cat >> gh-pages_index.html <<EOF
-</tbody>
-</table>
+          printf '</tbody></table></div></body></html>' >> $OUT
 
-</div>
-</body>
-</html>
-EOF
-
-          cp gh-pages_index.html .gh-pages-tmp/
+          cp $OUT .gh-pages-tmp/
 
       - name: Deploy to gh-pages
         env:
@@ -159,29 +112,19 @@ EOF
           git worktree add .publish gh-pages || git worktree add .publish -b gh-pages
 
           cp -r .gh-pages-tmp/* .publish/
-          mkdir -p .publish/history
 
-          TIMESTAMP=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
-          mkdir -p .publish/history/$TIMESTAMP
-          cp .gh-pages-tmp/validation_data.json .publish/history/$TIMESTAMP/
-          cp .gh-pages-tmp/reports/report.log .publish/history/$TIMESTAMP/
+          mkdir -p .publish/history
+          TS=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
+          mkdir -p .publish/history/$TS
+          cp .gh-pages-tmp/validation_data.json .publish/history/$TS/
 
           VALID=$(cat .gh-pages-tmp/valid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
 
           COLOR="green"
-          if [ "$VALID" -lt "$TOTAL" ]; then
-            COLOR="yellow"
-          fi
+          if [ "$VALID" -lt "$TOTAL" ]; then COLOR="yellow"; fi
 
-          cat > .publish/badge.json <<BADGE
-{
-  "schemaVersion": 1,
-  "label": "SPID Metadata",
-  "message": "$VALID validi / $TOTAL totali",
-  "color": "$COLOR"
-}
-BADGE
+          printf '{ "schemaVersion":1, "label":"SPID Metadata", "message":"%s validi / %s totali", "color":"%s" }' "$VALID" "$TOTAL" "$COLOR" > .publish/badge.json
 
           touch .publish/.nojekyll
 
