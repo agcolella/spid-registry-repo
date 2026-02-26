@@ -1,0 +1,372 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxf6dd51e4-fa6a-93e5-056b-ad6f1a39c8e4" entityID="https://www.comune.noale.ve.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxf6dd51e4-fa6a-93e5-056b-ad6f1a39c8e4">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    HISKXbSRGJuq5zqwdl/hnoMRrptLeCOCAQlhCUtly7k=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+BdjC2IjOFZM4y1W3Bwn+JaJtX47zOumgRDv6N3x3Ch/cjqV7Dc0L6s5I+q1nwZ+GpD0MwzfdrfrD
+5X/P61+mMGzb0FVGPNYsPrPLGIP3DBPWyoL9UAoldMvzykTidTOnooUZFW/kIqmaCAGDp77Mgl8u
+IyRjB9rYMX19fFfyc/VLeyF7Zc5M9f6rUz9sAdOUg0QyDaatE20FzgzBWR9p1z9nEqYyVmdxpl/X
+qJfHjVfBxxP/dOtsbFNUBrBWMrz3E38jZugfeCZDAGspNDVDL0zqDJwwIZLRg8OenxS3iCq5S0zf
+Z1lx3VGzy8ZC0Iyg3gBjFWAa8/6hbb5exWEPuQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+yXfyQRQeghKp/F3+hOcHr+/xFdNAZhti3DDfsYMTOSGSHlHm+sTw7bak06qQn8vdjH329tK8UV7a
+clnVassySpMRxq0M5V64xz6MkK9Ripx8fn3JJgMGM7fsyK9Nuk59HPjIYIj9bAuU0AmPpG+M05nu
+/Emo/Yp9r2d0MjcngAhiAM5V6aMHTwIytdT6CZH4rOJX+ImMG5H28CUfLFkztEtgV7f+5OEF/Lzv
+7s21KIiofp8OeSb8d+S45yCot7aLI/AKORXhNEhjrLGy65Oxwhdm7d6UbdpfjDbPTuP8Ug8snryh
+X1C2/WuRogXaErwf7qCYaNx97YMMZ2rXN8Oo4Q==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDozCCAougAwIBAgIJANT3VYwpko4OMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAWBgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEf
+MB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDAeFw0xODA0MDkxMDEyNTNaFw0yODA0MDgx
+MDEyNTNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAW
+BgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMl38kEUHoISqfxd/oTnB6/v8RXTQGYbYtww
+37GDEzkhkh5R5vrE8O22pNOqkJ/L3Yx99vbSvFFe2nJZ1WrLMkqTEcatDOVeuMc+jJCvUYqcfH59
+ySYDBjO37MivTbpOfRz4yGCI/WwLlNAJj6RvjNOZ7vxJqP2Kfa9ndDI3J4AIYgDOVemjB08CMrXU
++gmR+KziV/iJjBuR9vAlHyxZM7RLYFe3/uThBfy87+7NtSiIqH6fDnkm/HfkuOcgqLe2iyPwCjkV
+4TRIY6yxsuuTscIXZu3elG3aX4w2z07j/FIPLJ68oV9Qtv1rkaIF2hK8H+6gmGjcfe2DDGdq1zfD
+qOECAwEAAaNQME4wHQYDVR0OBBYEFDhukkNesZwzIKJpBgIS7WjhZPDRMB8GA1UdIwQYMBaAFDhu
+kkNesZwzIKJpBgIS7WjhZPDRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACkJ9Vsc
+rWob4ef9Cm5dx6F4iAFg/zEPfVHfoHeNqMv+lXj4iqmncm/JzuuKqhGLk8j06O5afgqdG0ASKgv7
+uxusXFRnZOowDQ63z6o7oLjC8wh94FyROA9CS6EtXxcQDm+iktdNU6IRw62vh4jTx0GHNOukWRo6
+j3L8F8eY1iAvuyM6AfVmppQvTsEiKTBuhYu33lbbnTgwOhmUniaR/DIyQq/zYBdsfApN7YfvK6tJ
+Hd2fT5fXruryB83aN3sdZXpnQoaXqWwY6pcX7X0Zwrv2qz4Ybiv/s8tyGJ1xJxqkz0E9+sZUnMSg
+p1V55YtCRQ3tq9rqQ8wa7gXaucqZurs=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDozCCAougAwIBAgIJANT3VYwpko4OMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAWBgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDAeFw0xODA0MDkxMDEyNTNaFw0yODA0MDgxMDEyNTNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAWBgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMl38kEUHoISqfxd/oTnB6/v8RXTQGYbYtww37GDEzkhkh5R5vrE8O22pNOqkJ/L3Yx99vbSvFFe2nJZ1WrLMkqTEcatDOVeuMc+jJCvUYqcfH59ySYDBjO37MivTbpOfRz4yGCI/WwLlNAJj6RvjNOZ7vxJqP2Kfa9ndDI3J4AIYgDOVemjB08CMrXU+gmR+KziV/iJjBuR9vAlHyxZM7RLYFe3/uThBfy87+7NtSiIqH6fDnkm/HfkuOcgqLe2iyPwCjkV4TRIY6yxsuuTscIXZu3elG3aX4w2z07j/FIPLJ68oV9Qtv1rkaIF2hK8H+6gmGjcfe2DDGdq1zfDqOECAwEAAaNQME4wHQYDVR0OBBYEFDhukkNesZwzIKJpBgIS7WjhZPDRMB8GA1UdIwQYMBaAFDhukkNesZwzIKJpBgIS7WjhZPDRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACkJ9VscrWob4ef9Cm5dx6F4iAFg/zEPfVHfoHeNqMv+lXj4iqmncm/JzuuKqhGLk8j06O5afgqdG0ASKgv7uxusXFRnZOowDQ63z6o7oLjC8wh94FyROA9CS6EtXxcQDm+iktdNU6IRw62vh4jTx0GHNOukWRo6j3L8F8eY1iAvuyM6AfVmppQvTsEiKTBuhYu33lbbnTgwOhmUniaR/DIyQq/zYBdsfApN7YfvK6tJHd2fT5fXruryB83aN3sdZXpnQoaXqWwY6pcX7X0Zwrv2qz4Ybiv/s8tyGJ1xJxqkz0E9+sZUnMSgp1V55YtCRQ3tq9rqQ8wa7gXaucqZurs=
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDozCCAougAwIBAgIJANT3VYwpko4OMA0GCSqGSIb3DQEBCwUAMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAWBgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDAeFw0xODA0MDkxMDEyNTNaFw0yODA0MDgxMDEyNTNaMGgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTm9hbGUxGDAWBgNVBAoMD0NvbXVuZSBkaSBOb2FsZTEfMB0GA1UEAwwWd3d3LmNvbXVuZS5ub2FsZS52ZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMl38kEUHoISqfxd/oTnB6/v8RXTQGYbYtww37GDEzkhkh5R5vrE8O22pNOqkJ/L3Yx99vbSvFFe2nJZ1WrLMkqTEcatDOVeuMc+jJCvUYqcfH59ySYDBjO37MivTbpOfRz4yGCI/WwLlNAJj6RvjNOZ7vxJqP2Kfa9ndDI3J4AIYgDOVemjB08CMrXU+gmR+KziV/iJjBuR9vAlHyxZM7RLYFe3/uThBfy87+7NtSiIqH6fDnkm/HfkuOcgqLe2iyPwCjkV4TRIY6yxsuuTscIXZu3elG3aX4w2z07j/FIPLJ68oV9Qtv1rkaIF2hK8H+6gmGjcfe2DDGdq1zfDqOECAwEAAaNQME4wHQYDVR0OBBYEFDhukkNesZwzIKJpBgIS7WjhZPDRMB8GA1UdIwQYMBaAFDhukkNesZwzIKJpBgIS7WjhZPDRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBACkJ9VscrWob4ef9Cm5dx6F4iAFg/zEPfVHfoHeNqMv+lXj4iqmncm/JzuuKqhGLk8j06O5afgqdG0ASKgv7uxusXFRnZOowDQ63z6o7oLjC8wh94FyROA9CS6EtXxcQDm+iktdNU6IRw62vh4jTx0GHNOukWRo6j3L8F8eY1iAvuyM6AfVmppQvTsEiKTBuhYu33lbbnTgwOhmUniaR/DIyQq/zYBdsfApN7YfvK6tJHd2fT5fXruryB83aN3sdZXpnQoaXqWwY6pcX7X0Zwrv2qz4Ybiv/s8tyGJ1xJxqkz0E9+sZUnMSgp1V55YtCRQ3tq9rqQ8wa7gXaucqZurs=
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDlTCCAn2gAwIBAgIJANEODwXQosyKMA0GCSqGSIb3DQEBCwUAMGExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGVmVuaWNlMQ4wDAYDVQQKDAVub2FsZTEhMB8GA1UEAwwYbG9naW4uY29tdW5lLm5vYWxlLnZlLml0MB4XDTIxMDYyMTE0MjgzM1oXDTIyMDYyMTE0MjgzM1owYTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZWZW5pY2UxDjAMBgNVBAoMBW5vYWxlMSEwHwYDVQQDDBhsb2dpbi5jb211bmUubm9hbGUudmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2j8aif80QRkHJCsZiLqIzE1TzsofOzjDpQA+Lsg86+90oxxQ1GUvu4/2W14YdB95CHZ7+XNu8jlWm0BwJi2+5jNR48ZZntfdIvAEtEg/xMH7lWlS6znAlUQQbxJYVN3aJVtXd03imVv62w2TS/jEtXn7+/QLXJjw34OEuPyt2SeV8QRvmOhEFHYi9uMNUqbtEIpN0/zDLmttl2a/CvOpQ6CS/gA1nOvWo+W6GLtxEhQFRXnaw8AqPK24kgxdjZz9QSoZuoTSBT0a7Jozhpi37oDde9gM9pmzOGK/VMFKU6vZKUsYShHzxVumV8blGtsXJDLRRygG/ix32qC/jgQ3jAgMBAAGjUDBOMB0GA1UdDgQWBBQ5ZnnSXMDt8Rr1OpmZvWpbBftimjAfBgNVHSMEGDAWgBQ5ZnnSXMDt8Rr1OpmZvWpbBftimjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBlVXn5vT0Odv33Q0QeAuXra+1+m70ywypQGOFsDN9xjbeH/8ILhhjKfFXoKmprJVqnwhvCuQ+Yoa81tiJKYGDMYbaGOW3ATtXw4GYHFMIKY2L8I0Syl+DqE/BqNgGFdsWkawH7CMivC26erLWJ5XKrbEMs5GYyCohzb/Xu4s98ehsJR6rr/PNFr27FN0e5WNOClYG6gAOmIMmdnYnL0RtChQId4+rOfaOsL/osUyReGMqMsOufaPzO4RF3tJuKzdUDnY2cSHVNDI5Hi3obTuin3AwlYc6/nWmlNc9z3+ROzgNUYP5cJKqPonsntfnhkEVuNdmKbKCHBytgqKfgUvaQ
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDlTCCAn2gAwIBAgIJANEODwXQosyKMA0GCSqGSIb3DQEBCwUAMGExCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEPMA0GA1UEBwwGVmVuaWNlMQ4wDAYDVQQKDAVub2FsZTEhMB8GA1UEAwwYbG9naW4uY29tdW5lLm5vYWxlLnZlLml0MB4XDTIxMDYyMTE0MjgzM1oXDTIyMDYyMTE0MjgzM1owYTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ8wDQYDVQQHDAZWZW5pY2UxDjAMBgNVBAoMBW5vYWxlMSEwHwYDVQQDDBhsb2dpbi5jb211bmUubm9hbGUudmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2j8aif80QRkHJCsZiLqIzE1TzsofOzjDpQA+Lsg86+90oxxQ1GUvu4/2W14YdB95CHZ7+XNu8jlWm0BwJi2+5jNR48ZZntfdIvAEtEg/xMH7lWlS6znAlUQQbxJYVN3aJVtXd03imVv62w2TS/jEtXn7+/QLXJjw34OEuPyt2SeV8QRvmOhEFHYi9uMNUqbtEIpN0/zDLmttl2a/CvOpQ6CS/gA1nOvWo+W6GLtxEhQFRXnaw8AqPK24kgxdjZz9QSoZuoTSBT0a7Jozhpi37oDde9gM9pmzOGK/VMFKU6vZKUsYShHzxVumV8blGtsXJDLRRygG/ix32qC/jgQ3jAgMBAAGjUDBOMB0GA1UdDgQWBBQ5ZnnSXMDt8Rr1OpmZvWpbBftimjAfBgNVHSMEGDAWgBQ5ZnnSXMDt8Rr1OpmZvWpbBftimjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBlVXn5vT0Odv33Q0QeAuXra+1+m70ywypQGOFsDN9xjbeH/8ILhhjKfFXoKmprJVqnwhvCuQ+Yoa81tiJKYGDMYbaGOW3ATtXw4GYHFMIKY2L8I0Syl+DqE/BqNgGFdsWkawH7CMivC26erLWJ5XKrbEMs5GYyCohzb/Xu4s98ehsJR6rr/PNFr27FN0e5WNOClYG6gAOmIMmdnYnL0RtChQId4+rOfaOsL/osUyReGMqMsOufaPzO4RF3tJuKzdUDnY2cSHVNDI5Hi3obTuin3AwlYc6/nWmlNc9z3+ROzgNUYP5cJKqPonsntfnhkEVuNdmKbKCHBytgqKfgUvaQ
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.noale.ve.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.noale.ve.it/logout"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.noale.ve.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.noale.ve.it/spid/acs" index="1"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="2">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi Online by QWEB
+            </md:ServiceName>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Noale
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Noale
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.noale.ve.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f904
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Noale
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            admin@comune.noale.ve.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

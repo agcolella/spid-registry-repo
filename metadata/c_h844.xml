@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_71ba194c-e3b7-4eb7-adc6-fa71eb18ba87" entityID="https://www.comune.sanfiorano.lo.it/">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    P93rmC8fPr4oK5wDCwqOlSmk3IdFWj/R6OMy9rRvprI=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            ZQ/l3nFupfZMkciM6rrr58GCHF7l4m80Wutb+mJ6QzFIV2Pjhhw0sQrCV6CSEaqnfbVne+Z3UDGU
+DL3akt6p4pzzN7db+tY3ZSUjSnb6E8s+tofsnKe1P68qBtw1qkJ8ryjPIVB1W1AZPsO9C3qu4x0I
+NfHlRjEVBXUZatkD7WGFkCiZrhDi28r2h2/QA7HxlA/yyxZbsuxsc/3+MOeyXz01adwTPQmNGdve
+jey9hmg9bgFOtTN297+bO+QOpjoVCZhVFLwoZuM+ZBWRjc3hvN3XFXGkF3bjqKYpYEUvt2N8bulb
+2Y89hUH7VSj+Hcbe52zQzAdza7ptybN7RxCrtA==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDpDCCAoygAwIBAgIGAXsFoQFnMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA4MDIwNjUw
+NDJaFw0zMTA1MDIwNjUwNDJaMHQxLTArBgNVBAMMJGh0dHBzOi8vd3d3LmNvbXVuZS5zYW5maW9y
+YW5vLmxvLml0LzEJMAcGA1UECgwAMRUwEwYDVQQFEwxQQTpJVC1jX2g4NDQxCzAJBgNVBAYTAklU
+MRQwEgYDVQQHDAtTQU4gRklPUkFOTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANgQ
++GeUUUvSySX+oyOAjoK1T6TsklPdsGgYE9nrN6zirfcW1YfeHTph1o5CxH4FrINIPBLfnpcqN8bZ
+aOJ2vVD8Gd20r40krn0WeprOiViJojcLD4MWbMT3+95HDN3yIgaeC1o5iM2cv7+jEHT829EYxOuu
+qPWTd85xpMZ3OEwcfNXgxS9WI3ssiI5gkuW00CqFTUvEkNbySA5lrUh7WMEhV6Yo0Sfwha6UAaAX
+L8wui3TpEl2sgcBBAn0t6KR83lCK4S7gEkXqF3VvKESkIuXDQ8Arfx+j0NPzy40+X7vJb4ztz+V7
+GqefYE6KcpDSrMLgKvYELZyvLnbA66KGnOMCAwEAAaM5MDcwNQYDVR0gBC4wLAYGK0wQBAIBMCIw
+IAYIKwYBBQUHAgEWFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQBnzs6M
+Q78STHObeVlfmcSElnQYGth4QlfqnP+wTDm7W0dc3WKPvtYLrYqPkBnOcjo6UIH0ZNtkdnSig9nT
+HgUAUe4FkjTUteUaMeLZAOhq9Qz6PRzNDYb0nzCUqW4FHg9X4xvoQZ5nGSUQAWyeFxEQ0IclUWLs
+auUNQswAZIYIrIqbXbiJ0ZeoAYBOm+U2Sy9CuRG7X7+ZUwSx86A+4We8od+jhjwyvO3Tx8IOlSaL
+wKcS7hwFECCRRBxjVgZV3iifIGyHMwgm9ARHOjYjGNA/3iVesKt0w8jPHIEsXnNj4/dlsferl8QE
+LBl3fX/0h0eN9QVB8+ZBHAvVEzss0yTx
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDpDCCAoygAwIBAgIGAXsFoQFnMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA4MDIwNjUw
+NDJaFw0zMTA1MDIwNjUwNDJaMHQxLTArBgNVBAMMJGh0dHBzOi8vd3d3LmNvbXVuZS5zYW5maW9y
+YW5vLmxvLml0LzEJMAcGA1UECgwAMRUwEwYDVQQFEwxQQTpJVC1jX2g4NDQxCzAJBgNVBAYTAklU
+MRQwEgYDVQQHDAtTQU4gRklPUkFOTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANgQ
++GeUUUvSySX+oyOAjoK1T6TsklPdsGgYE9nrN6zirfcW1YfeHTph1o5CxH4FrINIPBLfnpcqN8bZ
+aOJ2vVD8Gd20r40krn0WeprOiViJojcLD4MWbMT3+95HDN3yIgaeC1o5iM2cv7+jEHT829EYxOuu
+qPWTd85xpMZ3OEwcfNXgxS9WI3ssiI5gkuW00CqFTUvEkNbySA5lrUh7WMEhV6Yo0Sfwha6UAaAX
+L8wui3TpEl2sgcBBAn0t6KR83lCK4S7gEkXqF3VvKESkIuXDQ8Arfx+j0NPzy40+X7vJb4ztz+V7
+GqefYE6KcpDSrMLgKvYELZyvLnbA66KGnOMCAwEAAaM5MDcwNQYDVR0gBC4wLAYGK0wQBAIBMCIw
+IAYIKwYBBQUHAgEWFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQBnzs6M
+Q78STHObeVlfmcSElnQYGth4QlfqnP+wTDm7W0dc3WKPvtYLrYqPkBnOcjo6UIH0ZNtkdnSig9nT
+HgUAUe4FkjTUteUaMeLZAOhq9Qz6PRzNDYb0nzCUqW4FHg9X4xvoQZ5nGSUQAWyeFxEQ0IclUWLs
+auUNQswAZIYIrIqbXbiJ0ZeoAYBOm+U2Sy9CuRG7X7+ZUwSx86A+4We8od+jhjwyvO3Tx8IOlSaL
+wKcS7hwFECCRRBxjVgZV3iifIGyHMwgm9ARHOjYjGNA/3iVesKt0w8jPHIEsXnNj4/dlsferl8QE
+LBl3fX/0h0eN9QVB8+ZBHAvVEzss0yTx
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                SOL
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            COMUNE DI SAN FIORANO
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            COMUNE DI SAN FIORANO
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.sanfiorano.lo.it/
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_h844
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            COMUNE DI SAN FIORANO
+        </md:Company>
+        <md:EmailAddress>
+            ragioneria@comune.sanfiorano.lo.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

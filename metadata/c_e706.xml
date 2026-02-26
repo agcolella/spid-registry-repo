@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx0ee9bfbb-34cd-6bbe-2b84-36820f076f34" entityID="https://lozio.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx0ee9bfbb-34cd-6bbe-2b84-36820f076f34">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    tW0quxtUNbSDlh/2boiFOE/19BeBMT6AeDEx/Rqq2FE=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+NiWbhXge2pQfwA4ac1u6x2OF+EAy4zFK+jfrTJhXjrR9PrSsLoLzf92WrduCBzv/w9sWjh0fnX39
+j6w1OVB84E1GiPlrfdtuYwCb+CxMc2DCIYYFF8SLTMOACysTd6pcEtqVRLPPVwPwyncKaoqnlT7A
+Zk7hTN0KA/Yo0J9PAwgCfftK1UIkQ0RC8OshVoc8RZ1xPMwtmFIkGxgQtheYyeFkwbm6T+og/eMI
+p+a1GdayYi+AC0QDnojSmcV2vqzedMiO5JrQ6/zCsQpt5btjJMTPbvS3GG1LmfizxuCj3xBzA5qX
+XLfJ4QpDDC2+UbAGkLdfvXSUw+AC5skza7N+MA==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+wDeeEGkzQXegArFU1Zc3GVVLqijXvcHkxVDjeSdVAg44xhD4sRUCQbD9SIe2TJBv6rb3xdmzO5DY
+ECp/QAQjZsCpYHHx2R4DbWKolKWkJkOY1wpTAtB3BYX6G0qYY/hWxyBfE1U9kH8i1UwlCYvoeYuB
+1XnxwumzzeQC1xPgGIJbo5OMRI7BtYNJk1O98dzowmRtcJP6AOZYEr5UANzLkhlMHeGrXJpa63SZ
+io8yiSlz4KuTEYtPidhEc+yC4F/DcRs8c5Mmrby9gXWzolgKrjQFtuEMRfSfGy7MdsyljMVuDCH8
+UstduEpQQtri7vA4DUGhHKj2xxJct+gpbx9QKQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDmzCCAoOgAwIBAgIJAPNANOX587U0MA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTG96aW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBMb3ppbzEb
+MBkGA1UEAwwSbG96aW8uaGFsbGV5d2ViLml0MB4XDTIxMDcyODA4Mzc0OVoXDTMxMDcyODA4Mzc0
+OVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVMb3ppbzEYMBYGA1UE
+CgwPQ29tdW5lIGRpIExvemlvMRswGQYDVQQDDBJsb3ppby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAN54QaTNBd6ACsVTVlzcZVUuqKNe9weTFUON5J1UCDjjG
+EPixFQJBsP1Ih7ZMkG/qtvfF2bM7kNgQKn9ABCNmwKlgcfHZHgNtYqiUpaQmQ5jXClMC0HcFhfob
+Sphj+FbHIF8TVT2QfyLVTCUJi+h5i4HVefHC6bPN5ALXE+AYglujk4xEjsG1g0mTU73x3OjCZG1w
+k/oA5lgSvlQA3MuSGUwd4atcmlrrdJmKjzKJKXPgq5MRi0+J2ERz7ILgX8NxGzxzkyatvL2BdbOi
+WAquNAW24QxF9J8bLsx2zKWMxW4MIfxSy124SlBC2uLu8DgNQaEcqPbHEly36ClvH1ApAgMBAAGj
+UDBOMB0GA1UdDgQWBBSgLkmYVnLJilITfyAItBUNHe4Y0DAfBgNVHSMEGDAWgBSgLkmYVnLJilIT
+fyAItBUNHe4Y0DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCj3hVvFg3j88eEWXnS
+QHNaPrOmcndCD2WHvdrBdpFiTVaiK9HdVNIOn9fn7ejeppV/OyLqFjf7v+wGz9TOF4rnh12rIJgN
+61DJ6v8jLGpCk6PusXiGaVJjsbEJ8W2R8xQLMEpZ++lMv4QQqOqbDr9EtnK73zaGTFHisXYQVL8m
+JiJslLzXFKMlm2f2fu+7FVwvmNldL9lefP7RFp/ZnKcnoQzLu6ebyH96dgCZd9h6g0zho2rMdIOE
+LqbBVPazu+chABXzquTD1Kufk6HkPJ+iwNAvmRcRVCYyXCCQx7hjKNnw416yZ8Ly8jsLqz1Y7DJo
+vlPQ+asQfAqxBt7WlNv3
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDmzCCAoOgAwIBAgIJAPNANOX587U0MA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTG96aW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBMb3ppbzEbMBkGA1UEAwwSbG96aW8uaGFsbGV5d2ViLml0MB4XDTIxMDcyODA4Mzc0OVoXDTMxMDcyODA4Mzc0OVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVMb3ppbzEYMBYGA1UECgwPQ29tdW5lIGRpIExvemlvMRswGQYDVQQDDBJsb3ppby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAN54QaTNBd6ACsVTVlzcZVUuqKNe9weTFUON5J1UCDjjGEPixFQJBsP1Ih7ZMkG/qtvfF2bM7kNgQKn9ABCNmwKlgcfHZHgNtYqiUpaQmQ5jXClMC0HcFhfobSphj+FbHIF8TVT2QfyLVTCUJi+h5i4HVefHC6bPN5ALXE+AYglujk4xEjsG1g0mTU73x3OjCZG1wk/oA5lgSvlQA3MuSGUwd4atcmlrrdJmKjzKJKXPgq5MRi0+J2ERz7ILgX8NxGzxzkyatvL2BdbOiWAquNAW24QxF9J8bLsx2zKWMxW4MIfxSy124SlBC2uLu8DgNQaEcqPbHEly36ClvH1ApAgMBAAGjUDBOMB0GA1UdDgQWBBSgLkmYVnLJilITfyAItBUNHe4Y0DAfBgNVHSMEGDAWgBSgLkmYVnLJilITfyAItBUNHe4Y0DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCj3hVvFg3j88eEWXnSQHNaPrOmcndCD2WHvdrBdpFiTVaiK9HdVNIOn9fn7ejeppV/OyLqFjf7v+wGz9TOF4rnh12rIJgN61DJ6v8jLGpCk6PusXiGaVJjsbEJ8W2R8xQLMEpZ++lMv4QQqOqbDr9EtnK73zaGTFHisXYQVL8mJiJslLzXFKMlm2f2fu+7FVwvmNldL9lefP7RFp/ZnKcnoQzLu6ebyH96dgCZd9h6g0zho2rMdIOELqbBVPazu+chABXzquTD1Kufk6HkPJ+iwNAvmRcRVCYyXCCQx7hjKNnw416yZ8Ly8jsLqz1Y7DJovlPQ+asQfAqxBt7WlNv3
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDmzCCAoOgAwIBAgIJAPNANOX587U0MA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFTG96aW8xGDAWBgNVBAoMD0NvbXVuZSBkaSBMb3ppbzEbMBkGA1UEAwwSbG96aW8uaGFsbGV5d2ViLml0MB4XDTIxMDcyODA4Mzc0OVoXDTMxMDcyODA4Mzc0OVowZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVMb3ppbzEYMBYGA1UECgwPQ29tdW5lIGRpIExvemlvMRswGQYDVQQDDBJsb3ppby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAN54QaTNBd6ACsVTVlzcZVUuqKNe9weTFUON5J1UCDjjGEPixFQJBsP1Ih7ZMkG/qtvfF2bM7kNgQKn9ABCNmwKlgcfHZHgNtYqiUpaQmQ5jXClMC0HcFhfobSphj+FbHIF8TVT2QfyLVTCUJi+h5i4HVefHC6bPN5ALXE+AYglujk4xEjsG1g0mTU73x3OjCZG1wk/oA5lgSvlQA3MuSGUwd4atcmlrrdJmKjzKJKXPgq5MRi0+J2ERz7ILgX8NxGzxzkyatvL2BdbOiWAquNAW24QxF9J8bLsx2zKWMxW4MIfxSy124SlBC2uLu8DgNQaEcqPbHEly36ClvH1ApAgMBAAGjUDBOMB0GA1UdDgQWBBSgLkmYVnLJilITfyAItBUNHe4Y0DAfBgNVHSMEGDAWgBSgLkmYVnLJilITfyAItBUNHe4Y0DAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCj3hVvFg3j88eEWXnSQHNaPrOmcndCD2WHvdrBdpFiTVaiK9HdVNIOn9fn7ejeppV/OyLqFjf7v+wGz9TOF4rnh12rIJgN61DJ6v8jLGpCk6PusXiGaVJjsbEJ8W2R8xQLMEpZ++lMv4QQqOqbDr9EtnK73zaGTFHisXYQVL8mJiJslLzXFKMlm2f2fu+7FVwvmNldL9lefP7RFp/ZnKcnoQzLu6ebyH96dgCZd9h6g0zho2rMdIOELqbBVPazu+chABXzquTD1Kufk6HkPJ+iwNAvmRcRVCYyXCCQx7hjKNnw416yZ8Ly8jsLqz1Y7DJovlPQ+asQfAqxBt7WlNv3
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://lozio.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://lozio.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Lozio
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Lozio
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.lozio.bs.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_e706
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Lozio
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            admin@comune.lozio.bs.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

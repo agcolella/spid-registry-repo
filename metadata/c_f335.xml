@@ -1,0 +1,604 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="e742dfa9-d9cc-46dd-8fe8-d6bbc638ce32" entityID="https://spid.comune.moncalieri.to.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    9q1dUJ3Hd1wi4VOa+iscAG7bayUQhXB1AJD1PFT09O0=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+UaWYLCB34WykMqproFQc47f7PyxzD2eFqX5tr0Bwaxh7NFUQSMtnEju5cEpsLcXsM84EaUZf1NiQ
+PVCgUlN2EFx2FjCBNHeP2eaxpBDyGsmbbWq3PoKScF86J+LsyxCLdBI2igXOgEsnVD2/AbU6l3Mn
+CH6M9BFQ5GOBt4LlxftLHJdjx8aHi4Orw5WMtvXWjpGyHnSAPXCBeiiJhJnPNb+xrqH7veeSuRnv
+/Uw3n8sGsvW6yRzHJw85xDbTEwuAmNXPwRGUYWwYN9tfRI9NkGFZ8AeCjXvbu3W+9Gd9JxXs+C8N
+kJ1gr472t7o/YlMrzII2piOn5MzQd+bR55on9rzshFZkG7+lhRDnixN5o191889fMztz64QRwFKH
+zQNmMkCh+w3EZPZtBlzW4gQYYrjTTncchWoV/1oNhG+/lwC0ME6ILgkLYUqwHBZQ8Sj43UxsVlhX
+wqoGvAuJlhyW6UMz2ydes4DnbKX84MQhOO8Jxr1bn4o63PSB7F54bqXl
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+toze8iPWC1oyOAX5ar2V+I6zkP8ZCebdn87AM750VI71vFjTAqkdh0rNeGbaCQsh6e+NdK5K73CW
+NDryz4dhLGmjBBRAxaunpl+u87XGRErdMtjdl8W2LqZx+wz7vgkOoRj8oI0/kwvzSxXsfiisxOZX
+P5Kqut4P8l0r/EO/GsrDDv8x1WFllNWHO784Z/dh9Hylgkw98hE9uD1wdzmudqBEuQWjaIUF/1lX
+niaqs4AqAsvNqszGFW1vOX4KgWp5COlhxGqSDkZQN/MVxdAW8DL2DuFH2SimTbhjaxEfuCHJ7CkH
+epNPfB3AJbbrYCjdwui5o8Iw1d+Nx/PKlrstr16ETFS2avy/IxUQfhcqd5EhTU0wvxDHlFbGBHwB
+wjLQy4Ci50IUbxhnYVw0MrG4aqbO/4moqHcAQPtwSal0J4E4Jc5F0lVYBqT2IuQAXay/AdYVqVqo
+g3b/DiZLpDMF+yx1WZrhuaAyMi0Lhi28GhGUDUS/tlVguf9CQGRo3OG3
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIEOzCCAqOgAwIBAgIJANJg6BGilwiuMA0GCSqGSIb3DQEBCwUAMCUxIzAhBgNVBAMTGnNwLmNv
+bXVuZS5tb25jYWxpZXJpLnRvLml0MB4XDTIxMDIxODA5MDg1OVoXDTMxMDIxNjA5MDg1OVowJTEj
+MCEGA1UEAxMac3AuY29tdW5lLm1vbmNhbGllcmkudG8uaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IB
+jwAwggGKAoIBgQC2jN7yI9YLWjI4BflqvZX4jrOQ/xkJ5t2fzsAzvnRUjvW8WNMCqR2HSs14ZtoJ
+CyHp7410rkrvcJY0OvLPh2EsaaMEFEDFq6emX67ztcZESt0y2N2XxbYupnH7DPu+CQ6hGPygjT+T
+C/NLFex+KKzE5lc/kqq63g/yXSv8Q78aysMO/zHVYWWU1Yc7vzhn92H0fKWCTD3yET24PXB3Oa52
+oES5BaNohQX/WVeeJqqzgCoCy82qzMYVbW85fgqBankI6WHEapIORlA38xXF0BbwMvYO4UfZKKZN
+uGNrER+4IcnsKQd6k098HcAltutgKN3C6LmjwjDV343H88qWuy2vXoRMVLZq/L8jFRB+Fyp3kSFN
+TTC/EMeUVsYEfAHCMtDLgKLnQhRvGGdhXDQysbhqps7/iaiodwBA+3BJqXQngTglzkXSVVgGpPYi
+5ABdrL8B1hWpWqiDdv8OJkukMwX7LHVZmuG5oDIyLQuGLbwaEZQNRL+2VWC5/0JAZGjc4bcCAwEA
+AaNuMGwwSwYDVR0RBEQwQoIac3AuY29tdW5lLm1vbmNhbGllcmkudG8uaXSGJGh0dHBzOi8vc3Bp
+ZC5jb211bmUubW9uY2FsaWVyaS50by5pdDAdBgNVHQ4EFgQUdlHugj0Pe5l/Vryvv+fjrfEw040w
+DQYJKoZIhvcNAQELBQADggGBADHK4nJ5tJBbuJpW5/kroj3iVTVwvTgzGdjYLUutxu0T7wE1hEZY
+Jj/F5fTogkzmG9Tf+0SiqcVTZFZZa5CCBzMpYCvZIpSNBNl63xWR8/sY7/4wxtgGsVAyf5TW8wPw
+lZ+45AWiw89wsS9Qxy7rFcG9p2ROIFF1LFHwlGeVltncPoGBajXUWq8nj4F+czN8S7lbOK9qKsPv
+o4zQgu0w2inim5eygf3yWXDwojdr7Oi/4RXTWTukiehPuoizDQX8QXcvHQITlUBPs8OlKwTSrBqq
+fq2rF//E5nDMIvQDe029KV0FJZuI+4rM4b50VV1DQGY9Bv1y99UnueP/zJ/GtvfWd9fhdlQvrMT/
+XU3dgOyxKQFdmiYr0H2dr/hwCQfdhVGpnVeSsimnN5ZFXQf8OnUBRQiCR6JpVgMqZg6DooHVOriQ
+A4yHU/P224AluXDBzlIIlxLnX25guNp5Z6FWOskVVkkssyT3r2xGLFVqfU73BESeyvUxGLKX5o9x
+g+bcdg==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+   
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+      
+        <md:KeyDescriptor use="signing">
+            
+         
+            <!-- Moduli Online (Elixform) -->
+            
+         
+            <ds:KeyInfo>
+                
+            
+                <ds:X509Data>
+                    
+               
+                    <ds:X509Certificate>
+                        MIIEOzCCAqOgAwIBAgIJANJg6BGilwiuMA0GCSqGSIb3DQEBCwUAMCUxIzAhBgNV BAMTGnNwLmNvbXVuZS5tb25jYWxpZXJpLnRvLml0MB4XDTIxMDIxODA5MDg1OVoX DTMxMDIxNjA5MDg1OVowJTEjMCEGA1UEAxMac3AuY29tdW5lLm1vbmNhbGllcmku dG8uaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQC2jN7yI9YLWjI4 BflqvZX4jrOQ/xkJ5t2fzsAzvnRUjvW8WNMCqR2HSs14ZtoJCyHp7410rkrvcJY0 OvLPh2EsaaMEFEDFq6emX67ztcZESt0y2N2XxbYupnH7DPu+CQ6hGPygjT+TC/NL Fex+KKzE5lc/kqq63g/yXSv8Q78aysMO/zHVYWWU1Yc7vzhn92H0fKWCTD3yET24 PXB3Oa52oES5BaNohQX/WVeeJqqzgCoCy82qzMYVbW85fgqBankI6WHEapIORlA3 8xXF0BbwMvYO4UfZKKZNuGNrER+4IcnsKQd6k098HcAltutgKN3C6LmjwjDV343H 88qWuy2vXoRMVLZq/L8jFRB+Fyp3kSFNTTC/EMeUVsYEfAHCMtDLgKLnQhRvGGdh XDQysbhqps7/iaiodwBA+3BJqXQngTglzkXSVVgGpPYi5ABdrL8B1hWpWqiDdv8O JkukMwX7LHVZmuG5oDIyLQuGLbwaEZQNRL+2VWC5/0JAZGjc4bcCAwEAAaNuMGww SwYDVR0RBEQwQoIac3AuY29tdW5lLm1vbmNhbGllcmkudG8uaXSGJGh0dHBzOi8v c3BpZC5jb211bmUubW9uY2FsaWVyaS50by5pdDAdBgNVHQ4EFgQUdlHugj0Pe5l/ Vryvv+fjrfEw040wDQYJKoZIhvcNAQELBQADggGBADHK4nJ5tJBbuJpW5/kroj3i VTVwvTgzGdjYLUutxu0T7wE1hEZYJj/F5fTogkzmG9Tf+0SiqcVTZFZZa5CCBzMp YCvZIpSNBNl63xWR8/sY7/4wxtgGsVAyf5TW8wPwlZ+45AWiw89wsS9Qxy7rFcG9 p2ROIFF1LFHwlGeVltncPoGBajXUWq8nj4F+czN8S7lbOK9qKsPvo4zQgu0w2ini m5eygf3yWXDwojdr7Oi/4RXTWTukiehPuoizDQX8QXcvHQITlUBPs8OlKwTSrBqq fq2rF//E5nDMIvQDe029KV0FJZuI+4rM4b50VV1DQGY9Bv1y99UnueP/zJ/GtvfW d9fhdlQvrMT/XU3dgOyxKQFdmiYr0H2dr/hwCQfdhVGpnVeSsimnN5ZFXQf8OnUB RQiCR6JpVgMqZg6DooHVOriQA4yHU/P224AluXDBzlIIlxLnX25guNp5Z6FWOskV VkkssyT3r2xGLFVqfU73BESeyvUxGLKX5o9xg+bcdg==
+                    </ds:X509Certificate>
+                    
+            
+                </ds:X509Data>
+                
+         
+            </ds:KeyInfo>
+            
+      
+        </md:KeyDescriptor>
+        
+      
+        <md:KeyDescriptor use="signing">
+            
+         
+            <!-- Wifi Free (Mobimesh) -->
+            
+         
+            <ds:KeyInfo>
+                
+            
+                <ds:X509Data>
+                    
+               
+                    <ds:X509Certificate>
+                        MIIDvDCCAqQCCQDfCVXm+Vy23TANBgkqhkiG9w0BAQsFADCBnjELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApNb25jYWxpZXJpMR0wGwYDVQQKDBRDb211bmUgZGkgTW9uY2FsaWVyaTEdMBsGA1UECwwUQ29tdW5lIGRpIE1vbmNhbGllcmkxLDAqBgNVBAMMI2h0dHBzOi8vd3d3LmNvbXVuZS5tb25jYWxpZXJpLnRvLml0MCAXDTIwMTAwNTEzNDgyNFoYDzIwNTAwOTI4MTM0ODI0WjCBnjELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApNb25jYWxpZXJpMR0wGwYDVQQKDBRDb211bmUgZGkgTW9uY2FsaWVyaTEdMBsGA1UECwwUQ29tdW5lIGRpIE1vbmNhbGllcmkxLDAqBgNVBAMMI2h0dHBzOi8vd3d3LmNvbXVuZS5tb25jYWxpZXJpLnRvLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAymwMoEUEt/HMY6a+B9JcJp7X9pO+NBG3N4KElVQOU32TrVW+g2+LU2kXMwoDjGWAYJgbKc+c1cv3W11f6VB8ZJC86l5EUrxacUsV3zW+T6tSnhHbor4J8dCAaAHKEcHwhaoInbYVjBJaPhaCil1kVdqqe4n4DoTD06G3omX+II9Ha6ebr4kMea+eAxmI2ki2+AD/4k1NKqEnCFb38asTBSoZjewu1hnyFB7Odfeuy5blFjEfINwC0fMe8/+mjJnxtdZmoK0HfZTvukVEpnP6HgLoZO66npqaVa83GhyAtX+FPm3snxBbwtX7U5ak/Jy+H18C3QfVzsaRtkrbP+x34wIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB7qDcilUtt5IBFHnunM7Y+tvRTzb47WJwiZGnpytFNzVM+vp+vR33/W6y5j4+2nY4IRktTenEVcO4toFAtqojQsdKhWxkn9CYnfz1DI1fuLvDnm/3YkUDIEW6iY8gYnA7reFyTu+Wkjex/qrsEGETF/Yfg1FfQThhZy7Im8hsXNBMNqykFlBixy6hgWsgIgxsKLCpiW1u1D8KkndLhsFVpDCuMaXf8bX+CK3qfxygcpq6SK6Ww7Ose8gNOD889WUT6YN4CzC5Elk8NtaPvEkJD5yyiqI4efKLMo/hQKapo3qJs1wWa8e7t8fPlvQRvbDgXAON3PlWuP6Uftv04zXI8
+                    </ds:X509Certificate>
+                    
+            
+                </ds:X509Data>
+                
+         
+            </ds:KeyInfo>
+            
+      
+        </md:KeyDescriptor>
+        
+      
+        <md:KeyDescriptor use="signing">
+            
+         
+            <!-- Agenda Online (biduesystem) -->
+            
+         
+            <ds:KeyInfo>
+                
+            
+                <ds:X509Data>
+                    
+               
+                    <ds:X509Certificate>
+                        MIIE8zCCA1ugAwIBAgIUCxboU2XNRGglIFMi0J4pe/BY1OgwDQYJKoZIhvcNAQELBQAwgaYxHTAbBgNVBAoMFENvbXVuZSBkaSBNb25jYWxpZXJpMR0wGwYDVQQDDBRDb211bmUgZGkgTW9uY2FsaWVyaTEtMCsGA1UEUwwkaHR0cHM6Ly9zcGlkLmNvbXVuZS5tb25jYWxpZXJpLnRvLml0MRUwEwYDVQRhDAxQQTpJVC1jX2YzMzUxCzAJBgNVBAYTAklUMRMwEQYDVQQHDApNb25jYWxpZXJpMB4XDTIxMDQxNTA4MDYyN1oXDTMxMDQxMzA4MDYyN1owgaYxHTAbBgNVBAoMFENvbXVuZSBkaSBNb25jYWxpZXJpMR0wGwYDVQQDDBRDb211bmUgZGkgTW9uY2FsaWVyaTEtMCsGA1UEUwwkaHR0cHM6Ly9zcGlkLmNvbXVuZS5tb25jYWxpZXJpLnRvLml0MRUwEwYDVQRhDAxQQTpJVC1jX2YzMzUxCzAJBgNVBAYTAklUMRMwEQYDVQQHDApNb25jYWxpZXJpMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAsIBLpFx1Iu/J5wE1LNoLrGuSsZNmcla+GEN0RGO1Ek8HZvD+Z2+IPNHEky6v64jJX6q/khj3Na/xzD4GYXEhWNo73p7XUcqGhHSLZy86xTKxOdKiJ43QukTpbTIAK7gGJpToHtoozVth40bF+t+J1Z5rqaNAHbKyAGhVVnvtzlwMfDkvbe1RJ4GLm3d0ZkSEP0Eu+iMiYpCiSHrbhl7HPjvP7c2sP6TcYcjDU+0arUKpgmrN6HbU6pWfckfUX+tZgpQp1qpo5xZ587hCvWGZoW0EM6CZ7lMzwOHnTtPwq9nmsSRc0n7/Y6AJBn6DICJ0Fq8Xt1VLuxxC+8rVTzkICQpgrNBHX+NBaUIGD6LuHx8tv0Z15WAnm+ZytVK8lzmCDUQQJouXEJFm8zJiE/Q35qe3AoWu7dQJxqb87P24m5Kw8IoZ8rmoav9yzg+f2V9emMNCsT1kb1rgNW1eTLy6kqfZJmCpCR6dig/dHYdEXLF6LB8Y80nAWZNbG8xv0osJAgMBAAGjFzAVMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBgQBmyTS2SnukycYoAzyzMOzpc019+MVXIuSKePm+MhmBc0a49VN+SZnDzlaVFvbG1dnZFavX1FBML4aWbdTCzd3LzTB+jxEr4cZo8nKlnTIuIH5+o8ZpHQqkBZ8HuD0a2qBiFouToSQ4N7hgVZBv6S1N7zcXQHA6cnY+jxsXSC1aCQlEtd2+1PTu2ldkkUB4JHpnMVA1PaUCzkAijzMp0qXX145Ctbt3PSBpd4uPy1Nsi/aN1kbkmvBaZkhKaKygzcJB2lsOefI7Vd/gWe3It4t63v72PbY63YRgNFmF2KUNTTneCTxStamHiV2UGQKmtRdTGMbij1L7wipda37ZY2yY6qd91ypBl+84RbVw4/O5nAOscvpMlWi4M8ug0AZX9bmV1cBWAV8/CZcllxc5hoFJsfOPUkts4csl6WOHLXdFLnifKBHIcRZwQcHwonC2xU+a+xNXUebXQF6+JbVT7ayEJTG+KDXFX9zCKJz3+09p/U9ZvNaqRPK+A1WRiY9oAE4=
+                    </ds:X509Certificate>
+                    
+            
+                </ds:X509Data>
+                
+         
+            </ds:KeyInfo>
+            
+      
+        </md:KeyDescriptor>
+        
+      
+        <md:KeyDescriptor use="signing">
+            
+         
+            <!--  Keyref (Osmosit) -->
+            
+         
+            <ds:KeyInfo>
+                
+            
+                <ds:X509Data>
+                    
+               
+                    <ds:X509Certificate>
+                        MIIELzCCAxegAwIBAgIUUySprR+BaW4SOikTRt6XgX8vvt8wDQYJKoZIhvcNAQELBQAwgaAxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXJ1Z2lhMRAwDgYDVQQHDAdQZXJ1Z2lhMRowGAYDVQRhDBFWQVRJVC0wMzIwNjQzMDU0MjEcMBoGA1UECgwTTmV4dXMgZSBTb2NpIHMuci5sLjEzMDEGA1UEAwwqaHR0cHM6Ly9rZXlyZWZtb25jYWxpZXJpcG9ydGFsLm9wZW5kb29yLml0MB4XDTIxMDIyMzExNTExM1oXDTIyMDIyMzExNTExM1owgaAxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdQZXJ1Z2lhMRAwDgYDVQQHDAdQZXJ1Z2lhMRowGAYDVQRhDBFWQVRJVC0wMzIwNjQzMDU0MjEcMBoGA1UECgwTTmV4dXMgZSBTb2NpIHMuci5sLjEzMDEGA1UEAwwqaHR0cHM6Ly9rZXlyZWZtb25jYWxpZXJpcG9ydGFsLm9wZW5kb29yLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2+UTwp98TQaEof0ezwjT3mkz15U13FqU1CdVcrPFLVisvqmfLvTVNKvRG1zibuRGqz+GYon8jOmw8sT/muRyic17eFDH3qzkXxsKJmeh1KR2bNRu2K2OAQVJxwpYAjW4mAwAzV8D1DoukFzT7F6Rex+iqYI8yQbbt+2ObMsGDbWAKKMo/i52LO+pn5u/NSKpP668WYnniZjOMS73G4um9uoov8Cck8EMSxg8b4+mIfaDD3Tgsc4STI3v9/LDpAEwgjgJasbvlOwitG1fPdQrOzuxeMtvlYAcLEv0R24koAhODVu+b9SMmlEPUszJdrCT0Ef5znnPxa7eAAUP9aQ7fQIDAQABo18wXTALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwOQYDVR0gBDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAYr6Kd+wmEUDbikxkAwenD8nAZAInxHAlYH38IMoz84P6HwYqmF/dxXab+aPKxX90PiK0orlfwXnjertfRmp3OEV6zvRaPiB5ubPnnXvtyB6z41LFeyQxz8So684yZQDbxguJDhGbJ8eM2oYg0mUjOMc7+PS6/ojeks6fig2CQHf2F9cemOP6XlPOfflY5/brN4LGM5DxZV2LfHO96fgK4J1syIpn/Tdp9sGAbbRwuRjuRckAi7KfbK7wpmGn0PyKIoQjzpsU6Tfa+V1EuFRUMH6kugGMF82EjSL/54Tcgh6rRwl36IZucw4NMkuDlPfSBke6Kgp5BiGtEVCh73VIWQ==
+                    </ds:X509Certificate>
+                    
+            
+                </ds:X509Data>
+                
+         
+            </ds:KeyInfo>
+            
+      
+        </md:KeyDescriptor>
+        
+      
+        <md:KeyDescriptor use="signing">
+            
+         
+            <!--  Keyref TEST (Osmosit) -->
+            
+         
+            <ds:KeyInfo>
+                
+            
+                <ds:KeyName>
+                    WIW6a24ff9J9OCLLlg3E3q0Y4F0dtaUodJ2KuzItitI
+                </ds:KeyName>
+                
+            
+                <ds:X509Data>
+                    
+               
+                    <ds:X509Certificate>
+                        MIIClzCCAX8CBgF68mWVDDANBgkqhkiG9w0BAQsFADAPMQ0wCwYDVQQDDARUZXN0MB4XDTIxMDcyOTEzMTEyMVoXDTMxMDcyOTEzMTMwMVowDzENMAsGA1UEAwwEVGVzdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALS4eBGEyebYCNetdzAigoZFis90beXYJzOfjMkXrzUE5iTtv3sHFHegOfWbg4obIiFLRhMhbPjerm8LZFgssiagmqLVCh9jTPjaZNLFpQTc8KDjJugemOXDD4RKVnppP2w60Yyj2Qx2C82XjYqDD9kzimgDL/wSM7OGBNyRfpPgwTFs02Q+BNXleosuXGZ3GRmp5k+2qrv3PbreLLnD41aywFCd4BOB8uMP9el3S6l59+majPjMR+CXXCtgzOn9PY+AyMSn8L2ZbVvqtQPhOg58OtvBi5qwfyyNDuh0l4rJMixdx3xWIfdU3EsezT/8QnemUcz2qVDt0oxi/DwgPvkCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAMFUm9P4Mwjl1B0hwuEpdDk2UkX1aWcwmV7R2Ieu4c0BsheRApfW8PkXfiI28rgIvPorsuuk9Yg4IvJygAPSEX3wvvq12XJM9p3iMmYnGJhcHnhwoN1zpGVapL+y7Z9MX2L2Uv6hnNlLHSan0+BCS/nmrWF/svEOYHlvGxhr3I2wIpLu1+gOfySxbH6lUBmW9hQhYpfTI4YDYzdluI97cFLD1hpWFAgbfJbGG4p9i1SlFhCujO7r08bUq+Ltp06mE3pN7hwqgpFgdtjuPOguycIW4OOd0THZql2D1lkk7r3jFhmUmCI41jBZr7p+uSs3JniaZCZ2yR6J5k1lFYQdJUw==
+                    </ds:X509Certificate>
+                    
+            
+                </ds:X509Data>
+                
+         
+            </ds:KeyInfo>
+            
+      
+        </md:KeyDescriptor>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.comune.moncalieri.to.it/Shibboleth.sso/SAML2/POST"/>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.mobimesh.eu/logout"/>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.mobimesh.eu/logout"/>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://moncalieri.timelex.it/myservice/module.php/saml/sp/saml2-acs.php/service"/>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keyrefmoncalieriportal.opendoor.it/c/portal/logout"/>
+        
+      
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://iam.mavasoft.it/auth/realms/Test/broker/sielte-id/endpoint"/>
+        
+      
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+      
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sp.comune.moncalieri.to.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+        
+      
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.mobimesh.eu/assertion" index="1"/>
+        
+      
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://moncalieri.timelex.it/myservice/module.php/saml/sp/saml2-acs.php/service" index="2"/>
+        
+      
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://keyrefmoncalieriportal.opendoor.it/identitadigitale" index="3"/>
+        
+      
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://iam.mavasoft.it/auth/realms/Test/broker/sielte-id/endpoint" index="4"/>
+        
+      
+        <md:AttributeConsumingService index="0">
+            
+         
+            <md:ServiceName xml:lang="it">
+                Set 1
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="name"/>
+            
+         
+            <md:RequestedAttribute Name="familyName"/>
+            
+         
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+         
+            <md:RequestedAttribute Name="email"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="1">
+            
+         
+            <md:ServiceName xml:lang="it">
+                Servizi Wifi comune di Moncalieri
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="2">
+            
+         
+            <md:ServiceName xml:lang="it">
+                Timelex Moncalieri
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="3">
+            
+         
+            <md:ServiceName xml:lang="it">
+                Keyref Moncalieri Portal
+            </md:ServiceName>
+            
+         
+            <md:ServiceDescription xml:lang="it">
+                Keyref Moncalieri - Portale del Cittadino
+            </md:ServiceDescription>
+            
+         
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="4">
+            
+         
+            <md:ServiceName xml:lang="en">
+                Keyref Moncalieri Portal TEST
+            </md:ServiceName>
+            
+         
+            <md:ServiceName xml:lang="it">
+                Keyref Moncalieri - Portale del Cittadino TEST
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+         
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="99">
+            
+         
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Minimum Attribute Set
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="spidCode"/>
+            
+         
+            <md:RequestedAttribute Name="name"/>
+            
+         
+            <md:RequestedAttribute Name="familyName"/>
+            
+         
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+      
+        <md:AttributeConsumingService index="100">
+            
+         
+            <md:ServiceName xml:lang="it">
+                eIDAS Natural Person Full Attribute Set
+            </md:ServiceName>
+            
+         
+            <md:RequestedAttribute Name="address"/>
+            
+         
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+         
+            <md:RequestedAttribute Name="familyName"/>
+            
+         
+            <md:RequestedAttribute Name="gender"/>
+            
+         
+            <md:RequestedAttribute Name="name"/>
+            
+         
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+         
+            <md:RequestedAttribute Name="spidCode"/>
+            
+      
+        </md:AttributeConsumingService>
+        
+   
+    </md:SPSSODescriptor>
+    
+   
+    <md:Organization>
+        
+      
+        <md:OrganizationName xml:lang="it">
+            Comune di Moncalieri
+        </md:OrganizationName>
+        
+      
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Moncalieri
+        </md:OrganizationDisplayName>
+        
+      
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.moncalieri.to.it
+        </md:OrganizationURL>
+        
+   
+    </md:Organization>
+    
+   
+    <md:ContactPerson contactType="other">
+        
+      
+        <md:Extensions>
+            
+         
+            <spid:IPACode>
+                c_f335
+            </spid:IPACode>
+            
+         
+            <spid:Public/>
+            
+      
+        </md:Extensions>
+        
+      
+        <md:EmailAddress>
+            segreteria.sed@comune.moncalieri.to.it
+        </md:EmailAddress>
+        
+      
+        <md:TelephoneNumber>
+            +39011640411
+        </md:TelephoneNumber>
+        
+   
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

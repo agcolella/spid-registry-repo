@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxdc0cea9b-662c-213a-8ea0-5ba85cd6b391" entityID="https://www.comune.sassoferrato.an.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxdc0cea9b-662c-213a-8ea0-5ba85cd6b391">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    FoCmzANq7JBjEKd4K1ES9shX9nse5cnPpe3yk80pEwU=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+D9T9Dgc27uJ6bP3vNT9kN22aneJfkXLSk0JgaUEf/7C3o8bQK+FUsZwuwMDpzoET5I/7UDgGtetW
+KVlOo+1GRNsNu1WuLSg+FMuE0oAxHM7Xb2gGTB/5d4fUixCSiv27NZTKob2+LqtI2i0on1sq4T5B
++x67jnc5SW/s+GAFsqeOos8zB1IgDiXSJG6mplydreH4BYb7v+Hr7BzdSAyU7xbgZ5D4OoCOdAjI
+PN+bw8WhjWvtJKZeuM7lX2hGzA+9elUSUbmH1JtVLRHl42tOkf9RghbiR9WsLuNAHIcfWtxRa8Tn
+6ERn7FjgMjrrHCOi6PjQd15TCwewczrkgN2F3w==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+4N4xJoJstcZjCL22wkjZP4JItHh73ikvukz7DJVZxP1wpWlJOsfm2qXvGFE9ByFTu5u8+JG0nRtY
+FN4eCgTcrZSuF0s7ndb9FDIPEhp0th6MEL6HpOr9f/a+nZ32IBadxD70GioOrDyotz2pJsunwZ6X
+ShTfhIugha+VF9fEmderIr6B6Y+FfQq2gi16c15Y27a7mwI9FWRQN1ZfL06C9IChDbrrTOizZbDX
+pll6bIzGDmknM36+ZOMpXbIAI4dj2PBYVT9RmM6oWsNADfcsDVcYw5mZYvYdVbIrPvw2HdnewZOc
+V13/3U0asfMLJTDhKB4qrhJc0HcFKexzWw6YVQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDzTCCArWgAwIBAgIJAIcWXBjtJH0zMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkg
+U2Fzc29mZXJyYXRvMSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDAeFw0y
+MTA3MjkxNTE4NTNaFw0zMTA3MjkxNTE4NTNaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFs
+eTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkgU2Fzc29mZXJyYXRv
+MSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAODeMSaCbLXGYwi9tsJI2T+CSLR4e94pL7pM+wyVWcT9cKVpSTrH5tql
+7xhRPQchU7ubvPiRtJ0bWBTeHgoE3K2UrhdLO53W/RQyDxIadLYejBC+h6Tq/X/2vp2d9iAWncQ+
+9BoqDqw8qLc9qSbLp8Gel0oU34SLoIWvlRfXxJnXqyK+gemPhX0KtoItenNeWNu2u5sCPRVkUDdW
+Xy9OgvSAoQ2660zos2Ww16ZZemyMxg5pJzN+vmTjKV2yACOHY9jwWFU/UZjOqFrDQA33LA1XGMOZ
+mWL2HVWyKz78Nh3Z3sGTnFdd/91NGrHzCyUw4SgeKq4SXNB3BSnsc1sOmFUCAwEAAaNQME4wHQYD
+VR0OBBYEFApQOlaqaIEDToaqKszbuUXyFiCmMB8GA1UdIwQYMBaAFApQOlaqaIEDToaqKszbuUXy
+FiCmMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABBhNBEaY+cV6eAt7P+ZWdD7XmTa
+VEJBcFIF6olLnBPcQdmJ97g8T9hBMlju7zaiRXx45KtntqhUBQBw2jNJ45xKZR8DM3lgBp5dFVx1
+XyEH3rA55HiOjB1A+QT9vJD+opax/D5S0H9J8Ova9RJwfBhnxRItPyjBsGnJFQB1td9OqoQJJBLz
+cmFo9nsa+554HBVASjHMi+TNagbHaH1v1uI5bbWbR1/5cV0Cz7ppq/mtNauXgCAOH0oeB8Q2XhTQ
+Cnph8ZtyZcaHFChlMGGwQyF6TvOfRnau5Bei/GIYwnspL4n1HDuHgMc4aBPTHlEsdrq0gy50+3cA
+3oFGLHv6CgE=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDzTCCArWgAwIBAgIJAIcWXBjtJH0zMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkgU2Fzc29mZXJyYXRvMSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDAeFw0yMTA3MjkxNTE4NTNaFw0zMTA3MjkxNTE4NTNaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkgU2Fzc29mZXJyYXRvMSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAODeMSaCbLXGYwi9tsJI2T+CSLR4e94pL7pM+wyVWcT9cKVpSTrH5tql7xhRPQchU7ubvPiRtJ0bWBTeHgoE3K2UrhdLO53W/RQyDxIadLYejBC+h6Tq/X/2vp2d9iAWncQ+9BoqDqw8qLc9qSbLp8Gel0oU34SLoIWvlRfXxJnXqyK+gemPhX0KtoItenNeWNu2u5sCPRVkUDdWXy9OgvSAoQ2660zos2Ww16ZZemyMxg5pJzN+vmTjKV2yACOHY9jwWFU/UZjOqFrDQA33LA1XGMOZmWL2HVWyKz78Nh3Z3sGTnFdd/91NGrHzCyUw4SgeKq4SXNB3BSnsc1sOmFUCAwEAAaNQME4wHQYDVR0OBBYEFApQOlaqaIEDToaqKszbuUXyFiCmMB8GA1UdIwQYMBaAFApQOlaqaIEDToaqKszbuUXyFiCmMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABBhNBEaY+cV6eAt7P+ZWdD7XmTaVEJBcFIF6olLnBPcQdmJ97g8T9hBMlju7zaiRXx45KtntqhUBQBw2jNJ45xKZR8DM3lgBp5dFVx1XyEH3rA55HiOjB1A+QT9vJD+opax/D5S0H9J8Ova9RJwfBhnxRItPyjBsGnJFQB1td9OqoQJJBLzcmFo9nsa+554HBVASjHMi+TNagbHaH1v1uI5bbWbR1/5cV0Cz7ppq/mtNauXgCAOH0oeB8Q2XhTQCnph8ZtyZcaHFChlMGGwQyF6TvOfRnau5Bei/GIYwnspL4n1HDuHgMc4aBPTHlEsdrq0gy50+3cA3oFGLHv6CgE=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDzTCCArWgAwIBAgIJAIcWXBjtJH0zMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkgU2Fzc29mZXJyYXRvMSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDAeFw0yMTA3MjkxNTE4NTNaFw0zMTA3MjkxNTE4NTNaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMU2Fzc29mZXJyYXRvMR8wHQYDVQQKDBZDb211bmUgZGkgU2Fzc29mZXJyYXRvMSYwJAYDVQQDDB13d3cuY29tdW5lLnNhc3NvZmVycmF0by5hbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAODeMSaCbLXGYwi9tsJI2T+CSLR4e94pL7pM+wyVWcT9cKVpSTrH5tql7xhRPQchU7ubvPiRtJ0bWBTeHgoE3K2UrhdLO53W/RQyDxIadLYejBC+h6Tq/X/2vp2d9iAWncQ+9BoqDqw8qLc9qSbLp8Gel0oU34SLoIWvlRfXxJnXqyK+gemPhX0KtoItenNeWNu2u5sCPRVkUDdWXy9OgvSAoQ2660zos2Ww16ZZemyMxg5pJzN+vmTjKV2yACOHY9jwWFU/UZjOqFrDQA33LA1XGMOZmWL2HVWyKz78Nh3Z3sGTnFdd/91NGrHzCyUw4SgeKq4SXNB3BSnsc1sOmFUCAwEAAaNQME4wHQYDVR0OBBYEFApQOlaqaIEDToaqKszbuUXyFiCmMB8GA1UdIwQYMBaAFApQOlaqaIEDToaqKszbuUXyFiCmMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABBhNBEaY+cV6eAt7P+ZWdD7XmTaVEJBcFIF6olLnBPcQdmJ97g8T9hBMlju7zaiRXx45KtntqhUBQBw2jNJ45xKZR8DM3lgBp5dFVx1XyEH3rA55HiOjB1A+QT9vJD+opax/D5S0H9J8Ova9RJwfBhnxRItPyjBsGnJFQB1td9OqoQJJBLzcmFo9nsa+554HBVASjHMi+TNagbHaH1v1uI5bbWbR1/5cV0Cz7ppq/mtNauXgCAOH0oeB8Q2XhTQCnph8ZtyZcaHFChlMGGwQyF6TvOfRnau5Bei/GIYwnspL4n1HDuHgMc4aBPTHlEsdrq0gy50+3cA3oFGLHv6CgE=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sassoferrato.an.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sassoferrato.an.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Sassoferrato
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Sassoferrato
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.sassoferrato.an.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_i461
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Sassoferrato
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            info@comune.sassoferrato.an.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

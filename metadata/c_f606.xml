@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxbb03ff10-2c2c-87fb-874e-494777285983" entityID="https://www.comune.monterosi.vt.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxbb03ff10-2c2c-87fb-874e-494777285983">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    p0JeC00Ib5q3fA3D1vuTKgwmmUZqx7whtp8OVOrEKqc=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+N0rjRciiWHjvGYxGRmujV8JVa6nF2K5kjl+d2oUECLmFKOSa9EFvhaW25BDGrZsYMf+pQwPCCJKp
+wnKsUErcauELVEVAiYLdJItOc2yl+3soCszFnrMH0HjlAYv7ISTRqXAyb9HwmW2QTnVrvr0/D7Ni
+dh7quwTiPYZ1+FIVNixUKsmUbQIsoLhJtvvJQfZ+OInGLRZUEMtrgYeroaFDHMhpXizbATF8sAFk
+jMBcVrH1i7SAxzbAygNFtHRRsGqhoNuPVnMfKuz4Umj/QzzKeqGe8KAjaBCVxi2iw9FHaHRq/vhm
+pyROVsHz5ofF9uwR+ML9mo0wEh+Bfkj/CMETCw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+q1S7PnIewSJqI6aB2tXOYqlsi0yA8Gf4aPRhxAKDgfrzlBiL67b8CWFFocRRiS2tA3svBTUREU/S
+qDiUVIIWznDBc+lIUw1I+z+dJHml8ORrV3BMN6o0dWjryTSMZDU79TPTvVwyumWnCGClyNz1GCkb
+1hWnvOJImOAVJ3pPgvZ3L8EoK3P7tA6Lv5vDMjq+6XVpYmLa5KvR3ZoSHmKqjDdM5wxkClBZ0ajS
+MQyBqe7n1Pcomn+jQ2oP+Ft/68J+F1+Mh4AQXVSwiEWuY20nPQHjwN48TbLVqA4YUSZiqJi/HQsY
+MFZqKbzWV66QLeX0iTOygdhV+nOF93NW7Rg2gQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDuzCCAqOgAwIBAgIJAPuIW/O3CkZRMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9u
+dGVyb3NpMSMwIQYDVQQDDBp3d3cuY29tdW5lLm1vbnRlcm9zaS52dC5pdDAeFw0yMTA2MjkxNDQx
+MzVaFw0zMTA2MjkxNDQxMzVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UE
+BwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9udGVyb3NpMSMwIQYDVQQDDBp3d3cu
+Y29tdW5lLm1vbnRlcm9zaS52dC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKtU
+uz5yHsEiaiOmgdrVzmKpbItMgPBn+Gj0YcQCg4H685QYi+u2/AlhRaHEUYktrQN7LwU1ERFP0qg4
+lFSCFs5wwXPpSFMNSPs/nSR5pfDka1dwTDeqNHVo68k0jGQ1O/Uz071cMrplpwhgpcjc9RgpG9YV
+p7ziSJjgFSd6T4L2dy/BKCtz+7QOi7+bwzI6vul1aWJi2uSr0d2aEh5iqow3TOcMZApQWdGo0jEM
+ganu59T3KJp/o0NqD/hbf+vCfhdfjIeAEF1UsIhFrmNtJz0B48DePE2y1agOGFEmYqiYvx0LGDBW
+aim81leukC3l9IkzsoHYVfpzhfdzVu0YNoECAwEAAaNQME4wHQYDVR0OBBYEFK7l8iKltGjTEfcG
+2JYve57ATtLRMB8GA1UdIwQYMBaAFK7l8iKltGjTEfcG2JYve57ATtLRMAwGA1UdEwQFMAMBAf8w
+DQYJKoZIhvcNAQELBQADggEBAAlzrpiINKqAoAognXS40nIw5yEcSQCa4Jb3dYxWEqqQq+2U+NHT
+k8hESHsjEX2B4sxOMprp5DnxDOMhSdhvOEZtnoSyh14PicZbVEkG/QktYiSK0cJcpKeAQ3pv4zO+
+VawlQSWW8IVwkn1xqNRRqFTGVQN6kFqwPoosTdNBfJ6xzQfnDmMXNPMLxixqvXxJ/wa1bpTErRNr
+R3TjH1qXujAX5YutltOjR96dydZDnpNQnbWMmvS+7n08trVTJACMCv40FY6CW+ES97x2SHZVGRMa
+HNk4oxnoXPI2StnaTPbbzpF+kGaArpqCi8Eem8apMeakv9Ungu0Ql/UALUN7JYg=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDuzCCAqOgAwIBAgIJAPuIW/O3CkZRMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9udGVyb3NpMSMwIQYDVQQDDBp3d3cuY29tdW5lLm1vbnRlcm9zaS52dC5pdDAeFw0yMTA2MjkxNDQxMzVaFw0zMTA2MjkxNDQxMzVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9udGVyb3NpMSMwIQYDVQQDDBp3d3cuY29tdW5lLm1vbnRlcm9zaS52dC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKtUuz5yHsEiaiOmgdrVzmKpbItMgPBn+Gj0YcQCg4H685QYi+u2/AlhRaHEUYktrQN7LwU1ERFP0qg4lFSCFs5wwXPpSFMNSPs/nSR5pfDka1dwTDeqNHVo68k0jGQ1O/Uz071cMrplpwhgpcjc9RgpG9YVp7ziSJjgFSd6T4L2dy/BKCtz+7QOi7+bwzI6vul1aWJi2uSr0d2aEh5iqow3TOcMZApQWdGo0jEMganu59T3KJp/o0NqD/hbf+vCfhdfjIeAEF1UsIhFrmNtJz0B48DePE2y1agOGFEmYqiYvx0LGDBWaim81leukC3l9IkzsoHYVfpzhfdzVu0YNoECAwEAAaNQME4wHQYDVR0OBBYEFK7l8iKltGjTEfcG2JYve57ATtLRMB8GA1UdIwQYMBaAFK7l8iKltGjTEfcG2JYve57ATtLRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAlzrpiINKqAoAognXS40nIw5yEcSQCa4Jb3dYxWEqqQq+2U+NHTk8hESHsjEX2B4sxOMprp5DnxDOMhSdhvOEZtnoSyh14PicZbVEkG/QktYiSK0cJcpKeAQ3pv4zO+VawlQSWW8IVwkn1xqNRRqFTGVQN6kFqwPoosTdNBfJ6xzQfnDmMXNPMLxixqvXxJ/wa1bpTErRNrR3TjH1qXujAX5YutltOjR96dydZDnpNQnbWMmvS+7n08trVTJACMCv40FY6CW+ES97x2SHZVGRMaHNk4oxnoXPI2StnaTPbbzpF+kGaArpqCi8Eem8apMeakv9Ungu0Ql/UALUN7JYg=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDuzCCAqOgAwIBAgIJAPuIW/O3CkZRMA0GCSqGSIb3DQEBCwUAMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9udGVyb3NpMSMwIQYDVQQDDBp3d3cuY29tdW5lLm1vbnRlcm9zaS52dC5pdDAeFw0yMTA2MjkxNDQxMzVaFw0zMTA2MjkxNDQxMzVaMHQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTW9udGVyb3NpMRwwGgYDVQQKDBNDb211bmUgZGkgTW9udGVyb3NpMSMwIQYDVQQDDBp3d3cuY29tdW5lLm1vbnRlcm9zaS52dC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKtUuz5yHsEiaiOmgdrVzmKpbItMgPBn+Gj0YcQCg4H685QYi+u2/AlhRaHEUYktrQN7LwU1ERFP0qg4lFSCFs5wwXPpSFMNSPs/nSR5pfDka1dwTDeqNHVo68k0jGQ1O/Uz071cMrplpwhgpcjc9RgpG9YVp7ziSJjgFSd6T4L2dy/BKCtz+7QOi7+bwzI6vul1aWJi2uSr0d2aEh5iqow3TOcMZApQWdGo0jEMganu59T3KJp/o0NqD/hbf+vCfhdfjIeAEF1UsIhFrmNtJz0B48DePE2y1agOGFEmYqiYvx0LGDBWaim81leukC3l9IkzsoHYVfpzhfdzVu0YNoECAwEAAaNQME4wHQYDVR0OBBYEFK7l8iKltGjTEfcG2JYve57ATtLRMB8GA1UdIwQYMBaAFK7l8iKltGjTEfcG2JYve57ATtLRMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAAlzrpiINKqAoAognXS40nIw5yEcSQCa4Jb3dYxWEqqQq+2U+NHTk8hESHsjEX2B4sxOMprp5DnxDOMhSdhvOEZtnoSyh14PicZbVEkG/QktYiSK0cJcpKeAQ3pv4zO+VawlQSWW8IVwkn1xqNRRqFTGVQN6kFqwPoosTdNBfJ6xzQfnDmMXNPMLxixqvXxJ/wa1bpTErRNrR3TjH1qXujAX5YutltOjR96dydZDnpNQnbWMmvS+7n08trVTJACMCv40FY6CW+ES97x2SHZVGRMaHNk4oxnoXPI2StnaTPbbzpF+kGaArpqCi8Eem8apMeakv9Ungu0Ql/UALUN7JYg=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.monterosi.vt.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.monterosi.vt.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Monterosi
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Monterosi
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.monterosi.vt.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f606
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Monterosi
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            comunedimonterosi@pec.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

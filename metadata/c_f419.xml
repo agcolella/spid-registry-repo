@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_1daca770-1daf-468b-86cf-04eda8da9922" entityID="https://spid.gov.it/entities/sp/c_f419">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    Yk/Yw1/3+8jRmXXKl5my/RyHrLjynWr4BTIIWVy4R2Y=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            W9x8+UinibgJEUXO0yglaNvR8im0uDwGecYVRyAa2hEerHVysluEch8ZI5Y2bgcOMldBPc7Zw0/z
+nuQQT9KgX4MieFhxHHkB23n0E4WYCERvyqqc544gFeKGiFpnGJv9rtO2YjaujrgKqwKg/w5zJSJp
+UR9xhcmYBhmqc/td56M4VcDQGSmg5BW2mcUhp2Iki6YB/p20iofyIY+Pw8pmoSS+bHxjh64VCU9/
+GhgLI0sxgl6M2eJLJaSY3Vkj8XZzyHU/Bm7uZoHzMqVzn25OTTKqxYKpRUWttqNp+EjOU8Jb8uMF
+/qKaX1T8ucGOGK2KnKhmCB9e/NpsP5jw6RmbQg==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDrTCCApWgAwIBAgIGAXr39KmUMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA3MzAxNTA3
+MjRaFw0zMTA0MjkxNTA3MjRaMH0xLzAtBgNVBAMMJmh0dHBzOi8vc3BpZC5nb3YuaXQvZW50aXRp
+ZXMvc3AvY19mNDE5MQkwBwYDVQQKDAAxFTATBgNVBAUTDFBBOklULWNfZjQxOTELMAkGA1UEBhMC
+SVQxGzAZBgNVBAcMEk1PTlRBTFRPIERJIENBU1RSTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJRkSJ5TVv0m/lI/K9ddacqItHuHqlkDTHyaWipAGgYIFNGjDCOutaF7aYCOSUEy5aXY
+l3/zx7MwgkZOZKYG6msV4WaLblbx+JfLSoipJns1ZIYiemDQ3Gi/zjjqjlDogmbPrrbKhwQqQkHn
+B+WluMj16RPd98fsUzZHRO10UIqsfL3K/MrZTljMPXIEpTzdX8VBIOzTjkxG5UIf6EMuZvHTTdvw
+rVSYwnDGA+zHGGRufXLxURXkKb6j2upxit+HwVms9vlGr1C2OYADkbgOp3M+lbRyBb0V0M1shphg
+H2cHKQAPjsBLszyZoa8NAnYbaOaPZuAp+ws/KRHRWg71RT0CAwEAAaM5MDcwNQYDVR0gBC4wLAYG
+K0wQBAIBMCIwIAYIKwYBBQUHAgEWFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUA
+A4IBAQBYPYiP2y+a7Vk+aUowtUVbb69qx7CqsjwynOfD/ASsh4ebMGnmDbZuQKrsyxQhBSJaLxqy
+bejZTiB3EVqvrUmrJsFLxlwM7SFKmpzJqhgJKJp5p+XHQTKp+j5kPfNneRJv8UakNjQce54YC7aL
+zXOF3BhmCnnR9OZlhjT6AXGeVZgVZ1eEQAf5hF/EJoCqjxQ8ftB2nFMj/broAxp6vTcGJhp3uicR
+V7ThTIdzYu/QXD5OsVxhD9IRO9kYEQGO9nz2+RtsHUrG+YOhOlq3hcYe+uBjiTiX+CLMXDp/zPvn
+zrg07bZuYBPdxIqti3KzPJQ3uVTC6GH0iIOCji0e/Tzw
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDrTCCApWgAwIBAgIGAXr39KmUMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA3MzAxNTA3
+MjRaFw0zMTA0MjkxNTA3MjRaMH0xLzAtBgNVBAMMJmh0dHBzOi8vc3BpZC5nb3YuaXQvZW50aXRp
+ZXMvc3AvY19mNDE5MQkwBwYDVQQKDAAxFTATBgNVBAUTDFBBOklULWNfZjQxOTELMAkGA1UEBhMC
+SVQxGzAZBgNVBAcMEk1PTlRBTFRPIERJIENBU1RSTzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBAJRkSJ5TVv0m/lI/K9ddacqItHuHqlkDTHyaWipAGgYIFNGjDCOutaF7aYCOSUEy5aXY
+l3/zx7MwgkZOZKYG6msV4WaLblbx+JfLSoipJns1ZIYiemDQ3Gi/zjjqjlDogmbPrrbKhwQqQkHn
+B+WluMj16RPd98fsUzZHRO10UIqsfL3K/MrZTljMPXIEpTzdX8VBIOzTjkxG5UIf6EMuZvHTTdvw
+rVSYwnDGA+zHGGRufXLxURXkKb6j2upxit+HwVms9vlGr1C2OYADkbgOp3M+lbRyBb0V0M1shphg
+H2cHKQAPjsBLszyZoa8NAnYbaOaPZuAp+ws/KRHRWg71RT0CAwEAAaM5MDcwNQYDVR0gBC4wLAYG
+K0wQBAIBMCIwIAYIKwYBBQUHAgEWFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUA
+A4IBAQBYPYiP2y+a7Vk+aUowtUVbb69qx7CqsjwynOfD/ASsh4ebMGnmDbZuQKrsyxQhBSJaLxqy
+bejZTiB3EVqvrUmrJsFLxlwM7SFKmpzJqhgJKJp5p+XHQTKp+j5kPfNneRJv8UakNjQce54YC7aL
+zXOF3BhmCnnR9OZlhjT6AXGeVZgVZ1eEQAf5hF/EJoCqjxQ8ftB2nFMj/broAxp6vTcGJhp3uicR
+V7ThTIdzYu/QXD5OsVxhD9IRO9kYEQGO9nz2+RtsHUrG+YOhOlq3hcYe+uBjiTiX+CLMXDp/zPvn
+zrg07bZuYBPdxIqti3KzPJQ3uVTC6GH0iIOCji0e/Tzw
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                SOL
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            COMUNE DI MONTALTO DI CASTRO
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            COMUNE DI MONTALTO DI CASTRO
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://spid.gov.it/entities/sp/c_f419
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_f419
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            COMUNE DI MONTALTO DI CASTRO
+        </md:Company>
+        <md:EmailAddress>
+            ced@comune.montaltodicastro.vt.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

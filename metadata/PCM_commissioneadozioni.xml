@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8e0262e-81e4-42ea-847b-ca9a2afc50e4" entityID="https://adozionetrasparente.commissioneadozioni.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#_8e0262e-81e4-42ea-847b-ca9a2afc50e4">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    UC1oF+2jmZnu5QFWerR9VS8Zvvm2jIRxdHyGXe9hgrI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+NReVTj6rFgxSqclMo2iM5L68JQ6NamBtDALjT/aCNgC17MSjAH6BFoDLTxcX2se8v18W0MaNem7v
++41GsM3u4RnocV2NdTmUJMwEcJOaP7hxlbVkNpSPPjWEIUfKkiCP23n71KIB7V3xRb/vAXNHuIUY
+4SvAbhjCo+b3LvtV/sPXnXAkxwnDIRro9ARl+pBJ1lKmBB34miLe0jiZ+1c6BKYk2zMJaklObVHX
+2UjcfkY+dNiPN9Ih6rOq9kZHVQnyh32RT8z9oz7Vlk54iBJ5pDTvWAtm+QvLzkGBcPWR3po2k1TP
+O4QyfMUWS+8fEJv2CLNMUonthdU7rzMSx1cdgQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+tteJMQ7I4acCifIkaDwjtMvckaP7nvaZ9z+fncyfKo+ygQZ1xOb20J/iEcfCNfzjYgkhTZQC/sXH
+hZ9lEX5yUYdlUJNnkchmQR/DiAPDWAhE9n7dJRAPn2UsSsi+/nB7wPueQX+eVcz4ANQ1ccfXaPr+
+He2mdMKvawYNvqlUvwiHwCCPkafVVlJ1UycTZtyx0ZrU594r/ae8+Hh12AanyU9hOr2B9ILLaObh
+MDvpWfkIyvZ6xsWvSUDPakl0fN5N966lTBuQT4QJChGkRXnxFPF+JvTfpQupq+NXMTVGAhkv8ZQ9
+i9eA9zB310T8xADU6a/PLjjUYMJ5g9uEZX14BQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIF8TCCBNmgAwIBAgIUCGARKgRxRLgC0v1oVJ8BocXBruMwDQYJKoZIhvcNAQENBQAwgc8xCzAJ
+BgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUm9tYTEzMDEGA1UECgwqQ29tbWlzc2lv
+bmUgcGVyIGxlIEFkb3ppb25pIEludGVybmF6aW9uYWxpMRIwEAYDVQQLDAlTTUFSVF9FRFUxMzAx
+BgNVBAMMKkNvbW1pc3Npb25lIHBlciBsZSBBZG96aW9uaSBJbnRlcm5hemlvbmFsaTEmMCQGA1UE
+YQwdUEE6SVQtUENNX2NvbW1pc3Npb25lYWRvemlvbmkwHhcNMjEwNzI5MTA1MTM0WhcNMzEwNzI3
+MTA1MTM0WjCBzzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARSb21hMTMwMQYD
+VQQKDCpDb21taXNzaW9uZSBwZXIgbGUgQWRvemlvbmkgSW50ZXJuYXppb25hbGkxEjAQBgNVBAsM
+CVNNQVJUX0VEVTEzMDEGA1UEAwwqQ29tbWlzc2lvbmUgcGVyIGxlIEFkb3ppb25pIEludGVybmF6
+aW9uYWxpMSYwJAYDVQRhDB1QQTpJVC1QQ01fY29tbWlzc2lvbmVhZG96aW9uaTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBALbXiTEOyOGnAonyJGg8I7TL3JGj+572mfc/n53MnyqPsoEG
+dcTm9tCf4hHHwjX842IJIU2UAv7Fx4WfZRF+clGHZVCTZ5HIZkEfw4gDw1gIRPZ+3SUQD59lLErI
+vv5we8D7nkF/nlXM+ADUNXHH12j6/h3tpnTCr2sGDb6pVL8Ih8Agj5Gn1VZSdVMnE2bcsdGa1Ofe
+K/2nvPh4ddgGp8lPYTq9gfSCy2jm4TA76Vn5CMr2esbFr0lAz2pJdHzeTfeupUwbkE+ECQoRpEV5
+8RTxfib036ULqavjVzE1RgIZL/GUPYvXgPcwd9dE/MQA1Omvzy441GDCeYPbhGV9eAUCAwEAAaOC
+AcEwggG9MAwGA1UdEwQFMAMBAf8wHQYDVR0OBBYEFB3QEM7/fbE4rF7a0B4s7QNOLzB+MIIBEQYD
+VR0jBIIBCDCCAQSAFB3QEM7/fbE4rF7a0B4s7QNOLzB+oYHVpIHSMIHPMQswCQYDVQQGEwJJVDEL
+MAkGA1UECAwCUk0xDTALBgNVBAcMBFJvbWExMzAxBgNVBAoMKkNvbW1pc3Npb25lIHBlciBsZSBB
+ZG96aW9uaSBJbnRlcm5hemlvbmFsaTESMBAGA1UECwwJU01BUlRfRURVMTMwMQYDVQQDDCpDb21t
+aXNzaW9uZSBwZXIgbGUgQWRvemlvbmkgSW50ZXJuYXppb25hbGkxJjAkBgNVBGEMHVBBOklULVBD
+TV9jb21taXNzaW9uZWFkb3ppb25pghQIYBEqBHFEuALS/WhUnwGhxcGu4zALBgNVHQ8EBAMCB4Aw
+OQYDVR0gBDIwMDAuBgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1T
+UDAxBgNVHREEKjAohiZodHRwczovL3BvcnRhbGUuY29tbWlzc2lvbmVhZG96aW9uaS5pdDANBgkq
+hkiG9w0BAQ0FAAOCAQEAYgDu8ui//tHZr0wbx/gDOrVIneKTUk7cyR065UwlGKX0zndnDlc0hLS0
+qi7FY9XsU+vmYGseHe5Le5lqSAFOr6FGx1H7E4Px4VB/dcar2KnRM2+30W4thvx7potgjjRVtQur
+Qj9lQQTsuQLtS8WFqlF6dhltrN04hMAluK+m0OOL0tsjyvltGP8OmrmyeTgp061v6UNYfIQXgX7W
+yr+96AgMvKkeUQLkfPUKWWimFmFHSGdJ5aPvwwbwfZdbH2INGjxu/k7U3f/cQCbPUT+cl7j7gJt4
+Si7IlukPiwn/F46M6uzJ4HsB6GdiVXTehAJtvthRB826829Tu9MT9QGDJw==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509SubjectName>
+                        2.5.4.97 = PA:IT-PCM_commissioneadozioni,CN=Commissione per le Adozioni Internazionali,OU=SMART_EDU,O=Commissione per le Adozioni Internazionali,L=Roma,S=RM,C=IT
+                    </ds:X509SubjectName>
+                    
+          
+                    <ds:X509Certificate>
+                        
+						MIIF8TCCBNmgAwIBAgIUCGARKgRxRLgC0v1oVJ8BocXBruMwDQYJKoZIhvcNAQEN
+						BQAwgc8xCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwEUm9tYTEz
+						MDEGA1UECgwqQ29tbWlzc2lvbmUgcGVyIGxlIEFkb3ppb25pIEludGVybmF6aW9u
+						YWxpMRIwEAYDVQQLDAlTTUFSVF9FRFUxMzAxBgNVBAMMKkNvbW1pc3Npb25lIHBl
+						ciBsZSBBZG96aW9uaSBJbnRlcm5hemlvbmFsaTEmMCQGA1UEYQwdUEE6SVQtUENN
+						X2NvbW1pc3Npb25lYWRvemlvbmkwHhcNMjEwNzI5MTA1MTM0WhcNMzEwNzI3MTA1
+						MTM0WjCBzzELMAkGA1UEBhMCSVQxCzAJBgNVBAgMAlJNMQ0wCwYDVQQHDARSb21h
+						MTMwMQYDVQQKDCpDb21taXNzaW9uZSBwZXIgbGUgQWRvemlvbmkgSW50ZXJuYXpp
+						b25hbGkxEjAQBgNVBAsMCVNNQVJUX0VEVTEzMDEGA1UEAwwqQ29tbWlzc2lvbmUg
+						cGVyIGxlIEFkb3ppb25pIEludGVybmF6aW9uYWxpMSYwJAYDVQRhDB1QQTpJVC1Q
+						Q01fY29tbWlzc2lvbmVhZG96aW9uaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+						AQoCggEBALbXiTEOyOGnAonyJGg8I7TL3JGj+572mfc/n53MnyqPsoEGdcTm9tCf
+						4hHHwjX842IJIU2UAv7Fx4WfZRF+clGHZVCTZ5HIZkEfw4gDw1gIRPZ+3SUQD59l
+						LErIvv5we8D7nkF/nlXM+ADUNXHH12j6/h3tpnTCr2sGDb6pVL8Ih8Agj5Gn1VZS
+						dVMnE2bcsdGa1OfeK/2nvPh4ddgGp8lPYTq9gfSCy2jm4TA76Vn5CMr2esbFr0lA
+						z2pJdHzeTfeupUwbkE+ECQoRpEV58RTxfib036ULqavjVzE1RgIZL/GUPYvXgPcw
+						d9dE/MQA1Omvzy441GDCeYPbhGV9eAUCAwEAAaOCAcEwggG9MAwGA1UdEwQFMAMB
+						Af8wHQYDVR0OBBYEFB3QEM7/fbE4rF7a0B4s7QNOLzB+MIIBEQYDVR0jBIIBCDCC
+						AQSAFB3QEM7/fbE4rF7a0B4s7QNOLzB+oYHVpIHSMIHPMQswCQYDVQQGEwJJVDEL
+						MAkGA1UECAwCUk0xDTALBgNVBAcMBFJvbWExMzAxBgNVBAoMKkNvbW1pc3Npb25l
+						IHBlciBsZSBBZG96aW9uaSBJbnRlcm5hemlvbmFsaTESMBAGA1UECwwJU01BUlRf
+						RURVMTMwMQYDVQQDDCpDb21taXNzaW9uZSBwZXIgbGUgQWRvemlvbmkgSW50ZXJu
+						YXppb25hbGkxJjAkBgNVBGEMHVBBOklULVBDTV9jb21taXNzaW9uZWFkb3ppb25p
+						ghQIYBEqBHFEuALS/WhUnwGhxcGu4zALBgNVHQ8EBAMCB4AwOQYDVR0gBDIwMDAu
+						BgYrTBAEAgEwJDAiBggrBgEFBQcCAjAWGhRzcGlkLXB1YmxpY3NlY3Rvci1TUDAx
+						BgNVHREEKjAohiZodHRwczovL3BvcnRhbGUuY29tbWlzc2lvbmVhZG96aW9uaS5p
+						dDANBgkqhkiG9w0BAQ0FAAOCAQEAYgDu8ui//tHZr0wbx/gDOrVIneKTUk7cyR06
+						5UwlGKX0zndnDlc0hLS0qi7FY9XsU+vmYGseHe5Le5lqSAFOr6FGx1H7E4Px4VB/
+						dcar2KnRM2+30W4thvx7potgjjRVtQurQj9lQQTsuQLtS8WFqlF6dhltrN04hMAl
+						uK+m0OOL0tsjyvltGP8OmrmyeTgp061v6UNYfIQXgX7Wyr+96AgMvKkeUQLkfPUK
+						WWimFmFHSGdJ5aPvwwbwfZdbH2INGjxu/k7U3f/cQCbPUT+cl7j7gJt4Si7IlukP
+						iwn/F46M6uzJ4HsB6GdiVXTehAJtvthRB826829Tu9MT9QGDJw==
+					
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adozionetrasparente.commissioneadozioni.it/WorkFlow2011/Logon/SpidLogout.aspx"/>
+        
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://adozionetrasparente.commissioneadozioni.it/WorkFlow2011/Logon/SpidIn.aspx" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portale.commissioneadozioni.it/SPID/SpidIn.aspx" index="1"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://portale.commissioneadozioni.it/SPID/SpidIn" index="2"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Set1
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Set Attributi 1 - completo
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="2">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Set2
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Set Attributi 2 - minimo
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode"/>
+            
+      
+            <md:RequestedAttribute Name="name"/>
+            
+      
+            <md:RequestedAttribute Name="familyName"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Commissione per le Adozioni Internazionali
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Commissione per le Adozioni Internazionali
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://commissioneadozioni.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                PCM_commissioneadozioni
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>
+            cai.segreteria@pec.governo.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
