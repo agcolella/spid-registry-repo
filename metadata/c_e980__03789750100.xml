@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_e980"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>7A8YszM/xkiwSuxec6WQDE3R0Qydo11nzsLjv5e7po8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+PzN7/MBfiyzRFeTPyJlaBnmpLOvZtp9Fw5c8sr4TlXyGTV2/9eEZkFesnWpkTl+j9BssiKYiJc5i
+jtkii4CC0+KM6NfYrVvUPMBJ4r2aiMQD1TROTkgfIswG5NuCk2zHJe1jbazJZ2E7RDPkJ8o3DLmm
+XZ6HD0LEbbM7gZwv2vqpS88Hk/kpK8OOdVzLsngFUsEI81IKhBNVmtRPvzIoMPnJXxlQLD0wbl5i
+Gva5oFeJCvUSx06xJPoenjmUBzBKqPpRUVlK37ZF63dyn1Y6nLLTqiUpTMTfyppGWjZj6Uik3bPW
+qipuNbd+QcDbOzsFx1WxtaIbYqZpwRA5uhr0tw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIGOjCCBCKgAwIBAgIJAOP/2KjlpFYiMA0GCSqGSIb3DQEBCwUAMIGxMQswCQYD
+			VQQGEwJJVDENMAsGA1UECAwEUm9tYTETMBEGA1UEBwwKTWFydGVsbGFnbzETMBEG
+			A1UECgwKTWFydGVsbGFnbzENMAsGA1UECwwEU3BpZDEoMCYGA1UEAwwfbWFydGVs
+			bGFnby5jb211bmUucGx1Z2FuZHBheS5pdDEwMC4GCSqGSIb3DQEJARYhY29tdW5l
+			Lm1hcnRlbGxhZ28udmVAcGVjdmVuZXRvLml0MB4XDTIyMDIwMTExMzcxOFoXDTI1
+			MDEzMTExMzcxOFowgbExCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMRMwEQYD
+			VQQHDApNYXJ0ZWxsYWdvMRMwEQYDVQQKDApNYXJ0ZWxsYWdvMQ0wCwYDVQQLDART
+			cGlkMSgwJgYDVQQDDB9tYXJ0ZWxsYWdvLmNvbXVuZS5wbHVnYW5kcGF5Lml0MTAw
+			LgYJKoZIhvcNAQkBFiFjb211bmUubWFydGVsbGFnby52ZUBwZWN2ZW5ldG8uaXQw
+			ggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCX+VCEXqSiT2iIlta+kRWm
+			JjkONzSJaL/abhTh9qLOQLCJIGlR0Gc3IIJ7PIzqkeUImz1wRvlthg7IWkJ7PQPX
+			rPILUPVFjpFUkUa2G+5rHCGeqJcgLt/A8cFpU6Me1sBKl24PFIHY3rG/mjgXsVba
+			M1qksFcv9x9NgQp1rzJRtijBV3X5cgR0JBx1XPl4QPAKzKkuIBBs5Cwhlip0u8AF
+			AV1GtACAIgl+AadSOv71OAZLZyRCirHhHvlbr4vmOVh7dv1dxl07aAs2uAYAul/E
+			ypTTdZq+ctoqz+ipB4x2j4BeeycSCULYUXuKhSQ4duMh7MsUrYVhvTzMojewSIWk
+			W4ZB2d5oWjlqEM4ZGKAKwLRJJH5w7g5wWvyXb0wwtKK1ciBniqAwwReADsta9lYC
+			4cPX4CtHk9qIC/ij3liRgTMZyf9OHjCSfqSGKxkCejSQSYRA6v40caQPU2+ZqnNO
+			cHms4N8UG4fBON4t9fMlf08XjK5ETKWphIK8m4NiLRzsX+BeIsA5S3VhHJraU3P+
+			vq9iElAQTXGjXxa3rBGsIWBxRS7I7l0Uko14PvnLy2cxSFa29oDobvN0YlmN6yGQ
+			WlqAhIDrk3QxxvcX46kmyKn+lpu2ZfgGPjEJ13czA3k9xwWvSwsd1G4GHZ/T922P
+			Gqf0OEn+3Y907x0uk6paVwIDAQABo1MwUTAdBgNVHQ4EFgQULSSs1DezIp5GHV7R
+			B+MNKWErmvwwHwYDVR0jBBgwFoAULSSs1DezIp5GHV7RB+MNKWErmvwwDwYDVR0T
+			AQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAItMK8UVklJPUMOXd3Y8sQzG0
+			+ctvyuCCChDDxcBbLp0j4blBBIo8gMCzrx0btUIlcRNHb+mhZ37G9zQrZTKPzEZR
+			1VF4wRZRinP6dz3mYVBv5LT/XtLbmxHIzrtXz1S5x8PjSh5k+qliWA3Ifu0U4ZlW
+			914PHrMBSC4Z8dV274vxSDtSpfHIW3UByEX6AtqjCaBIv2ZN6ctKBX2nW4H3WrYV
+			AanoFf+0HfaM6fScb8ZGgXO4FZdLOLhsoG82PmkNRYzAZ7Yclw2G7f+Kz/MtBZjZ
+			bmNrA/tyqK0dvS9yKm8ucaJhNluGpsCfDctqgXQSjmRsFMc5bpT/7TahQWgtPXbC
+			ESn33+ZimG9DjIgDbG38CxaE2fC5thS17rXqWxEYy6Bw694agZU4kfcctGlVzYI3
+			1WtgDOLptzoFmQSAM1m1z4UW1kaAnssQ+7b5BX9dO/Pkvb97+YJDKJeYuBhrZbuS
+			7z4k0rCWtNCNGV6+TR2uACwKPWwPw/xMtTA4jztrIBFIqPm0RF2kxYXhJp8RJgCi
+			lsMc8nIJmFPmqIdmQlbttD69TJTyzVeySI5wbDEpJvhtdgqOydCxRpZZQPyB8NVY
+			oE17u07YOKDS3P5qdAkzlP9qYceHHWMqxSL7Fa791LKpIsO2mFA0RnsJ39Bm/h/0
+			C7pdi1kHMy2Nhv+HjSw=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://martellago.comune.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://martellago.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Martellago</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Martellago</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.comune.martellago.ve.it/home.html</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_e980</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Martellago</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

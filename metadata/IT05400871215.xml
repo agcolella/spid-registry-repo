@@ -1,0 +1,123 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"
+                     xmlns:ds="http://www.w3.org/2000/09/xmldsig#"
+                     xmlns:spid="https://spid.gov.it/saml-extensions"
+                     xmlns:fpa="https://spid.gov.it/invoicing-extensions"
+                     entityID="https://www.parkingportici.it"
+                     ID="spid-php_620f5964686aa6e8179e7d918b45d7f7057d6a837f4c18741e5e5e0c47475e2c">
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#spid-php_620f5964686aa6e8179e7d918b45d7f7057d6a837f4c18741e5e5e0c47475e2c">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>iRIQ5pW99xxPR7gm8JLr3/WWS/BUaQRwx8kSevkEwEk=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>3V4GsIC3Mf+PxKLKmConGUxCbhWIL5ad9G3O3v7vJxA8qYHdGc1O3vZ8UgXiwcNKFPu4GmVUyOuEMddXAJfaQbXTyNaUsuPeccWu2gglTIo2Li+rqR+EKV94CQQS3fJOxARFRH4LZDIE51pT4z+udXq31sxvihUi3l1ezwG/zB6hDD+fS4Ti8ByZ7wW+7UqDFwHViJkvJdxAoDl/kN6O1hATgQ7eeG9c8XSetdwsxLN+S7e80UVfu2PQlVU0XYv+WgtaNk6QSJXqLvYIn4L3NTR3LN5sSlIihBOC6A4+tcTeam9WdSGTikrYwPPjzqhfrqpPZFmwlNGr/uq/8nMeV59N2iWQ/vzSJgL6u26596yVf3B8AJcggwF1PE4fMKmlJRW3A/316sb8xP3Aiit1sl02KhhAYOan6J5u3xQEkdu5PTR1kUCXHvBCD0VT/djtImJeB8dZ9raQGvoLu2Feaam/f2HbbLWgk0XBAWMOwRMe51WMEKpRWQ6RMTXeLHp6suitCA7S7+wLF6lIhhHMwiAJ+wqE/8CoA5bpX/l1gOl/K7+/Jw57i/AlBNjCy07ZApp1LbIo5Iw9QIDyFcBqi8qOVKmPunJZkU604tgndHvXXxPrMesbj5i/7z5YyJwQOMiJjmzSxLk0AHN31Wznp/5OBqUylAIfflet4+RCTAQ=</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<ds:Signature>
+		<ds:SignedInfo>
+			<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+			<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+			<ds:Reference URI="#spid-php_8e00c79551d958a99c251d80cf73879a9e249bbf54c02aa04be028d4d85700ca">
+				<ds:Transforms>
+					<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+					<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+				</ds:Transforms>
+				<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+				<ds:DigestValue>C5LI6t7TwK/DP7Jx1s0Rg2Jv7Uz/NiokuhSZhZ+AR2k=</ds:DigestValue>
+			</ds:Reference>
+		</ds:SignedInfo>
+		<ds:SignatureValue>BYmY5ahknwoDSKu5/5o4YYdOWSY/LNBtYZiOq9V2qgdj6XHqcsVDDtmw6Djcm1/krB98Bh3RyPJofnz3LQudngbpEZJg20RWjTmb5F0546ZnhVemupa0dF2Q64p4MqyideVkqn4NvCnoBRJPmsJBDqW+6uPVdNohAiXZun2W0YqOhKPW+vrdJgbilrhYnWewaQP/dUL5vJ1TShs5nlsw7H1wxbvz41AOxizi7HchrfslWghVUMRy9LdcC7JWGj09HssC1GxUaZhavDrMyFsuoE5ShcLMNyaXaU3QWLsYEOh9zv9A48iiLfJDoSYvlLRa2u5C8RuIG7F0rXc4oD7P3RovtKg4+2XYGkLJ20Pi9aigCWHbQqLe8byPdQg3JqxXMhSON9LYCgfOf/QEm39IcM8EiX1RnQZFzIdtBLWTVm3nIv1RvOSUCZZLTBcMr/YHYbyT2JN73xLz1nPYCXf44ar8cy+QPOh1N6Y/rSULZiUkTx5YvFBaGTHmoHzpIi8w</ds:SignatureValue>
+		<ds:KeyInfo>
+			<ds:X509Data>
+				<ds:X509Certificate>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</ds:X509Certificate>
+			</ds:X509Data>
+		</ds:KeyInfo>
+	</ds:Signature>
+	<md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"
+	                    AuthnRequestsSigned="true"
+	                    WantAssertionsSigned="true">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:KeyDescriptor use="encryption">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>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</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+		                        Location="https://www.parkingportici.it/parkingportici/module.php/saml/sp/saml2-logout.php/service"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+		                             Location="https://www.parkingportici.it/parkingportici/module.php/saml/sp/saml2-acs.php/service"
+		                             index="0"
+		                             isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">TMP Srl</md:ServiceName>
+			<md:ServiceDescription xml:lang="it">TMP Srl</md:ServiceDescription>
+			<md:RequestedAttribute Name="name"
+			                       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="familyName"
+			                       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+			<md:RequestedAttribute Name="fiscalNumber"
+			                       NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">TMP Srl</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">TMP Srl</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://k-city.eu</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT05400871215</spid:VATNumber>
+			<spid:Private xmlns:spid="https://spid.gov.it/saml-extensions"/>
+		</md:Extensions>
+		<md:Company>TMP Srl</md:Company>
+		<md:EmailAddress>info@k-city.it</md:EmailAddress>
+		<md:TelephoneNumber>+3908119136360</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+		<md:Extensions>
+			<fpa:CessionarioCommittente xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>IT05400871215</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione>TMP Srl</fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>Via Generale Armando Diaz</fpa:Indirizzo>
+					<fpa:NumeroCivico>19</fpa:NumeroCivico>
+					<fpa:CAP>80055</fpa:CAP>
+					<fpa:Comune>Portici</fpa:Comune>
+					<fpa:Provincia>NA</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:Company>TMP Srl</md:Company>
+		<md:EmailAddress>info@k-city.it</md:EmailAddress>
+		<md:TelephoneNumber>+3908119136360</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>

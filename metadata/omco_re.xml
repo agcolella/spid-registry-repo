@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_51e1525a-ea02-11eb-9a03-0242ac130003" entityID="https://www.odmeo.re.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_51e1525a-ea02-11eb-9a03-0242ac130003">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>hP0CElSBMP+HDRaaId5MU5XMpnVMlvaKG4qJL85RB9I=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+fkNZWwUvRv/qaXHbYxqEs8LhPDXbnffuvywx5avQ8PFB9mpxJPeJAPLlXsUVCnuNXEpg5uONag3v
+rju9Gi9m04RLNAUyskdcqw9mLNqlSkbQaVnxMPTOPWX+589E9l8s8ETcCW0wIhCwGna+jWlsBxqr
+RkCOIbOrF1E+k0NKCZMb3ELWC9tQvIiFZWCcuUvxLnGyZoM1x++SgT2Zra7A2FXIP3JU6iyeO8oB
+WVHC2MTsYtQg3l2h/Dd5lt9625mqehU964hCxjel9QJUXMpcPJBDH7Ugp0xoa8wbTxe9KSi1Js//
+W4h6rCjVaSVpmf6nN1FOgRi15uxioclWFaS+tQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qo/1ARr4Tkk09gKunowTmOaScAfSkqtV0+BrRfq0SHMbX5PrKv2mS4Ohx7M5OmRNiDop0/NlEszR
+8QeFyGLVcGWOhlIWMe89h9H1TrsYhULlJUFaF4y8ajaM949ueH1RvIinf2utKSkaXCotX8+8wx4U
+6oFkGKEJ8KWnUlhS5oFbHkRFx0desT6FnQBAj6mMgP39/MT4K7MdML9iLrdBApzqQOF/7CvZWx6c
+6NXpgfTvEWrtmSe5JK4Figij+JKgANFRpfDvLz2kU0OLc1xlqAJTbIHj81IP6uW58c7PGpuGOas1
+auPiuvwDnx52LWBxS8/iX3pFjQgemHIR5mMUoQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEoTCCA4mgAwIBAgIJAIJ3MEMP+vSEMA0GCSqGSIb3DQEBCwUAMIHmMQswCQYDVQQGEwJJVDEP
+MA0GA1UECAwGSXRhbGlhMRYwFAYDVQQHDA1SZWdnaW8gRW1pbGlhMUMwQQYDVQQKDDpPcmRpbmUg
+ZGVpIE1lZGljaSBDaGlydXJnaGkgZSBPZG9udG9pYXRyaSBkaSBSZWdnaW8gRW1pbGlhMR8wHQYD
+VQQLDBZPZG1lbyBkaSBSZWdnaW8gRW1pbGlhMScwJQYDVQQDDB5odHRwczovL2lzY3JpemlvbmUu
+b2RtZW8ucmUuaXQxHzAdBgkqhkiG9w0BCQEWEGluZm9Ab2RtZW8ucmUuaXQwHhcNMjExMjA2MTU1
+OTA1WhcNMjIxMjA2MTU1OTA1WjCB5jELMAkGA1UEBhMCSVQxDzANBgNVBAgMBkl0YWxpYTEWMBQG
+A1UEBwwNUmVnZ2lvIEVtaWxpYTFDMEEGA1UECgw6T3JkaW5lIGRlaSBNZWRpY2kgQ2hpcnVyZ2hp
+IGUgT2RvbnRvaWF0cmkgZGkgUmVnZ2lvIEVtaWxpYTEfMB0GA1UECwwWT2RtZW8gZGkgUmVnZ2lv
+IEVtaWxpYTEnMCUGA1UEAwweaHR0cHM6Ly9pc2NyaXppb25lLm9kbWVvLnJlLml0MR8wHQYJKoZI
+hvcNAQkBFhBpbmZvQG9kbWVvLnJlLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA
+qo/1ARr4Tkk09gKunowTmOaScAfSkqtV0+BrRfq0SHMbX5PrKv2mS4Ohx7M5OmRNiDop0/NlEszR
+8QeFyGLVcGWOhlIWMe89h9H1TrsYhULlJUFaF4y8ajaM949ueH1RvIinf2utKSkaXCotX8+8wx4U
+6oFkGKEJ8KWnUlhS5oFbHkRFx0desT6FnQBAj6mMgP39/MT4K7MdML9iLrdBApzqQOF/7CvZWx6c
+6NXpgfTvEWrtmSe5JK4Figij+JKgANFRpfDvLz2kU0OLc1xlqAJTbIHj81IP6uW58c7PGpuGOas1
+auPiuvwDnx52LWBxS8/iX3pFjQgemHIR5mMUoQIDAQABo1AwTjAdBgNVHQ4EFgQU9cogQ7mUCkIH
+i709XziP8wrxU/QwHwYDVR0jBBgwFoAU9cogQ7mUCkIHi709XziP8wrxU/QwDAYDVR0TBAUwAwEB
+/zANBgkqhkiG9w0BAQsFAAOCAQEAAbRpKnl10quWVT79fln7tDlMd7LD9snjcL0x7j3r9wj/FjVI
+5gaE4vhhMhRlx8zykocrzTS9IyJT4yv6QhwN8HVWwZlS57rBxyfUMQ+Ps1V00gfTjoUPihH7KXbD
+WJ/IwQT5Dt1GjNhPNsHnK+/SnDFz+PaS0wey+LsCnVHyFeepmfJPzsfWKI44GfQJ6GVn/k7Ey/Gn
+DkGwI4vyqbmHs7odagak0mRxiJ0s1lahUSReQGjOZB/05ev8Lblz/FTt3psiRnfSo2hxc7SiBhkg
+CgUt/Re9B0byRGZZeSDiGm38bVO5Z+vewxx4UfwiHfvM7BAakiMPKPj8drspz/ySmA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>MIIErjCCA5agAwIBAgIILAftvF2mVsUwDQYJKoZIhvcNAQELBQAwge0xCzAJBgNVBAYTAklUMRYwFAYDVQQIDA1SZWdnaW8gRW1pbGlhMRYwFAYDVQQHDA1SZWdnaW8gRW1pbGlhMRgwFgYDVQQKDA9PTUVSZWdnaW9FbWlsaWExPzA9BgNVBAsMNk9yZGluZSBNZWRpY2kgQ2hpcnVyZ2hpIGUgT2RvbnRvaWF0cmkgZGkgUmVnZ2lvIEVtaWxpYTEyMDAGA1UEAwwpT3JkaW5lIE1lZGljaSBlIE9kb250b2lhdHJpIFJlZ2dpbyBFbWlsaWExHzAdBgkqhkiG9w0BCQEWEGluZm9Ab2RtZW8ucmUuaXQwHhcNMjEwNjExMDcyMjQ0WhcNNDEwNjEwMDcyMjQ0WjCB7TELMAkGA1UEBhMCSVQxFjAUBgNVBAgMDVJlZ2dpbyBFbWlsaWExFjAUBgNVBAcMDVJlZ2dpbyBFbWlsaWExGDAWBgNVBAoMD09NRVJlZ2dpb0VtaWxpYTE/MD0GA1UECww2T3JkaW5lIE1lZGljaSBDaGlydXJnaGkgZSBPZG9udG9pYXRyaSBkaSBSZWdnaW8gRW1pbGlhMTIwMAYDVQQDDClPcmRpbmUgTWVkaWNpIGUgT2RvbnRvaWF0cmkgUmVnZ2lvIEVtaWxpYTEfMB0GCSqGSIb3DQEJARYQaW5mb0BvZG1lby5yZS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANYOCWdVPEgX0YZ0uFqfahXtNE1LNlKLnQtdDtVXh4REzw64HfDkO8t/kwaLVhPXzo1lxdUb8amw/5z9NTdhB44yE0gWTkE6o1yzms2RWFo0cq9DzLxLrIGVLFrnoGIC0sLv/t7KJ6j9FOGxU8Zg58I6/fm8PFYBtjAw9g+dDAqwuDvD83eA60P+lvNt1F9Zd6RdoWu8MlyVQZgrC6QT3SmcKMs61J9RpuB8NDPMHWRI4m4QVA1lkHYO5sM8QWNM95easvHR5yrr+z0dvpiclt4kF2lH60D9yc0xxpj+u5V8dhLbVF1w/E83oFb4adZ1t7FSescrc4jqACwqz4Sbk+UCAwEAAaNQME4wHQYDVR0OBBYEFO5naYlfLHxLhlIjcbEWWiNtzn0GMB8GA1UdIwQYMBaAFO5naYlfLHxLhlIjcbEWWiNtzn0GMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAJK4pDSuJqhESsel/lFHP0r1reuaIdKDMA3dnOXpcQ6gnz2e9+H8iiz4bkpBaRAiJjf6/u+4hDh4onzxotWJM7OlUeDAraLtwA6q8E7v7/Q65+Ubzi5J3P9NraoIyzEPTERnWBx1BhHvIZcmd3RbHayXMcLRNhRsgRrXbIqsy/dUirMd9x6J/9IXOEnjVzPeq/MXx9hR7URCwbYWlW89qMxwKjP9Er6km7cYdfY2t6AukhYBFEom69Z1FyxXNTQP7RN6dpkqAWL0GbjeZa4JAJTcDQ1MVvUaE3YSEv+mx4NmHlLz+o0GHI07w05vFzEn4w97j2EAQ/YhXeZYz3mNDj8=</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.odmeo.re.it/odmeo-spid/module.php/saml/sp/saml2-logout.php/service"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://iscrizione.odmeo.re.it/slo"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iscrizione.odmeo.re.it/slo"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.odmeo.re.it/odmeo-spid/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://iscrizione.odmeo.re.it/response" index="1"/>
+        <md:AttributeConsumingService index="0">
+           <md:ServiceName xml:lang="it">Servizio-Online</md:ServiceName>
+           <md:RequestedAttribute Name="spidCode"/>
+           <md:RequestedAttribute Name="name"/>
+           <md:RequestedAttribute Name="familyName"/>
+           <md:RequestedAttribute Name="fiscalNumber"/>
+           <md:RequestedAttribute Name="email"/>
+           <md:RequestedAttribute Name="gender"/>
+           <md:RequestedAttribute Name="mobilePhone"/>
+       </md:AttributeConsumingService>
+       <md:AttributeConsumingService index="1">
+        <md:ServiceName xml:lang="it">Servizio-Spid</md:ServiceName>
+        <md:RequestedAttribute Name="name"/>
+        <md:RequestedAttribute Name="familyName"/>
+        <md:RequestedAttribute Name="fiscalNumber"/>
+        <md:RequestedAttribute Name="email"/>
+        <md:RequestedAttribute Name="spidCode"/>
+        <md:RequestedAttribute Name="gender"/>
+        <md:RequestedAttribute Name="dateOfBirth"/>
+        <md:RequestedAttribute Name="placeOfBirth"/>
+        <md:RequestedAttribute Name="countyOfBirth"/>
+        <md:RequestedAttribute Name="idCard"/>
+        <md:RequestedAttribute Name="companyName"/>
+        <md:RequestedAttribute Name="registeredOffice"/>
+        <md:RequestedAttribute Name="ivaCode"/>
+        <md:RequestedAttribute Name="mobilePhone"/>
+        <md:RequestedAttribute Name="domicileStreetAddress"/>
+        <md:RequestedAttribute Name="domicilePostalCode"/>
+        <md:RequestedAttribute Name="domicileMunicipality"/>
+        <md:RequestedAttribute Name="domicileProvince"/>
+        <md:RequestedAttribute Name="domicileNation"/>
+        <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+</md:SPSSODescriptor>
+<md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine Provinciale di Reggio Emilia dei Medici Chirurghi e degli Odontoiatri</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine Provinciale di Reggio Emilia dei Medici Chirurghi e degli Odontoiatri</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.odmeo.re.it</md:OrganizationURL>
+</md:Organization>
+<md:ContactPerson contactType="other">
+    <md:Extensions>
+        <spid:IPACode>omco_re</spid:IPACode>
+        <spid:Public/>
+    </md:Extensions>
+    <md:Company>Ordine Provinciale di Reggio Emilia dei Medici Chirurghi e degli Odontoiatri</md:Company>
+    <md:EmailAddress>info@odmeo.re.it</md:EmailAddress>
+</md:ContactPerson>
+</md:EntityDescriptor>

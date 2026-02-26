@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://www.webloom.it/pub-ag-full/odprsa" ID="_wbmarm-f83ea9c4-2614-4adc-82d9-140842945371"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#_wbmarm-f83ea9c4-2614-4adc-82d9-140842945371"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/R+WzB6kaf3q9rQ0/MUPraRot6bXH0IHM8x/HlcOCt0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ND316zfUdLMaJuVAVW5fjwSDQ28yCJDRcXK/jYU2LaqMDMW65/Pp2+8kxVQ8jrk5qvw8C6e66UHHRkyVvFcIv//GzwkQ7Vz92X4ESopw5OY5N5rZkiHp3k80WaRPSQmQELWHQzAH8lx1CSvxf/4vAkqPeFdXHlzq3pdEEkFTo0dc6xW7wtVu/+m69jdOdATNJWbBu+lGQ9gnBHfyG5FsZRYdp9TuPnFYUcpGKUBWq2aCKHvj20EjMa4LAfPb1CduNX7i3/ML2DRck8TFy/vYgBJ9HarB76vy6kqZkzix7JcyIj8TpbfaDP5cn1+WgNWUPkc5DyzoLog/th7p6dv5FA==</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.armonia.click/proxyspid/slo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" index="0" isDefault="true" Location="https://www.armonia.click/proxyspid/acs"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Set 0</md:ServiceName>
+      <md:RequestedAttribute isRequired="true" Name="name"/>
+      <md:RequestedAttribute isRequired="true" Name="familyName"/>
+      <md:RequestedAttribute isRequired="true" Name="dateOfBirth"/>
+      <md:RequestedAttribute isRequired="true" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Set 1</md:ServiceName>
+      <md:RequestedAttribute isRequired="true" Name="name"/>
+      <md:RequestedAttribute isRequired="true" Name="email"/>
+      <md:RequestedAttribute isRequired="true" Name="gender"/>
+      <md:RequestedAttribute isRequired="true" Name="idCard"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute isRequired="true" Name="familyName"/>
+      <md:RequestedAttribute isRequired="true" Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute isRequired="true" Name="fiscalNumber"/>
+      <md:RequestedAttribute isRequired="true" Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute isRequired="true" Name="domicileNation"/>
+      <md:RequestedAttribute isRequired="true" Name="domicileProvince"/>
+      <md:RequestedAttribute isRequired="true" Name="domicilePostalCode"/>
+      <md:RequestedAttribute isRequired="true" Name="domicileMunicipality"/>
+      <md:RequestedAttribute isRequired="true" Name="domicileStreetAddress"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Ordine degli Psicologi della Sardegna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Ordine degli Psicologi della Sardegna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.psicosardegna.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+    <md:Extensions>
+      <spid:VATNumber>IT06457411004</spid:VATNumber>
+      <spid:PublicServicesFullAggregator/>
+    </md:Extensions>
+    <md:Company>Webloom S.r.l.</md:Company>
+    <md:EmailAddress>segreteria@webloom.it</md:EmailAddress>
+    <md:TelephoneNumber>+390644232741</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+    <md:Extensions>
+      <spid:IPACode>odprsa</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Ordine degli Psicologi della Sardegna</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:fpa="https://spid.gov.it/invoicing-extensions" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_e1c63f26-9536-49c5-9c30-0076cc4864c0" entityID="https://spid.documi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_e1c63f26-9536-49c5-9c30-0076cc4864c0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>m+0zgWoYQAFxS6taolpWddDVQBM1pDY8NvYZwgxV5Pg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+iQBAfXbhWDfqo0UZYvRq5WIGb97MBAcYBoupDmWYtah5jWlh+UjKIkLHMwsiIIbQ1DIr0wdYiYsS
+s5CV3p3Yz3YG180S1G05NET65ugFYzdd2yDeRWvrdPG7GwKiEafwW0hbLybXXIWJ4JkOPO38mU7k
+s1c/jIZGWjPSuODiirRoVfLdXALmmSLRKI4m7/LsbRBU9WTr8TKGj/zGcCnG88YxlQn+ZCpN67a7
+O+FzCByac8Qtbgd5yFv/WYT6VvyyIhIRLwTAQKeZLP1uEEgQueAGCEqvLPTUElQkTM5wpgyh58fj
+iiBR1zKbqnuqsl8e9uLmoF4z6N8u2je2C7iuwQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sV/OrO0CI7TEM5pbH7A3HdnFfPhuSimOK5FS5zasc6HJfWEMOKLr6/HhwWY9BtaqIyWvFjdKwAv2
+P+LvArxevYeJuwnUP0mjfR0X/zICTmWB+ecHriXQpBQrxLnL4qs0v89ReSGj0jRn7w4gHYxGRT50
+GgNvmSpNcKn6PGs4TF0vJU4TibV7XjSn50Nbj4M4R4sUKvw6s73oxV2cMuu0+B2yiJhrJiGDTKrQ
+TjIvOGCWQZkDgaTQpBal3UfF6bCQZ23ZpxshW0vElvd5QFzjQmc1dE4+p4Gk8SsvfP9wCxGivZN1
+YzBBnV90ANU+Eqho3KvxSnzDFQSqxxlZx/pHtQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIKTCCBhGgAwIBAgIIOZS7r/RflAswDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExMjAw
+MDAwMFoXDTM3MDExMTIzNTk1OVowgdUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFsaWExDzAN
+BgNVBAcMBk1pbGFubzETMBEGA1UECgwKRG9jdU1JIFNybDETMBEGA1UECwwKRG9jdU1JIFNybDEX
+MBUGA1UEAwwOc3BpZC5kb2N1bWkuaXQxIzAhBgkqhkiG9w0BCQEWFGFzc2lzdGVuemFAZG9jdW1p
+Lml0MRowGAYDVQRhDBFWQVRJVC0xMjI4MTc0MDE1NDEgMB4GA1UEUwwXaHR0cHM6Ly9zcGlkLmRv
+Y3VtaS5pdC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxX86s7QIjtMQzmlsfsDcd
+2cV8+G5KKY4rkVLnNqxzocl9YQw4ouvr8eHBZj0G1qojJa8WN0rAC/Y/4u8CvF69h4m7CdQ/SaN9
+HRf/MgJOZYH55weuJdCkFCvEucviqzS/z1F5IaPSNGfvDiAdjEZFPnQaA2+ZKk1wqfo8azhMXS8l
+ThOJtXteNKfnQ1uPgzhHixQq/DqzvejFXZwy67T4HbKImGsmIYNMqtBOMi84YJZBmQOBpNCkFqXd
+R8XpsJBnbdmnGyFbS8SW93lAXONCZzV0Tj6ngaTxKy98/3ALEaK9k3VjMEGdX3QA1T4SqGjcq/FK
+fMMVBKrHGVnH+ke1AgMBAAGjggLmMIIC4jAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRquhH09VsL
+5dzkBL5Tzcm/ldp4NzAfBgNVHSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8E
+BAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQwYDVR0fBDwwOjA4oDagNIYyaHR0cHM6Ly9l
+aWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5jcmwwNwYIKwYBBQUHAQEEKzAp
+MCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwggHXBgNVHSAEggHOMIIB
+yjAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlm
+aWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0
+aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQwewYGK0wQ
+BAMBMHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9ybml0b3JlIGRpIHNlcnZpemkgKFNQKSBwcml2
+YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZhdGUtc2VjdG9yIFNlcnZpY2UgUHJvdmlkZXIg
+KFNQKTAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQu
+Z292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUF
+BwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMu
+cGRmMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQ0FAAOCAgEAP21fDEVnA7owirSeq2ki
+b1cFmQM1dL/bSm2qsfv1NtHdbe+Cm69R2JIS6nok9O9ldgSO1TYvoVP15fvcakZj9ZaDHrY3nGGu
+Elh9iOcmraopLysM8d98ZfClwIUx+TzgJqzSaS4wnqR5FxnJu68pAqxwd8LeyzFAtQXInRa4rRZd
+0L/qZLh5ev+haiJT9o+TmECqg/rkZ9/mJQVej+yuTa6EIRw7lmQfbfELA5oh6BuSP6YIEKHV1V5J
+ttcH88zzBYlraMPwdZHjnVY7YEy3c2SjOAXttYGczTMc/WNzrEJ9mHrzFt2xgo9pg7OmMs4Ebr4q
+F9zUY89pAxEoYCaga4TsDSs6WwI7A48SY0qRSPwKQzIUjqMr2cy6h/tQk3RYElWR3PEtNacVZmpi
+LxdBZe6vUSOsbQcgyunanI4HRgWlzfdPYvzaLgDsgBWKZK27kOkpUsfMkoDe0NZA59OFwgyKguxo
+PnsKjsEVNS8RRzAJTeMjxAGDAAJ8lehysF6g6S9fWuanh9lfNzwxQf5QAF2a9yIM+YfqfbnuyocU
+El9ay5x2uzwzmearvx5euwpQ7YZXt9wUYc6iP/gjTuUZ93Ghpga+wHBk4LWc8CNXHiF1x32aF4wI
+As5PZIDQ58TxLyZsnRAYzQEZVm4EltoHarLt0J2tG4GCzbB3Xdei+jU=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+ <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+  <md:KeyDescriptor use="signing">
+   <ds:KeyInfo>
+    <ds:X509Data>
+     <ds:X509Certificate>
+MIIIKTCCBhGgAwIBAgIIOZS7r/RflAswDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExMjAwMDAw
+MFoXDTM3MDExMTIzNTk1OVowgdUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFs
+aWExDzANBgNVBAcMBk1pbGFubzETMBEGA1UECgwKRG9jdU1JIFNybDETMBEGA1UE
+CwwKRG9jdU1JIFNybDEXMBUGA1UEAwwOc3BpZC5kb2N1bWkuaXQxIzAhBgkqhkiG
+9w0BCQEWFGFzc2lzdGVuemFAZG9jdW1pLml0MRowGAYDVQRhDBFWQVRJVC0xMjI4
+MTc0MDE1NDEgMB4GA1UEUwwXaHR0cHM6Ly9zcGlkLmRvY3VtaS5pdC8wggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxX86s7QIjtMQzmlsfsDcd2cV8+G5K
+KY4rkVLnNqxzocl9YQw4ouvr8eHBZj0G1qojJa8WN0rAC/Y/4u8CvF69h4m7CdQ/
+SaN9HRf/MgJOZYH55weuJdCkFCvEucviqzS/z1F5IaPSNGfvDiAdjEZFPnQaA2+Z
+Kk1wqfo8azhMXS8lThOJtXteNKfnQ1uPgzhHixQq/DqzvejFXZwy67T4HbKImGsm
+IYNMqtBOMi84YJZBmQOBpNCkFqXdR8XpsJBnbdmnGyFbS8SW93lAXONCZzV0Tj6n
+gaTxKy98/3ALEaK9k3VjMEGdX3QA1T4SqGjcq/FKfMMVBKrHGVnH+ke1AgMBAAGj
+ggLmMIIC4jAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRquhH09VsL5dzkBL5Tzcm/
+ldp4NzAfBgNVHSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8E
+BAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQwYDVR0fBDwwOjA4oDagNIYy
+aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5j
+cmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0Eu
+YWdpZC5nb3YuaXQwggHXBgNVHSAEggHOMIIByjAJBgcEAI5GAQYCMIGVBgQrTBAG
+MIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9y
+bWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZp
+Y2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQw
+ewYGK0wQBAMBMHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9ybml0b3JlIGRpIHNl
+cnZpemkgKFNQKSBwcml2YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZhdGUt
+c2VjdG9yIFNlcnZpY2UgUHJvdmlkZXIgKFNQKTAIBgYEAI96AQMwTQYEK0wQBDBF
+MEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lE
+X2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdo
+dHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9j
+cHMucGRmMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQ0FAAOCAgEAP21f
+DEVnA7owirSeq2kib1cFmQM1dL/bSm2qsfv1NtHdbe+Cm69R2JIS6nok9O9ldgSO
+1TYvoVP15fvcakZj9ZaDHrY3nGGuElh9iOcmraopLysM8d98ZfClwIUx+TzgJqzS
+aS4wnqR5FxnJu68pAqxwd8LeyzFAtQXInRa4rRZd0L/qZLh5ev+haiJT9o+TmECq
+g/rkZ9/mJQVej+yuTa6EIRw7lmQfbfELA5oh6BuSP6YIEKHV1V5JttcH88zzBYlr
+aMPwdZHjnVY7YEy3c2SjOAXttYGczTMc/WNzrEJ9mHrzFt2xgo9pg7OmMs4Ebr4q
+F9zUY89pAxEoYCaga4TsDSs6WwI7A48SY0qRSPwKQzIUjqMr2cy6h/tQk3RYElWR
+3PEtNacVZmpiLxdBZe6vUSOsbQcgyunanI4HRgWlzfdPYvzaLgDsgBWKZK27kOkp
+UsfMkoDe0NZA59OFwgyKguxoPnsKjsEVNS8RRzAJTeMjxAGDAAJ8lehysF6g6S9f
+Wuanh9lfNzwxQf5QAF2a9yIM+YfqfbnuyocUEl9ay5x2uzwzmearvx5euwpQ7YZX
+t9wUYc6iP/gjTuUZ93Ghpga+wHBk4LWc8CNXHiF1x32aF4wIAs5PZIDQ58TxLyZs
+nRAYzQEZVm4EltoHarLt0J2tG4GCzbB3Xdei+jU=
+     </ds:X509Certificate>
+    </ds:X509Data>
+   </ds:KeyInfo>
+  </md:KeyDescriptor>
+  <md:KeyDescriptor use="encryption">
+   <ds:KeyInfo>
+    <ds:X509Data>
+     <ds:X509Certificate>
+MIIIKTCCBhGgAwIBAgIIOZS7r/RflAswDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExMjAwMDAw
+MFoXDTM3MDExMTIzNTk1OVowgdUxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZJdGFs
+aWExDzANBgNVBAcMBk1pbGFubzETMBEGA1UECgwKRG9jdU1JIFNybDETMBEGA1UE
+CwwKRG9jdU1JIFNybDEXMBUGA1UEAwwOc3BpZC5kb2N1bWkuaXQxIzAhBgkqhkiG
+9w0BCQEWFGFzc2lzdGVuemFAZG9jdW1pLml0MRowGAYDVQRhDBFWQVRJVC0xMjI4
+MTc0MDE1NDEgMB4GA1UEUwwXaHR0cHM6Ly9zcGlkLmRvY3VtaS5pdC8wggEiMA0G
+CSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCxX86s7QIjtMQzmlsfsDcd2cV8+G5K
+KY4rkVLnNqxzocl9YQw4ouvr8eHBZj0G1qojJa8WN0rAC/Y/4u8CvF69h4m7CdQ/
+SaN9HRf/MgJOZYH55weuJdCkFCvEucviqzS/z1F5IaPSNGfvDiAdjEZFPnQaA2+Z
+Kk1wqfo8azhMXS8lThOJtXteNKfnQ1uPgzhHixQq/DqzvejFXZwy67T4HbKImGsm
+IYNMqtBOMi84YJZBmQOBpNCkFqXdR8XpsJBnbdmnGyFbS8SW93lAXONCZzV0Tj6n
+gaTxKy98/3ALEaK9k3VjMEGdX3QA1T4SqGjcq/FKfMMVBKrHGVnH+ke1AgMBAAGj
+ggLmMIIC4jAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRquhH09VsL5dzkBL5Tzcm/
+ldp4NzAfBgNVHSMEGDAWgBScRTDETQ+g+iYPqdb8INYHbM5kVjAOBgNVHQ8BAf8E
+BAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQwYDVR0fBDwwOjA4oDagNIYy
+aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfcHJpdl9TQS5j
+cmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0Eu
+YWdpZC5nb3YuaXQwggHXBgNVHSAEggHOMIIByjAJBgcEAI5GAQYCMIGVBgQrTBAG
+MIGMMEQGCCsGAQUFBwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9y
+bWluZyB3aXRoIEFHSUQgR3VpZGVsaW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZp
+Y2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxlIExpbmVlIGd1aWRhIEFnSUQw
+ewYGK0wQBAMBMHEwNQYIKwYBBQUHAgIwKRonU1BJRDogZm9ybml0b3JlIGRpIHNl
+cnZpemkgKFNQKSBwcml2YXRvMDgGCCsGAQUFBwICMCwaKlNQSUQ6IHByaXZhdGUt
+c2VjdG9yIFNlcnZpY2UgUHJvdmlkZXIgKFNQKTAIBgYEAI96AQMwTQYEK0wQBDBF
+MEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lE
+X2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdo
+dHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9j
+cHMucGRmMBEGCWCGSAGG+EIBAQQEAwIABzANBgkqhkiG9w0BAQ0FAAOCAgEAP21f
+DEVnA7owirSeq2kib1cFmQM1dL/bSm2qsfv1NtHdbe+Cm69R2JIS6nok9O9ldgSO
+1TYvoVP15fvcakZj9ZaDHrY3nGGuElh9iOcmraopLysM8d98ZfClwIUx+TzgJqzS
+aS4wnqR5FxnJu68pAqxwd8LeyzFAtQXInRa4rRZd0L/qZLh5ev+haiJT9o+TmECq
+g/rkZ9/mJQVej+yuTa6EIRw7lmQfbfELA5oh6BuSP6YIEKHV1V5JttcH88zzBYlr
+aMPwdZHjnVY7YEy3c2SjOAXttYGczTMc/WNzrEJ9mHrzFt2xgo9pg7OmMs4Ebr4q
+F9zUY89pAxEoYCaga4TsDSs6WwI7A48SY0qRSPwKQzIUjqMr2cy6h/tQk3RYElWR
+3PEtNacVZmpiLxdBZe6vUSOsbQcgyunanI4HRgWlzfdPYvzaLgDsgBWKZK27kOkp
+UsfMkoDe0NZA59OFwgyKguxoPnsKjsEVNS8RRzAJTeMjxAGDAAJ8lehysF6g6S9f
+Wuanh9lfNzwxQf5QAF2a9yIM+YfqfbnuyocUEl9ay5x2uzwzmearvx5euwpQ7YZX
+t9wUYc6iP/gjTuUZ93Ghpga+wHBk4LWc8CNXHiF1x32aF4wIAs5PZIDQ58TxLyZs
+nRAYzQEZVm4EltoHarLt0J2tG4GCzbB3Xdei+jU=
+     </ds:X509Certificate>
+    </ds:X509Data>
+   </ds:KeyInfo>
+  </md:KeyDescriptor>
+  <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.documi.it/signout-spid"/>    
+  <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.documi.it/signin-spid" index="0" isDefault="true"/>
+  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.documi.it/signin-spid?audit-trail" index="1"/>        
+  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.documi.it/signin-spid?audit-trail-professionale" index="2"/>        
+  <md:AttributeConsumingService index="0">
+	<md:ServiceName xml:lang="it">SPID autenticazione</md:ServiceName>
+	<md:ServiceDescription xml:lang="it">SPID autenticazione</md:ServiceDescription>
+	<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>   
+  </md:AttributeConsumingService>
+  <md:AttributeConsumingService index="1">
+   <md:ServiceName xml:lang="it">SPID audit trail</md:ServiceName>
+   <md:ServiceDescription xml:lang="it">SPID audit trail</md:ServiceDescription>
+   <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>   
+   <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+  </md:AttributeConsumingService>  
+  <md:AttributeConsumingService index="2">
+   <md:ServiceName xml:lang="it">SPID audit trail professionale</md:ServiceName>
+   <md:ServiceDescription xml:lang="it">SPID audit professionale</md:ServiceDescription>
+   <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>   
+   <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>     
+   <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>   
+  </md:AttributeConsumingService>  
+ </md:SPSSODescriptor>
+ <md:Organization>
+  <md:OrganizationName xml:lang="it">DocuMI Srl</md:OrganizationName>
+  <md:OrganizationDisplayName xml:lang="it">DocuMI Srl</md:OrganizationDisplayName>
+  <md:OrganizationURL xml:lang="it">https://spid.documi.it</md:OrganizationURL>
+ </md:Organization>
+ <md:ContactPerson contactType="other">
+ <md:Extensions>
+ <spid:VATNumber>IT12281740154</spid:VATNumber> 
+ <spid:Private/>
+ </md:Extensions>
+ <md:Company>DocuMI Srl</md:Company>
+ <md:EmailAddress>assistenza@documi.it</md:EmailAddress>
+ <md:TelephoneNumber>+390249523750</md:TelephoneNumber>  
+</md:ContactPerson> 
+<md:ContactPerson contactType="billing">
+<md:Extensions>
+<fpa:CessionarioCommittente>
+<fpa:DatiAnagrafici>
+<fpa:IdFiscaleIVA>
+<fpa:IdPaese>IT</fpa:IdPaese>
+<fpa:IdCodice>12281740154</fpa:IdCodice>
+</fpa:IdFiscaleIVA>
+<fpa:Anagrafica>
+<fpa:Denominazione>Francesco Foglio</fpa:Denominazione>
+</fpa:Anagrafica>
+</fpa:DatiAnagrafici>
+<fpa:Sede>
+<fpa:Indirizzo>Via Emanuele Filiberto</fpa:Indirizzo>
+<fpa:NumeroCivico>4</fpa:NumeroCivico>
+<fpa:CAP>20149</fpa:CAP>
+<fpa:Comune>Milano</fpa:Comune>
+<fpa:Provincia>MI</fpa:Provincia>
+<fpa:Nazione>IT</fpa:Nazione>
+</fpa:Sede>
+</fpa:CessionarioCommittente>
+</md:Extensions>
+<md:Company>DocuMI Srl</md:Company>
+<md:EmailAddress>assistenza@documi.it</md:EmailAddress>
+<md:TelephoneNumber>+390249523750</md:TelephoneNumber>
+</md:ContactPerson>
+</md:EntityDescriptor>

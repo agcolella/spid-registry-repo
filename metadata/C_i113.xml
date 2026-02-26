@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxb168fe55-3050-cd72-e65f-bb6ea2474b24" entityID="https://www.comune.sanpietroinfine.ce.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxb168fe55-3050-cd72-e65f-bb6ea2474b24">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>+dWrZ4bFWlBKYHic3yJfhk6HyQ32Zvpo9ais1sBAK+4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+EQ814kjdOd9IWPo0XkaYCFx22S9HUFZdoMNGC6UIW0G4oNa4qoiH034cagEGvzknvTT5B6EecINx
+c2wVA3ePoi4kdmP9WT9BqETUh67XJOJZiyG6Astur2DSGe60CCN4FFVyQcaz264ZtOpOFKmGna4B
+ze7ISvx0XFdjzQsGsUvJ5PTSAbtsyL4y4J+yKdB33+ZCadjMdeXc4PMiCQetyxyGMuILJGWdNGWl
+K5QUOmIqifIYUdTfIGjwg440cyK3LLyrr5JF0wCTF9nF271ibkPOAwE2psXqTBdZ3E96l9xLxBGr
+FYP/H/DQTEpMpWtUvNw+879NrEmnBqrUUUHFOg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+wZfI4xmkqTLbYMKMo5U1JEX38+G8LHPjzXoEO1CaHjYKR9v9z4vkYRhBkBots/cAkruZbszwvSTw
+MeDAPkknK9zXFKFezcRXBntedddlxcYuA+BXiv38QnjwSaZLiY8NhsLwx0OmAB+zg+K2FxOXYzxL
+nOhzxkhaA42Y2GnJxF3f6Uc/3opL5UtFimM56ffQ7M3mXtxKLHjB0g4K0YvhlaDCEjF2H+ocQ9pm
+AY/v0gOV2DEQqu2VKnBJHjExtx1WAdgqWwHVQvPVqI3X8BAdOWQkHungBxZSYgynnIoy9nlfSpiv
+D3jUmT4mkaSoX6HFuZnNCesjle1+hmpOngpXIQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID6TCCAtGgAwIBAgIJAPgnKmJqZEfoMA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNhbiBQaWV0cm8gSW5maW5lMSQwIgYDVQQKDBtDb211
+bmUgZGkgU2FuIFBpZXRybyBJbmZpbmUxKTAnBgNVBAMMIHd3dy5jb211bmUuc2FucGlldHJvaW5m
+aW5lLmNlLml0MB4XDTIyMDEwNDA5MzQ1NFoXDTMyMDEwNDA5MzQ1NFowgYoxCzAJBgNVBAYTAklU
+MQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRU2FuIFBpZXRybyBJbmZpbmUxJDAiBgNVBAoMG0Nv
+bXVuZSBkaSBTYW4gUGlldHJvIEluZmluZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW5waWV0cm9p
+bmZpbmUuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBl8jjGaSpMttgwoyj
+lTUkRffz4bwsc+PNegQ7UJoeNgpH2/3Pi+RhGEGQGi2z9wCSu5luzPC9JPAx4MA+SScr3NcUoV7N
+xFcGe15112XFxi4D4FeK/fxCePBJpkuJjw2GwvDHQ6YAH7OD4rYXE5djPEuc6HPGSFoDjZjYacnE
+Xd/pRz/eikvlS0WKYznp99DszeZe3EoseMHSDgrRi+GVoMISMXYf6hxD2mYBj+/SA5XYMRCq7ZUq
+cEkeMTG3HVYB2CpbAdVC89WojdfwEB05ZCQe6eAHFlJiDKecijL2eV9KmK8PeNSZPiaRpKhfocW5
+mc0J6yOV7X6Gak6eClchAgMBAAGjUDBOMB0GA1UdDgQWBBQJFsjZ3f1OOd6LxnpQefT2dvsTijAf
+BgNVHSMEGDAWgBQJFsjZ3f1OOd6LxnpQefT2dvsTijAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEB
+CwUAA4IBAQC/CkDxXDdTcYDIgmw8R1wBfHxDIKOQuH9Y43DonmF/I7OCzeWcnVq75x5mMgD+M7N/
+DiL28EuOaqMzsWh4j7MrLFaCVexx0jaD4siSvCiC4MXo4uohjxRyAZvdpaEDZLRpB6SfBRpBNGcW
+n2zJlPMXXxZ9eXNwvmz6kQQnhJNfFJHSQSiCsjdrVFjtcKTJGNArxeokybVO0qLV+F9Gfry4I2jY
+A0TzgS1BehEBFWjOsEmtph2hqxt0NONBmnbzuexBks2Qu07ZRA5CvO9w/ereRS/AqfByrnmnwrvW
+HGAAX0DTiNUPX4LDXCHXeMDQeSebsSk2jsECoCd8yrNI+WWq
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6TCCAtGgAwIBAgIJAPgnKmJqZEfoMA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNhbiBQaWV0cm8gSW5maW5lMSQwIgYDVQQKDBtDb211bmUgZGkgU2FuIFBpZXRybyBJbmZpbmUxKTAnBgNVBAMMIHd3dy5jb211bmUuc2FucGlldHJvaW5maW5lLmNlLml0MB4XDTIyMDEwNDA5MzQ1NFoXDTMyMDEwNDA5MzQ1NFowgYoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRU2FuIFBpZXRybyBJbmZpbmUxJDAiBgNVBAoMG0NvbXVuZSBkaSBTYW4gUGlldHJvIEluZmluZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW5waWV0cm9pbmZpbmUuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBl8jjGaSpMttgwoyjlTUkRffz4bwsc+PNegQ7UJoeNgpH2/3Pi+RhGEGQGi2z9wCSu5luzPC9JPAx4MA+SScr3NcUoV7NxFcGe15112XFxi4D4FeK/fxCePBJpkuJjw2GwvDHQ6YAH7OD4rYXE5djPEuc6HPGSFoDjZjYacnEXd/pRz/eikvlS0WKYznp99DszeZe3EoseMHSDgrRi+GVoMISMXYf6hxD2mYBj+/SA5XYMRCq7ZUqcEkeMTG3HVYB2CpbAdVC89WojdfwEB05ZCQe6eAHFlJiDKecijL2eV9KmK8PeNSZPiaRpKhfocW5mc0J6yOV7X6Gak6eClchAgMBAAGjUDBOMB0GA1UdDgQWBBQJFsjZ3f1OOd6LxnpQefT2dvsTijAfBgNVHSMEGDAWgBQJFsjZ3f1OOd6LxnpQefT2dvsTijAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC/CkDxXDdTcYDIgmw8R1wBfHxDIKOQuH9Y43DonmF/I7OCzeWcnVq75x5mMgD+M7N/DiL28EuOaqMzsWh4j7MrLFaCVexx0jaD4siSvCiC4MXo4uohjxRyAZvdpaEDZLRpB6SfBRpBNGcWn2zJlPMXXxZ9eXNwvmz6kQQnhJNfFJHSQSiCsjdrVFjtcKTJGNArxeokybVO0qLV+F9Gfry4I2jYA0TzgS1BehEBFWjOsEmtph2hqxt0NONBmnbzuexBks2Qu07ZRA5CvO9w/ereRS/AqfByrnmnwrvWHGAAX0DTiNUPX4LDXCHXeMDQeSebsSk2jsECoCd8yrNI+WWq</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID6TCCAtGgAwIBAgIJAPgnKmJqZEfoMA0GCSqGSIb3DQEBCwUAMIGKMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGjAYBgNVBAcMEVNhbiBQaWV0cm8gSW5maW5lMSQwIgYDVQQKDBtDb211bmUgZGkgU2FuIFBpZXRybyBJbmZpbmUxKTAnBgNVBAMMIHd3dy5jb211bmUuc2FucGlldHJvaW5maW5lLmNlLml0MB4XDTIyMDEwNDA5MzQ1NFoXDTMyMDEwNDA5MzQ1NFowgYoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEaMBgGA1UEBwwRU2FuIFBpZXRybyBJbmZpbmUxJDAiBgNVBAoMG0NvbXVuZSBkaSBTYW4gUGlldHJvIEluZmluZTEpMCcGA1UEAwwgd3d3LmNvbXVuZS5zYW5waWV0cm9pbmZpbmUuY2UuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBl8jjGaSpMttgwoyjlTUkRffz4bwsc+PNegQ7UJoeNgpH2/3Pi+RhGEGQGi2z9wCSu5luzPC9JPAx4MA+SScr3NcUoV7NxFcGe15112XFxi4D4FeK/fxCePBJpkuJjw2GwvDHQ6YAH7OD4rYXE5djPEuc6HPGSFoDjZjYacnEXd/pRz/eikvlS0WKYznp99DszeZe3EoseMHSDgrRi+GVoMISMXYf6hxD2mYBj+/SA5XYMRCq7ZUqcEkeMTG3HVYB2CpbAdVC89WojdfwEB05ZCQe6eAHFlJiDKecijL2eV9KmK8PeNSZPiaRpKhfocW5mc0J6yOV7X6Gak6eClchAgMBAAGjUDBOMB0GA1UdDgQWBBQJFsjZ3f1OOd6LxnpQefT2dvsTijAfBgNVHSMEGDAWgBQJFsjZ3f1OOd6LxnpQefT2dvsTijAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQC/CkDxXDdTcYDIgmw8R1wBfHxDIKOQuH9Y43DonmF/I7OCzeWcnVq75x5mMgD+M7N/DiL28EuOaqMzsWh4j7MrLFaCVexx0jaD4siSvCiC4MXo4uohjxRyAZvdpaEDZLRpB6SfBRpBNGcWn2zJlPMXXxZ9eXNwvmz6kQQnhJNfFJHSQSiCsjdrVFjtcKTJGNArxeokybVO0qLV+F9Gfry4I2jYA0TzgS1BehEBFWjOsEmtph2hqxt0NONBmnbzuexBks2Qu07ZRA5CvO9w/ereRS/AqfByrnmnwrvWHGAAX0DTiNUPX4LDXCHXeMDQeSebsSk2jsECoCd8yrNI+WWq</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.sanpietroinfine.ce.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.sanpietroinfine.ce.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di San Pietro Infine</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di San Pietro Infine</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.sanpietroinfine.ce.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>C_i113</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di San Pietro Infine</md:Company>
+    <md:EmailAddress>sindaco@comune.sanpietroinfine.ce.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

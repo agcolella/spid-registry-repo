@@ -1,0 +1,363 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx29113a21-6f67-fe0e-ddd0-5c426223710f" entityID="https://www.comune.montebelluna.tv.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx29113a21-6f67-fe0e-ddd0-5c426223710f">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    ST9aecxoLqoVPuW88XZ1lEK2bMkQCm7kzU3FB7BQE9k=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+gXbWowpULSyFhoz6Dv/dfBYjKQew9lYg8El6FzHp5gjTrQR56xLoHX3cxwxc1crUjOWRNd1b069q
+5w1yWTkAqoiMw/E7X0LJ8f2AY85Piq40BWcw2vLJESVsqy5Voa3wnjkSR3hxNHG0h+dXarBbBFoy
+k3YsPTvGsYaiTx0wXfuL6l9wDQM00zTunSidwiAB8pay4gNkZ2q2eqAm0mtNgJ2sWH8s/CpPaT5P
+ho6RLXbLHGMMWgg3xR5la36cUd3DEAnAUUxgmN4VzMz7+tFpI8BO77UoWo7zuTdCpK4YxpTVuUap
+GixDPyRM5tms0wQmdfUPd4FjNyWuoWayZRsAzg==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+qkOdrJ3IHJNL10o7yE+CQswyG9tXrF8lsuCa++dtF/QnyjhbyC7m5vetTis8mOK4rvk7cSXTmfUC
+hIc555H0Ru58GCs+rNQ88hp55AxwYME0KDIiSoeOoI2lu78VVksf6OHfshEcV9Br3SxFk2Rfxr+g
++5uiU9PWjQjl+UaT8pkLqs4qm7lI8DUyyoDShDKl4yAay2Jj9dEmwwoEcZ469aQJlJTnq3EUPKS5
+RZjL4IhkH2czmrJSbRx9zHzrh/KeX2p9iOvtRsXnD1TIud0vVTmaNf/474isBwdQ2N1o4Tg17XZR
+C8evx+dX606KGxsn8HPVJANOXbsMDuHahrc4HQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDzTCCArWgAwIBAgIJAN+niRwOb7+QMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkg
+TW9udGViZWxsdW5hMSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDAeFw0y
+MjAxMzExMDQ1MjJaFw0zMjAxMzExMDQ1MjJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFs
+eTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkgTW9udGViZWxsdW5h
+MSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDCCASIwDQYJKoZIhvcNAQEB
+BQADggEPADCCAQoCggEBAKpDnaydyByTS9dKO8hPgkLMMhvbV6xfJbLgmvvnbRf0J8o4W8gu5ub3
+rU4rPJjiuK75O3El05n1AoSHOeeR9EbufBgrPqzUPPIaeeQMcGDBNCgyIkqHjqCNpbu/FVZLH+jh
+37IRHFfQa90sRZNkX8a/oPubolPT1o0I5flGk/KZC6rOKpu5SPA1MsqA0oQypeMgGstiY/XRJsMK
+BHGeOvWkCZSU56txFDykuUWYy+CIZB9nM5qyUm0cfcx864fynl9qfYjr7UbF5w9UyLndL1U5mjX/
++O+IrAcHUNjdaOE4Ne12UQvHr8fnV+tOihsbJ/Bz1SQDTl27DA7h2oa3OB0CAwEAAaNQME4wHQYD
+VR0OBBYEFAjCz6jBampDWvw3BBNazMt8aQTCMB8GA1UdIwQYMBaAFAjCz6jBampDWvw3BBNazMt8
+aQTCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIgUg10rcaMprryTqrM2zCMab1xU
+xBtRRE2w98di2IASsR5LjqFdW28vhL1BT8z+7H6///DnS+Zbp1D217QIBtc2O+w5w1MV71YVbTBl
+PTE+FTZ2uuuJmzBvGLicoTSWGiG+IvDtmw/SsYjDq62IXmLcSzwPeoYywEfspRr17OxpdPIdYkf8
+/dbis7sNXMglgUEle2dY3hDiRypYePDIYwJQBxcuOQagcFGaM03R2YZhbBBGfDSIf2qZQ5xyuBnD
+3BPNrGen9YpfGElBwqJuaOXlbs3U33nxe+4BoSK9Du4+NPKBm1QNV16A42QHdrOo3K4tAgEO7KNy
+Xen5xlJCdek=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDzTCCArWgAwIBAgIJAN+niRwOb7+QMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkgTW9udGViZWxsdW5hMSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDAeFw0yMjAxMzExMDQ1MjJaFw0zMjAxMzExMDQ1MjJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkgTW9udGViZWxsdW5hMSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKpDnaydyByTS9dKO8hPgkLMMhvbV6xfJbLgmvvnbRf0J8o4W8gu5ub3rU4rPJjiuK75O3El05n1AoSHOeeR9EbufBgrPqzUPPIaeeQMcGDBNCgyIkqHjqCNpbu/FVZLH+jh37IRHFfQa90sRZNkX8a/oPubolPT1o0I5flGk/KZC6rOKpu5SPA1MsqA0oQypeMgGstiY/XRJsMKBHGeOvWkCZSU56txFDykuUWYy+CIZB9nM5qyUm0cfcx864fynl9qfYjr7UbF5w9UyLndL1U5mjX/+O+IrAcHUNjdaOE4Ne12UQvHr8fnV+tOihsbJ/Bz1SQDTl27DA7h2oa3OB0CAwEAAaNQME4wHQYDVR0OBBYEFAjCz6jBampDWvw3BBNazMt8aQTCMB8GA1UdIwQYMBaAFAjCz6jBampDWvw3BBNazMt8aQTCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIgUg10rcaMprryTqrM2zCMab1xUxBtRRE2w98di2IASsR5LjqFdW28vhL1BT8z+7H6///DnS+Zbp1D217QIBtc2O+w5w1MV71YVbTBlPTE+FTZ2uuuJmzBvGLicoTSWGiG+IvDtmw/SsYjDq62IXmLcSzwPeoYywEfspRr17OxpdPIdYkf8/dbis7sNXMglgUEle2dY3hDiRypYePDIYwJQBxcuOQagcFGaM03R2YZhbBBGfDSIf2qZQ5xyuBnD3BPNrGen9YpfGElBwqJuaOXlbs3U33nxe+4BoSK9Du4+NPKBm1QNV16A42QHdrOo3K4tAgEO7KNyXen5xlJCdek=
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDzTCCArWgAwIBAgIJAN+niRwOb7+QMA0GCSqGSIb3DQEBCwUAMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkgTW9udGViZWxsdW5hMSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDAeFw0yMjAxMzExMDQ1MjJaFw0zMjAxMzExMDQ1MjJaMH0xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTW9udGViZWxsdW5hMR8wHQYDVQQKDBZDb211bmUgZGkgTW9udGViZWxsdW5hMSYwJAYDVQQDDB13d3cuY29tdW5lLm1vbnRlYmVsbHVuYS50di5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKpDnaydyByTS9dKO8hPgkLMMhvbV6xfJbLgmvvnbRf0J8o4W8gu5ub3rU4rPJjiuK75O3El05n1AoSHOeeR9EbufBgrPqzUPPIaeeQMcGDBNCgyIkqHjqCNpbu/FVZLH+jh37IRHFfQa90sRZNkX8a/oPubolPT1o0I5flGk/KZC6rOKpu5SPA1MsqA0oQypeMgGstiY/XRJsMKBHGeOvWkCZSU56txFDykuUWYy+CIZB9nM5qyUm0cfcx864fynl9qfYjr7UbF5w9UyLndL1U5mjX/+O+IrAcHUNjdaOE4Ne12UQvHr8fnV+tOihsbJ/Bz1SQDTl27DA7h2oa3OB0CAwEAAaNQME4wHQYDVR0OBBYEFAjCz6jBampDWvw3BBNazMt8aQTCMB8GA1UdIwQYMBaAFAjCz6jBampDWvw3BBNazMt8aQTCMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIgUg10rcaMprryTqrM2zCMab1xUxBtRRE2w98di2IASsR5LjqFdW28vhL1BT8z+7H6///DnS+Zbp1D217QIBtc2O+w5w1MV71YVbTBlPTE+FTZ2uuuJmzBvGLicoTSWGiG+IvDtmw/SsYjDq62IXmLcSzwPeoYywEfspRr17OxpdPIdYkf8/dbis7sNXMglgUEle2dY3hDiRypYePDIYwJQBxcuOQagcFGaM03R2YZhbBBGfDSIf2qZQ5xyuBnD3BPNrGen9YpfGElBwqJuaOXlbs3U33nxe+4BoSK9Du4+NPKBm1QNV16A42QHdrOo3K4tAgEO7KNyXen5xlJCdek=
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.montebelluna.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vurp.comune.montebelluna.tv.it/spid/logout"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.montebelluna.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vurp.comune.montebelluna.tv.it/spid/acs" index="1"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="2">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                VURP
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Istanze Online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Montebelluna
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Montebelluna
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.montebelluna.tv.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f443
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Montebelluna
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            sic@comune.montebelluna.tv.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

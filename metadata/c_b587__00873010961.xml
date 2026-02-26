@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_12x4f6h2e2zx1y6s4ni8x3401s34ff77" entityID="https://spid.auth.starch.it/pub-ag-full/B587">
+  <ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+    <ds:Reference URI="#_12x4f6h2e2zx1y6s4ni8x3401s34ff77">
+      <ds:Transforms>
+        <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+        <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      </ds:Transforms>
+      <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+      <ds:DigestValue>DKVxEMByp5fiLlWcctlpw6Lrj5QTR0SF1epf2fYTmao=</ds:DigestValue>
+    </ds:Reference>
+  </ds:SignedInfo>
+  <ds:SignatureValue>oEL/maNGCqkXsX+Sk597K531qtYXSzGjvf+fCRT8iFset1QBsAbByqCrc5l9zK/+63l1xWV29g1Vv1Bxraf3+Tl2WOE5mxX/2IshmcLWLVfxrKDiyf61zC8on0GwEyer3kTtfzG9+np3QmaskifQKGdEodgzdI/HxPBwZ0PRHZE0YFVC9Yz0V5QmxQt4uOe4UhARex5qsy6AfKroV46OxTe5/MsUfU6c4IMSFRzqsAECxFJrQjyTt5HJR2efo2+Vu2bTTGlCWzJhBUMgvl/q4XpuSLjNvptPLC6Senf4wkVqzq8qt7PI5AOk38pyRx+eoMxQ4tJc0YQAqNjFJJd+CQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:KeyValue>
+      <ds:RSAKeyValue><ds:Modulus>xfsPsTeGw45yCwTLIa1Pa0DZZnoPnYfDl7hMiaWj33XTN0HOIBoiqYau1m2Rbu5KVhkPqE3Ywj/QqZk4mIckCFLcU1vhMxz6HNlcjNvT1Vlnbsdj+OFU3EqYq8xTu0c4Zaxf5e+QMZD34lAWiwvPxhrTaSOfAtmDS1QRD4X5gMaR+hzkbMOI32ubfod/Dpe9UDT3aovEJr9uX6GpbvU7Whu3UhxM/nq0+Z1vKw1ccxThLHxXqZtpRAcfKQd5qkTZDj8t0r4/wMLdAzaLUTpzbpXZULvSmVUoTelArl52hYTPDtPZrP9kz5BeXJsMfpuwREah8yqkavN3O38hKf8tvQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue>
+    </ds:KeyValue>
+    <ds:X509Data>
+      <ds:X509Certificate>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</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGxDCCBKygAwIBAgIIeBatgvIxfhwwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTExOTAwMDAwMFoX
+DTM1MTExODIzNTk1OVowgcoxCzAJBgNVBAYTAklUMRgwFgYDVQQIDA9Nb256YSBl
+IEJyaWFuemExDzANBgNVBAcMBk9ybmFnbzETMBEGA1UECgwKU3RhcmNoIHNybDEP
+MA0GA1UEAwwGU3RhcmNoMSgwJgYJKoZIhvcNAQkBFhlhbW1pbmlzdHJhemlvbmVA
+c3RhcmNoLml0MRowGAYDVQRhDBFWQVRJVC0wMDg3MzAxMDk2MTEkMCIGA1UEUwwb
+aHR0cHM6Ly9zcGlkLmF1dGguc3RhcmNoLml0MIIBIjANBgkqhkiG9w0BAQEFAAOC
+AQ8AMIIBCgKCAQEAxfsPsTeGw45yCwTLIa1Pa0DZZnoPnYfDl7hMiaWj33XTN0HO
+IBoiqYau1m2Rbu5KVhkPqE3Ywj/QqZk4mIckCFLcU1vhMxz6HNlcjNvT1Vlnbsdj
++OFU3EqYq8xTu0c4Zaxf5e+QMZD34lAWiwvPxhrTaSOfAtmDS1QRD4X5gMaR+hzk
+bMOI32ubfod/Dpe9UDT3aovEJr9uX6GpbvU7Whu3UhxM/nq0+Z1vKw1ccxThLHxX
+qZtpRAcfKQd5qkTZDj8t0r4/wMLdAzaLUTpzbpXZULvSmVUoTelArl52hYTPDtPZ
+rP9kz5BeXJsMfpuwREah8yqkavN3O38hKf8tvQIDAQABo4IBjzCCAYswDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUx98mtmicw4dHqIPmIFGW7CLG3zIwHwYDVR0jBBgw
+FoAUPLtt6x79nW7L7lTm6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBMGA1UdJQQM
+MAoGCCsGAQUFBwMBMEIGA1UdHwQ7MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdp
+ZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1Yl9TQS5jcmwwNwYIKwYBBQUHAQEEKzAp
+MCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdpZC5nb3YuaXQwgZgGA1Ud
+IASBkDCBjTBMBgMrTBAwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjA9BgYrTBAEAgIw
+MzAxBggrBgEFBQcCAjAlGiNDZXJ0aWZpY2F0aSBBZ2dyZWdhdG9yaSBTUCBwdWJi
+bGljaTANBgkqhkiG9w0BAQ0FAAOCAgEALbbfC8QB+o71eTDc3xBsWKB52iHwdA5r
+6xy5OjVAKecDKlFN3Oa82h+2L3QMLEkuVjgtIubVQDtave8sX4SaTdAVV6v3+jDE
+lyokUE9hWadEPDKySN4VHcAq3NoblnvAHK3CGQpDm6VpEytREnP2/nZHAOVH/iVw
+edV84v7dlUTLAFOoJU2YzzoaMywsrfMMRkJm8Wve/bcKHg2CvlV18wHRK/6foefi
+vz951d0ntOvVi/ZgwL5FnfnCcAAZWBA4tLGabem98JaYSf/ALt/vQ32lCbDROcxb
+VKYWARdMFhDs+0jBPmnC3Ml27dnTLvEbWQER2dgMALXmqC/r0ydzxUZ+YaHagB4z
+h4AdhHkAEnzDR7yhn2YgfMHVSVh4HQJ2CC5TwWSNslWIIARXwgt7xnHfDVYTE4CI
+HOMIk8kblTsZsulfWi847ZFAdD4e2dwzhH6lLGx7LA6n/JdA9eh9sG/fApoh+tcw
+Iy/M4TYXE4F0kmiUylEPYJc/puCEE3f9bm7VIlJ5vWZUZYVthdaOTuyog6n6/yEs
+46X8Ou9cRzvajYf9K/HyWEYg1t6cXmlxq99tMr/cthoiq0Yi8keCnX9rf4YfMVMm
+eZPh08LXD7KEL821vMfQsxfi84XZ6iBN5kbTpYB55xVTTxcc7GvH8r4c102MBV8a
+BPcv8h4AQOU=
+</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.cportal.it/SPID/Logout/B587_AGG_FULL"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth.cportal.it/SPID/ACS/B587_AGG_FULL" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Base</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute Name="email"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Candia Lomellina</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Candia Lomellina</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.cportal.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">        
+    <md:Extensions>      
+      <spid:VATNumber>IT00873010961</spid:VATNumber>
+      <spid:FiscalCode>07795180152</spid:FiscalCode>
+      <spid:PublicServicesFullAggregator/>      
+    </md:Extensions>        
+    <md:Company>Starch srl</md:Company>
+    <md:EmailAddress>amministrazione@starch.it</md:EmailAddress>
+    <md:TelephoneNumber>+3903962860</md:TelephoneNumber>    
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">        
+    <md:Extensions>
+      <spid:IPACode>c_b587</spid:IPACode>  
+	  <spid:Public/>	  
+    </md:Extensions>	
+    <md:Company>Comune di Candia Lomellina</md:Company>
+  </md:ContactPerson>
+</md:EntityDescriptor>

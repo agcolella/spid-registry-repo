@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="Romentino" entityID="https://www.maggioli.it/pub-ag-full/romentino"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Romentino">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>3NfgwDpVgkIjtAz5Z+QBJX7cixhQUXGqYFwExf0lOlM=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+ENZWF6KG9FPYJ5wLE6KGugQk7PAWkhRykm6aB5uHepBg4KkVgzXuOpPpBZkYjN+zpqGGKNQmODy4
+M7morA87xDVkEJ5AJIlBpEJBbTImlRSjqyIdf4MKEN/MYxI9LqomlCFRv3xNwi1YzOrXEfkmze5x
+SmlarcqeFgH6v7qRaThaPd5sxvFamPg7jahJsSjCxfDNYwIqEgoOwX2xku2aXU/YeBvJBywTFXCA
+BOzvekg/2KQX24IfvxrNzuVLMyuU4hkYaaTIgSjL1IqXRfXB7+wYqYUKVih3tM52nfVpxKegPI3C
+RP88VMFY2evmRIijD6AXPCnQu8CHUAEG9HcfMQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qRdppdMy/Qmer8O+1qQQHPFPtpbmH4uLTmv7yOAeCbzN5Ryqkpaw0gTGZGl6bGnSF+TdtI3vsYCg
+Uo/s8GKQWKV0PCGJt4ascob0J5gS5G8aKie1DEiojuJceuZ4jmZGRIojK6c6IehxGrgEr8oYBQJi
+uZq0oNBfGQvjpjssKLQPrvPVvUXbDh5s96fkpDwTjUp2dRLFvNJ8C/JPnlpiGIyNOh7L/20a+iOj
+VApYDcPnqNBjQxoHgIawB46wB9pewwWq5l2TZ890A5JbE7Dn+XPEzREJPcn+ibrv9qFge6CviU6K
+2L4mkJDoQSYHFz52qgPRNzzZPlQdfPO2Lr3Y4w==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIIzCCBgugAwIBAgIIfmUMyGNxFxQwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIwMTIxNjAwMDAw
+MFoXDTM1MTIxNTIzNTk1OVowgeQxCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZSaW1pbmkxITAfBgNV
+BAcMGFNhbnRhcmNhbmdlbG8gZGkgUm9tYWduYTEYMBYGA1UECgwPTWFnZ2lvbGkgUy5wLkEuMRgw
+FgYDVQQDDA93d3cubWFnZ2lvbGkuaXQxLzAtBgkqhkiG9w0BCQEWIHNlZ3JldGVyaWFAbWFnZ2lv
+bGkubGVnYWxtYWlsLml0MRowGAYDVQRhDBFWQVRJVC0wMjA2NjQwMDQwNTEgMB4GA1UEUwwXaHR0
+cHM6Ly93d3cubWFnZ2lvbGkuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpF2ml
+0zL9CZ6vw77WpBAc8U+2luYfi4tOa/vI4B4JvM3lHKqSlrDSBMZkaXpsadIX5N20je+xgKBSj+zw
+YpBYpXQ8IYm3hqxyhvQnmBLkbxoqJ7UMSKiO4lx65niOZkZEiiMrpzoh6HEauASvyhgFAmK5mrSg
+0F8ZC+OmOywotA+u89W9RdsOHmz3p+SkPBONSnZ1EsW80nwL8k+eWmIYjI06Hsv/bRr6I6NUClgN
+w+eo0GNDGgeAhrAHjrAH2l7DBarmXZNnz3QDklsTsOf5c8TNEQk9yf6Juu/2oWB7oK+JTorYviaQ
+kOhBJgcXPnaqA9E3PNk+VB1887YuvdjjAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1Ud
+DgQWBBQnRI5ostHWh+e5L/aYTmBppuw2IDAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfX
+NDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWg
+M4YxaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3Bggr
+BgEFBQcBAQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkG
+A1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ry
+b25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUF
+BwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEg
+QWdJRDB9BgYrTBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcg
+ZGkgc2Vydml6aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMg
+J2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5G
+AQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURB
+U19yb290Q0FfY3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAR0fZGrssHQeNQq79Xy73XozG2Kib
+xu3CkHJuyNa1pEGvpymQa3IJEkFESH0dHEn7Qd8HZPnJmB9w+toUaI85yfxFibSGzGfSUVlBeiRe
+SswgguMXuQlZKsfbaIou6a3nNYsJ1eqPko8/9dhzEGrsvfvb1ZXpX3WWSHdYxSQ+0t4XtrI6Z+g2
+zadreSf8WA9vgV4Z7mU3Hb/KXL+WVD6s+jnXImzlr1/6NosM5bSzcmqEgldVGlr5MthVKYFUyk96
+DnLY4HjQrRTq3KwUu4IRkl9uQY4C0M0HpyvBGzHy/qp1t3191lNNqFzILVdjCU5WO06pwSLVBdW5
+Ok0p+cDgjQPe91daB8jU6k2Ur1mwOb5VAceI0mMri1Jn5Mr/X+1HrRhw41Ki35YO6fRCvijeqXKs
+a9YY7HZ8wtI4RTQ7n2M1qsJsTiTBabsRJZWOTPjmpPeHEl/I1FXxCy3z9Lb7jq+mxqlZ5iQc7K+/
+iKWOFzuL7f8nfOamQsSIQQG63Cbu3gJHj4Qwz8DXMojv6T1UW1BhXQiLXbMbtqKv3s1unEFYe3V7
+r1gliCF3SF3LsG9amMsY6tgpdE0Y+jQpbTsv+0bxRFpL6zWgTOYfgYYB7BET+lDsE2MCSFXoTQpe
+5eKZGWrHU5c/E1bvH8pHbd/zX8kFQujXvWVIbQV+tpNhpHw=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:KeyDescriptor use="encryption">
+         <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+            <ds:X509Data>
+               <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/romentino"/>
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/romentino" index="0" isDefault="true"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/romentino" index="1"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/romentino" index="2"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/romentino" index="99"/>
+      <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/romentino" index="100"/>
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">ServiziSTD</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="1">
+         <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="2">
+         <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+         <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+         <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+         <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+         <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+         <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+         <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+         <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+         <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+         <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+         <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+         <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+         <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+         <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+         <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+         <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="99">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="spidCode"/>
+      </md:AttributeConsumingService>
+      <md:AttributeConsumingService index="100">
+         <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+         <md:RequestedAttribute Name="address"/>
+         <md:RequestedAttribute Name="dateOfBirth"/>
+         <md:RequestedAttribute Name="familyName"/>
+         <md:RequestedAttribute Name="gender"/>
+         <md:RequestedAttribute Name="name"/>
+         <md:RequestedAttribute Name="placeOfBirth"/>
+         <md:RequestedAttribute Name="spidCode"/>
+      </md:AttributeConsumingService>
+   </md:SPSSODescriptor>
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Romentino</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">Comune di Romentino</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://romentino.multeonline.it</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+      <md:Extensions>
+         <spid:VATNumber>02066400405</spid:VATNumber>
+         <spid:FiscalCode>06188330150</spid:FiscalCode>
+         <spid:PublicServicesFullAggregator/>
+      </md:Extensions>
+      <md:Company>Maggioli S.p.A.</md:Company>
+      <md:EmailAddress>segreteria@maggioli.legalmail.it</md:EmailAddress>
+      <md:TelephoneNumber>+390541628380</md:TelephoneNumber>
+   </md:ContactPerson>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+      <md:Extensions>
+         <spid:IPACode>c_h518</spid:IPACode>
+         <spid:Public/>
+      </md:Extensions>
+      <md:Company>Comune di Romentino</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

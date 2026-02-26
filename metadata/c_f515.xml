@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx6d97755f-d6e7-acd3-166f-efad765ad1d0" entityID="https://www.comune.montegaldella.vi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx6d97755f-d6e7-acd3-166f-efad765ad1d0">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>O5dHqhLP5WB2dnkxtcOSDibk3lSgJLewrZ+IGPiPAAE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UlkKEOUoEu6q2WfDUnR8mS4mkGOE+KWcokEwSNnPwDNOLYsEv+oy9O1OA6Vn9ZgF0qCAK5A5xdQM
+jXrZDmIbHvEFDCDUSfjUrLJzwiKlLg9WSRCuAyk4J+5KBFbFddckMv2qVY7ZQCzVIG0muF8Sz7Yn
+67MCmzXxy/QU6iXWXhuEt3QJbg6Wzkj1dBQ954nzjroCzXknJago7B9t2SKksNl/JYLVq8LDKTpX
+Okuh813RoOqnZUtAMPAsL1zUDpG0Yvt3kF7LSXMU4a/t0Ug7ymmEXLFidcflKOV3TH0ov4ee319d
+HPy0BctNN3cCYuYE3562G6SBsGA3VYOWuwE4yA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+q5VqcbTmlWoWUyVa/uD/uzPbpGwqxwESCYaCM8Q0c46STWCAYTLiLdZqsw7j8pVnsL0VenJXn9CM
+G6fElzKKqSyowAd1VYWDPqX9iPCGOWGmkzK5NWkN3Lwd1i7JdqXDV/NUMRWkgEpzS1p50X0y1aeZ
+xXE74p446ypQXuos/ztbUvMGKijaO2AMA40NlEl5Ofe+cAEOlSFdh58pLTI4Rp7/hKn26oY77luo
+bSohgqL8mut4tniXNcnTaCuGRAEuqdu5X2ObQJEFEEdHuyfeMskNeP0XyeNnyhYBC02WVVXFSE/J
+yYD360TW1s5lWasYzBLfftvhtF22tlj2zdVDJw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID1TCCAr2gAwIBAgIJAKktNh4FndbmMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDU1vbnRlZ2FsZGVsbGExIDAeBgNVBAoMF0NvbXVuZSBk
+aSBNb250ZWdhbGRlbGxhMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRlZ2FsZGVsbGEudmkuaXQw
+HhcNMjIwMTI5MDkyMzQ4WhcNMzIwMTI5MDkyMzQ4WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+BUl0YWx5MRYwFAYDVQQHDA1Nb250ZWdhbGRlbGxhMSAwHgYDVQQKDBdDb211bmUgZGkgTW9udGVn
+YWxkZWxsYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5tb250ZWdhbGRlbGxhLnZpLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq5VqcbTmlWoWUyVa/uD/uzPbpGwqxwESCYaCM8Q0c46S
+TWCAYTLiLdZqsw7j8pVnsL0VenJXn9CMG6fElzKKqSyowAd1VYWDPqX9iPCGOWGmkzK5NWkN3Lwd
+1i7JdqXDV/NUMRWkgEpzS1p50X0y1aeZxXE74p446ypQXuos/ztbUvMGKijaO2AMA40NlEl5Ofe+
+cAEOlSFdh58pLTI4Rp7/hKn26oY77luobSohgqL8mut4tniXNcnTaCuGRAEuqdu5X2ObQJEFEEdH
+uyfeMskNeP0XyeNnyhYBC02WVVXFSE/JyYD360TW1s5lWasYzBLfftvhtF22tlj2zdVDJwIDAQAB
+o1AwTjAdBgNVHQ4EFgQUFZN4tPBVlFklq739EGQlcbn3UaowHwYDVR0jBBgwFoAUFZN4tPBVlFkl
+q739EGQlcbn3UaowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAY0rjm0eLSKK4Kd1y
+XKnDNYPR9w1dpkOkW2tuQ0mKUnR7FPKSkjrdz1zLy/6RQhqWMTNsnoGgLvsC6Ov4Po2sIxfxrfBY
+1o0d2kJsvH1XGb3q9Y26ikONhh/lcTLie0PSTgfg93LUK0th5aw87vg+dU8plrX9TUKZIrMY60uI
+/Tuht3i6Hhbhc3K7Jv5hXXf3DW7lstBJa+Po2Q/jKOsE9+Y28kXswNGKrgk85p1pCG17WnviSwCx
+uOZuZKAth4zd83dqdQKbDTcg02GZQ42rKXAQKlIK3srxLAKX2SZkv8BeF4fK31r2dujUHjh4NXZc
+Du57npKJtcM0XOsmchoyKQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAKktNh4FndbmMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDU1vbnRlZ2FsZGVsbGExIDAeBgNVBAoMF0NvbXVuZSBkaSBNb250ZWdhbGRlbGxhMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRlZ2FsZGVsbGEudmkuaXQwHhcNMjIwMTI5MDkyMzQ4WhcNMzIwMTI5MDkyMzQ4WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Nb250ZWdhbGRlbGxhMSAwHgYDVQQKDBdDb211bmUgZGkgTW9udGVnYWxkZWxsYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5tb250ZWdhbGRlbGxhLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq5VqcbTmlWoWUyVa/uD/uzPbpGwqxwESCYaCM8Q0c46STWCAYTLiLdZqsw7j8pVnsL0VenJXn9CMG6fElzKKqSyowAd1VYWDPqX9iPCGOWGmkzK5NWkN3Lwd1i7JdqXDV/NUMRWkgEpzS1p50X0y1aeZxXE74p446ypQXuos/ztbUvMGKijaO2AMA40NlEl5Ofe+cAEOlSFdh58pLTI4Rp7/hKn26oY77luobSohgqL8mut4tniXNcnTaCuGRAEuqdu5X2ObQJEFEEdHuyfeMskNeP0XyeNnyhYBC02WVVXFSE/JyYD360TW1s5lWasYzBLfftvhtF22tlj2zdVDJwIDAQABo1AwTjAdBgNVHQ4EFgQUFZN4tPBVlFklq739EGQlcbn3UaowHwYDVR0jBBgwFoAUFZN4tPBVlFklq739EGQlcbn3UaowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAY0rjm0eLSKK4Kd1yXKnDNYPR9w1dpkOkW2tuQ0mKUnR7FPKSkjrdz1zLy/6RQhqWMTNsnoGgLvsC6Ov4Po2sIxfxrfBY1o0d2kJsvH1XGb3q9Y26ikONhh/lcTLie0PSTgfg93LUK0th5aw87vg+dU8plrX9TUKZIrMY60uI/Tuht3i6Hhbhc3K7Jv5hXXf3DW7lstBJa+Po2Q/jKOsE9+Y28kXswNGKrgk85p1pCG17WnviSwCxuOZuZKAth4zd83dqdQKbDTcg02GZQ42rKXAQKlIK3srxLAKX2SZkv8BeF4fK31r2dujUHjh4NXZcDu57npKJtcM0XOsmchoyKQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID1TCCAr2gAwIBAgIJAKktNh4FndbmMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDU1vbnRlZ2FsZGVsbGExIDAeBgNVBAoMF0NvbXVuZSBkaSBNb250ZWdhbGRlbGxhMScwJQYDVQQDDB53d3cuY29tdW5lLm1vbnRlZ2FsZGVsbGEudmkuaXQwHhcNMjIwMTI5MDkyMzQ4WhcNMzIwMTI5MDkyMzQ4WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Nb250ZWdhbGRlbGxhMSAwHgYDVQQKDBdDb211bmUgZGkgTW9udGVnYWxkZWxsYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5tb250ZWdhbGRlbGxhLnZpLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAq5VqcbTmlWoWUyVa/uD/uzPbpGwqxwESCYaCM8Q0c46STWCAYTLiLdZqsw7j8pVnsL0VenJXn9CMG6fElzKKqSyowAd1VYWDPqX9iPCGOWGmkzK5NWkN3Lwd1i7JdqXDV/NUMRWkgEpzS1p50X0y1aeZxXE74p446ypQXuos/ztbUvMGKijaO2AMA40NlEl5Ofe+cAEOlSFdh58pLTI4Rp7/hKn26oY77luobSohgqL8mut4tniXNcnTaCuGRAEuqdu5X2ObQJEFEEdHuyfeMskNeP0XyeNnyhYBC02WVVXFSE/JyYD360TW1s5lWasYzBLfftvhtF22tlj2zdVDJwIDAQABo1AwTjAdBgNVHQ4EFgQUFZN4tPBVlFklq739EGQlcbn3UaowHwYDVR0jBBgwFoAUFZN4tPBVlFklq739EGQlcbn3UaowDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAY0rjm0eLSKK4Kd1yXKnDNYPR9w1dpkOkW2tuQ0mKUnR7FPKSkjrdz1zLy/6RQhqWMTNsnoGgLvsC6Ov4Po2sIxfxrfBY1o0d2kJsvH1XGb3q9Y26ikONhh/lcTLie0PSTgfg93LUK0th5aw87vg+dU8plrX9TUKZIrMY60uI/Tuht3i6Hhbhc3K7Jv5hXXf3DW7lstBJa+Po2Q/jKOsE9+Y28kXswNGKrgk85p1pCG17WnviSwCxuOZuZKAth4zd83dqdQKbDTcg02GZQ42rKXAQKlIK3srxLAKX2SZkv8BeF4fK31r2dujUHjh4NXZcDu57npKJtcM0XOsmchoyKQ==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.montegaldella.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.montegaldella.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Montegaldella</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Montegaldella</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.montegaldella.vi.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_f515</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Montegaldella</md:Company>
+    <md:EmailAddress>admin@comune.montegaldella.vi.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

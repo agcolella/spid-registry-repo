@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxd18357a7-6cb8-2024-e09b-edacd8f0d44c" entityID="https://www.comune.roccabernarda.kr.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxd18357a7-6cb8-2024-e09b-edacd8f0d44c">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    /7mD6Xcj+u+e/1wlks64h76Q7RV2apt5Z+dI68j7gV4=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+HZRWiggbsGNiir5P/3B9xl+Tbet8YDWsmNNWhUnP8pytOP+uEvdgPahLX4CohKdDSpAFvNXjAdsf
+WIBLzg9yyGlBkH4ojXMlDQUXF6GFGee6y3dCzKcuUkM/V5a8vcmhcWmI4ce95Q5GOcSofBK43arm
+TQpPUBAZ+m9UrdJrIpVJFf00yXuQ7GTC8RzDbEg3C6tVuUu0wRzK0m/k85Rc8aPaOELSWGsp+NhY
+E8ti3/2zAWSse+Kc0NMmVtSxqZqRyQnM9SxMWtsbFlVaGZqm0a82IQF4RuFjRKVvu+p9zXv6hJBM
+ykpoPazyrXOkp73yw0RHNvvPMesG62wOP0ai9g==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+4L4FyMcfC3Jz/5PMeCcxWEpYSzShDh2/4YeC7Uq1gGoGFP8u0IA07ZhGXgpmjXyniVPRBch1mpoR
+qBA+er2NZ+cymj/GlDQ0gF+nHUuz+VJqicrO0f5Bu+gSj03dALh4GP4hz6mDeb3Iu/b8Odig/cq0
+tL36WwIwUCZj98Q1kzAA7L+LymdS4gEum6+UH7dcLPyaj7Dpd/ofGkCuBiyHJHX1CS9DoSsZE22T
+Gne/GvSHAjCv9DsomgFWQtmEbsiSsLGLN61+l4OgeBWXEEAS+8gZrAGigbwFJJcCNkf8e1hb5Q6Q
+7rhgYDwtN4BZMQ2BfD86q4njkTC1TB8vzs/OLw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIID1TCCAr2gAwIBAgIJALe1BjmgAKSkMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVJvY2NhYmVybmFyZGExIDAeBgNVBAoMF0NvbXVuZSBk
+aSBSb2NjYWJlcm5hcmRhMScwJQYDVQQDDB53d3cuY29tdW5lLnJvY2NhYmVybmFyZGEua3IuaXQw
+HhcNMjIwMjAxMDk0NDM3WhcNMzIwMjAxMDk0NDM3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgM
+BUl0YWx5MRYwFAYDVQQHDA1Sb2NjYWJlcm5hcmRhMSAwHgYDVQQKDBdDb211bmUgZGkgUm9jY2Fi
+ZXJuYXJkYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5yb2NjYWJlcm5hcmRhLmtyLml0MIIBIjANBgkq
+hkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4L4FyMcfC3Jz/5PMeCcxWEpYSzShDh2/4YeC7Uq1gGoG
+FP8u0IA07ZhGXgpmjXyniVPRBch1mpoRqBA+er2NZ+cymj/GlDQ0gF+nHUuz+VJqicrO0f5Bu+gS
+j03dALh4GP4hz6mDeb3Iu/b8Odig/cq0tL36WwIwUCZj98Q1kzAA7L+LymdS4gEum6+UH7dcLPya
+j7Dpd/ofGkCuBiyHJHX1CS9DoSsZE22TGne/GvSHAjCv9DsomgFWQtmEbsiSsLGLN61+l4OgeBWX
+EEAS+8gZrAGigbwFJJcCNkf8e1hb5Q6Q7rhgYDwtN4BZMQ2BfD86q4njkTC1TB8vzs/OLwIDAQAB
+o1AwTjAdBgNVHQ4EFgQUyPeTadGaBaE2SJA+QYxxkWODKNwwHwYDVR0jBBgwFoAUyPeTadGaBaE2
+SJA+QYxxkWODKNwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhsX+HSOHVo+aRRLg
+jS7s/arWEqNh4KYIzvbjUF4YNjnAKmEYn804Covh7Qm5Sjk32xtVp4iaJoByTqWQ+NJk15x5TmYX
+dEp+YV/rQ/3jNtSTRcizBOzcYbonJEeT/tgznmTmITtBf+wPcqIyDgRbmUBfthtuCwtQuDoWWQP7
+ZsVGZUX4H9gHDfXqjUssrC+RnhZCHWFLz7EIGzKOFia9Jn8fvdbDbUhaAh9N4/DVVlMgvKikvvri
+5rvLyUw5V5CAnDP5sjqKaX6q8O9quzfSeacmy8JmRZ5sodjfapOVD88bxCzJ8MrW7Ks3CYw1gN05
+cMNA+TVl+GG5Kuc5c5gQtQ==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID1TCCAr2gAwIBAgIJALe1BjmgAKSkMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVJvY2NhYmVybmFyZGExIDAeBgNVBAoMF0NvbXVuZSBkaSBSb2NjYWJlcm5hcmRhMScwJQYDVQQDDB53d3cuY29tdW5lLnJvY2NhYmVybmFyZGEua3IuaXQwHhcNMjIwMjAxMDk0NDM3WhcNMzIwMjAxMDk0NDM3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Sb2NjYWJlcm5hcmRhMSAwHgYDVQQKDBdDb211bmUgZGkgUm9jY2FiZXJuYXJkYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5yb2NjYWJlcm5hcmRhLmtyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4L4FyMcfC3Jz/5PMeCcxWEpYSzShDh2/4YeC7Uq1gGoGFP8u0IA07ZhGXgpmjXyniVPRBch1mpoRqBA+er2NZ+cymj/GlDQ0gF+nHUuz+VJqicrO0f5Bu+gSj03dALh4GP4hz6mDeb3Iu/b8Odig/cq0tL36WwIwUCZj98Q1kzAA7L+LymdS4gEum6+UH7dcLPyaj7Dpd/ofGkCuBiyHJHX1CS9DoSsZE22TGne/GvSHAjCv9DsomgFWQtmEbsiSsLGLN61+l4OgeBWXEEAS+8gZrAGigbwFJJcCNkf8e1hb5Q6Q7rhgYDwtN4BZMQ2BfD86q4njkTC1TB8vzs/OLwIDAQABo1AwTjAdBgNVHQ4EFgQUyPeTadGaBaE2SJA+QYxxkWODKNwwHwYDVR0jBBgwFoAUyPeTadGaBaE2SJA+QYxxkWODKNwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhsX+HSOHVo+aRRLgjS7s/arWEqNh4KYIzvbjUF4YNjnAKmEYn804Covh7Qm5Sjk32xtVp4iaJoByTqWQ+NJk15x5TmYXdEp+YV/rQ/3jNtSTRcizBOzcYbonJEeT/tgznmTmITtBf+wPcqIyDgRbmUBfthtuCwtQuDoWWQP7ZsVGZUX4H9gHDfXqjUssrC+RnhZCHWFLz7EIGzKOFia9Jn8fvdbDbUhaAh9N4/DVVlMgvKikvvri5rvLyUw5V5CAnDP5sjqKaX6q8O9quzfSeacmy8JmRZ5sodjfapOVD88bxCzJ8MrW7Ks3CYw1gN05cMNA+TVl+GG5Kuc5c5gQtQ==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID1TCCAr2gAwIBAgIJALe1BjmgAKSkMA0GCSqGSIb3DQEBCwUAMIGAMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxFjAUBgNVBAcMDVJvY2NhYmVybmFyZGExIDAeBgNVBAoMF0NvbXVuZSBkaSBSb2NjYWJlcm5hcmRhMScwJQYDVQQDDB53d3cuY29tdW5lLnJvY2NhYmVybmFyZGEua3IuaXQwHhcNMjIwMjAxMDk0NDM3WhcNMzIwMjAxMDk0NDM3WjCBgDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1Sb2NjYWJlcm5hcmRhMSAwHgYDVQQKDBdDb211bmUgZGkgUm9jY2FiZXJuYXJkYTEnMCUGA1UEAwwed3d3LmNvbXVuZS5yb2NjYWJlcm5hcmRhLmtyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA4L4FyMcfC3Jz/5PMeCcxWEpYSzShDh2/4YeC7Uq1gGoGFP8u0IA07ZhGXgpmjXyniVPRBch1mpoRqBA+er2NZ+cymj/GlDQ0gF+nHUuz+VJqicrO0f5Bu+gSj03dALh4GP4hz6mDeb3Iu/b8Odig/cq0tL36WwIwUCZj98Q1kzAA7L+LymdS4gEum6+UH7dcLPyaj7Dpd/ofGkCuBiyHJHX1CS9DoSsZE22TGne/GvSHAjCv9DsomgFWQtmEbsiSsLGLN61+l4OgeBWXEEAS+8gZrAGigbwFJJcCNkf8e1hb5Q6Q7rhgYDwtN4BZMQ2BfD86q4njkTC1TB8vzs/OLwIDAQABo1AwTjAdBgNVHQ4EFgQUyPeTadGaBaE2SJA+QYxxkWODKNwwHwYDVR0jBBgwFoAUyPeTadGaBaE2SJA+QYxxkWODKNwwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAhsX+HSOHVo+aRRLgjS7s/arWEqNh4KYIzvbjUF4YNjnAKmEYn804Covh7Qm5Sjk32xtVp4iaJoByTqWQ+NJk15x5TmYXdEp+YV/rQ/3jNtSTRcizBOzcYbonJEeT/tgznmTmITtBf+wPcqIyDgRbmUBfthtuCwtQuDoWWQP7ZsVGZUX4H9gHDfXqjUssrC+RnhZCHWFLz7EIGzKOFia9Jn8fvdbDbUhaAh9N4/DVVlMgvKikvvri5rvLyUw5V5CAnDP5sjqKaX6q8O9quzfSeacmy8JmRZ5sodjfapOVD88bxCzJ8MrW7Ks3CYw1gN05cMNA+TVl+GG5Kuc5c5gQtQ==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.roccabernarda.kr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.roccabernarda.kr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Roccabernarda
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Roccabernarda
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.roccabernarda.kr.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_h383
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Roccabernarda
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            protocollo@comune.roccabernarda.kr.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

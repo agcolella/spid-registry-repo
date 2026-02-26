@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/abl_097"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9OOCgP+CkqdDFkah0te/ROH5bzoo467HT2tNGRyULn8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+mcu6J1lWTwvzkD3lnqEbt6hZkFiedCuXsAHBcn9yMVsiYyvKc2GO9KThihuy5tZAUKAIh7t3cZXH
+dfXpruVceJLfZ5DDXEvCaC2vJpaTKNaG9XWPgy7R4/BXy4WGHyGUqM7MRdKjRQXkslbsxQYYStb8
+I23fQlg1BjA5gZMmbhQjRhdwb1WRJdhBcn6oFT0XBOYTRJuz2DmJhrIWsg+vWuBZZ7vAfjZchkwj
+hfJwpBdZ3L/5BtuQIyPR9ue6WbR9ZR2ojqVepbobGjHnqZb0C/VZSwMq+QHvs4esgvug6R4TT8SP
+cAcLevmQYLcxCTH64U8qoRLZXm+X7w9c4RqmIA==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>
+            MIIG7jCCBNagAwIBAgIJALRDtpZhtutBMA0GCSqGSIb3DQEBCwUAMIIBCjELMAkG
+			A1UEBhMCSVQxDTALBgNVBAgMBFJvbWExOTA3BgNVBAcMMEF1dG9yaXRhJyBkaSBC
+			YWNpbm8gZGVsIExhcmlvIGUgRGVpIExhZ2hpIE1pbm9yaTE5MDcGA1UECgwwQXV0
+			b3JpdGEnIGRpIEJhY2lubyBkZWwgTGFyaW8gZSBEZWkgTGFnaGkgTWlub3JpMQ0w
+			CwYDVQQLDARTcGlkMSowKAYDVQQDDCFhdXRvcml0YWJhY2lub2xhcmlvLnBsdWdh
+			bmRwYXkuaXQxOzA5BgkqhkiG9w0BCQEWLGF1dG9yaXRhYmFjaW5vbGFyaW9AcGVj
+			LnJlZ2lvbmUubG9tYmFyZGlhLml0MB4XDTIyMDIwMTEzMjQwMVoXDTI1MDEzMTEz
+			MjQwMVowggEKMQswCQYDVQQGEwJJVDENMAsGA1UECAwEUm9tYTE5MDcGA1UEBwww
+			QXV0b3JpdGEnIGRpIEJhY2lubyBkZWwgTGFyaW8gZSBEZWkgTGFnaGkgTWlub3Jp
+			MTkwNwYDVQQKDDBBdXRvcml0YScgZGkgQmFjaW5vIGRlbCBMYXJpbyBlIERlaSBM
+			YWdoaSBNaW5vcmkxDTALBgNVBAsMBFNwaWQxKjAoBgNVBAMMIWF1dG9yaXRhYmFj
+			aW5vbGFyaW8ucGx1Z2FuZHBheS5pdDE7MDkGCSqGSIb3DQEJARYsYXV0b3JpdGFi
+			YWNpbm9sYXJpb0BwZWMucmVnaW9uZS5sb21iYXJkaWEuaXQwggIiMA0GCSqGSIb3
+			DQEBAQUAA4ICDwAwggIKAoICAQDWf0WhdwlzMWm+aX6drwJRny7aXriSKPtNUa3D
+			Vlif92RjkTXYsZ5xT1dPzNSf8ot4sCGCjepBVvN5ETh0ppNUgUKJtqo6ttbybp8Y
+			lbWbmo2MMQRrqBdAjC2Q12aOdW/0wD8PRTHhFqEJOvCYfKCnFgWlZLuCAu9/lfbZ
+			m+9udKWQH1IBKDnAGsDjMxlwbRseCtGxa4jc0E/J2rDpC0CN/Pe46g2nYOclFuNs
+			VADNvwjK2FMinuwtA5Yq5on2SwzWyUHaSp/OGjXu0w75txlbv3ExsH3mHOIS16ij
+			fWC8lDwwOJWaRMP85sRjuVzZH777DCdnYGZjHq2iy7pD2mjdbupbfUE71ZwanIpq
+			wUnQVf4cjkrEZGO71IeR0HOQ90xMmzjmaPPTh2RxDHBH+cYCvAvlNPwVaNG45KVg
+			/JqeRHJ64Vvj+RVUcqqBwXcpRVFZdc+u2hkxHDZRABDlaz6yg2ywPP+kr8Z+xF3v
+			TY/6OwwwPrwKc8kmxAkE2Y9nNrjZs/wB7WhkcxbBEI+ZdGwXhae2ao8soI0NorxU
+			UHGu6aSanpou7RFw4/YR/QvcKz3n56qUgQVtWw6zuvuGks3Jc/bmbSxGtAeP83yK
+			plL7uRU28Ebf4IBgfWB3YwjH1Of7LTv7EqXc/Q6mqfdCN2GhSXZ+HxGp3QqCjfVl
+			jTgJ8QIDAQABo1MwUTAdBgNVHQ4EFgQUHDxyvnOItZomYF2Em+9XfnxfcogwHwYD
+			VR0jBBgwFoAUHDxyvnOItZomYF2Em+9XfnxfcogwDwYDVR0TAQH/BAUwAwEB/zAN
+			BgkqhkiG9w0BAQsFAAOCAgEAx0xZ0zCDpi0tvWOfaqH1/cFcZIbeSghnNE7h9q4U
+			wfFkvs+cvvSg6LiUbQPRCDsNVWrgrD4C5uOp8PWhpCFgcuM/hCQQ9f3EczWkeIp1
+			pg0voBZjjoLAX3FXhejMKQ/YM2AJw5bjVR9bH757zScT5aH334PxfW9Kdu/UAT/4
+			ZPz8+HsfvYnMrCy0B6lPHf5Y2NhGVaEgka53KIL9JsqXVZwtqvyS/DBAyvG4scWK
+			Bhe/2eVeUgIbCNVqTFTbnL4RwdSTKT0pfD2q09gqxGeypTDaWUzLlLqbrffPRpwK
+			pwikAsWrIFHF7vMh4XzXaIdItA6x+wplv4wFm7gjV5BtPxiZgM9t1+FI9BACQVqJ
+			tUmPXSucA29YyZKlnA7WHxjJO/NrkVHXfNzEsyjRl3G4DsJ2+awQyInMORJVlBSA
+			tePX1u4nZeyOmQR6gj+15NzWDyKhNG3+X4Fy9E/2vs0QkVvwttVeN80u13I0nCcN
+			s65qKjAMLcKIAA8V7OnHv8185mNsyEHL0VcBs0b6ymq8a22lRnVS/JT+ZbsfiX6g
+			vLrB/06lYWBpQQIYmRuyhBEpgNdbHxAdREoXhHb+KCKL8wKMnyjbOZkIPjVszz9g
+			z253xpIN+po1p2TIfwAyUMoOY7p2vpOcfU/Si2nBIJoTHtOpWvceu8CPWa/SU/Mv
+			I8s=
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://autoritabacinolario.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://autoritabacinolario.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Autorita' di Bacino del Lario e Dei Laghi Minori</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Autorita' di Bacino del Lario e Dei Laghi Minori</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.autoritabacinolario.it/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>abl_097</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Autorita' di Bacino del Lario e Dei Laghi Minori</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>
