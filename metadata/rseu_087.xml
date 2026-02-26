@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ersusicilia20210316" entityID="https://spid.ersusicilia.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#ersusicilia20210316">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>BiPtgozb/xBIRvz2R4D/w1XDBAvdArdQ84G7ET8UinI=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+eZrmVXuz/QEU37bTPlXvqqOr9MBEBLiZs8KjJEiy6D/CYjoKkoqeAks25i1DCz/yiDVtPfB99aFR
+jLC7FDS02LweXc5MwdSpOJ8EJcRIpRtEEAlhA2KuvwQXrAldbD7ZZRXBR0i91CAdVLXQr/bDe29E
+EBOMFHJxN6PY1GdbiDw8jFOV9bMSvb9g8LCOCYEfxILxpG0W+RbzeyKFI3YZYeVp32OoB1nP8hqs
+20JHz84kwNBTNeDTJEMlBoCoLqIyqZ7vdNNf3V9o77ZmQUP7OYFSSrPSYpBI56xBlwi0lUQvxgwI
+n9NPszxt3E9ONCS6Zk78zlT+7/z7O37PzwHeDf4q5WsaiHa/+bQIyUNNs8mbIXe7vBWntp8XR2Av
+li3j6vl0WeV51wFBDvwcEpj7XzKA5yU0qeoo8b350hlXe92egquPsYS0q9Q8oBncWn3rbfa9Tcdd
+HliV/LxDVNVJ4lWZwOuSpbLmblhsSCvVXyosxMZdFhl185M+/nkzBcCl
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ws8mzr7ywQ5lUFT7O9HUw+n/+fguc6DvVl7wL30o/dTZXgMtpOdm5Z9wgbNVOXwme2Jiw957KxMx
+SMIqbbQJw++yGnHwUHmvFJ2t8IiSKaBEExVq0bNMs9qaA+8lD+/flh+VAAD1MutN7iTnZlmDDSzh
+qPoF12W5BKHSvyUgpZYE22eATEGsiQAaIUfxMFmFfuP9DwUvi7rrJV1aAkKMR3WPhjPs5ATGNUB0
+R+kGa1ow5Ck4y0eVVIH/agniIeLxKi3MXgp75ZDhyj0X+qcq5WR61pu79+RwcoXksrU+DwL7AYh9
+G20SGU/ULyEwZUUlE5Q/kfGO15/joYLdya3fdohUnukcsCN7A03SGbo6iBc6q8nDJn3aCw/7rpVt
+qScp//pKXduQ1N10gR5yxakc+IYEBXWP6kUzjjb9uluCW0bkZ7gU50uUtuIpbSN3BI0BkXmH2hCq
+16hnE+Xvf7RsiGTTHhnNNck2HnljKM9QYjW+whCP0/ckm/hWM1ssgQCp
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIECDCCAnCgAwIBAgIUZwm7SSVUuvTLbHf8gBVY5e4LuyMwDQYJKoZIhvcNAQELBQAwHTEbMBkG
+A1UEAxMSaWRwLmVyc3VzaWNpbGlhLml0MB4XDTIxMDMwNTEwNDU0OVoXDTMxMDMwMzEwNDU0OVow
+HTEbMBkGA1UEAxMSaWRwLmVyc3VzaWNpbGlhLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIB
+igKCAYEAws8mzr7ywQ5lUFT7O9HUw+n/+fguc6DvVl7wL30o/dTZXgMtpOdm5Z9wgbNVOXwme2Ji
+w957KxMxSMIqbbQJw++yGnHwUHmvFJ2t8IiSKaBEExVq0bNMs9qaA+8lD+/flh+VAAD1MutN7iTn
+ZlmDDSzhqPoF12W5BKHSvyUgpZYE22eATEGsiQAaIUfxMFmFfuP9DwUvi7rrJV1aAkKMR3WPhjPs
+5ATGNUB0R+kGa1ow5Ck4y0eVVIH/agniIeLxKi3MXgp75ZDhyj0X+qcq5WR61pu79+RwcoXksrU+
+DwL7AYh9G20SGU/ULyEwZUUlE5Q/kfGO15/joYLdya3fdohUnukcsCN7A03SGbo6iBc6q8nDJn3a
+Cw/7rpVtqScp//pKXduQ1N10gR5yxakc+IYEBXWP6kUzjjb9uluCW0bkZ7gU50uUtuIpbSN3BI0B
+kXmH2hCq16hnE+Xvf7RsiGTTHhnNNck2HnljKM9QYjW+whCP0/ckm/hWM1ssgQCpAgMBAAGjQDA+
+MB0GA1UdEQQWMBSCEmlkcC5lcnN1c2ljaWxpYS5pdDAdBgNVHQ4EFgQUsv5PjOWjItzDl/zb50LS
+1dL6KK8wDQYJKoZIhvcNAQELBQADggGBAJ0SDMHanieW48F2rg4Q8lnuCToljticnLRg4YFLycbw
+WvAE0yLoySseqE3M9nSa3qXvRZ1j5zNp2DoN+RQrxQDdheKsW+r4jszihJbUd1c486NMArCoXR5w
+R++hjMEDVW0Ads5h+0OZiDBr5VmhUj9zJGMf4XAy4Zj+f/49SmhQYxI5Cb6jjj26iugOTdsD+VVJ
+K6Yu9uT9+U2Puvkn3tcDiHKdllx3KvnOVSvppfjNnXC+XmpO/ujWKonI5pJi3JttpHt/Mj3wfj/2
+aOlEDqkSvMTRtS8mW5YZp4iSA4OKrCHA3qvr4L9Nq4V/hC7WTSpxJYuhf5nK31YSWvg8W9YsVjEF
+6u7I38cxeQaeymwrrfGza1C3rYZqXd1YRtkOS2HvPDpLDJcHLEOUBx1TQLHqKy/DruUpLMKmJ7bD
+rVwo7xse+52VpRQ2AtIBAO4A46ZVVkcgRYZVw4ouEKqCOVHucrCdOxEDUFkBV4fwDO2yfREECLqt
+6OlI3s+56w+Omg==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIFETCCA3mgAwIBAgIUcA4XwJEElgnUas166DKWprA2QTQwDQYJKoZIhvcNAQEN
+BQAwgYgxFDASBgNVBAMMC0Vyc3VzaWNpbGlhMQswCQYDVQQGEwJJVDEQMA4GA1UE
+BwwHU2ljaWxpYTEVMBMGA1UEYQwMUEE6SVQtY19oNTAxMRQwEgYDVQQKDAtFcnN1
+c2ljaWxpYTEkMCIGA1UEUwwbaHR0cHM6Ly9zcGlkLmVyc3VzaWNpbGlhLml0MB4X
+DTIxMDMyNDEwMDM1M1oXDTMxMDMyMjEwMDM1M1owgYgxFDASBgNVBAMMC0Vyc3Vz
+aWNpbGlhMQswCQYDVQQGEwJJVDEQMA4GA1UEBwwHU2ljaWxpYTEVMBMGA1UEYQwM
+UEE6SVQtY19oNTAxMRQwEgYDVQQKDAtFcnN1c2ljaWxpYTEkMCIGA1UEUwwbaHR0
+cHM6Ly9zcGlkLmVyc3VzaWNpbGlhLml0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8A
+MIIBigKCAYEAtDjmOqOSKye2apW4bzICp3O4NRyi6RK+Z48dPz3G2/JOpblxhgAv
+mU8u0QjnI0ejJKHNFfmMvTZb9++GKIMhxDESM3dTrEqCsbDgQfZfMLnpGatZ89li
+7B9vryZBBQvMCFSAb/HYBBtQwsW0Oc5grUl1zxaSFucY7qJ1Ij9PnULOGGloOj9I
+kjutE+lWlGD+W3bAciiZUSiihfd4RmETOI1MU3HfFcVdCN6zK1ftyE15u5MIa0Om
+d1ANESWzDtZEAVeq/oTi1ixgVhRWM408Idi+1zjBjXfIwhMpEfs3drqJvEdoAAh2
+dMUysCRJbOmJEZ69++sA/JAZT0MtTPPdMeZtiWj4xHVllLK1AUNJQWRo/R9KYa5J
+b711yKb6SIwJD3hx6iBeBDzkcbBb0V0l0/0UEk5oKlwc9UM4OhQbkJPiEBtEwQiX
+CDAh/4eiBqLhSbCIPPXvxvCxIuGVihuCS0pLIQMZ8dBMiGOcTiPbF4ILYfyPWhDu
+gsfLPC6PUGlrAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIG
+A1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitM
+EAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUA
+A4IBgQCkIUWjnJVh9d3NgvsHgcB8ew4vY5vKMX4i2HiJtnPt65Y19pUeLAGI6m/W
+SDudW7sSET+I3c5PQSQsj+4n/I3KCXgGfWupiGwmRwsvprJJblLyB2MkNmBSpXz/
+yP6SRCVmJSDON5GbJdpdtIZqfPWhrLy+UZRbpriq0Cyq98FYaOJRFMWNd6FQW8I4
+eULG4hsOAU7qXWzrRSZsNuIRxY21PVNrpiDmGmbwcawwSQl9gxmdk96f0pne1SGb
+Jlsmz8YroWzwp3BrQ/qDcUE0VEzUuPRqkeeDN38LxkcuRwZD2d4iRHVFkJde3TvC
+ZDZHXAjRX8HN+/aNvOAUQa270YfsgwX5KHZePuYn9vu/Q49I4N2cYWCZPBcNllx5
+hjpM8FPmiUow4tgPqf4AbeYFNeIsZmCVCrqGzlCky7ETGAxj4euqMP+E5t8jfkgl
+3huKc7JF2/XG4ZkSbP576ikuDjLoVYmY8RXfKXa+SNZqoRn0Qit7SYUry2q4Xdzh
+UhS9NKU=</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ersucatania.it/Shibboleth.sso/SLO/POST"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ersucatania.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ersumessina.it/Shibboleth.sso/SAML2/POST" index="1"/>
+	<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ersuenna.it/Shibboleth.sso/SAML2/POST" index="2"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp.ersupalermo.it/Shibboleth.sso/SAML2/POST" index="3"/>
+
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">SPID Service for ErsuSicilia</md:ServiceName>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	    <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+	    <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>	    
+	    <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>	    
+	    <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>	    
+            <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>	    
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">ERSU Catania</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">ERSU Catania</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">http://www.ersucatania.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+      <md:Extensions>
+	<spid:FiscalCode>80006770871</spid:FiscalCode>
+	<spid:IPACode>rseu_087</spid:IPACode>
+        <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>raimondo.giarratana@gmail.com</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

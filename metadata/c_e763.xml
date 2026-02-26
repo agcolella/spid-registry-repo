@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx2f2b347c-6922-d824-d7c0-d441a3bec72e" entityID="https://www.comune.lusiglie.to.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx2f2b347c-6922-d824-d7c0-d441a3bec72e">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    QJmRwGYzIsWeGq6ywXbrogbdc4IQitvv6nAQN12vpVc=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+B9c/5LPEwwdnFzXCn+OYkLq38ObqDyrVG0hFJfoRCn1qPdnn6htwlxy10JsKpgfLL9l0WKXrLLa3
+mTV5n5Qd7gCtZM+H6h5jFWSxEtiQR4+spu9aUE1GWaD+rN8WBpw06WiP/ezvTSQhScpo6GGpUC6D
+jMdRg8VIjfHUJ1k8KBLAX27TGx+EfCB6yqEiFhZ46YN7GkxutVDTp1sSFg7T1YBf7ny45NhLnya3
+ZisPL+57AGP02bBnOO35JlIpANTdIB1BjDaZrcfDzjUFB19XeQE4Tby35rF2Qqz8SKO5M7X2oFlF
+KPgIbY/zmEMlMAqoyrATyN6qBumxKB7i6YON3w==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+ymwXkHA14/lG1k13b9Wj/up3nEqEVTvDr+/t8D9gWf7sgtTiYqsWAjLqQFiltXR4CBhnEUGPkTBM
+TOEfnOa30+PflYK5qRDwNhCVoIqARC4o55p8vj1+WSUX0IoHoCFDyjplJpApXKmh+1TTz4VzCCOG
+BWMbQH8TOSZsaqe+A1XIN/1wEFc2IwioGuHFugPGYWRTrW5GTejymq8EwBmBFRdap8kF1Ac/3QhW
+aSPXJHJif/lY+F6CPC2osyF/Fxo/xZZMpp+FiPnjUltxwjS6HUZjSCONgRZG4IcMRHj+YTYKKBB9
+lUtvzJoMjLqkeVn1+G8GrTrg1Feh6EqoZjIQTQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDuTCCAqGgAwIBAgIJAOgcAbaYajXvMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTHVzaWdsacOoMRwwGgYDVQQKDBNDb211bmUgZGkgTHVz
+aWdsacOoMSIwIAYDVQQDDBl3d3cuY29tdW5lLmx1c2lnbGllLnRvLml0MB4XDTIxMDMyMjExMDIy
+MFoXDTMxMDMyMjExMDIyMFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQH
+DAlMdXNpZ2xpw6gxHDAaBgNVBAoME0NvbXVuZSBkaSBMdXNpZ2xpw6gxIjAgBgNVBAMMGXd3dy5j
+b211bmUubHVzaWdsaWUudG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKbBeQ
+cDXj+UbWTXdv1aP+6necSoRVO8Ov7+3wP2BZ/uyC1OJiqxYCMupAWKW1dHgIGGcRQY+RMExM4R+c
+5rfT49+VgrmpEPA2EJWgioBELijnmny+PX5ZJRfQigegIUPKOmUmkClcqaH7VNPPhXMII4YFYxtA
+fxM5Jmxqp74DVcg3/XAQVzYjCKga4cW6A8ZhZFOtbkZN6PKarwTAGYEVF1qnyQXUBz/dCFZpI9ck
+cmJ/+Vj4XoI8LaizIX8XGj/Flkymn4WI+eNSW3HCNLodRmNII42BFkbghwxEeP5hNgooEH2VS2/M
+mgyMuqR5WfX4bwatOuDUV6HoSqhmMhBNAgMBAAGjUDBOMB0GA1UdDgQWBBSSZoFsnPH9Uw0wSlSX
+0EilyntNZDAfBgNVHSMEGDAWgBSSZoFsnPH9Uw0wSlSX0EilyntNZDAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQAq0t4h++GsSf7MUZ1saa3l601MJsPyidBbASzUMZD8ZQrsqHr6rM8I
+OKzP8AEZGy5B2nwlsKOXCMwmYeSDCVRmVLajMXmOw02ooW8L5cdx3ZKlRGnJosSyAX9c77tZ5ije
+JBGZgjgNefLppAfL2zLbvJpPe9DuBQmf+41W+3m3t+Gjj+nvHpOA20tEJRWqXTNde5dlJUlAbw6a
+JsgwDKu6KORTkiy1N2Aj7fmR4DIkc0lchjRJQovMtmlmAV5YBxcgklSParLFrDP3U8N4QF9fb9ZS
+i51khA2DQNgXJihdjSE/ZH9pCmgUWSLyd9aDlgRPUGPrLW9bFL9X0A0rKJ6n
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDuTCCAqGgAwIBAgIJAOgcAbaYajXvMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTHVzaWdsacOoMRwwGgYDVQQKDBNDb211bmUgZGkgTHVzaWdsacOoMSIwIAYDVQQDDBl3d3cuY29tdW5lLmx1c2lnbGllLnRvLml0MB4XDTIxMDMyMjExMDIyMFoXDTMxMDMyMjExMDIyMFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlMdXNpZ2xpw6gxHDAaBgNVBAoME0NvbXVuZSBkaSBMdXNpZ2xpw6gxIjAgBgNVBAMMGXd3dy5jb211bmUubHVzaWdsaWUudG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKbBeQcDXj+UbWTXdv1aP+6necSoRVO8Ov7+3wP2BZ/uyC1OJiqxYCMupAWKW1dHgIGGcRQY+RMExM4R+c5rfT49+VgrmpEPA2EJWgioBELijnmny+PX5ZJRfQigegIUPKOmUmkClcqaH7VNPPhXMII4YFYxtAfxM5Jmxqp74DVcg3/XAQVzYjCKga4cW6A8ZhZFOtbkZN6PKarwTAGYEVF1qnyQXUBz/dCFZpI9ckcmJ/+Vj4XoI8LaizIX8XGj/Flkymn4WI+eNSW3HCNLodRmNII42BFkbghwxEeP5hNgooEH2VS2/MmgyMuqR5WfX4bwatOuDUV6HoSqhmMhBNAgMBAAGjUDBOMB0GA1UdDgQWBBSSZoFsnPH9Uw0wSlSX0EilyntNZDAfBgNVHSMEGDAWgBSSZoFsnPH9Uw0wSlSX0EilyntNZDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAq0t4h++GsSf7MUZ1saa3l601MJsPyidBbASzUMZD8ZQrsqHr6rM8IOKzP8AEZGy5B2nwlsKOXCMwmYeSDCVRmVLajMXmOw02ooW8L5cdx3ZKlRGnJosSyAX9c77tZ5ijeJBGZgjgNefLppAfL2zLbvJpPe9DuBQmf+41W+3m3t+Gjj+nvHpOA20tEJRWqXTNde5dlJUlAbw6aJsgwDKu6KORTkiy1N2Aj7fmR4DIkc0lchjRJQovMtmlmAV5YBxcgklSParLFrDP3U8N4QF9fb9ZSi51khA2DQNgXJihdjSE/ZH9pCmgUWSLyd9aDlgRPUGPrLW9bFL9X0A0rKJ6n
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDuTCCAqGgAwIBAgIJAOgcAbaYajXvMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJTHVzaWdsacOoMRwwGgYDVQQKDBNDb211bmUgZGkgTHVzaWdsacOoMSIwIAYDVQQDDBl3d3cuY29tdW5lLmx1c2lnbGllLnRvLml0MB4XDTIxMDMyMjExMDIyMFoXDTMxMDMyMjExMDIyMFowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlMdXNpZ2xpw6gxHDAaBgNVBAoME0NvbXVuZSBkaSBMdXNpZ2xpw6gxIjAgBgNVBAMMGXd3dy5jb211bmUubHVzaWdsaWUudG8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDKbBeQcDXj+UbWTXdv1aP+6necSoRVO8Ov7+3wP2BZ/uyC1OJiqxYCMupAWKW1dHgIGGcRQY+RMExM4R+c5rfT49+VgrmpEPA2EJWgioBELijnmny+PX5ZJRfQigegIUPKOmUmkClcqaH7VNPPhXMII4YFYxtAfxM5Jmxqp74DVcg3/XAQVzYjCKga4cW6A8ZhZFOtbkZN6PKarwTAGYEVF1qnyQXUBz/dCFZpI9ckcmJ/+Vj4XoI8LaizIX8XGj/Flkymn4WI+eNSW3HCNLodRmNII42BFkbghwxEeP5hNgooEH2VS2/MmgyMuqR5WfX4bwatOuDUV6HoSqhmMhBNAgMBAAGjUDBOMB0GA1UdDgQWBBSSZoFsnPH9Uw0wSlSX0EilyntNZDAfBgNVHSMEGDAWgBSSZoFsnPH9Uw0wSlSX0EilyntNZDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAq0t4h++GsSf7MUZ1saa3l601MJsPyidBbASzUMZD8ZQrsqHr6rM8IOKzP8AEZGy5B2nwlsKOXCMwmYeSDCVRmVLajMXmOw02ooW8L5cdx3ZKlRGnJosSyAX9c77tZ5ijeJBGZgjgNefLppAfL2zLbvJpPe9DuBQmf+41W+3m3t+Gjj+nvHpOA20tEJRWqXTNde5dlJUlAbw6aJsgwDKu6KORTkiy1N2Aj7fmR4DIkc0lchjRJQovMtmlmAV5YBxcgklSParLFrDP3U8N4QF9fb9ZSi51khA2DQNgXJihdjSE/ZH9pCmgUWSLyd9aDlgRPUGPrLW9bFL9X0A0rKJ6n
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.lusiglie.to.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.lusiglie.to.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Lusigli
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Lusigli
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.lusiglie.to.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_e763
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Lusigli
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            lusiglie@ruparpiemonte.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

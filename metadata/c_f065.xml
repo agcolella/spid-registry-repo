@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx829fba62-95d7-2169-7613-c536ebec488f" entityID="https://servizi.comune.mazzarino.cl.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx829fba62-95d7-2169-7613-c536ebec488f">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    xjHAHDGSjs1RE1zretXEOCZfg0Te74t1AM7HHN4WbVg=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+KTRO7Zg63xx2WdIhn3g6fGTZPQf51AsB6QiqKzRNTNfRZafkIL1PLM5cs8v28Th2NqGzRQ1H4olB
+TW/TC82r0Y5LgABXM7nhveEuatXiW8LZ8yqJQZ5B19MkMXULBbOL5QVNIcsfGsrxyY+C2nLeCVqz
+mrdAqoHlbhwnO5BNZckqWABGZEMf/SKK12YKqoc3j9h9YsPeMtSunec25B2Wv03PSAf87MN/MMUv
+4LYhnbGVOX0v30mN9wUr4wSmZSB2SEIFsqXaaoUP0xEukoE8imRNsn/hNFK43tDEYwQ9gZjl1/QT
+fL9jSKE1bpw1QugcxBl5BUbBD7/VQKeGoPRnUw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+5U0e/OagQDuRXxe8uXqNVdKknJ0m5Hrn7hfKksoP+ug6ILILswoDr8j1LI5I1uw2LS+eCqrJZcrd
+oLflmTddvDc4l/ceCrSMcrnoo7gtnF7oOowV6yslMEe7BrVmzTsZn5PD0PlwoQsUART87A1UsBCU
+65fq34Yk8zYN3uGcLtJi4HzM8oSWLh/cJu+sXu4SYdkAidMKyj4j+jAJkpUgKBdo7J1NbFxbTJdN
+UyrDYYPJWEHqFg5/fVCFbvGHTQZVEmW7x13ckqtpJPf14Pd+ZFsM2r/PJUAyzNHil5MdHFJfIjrs
+mRSh1gUNErmB7kMA+TUiOpbcxTzEe/UlVgG8LQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDyzCCArOgAwIBAgIJAPEvx+DcAwP5MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FsdGFuaXNzZXR0YTEcMBoGA1UECgwTQ29tdW5lIGRp
+IE1henphcmlubzEnMCUGA1UEAwwec2Vydml6aS5jb211bmUubWF6emFyaW5vLmNsLml0MB4XDTIx
+MDMyNjA5NDEyMVoXDTMxMDMyNjA5NDEyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5
+MRYwFAYDVQQHDA1DYWx0YW5pc3NldHRhMRwwGgYDVQQKDBNDb211bmUgZGkgTWF6emFyaW5vMScw
+JQYDVQQDDB5zZXJ2aXppLmNvbXVuZS5tYXp6YXJpbm8uY2wuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDlTR785qBAO5FfF7y5eo1V0qScnSbkeufuF8qSyg/66DogsguzCgOvyPUs
+jkjW7DYtL54Kqsllyt2gt+WZN128NziX9x4KtIxyueijuC2cXug6jBXrKyUwR7sGtWbNOxmfk8PQ
++XChCxQBFPzsDVSwEJTrl+rfhiTzNg3e4Zwu0mLgfMzyhJYuH9wm76xe7hJh2QCJ0wrKPiP6MAmS
+lSAoF2jsnU1sXFtMl01TKsNhg8lYQeoWDn99UIVu8YdNBlUSZbvHXdySq2kk9/Xg935kWwzav88l
+QDLM0eKXkx0cUl8iOuyZFKHWBQ0SuYHuQwD5NSI6ltzFPMR79SVWAbwtAgMBAAGjUDBOMB0GA1Ud
+DgQWBBRDSbKYXAaBDgMIA/mpESxSUYFSETAfBgNVHSMEGDAWgBRDSbKYXAaBDgMIA/mpESxSUYFS
+ETAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBRkEfH7BekVNJd1aUTg1wRkYwtBcF4
+s7cJJAZEeT1wtZc8WIS4G7fVwHTY11wkBWdiGWR+51QlNh+zeVDpb2Ksr4snoBeZrRdTwxVidNsW
+bUhEDFfd68FpoPB4FAUCLDEOYXQceBY7Mzc84kBGUvUpS3LVY+rMzYSDWcq15gQ1vJlzcDkyVhna
+49pB+kZOVkRKH2gqh44dNQMCOitUM9rEAex/BXNJPTbXeswZdLXlWuIxessPn67G1+pmuI9EEwIx
+hcTYcCSeg0/mLY7E60oXcZGtKCMYndsuBW/cXZPDodk9DY2MzhHal4RBGOHWLPSik7L+qP6tSYH9
+GuTKfD52
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDyzCCArOgAwIBAgIJAPEvx+DcAwP5MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FsdGFuaXNzZXR0YTEcMBoGA1UECgwTQ29tdW5lIGRpIE1henphcmlubzEnMCUGA1UEAwwec2Vydml6aS5jb211bmUubWF6emFyaW5vLmNsLml0MB4XDTIxMDMyNjA5NDEyMVoXDTMxMDMyNjA5NDEyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1DYWx0YW5pc3NldHRhMRwwGgYDVQQKDBNDb211bmUgZGkgTWF6emFyaW5vMScwJQYDVQQDDB5zZXJ2aXppLmNvbXVuZS5tYXp6YXJpbm8uY2wuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlTR785qBAO5FfF7y5eo1V0qScnSbkeufuF8qSyg/66DogsguzCgOvyPUsjkjW7DYtL54Kqsllyt2gt+WZN128NziX9x4KtIxyueijuC2cXug6jBXrKyUwR7sGtWbNOxmfk8PQ+XChCxQBFPzsDVSwEJTrl+rfhiTzNg3e4Zwu0mLgfMzyhJYuH9wm76xe7hJh2QCJ0wrKPiP6MAmSlSAoF2jsnU1sXFtMl01TKsNhg8lYQeoWDn99UIVu8YdNBlUSZbvHXdySq2kk9/Xg935kWwzav88lQDLM0eKXkx0cUl8iOuyZFKHWBQ0SuYHuQwD5NSI6ltzFPMR79SVWAbwtAgMBAAGjUDBOMB0GA1UdDgQWBBRDSbKYXAaBDgMIA/mpESxSUYFSETAfBgNVHSMEGDAWgBRDSbKYXAaBDgMIA/mpESxSUYFSETAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBRkEfH7BekVNJd1aUTg1wRkYwtBcF4s7cJJAZEeT1wtZc8WIS4G7fVwHTY11wkBWdiGWR+51QlNh+zeVDpb2Ksr4snoBeZrRdTwxVidNsWbUhEDFfd68FpoPB4FAUCLDEOYXQceBY7Mzc84kBGUvUpS3LVY+rMzYSDWcq15gQ1vJlzcDkyVhna49pB+kZOVkRKH2gqh44dNQMCOitUM9rEAex/BXNJPTbXeswZdLXlWuIxessPn67G1+pmuI9EEwIxhcTYcCSeg0/mLY7E60oXcZGtKCMYndsuBW/cXZPDodk9DY2MzhHal4RBGOHWLPSik7L+qP6tSYH9GuTKfD52
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDyzCCArOgAwIBAgIJAPEvx+DcAwP5MA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEWMBQGA1UEBwwNQ2FsdGFuaXNzZXR0YTEcMBoGA1UECgwTQ29tdW5lIGRpIE1henphcmlubzEnMCUGA1UEAwwec2Vydml6aS5jb211bmUubWF6emFyaW5vLmNsLml0MB4XDTIxMDMyNjA5NDEyMVoXDTMxMDMyNjA5NDEyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRYwFAYDVQQHDA1DYWx0YW5pc3NldHRhMRwwGgYDVQQKDBNDb211bmUgZGkgTWF6emFyaW5vMScwJQYDVQQDDB5zZXJ2aXppLmNvbXVuZS5tYXp6YXJpbm8uY2wuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDlTR785qBAO5FfF7y5eo1V0qScnSbkeufuF8qSyg/66DogsguzCgOvyPUsjkjW7DYtL54Kqsllyt2gt+WZN128NziX9x4KtIxyueijuC2cXug6jBXrKyUwR7sGtWbNOxmfk8PQ+XChCxQBFPzsDVSwEJTrl+rfhiTzNg3e4Zwu0mLgfMzyhJYuH9wm76xe7hJh2QCJ0wrKPiP6MAmSlSAoF2jsnU1sXFtMl01TKsNhg8lYQeoWDn99UIVu8YdNBlUSZbvHXdySq2kk9/Xg935kWwzav88lQDLM0eKXkx0cUl8iOuyZFKHWBQ0SuYHuQwD5NSI6ltzFPMR79SVWAbwtAgMBAAGjUDBOMB0GA1UdDgQWBBRDSbKYXAaBDgMIA/mpESxSUYFSETAfBgNVHSMEGDAWgBRDSbKYXAaBDgMIA/mpESxSUYFSETAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBRkEfH7BekVNJd1aUTg1wRkYwtBcF4s7cJJAZEeT1wtZc8WIS4G7fVwHTY11wkBWdiGWR+51QlNh+zeVDpb2Ksr4snoBeZrRdTwxVidNsWbUhEDFfd68FpoPB4FAUCLDEOYXQceBY7Mzc84kBGUvUpS3LVY+rMzYSDWcq15gQ1vJlzcDkyVhna49pB+kZOVkRKH2gqh44dNQMCOitUM9rEAex/BXNJPTbXeswZdLXlWuIxessPn67G1+pmuI9EEwIxhcTYcCSeg0/mLY7E60oXcZGtKCMYndsuBW/cXZPDodk9DY2MzhHal4RBGOHWLPSik7L+qP6tSYH9GuTKfD52
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.mazzarino.cl.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.mazzarino.cl.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Mazzarino
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Mazzarino
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.mazzarino.cl.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f065
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Mazzarino
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            postmaster@comune.mazzarino.cl.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

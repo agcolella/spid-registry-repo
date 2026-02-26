@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxa0ebf8d7-8730-21bd-0020-ebe5f1103528" entityID="https://www.comune.gesturi.vs.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxa0ebf8d7-8730-21bd-0020-ebe5f1103528">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>fd5elWLeCqCDgHp8yxDJgFzG+/+tVI4n/2uL6uSqkoE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+UUaUnSqTKKzMx1CgnfITuaovGaPwc4Dzeq758JGVA2ZLzIzH+lbOYMsnCME1BJPA6ngvgJoNOY6Y
+xuZ+7gHeN2AxXUCXQCEzMSrseVVbnGkePo73day9MSmtix0StnpMSWMwU6HPD0Hbh3L7FlP+EVCG
+GrYQXdokrzMMkGnrGf3KvhinBm/vzGMNxgiLtPzTsj1Tbbsg58GNPhpj8sDUu3jXm5baooqgG9Tc
+HCS5WrKflrq70eu3DjJf/F/HnEwn7vsBHN80VGfmiviJzSNj4z/DtrfY/1HPmkvW5/j6/kmgxFrC
+kcrl1lyY5qIHnDmoJ59kRDtScr/OwD4cOmAU6g==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+xSx6mYBP2PZdN29ByrCvWF4dtJgb4XmSSRwN67UnKos2GSAs8ptHHCgnIsCQdj8+sEjwUiBorvYM
+2anqHMpaIVbJTASuavfuWzYrRea+XXa3tjTozqL8FONXzIjDB55JNbavRZAO4YwKN1c/gKpPKdXV
+ngAFKyQUlkqHUk+PbfHaEcWySqVsrx9/518WRwmhH1pOZyYjOA/MoMsxG04DoPapv5IqNgg1sqR2
+o7UmM+fZGPPKhpDIXvVz4dWv+OOcqBkft8ehxfIVqALnfCqZyCujrD7v3QfQbYEMQl9Uu5sd973k
+Ex4Py24oCCG0aY2anLvWG2bGZsFuHtayBGDnXQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDrzCCApegAwIBAgIJAIqfqx+W4jWhMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2VzdHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1
+cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2VzdHVyaS52cy5pdDAeFw0yMTAzMjQxNjMzMzBaFw0z
+MTAzMjQxNjMzMzBaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2Vz
+dHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2Vz
+dHVyaS52cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUsepmAT9j2XTdvQcqw
+r1heHbSYG+F5kkkcDeu1JyqLNhkgLPKbRxwoJyLAkHY/PrBI8FIgaK72DNmp6hzKWiFWyUwErmr3
+7ls2K0Xmvl12t7Y06M6i/BTjV8yIwweeSTW2r0WQDuGMCjdXP4CqTynV1Z4ABSskFJZKh1JPj23x
+2hHFskqlbK8ff+dfFkcJoR9aTmcmIzgPzKDLMRtOA6D2qb+SKjYINbKkdqO1JjPn2RjzyoaQyF71
+c+HVr/jjnKgZH7fHocXyFagC53wqmcgro6w+790H0G2BDEJfVLubHfe95BMeD8tuKAghtGmNmpy7
+1htmxmbBbh7WsgRg510CAwEAAaNQME4wHQYDVR0OBBYEFDM/JQkv1oIltIPpf5OdyDTq95yFMB8G
+A1UdIwQYMBaAFDM/JQkv1oIltIPpf5OdyDTq95yFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEL
+BQADggEBALUX6O+ZZMxpd/inWBNjeIA+1bvzG9HMAKCGDCdtPd3MAe05g0eOBD8VBFs5FrjIRZIo
+P6TnZqvdK459P+mDGDNFSt4hk0NDekHkIesrmYFw9CwpDiu9JkYLv1sxdzGmKi2Q2Xyrk3F+1MNu
+2NBAPRn7njPPSHhxz4dJwkWLYsveCuEgfgb+u8WynygA8oerRFwdRDvY6yevFQwIWXnCof7KaKkl
+viiYsy7ezpMNuAlXq6QjlQ0udul0WQy8cIvFzGSD0z3vohUkU0GUGa+6hyP2NwiadRwEZZDTbgEI
+Uzl8im4h+z92m9sTHXW/m2lA7a0ibukOw7qBOu5kkZCxkzY=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAIqfqx+W4jWhMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2VzdHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2VzdHVyaS52cy5pdDAeFw0yMTAzMjQxNjMzMzBaFw0zMTAzMjQxNjMzMzBaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2VzdHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2VzdHVyaS52cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUsepmAT9j2XTdvQcqwr1heHbSYG+F5kkkcDeu1JyqLNhkgLPKbRxwoJyLAkHY/PrBI8FIgaK72DNmp6hzKWiFWyUwErmr37ls2K0Xmvl12t7Y06M6i/BTjV8yIwweeSTW2r0WQDuGMCjdXP4CqTynV1Z4ABSskFJZKh1JPj23x2hHFskqlbK8ff+dfFkcJoR9aTmcmIzgPzKDLMRtOA6D2qb+SKjYINbKkdqO1JjPn2RjzyoaQyF71c+HVr/jjnKgZH7fHocXyFagC53wqmcgro6w+790H0G2BDEJfVLubHfe95BMeD8tuKAghtGmNmpy71htmxmbBbh7WsgRg510CAwEAAaNQME4wHQYDVR0OBBYEFDM/JQkv1oIltIPpf5OdyDTq95yFMB8GA1UdIwQYMBaAFDM/JQkv1oIltIPpf5OdyDTq95yFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALUX6O+ZZMxpd/inWBNjeIA+1bvzG9HMAKCGDCdtPd3MAe05g0eOBD8VBFs5FrjIRZIoP6TnZqvdK459P+mDGDNFSt4hk0NDekHkIesrmYFw9CwpDiu9JkYLv1sxdzGmKi2Q2Xyrk3F+1MNu2NBAPRn7njPPSHhxz4dJwkWLYsveCuEgfgb+u8WynygA8oerRFwdRDvY6yevFQwIWXnCof7KaKklviiYsy7ezpMNuAlXq6QjlQ0udul0WQy8cIvFzGSD0z3vohUkU0GUGa+6hyP2NwiadRwEZZDTbgEIUzl8im4h+z92m9sTHXW/m2lA7a0ibukOw7qBOu5kkZCxkzY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDrzCCApegAwIBAgIJAIqfqx+W4jWhMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2VzdHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2VzdHVyaS52cy5pdDAeFw0yMTAzMjQxNjMzMzBaFw0zMTAzMjQxNjMzMzBaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHR2VzdHVyaTEaMBgGA1UECgwRQ29tdW5lIGRpIEdlc3R1cmkxITAfBgNVBAMMGHd3dy5jb211bmUuZ2VzdHVyaS52cy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMUsepmAT9j2XTdvQcqwr1heHbSYG+F5kkkcDeu1JyqLNhkgLPKbRxwoJyLAkHY/PrBI8FIgaK72DNmp6hzKWiFWyUwErmr37ls2K0Xmvl12t7Y06M6i/BTjV8yIwweeSTW2r0WQDuGMCjdXP4CqTynV1Z4ABSskFJZKh1JPj23x2hHFskqlbK8ff+dfFkcJoR9aTmcmIzgPzKDLMRtOA6D2qb+SKjYINbKkdqO1JjPn2RjzyoaQyF71c+HVr/jjnKgZH7fHocXyFagC53wqmcgro6w+790H0G2BDEJfVLubHfe95BMeD8tuKAghtGmNmpy71htmxmbBbh7WsgRg510CAwEAAaNQME4wHQYDVR0OBBYEFDM/JQkv1oIltIPpf5OdyDTq95yFMB8GA1UdIwQYMBaAFDM/JQkv1oIltIPpf5OdyDTq95yFMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBALUX6O+ZZMxpd/inWBNjeIA+1bvzG9HMAKCGDCdtPd3MAe05g0eOBD8VBFs5FrjIRZIoP6TnZqvdK459P+mDGDNFSt4hk0NDekHkIesrmYFw9CwpDiu9JkYLv1sxdzGmKi2Q2Xyrk3F+1MNu2NBAPRn7njPPSHhxz4dJwkWLYsveCuEgfgb+u8WynygA8oerRFwdRDvY6yevFQwIWXnCof7KaKklviiYsy7ezpMNuAlXq6QjlQ0udul0WQy8cIvFzGSD0z3vohUkU0GUGa+6hyP2NwiadRwEZZDTbgEIUzl8im4h+z92m9sTHXW/m2lA7a0ibukOw7qBOu5kkZCxkzY=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.gesturi.vs.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.gesturi.vs.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Gesturi</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Gesturi</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.gesturi.vs.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_d997</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Gesturi</md:Company>
+    <md:EmailAddress>admin@comune.gesturi.vs.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

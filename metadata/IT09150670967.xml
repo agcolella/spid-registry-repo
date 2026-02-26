@@ -1,0 +1,86 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx0bfae4f0-01ab-42f8-b66f-b18e20ebfb94" entityID="https://spauth.istruttorie.it"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><Reference URI="#pfx0bfae4f0-01ab-42f8-b66f-b18e20ebfb94"><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><DigestValue>EPPzRQGf4d4K1lQM4NxUdX8nQ1HtWsMWvnTVTz6WiGI=</DigestValue></Reference></SignedInfo><SignatureValue>NAV0WcQ188zXR4biKdk76kX15WvuLx5dLfk69XLb/UGeqo2/Yh02GFJvLLd1babldLU1bFhyeumEN7rXccUu96tmWpy3Pr7X7sasphMykfwLmDFkv+TC3A2CXDC8ENGCCyUaxYjhBneXKbJpQmcWHIt/x/BBx/6cfCKe5EvgWDCyxxRHVHqyhoz2kAGBiQm56qOV1cFm+mG6uwqW2+UE9GwU87fNWG3v4J+Qm2gJ6QVjsc9Jahd3uP4WfNn5zlk4IVaoSycvfEwbZlT/z11Z/eaXP7i/Juj7rW7Ui/FcUnPdo+6/JSSFlePCyN0WqatmXCzmsh/IHNBTzJ0VuKK9YA==</SignatureValue><KeyInfo><X509Data><X509Certificate>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</X509Certificate></X509Data></KeyInfo></Signature>
+  <md:SPSSODescriptor WantAssertionsSigned="true" AuthnRequestsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>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</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spauth.istruttorie.it/SpidCie/SpidLogoutConsume.aspx" />
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spauth.istruttorie.it/SpidCie/SpidConsumeBase.aspx" index="0" isDefault="true" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spauth.istruttorie.it/SpidCie/SpidConsume.aspx" index="1" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">INNOVAZIONE FINANZIARIA SIM - Accesso ai servizi</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">INNOVAZIONE FINANZIARIA SIM - Accesso ai servizi</md:ServiceDescription>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">INNOVAZIONE FINANZIARIA SIM - Accesso ai servizi</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">INNOVAZIONE FINANZIARIA SIM - Accesso ai servizi</md:ServiceDescription>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">INNOVAZIONE FINANZIARIA - SOCIETA' DI INTERMEDIAZIONE MOBILIARE S.P.A.</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">INNOVAZIONE FINANZIARIA SIM</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.gruppomol.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:VATNumber>IT09150670967</spid:VATNumber>
+      <spid:Private />
+    </md:Extensions>
+    <md:Company>INNOVAZIONE FINANZIARIA - SOCIETA' DI INTERMEDIAZIONE MOBILIARE S.P.A.</md:Company>
+    <md:EmailAddress>spauth.innofin@gruppomol.it</md:EmailAddress>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="billing">
+    <md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+      <fpa:CessionarioCommittente>
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>09150670967</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>INNOVAZIONE FINANZIARIA - SOCIETA' DI INTERMEDIAZIONE MOBILIARE S.P.A.</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>Via F. Casati</fpa:Indirizzo>
+          <fpa:NumeroCivico>1/A</fpa:NumeroCivico>
+          <fpa:CAP>20124</fpa:CAP>
+          <fpa:Comune>Milano</fpa:Comune>
+          <fpa:Provincia>MI</fpa:Provincia>
+          <fpa:Nazione>IT</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
+    </md:Extensions>
+    <md:Company>INNOVAZIONE FINANZIARIA - SOCIETA' DI INTERMEDIAZIONE MOBILIARE S.P.A.</md:Company>
+    <md:EmailAddress>fornitori@gruppomol.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

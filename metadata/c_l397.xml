@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxd91136a2-329e-557c-674b-774dc2b3ef99" entityID="https://trevi.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxd91136a2-329e-557c-674b-774dc2b3ef99">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    KTkOw5eTIg0BwkNpojsQEv0SL5XC+TCHNB08F9zwaAM=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+iG7efGapNR6l7myAHJeAliqK5wDyDIxqoqD7ip1ZGlpOfd+H3vKBsZOhpsolOjOTI9ouJYEkh651
+r2J51ehCsUxHXMAqMPlIfFn2QkUXWOJuAgEtVSj2NmHK7roc1tnpAzscXeFpMvmFBzVU/S1c8mbj
+YG2KJxyCKyN4yovVxuQZvBuFCSmiT/vRrf1lVlpXN9ehLlIejtVx3nG5x+lVu1jIWSnXS4YB+yea
+qG2iGpUceB3NgmzzeGTlR8ph6fNOMxjnY7v+wBl23bYGsKUWOhq+jyvMg5/6uFHtLnJwu742Otc8
+8bYv51FR7s3wcJ7cdls2zxkMpSNcW4IzxhDadQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+rFZMtbTi0SCaEsVHAQPAz7HiLCpXe5zzWVj/0+8ZsPZR4bvxjcGqruRjIUDhHNkx2sNAtwLmOgt8
+EC3giTo/MY+KdNnQHYhA53jATP17qVG2+SX87VzHm+kitKREv2n1lcLkZYyaD9FHGtFCocr9mPf7
+xCOApAl2tK0eNnRkEtLNwNDqrvjtblWgRHSoTmyuu6D5oB+g31Yp3NuS969Au/3JEoQp/wD+FZRe
+KHXCXPfR/Guatgk5st+TZhJOE6VsAtOqXry9vL04ElRpFou3Om1JE6fyqSKnPpt1OoJLQcOWG4zv
+ztanQ9jlce8hM5qU94CVkpoqcDmoiPNdQxfdsQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDmzCCAoOgAwIBAgIJAPwc6j8z1MNDMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFVHJldmkxGDAWBgNVBAoMD0NvbXVuZSBkaSBUcmV2aTEb
+MBkGA1UEAwwSdHJldmkuaGFsbGV5d2ViLml0MB4XDTIxMDMyNDE3NDMyN1oXDTMxMDMyNDE3NDMy
+N1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVUcmV2aTEYMBYGA1UE
+CgwPQ29tdW5lIGRpIFRyZXZpMRswGQYDVQQDDBJ0cmV2aS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsVky1tOLRIJoSxUcBA8DPseIsKld7nPNZWP/T7xmw9lHh
+u/GNwaqu5GMhQOEc2THaw0C3AuY6C3wQLeCJOj8xj4p02dAdiEDneMBM/XupUbb5JfztXMeb6SK0
+pES/afWVwuRljJoP0Uca0UKhyv2Y9/vEI4CkCXa0rR42dGQS0s3A0Oqu+O1uVaBEdKhObK67oPmg
+H6DfVinc25L3r0C7/ckShCn/AP4VlF4odcJc99H8a5q2CTmy35NmEk4TpWwC06pevL28vTgSVGkW
+i7c6bUkTp/KpIqc+m3U6gktBw5YbjO/O1qdD2OVx7yEzmpT3gJWSmipwOaiI811DF92xAgMBAAGj
+UDBOMB0GA1UdDgQWBBRa/JWVZUSEaEFc/zt0BKBcmoXAjTAfBgNVHSMEGDAWgBRa/JWVZUSEaEFc
+/zt0BKBcmoXAjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBEhL7JVhOMRSFXvGQP
+xTwjIt8r9t3IP1ixR/NcyG6bLJuM16ewXatUdhq2Pfc72/frioyOH0uyDkaEh7uzvCDpgOy5TFCo
+9/vxQC1oqGdkGwlo+Bjp3dqaU9cIPf6y1QCYox6T118Kn8vnESDLEIB6ZrcqzfeQDhggz2v9mIFq
+4g4ZQle51GSBKeht5ZY4gxQNkYrd8Mswwm71UUrBUqtDt6KP2YJ9cHFoevL6xfkRsqyl7aHMAHnH
+PbAxv40uDftdCTONq7uW8PM6o+sl1acqeyjqcTri1JbE04RJnshEPSduSAG0penY0D2JdSfx3C3b
+Qbyg1axbfUibjxRU6OwX
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDmzCCAoOgAwIBAgIJAPwc6j8z1MNDMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFVHJldmkxGDAWBgNVBAoMD0NvbXVuZSBkaSBUcmV2aTEbMBkGA1UEAwwSdHJldmkuaGFsbGV5d2ViLml0MB4XDTIxMDMyNDE3NDMyN1oXDTMxMDMyNDE3NDMyN1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVUcmV2aTEYMBYGA1UECgwPQ29tdW5lIGRpIFRyZXZpMRswGQYDVQQDDBJ0cmV2aS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsVky1tOLRIJoSxUcBA8DPseIsKld7nPNZWP/T7xmw9lHhu/GNwaqu5GMhQOEc2THaw0C3AuY6C3wQLeCJOj8xj4p02dAdiEDneMBM/XupUbb5JfztXMeb6SK0pES/afWVwuRljJoP0Uca0UKhyv2Y9/vEI4CkCXa0rR42dGQS0s3A0Oqu+O1uVaBEdKhObK67oPmgH6DfVinc25L3r0C7/ckShCn/AP4VlF4odcJc99H8a5q2CTmy35NmEk4TpWwC06pevL28vTgSVGkWi7c6bUkTp/KpIqc+m3U6gktBw5YbjO/O1qdD2OVx7yEzmpT3gJWSmipwOaiI811DF92xAgMBAAGjUDBOMB0GA1UdDgQWBBRa/JWVZUSEaEFc/zt0BKBcmoXAjTAfBgNVHSMEGDAWgBRa/JWVZUSEaEFc/zt0BKBcmoXAjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBEhL7JVhOMRSFXvGQPxTwjIt8r9t3IP1ixR/NcyG6bLJuM16ewXatUdhq2Pfc72/frioyOH0uyDkaEh7uzvCDpgOy5TFCo9/vxQC1oqGdkGwlo+Bjp3dqaU9cIPf6y1QCYox6T118Kn8vnESDLEIB6ZrcqzfeQDhggz2v9mIFq4g4ZQle51GSBKeht5ZY4gxQNkYrd8Mswwm71UUrBUqtDt6KP2YJ9cHFoevL6xfkRsqyl7aHMAHnHPbAxv40uDftdCTONq7uW8PM6o+sl1acqeyjqcTri1JbE04RJnshEPSduSAG0penY0D2JdSfx3C3bQbyg1axbfUibjxRU6OwX
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDmzCCAoOgAwIBAgIJAPwc6j8z1MNDMA0GCSqGSIb3DQEBCwUAMGQxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFVHJldmkxGDAWBgNVBAoMD0NvbXVuZSBkaSBUcmV2aTEbMBkGA1UEAwwSdHJldmkuaGFsbGV5d2ViLml0MB4XDTIxMDMyNDE3NDMyN1oXDTMxMDMyNDE3NDMyN1owZDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVUcmV2aTEYMBYGA1UECgwPQ29tdW5lIGRpIFRyZXZpMRswGQYDVQQDDBJ0cmV2aS5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCsVky1tOLRIJoSxUcBA8DPseIsKld7nPNZWP/T7xmw9lHhu/GNwaqu5GMhQOEc2THaw0C3AuY6C3wQLeCJOj8xj4p02dAdiEDneMBM/XupUbb5JfztXMeb6SK0pES/afWVwuRljJoP0Uca0UKhyv2Y9/vEI4CkCXa0rR42dGQS0s3A0Oqu+O1uVaBEdKhObK67oPmgH6DfVinc25L3r0C7/ckShCn/AP4VlF4odcJc99H8a5q2CTmy35NmEk4TpWwC06pevL28vTgSVGkWi7c6bUkTp/KpIqc+m3U6gktBw5YbjO/O1qdD2OVx7yEzmpT3gJWSmipwOaiI811DF92xAgMBAAGjUDBOMB0GA1UdDgQWBBRa/JWVZUSEaEFc/zt0BKBcmoXAjTAfBgNVHSMEGDAWgBRa/JWVZUSEaEFc/zt0BKBcmoXAjTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBEhL7JVhOMRSFXvGQPxTwjIt8r9t3IP1ixR/NcyG6bLJuM16ewXatUdhq2Pfc72/frioyOH0uyDkaEh7uzvCDpgOy5TFCo9/vxQC1oqGdkGwlo+Bjp3dqaU9cIPf6y1QCYox6T118Kn8vnESDLEIB6ZrcqzfeQDhggz2v9mIFq4g4ZQle51GSBKeht5ZY4gxQNkYrd8Mswwm71UUrBUqtDt6KP2YJ9cHFoevL6xfkRsqyl7aHMAHnHPbAxv40uDftdCTONq7uW8PM6o+sl1acqeyjqcTri1JbE04RJnshEPSduSAG0penY0D2JdSfx3C3bQbyg1axbfUibjxRU6OwX
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trevi.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trevi.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Trevi
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Trevi
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.trevi.pg.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_l397
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Trevi
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            info@comune.trevi.pg.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

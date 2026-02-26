@@ -1,0 +1,57 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.icgragnano3.edu.it/microspid_metadata" ID="pfxa71ff5f2-1bae-3ad6-34d4-5bb32586de15"><ds:Signature>
+  <ds:SignedInfo>
+    <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#pfxa71ff5f2-1bae-3ad6-34d4-5bb32586de15"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2sbPGt4FwqbBtF249zTel8KQJG9SSXh0Szju5D5clhM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bB17Dwvy6+6oJpIGIP2/kozsCFefk2EwFFQeHhxOmjmxalLyIhDVJJ4OKVhMsn+VAxMacwgPU7y47uigGdE0T53tBjlALNbdRTKgytfRjMpq1dIrvAHXWFAJz2su8+USJ0UnAqW3Mbd2cMM70dTTpj14FraXtiEGypzPYY78KhW9/RQTrGkhKmHSpi3UQEuZFjmT9uPDCkQeThVm5u7E63aSrfwyYJfY7iSgoyICWD9Lpiv5UqrCwYwzmSgceC4+WEh8OFcUUVm0nvW/kg4Pb0Nu0KW9oOrl4YWlbBJB5nVoPgirIBZb0VGZIs2p9uedvO3bIs1/n1pwQy7eQvVAbQ==</ds:SignatureValue>
+  <ds:KeyInfo>
+    <ds:X509Data>
+      <ds:X509Certificate>MIIEdTCCA12gAwIBAgIHBgSJYYjH8zANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UEBhMCSVQxETAPBgNVBAcMCEdyYWduYW5vMS0wKwYDVQQKDCRJQyBHcmFnbmFubyAzIFN0YWdsaWUtUC5jbyBJbXBlcmlhbGUxLTArBgNVBAMMJElDIEdyYWduYW5vIDMgU3RhZ2xpZS1QLmNvIEltcGVyaWFsZTE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuaWNncmFnbmFubzMuZWR1Lml0L21pY3Jvc3BpZF9tZXRhZGF0YTEVMBMGA1UEYQwMaWNfZ3JhZ25hbm8zMB4XDTIxMDMxMDA5NDkxMloXDTQxMDMwOTA5NDkxMlowgdExCzAJBgNVBAYTAklUMREwDwYDVQQHDAhHcmFnbmFubzEtMCsGA1UECgwkSUMgR3JhZ25hbm8gMyBTdGFnbGllLVAuY28gSW1wZXJpYWxlMS0wKwYDVQQDDCRJQyBHcmFnbmFubyAzIFN0YWdsaWUtUC5jbyBJbXBlcmlhbGUxOjA4BgNVBFMMMWh0dHBzOi8vd3d3LmljZ3JhZ25hbm8zLmVkdS5pdC9taWNyb3NwaWRfbWV0YWRhdGExFTATBgNVBGEMDGljX2dyYWduYW5vMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxjAsOKTAKq11dqnsbfV8FFyj7tvtU/7RL6degJpZ/Y5DkAtJi3TN8ynDc00BgMOmapEeUalIYAj79+phuAeP/Q5yr6l4mr6UnN/P9chQVYiTDG2qGdfZ6dLoEVGtw0RLl8swADomgvTNhTdNF7loP7qbyvwe+6pQ9pTGhI72/mrTSXJ3SQydcPmag4rUIvJRS1Ft+qpM09mZxdQ1Eqt+7VUfIyq4Cw7gr70BcFio7yIUSkYy0fXht29IyPvcCE+A3P+IZD23Afj2niOEnktJ3XcF6BJcK94GT0eeCjt+ebdHkuaIyh1EJiAVJqQUtskyxTvOJJnvrxeFLI43ukBSMCAwEAAaNQME4wHQYDVR0OBBYEFHaxcoeZY26CuTyXpvjG3GyHZLJYMB8GA1UdIwQYMBaAFHaxcoeZY26CuTyXpvjG3GyHZLJYMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKsoUyJk40icSJ7ELzygs/4nZ86se9pLSj7z1ZdTz4aReBGlrjyBWyMkOpmUgebQazXY+QNjsbT5JyV0PRZCJUMr8Cb1XrMDQWi20jCptPlNCAYeDA9i1dQXQOApUyoZShvMtCdSctihquUlvfSgpkuXBlpDkhdXLTsyYIn1G57Uzya7X2k4EyHg5Ex6EeAE27+pK1Po5beRq+zi1fhil8bw4o+bUGPKx+3J8bQE+rFhY+F0Js99AP3fwcBfKGFUbDqrrKxeJglcX/fSNCjcpq2tp6BBkQ54NKfuSO6ird7wezrqStua2nVH5EYhIKh6VrRxkisfcea1LB3GX7qx2LM=</ds:X509Certificate>
+    </ds:X509Data>
+  </ds:KeyInfo>
+</ds:Signature> 
+     
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true"> 
+        
+        <md:KeyDescriptor use="signing"> 
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"> 
+                <ds:X509Data> 
+                    <ds:X509Certificate>MIIEdTCCA12gAwIBAgIHBgSJYYjH8zANBgkqhkiG9w0BAQsFADCB0TELMAkGA1UEBhMCSVQxETAPBgNVBAcMCEdyYWduYW5vMS0wKwYDVQQKDCRJQyBHcmFnbmFubyAzIFN0YWdsaWUtUC5jbyBJbXBlcmlhbGUxLTArBgNVBAMMJElDIEdyYWduYW5vIDMgU3RhZ2xpZS1QLmNvIEltcGVyaWFsZTE6MDgGA1UEUwwxaHR0cHM6Ly93d3cuaWNncmFnbmFubzMuZWR1Lml0L21pY3Jvc3BpZF9tZXRhZGF0YTEVMBMGA1UEYQwMaWNfZ3JhZ25hbm8zMB4XDTIxMDMxMDA5NDkxMloXDTQxMDMwOTA5NDkxMlowgdExCzAJBgNVBAYTAklUMREwDwYDVQQHDAhHcmFnbmFubzEtMCsGA1UECgwkSUMgR3JhZ25hbm8gMyBTdGFnbGllLVAuY28gSW1wZXJpYWxlMS0wKwYDVQQDDCRJQyBHcmFnbmFubyAzIFN0YWdsaWUtUC5jbyBJbXBlcmlhbGUxOjA4BgNVBFMMMWh0dHBzOi8vd3d3LmljZ3JhZ25hbm8zLmVkdS5pdC9taWNyb3NwaWRfbWV0YWRhdGExFTATBgNVBGEMDGljX2dyYWduYW5vMzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMxjAsOKTAKq11dqnsbfV8FFyj7tvtU/7RL6degJpZ/Y5DkAtJi3TN8ynDc00BgMOmapEeUalIYAj79+phuAeP/Q5yr6l4mr6UnN/P9chQVYiTDG2qGdfZ6dLoEVGtw0RLl8swADomgvTNhTdNF7loP7qbyvwe+6pQ9pTGhI72/mrTSXJ3SQydcPmag4rUIvJRS1Ft+qpM09mZxdQ1Eqt+7VUfIyq4Cw7gr70BcFio7yIUSkYy0fXht29IyPvcCE+A3P+IZD23Afj2niOEnktJ3XcF6BJcK94GT0eeCjt+ebdHkuaIyh1EJiAVJqQUtskyxTvOJJnvrxeFLI43ukBSMCAwEAAaNQME4wHQYDVR0OBBYEFHaxcoeZY26CuTyXpvjG3GyHZLJYMB8GA1UdIwQYMBaAFHaxcoeZY26CuTyXpvjG3GyHZLJYMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKsoUyJk40icSJ7ELzygs/4nZ86se9pLSj7z1ZdTz4aReBGlrjyBWyMkOpmUgebQazXY+QNjsbT5JyV0PRZCJUMr8Cb1XrMDQWi20jCptPlNCAYeDA9i1dQXQOApUyoZShvMtCdSctihquUlvfSgpkuXBlpDkhdXLTsyYIn1G57Uzya7X2k4EyHg5Ex6EeAE27+pK1Po5beRq+zi1fhil8bw4o+bUGPKx+3J8bQE+rFhY+F0Js99AP3fwcBfKGFUbDqrrKxeJglcX/fSNCjcpq2tp6BBkQ54NKfuSO6ird7wezrqStua2nVH5EYhIKh6VrRxkisfcea1LB3GX7qx2LM=</ds:X509Certificate> 
+                </ds:X509Data> 
+            </ds:KeyInfo> 
+        </md:KeyDescriptor> 
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icgragnano3.edu.it/microspid_logout"/> 
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat> 
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.icgragnano3.edu.it/microspid_acs" index="0" isDefault="true"/> 
+
+        <md:AttributeConsumingService index="0"> 
+            <md:ServiceName xml:lang="it">Servizio_1</md:ServiceName> 
+            <md:ServiceDescription xml:lang="it">Accesso all'area riservata del portale</md:ServiceDescription> 
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService> 
+
+    </md:SPSSODescriptor> 
+    <md:Organization>
+      <md:OrganizationName xml:lang="it">IC Gragnano 3 Staglie-P.co Imperiale</md:OrganizationName>
+      <md:OrganizationDisplayName xml:lang="it">IC Gragnano 3 Staglie-P.co Imperiale</md:OrganizationDisplayName>
+      <md:OrganizationURL xml:lang="it">https://www.icgragnano3.edu.it</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+      <md:Extensions>
+        <spid:IPACode>icgi</spid:IPACode>
+        <spid:Public/>
+      </md:Extensions>
+      <md:EmailAddress>naic8e6001@istruzione.it</md:EmailAddress>
+      <md:TelephoneNumber>+390818702141</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

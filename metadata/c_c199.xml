@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxe3167fda-b052-80b9-1687-6574ce84a588" entityID="https://www.halleyweb.com/castelluccioin">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxe3167fda-b052-80b9-1687-6574ce84a588">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    O4vAnrEA+Y5KM/meqhdGjLBisZ8WHN/+5hW3wgezQZI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+35dhGjfkFVmJp9MRZENfaEd6F7hAVmhC5ZtxF1ZU8Fkybj1gNtiLk/xffywuMyEW10o7DDhMKhu7
+HmbxVEb37J2GVxpiuyPbtHwDLCbRukQTlVIJAGJLZuR9wy2mEuPiM1ap6bCBgTR04qnYZUydUpHA
+9yANKedrpkIUq8JzRN2nkaTSsY3DNOEzRMu3uFL+rg6A8iSoL2Ou3hnDAqK9mRki3+jUEaKqJlcx
+4ca71cUKoh/GkufcYeXobYnVC5l5xTKCX03U35hKMxuTgD+CTjY/SO6jqZZJA4Q4uAnu0TCz70s7
+jOQ5DpDMB2xwa5PoQj+nOQWKmNdJMBq7J8Lw9A==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+4W6Pm9o2+re//TEoiCJT8tQ/xdQkuXm84cXNL0wsYFM5Xtk3iILmEVJWC0McWkIe9FKn8rdD8xYB
+E3jccN2Z/DqHauJphAgOfEvoEhFeRbGtoFLnMFSDBhMs5XyOyplTvJNt+DaGZ1dQ9k67hFqKEA6J
+1oW70wQy8eCeQnPzVQL+6BVKVY3S3JcLjDvGwIiHLcOua1VMsqzcOUQquIri11zZS2sZsljA7U16
+BX4JvjlGXkEn9ZyYzsHW3phPoUdxnEjHZ5rNZPPjmBzp3b6912pAmhHh3RYu3g1oBbH2Nh89Z/0v
+7iHAgGzM0sqFmFXjrlGBF2wTYgMXEM95VbN1aQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIID3zCCAsegAwIBAgIJAKhFijC0bM57MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoM
+IENvbXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2Vi
+LmNvbTAeFw0yMTAyMjMxMDU3NDFaFw0zMTAyMjMxMDU3NDFaMIGFMQswCQYDVQQGEwJJVDEOMAwG
+A1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoMIENv
+bXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2ViLmNv
+bTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOFuj5vaNvq3v/0xKIgiU/LUP8XUJLl5
+vOHFzS9MLGBTOV7ZN4iC5hFSVgtDHFpCHvRSp/K3Q/MWARN43HDdmfw6h2riaYQIDnxL6BIRXkWx
+raBS5zBUgwYTLOV8jsqZU7yTbfg2hmdXUPZOu4RaihAOidaFu9MEMvHgnkJz81UC/ugVSlWN0tyX
+C4w7xsCIhy3DrmtVTLKs3DlEKriK4tdc2UtrGbJYwO1NegV+Cb45Rl5BJ/WcmM7B1t6YT6FHcZxI
+x2eazWTz45gc6d2+vddqQJoR4d0WLt4NaAWx9jYfPWf9L+4hwIBszNLKhZhV465RgRdsE2IDFxDP
+eVWzdWkCAwEAAaNQME4wHQYDVR0OBBYEFKrH+amSj45JYVxv7uOBl/UinS/OMB8GA1UdIwQYMBaA
+FKrH+amSj45JYVxv7uOBl/UinS/OMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB81
+hTDW33FKqQGRLSWKKRBht/00FdESYikCKoWpqukVdsacqB1mcazyo4dYtpAjqksGhCbe4PSZAneC
+SqbA7jJnRs/jHifc60kCOVfJUjr6KaC5nCBRwkG1hIVeek40uiy6xOXznybi4jDfmgvsIhAiCiGt
+5/BNMyWvdJr3o/o2yHi4dfgM+J6H1TmXkRx9zgISdKtjDmnuKKrdCIwLiE35Z24KStZ2mMizKXqe
+3cGa+elpT0MSysJL8rejByBjH8SsCpd2VVwqOOatgI21t96Rp9yPF328mp9JU3WXcniSZ59t1kTo
+oYGm5L3Ea9S4zybZ2VCQd/Zsk69qHkXU9a8=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID3zCCAsegAwIBAgIJAKhFijC0bM57MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoMIENvbXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2ViLmNvbTAeFw0yMTAyMjMxMDU3NDFaFw0zMTAyMjMxMDU3NDFaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoMIENvbXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2ViLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOFuj5vaNvq3v/0xKIgiU/LUP8XUJLl5vOHFzS9MLGBTOV7ZN4iC5hFSVgtDHFpCHvRSp/K3Q/MWARN43HDdmfw6h2riaYQIDnxL6BIRXkWxraBS5zBUgwYTLOV8jsqZU7yTbfg2hmdXUPZOu4RaihAOidaFu9MEMvHgnkJz81UC/ugVSlWN0tyXC4w7xsCIhy3DrmtVTLKs3DlEKriK4tdc2UtrGbJYwO1NegV+Cb45Rl5BJ/WcmM7B1t6YT6FHcZxIx2eazWTz45gc6d2+vddqQJoR4d0WLt4NaAWx9jYfPWf9L+4hwIBszNLKhZhV465RgRdsE2IDFxDPeVWzdWkCAwEAAaNQME4wHQYDVR0OBBYEFKrH+amSj45JYVxv7uOBl/UinS/OMB8GA1UdIwQYMBaAFKrH+amSj45JYVxv7uOBl/UinS/OMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB81hTDW33FKqQGRLSWKKRBht/00FdESYikCKoWpqukVdsacqB1mcazyo4dYtpAjqksGhCbe4PSZAneCSqbA7jJnRs/jHifc60kCOVfJUjr6KaC5nCBRwkG1hIVeek40uiy6xOXznybi4jDfmgvsIhAiCiGt5/BNMyWvdJr3o/o2yHi4dfgM+J6H1TmXkRx9zgISdKtjDmnuKKrdCIwLiE35Z24KStZ2mMizKXqe3cGa+elpT0MSysJL8rejByBjH8SsCpd2VVwqOOatgI21t96Rp9yPF328mp9JU3WXcniSZ59t1kTooYGm5L3Ea9S4zybZ2VCQd/Zsk69qHkXU9a8=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID3zCCAsegAwIBAgIJAKhFijC0bM57MA0GCSqGSIb3DQEBCwUAMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoMIENvbXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2ViLmNvbTAeFw0yMTAyMjMxMDU3NDFaFw0zMTAyMjMxMDU3NDFaMIGFMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHzAdBgNVBAcMFkNhc3RlbGx1Y2NpbyBJbmZlcmlvcmUxKTAnBgNVBAoMIENvbXVuZSBkaSBDYXN0ZWxsdWNjaW8gSW5mZXJpb3JlMRowGAYDVQQDDBF3d3cuaGFsbGV5d2ViLmNvbTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAOFuj5vaNvq3v/0xKIgiU/LUP8XUJLl5vOHFzS9MLGBTOV7ZN4iC5hFSVgtDHFpCHvRSp/K3Q/MWARN43HDdmfw6h2riaYQIDnxL6BIRXkWxraBS5zBUgwYTLOV8jsqZU7yTbfg2hmdXUPZOu4RaihAOidaFu9MEMvHgnkJz81UC/ugVSlWN0tyXC4w7xsCIhy3DrmtVTLKs3DlEKriK4tdc2UtrGbJYwO1NegV+Cb45Rl5BJ/WcmM7B1t6YT6FHcZxIx2eazWTz45gc6d2+vddqQJoR4d0WLt4NaAWx9jYfPWf9L+4hwIBszNLKhZhV465RgRdsE2IDFxDPeVWzdWkCAwEAAaNQME4wHQYDVR0OBBYEFKrH+amSj45JYVxv7uOBl/UinS/OMB8GA1UdIwQYMBaAFKrH+amSj45JYVxv7uOBl/UinS/OMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB81hTDW33FKqQGRLSWKKRBht/00FdESYikCKoWpqukVdsacqB1mcazyo4dYtpAjqksGhCbe4PSZAneCSqbA7jJnRs/jHifc60kCOVfJUjr6KaC5nCBRwkG1hIVeek40uiy6xOXznybi4jDfmgvsIhAiCiGt5/BNMyWvdJr3o/o2yHi4dfgM+J6H1TmXkRx9zgISdKtjDmnuKKrdCIwLiE35Z24KStZ2mMizKXqe3cGa+elpT0MSysJL8rejByBjH8SsCpd2VVwqOOatgI21t96Rp9yPF328mp9JU3WXcniSZ59t1kTooYGm5L3Ea9S4zybZ2VCQd/Zsk69qHkXU9a8=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.halleyweb.com/castelluccioin/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.halleyweb.com/castelluccioin/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Castelluccio Inferiore
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Castelluccio Inferiore
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.castelluccioinferiore.pz.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_c199
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Castelluccio Inferiore
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            tributi.castelluccio@tiscali.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

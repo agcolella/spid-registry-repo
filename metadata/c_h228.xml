@@ -1,0 +1,304 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.comunereitano.com/">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    jujJJUT5rLpzfgsGhID9/UEPZRZN7ZtiSIsTJmlaMyI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+iav8VDw6YWENtkrPnPOinVCBBDzVgI0hDVoHTtmgUR3jy/uEoeBG/ABAIjLyXlwdcqhyctBvW40l
+X9KWYHdU8mzDzOxI3LOq3wqYj8Qo9RuImLJiejVDrBpHo8ArLfUmgN7L3ELGyfZF0mfLxAT0XS48
+y0FdXv849QFcOoqckGViRibwqrPMZRqLLu3U4Ksnm29aHFgt3AgDnYI5Tu1NJes1UlMpSb1iJoAu
+zjIsOk7LAeykkPdTVKat2jXpIG+iZ1pAywq9NM92GA+DMiNc+GTQW11xFEF6Y+oL71cKiTxNlyWh
+RRXX97iPeBtyjnH+B6Oj0WNPj1kH5UQzxbzTI4wR+aMHCihSjW7LXISYuknlSTA24gu8h+0AXcx9
+75vwkygwAbN9zdfzAM6EOMCD/tHF4urIc3+OrEFphuoLX1S2g1LO44W46YQ6z8vrei979lNgbh/k
+YXQyBZXtg4PXINXqNOmWVla3DWlfb8IBgJ5A2y/xqE1OIdPsPCCdyOScpyX/rXNV+rotkwbr5yDy
+AildfiyKSPdpJpc4VJHM60iB5ijFBUWFnKvS7h3TligXRRUyfjdcPMDKVIqs64BYnxtXKRTV7z7Q
+6VfSqGXDazAoj3tcHlQrDgm57+dP1GTj4V8d6nVAQ6vNRVvE0Ek50/Rq6XokQliW0WEiSCoam0g=
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+w3t5xsgCgbAVIKtr8yZjF23XJt382si1fm5648d2efa54E0iKlhMm+itqvUSpBu2Hdxn7dPqkvZZ
+rZ8yYLiAaoNMXPF5pM9o0+Ru8yK/BczeysBmi36N6rfPYommvUqeVbvfnGcY/5m5UNY7J4zgFont
+knyzgUqVzD+PFUpX+KOKlvL56fc/0qJn9pUHRak85KVsz704J3rIXJHa9Cj1TZjSmTe+MK40gbLT
+Z7CmKmN4sMldf2rG+8WkdiZBD+6eoGcSmAHn53NcJKIPwbFvYfnudW71cHmjstTI8S1NSQMkKXRK
+MOUS52MM7t3Vpw+7xWJGZ09b3fLKOzDE0WAAR9MX5YcFKILBpT1g59i6/l3vpo/7jcrV6CkKjmQV
+pzJ6J8kbmjOaCp+LhJs5x4Gz1zOWfgDRQCB5eARVH/OcXqtUuC7DRAUFNyE7zOUYYyIShMHXDvYu
+/CHgYox4T3kjcgSSkgmeaz0j7C+jz5wDuQVJ6gQBrsU6MioU+QBYy8BZiFQiBthmOccuRaVHRKP+
+wJqn2qCrnzEZvzAwdEH0ZlsTtR9mucM6Bgx+g+E6awz4cqku2kvr6UiZKZc8KVDJmQqxL0Z9LoOE
+F5m2e9wPYRz0WBcLS+aTifwEVUfKveXLcdSP17ETSYAU1b0gasrHcxnF0wzES6IM2/3+PmaJhM8=
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIGFjCCA/6gAwIBAgIJAKWpJf1tFRpHMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEN
+MAsGA1UECAwEUm9tYTEQMA4GA1UEBwwHUmVpdGFubzEQMA4GA1UECgwHUmVpdGFubzENMAsGA1UE
+CwwEU3BpZDElMCMGA1UEAwwccmVpdGFuby5jb211bmUucGx1Z2FuZHBheS5pdDEnMCUGCSqGSIb3
+DQEJARYYcmVpdGFub0BwZWMuaW50cmFkYXRhLml0MB4XDTIxMDMyMTE1MTg0MVoXDTI0MDMyMDE1
+MTg0MVowgZ8xCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMRAwDgYDVQQHDAdSZWl0YW5vMRAw
+DgYDVQQKDAdSZWl0YW5vMQ0wCwYDVQQLDARTcGlkMSUwIwYDVQQDDBxyZWl0YW5vLmNvbXVuZS5w
+bHVnYW5kcGF5Lml0MScwJQYJKoZIhvcNAQkBFhhyZWl0YW5vQHBlYy5pbnRyYWRhdGEuaXQwggIi
+MA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDDe3nGyAKBsBUgq2vzJmMXbdcm3fzayLV+bnrj
+x3Z59rngTSIqWEyb6K2q9RKkG7Yd3Gft0+qS9lmtnzJguIBqg0xc8Xmkz2jT5G7zIr8FzN7KwGaL
+fo3qt89iiaa9Sp5Vu9+cZxj/mblQ1jsnjOAWie2SfLOBSpXMP48VSlf4o4qW8vnp9z/Somf2lQdF
+qTzkpWzPvTgneshckdr0KPVNmNKZN74wrjSBstNnsKYqY3iwyV1/asb7xaR2JkEP7p6gZxKYAefn
+c1wkog/BsW9h+e51bvVweaOy1MjxLU1JAyQpdEow5RLnYwzu3dWnD7vFYkZnT1vd8so7MMTRYABH
+0xflhwUogsGlPWDn2Lr+Xe+mj/uNytXoKQqOZBWnMnonyRuaM5oKn4uEmznHgbPXM5Z+ANFAIHl4
+BFUf85xeq1S4LsNEBQU3ITvM5RhjIhKEwdcO9i78IeBijHhPeSNyBJKSCZ5rPSPsL6PPnAO5BUnq
+BAGuxToyKhT5AFjLwFmIVCIG2GY5xy5FpUdEo/7AmqfaoKufMRm/MDB0QfRmWxO1H2a5wzoGDH6D
+4TprDPhyqS7aS+vpSJkplzwpUMmZCrEvRn0ug4QXmbZ73A9hHPRYFwtL5pOJ/ARVR8q95ctx1I/X
+sRNJgBTVvSBqysdzGcXTDMRLogzb/f4+ZomEzwIDAQABo1MwUTAdBgNVHQ4EFgQUVl5/R+2tq9/7
+aSkDVijbG2bd3qowHwYDVR0jBBgwFoAUVl5/R+2tq9/7aSkDVijbG2bd3qowDwYDVR0TAQH/BAUw
+AwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAVcJI/kbkpXpRi/K8D2Iogx0IXre3otN5UWa0o15NJISI
+Mrp+HTtGgrWjbm4VCIMl6J7C42JKxSU5f6Tu9QN0Igdw4tfZHv+YQeFfn+eGTxPXqXUXDb9cLeFq
+VdINa/mHCo34C4kcDuccb153edAg8C0qrIVlTD7PBOcNO0s5eCEZSIsCa4pi06/9zLO1cdiaDZ7m
+RB/hF5xqeVn3tGcXSVzuf3n1LcXdepxTjm0BCs4b0Y0Am54FztD7u7h9uclBdbCyD9vQY3YdAk7M
+SZNcvMqFo9Sx97l12bK4TX3JmQW0cjgegxQfbSGxraB6lDh+mldzYB6u/0bQWcFjhIJXNS0MU9GF
+0etkpgWYpU2RxiiwVk/CNC4bLrjvj8Xunpx2ViTTaEHkDMViUnCsrStwt74LwlumR0Ajn0xeJD8C
+tQ3njaZ8QjUL0NFNCufC73oNsKdb940AxAIviAQTn8ps15Sx6sZkIUMWCjr8wNoaLFgnbPiFWG0Q
+SaM7+QYC9tMiFyXVcmumV906U5ubgp5Lk1xmQar8Qx2bXD9BwxxA8bUVyUN1WgfGA9OObe6FCnCA
+AdakRdqC+FCRu7UZKLiadTHEhGseg3a9akgEKhxqpFQL/XY99xKWd8cY/U857O/OBe/c+zmq3bwu
+geDan/gImtUoMgd0gYn6DYDDlgISUi0=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        
+            MIIGFjCCA/6gAwIBAgIJAKWpJf1tFRpHMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYD
+			VQQGEwJJVDENMAsGA1UECAwEUm9tYTEQMA4GA1UEBwwHUmVpdGFubzEQMA4GA1UE
+			CgwHUmVpdGFubzENMAsGA1UECwwEU3BpZDElMCMGA1UEAwwccmVpdGFuby5jb211
+			bmUucGx1Z2FuZHBheS5pdDEnMCUGCSqGSIb3DQEJARYYcmVpdGFub0BwZWMuaW50
+			cmFkYXRhLml0MB4XDTIxMDMyMTE1MTg0MVoXDTI0MDMyMDE1MTg0MVowgZ8xCzAJ
+			BgNVBAYTAklUMQ0wCwYDVQQIDARSb21hMRAwDgYDVQQHDAdSZWl0YW5vMRAwDgYD
+			VQQKDAdSZWl0YW5vMQ0wCwYDVQQLDARTcGlkMSUwIwYDVQQDDBxyZWl0YW5vLmNv
+			bXVuZS5wbHVnYW5kcGF5Lml0MScwJQYJKoZIhvcNAQkBFhhyZWl0YW5vQHBlYy5p
+			bnRyYWRhdGEuaXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDDe3nG
+			yAKBsBUgq2vzJmMXbdcm3fzayLV+bnrjx3Z59rngTSIqWEyb6K2q9RKkG7Yd3Gft
+			0+qS9lmtnzJguIBqg0xc8Xmkz2jT5G7zIr8FzN7KwGaLfo3qt89iiaa9Sp5Vu9+c
+			Zxj/mblQ1jsnjOAWie2SfLOBSpXMP48VSlf4o4qW8vnp9z/Somf2lQdFqTzkpWzP
+			vTgneshckdr0KPVNmNKZN74wrjSBstNnsKYqY3iwyV1/asb7xaR2JkEP7p6gZxKY
+			Aefnc1wkog/BsW9h+e51bvVweaOy1MjxLU1JAyQpdEow5RLnYwzu3dWnD7vFYkZn
+			T1vd8so7MMTRYABH0xflhwUogsGlPWDn2Lr+Xe+mj/uNytXoKQqOZBWnMnonyRua
+			M5oKn4uEmznHgbPXM5Z+ANFAIHl4BFUf85xeq1S4LsNEBQU3ITvM5RhjIhKEwdcO
+			9i78IeBijHhPeSNyBJKSCZ5rPSPsL6PPnAO5BUnqBAGuxToyKhT5AFjLwFmIVCIG
+			2GY5xy5FpUdEo/7AmqfaoKufMRm/MDB0QfRmWxO1H2a5wzoGDH6D4TprDPhyqS7a
+			S+vpSJkplzwpUMmZCrEvRn0ug4QXmbZ73A9hHPRYFwtL5pOJ/ARVR8q95ctx1I/X
+			sRNJgBTVvSBqysdzGcXTDMRLogzb/f4+ZomEzwIDAQABo1MwUTAdBgNVHQ4EFgQU
+			Vl5/R+2tq9/7aSkDVijbG2bd3qowHwYDVR0jBBgwFoAUVl5/R+2tq9/7aSkDVijb
+			G2bd3qowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAgEAVcJI/kbk
+			pXpRi/K8D2Iogx0IXre3otN5UWa0o15NJISIMrp+HTtGgrWjbm4VCIMl6J7C42JK
+			xSU5f6Tu9QN0Igdw4tfZHv+YQeFfn+eGTxPXqXUXDb9cLeFqVdINa/mHCo34C4kc
+			Duccb153edAg8C0qrIVlTD7PBOcNO0s5eCEZSIsCa4pi06/9zLO1cdiaDZ7mRB/h
+			F5xqeVn3tGcXSVzuf3n1LcXdepxTjm0BCs4b0Y0Am54FztD7u7h9uclBdbCyD9vQ
+			Y3YdAk7MSZNcvMqFo9Sx97l12bK4TX3JmQW0cjgegxQfbSGxraB6lDh+mldzYB6u
+			/0bQWcFjhIJXNS0MU9GF0etkpgWYpU2RxiiwVk/CNC4bLrjvj8Xunpx2ViTTaEHk
+			DMViUnCsrStwt74LwlumR0Ajn0xeJD8CtQ3njaZ8QjUL0NFNCufC73oNsKdb940A
+			xAIviAQTn8ps15Sx6sZkIUMWCjr8wNoaLFgnbPiFWG0QSaM7+QYC9tMiFyXVcmum
+			V906U5ubgp5Lk1xmQar8Qx2bXD9BwxxA8bUVyUN1WgfGA9OObe6FCnCAAdakRdqC
+			+FCRu7UZKLiadTHEhGseg3a9akgEKhxqpFQL/XY99xKWd8cY/U857O/OBe/c+zmq
+			3bwugeDan/gImtUoMgd0gYn6DYDDlgISUi0=
+          
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://reitano.comune.plugandpay.it/spidslo"/>
+        
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://reitano.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            
+      
+            <md:RequestedAttribute Name="spidCode"/>
+            
+	  
+            <md:RequestedAttribute Name="familyName"/>
+            
+	  
+            <md:RequestedAttribute Name="name"/>
+            
+	  
+            <md:RequestedAttribute Name="companyName"/>
+            
+	  
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+	  
+            <md:RequestedAttribute Name="ivaCode"/>
+            
+	  
+            <md:RequestedAttribute Name="email"/>
+            
+	  
+            <md:RequestedAttribute Name="gender"/>
+            
+	  
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+	  
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            
+	  
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+    
+        </md:AttributeConsumingService>
+           
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Reitano
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Reitano
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comunereitano.com/
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+	
+        <md:Extensions>
+            
+		
+            <spid:IPACode>
+                c_h228
+            </spid:IPACode>
+            
+		
+            <spid:Public/>
+            
+	
+        </md:Extensions>
+        
+	
+        <md:EmailAddress>
+            reitano@pec.intradata.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

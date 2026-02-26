@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="LAquila" entityID="https://www.comune.laquila.it/serviziSPID">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#LAquila">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    ICZBsLGoQOqNhBHvizMwCnKK7Z8wkLNqPfCFeRTQO1U=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+oTQ7j/J7o2c+a2YL+vkHecdXBo3zaBYAAdUErONbICkTBsPq6VlON8gHRAMIl+mBIjvbJdo8ot2F
+R5y1a0tgUBJ+D+LwEcUR/A6x13a+ZrHVgO1vnHj7ILRIqTfjY+XPlfDKDg3WeSn52uBTRmHJKOzK
+xITPb6Jgauh8cN0viTU/fqT1onTv6573ceEkF1PTe2c6+elFmTlSEz/DgSU+WODB4Tr8cQfuE1dL
+iT1VmnB/f9AtVx+4dG8puAD686hThQZqVCnij8z8YnR+ThegdXIAeT+eSQJt9z68lq5nhin6VYAJ
+JeG8ZdIcEOdbOvbtKH0z6tj5YKHUPAbo9t+WaA==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+rU9/wmnHbl4uQYTbXNELOh8OSztJVJbQtC0bcDspTPNt01MaTmbthflbV3Ou6PBsQWv1r+Aee4TZ
+HNKHFamPVyvzaRsKJcyD8P1l3e3f0aRuG9FM1XaO1JB5Jv1lrQ45N6A4YRQiV2Cu47528iihC/72
+jXmY8JFRJiJEJnPSRvcyUMFG3h2WIlSJYTvohaBoK++PzHU1YtfP9mTJ5Kjiz1FaZj9O5m80RfgJ
+8ViW5nkfdMnhY7/ldH9U9O72q/nOoVyKCeUqGZCvPdwuPLmqiCByFCXkJ93YCtq0p8WtILb4IspZ
+y6g/DtYg5PoKFUbOBNx40rRhdlfCxFXWl4I3gw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIETzCCAzegAwIBAgIULZll0K65BrsKAV2yk9PqKYXO5KMwDQYJKoZIhvcNAQELBQAwgbAxCzAJ
+BgNVBAYTAklUMQswCQYDVQQIDAJBUTERMA8GA1UEBwwITCdBcXVpbGExGzAZBgNVBAoMEkNvbXVu
+ZSBkZWxsJ0FxdWlsYTEbMBkGA1UECwwSQ29tdW5lIGRlbGwnQXF1aWxhMRUwEwYDVQRhDAxQQTpJ
+VC1jX2EzNDUxMDAuBgNVBAMMJ2h0dHBzOi8vc21hcnRzYWwuY29tdW5lLmxhcXVpbGEuaXQ6ODA4
+MzAeFw0yMTAzMDQxNDI4NDBaFw0zMTAzMDIxNDI4NDBaMIGwMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQVExETAPBgNVBAcMCEwnQXF1aWxhMRswGQYDVQQKDBJDb211bmUgZGVsbCdBcXVpbGExGzAZ
+BgNVBAsMEkNvbXVuZSBkZWxsJ0FxdWlsYTEVMBMGA1UEYQwMUEE6SVQtY19hMzQ1MTAwLgYDVQQD
+DCdodHRwczovL3NtYXJ0c2FsLmNvbXVuZS5sYXF1aWxhLml0OjgwODMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtT3/CacduXi5BhNtc0Qs6Hw5LO0lUltC0LRtwOylM823TUxpOZu2F
++VtXc67o8GxBa/Wv4B57hNkc0ocVqY9XK/NpGwolzIPw/WXd7d/RpG4b0UzVdo7UkHkm/WWtDjk3
+oDhhFCJXYK7jvnbyKKEL/vaNeZjwkVEmIkQmc9JG9zJQwUbeHZYiVIlhO+iFoGgr74/MdTVi18/2
+ZMnkqOLPUVpmP07mbzRF+AnxWJbmeR90yeFjv+V0f1T07var+c6hXIoJ5SoZkK893C48uaqIIHIU
+JeQn3dgK2rSnxa0gtvgiylnLqD8O1iDk+goVRs4E3HjStGF2V8LEVdaXgjeDAgMBAAGjXzBdMAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIG
+CCsGAQUFBwICMBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQCJUrEp
+oXwc8ph2295obgKPDu+evq2y5Q5Ru/fcslJJ3Qt3IMMhyNT+stkmBCEj/ocUGQGvoGv032iIBCQP
+c24YLpTbK/HbU77wwagPJKKAuXZhd60Z85rsV7PoG5UwjjIXLuVT15sKA80n6QH5+/NzJESvwNyC
+ukUiaPdNXtkH2uIU07xtfsplHdcjZGBWkEv+STR9G6gogVBnBO4wwHz3Fb/yge3gXSZfXKr8uChT
+PA79R11+Lpi++CUpC8ck3iRMByNtNCfMG2nn2WGEcAZeOpQ5MqOHCCPQJEZ19evWPSDwo1pvJ9qk
+6FgJ6IGmsy8AJQwaJPh2lSRDTbs+5Ljz
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+
+        <md:KeyDescriptor use="encryption">
+            
+
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+
+                <ds:X509Data>
+                    
+
+                    <ds:X509Certificate>
+                        MIIETzCCAzegAwIBAgIULZll0K65BrsKAV2yk9PqKYXO5KMwDQYJKoZIhvcNAQELBQAwgbAxCzAJ
+BgNVBAYTAklUMQswCQYDVQQIDAJBUTERMA8GA1UEBwwITCdBcXVpbGExGzAZBgNVBAoMEkNvbXVu
+ZSBkZWxsJ0FxdWlsYTEbMBkGA1UECwwSQ29tdW5lIGRlbGwnQXF1aWxhMRUwEwYDVQRhDAxQQTpJ
+VC1jX2EzNDUxMDAuBgNVBAMMJ2h0dHBzOi8vc21hcnRzYWwuY29tdW5lLmxhcXVpbGEuaXQ6ODA4
+MzAeFw0yMTAzMDQxNDI4NDBaFw0zMTAzMDIxNDI4NDBaMIGwMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQVExETAPBgNVBAcMCEwnQXF1aWxhMRswGQYDVQQKDBJDb211bmUgZGVsbCdBcXVpbGExGzAZ
+BgNVBAsMEkNvbXVuZSBkZWxsJ0FxdWlsYTEVMBMGA1UEYQwMUEE6SVQtY19hMzQ1MTAwLgYDVQQD
+DCdodHRwczovL3NtYXJ0c2FsLmNvbXVuZS5sYXF1aWxhLml0OjgwODMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtT3/CacduXi5BhNtc0Qs6Hw5LO0lUltC0LRtwOylM823TUxpOZu2F
++VtXc67o8GxBa/Wv4B57hNkc0ocVqY9XK/NpGwolzIPw/WXd7d/RpG4b0UzVdo7UkHkm/WWtDjk3
+oDhhFCJXYK7jvnbyKKEL/vaNeZjwkVEmIkQmc9JG9zJQwUbeHZYiVIlhO+iFoGgr74/MdTVi18/2
+ZMnkqOLPUVpmP07mbzRF+AnxWJbmeR90yeFjv+V0f1T07var+c6hXIoJ5SoZkK893C48uaqIIHIU
+JeQn3dgK2rSnxa0gtvgiylnLqD8O1iDk+goVRs4E3HjStGF2V8LEVdaXgjeDAgMBAAGjXzBdMAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIG
+CCsGAQUFBwICMBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQCJUrEp
+oXwc8ph2295obgKPDu+evq2y5Q5Ru/fcslJJ3Qt3IMMhyNT+stkmBCEj/ocUGQGvoGv032iIBCQP
+c24YLpTbK/HbU77wwagPJKKAuXZhd60Z85rsV7PoG5UwjjIXLuVT15sKA80n6QH5+/NzJESvwNyC
+ukUiaPdNXtkH2uIU07xtfsplHdcjZGBWkEv+STR9G6gogVBnBO4wwHz3Fb/yge3gXSZfXKr8uChT
+PA79R11+Lpi++CUpC8ck3iRMByNtNCfMG2nn2WGEcAZeOpQ5MqOHCCPQJEZ19evWPSDwo1pvJ9qk
+6FgJ6IGmsy8AJQwaJPh2lSRDTbs+5Ljz
+                    </ds:X509Certificate>
+                    
+
+                </ds:X509Data>
+                
+
+            </ds:KeyInfo>
+            
+
+        </md:KeyDescriptor>
+        
+
+        <md:KeyDescriptor use="signing">
+            
+
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+
+                <ds:X509Data>
+                    
+
+                    <ds:X509Certificate>
+                        MIIETzCCAzegAwIBAgIULZll0K65BrsKAV2yk9PqKYXO5KMwDQYJKoZIhvcNAQELBQAwgbAxCzAJ
+BgNVBAYTAklUMQswCQYDVQQIDAJBUTERMA8GA1UEBwwITCdBcXVpbGExGzAZBgNVBAoMEkNvbXVu
+ZSBkZWxsJ0FxdWlsYTEbMBkGA1UECwwSQ29tdW5lIGRlbGwnQXF1aWxhMRUwEwYDVQRhDAxQQTpJ
+VC1jX2EzNDUxMDAuBgNVBAMMJ2h0dHBzOi8vc21hcnRzYWwuY29tdW5lLmxhcXVpbGEuaXQ6ODA4
+MzAeFw0yMTAzMDQxNDI4NDBaFw0zMTAzMDIxNDI4NDBaMIGwMQswCQYDVQQGEwJJVDELMAkGA1UE
+CAwCQVExETAPBgNVBAcMCEwnQXF1aWxhMRswGQYDVQQKDBJDb211bmUgZGVsbCdBcXVpbGExGzAZ
+BgNVBAsMEkNvbXVuZSBkZWxsJ0FxdWlsYTEVMBMGA1UEYQwMUEE6SVQtY19hMzQ1MTAwLgYDVQQD
+DCdodHRwczovL3NtYXJ0c2FsLmNvbXVuZS5sYXF1aWxhLml0OjgwODMwggEiMA0GCSqGSIb3DQEB
+AQUAA4IBDwAwggEKAoIBAQCtT3/CacduXi5BhNtc0Qs6Hw5LO0lUltC0LRtwOylM823TUxpOZu2F
++VtXc67o8GxBa/Wv4B57hNkc0ocVqY9XK/NpGwolzIPw/WXd7d/RpG4b0UzVdo7UkHkm/WWtDjk3
+oDhhFCJXYK7jvnbyKKEL/vaNeZjwkVEmIkQmc9JG9zJQwUbeHZYiVIlhO+iFoGgr74/MdTVi18/2
+ZMnkqOLPUVpmP07mbzRF+AnxWJbmeR90yeFjv+V0f1T07var+c6hXIoJ5SoZkK893C48uaqIIHIU
+JeQn3dgK2rSnxa0gtvgiylnLqD8O1iDk+goVRs4E3HjStGF2V8LEVdaXgjeDAgMBAAGjXzBdMAsG
+A1UdDwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIG
+CCsGAQUFBwICMBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQCJUrEp
+oXwc8ph2295obgKPDu+evq2y5Q5Ru/fcslJJ3Qt3IMMhyNT+stkmBCEj/ocUGQGvoGv032iIBCQP
+c24YLpTbK/HbU77wwagPJKKAuXZhd60Z85rsV7PoG5UwjjIXLuVT15sKA80n6QH5+/NzJESvwNyC
+ukUiaPdNXtkH2uIU07xtfsplHdcjZGBWkEv+STR9G6gogVBnBO4wwHz3Fb/yge3gXSZfXKr8uChT
+PA79R11+Lpi++CUpC8ck3iRMByNtNCfMG2nn2WGEcAZeOpQ5MqOHCCPQJEZ19evWPSDwo1pvJ9qk
+6FgJ6IGmsy8AJQwaJPh2lSRDTbs+5Ljz
+                    </ds:X509Certificate>
+                    
+
+                </ds:X509Data>
+                
+
+            </ds:KeyInfo>
+            
+
+        </md:KeyDescriptor>
+        
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/laquila"/>
+        
+
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/laquila" index="0" isDefault="true"/>
+        
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/laquila" index="1"/>
+        
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/laquila" index="2"/>
+        
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://smartsal.comune.laquila.it:8083/spid/process" index="3"/>
+        
+
+        <md:AttributeConsumingService index="0">
+            
+
+            <md:ServiceName xml:lang="it">
+                ServiziAvanzati
+            </md:ServiceName>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+            
+
+        </md:AttributeConsumingService>
+        
+
+        <md:AttributeConsumingService index="1">
+            
+
+            <md:ServiceName xml:lang="it">
+                ServiziBase
+            </md:ServiceName>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+            
+
+        </md:AttributeConsumingService>
+        
+
+        <md:AttributeConsumingService index="2">
+            
+
+            <md:ServiceName xml:lang="it">
+                ServiziSTD
+            </md:ServiceName>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+            
+
+        </md:AttributeConsumingService>
+        
+
+        <md:AttributeConsumingService index="3">
+            
+
+            <md:ServiceName xml:lang="it">
+                SmartSAL
+            </md:ServiceName>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+            <md:RequestedAttribute FriendlyName="Ragione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+
+        </md:AttributeConsumingService>
+        
+
+    </md:SPSSODescriptor>
+    
+
+    <md:Organization>
+        
+
+        <md:OrganizationName xml:lang="it">
+            Comune dell'Aquila
+        </md:OrganizationName>
+        
+
+        <md:OrganizationName xml:lang="en">
+            Comune dell'Aquila
+        </md:OrganizationName>
+        
+
+        <md:OrganizationName xml:lang="fr">
+            Comune dell'Aquila
+        </md:OrganizationName>
+        
+
+        <md:OrganizationName xml:lang="de">
+            Comune dell'Aquila
+        </md:OrganizationName>
+        
+
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune dell'Aquila
+        </md:OrganizationDisplayName>
+        
+
+        <md:OrganizationDisplayName xml:lang="en">
+            Comune dell'Aquila
+        </md:OrganizationDisplayName>
+        
+
+        <md:OrganizationDisplayName xml:lang="fr">
+            Comune dell'Aquila
+        </md:OrganizationDisplayName>
+        
+
+        <md:OrganizationDisplayName xml:lang="de">
+            Comune dell'Aquila
+        </md:OrganizationDisplayName>
+        
+
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.laquila.it
+        </md:OrganizationURL>
+        
+
+        <md:OrganizationURL xml:lang="en">
+            https://www.comune.laquila.it
+        </md:OrganizationURL>
+        
+
+        <md:OrganizationURL xml:lang="fr">
+            https://www.comune.laquila.it
+        </md:OrganizationURL>
+        
+
+        <md:OrganizationURL xml:lang="de">
+            https://www.comune.laquila.it
+        </md:OrganizationURL>
+        
+
+    </md:Organization>
+    
+
+    <md:ContactPerson contactType="other">
+        
+
+        <md:Extensions>
+            
+
+            <spid:IPACode>
+                c_a345
+            </spid:IPACode>
+            
+
+            <spid:Public/>
+            
+
+        </md:Extensions>
+        
+
+        <md:EmailAddress>
+            tiziana.tarquini@comune.laquila.it
+        </md:EmailAddress>
+        
+
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

@@ -1,0 +1,97 @@
+<md:EntityDescriptor entityID="https://webapp.comune.edolo.bs.it" ID="_b85eb206-2843-4fb3-baab-e52543103b00" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_b85eb206-2843-4fb3-baab-e52543103b00">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#">
+                        <InclusiveNamespaces PrefixList="#default md saml ds xs xsi" xmlns="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    </Transform>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    qsayaOCcrJfZJUJoKtQ6GrBxU74HwLC8B1XmMkRKInk=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            AbDAh3RZNWc3xx4E/s5XDFiQXcZAg8He1L85yDytjQCXeYPJMpo3i7mfT4G2ojvA3p7gOJiU/Rql5ZRKcswjgr3qMOqbt07ilt7EqFEYJ2jNR8qxLNQW8n95qADcrjUnKqkDOjAQArj4NCRJpLBjj+bDNHzfyEFVncYzGfmK9Il9ozCivBK9sGFEYUBQ6YkyyR5EiFUuNTZs8jmT7v450Spf8mjlkGpxzwGG5omio2lZWTbvYE+fpwG7O5WNNKTiNhpe6D8zJWzKKKVh8JI98eGjT9JuTP8Xs2L7m569GONksqjxYn5Ma1B88iGI5yj9L8X3xp7Rj5HMuNGkT0JVSg==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIELTCCAxWgAwIBAgIUPdtAcoxoiXW0f3zX0GJaxpEDmgUwDQYJKoZIhvcNAQELBQAwgZwxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFRWRvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBFZG9sbzEYMBYGA1UECwwPQ29tdW5lIGRpIEVkb2xvMSIwIAYDVQQDDBl3ZWJhcHAuY29tdW5lLmVkb2xvLmJzLml0MRUwEwYDVQQFEwxQYTpJVC1jLWQzOTEwHhcNMjEwMjE1MDgwMDUxWhcNMjIwMjE1MDgwMDUxWjCBnDELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVFZG9sbzEYMBYGA1UECgwPQ29tdW5lIGRpIEVkb2xvMRgwFgYDVQQLDA9Db211bmUgZGkgRWRvbG8xIjAgBgNVBAMMGXdlYmFwcC5jb211bmUuZWRvbG8uYnMuaXQxFTATBgNVBAUTDFBhOklULWMtZDM5MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANq2jDYmTDezosTrh8EnSOr+7ghPBTfmeHG9vvaGyuz8wFawWbEJ5byymSJqdXUKTHPvjoD148kwhZ2FkO1iHulsKGqvFn7cO41oCo377NjSHvFrzBFtHzKzbBqIC91F/EHzKVhzJ3mhq6/td0yCFO9AUDOybBXmTed1kTBYPSoC6XS/Ym3s4TXZ48XdHncNXgnS9h5WFQ/hA07YXK+WFz1X9ltDjpEysfYpxWGMFUssThTrj5ifEjNCyV6WIuTnDxABYPmv0kaisfBzHBeAOf43WPi8HiwMmCRx/X5dXREs6DQJj7N5fWwJcwaMwTfaaI1zV0P+SM9TZoi0wwHqXKsCAwEAAaNlMGMwHQYDVR0OBBYEFA3RSAD3k/MPepc08wk3xkXOIxWeMB8GA1UdIwQYMBaAFA3RSAD3k/MPepc08wk3xkXOIxWeMAwGA1UdEwQFMAMBAf8wEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBALHoZuqc1NdiROx1bn5gCNa6RtISrJX/JBItCGdNdjpCjOhkxcMFqgsoSurbUznbQSqTshZijmW7TB+7WXL+Au/9iwcyOksJABBR1lPmrQExBMacf0JT4zWsYBbOt73RLCxkGpAF/eZhgUG6VIMkEBUI1AtgpTHhadstzf3ubLRKbMPgHhaGY9cJcUkJn2zTkXHZRgbGUU4wxpnEQ6xvmW29cST16RNOPhRdpF22MLz1VrPAVA/rQ5nXKsJTng98gzm1H1iJYAB/NcAXDmeGhuulcxSlCwbr6MGDCphlzFgygkpVMqHfgkpJDoSVw7+aBvEkAbruT8Nw4hzbvQ1i6Vs=
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>
+                        MIIELTCCAxWgAwIBAgIUPdtAcoxoiXW0f3zX0GJaxpEDmgUwDQYJKoZIhvcNAQELBQAwgZwxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTEOMAwGA1UEBwwFRWRvbG8xGDAWBgNVBAoMD0NvbXVuZSBkaSBFZG9sbzEYMBYGA1UECwwPQ29tdW5lIGRpIEVkb2xvMSIwIAYDVQQDDBl3ZWJhcHAuY29tdW5lLmVkb2xvLmJzLml0MRUwEwYDVQQFEwxQYTpJVC1jLWQzOTEwHhcNMjEwMjE1MDgwMDUxWhcNMjIwMjE1MDgwMDUxWjCBnDELMAkGA1UEBhMCaXQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVFZG9sbzEYMBYGA1UECgwPQ29tdW5lIGRpIEVkb2xvMRgwFgYDVQQLDA9Db211bmUgZGkgRWRvbG8xIjAgBgNVBAMMGXdlYmFwcC5jb211bmUuZWRvbG8uYnMuaXQxFTATBgNVBAUTDFBhOklULWMtZDM5MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBANq2jDYmTDezosTrh8EnSOr+7ghPBTfmeHG9vvaGyuz8wFawWbEJ5byymSJqdXUKTHPvjoD148kwhZ2FkO1iHulsKGqvFn7cO41oCo377NjSHvFrzBFtHzKzbBqIC91F/EHzKVhzJ3mhq6/td0yCFO9AUDOybBXmTed1kTBYPSoC6XS/Ym3s4TXZ48XdHncNXgnS9h5WFQ/hA07YXK+WFz1X9ltDjpEysfYpxWGMFUssThTrj5ifEjNCyV6WIuTnDxABYPmv0kaisfBzHBeAOf43WPi8HiwMmCRx/X5dXREs6DQJj7N5fWwJcwaMwTfaaI1zV0P+SM9TZoi0wwHqXKsCAwEAAaNlMGMwHQYDVR0OBBYEFA3RSAD3k/MPepc08wk3xkXOIxWeMB8GA1UdIwQYMBaAFA3RSAD3k/MPepc08wk3xkXOIxWeMAwGA1UdEwQFMAMBAf8wEwYDVR0gBAwwCjAIBgYrTBAEAgEwDQYJKoZIhvcNAQELBQADggEBALHoZuqc1NdiROx1bn5gCNa6RtISrJX/JBItCGdNdjpCjOhkxcMFqgsoSurbUznbQSqTshZijmW7TB+7WXL+Au/9iwcyOksJABBR1lPmrQExBMacf0JT4zWsYBbOt73RLCxkGpAF/eZhgUG6VIMkEBUI1AtgpTHhadstzf3ubLRKbMPgHhaGY9cJcUkJn2zTkXHZRgbGUU4wxpnEQ6xvmW29cST16RNOPhRdpF22MLz1VrPAVA/rQ5nXKsJTng98gzm1H1iJYAB/NcAXDmeGhuulcxSlCwbr6MGDCphlzFgygkpVMqHfgkpJDoSVw7+aBvEkAbruT8Nw4hzbvQ1i6Vs=
+                    </X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comune.edolo.bs.it/GolemLogin/SAML/SLOService.aspx"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comune.edolo.bs.it/GolemLogin/SAML/AssertionConsumerService.aspx" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Classe1
+            </md:ServiceName>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Classe2
+            </md:ServiceName>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Edolo
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Edolo
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://webapp.comune.edolo.bs.it/ServiziOnLine/Account/Login.aspx?Comune=EDOLO&amp;Cod=1
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_d391
+            </spid:IPACode>
+            <spid:FiscalCode>
+                00760070177
+            </spid:FiscalCode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            Comune di Edolo
+        </md:Company>
+        <md:EmailAddress>
+            info@comune.edolo.bs.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            0364773011
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

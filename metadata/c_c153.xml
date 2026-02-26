@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8f951f46-d539-4bc4-a827-bbff4dfdd72d" entityID="https://www.comune.castelleone.cr.it/"><Signature xmlns="http://www.w3.org/2000/09/xmldsig#"><SignedInfo><CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/><SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><Reference URI=""><Transforms><Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/></Transforms><DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><DigestValue>dXASjQDoGR2fQOQzn2ZTxHYhBPEouwsgMqHJY411d7M=</DigestValue></Reference></SignedInfo><SignatureValue>U59uUpaRxowVTRJ3xN9H6ungxxHzN3sJV7iFkLfAPQOGUvLBIZgz6OPwUEinN0LartKZEMSylzaa
++6PNB3e+A/RiltCMkpqPf/XPPbzMvilgv7fDtssjBeAQcZgAXvxlBU0458pI4RtuV8Av4t9Rqf68
+dJgSZaCT4gNHJ+2NbFnswbawAuc1TIcMV1Vrc6eg9/e8IbdrqxbpXtd7ltllaPZ8OwGianGL8w+e
+8NFl8weQBVp27Hqh71hfTMCC54ZVL/FYiTi6Vn+Q4gKDLLxgu5ibTL5DxwAMOY8s9x8CFhmJM4IL
+b9qO52gM+MQg3j6igRtMa5X2FlMOCJFWDinnHg==</SignatureValue><KeyInfo><X509Data><X509Certificate>MIIDpTCCAo2gAwIBAgIGAXhF8b2pMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTAzMTgxNTI2
+MTNaFw0zMDEyMTYxNTI2MTNaMHUxLjAsBgNVBAMMJWh0dHBzOi8vd3d3LmNvbXVuZS5jYXN0ZWxs
+ZW9uZS5jci5pdC8xCTAHBgNVBAoMADEVMBMGA1UEBRMMUEE6SVQtY19jMTUzMQswCQYDVQQGEwJJ
+VDEUMBIGA1UEBwwLQ2FzdGVsbGVvbmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2
+LC0jLfs03vKkzQlp2Z5tUFy51lF+QHLRvgXDmTXWw00rCpIGZv0hDh/LhSMhRaS26mip/7Zo7JXm
+M07yRNFGXAGAkk6F7P97UX+dqSmgMSs5P++cqoMtqGM3VjtDxUdzp49sET3p55w1pUMLsmZ11fGQ
+58Fa5WyBJ0nei5BKKxXnAG1WIFX3PDLibsywoun6BavpqhFmuUlJYyhy/GPz+Il8JJxtBT6iSzD8
+YLSVCt0zEHb8TRl+bUK3ge4Z6w1rERd1iF8nMwSZM5cG0t/C47sB/exlueGmlIFrg0fnmcpYlwDT
+956wdrPo0KxxxVGqXCaWZY5vDfzu3NBvZ3YPAgMBAAGjOTA3MDUGA1UdIAQuMCwGBitMEAQCATAi
+MCAGCCsGAQUFBwIBFhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAgx7R
+ie0lkpIphB0tQaGIoD70iYn0MnnuGF2EfRb7mSp1IlK63Pk5sHaqjvyzDrzwhWuhRs9X5LA1Beuf
+nVG9jV3W5YTRaHrThM9mJkoo7lDboNDn6y5eLs+ToGBjtN+tMt7NAFGIZQ98QDVe4EAteEqUwD7P
+zL6RbB39eEuLQmF0ZS1jEhnWRbpNs2G3hnSHW6e3fcTehTF50ZE7PDUIZUjBpZNJqDfiAL6XmSYe
+1LYEgleXz7XpzA/Jho3j/+2NcxUk0NtYYw1lep71HMnFed6szdWYo1hHoS2aVD4t13bpcB0+6ZAk
+fB1Omf6OVqEBq3LauNV6BS6Rko8XVc3/iw==</X509Certificate></X509Data></KeyInfo></Signature><md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol"><md:KeyDescriptor use="signing"><ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#"><ds:X509Data><ds:X509Certificate>MIIDpTCCAo2gAwIBAgIGAXhF8b2pMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTAzMTgxNTI2
+MTNaFw0zMDEyMTYxNTI2MTNaMHUxLjAsBgNVBAMMJWh0dHBzOi8vd3d3LmNvbXVuZS5jYXN0ZWxs
+ZW9uZS5jci5pdC8xCTAHBgNVBAoMADEVMBMGA1UEBRMMUEE6SVQtY19jMTUzMQswCQYDVQQGEwJJ
+VDEUMBIGA1UEBwwLQ2FzdGVsbGVvbmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC2
+LC0jLfs03vKkzQlp2Z5tUFy51lF+QHLRvgXDmTXWw00rCpIGZv0hDh/LhSMhRaS26mip/7Zo7JXm
+M07yRNFGXAGAkk6F7P97UX+dqSmgMSs5P++cqoMtqGM3VjtDxUdzp49sET3p55w1pUMLsmZ11fGQ
+58Fa5WyBJ0nei5BKKxXnAG1WIFX3PDLibsywoun6BavpqhFmuUlJYyhy/GPz+Il8JJxtBT6iSzD8
+YLSVCt0zEHb8TRl+bUK3ge4Z6w1rERd1iF8nMwSZM5cG0t/C47sB/exlueGmlIFrg0fnmcpYlwDT
+956wdrPo0KxxxVGqXCaWZY5vDfzu3NBvZ3YPAgMBAAGjOTA3MDUGA1UdIAQuMCwGBitMEAQCATAi
+MCAGCCsGAQUFBwIBFhRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAgx7R
+ie0lkpIphB0tQaGIoD70iYn0MnnuGF2EfRb7mSp1IlK63Pk5sHaqjvyzDrzwhWuhRs9X5LA1Beuf
+nVG9jV3W5YTRaHrThM9mJkoo7lDboNDn6y5eLs+ToGBjtN+tMt7NAFGIZQ98QDVe4EAteEqUwD7P
+zL6RbB39eEuLQmF0ZS1jEhnWRbpNs2G3hnSHW6e3fcTehTF50ZE7PDUIZUjBpZNJqDfiAL6XmSYe
+1LYEgleXz7XpzA/Jho3j/+2NcxUk0NtYYw1lep71HMnFed6szdWYo1hHoS2aVD4t13bpcB0+6ZAk
+fB1Omf6OVqEBq3LauNV6BS6Rko8XVc3/iw==</ds:X509Certificate></ds:X509Data></ds:KeyInfo></md:KeyDescriptor><md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/><md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat><md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/><md:AttributeConsumingService index="0"><md:ServiceName xml:lang="it">SOL</md:ServiceName><md:RequestedAttribute Name="name"/><md:RequestedAttribute Name="familyName"/><md:RequestedAttribute Name="gender"/><md:RequestedAttribute Name="dateOfBirth"/><md:RequestedAttribute Name="fiscalNumber"/><md:RequestedAttribute Name="placeOfBirth"/><md:RequestedAttribute Name="email"/><md:RequestedAttribute Name="address"/></md:AttributeConsumingService></md:SPSSODescriptor><md:Organization><md:OrganizationName xml:lang="it">Comune di Castelleone</md:OrganizationName><md:OrganizationDisplayName xml:lang="it">Comune di Castelleone</md:OrganizationDisplayName><md:OrganizationURL xml:lang="it">https://www.comune.castelleone.cr.it/</md:OrganizationURL></md:Organization><md:ContactPerson contactType="other"><md:Extensions><spid:IPACode>c_c153</spid:IPACode><spid:Public/></md:Extensions><md:Company>Comune di Castelleone</md:Company><md:EmailAddress>protocollo.castelleone@legalmail.it</md:EmailAddress></md:ContactPerson></md:EntityDescriptor>
