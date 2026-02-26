@@ -27,16 +27,18 @@ jobs:
       - name: Install dependencies
         run: |
           pip install lxml xmlsec cryptography
+          sudo apt-get update
+          sudo apt-get install -y jq
 
-      - name: Run metadata validation (Enterprise Mode)
+      - name: Run metadata validation
         run: |
           mkdir -p validated reports .gh-pages-tmp
           echo "=== Validation Report ===" > reports/report.log
 
           VALID=0
           INVALID=0
-          FIRST=1
-          echo "{" > validation_data.json
+
+          echo "{}" > validation_data.json
 
           for f in metadata/*.xml; do
             BASENAME=$(basename "$f")
@@ -53,20 +55,18 @@ jobs:
               INVALID=$((INVALID+1))
             fi
 
-            if [ $FIRST -eq 0 ]; then echo "," >> validation_data.json; fi
-            FIRST=0
-            echo "  \"$BASENAME\": {\"status\": \"$STATUS\", \"validated_at\": \"$NOW\"}" >> validation_data.json
+            jq --arg file "$BASENAME" \
+               --arg status "$STATUS" \
+               --arg date "$NOW" \
+               '. + {($file): {status: $status, validated_at: $date}}' \
+               validation_data.json > tmp.json && mv tmp.json validation_data.json
           done
-
-          echo "}" >> validation_data.json
 
           TOTAL=$((VALID+INVALID))
 
-          echo "" >> reports/report.log
-          echo "=== SUMMARY ===" >> reports/report.log
-          echo "Valid metadata:   $VALID" >> reports/report.log
-          echo "Invalid metadata: $INVALID" >> reports/report.log
-          echo "Total processed:  $TOTAL" >> reports/report.log
+          echo "Valid: $VALID"
+          echo "Invalid: $INVALID"
+          echo "Total: $TOTAL"
 
           echo "$VALID" > .gh-pages-tmp/valid_count
           echo "$INVALID" > .gh-pages-tmp/invalid_count
@@ -75,7 +75,7 @@ jobs:
           cp validation_data.json .gh-pages-tmp/
           cp -r validated reports .gh-pages-tmp/
 
-      - name: Generate Enterprise index.html
+      - name: Generate index.html
         run: |
           VALID=$(cat .gh-pages-tmp/valid_count)
           INVALID=$(cat .gh-pages-tmp/invalid_count)
@@ -90,7 +90,6 @@ jobs:
 <style>
 body { font-family: Arial; margin:0; background:#f4f6f9; }
 header { background:#005ea5; color:white; padding:1.5em; }
-h1 { margin:0; }
 .container { padding:2em; }
 .badge { padding:6px 12px; border-radius:20px; color:white; font-weight:bold; }
 .green { background:#27ae60; }
@@ -101,7 +100,6 @@ th, td { padding:10px; border:1px solid #ddd; }
 th { background:#003d73; color:white; }
 .valid { color:#27ae60; font-weight:bold; }
 .invalid { color:#c0392b; font-weight:bold; }
-.footer { margin-top:2em; font-size:0.9em; color:#555; }
 </style>
 </head>
 <body>
@@ -130,33 +128,17 @@ th { background:#003d73; color:white; }
 <tbody>
 EOF
 
-          python3 <<PYCODE >> gh-pages_index.html
-import json
-
-with open(".gh-pages-tmp/validation_data.json") as f:
-    data = json.load(f)
-
-for filename, info in sorted(data.items()):
-    status = info["status"]
-    date = info["validated_at"]
-
-    if status == "valid":
-        link = f'<a href="validated/{filename}">{filename}</a>'
-        status_html = '<span class="valid">Valido</span>'
-    else:
-        link = filename
-        status_html = '<span class="invalid">Non valido</span>'
-
-    print(f"<tr><td>{link}</td><td>{status_html}</td><td>{date}</td></tr>")
-PYCODE
+          jq -r 'to_entries[] | "\(.key)|\(.value.status)|\(.value.validated_at)"' .gh-pages-tmp/validation_data.json | sort | while IFS="|" read FILE STATUS DATE; do
+            if [ "$STATUS" = "valid" ]; then
+              echo "<tr><td><a href=\"validated/$FILE\">$FILE</a></td><td class=\"valid\">Valido</td><td>$DATE</td></tr>" >> gh-pages_index.html
+            else
+              echo "<tr><td>$FILE</td><td class=\"invalid\">Non valido</td><td>$DATE</td></tr>" >> gh-pages_index.html
+            fi
+          done
 
           cat >> gh-pages_index.html <<EOF
 </tbody>
 </table>
-
-<div class="footer">
-Generato automaticamente tramite GitHub Actions – branch gh-pages
-</div>
 
 </div>
 </body>
@@ -165,7 +147,7 @@ EOF
 
           cp gh-pages_index.html .gh-pages-tmp/
 
-      - name: Deploy Enterprise Registry to gh-pages
+      - name: Deploy to gh-pages
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -184,7 +166,6 @@ EOF
           cp .gh-pages-tmp/validation_data.json .publish/history/$TIMESTAMP/
           cp .gh-pages-tmp/reports/report.log .publish/history/$TIMESTAMP/
 
-          # Badge dinamico
           VALID=$(cat .gh-pages-tmp/valid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
 
