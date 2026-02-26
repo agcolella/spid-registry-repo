@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="cf4a5964-f7b7-4a28-8b5e-3551e5b7cb14" entityID="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#cf4a5964-f7b7-4a28-8b5e-3551e5b7cb14">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>m7JPn2hslStQxmKOjyltBQ0uuSBRe4eFgNYSQoHMn2g=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+cnol7ZkAfLkbjjgVkpGSSBGeYoLBjN6xTHpNDFCrw3HFg9ODBiB6Q4b6SG40ph1gYzzXmCdhgKNL
+UXt65RskOyK9AbBfcDFh/8USeDMiK7V0T8zrGT7X9Da0DFp6YdfH/caokK+WqghwiDc29n3653GR
+clrMpVYQCb/RqRLTvOaOAuQvTRFZRPdDaa//c0LzVGJ7W3q32F/Aiw5SXc9pkF8+CoV0v2USNrGI
+pKKD1qLWrOr2Nu3M9h0msEVTHSkGe3aVB501gpdVLsKXoBmmctcQLPossLXMx38s6iKl0JkYRTRz
+UHvDS6VThccBoh4smAvbHrT99VuuKA+OPQj0Gg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+lfZQFO/WU4K49sPTE0xeKI6ySC6s5RfhKmp+J3DdCvia9ilzlDMMn+LAtXcA9dQvmNIQJ+CHjKoX
+UsPQfDr0i9ugVrcz/Y98c3IgEISkQNa4qzVcktNwfKtymQ5NWx6QHoDp462vzYJ44SItnVA1vsPR
+hafuHrDCbpg/sYsFaMnRU5Xd1gjNV1evRsBkm/voTfRvPmupGi7naLc8C61A/5sBPM/O3m0WwRfQ
+tu+GIaCGksRT0Ske0iFbLEnOOFAnI3HiNZvJSG4+pMACWxrGvJw72jUQReNBk366Cm2zBe9FX4pM
+FgxtcIENBMajuaGm79E4eIjB9jN2KNO7RoCsBw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIhjCCBm6gAwIBAgIIPdJuf1VyB/wwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDcxNDAwMDAw
+MFoXDTM3MDcxMzIzNTk1OVowgbgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVDdW5lbzEOMAwGA1UE
+BwwFTWFudGExHDAaBgNVBAoME0xFT05BUkRPIFdFQiBTLnIubC4xHDAaBgNVBAMME3NwaWQubGVv
+bmFyZG93ZWIuZXUxGjAYBgNVBGEMEVZBVElULTAyODIwNDQwMDQ0MTEwLwYDVQRTDChodHRwczov
+L3NwaWQubGVvbmFyZG93ZWIuZXUvcHViLWFnLWZ1bGwvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A
+MIIBCgKCAQEAlfZQFO/WU4K49sPTE0xeKI6ySC6s5RfhKmp+J3DdCvia9ilzlDMMn+LAtXcA9dQv
+mNIQJ+CHjKoXUsPQfDr0i9ugVrcz/Y98c3IgEISkQNa4qzVcktNwfKtymQ5NWx6QHoDp462vzYJ4
+4SItnVA1vsPRhafuHrDCbpg/sYsFaMnRU5Xd1gjNV1evRsBkm/voTfRvPmupGi7naLc8C61A/5sB
+PM/O3m0WwRfQtu+GIaCGksRT0Ske0iFbLEnOOFAnI3HiNZvJSG4+pMACWxrGvJw72jUQReNBk366
+Cm2zBe9FX4pMFgxtcIENBMajuaGm79E4eIjB9jN2KNO7RoCsBwIDAQABo4IDYzCCA18wDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQU8NYQt3TahWqTwiN4E9QdR83VqL4wHwYDVR0jBBgwFoAUPLtt6x79
+nW7L7lTm6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIG
+A1UdHwQ7MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1
+Yl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdp
+ZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUF
+BwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVs
+aW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxl
+IExpbmVlIGd1aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVn
+YXRvcmUgJ2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVi
+bGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYB
+BQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nw
+cy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQv
+Y3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEwYDVR0lBAwwCgYIKwYBBQUHAwEweAYJKoZI
+hvcNAQkPBGswaTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAsGCWCGSAFlAwQBKjAL
+BglghkgBZQMEAS0wCwYJYIZIAWUDBAECMAsGCWCGSAFlAwQBBTAHBgUrDgMCBzAKBggqhkiG9w0D
+BzANBgkqhkiG9w0BAQ0FAAOCAgEAusrnrqzSjeSi6rsjACbFsaXIBSo4ruBL7WvmpZ3BEaDa/Tun
+OzSgMvrr0gKZ3COv3gfTBgF2k3/m3lk2aXOluTx8keDRxM06FFCWhZ1+HV745Jq83t4ACOEGB9N+
+IXLT4wmyvyRQNexoutEs7sk/ukc01Ynw3YX45PQC6Ea5aDWb4Dwhe7xJJCzhgQKTeFuejdQNVmzR
+3iCf/Rej5eGDTc2bw4mbItffgNBSu7GD+Xzmi1hmtsZTy11iwar+NV9sXj8bv+Kzkt751gcaw9nj
+ntvKZfabWl45rH/wtAfP6kCGhV/XMzn8per27q4MG7Or79bhFCvuAhlkT8ijcetngONbmRCRYgqE
+pEVs0//G5F8x9km4E8nMGEb9zUbAtDL77/7DlpLZWcWTlsu8H6wKmu2eKGxTYM0vp1VeD8eK54aI
+KVwlxexY4HXj5k9KHwjBYSokC8hDfpE4fZRJFs74OKPRSHSqbdwLB9XopJSez21fwSWnzDEHgUoj
+38o7Tn+dt5d3s7hKOR8VJblPsTV+uBk4fDK6Ag1wcQzRb31QI/7zbt8gnMi9P1Vt8W4B8OeZChiZ
+qwBG5AdKEeyhgt+BTaoqxNtlqfEIUZPTvYqXAs7QXu6d//7r1S1RQn0081F9oqeKi3gmCENybLwT
+h5DcNY9iB4uAIBpqNjtWKxI6vr0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo>
+				<ds:X509Data>
+					<ds:X509Certificate>MIIIhjCCBm6gAwIBAgIIPdJuf1VyB/wwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDcxNDAwMDAw MFoXDTM3MDcxMzIzNTk1OVowgbgxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVDdW5lbzEOMAwGA1UE BwwFTWFudGExHDAaBgNVBAoME0xFT05BUkRPIFdFQiBTLnIubC4xHDAaBgNVBAMME3NwaWQubGVv bmFyZG93ZWIuZXUxGjAYBgNVBGEMEVZBVElULTAyODIwNDQwMDQ0MTEwLwYDVQRTDChodHRwczov L3NwaWQubGVvbmFyZG93ZWIuZXUvcHViLWFnLWZ1bGwvMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8A MIIBCgKCAQEAlfZQFO/WU4K49sPTE0xeKI6ySC6s5RfhKmp+J3DdCvia9ilzlDMMn+LAtXcA9dQv mNIQJ+CHjKoXUsPQfDr0i9ugVrcz/Y98c3IgEISkQNa4qzVcktNwfKtymQ5NWx6QHoDp462vzYJ4 4SItnVA1vsPRhafuHrDCbpg/sYsFaMnRU5Xd1gjNV1evRsBkm/voTfRvPmupGi7naLc8C61A/5sB PM/O3m0WwRfQtu+GIaCGksRT0Ske0iFbLEnOOFAnI3HiNZvJSG4+pMACWxrGvJw72jUQReNBk366 Cm2zBe9FX4pMFgxtcIENBMajuaGm79E4eIjB9jN2KNO7RoCsBwIDAQABo4IDYzCCA18wDAYDVR0T AQH/BAIwADAdBgNVHQ4EFgQU8NYQt3TahWqTwiN4E9QdR83VqL4wHwYDVR0jBBgwFoAUPLtt6x79 nW7L7lTm6jnViaBH1zQwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEIG A1UdHwQ7MDkwN6A1oDOGMWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX1B1 Yl9TQS5jcmwwNwYIKwYBBQUHAQEEKzApMCcGCCsGAQUFBzABhhtodHRwczovL29jc3BfU0EuYWdp ZC5nb3YuaXQwggHZBgNVHSAEggHQMIIBzDAJBgcEAI5GAQYCMIGVBgQrTBAGMIGMMEQGCCsGAQUF BwICMDgaNkVsZWN0cm9uaWMgY2VydGlmaWNhdGUgY29uZm9ybWluZyB3aXRoIEFHSUQgR3VpZGVs aW5lczBEBggrBgEFBQcCAjA4GjZDZXJ0aWZpY2F0byBlbGV0dHJvbmljbyBjb25mb3JtZSBhbGxl IExpbmVlIGd1aWRhIEFnSUQwfQYGK0wQBAICMHMwOgYIKwYBBQUHAgIwLhosU1BJRDogYWdncmVn YXRvcmUgJ2Z1bGwnIGRpIHNlcnZpemkgcHViYmxpY2kwNQYIKwYBBQUHAgIwKRonU1BJRDogcHVi bGljLXNlcnZpY2VzICdmdWxsJyBBZ2dyZWdhdG9yMAgGBgQAj3oBAzBNBgQrTBAEMEUwQwYIKwYB BQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0FnSURfZUlEQVNfcm9vdENBX2Nw cy5wZGYwTwYGBACORgEFMEUwQwYIKwYBBQUHAgEWN2h0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQv Y3BzL0FnSURfZUlEQVNfcm9vdENBX2Nwcy5wZGYwEwYDVR0lBAwwCgYIKwYBBQUHAwEweAYJKoZI hvcNAQkPBGswaTAOBggqhkiG9w0DAgICAIAwDgYIKoZIhvcNAwQCAgCAMAsGCWCGSAFlAwQBKjAL BglghkgBZQMEAS0wCwYJYIZIAWUDBAECMAsGCWCGSAFlAwQBBTAHBgUrDgMCBzAKBggqhkiG9w0D BzANBgkqhkiG9w0BAQ0FAAOCAgEAusrnrqzSjeSi6rsjACbFsaXIBSo4ruBL7WvmpZ3BEaDa/Tun OzSgMvrr0gKZ3COv3gfTBgF2k3/m3lk2aXOluTx8keDRxM06FFCWhZ1+HV745Jq83t4ACOEGB9N+ IXLT4wmyvyRQNexoutEs7sk/ukc01Ynw3YX45PQC6Ea5aDWb4Dwhe7xJJCzhgQKTeFuejdQNVmzR 3iCf/Rej5eGDTc2bw4mbItffgNBSu7GD+Xzmi1hmtsZTy11iwar+NV9sXj8bv+Kzkt751gcaw9nj ntvKZfabWl45rH/wtAfP6kCGhV/XMzn8per27q4MG7Or79bhFCvuAhlkT8ijcetngONbmRCRYgqE pEVs0//G5F8x9km4E8nMGEb9zUbAtDL77/7DlpLZWcWTlsu8H6wKmu2eKGxTYM0vp1VeD8eK54aI KVwlxexY4HXj5k9KHwjBYSokC8hDfpE4fZRJFs74OKPRSHSqbdwLB9XopJSez21fwSWnzDEHgUoj 38o7Tn+dt5d3s7hKOR8VJblPsTV+uBk4fDK6Ag1wcQzRb31QI/7zbt8gnMi9P1Vt8W4B8OeZChiZ qwBG5AdKEeyhgt+BTaoqxNtlqfEIUZPTvYqXAs7QXu6d//7r1S1RQn0081F9oqeKi3gmCENybLwT h5DcNY9iB4uAIBpqNjtWKxI6vr0=</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it/Logout/Spid/Response" ResponseLocation="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it/Logout/Spid/Response"/>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it/Logout/Spid/Response" ResponseLocation="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it/Logout/Spid/Response"/>
+		<md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.leonardoweb.eu/pub-ag-full/comune.borgosandalmazzo.cn.it/Login/Spid/Response" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0">
+			<md:ServiceName xml:lang="it">cic</md:ServiceName>
+			<md:RequestedAttribute Name="spidCode"/>
+			<md:RequestedAttribute Name="name"/>
+			<md:RequestedAttribute Name="familyName"/>
+			<md:RequestedAttribute Name="placeOfBirth"/>
+			<md:RequestedAttribute Name="countyOfBirth"/>
+			<md:RequestedAttribute Name="dateOfBirth"/>
+			<md:RequestedAttribute Name="gender"/>
+			<md:RequestedAttribute Name="fiscalNumber"/>
+			<md:RequestedAttribute Name="mobilePhone"/>
+			<md:RequestedAttribute Name="email"/>
+			<md:RequestedAttribute Name="domicileStreetAddress"/>
+			<md:RequestedAttribute Name="domicilePostalCode"/>
+			<md:RequestedAttribute Name="domicileMunicipality"/>
+			<md:RequestedAttribute Name="domicileProvince"/>
+			<md:RequestedAttribute Name="address"/>
+			<md:RequestedAttribute Name="domicileNation"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Comune di Borgo San Dalmazzo</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Comune di Borgo San Dalmazzo</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://www.comune.borgosandalmazzo.cn.it/</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+		<md:Extensions>
+			<spid:VATNumber>IT02820440044</spid:VATNumber>
+			<spid:FiscalCode>02820440044</spid:FiscalCode>
+			<spid:PublicServicesFullAggregator/>
+		</md:Extensions>
+		<md:Company>LEONARDO WEB S.R.L.</md:Company>
+		<md:EmailAddress>spid@leonardoweb.eu</md:EmailAddress>
+		<md:TelephoneNumber>+39017588428</md:TelephoneNumber>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_b033</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Borgo San Dalmazzo</md:Company>
+	</md:ContactPerson>
+</md:EntityDescriptor>

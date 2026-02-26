@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_68e94556860d2b1eea1aa742392f030ff0277cadc7cefe6c9adfeb865b9b45e4" entityID="https://servizi.comune.enna.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_68e94556860d2b1eea1aa742392f030ff0277cadc7cefe6c9adfeb865b9b45e4">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>tRBMcq+DBjwaGWQWuSK2hPwjtCYI9poeGAZdzNowwq0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+XEGJSnN6widi96aLtQb0uNHSlWRCOIeyBsyglouxHWa8jZ2Ss6Q/vJXBRZFQ1XzfXpsxAr78l1xe
+z69AJQZye5RaxKSxoul54pvkZ/IIGQsECq1EfkpwfOHLEkB9fIVtFpWdNmirzNigu4JOFRLHjORG
+rYgspB8Z1P5u1ttMciixqCuM6ImEhZudN1F+CMyAIVGA+QyZOETVV9IU5VfKAuQTOaaRr/9kT4lv
+fvDOKnVT++qKndCHqbtNJwodMoEfa/aG491O/kbJ/9FEeUByPoUe9Ha6fPHE614K8jTQnuja8FcW
+SxY4WBeBge72DjqTdnx5dq4dPZ9LrIsWRpgaQw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+sX59W2GOgnFNXGMoIff/197PS3fZah0l9MvWAhArewYpLalQKmIs4eOrUFX9bnmZ8+Jf5HEcHFWe
+/h0L0KM3xu0A1bUtt5c+u8XOCkPEHGxKxo4WiPiXq29sIdItSl/ceKBOVIi6XW/HVkSgH9vOxK/O
+vV73Ek1FQbsTGkSENwo1UL6Hk2I98VzWZ/lkGjKAL+WMzdg8iNc5/ocY5BOrPeYaWdjhyyywkhzD
+V9kPE3nvkxWAV7uTAex0jG+hf4XCkwvv+etidjusSP/pJBP0s0kQxbE2/rqsdpcVZG+Q4KG3u0p7
+5ZUOPMQb/UJkYwibN6WRXdafKvubEYb5iEXCEw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDnzCCAoegAwIBAgIJALIgfWdhUzjfMA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTENMAsGA1UEBwwERW5uYTEXMBUGA1UECgwOQ29tdW5lIGRpIEVubmExHzAd
+BgNVBAMMFnNlcnZpemkuY29tdW5lLmVubmEuaXQwHhcNMjEwNDIyMTEwMTA3WhcNMzEwNDIyMTEw
+MTA3WjBmMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBEVubmExFzAVBgNV
+BAoMDkNvbXVuZSBkaSBFbm5hMR8wHQYDVQQDDBZzZXJ2aXppLmNvbXVuZS5lbm5hLml0MIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsX59W2GOgnFNXGMoIff/197PS3fZah0l9MvWAhAr
+ewYpLalQKmIs4eOrUFX9bnmZ8+Jf5HEcHFWe/h0L0KM3xu0A1bUtt5c+u8XOCkPEHGxKxo4WiPiX
+q29sIdItSl/ceKBOVIi6XW/HVkSgH9vOxK/OvV73Ek1FQbsTGkSENwo1UL6Hk2I98VzWZ/lkGjKA
+L+WMzdg8iNc5/ocY5BOrPeYaWdjhyyywkhzDV9kPE3nvkxWAV7uTAex0jG+hf4XCkwvv+etidjus
+SP/pJBP0s0kQxbE2/rqsdpcVZG+Q4KG3u0p75ZUOPMQb/UJkYwibN6WRXdafKvubEYb5iEXCEwID
+AQABo1AwTjAdBgNVHQ4EFgQUERVOLvNwPXNWbD7Q1LjokP6fF8MwHwYDVR0jBBgwFoAUERVOLvNw
+PXNWbD7Q1LjokP6fF8MwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAFHCqT9ueXVhd
+Mia9LZTu//w3lOpuFQlUgvirvM5hmkO6hpZIHVkQXmTt7qKhgsvM5KfFd8G65aNVHFOCsz9EIcvj
+UtxskWS1n50opG2OWog/YuRcREWVBfMr4yDUExSmMprFvF+Po2m/alx4r4ONDdUvVXwMue0QNyMS
+sMSnDyHNGhsELxXAUrV4SmOf0rqJbs60IBhWNGLjv/jsrOsfW6J9Rd9HjoCi8xZSGKDKKglwkots
+9yTUCN6toH0dS57NmkZGqebjN+8H/nvwXQAEbJJJ9ycCt9NaLolvUOa8DTAkPNFcxetKmkkV20XN
+pXUKMnCSO1mvU/KerTYOeU+0Kw==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDnzCCAoegAwIBAgIJALIgfWdhUzjfMA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwERW5uYTEXMBUGA1UECgwOQ29tdW5lIGRpIEVubmExHzAdBgNVBAMMFnNlcnZpemkuY29tdW5lLmVubmEuaXQwHhcNMjEwNDIyMTEwMTA3WhcNMzEwNDIyMTEwMTA3WjBmMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBEVubmExFzAVBgNVBAoMDkNvbXVuZSBkaSBFbm5hMR8wHQYDVQQDDBZzZXJ2aXppLmNvbXVuZS5lbm5hLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsX59W2GOgnFNXGMoIff/197PS3fZah0l9MvWAhArewYpLalQKmIs4eOrUFX9bnmZ8+Jf5HEcHFWe/h0L0KM3xu0A1bUtt5c+u8XOCkPEHGxKxo4WiPiXq29sIdItSl/ceKBOVIi6XW/HVkSgH9vOxK/OvV73Ek1FQbsTGkSENwo1UL6Hk2I98VzWZ/lkGjKAL+WMzdg8iNc5/ocY5BOrPeYaWdjhyyywkhzDV9kPE3nvkxWAV7uTAex0jG+hf4XCkwvv+etidjusSP/pJBP0s0kQxbE2/rqsdpcVZG+Q4KG3u0p75ZUOPMQb/UJkYwibN6WRXdafKvubEYb5iEXCEwIDAQABo1AwTjAdBgNVHQ4EFgQUERVOLvNwPXNWbD7Q1LjokP6fF8MwHwYDVR0jBBgwFoAUERVOLvNwPXNWbD7Q1LjokP6fF8MwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAFHCqT9ueXVhdMia9LZTu//w3lOpuFQlUgvirvM5hmkO6hpZIHVkQXmTt7qKhgsvM5KfFd8G65aNVHFOCsz9EIcvjUtxskWS1n50opG2OWog/YuRcREWVBfMr4yDUExSmMprFvF+Po2m/alx4r4ONDdUvVXwMue0QNyMSsMSnDyHNGhsELxXAUrV4SmOf0rqJbs60IBhWNGLjv/jsrOsfW6J9Rd9HjoCi8xZSGKDKKglwkots9yTUCN6toH0dS57NmkZGqebjN+8H/nvwXQAEbJJJ9ycCt9NaLolvUOa8DTAkPNFcxetKmkkV20XNpXUKMnCSO1mvU/KerTYOeU+0Kw==</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIDnzCCAoegAwIBAgIJALIgfWdhUzjfMA0GCSqGSIb3DQEBCwUAMGYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTENMAsGA1UEBwwERW5uYTEXMBUGA1UECgwOQ29tdW5lIGRpIEVubmExHzAdBgNVBAMMFnNlcnZpemkuY29tdW5lLmVubmEuaXQwHhcNMjEwNDIyMTEwMTA3WhcNMzEwNDIyMTEwMTA3WjBmMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDTALBgNVBAcMBEVubmExFzAVBgNVBAoMDkNvbXVuZSBkaSBFbm5hMR8wHQYDVQQDDBZzZXJ2aXppLmNvbXVuZS5lbm5hLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsX59W2GOgnFNXGMoIff/197PS3fZah0l9MvWAhArewYpLalQKmIs4eOrUFX9bnmZ8+Jf5HEcHFWe/h0L0KM3xu0A1bUtt5c+u8XOCkPEHGxKxo4WiPiXq29sIdItSl/ceKBOVIi6XW/HVkSgH9vOxK/OvV73Ek1FQbsTGkSENwo1UL6Hk2I98VzWZ/lkGjKAL+WMzdg8iNc5/ocY5BOrPeYaWdjhyyywkhzDV9kPE3nvkxWAV7uTAex0jG+hf4XCkwvv+etidjusSP/pJBP0s0kQxbE2/rqsdpcVZG+Q4KG3u0p75ZUOPMQb/UJkYwibN6WRXdafKvubEYb5iEXCEwIDAQABo1AwTjAdBgNVHQ4EFgQUERVOLvNwPXNWbD7Q1LjokP6fF8MwHwYDVR0jBBgwFoAUERVOLvNwPXNWbD7Q1LjokP6fF8MwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAFHCqT9ueXVhdMia9LZTu//w3lOpuFQlUgvirvM5hmkO6hpZIHVkQXmTt7qKhgsvM5KfFd8G65aNVHFOCsz9EIcvjUtxskWS1n50opG2OWog/YuRcREWVBfMr4yDUExSmMprFvF+Po2m/alx4r4ONDdUvVXwMue0QNyMSsMSnDyHNGhsELxXAUrV4SmOf0rqJbs60IBhWNGLjv/jsrOsfW6J9Rd9HjoCi8xZSGKDKKglwkots9yTUCN6toH0dS57NmkZGqebjN+8H/nvwXQAEbJJJ9ycCt9NaLolvUOa8DTAkPNFcxetKmkkV20XNpXUKMnCSO1mvU/KerTYOeU+0Kw==</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="signing">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIEYTCCA0mgAwIBAgII0s+fUQqDqAAwDQYJKoZIhvcNAQELBQAwgcUxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARFbm5hMQ0wCwYDVQQHDARFbm5hMSIwIAYDVQQKDBlCaWJsaW90ZWNhIENvbXVuZSBEaSBFbm5hMSIwIAYDVQQLDBlCaWJsaW90ZWNhIENvbXVuZSBEaSBFbm5hMSYwJAYDVQQDDB13d3cuYmlibGlvdGVjYS5jb211bmUuZW5uYS5pdDEoMCYGCSqGSIb3DQEJARYZcHJvdG9jb2xsb0Bjb211bmUuZW5uYS5pdDAeFw0yMjA2MDYxNzExNTFaFw00MjA2MDUxNzExNTFaMIHFMQswCQYDVQQGEwJJVDENMAsGA1UECAwERW5uYTENMAsGA1UEBwwERW5uYTEiMCAGA1UECgwZQmlibGlvdGVjYSBDb211bmUgRGkgRW5uYTEiMCAGA1UECwwZQmlibGlvdGVjYSBDb211bmUgRGkgRW5uYTEmMCQGA1UEAwwdd3d3LmJpYmxpb3RlY2EuY29tdW5lLmVubmEuaXQxKDAmBgkqhkiG9w0BCQEWGXByb3RvY29sbG9AY29tdW5lLmVubmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvB6oCdTAelVyH+zlstoij2/RwdEohzE4M5AYGMNnEFv3lBdbpCb/ALYYVLgl4IxJRph/S9gtzRC3P3ocD07/mnjEIHPAJ8JhQ7HmaSQP0sLuVtiJ3fpBsfb78yv8nG+qZAr418B/jFyylXTCP/o8h+8JytoNIRFrS9TGti/IZ4QYyavxIGHOd9HaV+pFMLl7quNVmWID9yZRv27ztccXP5MnFEkVBlmpjIstdZ5RDVcqneb/g6NrKK61yFntbQHXPsxQGtOFLGkZCAz+euOJaIWBvUknEeNjWldjsCQiqPh8yIkvXWrqDqCZmJ48Gsh/W5D/X15wu9YNsnPCjqV+JAgMBAAGjUzBRMB0GA1UdDgQWBBSaCQNbO7XRme7cHrQz8AT8gdihmTAfBgNVHSMEGDAWgBSaCQNbO7XRme7cHrQz8AT8gdihmTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnXRVWHgQXBzAXDAklQNgSndmv/61nBd2PpRwN3G+d47bW03AH/HlGlWLTpuYHAhbOdrdZQqAbMQRAT3T4WEAxq4TySYkdjXKGkaHblXhhiFbueOKxwCoeuodxh1e+fJ+oBVyJJuSZGaGl1UU6Dkarn/D4CtV5WWefsN5XXQYILoPwKreXX04+9TqkQlfY5gReXql7BLQPmbmGq4xZzLJZoCqpwNsZlmiKJvTYqe5iXOcoOQhw86a/DuKKe5R7KFUvr1MBk0jqCRcPNGiDLybay+/pYjtjX9WAJEXeZrJgME2SZJNDPP0q7JgGM+uy3VgooOKRzFXpuofkYB2Up80X</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+   		<ds:KeyInfo>
+   			<ds:X509Data>
+    			<ds:X509Certificate>MIIEYTCCA0mgAwIBAgII0s+fUQqDqAAwDQYJKoZIhvcNAQELBQAwgcUxCzAJBgNVBAYTAklUMQ0wCwYDVQQIDARFbm5hMQ0wCwYDVQQHDARFbm5hMSIwIAYDVQQKDBlCaWJsaW90ZWNhIENvbXVuZSBEaSBFbm5hMSIwIAYDVQQLDBlCaWJsaW90ZWNhIENvbXVuZSBEaSBFbm5hMSYwJAYDVQQDDB13d3cuYmlibGlvdGVjYS5jb211bmUuZW5uYS5pdDEoMCYGCSqGSIb3DQEJARYZcHJvdG9jb2xsb0Bjb211bmUuZW5uYS5pdDAeFw0yMjA2MDYxNzExNTFaFw00MjA2MDUxNzExNTFaMIHFMQswCQYDVQQGEwJJVDENMAsGA1UECAwERW5uYTENMAsGA1UEBwwERW5uYTEiMCAGA1UECgwZQmlibGlvdGVjYSBDb211bmUgRGkgRW5uYTEiMCAGA1UECwwZQmlibGlvdGVjYSBDb211bmUgRGkgRW5uYTEmMCQGA1UEAwwdd3d3LmJpYmxpb3RlY2EuY29tdW5lLmVubmEuaXQxKDAmBgkqhkiG9w0BCQEWGXByb3RvY29sbG9AY29tdW5lLmVubmEuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCvB6oCdTAelVyH+zlstoij2/RwdEohzE4M5AYGMNnEFv3lBdbpCb/ALYYVLgl4IxJRph/S9gtzRC3P3ocD07/mnjEIHPAJ8JhQ7HmaSQP0sLuVtiJ3fpBsfb78yv8nG+qZAr418B/jFyylXTCP/o8h+8JytoNIRFrS9TGti/IZ4QYyavxIGHOd9HaV+pFMLl7quNVmWID9yZRv27ztccXP5MnFEkVBlmpjIstdZ5RDVcqneb/g6NrKK61yFntbQHXPsxQGtOFLGkZCAz+euOJaIWBvUknEeNjWldjsCQiqPh8yIkvXWrqDqCZmJ48Gsh/W5D/X15wu9YNsnPCjqV+JAgMBAAGjUzBRMB0GA1UdDgQWBBSaCQNbO7XRme7cHrQz8AT8gdihmTAfBgNVHSMEGDAWgBSaCQNbO7XRme7cHrQz8AT8gdihmTAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBnXRVWHgQXBzAXDAklQNgSndmv/61nBd2PpRwN3G+d47bW03AH/HlGlWLTpuYHAhbOdrdZQqAbMQRAT3T4WEAxq4TySYkdjXKGkaHblXhhiFbueOKxwCoeuodxh1e+fJ+oBVyJJuSZGaGl1UU6Dkarn/D4CtV5WWefsN5XXQYILoPwKreXX04+9TqkQlfY5gReXql7BLQPmbmGq4xZzLJZoCqpwNsZlmiKJvTYqe5iXOcoOQhw86a/DuKKe5R7KFUvr1MBk0jqCRcPNGiDLybay+/pYjtjX9WAJEXeZrJgME2SZJNDPP0q7JgGM+uy3VgooOKRzFXpuofkYB2Up80X</ds:X509Certificate>
+    		</ds:X509Data>
+    	</ds:KeyInfo>
+   	</md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizi.comune.enna.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://biblioteca.comune.enna.it/wp-login.php?spid_sso=out"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizi.comune.enna.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://biblioteca.comune.enna.it/wp-login.php?spid_sso=in" index="1"/>
+    <md:AttributeConsumingService index="1">
+   		<md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+   	<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+   		<md:ServiceName xml:lang="it">Set 0</md:ServiceName>
+<md:ServiceDescription xml:lang="it">Set 0</md:ServiceDescription>
+   	<md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	<md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+   	</md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Enna</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Enna</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Enna</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Enna</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.enna.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.enna.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c342</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Enna</md:Company>
+    <md:EmailAddress>postmaster@comune.enna.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

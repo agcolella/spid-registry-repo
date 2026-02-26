@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxafd50d8d-eec3-d96c-9a15-4688709d2be9" entityID="https://pir.asst-lodi.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxafd50d8d-eec3-d96c-9a15-4688709d2be9">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>qgp2Z3BBmyUZeEiq237ndOOmg8MWsw6H2+UGb4kFtsU=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+i/K0UY/oIPOamJpSKUTVfqCail/BLdrlltw/2xCE3Uu1Sx1KqoJlImieNOK7RlUWvgpBsgVrV8/E
+IBfTNo5XLrcEBhRfbhUBCp5Fwugzu7XMP4iCJm4hp8sH60h4a/qMzD6Ym64dEOtF7DqpZOl8syFt
+9p7NBC2Np43cp9b5k9jeXmHpwqlVkrMLgXVey5ZwLICYqQR2S5b5PMvpp4WVvZ62KMF4n25YzzyC
+nz6R8FRt+ndUPscfbpaWQWQfkuY52GLSsaYnEa0B2VATjdvMYmMvcumcDRVINYxy+JR8RXJUegAK
+LvBnZLBmHu1f9JC4pDHzwR03jimvFJYuLPzTJw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+v+iIqYrInufpXtIKsaw5qxu6N40Gsc10PBXyLCaBpBf9lMjrxdbt3x9t5qpqO3M4jA9STiJWvloX
+l/obQv0Gf2p1YUYS0GcDyTabmXW6LU7C6p7N7GOXLM3YuDTSLBLHn0aEPy2LYQyWLjOkx2v2C2tz
+bobLiz1UlVkLfV+O86RfWDm4hZbzhHwUfN0lmONFE64VihCqBxwIrQ2EJ3R+eKmef+024cgt/w3j
+Jqh/U4YXAmgUzYmL+iFPUAMQBz80TlhYEv7IExQ/tfnAoFl9zua0HlfOBu9mHWFdoRfkh+kT44F+
+GLev7RZGfwXKYCNIP0t/oBVPB/XMeSsaBKx+rQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIEizCCA3OgAwIBAgIUHShLjwlPY4kasxu2D4Z0NFjR2R8wDQYJKoZIhvcNAQENBQAwgcUxNTAz
+BgNVBAMMLEF6aWVuZGEgU29jaW8gU2FuaXRhcmlhIFRlcnJpdG9yaWFsZSBkaSBMb2RpMQswCQYD
+VQQGEwJJVDENMAsGA1UEBwwETG9kaTEVMBMGA1UEYQwMUEE6SVQtYXNzdGxvMTUwMwYDVQQKDCxB
+emllbmRhIFNvY2lvIFNhbml0YXJpYSBUZXJyaXRvcmlhbGUgZGkgTG9kaTEiMCAGA1UEUwwZaHR0
+cHM6Ly9waXIuYXNzdC1sb2RpLml0LzAeFw0yMjExMDQxNjI3MDNaFw0zMjExMDExNjI3MDNaMIHF
+MTUwMwYDVQQDDCxBemllbmRhIFNvY2lvIFNhbml0YXJpYSBUZXJyaXRvcmlhbGUgZGkgTG9kaTEL
+MAkGA1UEBhMCSVQxDTALBgNVBAcMBExvZGkxFTATBgNVBGEMDFBBOklULWFzc3RsbzE1MDMGA1UE
+CgwsQXppZW5kYSBTb2NpbyBTYW5pdGFyaWEgVGVycml0b3JpYWxlIGRpIExvZGkxIjAgBgNVBFMM
+GWh0dHBzOi8vcGlyLmFzc3QtbG9kaS5pdC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQC/6Iipisie5+le0gqxrDmrG7o3jQaxzXQ8FfIsJoGkF/2UyOvF1u3fH23mqmo7cziMD1JOIla+
+WheX+htC/QZ/anVhRhLQZwPJNpuZdbotTsLqns3sY5cszdi4NNIsEsefRoQ/LYthDJYuM6THa/YL
+a3NuhsuLPVSVWQt9X47zpF9YObiFlvOEfBR83SWY40UTrhWKEKoHHAitDYQndH54qZ5/7TbhyC3/
+DeMmqH9ThhcCaBTNiYv6IU9QAxAHPzROWFgS/sgTFD+1+cCgWX3O5rQeV84G72YdYV2hF+SH6RPj
+gX4Yt6/tFkZ/BcpgI0g/S3+gFU8H9cx5KxoErH6tAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0P
+AQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUG
+BitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBAQCp
+bELzOF6mbPGfgkhPtNSgTEq8kxmqimWRhWJ+Jj1bepjoL2mzt9fJWoLmCoL/1ybMaXMihMH+c/Y2
+LYO8avpfvFw/jvJnmt8Fs3x9qQavB+HRIYjw/6ApUDubUArQ5nvdkXUXiqeTwTKHkpkBLYpYVJh2
+YVJ1j4LRroK9xp4ujdmmUkl1ky710/8LxXZ1U3zrHvjpXg32lIG6DhdwK+XEkx0D/CsBvWeHjB+3
+sqvDgEe3r3aQK4R4uZ++REWpNghMU4zhToM7rG+6ryncHad4FiPirB/Ok8AUaMoRncOYVGr65abH
+mPvqX+lhKbW51faB6Oume502MH33Pc5ZTEqz
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEizCCA3OgAwIBAgIUHShLjwlPY4kasxu2D4Z0NFjR2R8wDQYJKoZIhvcNAQEN
+BQAwgcUxNTAzBgNVBAMMLEF6aWVuZGEgU29jaW8gU2FuaXRhcmlhIFRlcnJpdG9y
+aWFsZSBkaSBMb2RpMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETG9kaTEVMBMGA1UE
+YQwMUEE6SVQtYXNzdGxvMTUwMwYDVQQKDCxBemllbmRhIFNvY2lvIFNhbml0YXJp
+YSBUZXJyaXRvcmlhbGUgZGkgTG9kaTEiMCAGA1UEUwwZaHR0cHM6Ly9waXIuYXNz
+dC1sb2RpLml0LzAeFw0yMjExMDQxNjI3MDNaFw0zMjExMDExNjI3MDNaMIHFMTUw
+MwYDVQQDDCxBemllbmRhIFNvY2lvIFNhbml0YXJpYSBUZXJyaXRvcmlhbGUgZGkg
+TG9kaTELMAkGA1UEBhMCSVQxDTALBgNVBAcMBExvZGkxFTATBgNVBGEMDFBBOklU
+LWFzc3RsbzE1MDMGA1UECgwsQXppZW5kYSBTb2NpbyBTYW5pdGFyaWEgVGVycml0
+b3JpYWxlIGRpIExvZGkxIjAgBgNVBFMMGWh0dHBzOi8vcGlyLmFzc3QtbG9kaS5p
+dC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/6Iipisie5+le0gqx
+rDmrG7o3jQaxzXQ8FfIsJoGkF/2UyOvF1u3fH23mqmo7cziMD1JOIla+WheX+htC
+/QZ/anVhRhLQZwPJNpuZdbotTsLqns3sY5cszdi4NNIsEsefRoQ/LYthDJYuM6TH
+a/YLa3NuhsuLPVSVWQt9X47zpF9YObiFlvOEfBR83SWY40UTrhWKEKoHHAitDYQn
+dH54qZ5/7TbhyC3/DeMmqH9ThhcCaBTNiYv6IU9QAxAHPzROWFgS/sgTFD+1+cCg
+WX3O5rQeV84G72YdYV2hF+SH6RPjgX4Yt6/tFkZ/BcpgI0g/S3+gFU8H9cx5KxoE
+rH6tAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARL
+MEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAb
+MBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBAQCp
+bELzOF6mbPGfgkhPtNSgTEq8kxmqimWRhWJ+Jj1bepjoL2mzt9fJWoLmCoL/1ybM
+aXMihMH+c/Y2LYO8avpfvFw/jvJnmt8Fs3x9qQavB+HRIYjw/6ApUDubUArQ5nvd
+kXUXiqeTwTKHkpkBLYpYVJh2YVJ1j4LRroK9xp4ujdmmUkl1ky710/8LxXZ1U3zr
+HvjpXg32lIG6DhdwK+XEkx0D/CsBvWeHjB+3sqvDgEe3r3aQK4R4uZ++REWpNghM
+U4zhToM7rG+6ryncHad4FiPirB/Ok8AUaMoRncOYVGr65abHmPvqX+lhKbW51faB
+6Oume502MH33Pc5ZTEqz</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>MIIEizCCA3OgAwIBAgIUHShLjwlPY4kasxu2D4Z0NFjR2R8wDQYJKoZIhvcNAQEN
+BQAwgcUxNTAzBgNVBAMMLEF6aWVuZGEgU29jaW8gU2FuaXRhcmlhIFRlcnJpdG9y
+aWFsZSBkaSBMb2RpMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETG9kaTEVMBMGA1UE
+YQwMUEE6SVQtYXNzdGxvMTUwMwYDVQQKDCxBemllbmRhIFNvY2lvIFNhbml0YXJp
+YSBUZXJyaXRvcmlhbGUgZGkgTG9kaTEiMCAGA1UEUwwZaHR0cHM6Ly9waXIuYXNz
+dC1sb2RpLml0LzAeFw0yMjExMDQxNjI3MDNaFw0zMjExMDExNjI3MDNaMIHFMTUw
+MwYDVQQDDCxBemllbmRhIFNvY2lvIFNhbml0YXJpYSBUZXJyaXRvcmlhbGUgZGkg
+TG9kaTELMAkGA1UEBhMCSVQxDTALBgNVBAcMBExvZGkxFTATBgNVBGEMDFBBOklU
+LWFzc3RsbzE1MDMGA1UECgwsQXppZW5kYSBTb2NpbyBTYW5pdGFyaWEgVGVycml0
+b3JpYWxlIGRpIExvZGkxIjAgBgNVBFMMGWh0dHBzOi8vcGlyLmFzc3QtbG9kaS5p
+dC8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/6Iipisie5+le0gqx
+rDmrG7o3jQaxzXQ8FfIsJoGkF/2UyOvF1u3fH23mqmo7cziMD1JOIla+WheX+htC
+/QZ/anVhRhLQZwPJNpuZdbotTsLqns3sY5cszdi4NNIsEsefRoQ/LYthDJYuM6TH
+a/YLa3NuhsuLPVSVWQt9X47zpF9YObiFlvOEfBR83SWY40UTrhWKEKoHHAitDYQn
+dH54qZ5/7TbhyC3/DeMmqH9ThhcCaBTNiYv6IU9QAxAHPzROWFgS/sgTFD+1+cCg
+WX3O5rQeV84G72YdYV2hF+SH6RPjgX4Yt6/tFkZ/BcpgI0g/S3+gFU8H9cx5KxoE
+rH6tAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARL
+MEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAb
+MBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBAQCp
+bELzOF6mbPGfgkhPtNSgTEq8kxmqimWRhWJ+Jj1bepjoL2mzt9fJWoLmCoL/1ybM
+aXMihMH+c/Y2LYO8avpfvFw/jvJnmt8Fs3x9qQavB+HRIYjw/6ApUDubUArQ5nvd
+kXUXiqeTwTKHkpkBLYpYVJh2YVJ1j4LRroK9xp4ujdmmUkl1ky710/8LxXZ1U3zr
+HvjpXg32lIG6DhdwK+XEkx0D/CsBvWeHjB+3sqvDgEe3r3aQK4R4uZ++REWpNghM
+U4zhToM7rG+6ryncHad4FiPirB/Ok8AUaMoRncOYVGr65abHmPvqX+lhKbW51faB
+6Oume502MH33Pc5ZTEqz</ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth-referti-asst-lodi.elco.it/SPID/ASSTLodi/login/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://auth-referti-asst-lodi.elco.it/SPID/ASSTLodi/login/send-response" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">FenixPortale</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">FenixPortale ASST Lodi</md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Azienda Socio Sanitaria Territoriale di Lodi</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Azienda Socio Sanitaria Territoriale di Lodi</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://www.asst-lodi.it/</md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>asstlo</spid:IPACode>
+            <spid:FiscalCode>04008300750</spid:FiscalCode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>Azienda Socio Sanitaria Territoriale di Lodi</md:Company>
+        <md:EmailAddress>sistema.informativo@pec.asst-lodi.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
