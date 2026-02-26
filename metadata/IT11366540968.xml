@@ -1,0 +1,190 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_0j40cj0848d8e3jncjdjssasdfasfwtr2" entityID="https://welfarex.it/spid"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>EL41swb/w+gjoJWFl/ity3dUBLRCQnKhTD/AESYsY3c=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+t4gO19K/cYr5vKItPaNVYRXKAW1cQmSDVIr4Oh1PtejDqugw9yyCJlqDhQfJSkR98SYdFH56uTI4
+XNusvEeMCy/N5j9obvQX+9FqnYxQDbd6zA8vVMs2grIwfxw3L8VQ7dhDZC8ILpq5vCPU0Mn1SoZN
+GANICfiyKYBClzVoGWs5xPv6n5RogbG6Wdf7NmTWkF23EmkTA+rX1XkDzkl09fg6fhV7xYSNbcR8
+KvmV6j3no/RPena7xj1BVuyaRPqCFT+MuHRwgX1hMu2uGl7ldWT2RF1YZv7gTaEN0RYlE916C6jP
+nLZ8jLzKFssiZ8KyzBgwXLOmCEIBAyISSb4KXg==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+1t5W3NgttFxhQPxhALibO+pk9irKeRylmHU5398L1patXV+EUpX+da/Hc64u4Rp5Fy32AX6OzRf6
+yKKExdvV9viQuWyqWgZ3QJNSO0vzm1MFjizyBZRDx4e+djhlGzbbeJXajb76Z1O+sW8RiZrCtZbQ
+Onh+nK3F5nAYCizBZnd7k041Be47bZoAUFhmVtGDZkPbf+n9lh21WkmNHx/Z0i5E0gqSTDSYcz5K
+PTMpHhsjRbZAKrRSNdWPgb/vbMSPaweVSIzRJ2tkD9B+s2kbOgvcZ+sD0/yvHuzJTYPCTEm2Xckj
+LRelY2uIOaUNoc+bHrFaKSEBs/Vgh7pc9kwdbw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIFTCCBf2gAwIBAgIIQvADOVxLN7UwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAyNTAw
+MDAwMFoXDTM2MTAyNDIzNTk1OVowgcExHDAaBgNVBAMME2h0dHBzOi8vd2VsZmFyZXguaXQxCzAJ
+BgNVBAYTAklUMRAwDgYDVQQHDAdCcmVzY2lhMQswCQYDVQQIDAJCUzEaMBgGA1UEYQwRVkFUSVQt
+MTEzNjY1NDA5NjgxFTATBgNVBAoMDENHTW92aW5nIHNybDEhMB8GA1UEUwwYaHR0cHM6Ly93ZWxm
+YXJleC5pdC9zcGlkMR8wHQYJKoZIhvcNAQkBFhBzcGlkQGNnbW92aW5nLml0MIIBIjANBgkqhkiG
+9w0BAQEFAAOCAQ8AMIIBCgKCAQEA1t5W3NgttFxhQPxhALibO+pk9irKeRylmHU5398L1patXV+E
+UpX+da/Hc64u4Rp5Fy32AX6OzRf6yKKExdvV9viQuWyqWgZ3QJNSO0vzm1MFjizyBZRDx4e+djhl
+GzbbeJXajb76Z1O+sW8RiZrCtZbQOnh+nK3F5nAYCizBZnd7k041Be47bZoAUFhmVtGDZkPbf+n9
+lh21WkmNHx/Z0i5E0gqSTDSYcz5KPTMpHhsjRbZAKrRSNdWPgb/vbMSPaweVSIzRJ2tkD9B+s2kb
+OgvcZ+sD0/yvHuzJTYPCTEm2XckjLRelY2uIOaUNoc+bHrFaKSEBs/Vgh7pc9kwdbwIDAQABo4IC
+5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUndfu+liDgx1zFmnR5ppXotjxDXEwHwYDVR0j
+BBgwFoAUnEUwxE0PoPomD6nW/CDWB2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3Nw
+aWQuZ292Lml0MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3Js
+L2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6
+Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCCAcowCQYHBACORgEGAjCBlQYEK0wQ
+BjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0
+aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28g
+Y29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCka
+J1NQSUQ6IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEFBQcCAjAsGipT
+UElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChTUCkwCAYGBACPegEDME0GBCtM
+EAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURB
+U19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMC
+AAcwDQYJKoZIhvcNAQENBQADggIBAE6+4MDkEk3yqox1mBJGp+ZX2Doa1a+kHAGZmE+0/iWh6kir
+RbDYJbNez3fI416NKSoTa3/qTjZ8s9Kd9ungDiAPtxs5+pahWMM6D9IsLoAK+2wvYtT+jQsT9vD/
+qDSG72OX+z335Z3TmA+PN17S5BIrawKuZkzbbDeEGqCbzXJT/WhZ9EZRXkEPdvC4kbBZln7eZkVO
+nL0sm48CpRaxg20vR1eEnCY3LTFIY2SFwKH2b7EwdFr0WJX36jziytvD2IoKd1lGo+s7WpfY86T9
+ruCCsaqv/GjpOB/TrpKFkaiQfXuZ0lHxkmt85CD7rlZcArMd/9+DJKR9sa6xBTKI2lyK19i6pm4x
+M7hfkbCbgyVty5H9i9PTPY1nUEAolSDUSRDBMs57+zu2zx7U+6WUxnSIbYOoprUgHuR6R92jBmTO
+ZWgICQxI3q1LcBooTOXGH1OzxNx1oA/W9OlJu+WLz1o05mkKmkUkugKDaLhhwLwzCHz3JjbIgO2X
+h4OwLDeYFltQzZoWnKtOBo+w3pFCEEt33JunuCisMeRCoAnJDM7QX5n+rH8ebWoSOATz2FCWv8T/
+e42G17H4T13KgzINuqARil7STmLDLVEEixv3ccP/xGjnLe6y/S9JGh00DCHRy5ZQyNE8PGjl26fa
+JPiDqkZZAWR2XNh+R7rjkRQsrRC0
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data><ds:X509Certificate>MIIIFTCCBf2gAwIBAgIIQvADOVxLN7UwDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMTAyNTAwMDAw
+MFoXDTM2MTAyNDIzNTk1OVowgcExHDAaBgNVBAMME2h0dHBzOi8vd2VsZmFyZXgu
+aXQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdCcmVzY2lhMQswCQYDVQQIDAJCUzEa
+MBgGA1UEYQwRVkFUSVQtMTEzNjY1NDA5NjgxFTATBgNVBAoMDENHTW92aW5nIHNy
+bDEhMB8GA1UEUwwYaHR0cHM6Ly93ZWxmYXJleC5pdC9zcGlkMR8wHQYJKoZIhvcN
+AQkBFhBzcGlkQGNnbW92aW5nLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIB
+CgKCAQEA1t5W3NgttFxhQPxhALibO+pk9irKeRylmHU5398L1patXV+EUpX+da/H
+c64u4Rp5Fy32AX6OzRf6yKKExdvV9viQuWyqWgZ3QJNSO0vzm1MFjizyBZRDx4e+
+djhlGzbbeJXajb76Z1O+sW8RiZrCtZbQOnh+nK3F5nAYCizBZnd7k041Be47bZoA
+UFhmVtGDZkPbf+n9lh21WkmNHx/Z0i5E0gqSTDSYcz5KPTMpHhsjRbZAKrRSNdWP
+gb/vbMSPaweVSIzRJ2tkD9B+s2kbOgvcZ+sD0/yvHuzJTYPCTEm2XckjLRelY2uI
+OaUNoc+bHrFaKSEBs/Vgh7pc9kwdbwIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIw
+ADAdBgNVHQ4EFgQUndfu+liDgx1zFmnR5ppXotjxDXEwHwYDVR0jBBgwFoAUnEUw
+xE0PoPomD6nW/CDWB2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3Nw
+aWQuZ292Lml0MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5n
+b3YuaXQvY3JsL2NybF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAn
+BggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0g
+BIIBzjCCAcowCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZF
+bGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRl
+bGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29u
+Zm9ybWUgYWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUF
+BwICMCkaJ1NQSUQ6IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4
+BggrBgEFBQcCAjAsGipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3Zp
+ZGVyIChTUCkwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBk
+ZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdv
+di5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEE
+BAMCAAcwDQYJKoZIhvcNAQENBQADggIBAE6+4MDkEk3yqox1mBJGp+ZX2Doa1a+k
+HAGZmE+0/iWh6kirRbDYJbNez3fI416NKSoTa3/qTjZ8s9Kd9ungDiAPtxs5+pah
+WMM6D9IsLoAK+2wvYtT+jQsT9vD/qDSG72OX+z335Z3TmA+PN17S5BIrawKuZkzb
+bDeEGqCbzXJT/WhZ9EZRXkEPdvC4kbBZln7eZkVOnL0sm48CpRaxg20vR1eEnCY3
+LTFIY2SFwKH2b7EwdFr0WJX36jziytvD2IoKd1lGo+s7WpfY86T9ruCCsaqv/Gjp
+OB/TrpKFkaiQfXuZ0lHxkmt85CD7rlZcArMd/9+DJKR9sa6xBTKI2lyK19i6pm4x
+M7hfkbCbgyVty5H9i9PTPY1nUEAolSDUSRDBMs57+zu2zx7U+6WUxnSIbYOoprUg
+HuR6R92jBmTOZWgICQxI3q1LcBooTOXGH1OzxNx1oA/W9OlJu+WLz1o05mkKmkUk
+ugKDaLhhwLwzCHz3JjbIgO2Xh4OwLDeYFltQzZoWnKtOBo+w3pFCEEt33JunuCis
+MeRCoAnJDM7QX5n+rH8ebWoSOATz2FCWv8T/e42G17H4T13KgzINuqARil7STmLD
+LVEEixv3ccP/xGjnLe6y/S9JGh00DCHRy5ZQyNE8PGjl26faJPiDqkZZAWR2XNh+
+R7rjkRQsrRC0</ds:X509Certificate></ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://welfarex.it/spid/logout"/>
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://welfarex.it/spid/post" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://solidali.welfarex.it/spid/post" index="1"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">serviziAnag</md:ServiceName>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">CGMoving srl</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">CGMoving</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">https://welfarex.it</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:VATNumber>IT11366540968</spid:VATNumber>
+            <spid:Private/>
+        </md:Extensions>
+        <md:EmailAddress>spid@cgmoving.it</md:EmailAddress>
+        <md:TelephoneNumber>+390302421286</md:TelephoneNumber>
+    </md:ContactPerson>
+    <md:ContactPerson contactType="billing">
+        <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+            <fpa:CessionarioCommittente>
+                <fpa:DatiAnagrafici>
+                    <fpa:IdFiscaleIVA>
+                        <fpa:IdPaese>IT</fpa:IdPaese>
+                        <fpa:IdCodice>+390123456789</fpa:IdCodice>
+                    </fpa:IdFiscaleIVA>
+                    <fpa:Anagrafica>
+			           <fpa:Denominazione>
+                            Destinatario_Fatturazione
+			           </fpa:Denominazione> 
+                    </fpa:Anagrafica>
+                </fpa:DatiAnagrafici>
+                <fpa:Sede>
+                    <fpa:Indirizzo>via Barigozzi</fpa:Indirizzo>
+                    <fpa:NumeroCivico>24</fpa:NumeroCivico>
+                    <fpa:CAP>20138</fpa:CAP>
+                    <fpa:Comune>Milano</fpa:Comune>
+                    <fpa:Provincia>MI</fpa:Provincia>
+                    <fpa:Nazione>IT</fpa:Nazione>
+                </fpa:Sede>
+            </fpa:CessionarioCommittente>
+        </md:Extensions>
+        <md:Company>CGMoving srl</md:Company>
+        <md:EmailAddress>amministrazione@cgmoving.it</md:EmailAddress>
+        <md:TelephoneNumber>+390302421286</md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

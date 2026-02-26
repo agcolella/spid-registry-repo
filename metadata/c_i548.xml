@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx1dc7995c-b116-7ed5-58b6-d149a51a6baf" entityID="https://www.comune.scordia.ct.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx1dc7995c-b116-7ed5-58b6-d149a51a6baf">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    tQju8Xe8ZA48ZvTdijECBZKtfIzLwpcLjf2PfdReeaI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+jdMBHeyOPc6B3rEqd0xV3UsM29MDWaBNEKAwrcvelwCa2gGQNALhfDj1l9A6GYlLLj3mAcJVrxDz
+i5KVp4PwXjQlNGfx2d1cPBIlUAMdpFJ45Fq0xRAsAKoodnRCsoul30utdvvlmnwbW8LcPNnClR+4
+Jx+9vvr4aaUh/qfEV4zlaDhzplTdomI6oEkSbR/Y3pnAc3TrjufDtEd/no6TuuQtc+HkVIGWoRn2
+nEpagaHR1x0/kiluj/YHcULTMKovRwUudfjclYVWNuJFYv9vSzYk5pvTe3B/YcUQy4WuczQT+791
+SPD30HgRmGH36wgTRcxs57d5wc3d8fRkGYVb8A==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+lpBrtpkhc3HJ/2D0BgBzqEJnJq6ZEc6oiZdECe42x0V996ncP7qCwQMXIiB+1u31QSwdNbRtQf4G
+cbFN0Es14jqW/37CKSHyWGy5pJWoEMKSSoPKmk/M6YfAWN3jGm7qXeOFQpO+gh4aND+/qBLcCBuQ
+8RHnU6uhkA08h6ge+pXyU0mhJEJ1hOS9RIpx3L+mvZSDBxCnQP1dQpGnSd8FdD/zI6gIKqvGseAh
+PvdwCBcMEkAFMM5ddg0TwcICyAeiU58Eoc1/5+fcevmnKymnJXJICdGgvpNqAaJWc8U8gV8ZiuSM
+DESSSDuutqMq1ZiNRqMJFJpCrwSvWqT6xWO2Qw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDrzCCApegAwIBAgIJAKtZkilDPxllMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2NvcmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3Jk
+aWExITAfBgNVBAMMGHd3dy5jb211bmUuc2NvcmRpYS5jdC5pdDAeFw0yMTA5MjEwODA5NDZaFw0z
+MTA5MjEwODA5NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2Nv
+cmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3JkaWExITAfBgNVBAMMGHd3dy5jb211bmUuc2Nv
+cmRpYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaQa7aZIXNxyf9g9AYA
+c6hCZyaumRHOqImXRAnuNsdFffep3D+6gsEDFyIgftbt9UEsHTW0bUH+BnGxTdBLNeI6lv9+wikh
+8lhsuaSVqBDCkkqDyppPzOmHwFjd4xpu6l3jhUKTvoIeGjQ/v6gS3AgbkPER51OroZANPIeoHvqV
+8lNJoSRCdYTkvUSKcdy/pr2UgwcQp0D9XUKRp0nfBXQ/8yOoCCqrxrHgIT73cAgXDBJABTDOXXYN
+E8HCAsgHolOfBKHNf+fn3Hr5pysppyVySAnRoL6TagGiVnPFPIFfGYrkjAxEkkg7rrajKtWYjUaj
+CRSaQq8Er1qk+sVjtkMCAwEAAaNQME4wHQYDVR0OBBYEFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMB8G
+A1UdIwQYMBaAFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQEL
+BQADggEBAG68JI9N49gcWUoozAgW4j6sPgmytnfh6mWACgOiOkAzzicDv69biZZmIIiOsp7ORiJg
+NTKPKVhAj4f/TiJNlFGMIzmH3A82U5mp6XIjQi+C+k9MotyqYCN91h6Iy2SHFD0IhtmPh3rnr4t2
+kBdrtZII5nVzjWS7Q05RxOXl298rtgNCki9vkr5V3txYqQdq7qzYcUm/QdO8IvyFk2FrhQAHkYx9
+GcckY+AnYjeUGrjj4uadM/U0ee0n9HBpxms5pj03XZrBStDC4rNMBXVcf1L+bJQ6DHPIfzRFxQbT
+XInFMBPg4M6gBIiSlLRL7xclHo2keahVnLSAQ8y7Ly0JxOk=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDrzCCApegAwIBAgIJAKtZkilDPxllMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2NvcmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3JkaWExITAfBgNVBAMMGHd3dy5jb211bmUuc2NvcmRpYS5jdC5pdDAeFw0yMTA5MjEwODA5NDZaFw0zMTA5MjEwODA5NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2NvcmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3JkaWExITAfBgNVBAMMGHd3dy5jb211bmUuc2NvcmRpYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaQa7aZIXNxyf9g9AYAc6hCZyaumRHOqImXRAnuNsdFffep3D+6gsEDFyIgftbt9UEsHTW0bUH+BnGxTdBLNeI6lv9+wikh8lhsuaSVqBDCkkqDyppPzOmHwFjd4xpu6l3jhUKTvoIeGjQ/v6gS3AgbkPER51OroZANPIeoHvqV8lNJoSRCdYTkvUSKcdy/pr2UgwcQp0D9XUKRp0nfBXQ/8yOoCCqrxrHgIT73cAgXDBJABTDOXXYNE8HCAsgHolOfBKHNf+fn3Hr5pysppyVySAnRoL6TagGiVnPFPIFfGYrkjAxEkkg7rrajKtWYjUajCRSaQq8Er1qk+sVjtkMCAwEAAaNQME4wHQYDVR0OBBYEFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMB8GA1UdIwQYMBaAFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAG68JI9N49gcWUoozAgW4j6sPgmytnfh6mWACgOiOkAzzicDv69biZZmIIiOsp7ORiJgNTKPKVhAj4f/TiJNlFGMIzmH3A82U5mp6XIjQi+C+k9MotyqYCN91h6Iy2SHFD0IhtmPh3rnr4t2kBdrtZII5nVzjWS7Q05RxOXl298rtgNCki9vkr5V3txYqQdq7qzYcUm/QdO8IvyFk2FrhQAHkYx9GcckY+AnYjeUGrjj4uadM/U0ee0n9HBpxms5pj03XZrBStDC4rNMBXVcf1L+bJQ6DHPIfzRFxQbTXInFMBPg4M6gBIiSlLRL7xclHo2keahVnLSAQ8y7Ly0JxOk=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDrzCCApegAwIBAgIJAKtZkilDPxllMA0GCSqGSIb3DQEBCwUAMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2NvcmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3JkaWExITAfBgNVBAMMGHd3dy5jb211bmUuc2NvcmRpYS5jdC5pdDAeFw0yMTA5MjEwODA5NDZaFw0zMTA5MjEwODA5NDZaMG4xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEQMA4GA1UEBwwHU2NvcmRpYTEaMBgGA1UECgwRY29tdW5lIGRpIFNjb3JkaWExITAfBgNVBAMMGHd3dy5jb211bmUuc2NvcmRpYS5jdC5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJaQa7aZIXNxyf9g9AYAc6hCZyaumRHOqImXRAnuNsdFffep3D+6gsEDFyIgftbt9UEsHTW0bUH+BnGxTdBLNeI6lv9+wikh8lhsuaSVqBDCkkqDyppPzOmHwFjd4xpu6l3jhUKTvoIeGjQ/v6gS3AgbkPER51OroZANPIeoHvqV8lNJoSRCdYTkvUSKcdy/pr2UgwcQp0D9XUKRp0nfBXQ/8yOoCCqrxrHgIT73cAgXDBJABTDOXXYNE8HCAsgHolOfBKHNf+fn3Hr5pysppyVySAnRoL6TagGiVnPFPIFfGYrkjAxEkkg7rrajKtWYjUajCRSaQq8Er1qk+sVjtkMCAwEAAaNQME4wHQYDVR0OBBYEFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMB8GA1UdIwQYMBaAFI+NfPLsIUi8bGN+8Nc3WGZr+xjyMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAG68JI9N49gcWUoozAgW4j6sPgmytnfh6mWACgOiOkAzzicDv69biZZmIIiOsp7ORiJgNTKPKVhAj4f/TiJNlFGMIzmH3A82U5mp6XIjQi+C+k9MotyqYCN91h6Iy2SHFD0IhtmPh3rnr4t2kBdrtZII5nVzjWS7Q05RxOXl298rtgNCki9vkr5V3txYqQdq7qzYcUm/QdO8IvyFk2FrhQAHkYx9GcckY+AnYjeUGrjj4uadM/U0ee0n9HBpxms5pj03XZrBStDC4rNMBXVcf1L+bJQ6DHPIfzRFxQbTXInFMBPg4M6gBIiSlLRL7xclHo2keahVnLSAQ8y7Ly0JxOk=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.scordia.ct.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.scordia.ct.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            comune di Scordia
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            comune di Scordia
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.scordia.ct.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_i548
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            comune di Scordia
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            ced@comune.scordia.ct.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

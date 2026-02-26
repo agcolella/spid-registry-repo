@@ -1,0 +1,343 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" ID="cdhzNmtxLO" entityID="https://idp00.unimc.it/sp/shibboleth">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    zgtIFRhBJpNiTJTwRrXTV8bTpxEvtzeJg0gd52golxs=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+Txwkknpl+TlkmodZYpnfWsqFs/cfn68nS9EFb/XK189KjMtu6I/1LxXUb+2FuQ3w0pBveFtD9TMI
+uhbbhWlkLIu5g5y2J/MCzX/X6Zb1iHqVYBy24ODcQfBUIxcwbnyoKDA0KPfYmm586K9I8VxlNF4/
+Jweq7OMTmwl8g7W/7HfWNlZxhvAPQ17ZtmfkqJBjEp2LibXm2iNjh5BksJN+t69Hs51AjJUjTYep
+0d70jjgAbMce8cUjE0SEsbRwmGmtJ5iyzWq7MP7q7qA28pGrS54rObttml3PhQr+emZNOe86SU/s
+K97EiDJ8zoJhcGp8YkI+kdcIHK3++Eg28CpfOQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+2m+eo3tgoloUfcjagrSIT4bUVvkNASftN1a5blT9zr2ose1QfsOznaDaJcLggBjWthPHe6dsQqaq
+FNlbaQtpGb5tvkD7/o4JJV3V4KagfmcqnSqszKmV+QkUGDcoFGOKPjkCvZjm9f9knc+V485CLer+
+RDjki+zRTvX31y9wbKbQs60932iq3APxej+088e4S/n4npslU0QFFUMb8vMl21BX6fFMAo5CyHJC
+U9Ru98RqAhBC5tjvQ6DQ+r0mByypdOCtknq3N1lfWCYZClmd4NiYGP/+5+wmb0ZPF85b1CMJ5Vsm
+AcCw5f1fqTXo3hT3KmRsi3UBm3bWwruNAj+tDw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDqDCCApCgAwIBAgIJAIoQB2PIwGLWMA0GCSqGSIb3DQEBCwUAMIGGMQswCQYDVQQGEwJJVDEQ
+MA4GA1UEBwwHQm9sb2duYTEPMA0GA1UECgwGQ0lORUNBMQ8wDQYDVQQDDAZDSU5FQ0ExEjAQBgNV
+BGEMCVBBOklULWNjaTEvMC0GA1UEUwwmaHR0cHM6Ly9pZHAtcHJvZC5lbmVhLml0L3NwL3NoaWJi
+b2xldGgwHhcNMjEwMzI0MTYyNzE2WhcNNDEwMzIzMTYyNzE2WjCBhjELMAkGA1UEBhMCSVQxEDAO
+BgNVBAcMB0JvbG9nbmExDzANBgNVBAoMBkNJTkVDQTEPMA0GA1UEAwwGQ0lORUNBMRIwEAYDVQRh
+DAlQQTpJVC1jY2kxLzAtBgNVBFMMJmh0dHBzOi8vaWRwLXByb2QuZW5lYS5pdC9zcC9zaGliYm9s
+ZXRoMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2m+eo3tgoloUfcjagrSIT4bUVvkN
+ASftN1a5blT9zr2ose1QfsOznaDaJcLggBjWthPHe6dsQqaqFNlbaQtpGb5tvkD7/o4JJV3V4Kag
+fmcqnSqszKmV+QkUGDcoFGOKPjkCvZjm9f9knc+V485CLer+RDjki+zRTvX31y9wbKbQs60932iq
+3APxej+088e4S/n4npslU0QFFUMb8vMl21BX6fFMAo5CyHJCU9Ru98RqAhBC5tjvQ6DQ+r0mByyp
+dOCtknq3N1lfWCYZClmd4NiYGP/+5+wmb0ZPF85b1CMJ5VsmAcCw5f1fqTXo3hT3KmRsi3UBm3bW
+wruNAj+tDwIDAQABoxcwFTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEA
+uAxpSPvGYEBUJ2lDN0UTV+uTRRGCyoiTUYKatCn9c1zXIxlzRtgQe6NB5ntZvsv6rMuD6l/RlO1i
+uAQt5JDdDbOeAovp0J4Cm8mRqXljbph6oCdv+u8GcnnQDlFXNQrYmrQdbR50uwDB7k+FBrxVbjDW
+d5g+thU265IuKBzal3QHBOZIZVWPtKEg+YrNOQe1R69K8KEvk/A1U0GGUKwJT7ci4YJodUTqQqYz
+BClkhnUYkJ325vTkEMECFDCRbrdT+tpNgLdYNeGllOCi3W4lpGh8CC0LipC4ukjRnw9OBsZqy8Rc
+RKES8BaYNf2CVyuCC5MSpXlLoAPz/r63GLv+kA==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+
+	
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+
+		
+        <md:KeyDescriptor use="signing">
+            
+			
+            <ds:KeyInfo>
+                
+				
+                <ds:X509Data>
+                    
+					
+                    <ds:X509Certificate>
+                        
+
+MIID1DCCArygAwIBAgIJAPcNeUTtfbnjMA0GCSqGSIb3DQEBCwUAMIGcMQswCQYD
+VQQGEwJJVDERMA8GA1UEBwwITWFjZXJhdGExIjAgBgNVBAoMGVVuaXZlcnNpdMOD
+wqAgZGkgTWFjZXJhdGExDjAMBgNVBAMMBXVuaW1jMRcwFQYDVQRhDA5QQTpJVC1V
+TlNUVV9NQzEtMCsGA1UEUwwkaHR0cHM6Ly9pZHAwMC51bmltYy5pdC9zcC9zaGli
+Ym9sZXRoMB4XDTIxMDcxNTA4MDAwNVoXDTQxMDcxNDA4MDAwNVowgZwxCzAJBgNV
+BAYTAklUMREwDwYDVQQHDAhNYWNlcmF0YTEiMCAGA1UECgwZVW5pdmVyc2l0w4PC
+oCBkaSBNYWNlcmF0YTEOMAwGA1UEAwwFdW5pbWMxFzAVBgNVBGEMDlBBOklULVVO
+U1RVX01DMS0wKwYDVQRTDCRodHRwczovL2lkcDAwLnVuaW1jLml0L3NwL3NoaWJi
+b2xldGgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCotikqUFQt3q/Y
+afmLyq7yqp0/9C+5IVZmig+YdnRokxAky/zTf4vQs8xc2xnplm6BrNxxtpK5pbs1
+CcJ66rgb/u0BGEEXywyB/mtKnV/I8UbZ1MmYYkj+Hw9TYoxeNAidT8LHxrYprPA4
+FcfX5ARa3PR8dHcS/ijMCmkYDQ0Qq2QHUJU9F/RQ8/XqMaTc0W4zjdMjiTo7OHxA
+zpiJv0x+tHMWmy/I+esHSRdyAoQz97+1A+Oe/nLg1x6Em2XzlqqLcPEhVo7O2TLP
+pmc1UvvHbkgZ8PsD8gzbXOWs6UVrSZ0FBS5DiaucMtlXi5ldXf985vGF+4MtKz7F
+6mUh8tl/AgMBAAGjFzAVMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEB
+CwUAA4IBAQBSTsVxAaBmFq4+p4gpkiDCMqhnTqXOOVkwH/KZmcmOaehBmRtUjzxr
+DsI1Lm+buFyFBPSjzUGLHfzuXgNlcCvUcLO54jSrk+vwSUk/1vJzUfRUwlRfSQlx
+7ibOFOidNZfHZZN3daN3dLl4TF/XLW2Lt+ToBuEY3sb/X145f3jiTI3GmZg78Qrr
+dWGnbzZZNVv2/DWnenjE0VPEGfbSGO5Nu6u03x0s8xgTwc90G0AYhfsWPw5ng2Tf
+wUMBZcGZqaR/oR+QVkU9X/AjL32NibeP7tsQaWHMaf2F9cGfxnbkHAM3KmV6Tzzi
+BVzw/kL/ms52YIICA8mV6tIzZjG1QmVv
+
+					
+                    </ds:X509Certificate>
+                    
+				
+                </ds:X509Data>
+                
+			
+            </ds:KeyInfo>
+            
+		
+        </md:KeyDescriptor>
+        
+
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp00.unimc.it/Shibboleth.sso/SLO/POST"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://idp00.unimc.it/Shibboleth.sso/SLO/Redirect"/>
+        
+
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unimc.idp.pp.cineca.it/Shibboleth.sso/SLO/POST"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://unimc.idp.pp.cineca.it/Shibboleth.sso/SLO/Redirect"/>
+        
+
+		
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idp00.unimc.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://unimc.idp.pp.cineca.it/Shibboleth.sso/SAML2/POST" index="1"/>
+        
+
+		
+        <md:AttributeConsumingService index="0">
+            
+			
+            <md:ServiceName xml:lang="it">
+                UniMC SPID - Login
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="spidCode"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+
+
+		
+        <md:AttributeConsumingService index="1">
+            
+			
+            <md:ServiceName xml:lang="it">
+                UniMC SPID - Registrazione
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="spidCode"/>
+            
+			
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="gender"/>
+            
+			
+            <md:RequestedAttribute Name="idCard"/>
+            
+			
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="address"/>
+            
+			
+            <md:RequestedAttribute Name="domicileStreetAddress"/>
+            
+			
+            <md:RequestedAttribute Name="domicilePostalCode"/>
+            
+			
+            <md:RequestedAttribute Name="domicileMunicipality"/>
+            
+			
+            <md:RequestedAttribute Name="domicileProvince"/>
+            
+			
+            <md:RequestedAttribute Name="domicileNation"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+
+	
+    </md:SPSSODescriptor>
+    
+
+	
+    <md:Organization>
+        
+		
+        <md:OrganizationName xml:lang="it">
+            Università di Macerata
+        </md:OrganizationName>
+        
+		
+        <md:OrganizationDisplayName xml:lang="it">
+            UniMC
+        </md:OrganizationDisplayName>
+        
+		
+        <md:OrganizationURL xml:lang="it">
+            www.unimc.it
+        </md:OrganizationURL>
+        
+	
+    </md:Organization>
+    
+
+	
+    <md:ContactPerson contactType="other">
+        
+		
+        <md:Extensions>
+            
+			
+            <spid:IPACode>
+                UNSTU_MC
+            </spid:IPACode>
+            
+			
+            <spid:Public/>
+            
+		
+        </md:Extensions>
+        
+		
+        <md:EmailAddress>
+            csia.procedure@unimc.it
+        </md:EmailAddress>
+        
+		
+        <md:TelephoneNumber>
+            +3907332583999
+        </md:TelephoneNumber>
+        
+	
+    </md:ContactPerson>
+    
+
+
+</md:EntityDescriptor>

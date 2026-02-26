@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx9bae9572-9c47-658b-0565-ed61066604ff" entityID="https://sol.comune.lei.nu.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx9bae9572-9c47-658b-0565-ed61066604ff">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    m0m5Yv/aY/R4McPxU1iXXz+5kn1wDd8QQm4XEL7KWOI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+n78L3/Xj5aWFdEd/qAaOhdavuXOeBSQ/uYVWYolPbUd006bQND7/XO408rzyhvfLxInDc7zFSNYJ
+yMJODSrpZuxJSFPzI1u66+uEUQT1AlTgSA8hcHdNfaAmyEyhcmbYpD7M3bcja6dk9bYfAIatZp+H
+lxpDKCDibhlK1dmJzy+SiOWMSIbZcO2ejPHSWGuzri9+kw6U0TunuYt5tXdD+ZktOtlKdvSVy2+/
+5tzJS6FZ/KbL+GjcIrMtVtjxBtdr5l0A8z0iQ9SO7C2NlFmpn/zgT5VRmUReZdjSPq2izrVNOD4L
+cgy1gyQwev9yWTpUZLfiHy+hzaaqg+adFrOhHQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+vHnU8KYRqUi5xWviLWSLm13ihBFPMzt6OncgNRqRJi8gOaX5VIM5DRi1yYqlo1pauup30HuOOyNr
+b69s7Sdgz23nK8y878RkWAEFGQq6RIWE4mj33i1HWVmE/vgpR5OzleIS/ztzeWiDOXzMnDITmQVx
+M6x1jRJ2LoqOI5Y4O8/1HeSTGVGqXbHOTOCko6bjRUMUxHtQeEJYyuE5LCLRvrkxi0YL77nvw3Mj
+UsCw/Bf5iMnXHAkD1AfPN0sXVFQm7MmETQ4D0n/XcsNxsr/eyCC9MupwakfPuQ6ZP0sqB2bpKw9l
+WzFnObPVZfdQN/d6QbDPSM8vmfGcT1K5boYsOQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDlzCCAn+gAwIBAgIJAOfGswkuFd3VMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1Db211bmUgZGkgTGVpMR0wGwYD
+VQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDAeFw0yMTExMTUwOTU5NDFaFw0zMTExMTUwOTU5NDFa
+MGIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1D
+b211bmUgZGkgTGVpMR0wGwYDVQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBALx51PCmEalIucVr4i1ki5td4oQRTzM7ejp3IDUakSYvIDml+VSD
+OQ0YtcmKpaNaWrrqd9B7jjsja2+vbO0nYM9t5yvMvO/EZFgBBRkKukSFhOJo994tR1lZhP74KUeT
+s5XiEv87c3logzl8zJwyE5kFcTOsdY0Sdi6KjiOWODvP9R3kkxlRql2xzkzgpKOm40VDFMR7UHhC
+WMrhOSwi0b65MYtGC++578NzI1LAsPwX+YjJ1xwJA9QHzzdLF1RUJuzJhE0OA9J/13LDcbK/3sgg
+vTLqcGpHz7kOmT9LKgdm6SsPZVsxZzmz1WX3UDf3ekGwz0jPL5nxnE9SuW6GLDkCAwEAAaNQME4w
+HQYDVR0OBBYEFGSDXIqasfkUEvhVVdHU2d8aJI2UMB8GA1UdIwQYMBaAFGSDXIqasfkUEvhVVdHU
+2d8aJI2UMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGDmtEvu0iqU18CkP7U8WXDh
+nS0Zfl+MJNjjWY2mOIA3W/mx3/8tc5aelPP8mcd37XPojtBiFDN7f6wg5AP/UQ5L2LJFAr+/ptBe
+bBLBEQ6M/bPeaHwqKFWSsxvZwnSM5Q5JzVHxNFq4Ysikd+Csl8pBHLJcD/dAUnevN9cVc0RC1u3D
+0bWpQUnIIV7/OYe8UjJXLgP90Pi5SUhZrdBVS1D1HZVok+hlTOhAgnIbDe0T3wTDwyu8tOrXtV4A
+CI7N2meUVzpT9FNTeJ6H1gq9pPWwpQQHXcickb+H+UwEdPIlgH8cSLjSLDrhOETOVpr18EUSwQM8
+AuqgUmLPcdHwLC0=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDlzCCAn+gAwIBAgIJAOfGswkuFd3VMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1Db211bmUgZGkgTGVpMR0wGwYDVQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDAeFw0yMTExMTUwOTU5NDFaFw0zMTExMTUwOTU5NDFaMGIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1Db211bmUgZGkgTGVpMR0wGwYDVQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALx51PCmEalIucVr4i1ki5td4oQRTzM7ejp3IDUakSYvIDml+VSDOQ0YtcmKpaNaWrrqd9B7jjsja2+vbO0nYM9t5yvMvO/EZFgBBRkKukSFhOJo994tR1lZhP74KUeTs5XiEv87c3logzl8zJwyE5kFcTOsdY0Sdi6KjiOWODvP9R3kkxlRql2xzkzgpKOm40VDFMR7UHhCWMrhOSwi0b65MYtGC++578NzI1LAsPwX+YjJ1xwJA9QHzzdLF1RUJuzJhE0OA9J/13LDcbK/3sggvTLqcGpHz7kOmT9LKgdm6SsPZVsxZzmz1WX3UDf3ekGwz0jPL5nxnE9SuW6GLDkCAwEAAaNQME4wHQYDVR0OBBYEFGSDXIqasfkUEvhVVdHU2d8aJI2UMB8GA1UdIwQYMBaAFGSDXIqasfkUEvhVVdHU2d8aJI2UMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGDmtEvu0iqU18CkP7U8WXDhnS0Zfl+MJNjjWY2mOIA3W/mx3/8tc5aelPP8mcd37XPojtBiFDN7f6wg5AP/UQ5L2LJFAr+/ptBebBLBEQ6M/bPeaHwqKFWSsxvZwnSM5Q5JzVHxNFq4Ysikd+Csl8pBHLJcD/dAUnevN9cVc0RC1u3D0bWpQUnIIV7/OYe8UjJXLgP90Pi5SUhZrdBVS1D1HZVok+hlTOhAgnIbDe0T3wTDwyu8tOrXtV4ACI7N2meUVzpT9FNTeJ6H1gq9pPWwpQQHXcickb+H+UwEdPIlgH8cSLjSLDrhOETOVpr18EUSwQM8AuqgUmLPcdHwLC0=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDlzCCAn+gAwIBAgIJAOfGswkuFd3VMA0GCSqGSIb3DQEBCwUAMGIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1Db211bmUgZGkgTGVpMR0wGwYDVQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDAeFw0yMTExMTUwOTU5NDFaFw0zMTExMTUwOTU5NDFaMGIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEMMAoGA1UEBwwDTGVpMRYwFAYDVQQKDA1Db211bmUgZGkgTGVpMR0wGwYDVQQDDBRzb2wuY29tdW5lLmxlaS5udS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALx51PCmEalIucVr4i1ki5td4oQRTzM7ejp3IDUakSYvIDml+VSDOQ0YtcmKpaNaWrrqd9B7jjsja2+vbO0nYM9t5yvMvO/EZFgBBRkKukSFhOJo994tR1lZhP74KUeTs5XiEv87c3logzl8zJwyE5kFcTOsdY0Sdi6KjiOWODvP9R3kkxlRql2xzkzgpKOm40VDFMR7UHhCWMrhOSwi0b65MYtGC++578NzI1LAsPwX+YjJ1xwJA9QHzzdLF1RUJuzJhE0OA9J/13LDcbK/3sggvTLqcGpHz7kOmT9LKgdm6SsPZVsxZzmz1WX3UDf3ekGwz0jPL5nxnE9SuW6GLDkCAwEAAaNQME4wHQYDVR0OBBYEFGSDXIqasfkUEvhVVdHU2d8aJI2UMB8GA1UdIwQYMBaAFGSDXIqasfkUEvhVVdHU2d8aJI2UMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAGDmtEvu0iqU18CkP7U8WXDhnS0Zfl+MJNjjWY2mOIA3W/mx3/8tc5aelPP8mcd37XPojtBiFDN7f6wg5AP/UQ5L2LJFAr+/ptBebBLBEQ6M/bPeaHwqKFWSsxvZwnSM5Q5JzVHxNFq4Ysikd+Csl8pBHLJcD/dAUnevN9cVc0RC1u3D0bWpQUnIIV7/OYe8UjJXLgP90Pi5SUhZrdBVS1D1HZVok+hlTOhAgnIbDe0T3wTDwyu8tOrXtV4ACI7N2meUVzpT9FNTeJ6H1gq9pPWwpQQHXcickb+H+UwEdPIlgH8cSLjSLDrhOETOVpr18EUSwQM8AuqgUmLPcdHwLC0=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sol.comune.lei.nu.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sol.comune.lei.nu.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Lei
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Lei
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.lei.nu.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_e517
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Lei
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            ragioneria@comune.lei.nu.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

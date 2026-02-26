@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx183b3f07-3645-d614-8305-9cb0550a91b3" entityID="https://www.comune.masitorello.fe.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx183b3f07-3645-d614-8305-9cb0550a91b3">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    1M2waGfC4OGyTgxIolc/mVr45uQM4ZZoXwl24/AAahE=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+WozVBitxtukS9joPMdepSFCjL/cIkS6I6LthyGjV1L0OLa9lxIc6MlrOZawa7gnLKnVj7gl7k/Xf
+BPLLcrxN052o9hykBaF50EOQqN/yLtdxcWoQBDJB9o2C5inKnDL0jiyWIBOnSb5oqB8L7tpCSUzt
+gNFVC07CpT17Zl7ELHTSPfegHV6yxTMBcw9+niOp85Os1a717LPnB+JuVOX2VRD5bMiQUCwYDx1T
+V8q0YAr9AWT2d5kcPxAdAJrZjM0dOvRbHoHxpkjUJ5TKu3WPa1rRGYuG2rgHSfxvUqjO7XE+xiVX
+CalqOSA6qyTVKo+ETzDVztxhZiOWXAs0QoCV3g==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+6YQw8zFHDgBZ8Gqqq2WTbk4xbIYzsXsS3Mf1EK7nckEKASvwavpN1ZJMaQE7Yo/aXHFIX47APmB1
+YIGv8d3HsKTbzRWem3OenR0LV8/F3Vf7DIAp6RIB+fCPyZti1S6pnL9Wsc2ty8fYre0n4i5os2Dt
+us9vXd7tO9fbq0epSdZZ/T8KLQJlKPTMD+CBzPkyfO7dNXsEI1UMNKCH3oP7tipEnkY6ci1kE9Qz
+OWCcMsSb222WPa2WIqE8mnApHc/R/63mJo684Y0zInLKgTw3tp8f63D7YI0fyTADKdm8TJxp4FpB
+auoV8xvsfzXtoPQBNOtJqhWMcx2uPnCqG2mYvw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDyzCCArOgAwIBAgIJAKl3jG6INYKbMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTWFzaSBUb3JlbGxvMR8wHQYDVQQKDBZDb211bmUgZGkg
+TWFzaSBUb3JlbGxvMSUwIwYDVQQDDBx3d3cuY29tdW5lLm1hc2l0b3JlbGxvLmZlLml0MB4XDTIx
+MTExMTE1MDkyMVoXDTMxMTExMTE1MDkyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5
+MRUwEwYDVQQHDAxNYXNpIFRvcmVsbG8xHzAdBgNVBAoMFkNvbXVuZSBkaSBNYXNpIFRvcmVsbG8x
+JTAjBgNVBAMMHHd3dy5jb211bmUubWFzaXRvcmVsbG8uZmUuaXQwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQDphDDzMUcOAFnwaqqrZZNuTjFshjOxexLcx/UQrudyQQoBK/Bq+k3Vkkxp
+ATtij9pccUhfjsA+YHVgga/x3cewpNvNFZ6bc56dHQtXz8XdV/sMgCnpEgH58I/Jm2LVLqmcv1ax
+za3Lx9it7SfiLmizYO26z29d3u0719urR6lJ1ln9PwotAmUo9MwP4IHM+TJ87t01ewQjVQw0oIfe
+g/u2KkSeRjpyLWQT1DM5YJwyxJvbbZY9rZYioTyacCkdz9H/reYmjrzhjTMicsqBPDe2nx/rcPtg
+jR/JMAMp2bxMnGngWkFq6hXzG+x/Ne2g9AE060mqFYxzHa4+cKobaZi/AgMBAAGjUDBOMB0GA1Ud
+DgQWBBQ/0i3HRTikjDPVASakD3ZgybZ6XTAfBgNVHSMEGDAWgBQ/0i3HRTikjDPVASakD3ZgybZ6
+XTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAQPbmIONb50XrOR+5+BMh9BqdkqO6H
+qq9S5TO5Dldzd86zm2kgaHxDm3ocS3ZbOCv3GxMDiihr/YJ2QRV72gM1pP++lxELuf9XJEwUXeV3
+bmD1hXIYV8ls6Zv0NThIq6MexKK3aRiWhK7pKUsY0BP9rwvol4000IjQ7aMiHHzaggt1cDCFZcVi
+ZazexJcRaUwSTo3w5a6/biXAV+7wc5hciqNO5dsPLin2rXctazkZOj8Adw4K2vNCpSMS9ERmHV6N
+qAPffPThaB00NuYxVDzL7nLMLQL0OfHpcQ7ZgD6yB7tWL2Us2YRoC6LQxPhim/wCcfyjdDloOGpW
+sRCF8CN1
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDyzCCArOgAwIBAgIJAKl3jG6INYKbMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTWFzaSBUb3JlbGxvMR8wHQYDVQQKDBZDb211bmUgZGkgTWFzaSBUb3JlbGxvMSUwIwYDVQQDDBx3d3cuY29tdW5lLm1hc2l0b3JlbGxvLmZlLml0MB4XDTIxMTExMTE1MDkyMVoXDTMxMTExMTE1MDkyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRUwEwYDVQQHDAxNYXNpIFRvcmVsbG8xHzAdBgNVBAoMFkNvbXVuZSBkaSBNYXNpIFRvcmVsbG8xJTAjBgNVBAMMHHd3dy5jb211bmUubWFzaXRvcmVsbG8uZmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDphDDzMUcOAFnwaqqrZZNuTjFshjOxexLcx/UQrudyQQoBK/Bq+k3VkkxpATtij9pccUhfjsA+YHVgga/x3cewpNvNFZ6bc56dHQtXz8XdV/sMgCnpEgH58I/Jm2LVLqmcv1axza3Lx9it7SfiLmizYO26z29d3u0719urR6lJ1ln9PwotAmUo9MwP4IHM+TJ87t01ewQjVQw0oIfeg/u2KkSeRjpyLWQT1DM5YJwyxJvbbZY9rZYioTyacCkdz9H/reYmjrzhjTMicsqBPDe2nx/rcPtgjR/JMAMp2bxMnGngWkFq6hXzG+x/Ne2g9AE060mqFYxzHa4+cKobaZi/AgMBAAGjUDBOMB0GA1UdDgQWBBQ/0i3HRTikjDPVASakD3ZgybZ6XTAfBgNVHSMEGDAWgBQ/0i3HRTikjDPVASakD3ZgybZ6XTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAQPbmIONb50XrOR+5+BMh9BqdkqO6Hqq9S5TO5Dldzd86zm2kgaHxDm3ocS3ZbOCv3GxMDiihr/YJ2QRV72gM1pP++lxELuf9XJEwUXeV3bmD1hXIYV8ls6Zv0NThIq6MexKK3aRiWhK7pKUsY0BP9rwvol4000IjQ7aMiHHzaggt1cDCFZcViZazexJcRaUwSTo3w5a6/biXAV+7wc5hciqNO5dsPLin2rXctazkZOj8Adw4K2vNCpSMS9ERmHV6NqAPffPThaB00NuYxVDzL7nLMLQL0OfHpcQ7ZgD6yB7tWL2Us2YRoC6LQxPhim/wCcfyjdDloOGpWsRCF8CN1
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDyzCCArOgAwIBAgIJAKl3jG6INYKbMA0GCSqGSIb3DQEBCwUAMHwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEVMBMGA1UEBwwMTWFzaSBUb3JlbGxvMR8wHQYDVQQKDBZDb211bmUgZGkgTWFzaSBUb3JlbGxvMSUwIwYDVQQDDBx3d3cuY29tdW5lLm1hc2l0b3JlbGxvLmZlLml0MB4XDTIxMTExMTE1MDkyMVoXDTMxMTExMTE1MDkyMVowfDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRUwEwYDVQQHDAxNYXNpIFRvcmVsbG8xHzAdBgNVBAoMFkNvbXVuZSBkaSBNYXNpIFRvcmVsbG8xJTAjBgNVBAMMHHd3dy5jb211bmUubWFzaXRvcmVsbG8uZmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDphDDzMUcOAFnwaqqrZZNuTjFshjOxexLcx/UQrudyQQoBK/Bq+k3VkkxpATtij9pccUhfjsA+YHVgga/x3cewpNvNFZ6bc56dHQtXz8XdV/sMgCnpEgH58I/Jm2LVLqmcv1axza3Lx9it7SfiLmizYO26z29d3u0719urR6lJ1ln9PwotAmUo9MwP4IHM+TJ87t01ewQjVQw0oIfeg/u2KkSeRjpyLWQT1DM5YJwyxJvbbZY9rZYioTyacCkdz9H/reYmjrzhjTMicsqBPDe2nx/rcPtgjR/JMAMp2bxMnGngWkFq6hXzG+x/Ne2g9AE060mqFYxzHa4+cKobaZi/AgMBAAGjUDBOMB0GA1UdDgQWBBQ/0i3HRTikjDPVASakD3ZgybZ6XTAfBgNVHSMEGDAWgBQ/0i3HRTikjDPVASakD3ZgybZ6XTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQAQPbmIONb50XrOR+5+BMh9BqdkqO6Hqq9S5TO5Dldzd86zm2kgaHxDm3ocS3ZbOCv3GxMDiihr/YJ2QRV72gM1pP++lxELuf9XJEwUXeV3bmD1hXIYV8ls6Zv0NThIq6MexKK3aRiWhK7pKUsY0BP9rwvol4000IjQ7aMiHHzaggt1cDCFZcViZazexJcRaUwSTo3w5a6/biXAV+7wc5hciqNO5dsPLin2rXctazkZOj8Adw4K2vNCpSMS9ERmHV6NqAPffPThaB00NuYxVDzL7nLMLQL0OfHpcQ7ZgD6yB7tWL2Us2YRoC6LQxPhim/wCcfyjdDloOGpWsRCF8CN1
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.masitorello.fe.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.masitorello.fe.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Masi Torello
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Masi Torello
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.masitorello.fe.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f016
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Masi Torello
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            postmaster@comune.masitorello.fe.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

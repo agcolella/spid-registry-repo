@@ -1,0 +1,180 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://doc.odcecvenezia.it" ID="spid-php_a4db8a87006581450c199f3d588fc6c387adf0bb5b1f025365094933d4a7beff">
+    <ds:Signature>
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#spid-php_a4db8a87006581450c199f3d588fc6c387adf0bb5b1f025365094933d4a7beff">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    GTVch1fEvJvWguZYQR+b3aXuMNIOevSncTl6EDQGSmY=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            k8g4HIun6dkfaqSA5O4fvxIfnBRl77jY/Xy7kVJqWSriw/yJEPa11ZIF5wxG52H20iwt6aj8kA3z3GoX1QELFkicaFJZEoOrzIT8o1qbWgQjqydY/1918v0tbWI2JZ71o0r48sBVW8A0P4SyRaQzCqMxFrrzTUztsEIBFU/4vp7ZYBssacTuNeMAJI6G/GBOJNZ8e/qjT0TYmGmOnotEv75i/TUYOoBbOzKSwCk6UbjIzzCiskG3LoBh9PijPoKRtFqxpBplt2tEsl5FX2Uqgi6BCidmMqRyCtMk4B2aDw8hRSM7Jt4AY95xpnCntXq82F2S4q2pxofiiq+iZBIrzCtJX3DGUbLKHNSAspI50JBqMhWv2s/3ddK0AgjTKSwL1cya13Io2IFS1XCQEposS3Tc9gwXUgQYr7HxETzgFjE4+jyfoKgjpSuzFfvV4d7EYEWUzF8Ps4Lwd1Hi+6GgnFo3xhq1k5U2dFlare1PeJJ0hf9tHkTuFrqb8xqL5zB3
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIFlTCCA/2gAwIBAgIUfTzzLiJekLF6Jgxixw+YUdnGCSYwDQYJKoZIhvcNAQELBQAwgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMB4XDTIxMTAyMTEwMDgyOVoXDTIzMTAyMTEwMDgyOVowgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAw4TWG4HclrHiiZw5y3y8THEIw6ZqNTSKjJabhTGA7eY6mAsXfFGM2U37l10/VqkU9eJpdheGEevdVGG6jmQ+jSWtllVIRM9+ok5m9j9B2DBxxq1EpBnWoNH6ycA1SFkO5tvamHAgX3Dasx7MikAv5jTVlY174zHhVpRXLobKMa1q8rVHhdkWf2lLSVbC3FNi3dXTc/UjEKCQmgzYRpyLBraoe8GrfkQNVFTchODa7vw0zlq5b1+B7ckKoRlxt24xatENgCoiQIm49U+pgkpNtsQ2ssZb4POz4cJlJGiRbRS41J9nV2TqqeSCsOEywUd8HVIcXOJka1a+1I2PndZbsqUapPvlEEGllWo/ca18cA7SSqh/HY7twMYymTKuF5qWZEYdA6kSKZXYwnR0uicwRIkM0omx8RnwdBSWjNiSDe1+gnBr9IQGdM6294SEoH6kWfpgxQDKoumsQZErBOtzyS4at6/XVwOXz/b8ntWaL5NRqt+ofMlzdxz+a68wI69vAgMBAAGjFzAVMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBgQClLGuZe/UbMZZLeqJzXtH0V3dTN9iCe1Jm3guCPbdTvpnYA3/kRXCROf70mgttjKGFKQ+2CelExvzRZXO6aNHufBPgKjpE8X6vKf9V+xd5MRFeqDkBhP1oos/ntkr5G4anizK+jAnFviZ4FGoCi0ecwpeA1cOLamCuKox2VI3miPvI5nTqHpIg0pSeLVZucLY6pJS7TXmAAgJ/npI87hFWOKAuP0nbM/fN8dX4zmk2XkOARuomP9b8N+3rzIg53hbYiOCd1N1c0xpyyjln7PgCThGBOI5KMuPJHomsxjJ05uOiKUztdoYDJbGBL4HXtVtfzub+ccKTLjg+EAJoEfnmBENULQXMxraTgowwcPgQT4k6V9Pyat06o2f/Xs/bqR9k5MB7C8oemqku886h5O+k3/htsCTKM3y3QHFMm8FlRWU3XcCBhpfq4CqsYjPG39/SeKqumpn9zvlaJvTnrBIzIV+mP6yajSoWE5Lzp+gDBEw3vGMIImlskS7kH6PkSR8=
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIFlTCCA/2gAwIBAgIUfTzzLiJekLF6Jgxixw+YUdnGCSYwDQYJKoZIhvcNAQELBQAwgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMB4XDTIxMTAyMTEwMDgyOVoXDTIzMTAyMTEwMDgyOVowgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAw4TWG4HclrHiiZw5y3y8THEIw6ZqNTSKjJabhTGA7eY6mAsXfFGM2U37l10/VqkU9eJpdheGEevdVGG6jmQ+jSWtllVIRM9+ok5m9j9B2DBxxq1EpBnWoNH6ycA1SFkO5tvamHAgX3Dasx7MikAv5jTVlY174zHhVpRXLobKMa1q8rVHhdkWf2lLSVbC3FNi3dXTc/UjEKCQmgzYRpyLBraoe8GrfkQNVFTchODa7vw0zlq5b1+B7ckKoRlxt24xatENgCoiQIm49U+pgkpNtsQ2ssZb4POz4cJlJGiRbRS41J9nV2TqqeSCsOEywUd8HVIcXOJka1a+1I2PndZbsqUapPvlEEGllWo/ca18cA7SSqh/HY7twMYymTKuF5qWZEYdA6kSKZXYwnR0uicwRIkM0omx8RnwdBSWjNiSDe1+gnBr9IQGdM6294SEoH6kWfpgxQDKoumsQZErBOtzyS4at6/XVwOXz/b8ntWaL5NRqt+ofMlzdxz+a68wI69vAgMBAAGjFzAVMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBgQClLGuZe/UbMZZLeqJzXtH0V3dTN9iCe1Jm3guCPbdTvpnYA3/kRXCROf70mgttjKGFKQ+2CelExvzRZXO6aNHufBPgKjpE8X6vKf9V+xd5MRFeqDkBhP1oos/ntkr5G4anizK+jAnFviZ4FGoCi0ecwpeA1cOLamCuKox2VI3miPvI5nTqHpIg0pSeLVZucLY6pJS7TXmAAgJ/npI87hFWOKAuP0nbM/fN8dX4zmk2XkOARuomP9b8N+3rzIg53hbYiOCd1N1c0xpyyjln7PgCThGBOI5KMuPJHomsxjJ05uOiKUztdoYDJbGBL4HXtVtfzub+ccKTLjg+EAJoEfnmBENULQXMxraTgowwcPgQT4k6V9Pyat06o2f/Xs/bqR9k5MB7C8oemqku886h5O+k3/htsCTKM3y3QHFMm8FlRWU3XcCBhpfq4CqsYjPG39/SeKqumpn9zvlaJvTnrBIzIV+mP6yajSoWE5Lzp+gDBEw3vGMIImlskS7kH6PkSR8=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIFlTCCA/2gAwIBAgIUfTzzLiJekLF6Jgxixw+YUdnGCSYwDQYJKoZIhvcNAQELBQAwgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMB4XDTIxMTAyMTEwMDgyOVoXDTIzMTAyMTEwMDgyOVowgfcxSDBGBgNVBAoMP09yZGluZSBkZWkgRG90dG9yaSBDb21tZXJjaWFsaXN0aSBlIGRlZ2xpIEVzcC4gQ29udC4gZGkgVmVuZXppYTFIMEYGA1UEAww/T3JkaW5lIGRlaSBEb3R0b3JpIENvbW1lcmNpYWxpc3RpIGUgZGVnbGkgRXNwLiBDb250LiBkaSBWZW5lemlhMSQwIgYDVQRTDBtodHRwczovL2RvYy5vZGNlY3ZlbmV6aWEuaXQxFTATBgNVBGEMDFBBOklULW9kY2VjdjELMAkGA1UEBhMCSVQxFzAVBgNVBAcMDlZlbmV6aWEgTWVzdHJlMIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAw4TWG4HclrHiiZw5y3y8THEIw6ZqNTSKjJabhTGA7eY6mAsXfFGM2U37l10/VqkU9eJpdheGEevdVGG6jmQ+jSWtllVIRM9+ok5m9j9B2DBxxq1EpBnWoNH6ycA1SFkO5tvamHAgX3Dasx7MikAv5jTVlY174zHhVpRXLobKMa1q8rVHhdkWf2lLSVbC3FNi3dXTc/UjEKCQmgzYRpyLBraoe8GrfkQNVFTchODa7vw0zlq5b1+B7ckKoRlxt24xatENgCoiQIm49U+pgkpNtsQ2ssZb4POz4cJlJGiRbRS41J9nV2TqqeSCsOEywUd8HVIcXOJka1a+1I2PndZbsqUapPvlEEGllWo/ca18cA7SSqh/HY7twMYymTKuF5qWZEYdA6kSKZXYwnR0uicwRIkM0omx8RnwdBSWjNiSDe1+gnBr9IQGdM6294SEoH6kWfpgxQDKoumsQZErBOtzyS4at6/XVwOXz/b8ntWaL5NRqt+ofMlzdxz+a68wI69vAgMBAAGjFzAVMBMGA1UdIAQMMAowCAYGK0wQBAIBMA0GCSqGSIb3DQEBCwUAA4IBgQClLGuZe/UbMZZLeqJzXtH0V3dTN9iCe1Jm3guCPbdTvpnYA3/kRXCROf70mgttjKGFKQ+2CelExvzRZXO6aNHufBPgKjpE8X6vKf9V+xd5MRFeqDkBhP1oos/ntkr5G4anizK+jAnFviZ4FGoCi0ecwpeA1cOLamCuKox2VI3miPvI5nTqHpIg0pSeLVZucLY6pJS7TXmAAgJ/npI87hFWOKAuP0nbM/fN8dX4zmk2XkOARuomP9b8N+3rzIg53hbYiOCd1N1c0xpyyjln7PgCThGBOI5KMuPJHomsxjJ05uOiKUztdoYDJbGBL4HXtVtfzub+ccKTLjg+EAJoEfnmBENULQXMxraTgowwcPgQT4k6V9Pyat06o2f/Xs/bqR9k5MB7C8oemqku886h5O+k3/htsCTKM3y3QHFMm8FlRWU3XcCBhpfq4CqsYjPG39/SeKqumpn9zvlaJvTnrBIzIV+mP6yajSoWE5Lzp+gDBEw3vGMIImlskS7kH6PkSR8=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://doc.odcecvenezia.it/service/module.php/saml/sp/saml2-logout.php/service"/>
+        
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://doc.odcecvenezia.it/service/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+      
+            <md:ServiceName xml:lang="it">
+                ODCECVENEZIA
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                ODCEC Venezia Accesso SPID
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Ordine dei Dottori Commercialisti e degli Esp. Cont. di Venezia
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Ordine dei Dottori Commercialisti e degli Esp. Cont. di Venezia
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://odcecvenezia.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">
+                odcecv
+            </spid:IPACode>
+            
+      
+            <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Ordine dei Dottori Commercialisti e degli Esp. Cont. di Venezia
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            ordine@odcecvenezia.it
+        </md:EmailAddress>
+        
+    
+        <md:TelephoneNumber>
+            +390415287708
+        </md:TelephoneNumber>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

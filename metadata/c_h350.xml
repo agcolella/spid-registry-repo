@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx92dc728d-9303-77b5-06f9-3e437d163375" entityID="https://rivergaro.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx92dc728d-9303-77b5-06f9-3e437d163375">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    cH4mwfzccNEYDreap9qu1usHTDpzKnL7iiBhSM+7gTc=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+DmH3z5Pi8Es8ww1QQcKl6UoFKjsKwVc5LH2CSQHWF+YqQpgJ7sS364mfKN1uczqU7vfCdmCVNbhr
+osAawKum6XIqCFJpCOzqUSmQMi3xaiUgEbLFWFzMgfXciq/bTr84JrEKdAoZSaNn3VrSUhW7trpw
+lngppRggRlPgH9aRJkpXlwnhuxLYYQ1En/GtsEdZS4LtCFaHLUI+ZVZ/Ck2VlF90b8l8gW5Jc0be
+P+arPgfCK7apkf/wy4851uzqpBO6pwWehM8/32estoz64Ypi2weOSUV/8Wu+WdAM3WZmXitKN3AS
+TNN6O3BcwKZHCxyEcPAg6labiE/rypx+K4GX1Q==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+v67TPK7+GQLqEu6eduSG+o/JO8hOOdQNN5oBhu39EOtY8xTZzeD4SE1SH1lcOEjxrStj08TTM+O9
+3v1pSAKxuaLVR4Pr6BhAOIZGgkCIelLVCCLbF2v6QxfspsuHrt+JLDcW7f9I7KGCjJGxqbkfzH12
+2OfJL3/rqSqCLAPqWIiVJdS3BmO9bZtCBAZmzWAlwsgFCCHcqm99127SorVJHUn8hRVEgjAyaqXb
+f/Vt4iwXxMhkBlQymc1/lXFEKDnBlH6pa5a0l1aUqBGJCQnMTCJgy69iOKbj3w101oamZNOpnegl
+aogcAkjCnXrTwi3c74INu95Tvnk4B8zRK5Lw+Q==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDszCCApugAwIBAgIJANMc2rh6ZfO3MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUklWRVJHQVJPMRwwGgYDVQQKDBNDT01VTkUgREkgUklW
+RVJHQVJPMR8wHQYDVQQDDBZyaXZlcmdhcm8uaGFsbGV5d2ViLml0MB4XDTIxMTExMTEzMzExM1oX
+DTMxMTExMTEzMzExM1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlS
+SVZFUkdBUk8xHDAaBgNVBAoME0NPTVVORSBESSBSSVZFUkdBUk8xHzAdBgNVBAMMFnJpdmVyZ2Fy
+by5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/rtM8rv4ZAuoS
+7p525Ib6j8k7yE451A03mgGG7f0Q61jzFNnN4PhITVIfWVw4SPGtK2PTxNMz473e/WlIArG5otVH
+g+voGEA4hkaCQIh6UtUIItsXa/pDF+ymy4eu34ksNxbt/0jsoYKMkbGpuR/MfXbY58kvf+upKoIs
+A+pYiJUl1LcGY71tm0IEBmbNYCXCyAUIIdyqb33XbtKitUkdSfyFFUSCMDJqpdt/9W3iLBfEyGQG
+VDKZzX+VcUQoOcGUfqlrlrSXVpSoEYkJCcxMImDLr2I4puPfDXTWhqZk06md6CVqiBwCSMKdetPC
+Ldzvgg273lO+eTgHzNErkvD5AgMBAAGjUDBOMB0GA1UdDgQWBBTa0cQMzi0xw4cmtFI9H16Ke6k7
+6zAfBgNVHSMEGDAWgBTa0cQMzi0xw4cmtFI9H16Ke6k76zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQBjxeWuwIV5JYql0JojXpRPZT+WWCQF5uxJEMi7B63OlMBeFn3yedt6l67op4av
+zMu5/IQGswkZD442MF6sImv2PGbx76ekpJNgpJpbT0res2azZCE++vGnt7+VABKKakRhL11cFSX7
+KfIbwwpL2AjDfFTZZHA4I/cdvP+9dVMmu5C+WEPgb8ZSn06y2OoaTpeo7FYnBa619gKaOiaNkw16
+VD8Tw8lRbeBN6RKylRWLm5KhB7NlqrWB/M0XtgRpAhylcYBkTetgMpJBxjmmA8iFVRd/nOi1Z6uF
+FIxvoH43P8uGqCWXUmAXzjLSDATSfU1EgBe4+Wq5EYnqrd3MnGqU
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJANMc2rh6ZfO3MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUklWRVJHQVJPMRwwGgYDVQQKDBNDT01VTkUgREkgUklWRVJHQVJPMR8wHQYDVQQDDBZyaXZlcmdhcm8uaGFsbGV5d2ViLml0MB4XDTIxMTExMTEzMzExM1oXDTMxMTExMTEzMzExM1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlSSVZFUkdBUk8xHDAaBgNVBAoME0NPTVVORSBESSBSSVZFUkdBUk8xHzAdBgNVBAMMFnJpdmVyZ2Fyby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/rtM8rv4ZAuoS7p525Ib6j8k7yE451A03mgGG7f0Q61jzFNnN4PhITVIfWVw4SPGtK2PTxNMz473e/WlIArG5otVHg+voGEA4hkaCQIh6UtUIItsXa/pDF+ymy4eu34ksNxbt/0jsoYKMkbGpuR/MfXbY58kvf+upKoIsA+pYiJUl1LcGY71tm0IEBmbNYCXCyAUIIdyqb33XbtKitUkdSfyFFUSCMDJqpdt/9W3iLBfEyGQGVDKZzX+VcUQoOcGUfqlrlrSXVpSoEYkJCcxMImDLr2I4puPfDXTWhqZk06md6CVqiBwCSMKdetPCLdzvgg273lO+eTgHzNErkvD5AgMBAAGjUDBOMB0GA1UdDgQWBBTa0cQMzi0xw4cmtFI9H16Ke6k76zAfBgNVHSMEGDAWgBTa0cQMzi0xw4cmtFI9H16Ke6k76zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBjxeWuwIV5JYql0JojXpRPZT+WWCQF5uxJEMi7B63OlMBeFn3yedt6l67op4avzMu5/IQGswkZD442MF6sImv2PGbx76ekpJNgpJpbT0res2azZCE++vGnt7+VABKKakRhL11cFSX7KfIbwwpL2AjDfFTZZHA4I/cdvP+9dVMmu5C+WEPgb8ZSn06y2OoaTpeo7FYnBa619gKaOiaNkw16VD8Tw8lRbeBN6RKylRWLm5KhB7NlqrWB/M0XtgRpAhylcYBkTetgMpJBxjmmA8iFVRd/nOi1Z6uFFIxvoH43P8uGqCWXUmAXzjLSDATSfU1EgBe4+Wq5EYnqrd3MnGqU
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJANMc2rh6ZfO3MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUklWRVJHQVJPMRwwGgYDVQQKDBNDT01VTkUgREkgUklWRVJHQVJPMR8wHQYDVQQDDBZyaXZlcmdhcm8uaGFsbGV5d2ViLml0MB4XDTIxMTExMTEzMzExM1oXDTMxMTExMTEzMzExM1owcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlSSVZFUkdBUk8xHDAaBgNVBAoME0NPTVVORSBESSBSSVZFUkdBUk8xHzAdBgNVBAMMFnJpdmVyZ2Fyby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC/rtM8rv4ZAuoS7p525Ib6j8k7yE451A03mgGG7f0Q61jzFNnN4PhITVIfWVw4SPGtK2PTxNMz473e/WlIArG5otVHg+voGEA4hkaCQIh6UtUIItsXa/pDF+ymy4eu34ksNxbt/0jsoYKMkbGpuR/MfXbY58kvf+upKoIsA+pYiJUl1LcGY71tm0IEBmbNYCXCyAUIIdyqb33XbtKitUkdSfyFFUSCMDJqpdt/9W3iLBfEyGQGVDKZzX+VcUQoOcGUfqlrlrSXVpSoEYkJCcxMImDLr2I4puPfDXTWhqZk06md6CVqiBwCSMKdetPCLdzvgg273lO+eTgHzNErkvD5AgMBAAGjUDBOMB0GA1UdDgQWBBTa0cQMzi0xw4cmtFI9H16Ke6k76zAfBgNVHSMEGDAWgBTa0cQMzi0xw4cmtFI9H16Ke6k76zAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBjxeWuwIV5JYql0JojXpRPZT+WWCQF5uxJEMi7B63OlMBeFn3yedt6l67op4avzMu5/IQGswkZD442MF6sImv2PGbx76ekpJNgpJpbT0res2azZCE++vGnt7+VABKKakRhL11cFSX7KfIbwwpL2AjDfFTZZHA4I/cdvP+9dVMmu5C+WEPgb8ZSn06y2OoaTpeo7FYnBa619gKaOiaNkw16VD8Tw8lRbeBN6RKylRWLm5KhB7NlqrWB/M0XtgRpAhylcYBkTetgMpJBxjmmA8iFVRd/nOi1Z6uFFIxvoH43P8uGqCWXUmAXzjLSDATSfU1EgBe4+Wq5EYnqrd3MnGqU
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://rivergaro.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rivergaro.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            COMUNE DI RIVERGARO
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            COMUNE DI RIVERGARO
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.rivergaro.pc.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_h350
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            COMUNE DI RIVERGARO
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            protocollo@comune.rivergaro.pc.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx8fd975ed-dadb-1293-f468-078ee5c73d65" entityID="https://servizionline.comune.frassinelle-polesine.ro.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx8fd975ed-dadb-1293-f468-078ee5c73d65">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    s18YTvoNqfsCAFBAQAQuPs5MWM0s8Q/L6JeDPgxI72k=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+gcuj3YvfTEAV9QtzvHVQ9ShiuFF584kcOJ9yRsn9iDm+JWyIiuFaDT4GShy457mDOw1pAjfAXDw8
+m/D0aHqv87PAIknbK5huhicYtVzM3jvLhjK8FHzqt+9A2Oep5ZXLrwOrLm7tPzR2xIkbpxfxjIsl
+xlXlm3PnuZwAeB9Rb2t7LR0ImZPpG89Ayq8S+h0vkv3DkGTFRhMgc1SaPP8CT9gIRhNqejhkuBx3
+7+Rw3uN/YNK1Kpii9kiftRPmclEZxMIYrRtLjv4CaL1GyjnATgkx10Ju1Urj9+0gRHmzFRatdsJi
+T1iS7doooLuCJa1b+Hut6VSBiube5NfUXbTVIw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+wbTnHRWjLhyx2pGz5z/OzYu46J2QAQZXu4oZUBApHiNRJDusvra/NdQXjcRTWUFv8AmKFqMjYa+a
+DwXNdxjjLMDfWAsH75zBGQ0E1EYcRcEp1ktAMnfR/HCiF1IPKQ+ZgYVzt1lZXD7rt6YQo4kIw9la
+Lvtc4kLP2I+TIPXfpR0u2WvMTRTGIi2/Byw0PcxCrjictnjDGl8mHVB0MVuXArml68bh+65gzhvO
+CPlGmzsjDglfXmMFhoYxEp1apkmJ0PQ/6dW48oGIH7EA4NjMvHYI5hJ8HQRfHVclg7DsmkknYLmB
+tG9SGQ9FiVHH6+cM1XDpYfZCQit3iOFe28L92Q==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIEEzCCAvugAwIBAgIJAMBsya4mLSwGMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFEZyYXNzaW5lbGxlIFBvbGVzaW5lMScwJQYDVQQKDB5D
+b211bmUgZGkgRnJhc3NpbmVsbGUgUG9sZXNpbmUxODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29t
+dW5lLmZyYXNzaW5lbGxlLXBvbGVzaW5lLnJvLml0MB4XDTIxMTExMzA4MDQxMFoXDTMxMTExMzA4
+MDQxMFowgZ8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEdMBsGA1UEBwwURnJhc3NpbmVs
+bGUgUG9sZXNpbmUxJzAlBgNVBAoMHkNvbXVuZSBkaSBGcmFzc2luZWxsZSBQb2xlc2luZTE4MDYG
+A1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuZnJhc3NpbmVsbGUtcG9sZXNpbmUucm8uaXQwggEi
+MA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBtOcdFaMuHLHakbPnP87Ni7jonZABBle7ihlQ
+ECkeI1EkO6y+tr811BeNxFNZQW/wCYoWoyNhr5oPBc13GOMswN9YCwfvnMEZDQTURhxFwSnWS0Ay
+d9H8cKIXUg8pD5mBhXO3WVlcPuu3phCjiQjD2Vou+1ziQs/Yj5Mg9d+lHS7Za8xNFMYiLb8HLDQ9
+zEKuOJy2eMMaXyYdUHQxW5cCuaXrxuH7rmDOG84I+UabOyMOCV9eYwWGhjESnVqmSYnQ9D/p1bjy
+gYgfsQDg2My8dgjmEnwdBF8dVyWDsOyaSSdguYG0b1IZD0WJUcfr5wzVcOlh9kJCK3eI4V7bwv3Z
+AgMBAAGjUDBOMB0GA1UdDgQWBBS7dWB1aiyWFaCpHFTPpXspXOs0kTAfBgNVHSMEGDAWgBS7dWB1
+aiyWFaCpHFTPpXspXOs0kTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA1P2iK7S45
+nRRxY1+zqNXuhP+lstd3+zka3q7sdYYyTrdNnXvzgUStGZOgy5RNuP5T9soQkKBk+E3YSdvM7xoL
+npJE84ZViTNKUPTJrLHh20HAZ9j4qhsxEC6fb/eAvSvvD7RsgKcvIDrupN5jn5KJvAg0PEH3EaZ6
+zeN/WqVJsLwFJKrsxJgPwwbtHpV/fHBedL69wqE8JErTQHN3aFYQwKMnqMtE4bPzGSik08nfP0vn
+pf5QTW78EKbss5qF+KWep9+FsJxMh15mFB0AmDTqwOl/CKbK9x/sPCiKgYsKqfo2B4dzskZRB4fE
+2RIQifwV1aRKeO0AJsxa8x1tuXE/
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEEzCCAvugAwIBAgIJAMBsya4mLSwGMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFEZyYXNzaW5lbGxlIFBvbGVzaW5lMScwJQYDVQQKDB5Db211bmUgZGkgRnJhc3NpbmVsbGUgUG9sZXNpbmUxODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLmZyYXNzaW5lbGxlLXBvbGVzaW5lLnJvLml0MB4XDTIxMTExMzA4MDQxMFoXDTMxMTExMzA4MDQxMFowgZ8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEdMBsGA1UEBwwURnJhc3NpbmVsbGUgUG9sZXNpbmUxJzAlBgNVBAoMHkNvbXVuZSBkaSBGcmFzc2luZWxsZSBQb2xlc2luZTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuZnJhc3NpbmVsbGUtcG9sZXNpbmUucm8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBtOcdFaMuHLHakbPnP87Ni7jonZABBle7ihlQECkeI1EkO6y+tr811BeNxFNZQW/wCYoWoyNhr5oPBc13GOMswN9YCwfvnMEZDQTURhxFwSnWS0Ayd9H8cKIXUg8pD5mBhXO3WVlcPuu3phCjiQjD2Vou+1ziQs/Yj5Mg9d+lHS7Za8xNFMYiLb8HLDQ9zEKuOJy2eMMaXyYdUHQxW5cCuaXrxuH7rmDOG84I+UabOyMOCV9eYwWGhjESnVqmSYnQ9D/p1bjygYgfsQDg2My8dgjmEnwdBF8dVyWDsOyaSSdguYG0b1IZD0WJUcfr5wzVcOlh9kJCK3eI4V7bwv3ZAgMBAAGjUDBOMB0GA1UdDgQWBBS7dWB1aiyWFaCpHFTPpXspXOs0kTAfBgNVHSMEGDAWgBS7dWB1aiyWFaCpHFTPpXspXOs0kTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA1P2iK7S45nRRxY1+zqNXuhP+lstd3+zka3q7sdYYyTrdNnXvzgUStGZOgy5RNuP5T9soQkKBk+E3YSdvM7xoLnpJE84ZViTNKUPTJrLHh20HAZ9j4qhsxEC6fb/eAvSvvD7RsgKcvIDrupN5jn5KJvAg0PEH3EaZ6zeN/WqVJsLwFJKrsxJgPwwbtHpV/fHBedL69wqE8JErTQHN3aFYQwKMnqMtE4bPzGSik08nfP0vnpf5QTW78EKbss5qF+KWep9+FsJxMh15mFB0AmDTqwOl/CKbK9x/sPCiKgYsKqfo2B4dzskZRB4fE2RIQifwV1aRKeO0AJsxa8x1tuXE/
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEEzCCAvugAwIBAgIJAMBsya4mLSwGMA0GCSqGSIb3DQEBCwUAMIGfMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFEZyYXNzaW5lbGxlIFBvbGVzaW5lMScwJQYDVQQKDB5Db211bmUgZGkgRnJhc3NpbmVsbGUgUG9sZXNpbmUxODA2BgNVBAMML3NlcnZpemlvbmxpbmUuY29tdW5lLmZyYXNzaW5lbGxlLXBvbGVzaW5lLnJvLml0MB4XDTIxMTExMzA4MDQxMFoXDTMxMTExMzA4MDQxMFowgZ8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEdMBsGA1UEBwwURnJhc3NpbmVsbGUgUG9sZXNpbmUxJzAlBgNVBAoMHkNvbXVuZSBkaSBGcmFzc2luZWxsZSBQb2xlc2luZTE4MDYGA1UEAwwvc2Vydml6aW9ubGluZS5jb211bmUuZnJhc3NpbmVsbGUtcG9sZXNpbmUucm8uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBtOcdFaMuHLHakbPnP87Ni7jonZABBle7ihlQECkeI1EkO6y+tr811BeNxFNZQW/wCYoWoyNhr5oPBc13GOMswN9YCwfvnMEZDQTURhxFwSnWS0Ayd9H8cKIXUg8pD5mBhXO3WVlcPuu3phCjiQjD2Vou+1ziQs/Yj5Mg9d+lHS7Za8xNFMYiLb8HLDQ9zEKuOJy2eMMaXyYdUHQxW5cCuaXrxuH7rmDOG84I+UabOyMOCV9eYwWGhjESnVqmSYnQ9D/p1bjygYgfsQDg2My8dgjmEnwdBF8dVyWDsOyaSSdguYG0b1IZD0WJUcfr5wzVcOlh9kJCK3eI4V7bwv3ZAgMBAAGjUDBOMB0GA1UdDgQWBBS7dWB1aiyWFaCpHFTPpXspXOs0kTAfBgNVHSMEGDAWgBS7dWB1aiyWFaCpHFTPpXspXOs0kTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA1P2iK7S45nRRxY1+zqNXuhP+lstd3+zka3q7sdYYyTrdNnXvzgUStGZOgy5RNuP5T9soQkKBk+E3YSdvM7xoLnpJE84ZViTNKUPTJrLHh20HAZ9j4qhsxEC6fb/eAvSvvD7RsgKcvIDrupN5jn5KJvAg0PEH3EaZ6zeN/WqVJsLwFJKrsxJgPwwbtHpV/fHBedL69wqE8JErTQHN3aFYQwKMnqMtE4bPzGSik08nfP0vnpf5QTW78EKbss5qF+KWep9+FsJxMh15mFB0AmDTqwOl/CKbK9x/sPCiKgYsKqfo2B4dzskZRB4fE2RIQifwV1aRKeO0AJsxa8x1tuXE/
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.frassinelle-polesine.ro.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.frassinelle-polesine.ro.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Frassinelle Polesine
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Frassinelle Polesine
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.frassinelle-polesine.ro.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_d776
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Frassinelle Polesine
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            admin@comune.frassinelle-polesine.ro.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

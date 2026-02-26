@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.bruino.to.it" ID="epeebb105d-7277-42b9-b9ba-fd552ce31d77">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#epeebb105d-7277-42b9-b9ba-fd552ce31d77">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    RhwhAZq/Z1K38qcWiMku/vbjCifRJaXYUEp4JVshMHc=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            DtIKOoeRFKNVWRAJp6jIIV20KGg6NDtpVUFMcfY43mb3YBtukSyfA+6H2W9NA+Q8c2XzgId/egsjzY4HJD6ZExtv85HgioKjTdmEl6eHrXmuInmFhP0QGOU+ad/ZchAhMItnHqhiGhy4ChofU0VcdOTIZmH9eD985Z/53Pz01x1nB9PVqKlZNsUzN8Vf/K6EgpR5ZTmUIQnO3PN33AI7hOtBefmSvSQdPMjsvxg0RUOTjb5gAVdTi0sOhlaqHWpjNbOh+n1MHbnrsNUOgkSoD8I1biawvANgssZiURzjseCqMFwZLhkhv8Vs7XiilUEXhBlvzjOSo/gpe6G2gd+aavHmrWUY8hIT2FXFLtjJwV2g8IQ75mQseoMe8gtad49p8LtdYl4rEDAsXVQzbBqAWtQh2W5N0d6Y0HopzN5GL8tE7VMFmggYRKLCNBow4AC9Poqwx4qV+t2Ow33VfD6IUkDsgV2juWHz7DRVPDf/S6/wqe4LMI/F8oL/M0utrreZSxHKylq+SAjB0kUzA4XnbC1lzirc1GXyrgcfVE7mM/AzhE/uP/gvAir9bEq8UpbPt3t+tLWfo5XTF7nS5UBorTuhEwRPbllOgncb/7m/9er0XzaeHPhLP2XQB03P2EUsu5vqWL4sds8WRmvvElWinBcMenQchn0DWDd/jUOevHk=
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        qw+6o9vPbsDafjFbh28GfYot6HTrQ5gaFTHadTN635BAB4400GEu6qCAWYaQwqRt6P7wJtUfovJBqwB6GNOsvGpNPRELXasuvLiNkqbG2OaSF9Tlldz37LlHdCytJBwa5lUyTKYWgAEHOZ5Mvwz42jGTFEs21KO2yuGvsmK2yl+GtwEAdOLPuVg9TbuMHYBTfqddSNxvToVfD5a78IIVak1hew66+cxjMjpD5eFcUz+8vsVZcCHXfRBoHPoHSX355Nbe9LZYV2w2rrioZYpYRikAIRzyv5AHIG2sW0ZNf1czgpsRdMJADcxzx0DUCPVclIStfQbMrZ7yr9hyXjGAqQHvaPdS5tgSIIqybE/i3asSpwdxGJd5AqGzXxjCC/B2MPxM+zlcf7PSORBeYBoF+ZHM3WdxlSzRucdtroCnUpC/IHkrSdq3zJYN9XxDIpum0DL2jgNHs6Gdv6M0eeUrbnwkJ8vsdJO7gct1nESkneM8Xen6dvBZugdXTTGD+yuh5V980zAWzOjfon7OyZOAToJ8ciL2DoEecDLdlJW6qxQYtZAJ1a5g1d8noon7EqveaxNLtZlfrgTMVPlpK1WIlxsvi1wPZYKLd8v9WV2bbzzRAJXyT2Fy4hI2BHAA+tJA/k9/Zl9bM8gjfLDYZai14tOzjWY/nnYk797joR7dB5k=
+                    </ds:Modulus>
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIFoDCCA4gCCQC6Kb/jzX2CPzANBgkqhkiG9w0BAQsFADCBkTEgMB4GA1UEAwwXd3d3LmNvbXVuZS5icnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVpbm8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklULWNfYjIxNjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcNMjExMDEzMDgwNTMwWhcNNDkwMjI4MDgwNTMwWjCBkTEgMB4GA1UEAwwXd3d3LmNvbXVuZS5icnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVpbm8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklULWNfYjIxNjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EYl3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp28Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnVrmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQAunzBRgelkgm2JBYFBAOp+nduriNrJZgTZj0h3GxUZRQt00wLn4CHmwJsVmFPVaht05lvhdN6HUWXSHVqoAh2RuqS8lKjOMK2gRX+op+8vGz8vOc7XZDp00gOA0940vlS8EluPWGqO4PhTr/8qokbgNyyc+tkbJo38HDYtW+VtjqYUiqsqgpPkh6KtGGooVg9s1HuzNrfRQ6dn0Cz1cRkMfFrv3s+qRUNmIszs26tZ6Zm7oIDDTHuP3rQKb2LslYZHUlNB2fgj8Q6sVDHvhJJOPFqSBIEhmlUisdWuVaOoHB35rGNPijgHc+uPtdpdW3ejYwYQCllXG5uOPy0rGSQfvWbIKIZViHReb7YAnJQfOZOCY8kfz5GyQAXVz88jyQgAeUnhDeLwvuqEV4EbAeevDKR15sRnaMXmOXiwdqv0VVgXAXIeXx7yD/JsXAAoguUwi6qHNBaTORb0YGWJVuqcD2r/sFIQ1nHxhuAKMOAjvIk15yBDuTNHPGe8+Ri9eCzBg2PmMNLYgxg4msN4NWk//qRDCykKuo8QC5Rvc5k+wlHufMzGnRg5Qq7BmNoX1el2hPl9f5T0ADoxDMId12dgoEeHgXhY8/psUJimertMGAfXTN9pnanAtO4gtZ9408DbwlYMm8YZ+C3jopwU+vuwpsSXh2A6AhnxSmga6bmoXw==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFoDCCA4gCCQC6Kb/jzX2CPzANBgkqhkiG9w0BAQsFADCBkTEgMB4GA1UEAwwX
+d3d3LmNvbXVuZS5icnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVp
+bm8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklU
+LWNfYjIxNjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcNMjExMDEz
+MDgwNTMwWhcNNDkwMjI4MDgwNTMwWjCBkTEgMB4GA1UEAwwXd3d3LmNvbXVuZS5i
+cnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVpbm8xCzAJBgNVBAYT
+AklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklULWNfYjIxNjEdMBsG
+AytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4IC
+DwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQ
+YS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV
+3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB0
+4s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlw
+Idd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0
+wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EY
+l3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ
+2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp2
+8Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnV
+rmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJP
+YXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4ICAQAunzBRgelkgm2JBYFBAOp+nduriNrJZgTZj0h3
+GxUZRQt00wLn4CHmwJsVmFPVaht05lvhdN6HUWXSHVqoAh2RuqS8lKjOMK2gRX+o
+p+8vGz8vOc7XZDp00gOA0940vlS8EluPWGqO4PhTr/8qokbgNyyc+tkbJo38HDYt
+W+VtjqYUiqsqgpPkh6KtGGooVg9s1HuzNrfRQ6dn0Cz1cRkMfFrv3s+qRUNmIszs
+26tZ6Zm7oIDDTHuP3rQKb2LslYZHUlNB2fgj8Q6sVDHvhJJOPFqSBIEhmlUisdWu
+VaOoHB35rGNPijgHc+uPtdpdW3ejYwYQCllXG5uOPy0rGSQfvWbIKIZViHReb7YA
+nJQfOZOCY8kfz5GyQAXVz88jyQgAeUnhDeLwvuqEV4EbAeevDKR15sRnaMXmOXiw
+dqv0VVgXAXIeXx7yD/JsXAAoguUwi6qHNBaTORb0YGWJVuqcD2r/sFIQ1nHxhuAK
+MOAjvIk15yBDuTNHPGe8+Ri9eCzBg2PmMNLYgxg4msN4NWk//qRDCykKuo8QC5Rv
+c5k+wlHufMzGnRg5Qq7BmNoX1el2hPl9f5T0ADoxDMId12dgoEeHgXhY8/psUJim
+ertMGAfXTN9pnanAtO4gtZ9408DbwlYMm8YZ+C3jopwU+vuwpsSXh2A6AhnxSmga
+6bmoXw==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFoDCCA4gCCQC6Kb/jzX2CPzANBgkqhkiG9w0BAQsFADCBkTEgMB4GA1UEAwwX
+d3d3LmNvbXVuZS5icnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVp
+bm8xCzAJBgNVBAYTAklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklU
+LWNfYjIxNjEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcNMjExMDEz
+MDgwNTMwWhcNNDkwMjI4MDgwNTMwWjCBkTEgMB4GA1UEAwwXd3d3LmNvbXVuZS5i
+cnVpbm8udG8uaXQxGTAXBgNVBAoMEENvbXVuZSBkaSBCcnVpbm8xCzAJBgNVBAYT
+AklUMQ8wDQYDVQQHDAZCcnVpbm8xFTATBgNVBGEMDFBBOklULWNfYjIxNjEdMBsG
+AytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4IC
+DwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQ
+YS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV
+3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB0
+4s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlw
+Idd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0
+wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EY
+l3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ
+2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp2
+8Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnV
+rmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJP
+YXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQAB
+MA0GCSqGSIb3DQEBCwUAA4ICAQAunzBRgelkgm2JBYFBAOp+nduriNrJZgTZj0h3
+GxUZRQt00wLn4CHmwJsVmFPVaht05lvhdN6HUWXSHVqoAh2RuqS8lKjOMK2gRX+o
+p+8vGz8vOc7XZDp00gOA0940vlS8EluPWGqO4PhTr/8qokbgNyyc+tkbJo38HDYt
+W+VtjqYUiqsqgpPkh6KtGGooVg9s1HuzNrfRQ6dn0Cz1cRkMfFrv3s+qRUNmIszs
+26tZ6Zm7oIDDTHuP3rQKb2LslYZHUlNB2fgj8Q6sVDHvhJJOPFqSBIEhmlUisdWu
+VaOoHB35rGNPijgHc+uPtdpdW3ejYwYQCllXG5uOPy0rGSQfvWbIKIZViHReb7YA
+nJQfOZOCY8kfz5GyQAXVz88jyQgAeUnhDeLwvuqEV4EbAeevDKR15sRnaMXmOXiw
+dqv0VVgXAXIeXx7yD/JsXAAoguUwi6qHNBaTORb0YGWJVuqcD2r/sFIQ1nHxhuAK
+MOAjvIk15yBDuTNHPGe8+Ri9eCzBg2PmMNLYgxg4msN4NWk//qRDCykKuo8QC5Rv
+c5k+wlHufMzGnRg5Qq7BmNoX1el2hPl9f5T0ADoxDMId12dgoEeHgXhY8/psUJim
+ertMGAfXTN9pnanAtO4gtZ9408DbwlYMm8YZ+C3jopwU+vuwpsSXh2A6AhnxSmga
+6bmoXw==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bruino.to.it/it-it/spid/logoutresp"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.bruino.to.it/it-it/spid/loginresp" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Servizi Online
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">
+                Accesso ai Servizi Online
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Bruino
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Bruino
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.bruino.to.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_b216
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            comune@comune.bruino.to.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            +390119094411
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,125 @@
+<md:EntityDescriptor entityID="https://www.comune.povegliano.tv.it" ID="_024bc103-6a61-4be1-8b03-f0ced75730cc" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_024bc103-6a61-4be1-8b03-f0ced75730cc">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    ftvIIcOB06w2Zkt3EY8+Vmhy4GBPhlIg4n7ZZtJgYmc=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            UUfWteCE3i3Bp0Z0YFwnUS8sHiwjTL6u0laHtH+qQylI0zhxm7yjU3zbc4AZ5SPHBqNJ5Pp+w26QhFkhktBJSoiHt+MbMb5p0ymGygRpW5mGlXbQoOp+jfIn4hKeOQ73w07rm9BM1GqP6nqpZ7YnRyeYaDIPrWTScawID2oH6BCOY4eX6Q+uESP3dTsURTkyk4fx3vEkFKe/ay2DRCrZTKRDA5UzolfLID7fBsup5OZTH50fHxUPhPv5SFaYU54dro2S7fsfQ+1NVk1z6a7bQOeA4YB6UQAetyfJ49lEEaKLGKGJQneF0FbJIPHxbsrKb5DxAN6IuWwCxZUkpz6gPQ==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDsTCCApmgAwIBAgIIfuJpd0zM5SAwDQYJKoZIhvcNAQELBQAwgYYxLDAqBgNVBAMMI2h0dHBzOi8vd3d3LmNvbXVuZS5wb3ZlZ2xpYW5vLnR2Lml0MR0wGwYDVQQKDBRDb211bmUgZGkgUG92ZWdsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19nOTQ0MQswCQYDVQQGEwJJVDETMBEGA1UEBwwKUG92ZWdsaWFubzAeFw0yMTAyMjUwMDAwMDBaFw0zMTAyMjUwMDAwMDBaMIGGMSwwKgYDVQQDDCNodHRwczovL3d3dy5jb211bmUucG92ZWdsaWFuby50di5pdDEdMBsGA1UECgwUQ29tdW5lIGRpIFBvdmVnbGlhbm8xFTATBgNVBGEMDFBBOklULWNfZzk0NDELMAkGA1UEBhMCSVQxEzARBgNVBAcMClBvdmVnbGlhbm8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCM5App5iYN2Lc5jmGvuk53GGMmQPZtNR3O6U89AfHwDHBTtabvWy3aL5bCT+JEvCUpVahsHuPoZySRHYP4xFB/BZAV9bl5yg+JBJpdZ2xSQTIvDlBfh8Xojf4ZgeERUaWmGDjtLUjMR5rmvveF6cfJTeZonB3XmdpmGBQlrPVAA5rB/c/Gy+lAov5tK4XXiLez5EoVAtD0m/uNGPCt6N4Pinbqcze709VetYAR4cmTiQi++6A/rWwQEfDq4Mq/yR0h/HAcO00FtTXfi6WW/ZGeir3xD0/z0iGv1OU9mjV74c+BI47yOWmJH8SywE+umEiWc53ecgLEuUOD6rosbo0tAgMBAAGjITAfMB0GA1UdIAQWBBRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAGhljmDoieLDxTd3rmgvnw30O8jkjFLcv5b5E2M3jvopmo8c5OZYUoO+a5yb4cbvQuytmfTiJZd5LfEFwkT9pqLVqZsd8myfwUtJsn+AWbjVldqP84yM9QFmTfUO+SxiIfqiljfNozPYuRchF4vjKDpfUZ6jLpZuJBWuEfW3E2E7ZML6qQ10PGDAPaq60T6KCAhXKxs7y0vloW/M8EULkLOy25s7ruHZU2y216w5Mk6H/1FgVhydm4rNtxF5do+drB1GMFOv2fOysrfiOuAjdpuAz9q4YTbbi3yOkpEVtHuARnv5fi6E4jBCdC1188JRtWlPaGSg1l29YdeH0VF/Jcg==
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDsTCCApmgAwIBAgIIfuJpd0zM5SAwDQYJKoZIhvcNAQELBQAwgYYxLDAqBgNVBAMMI2h0dHBzOi8vd3d3LmNvbXVuZS5wb3ZlZ2xpYW5vLnR2Lml0MR0wGwYDVQQKDBRDb211bmUgZGkgUG92ZWdsaWFubzEVMBMGA1UEYQwMUEE6SVQtY19nOTQ0MQswCQYDVQQGEwJJVDETMBEGA1UEBwwKUG92ZWdsaWFubzAeFw0yMTAyMjUwMDAwMDBaFw0zMTAyMjUwMDAwMDBaMIGGMSwwKgYDVQQDDCNodHRwczovL3d3dy5jb211bmUucG92ZWdsaWFuby50di5pdDEdMBsGA1UECgwUQ29tdW5lIGRpIFBvdmVnbGlhbm8xFTATBgNVBGEMDFBBOklULWNfZzk0NDELMAkGA1UEBhMCSVQxEzARBgNVBAcMClBvdmVnbGlhbm8wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCM5App5iYN2Lc5jmGvuk53GGMmQPZtNR3O6U89AfHwDHBTtabvWy3aL5bCT+JEvCUpVahsHuPoZySRHYP4xFB/BZAV9bl5yg+JBJpdZ2xSQTIvDlBfh8Xojf4ZgeERUaWmGDjtLUjMR5rmvveF6cfJTeZonB3XmdpmGBQlrPVAA5rB/c/Gy+lAov5tK4XXiLez5EoVAtD0m/uNGPCt6N4Pinbqcze709VetYAR4cmTiQi++6A/rWwQEfDq4Mq/yR0h/HAcO00FtTXfi6WW/ZGeir3xD0/z0iGv1OU9mjV74c+BI47yOWmJH8SywE+umEiWc53ecgLEuUOD6rosbo0tAgMBAAGjITAfMB0GA1UdIAQWBBRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAGhljmDoieLDxTd3rmgvnw30O8jkjFLcv5b5E2M3jvopmo8c5OZYUoO+a5yb4cbvQuytmfTiJZd5LfEFwkT9pqLVqZsd8myfwUtJsn+AWbjVldqP84yM9QFmTfUO+SxiIfqiljfNozPYuRchF4vjKDpfUZ6jLpZuJBWuEfW3E2E7ZML6qQ10PGDAPaq60T6KCAhXKxs7y0vloW/M8EULkLOy25s7ruHZU2y216w5Mk6H/1FgVhydm4rNtxF5do+drB1GMFOv2fOysrfiOuAjdpuAz9q4YTbbi3yOkpEVtHuARnv5fi6E4jBCdC1188JRtWlPaGSg1l29YdeH0VF/Jcg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://povegliano.comuneweb.it/SPID/SSOLogout.ashx"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://povegliano.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://povegliano.comuneweb.it/SPID/SSOLogin.ashx" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cas.comuneweb.it/cas/spidAssertionConsumerService" index="2"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Accesso ai servizi ComuneWeb
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Povegliano
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Povegliano
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.povegliano.tv.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_g944
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            protocollo.comune.povegliano.tv@pecveneto.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

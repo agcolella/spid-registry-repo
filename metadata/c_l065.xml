@@ -1,0 +1,164 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://login.comune.tavagnacco.ud.it" ID="https___login_comune_tavagnacco_ud_it">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#https___login_comune_tavagnacco_ud_it">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    s30ZpIYHdDkUYxrbZDV5KK7az+BYYMBobohVnvl1IYM=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            hfIdEmCSQGgeTeVA4iVzlCcm9Sxteym3nEDpdhnOzuCz3vREndWkfVP+AZwst4j0+q6pzSyHaRu3t49Ce7i2ONNF+Z68ORFMAXpFE5m9zgqk3NT98lc+leHL+/o/fL/3LIGARuxssEEPOtXoKAxsUmUkMQA2nD8GJIpLJ1B9JjI/1BAcTL2LADmhn8dMnflR5bNdLS3aL4L306k9mAyJFPNvuTet+s/vltAx/HjRj3PiEYwhmgCcxQNqwPrNwCMedCjWKRaclW2WxdeOfUxcbYiq4nZNf0qjQsJRxCL3Z1mcobxZBgGgFduDfGli/M3bM24CaXNw+kvekOZTzKd9rA==
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIID3TCCAsUCFF4kkPEm3U3RiFiNOc8u2WHd5c9kMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJJVDEdMBsGA1UECAwUQ29tdW5lIGRpIFRhdmFnbmFjY28xEzARBgNVBAcMClRhdmFnbmFjY28xDzANBgNVBAoMBkNvbXVuZTEMMAoGA1UECwwDQ0VEMSAwHgYDVQQDDBdjb211bmUudGF2YWduYWNjby51ZC5pdDEmMCQGCSqGSIb3DQEJARYXc2VjdXJpdHlAb3BlbmNvbnRlbnQuaXQwHhcNMjExMTExMTQyMDE1WhcNMzExMTA5MTQyMDE1WjCBqjELMAkGA1UEBhMCSVQxHTAbBgNVBAgMFENvbXVuZSBkaSBUYXZhZ25hY2NvMRMwEQYDVQQHDApUYXZhZ25hY2NvMQ8wDQYDVQQKDAZDb211bmUxDDAKBgNVBAsMA0NFRDEgMB4GA1UEAwwXY29tdW5lLnRhdmFnbmFjY28udWQuaXQxJjAkBgkqhkiG9w0BCQEWF3NlY3VyaXR5QG9wZW5jb250ZW50Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5Y5bKpgcr7x5KSHPjFIw/H+7m5LRIhWSEMHADNK8bPzccBYcA2j5ElEy4JMe97LvmLsxxwUYVM9LfnMzBTTjlJs8TJN10lsSJ4x0ZzYWEFnfP8eDWT7SpBjlUylRPTGVDG1lvyp8H/7wPZw3YRe0gZnivbY7Q6ZdKYojfjBmsDEeWvgKQaPxZuceMt4x5Iz6zo4tQZSs+jzKXHl+uAglfW3Tp7HcOO4dlLvQa8gJQiJivlvZLys2gfgLBTEH4oQ71hQMtMjv1eSXM6hGSXd1xfmKaFEFGs6gl7YI9oJiC8m6h7nFQm9bFrWE6rNibJGSGyd4K2J5+h07ketaK0Q3QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB2VHXQR9sroWFSGJaIfIoYEtxFDgOHZH1WLnEIjHVi0a14+wEw35Vz1KSn+/F/47dVl2lCWWKzfYiZkG+OhgeVt2EkYJgNyW0zFq9tlGykKxVyaHkQ73e6PGE0WwsZy0eBaJnWajedtKNHIGiLKrgOagz5JadWf4GxYLnkh1UtxgB6S03WK2v9Fkfm+v0YxUDHt3aMHwIGrwSE0+JvQr6a1Yl38jymS4RJG4KrXQyYPwe478rsTS/JlKqpjZwyL/vgKxd/HR6JRJiEglyElt5jUlpfIiILZiE27H/kX2c3C9Sqm7W1KtPqHyfRCLtmyJwJKOj9AZGBxdPKRoxW/Ufi
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+    
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+        
+        <md:KeyDescriptor use="signing">
+            
+            
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+                
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIID3TCCAsUCFF4kkPEm3U3RiFiNOc8u2WHd5c9kMA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJJVDEdMBsGA1UECAwUQ29tdW5lIGRpIFRhdmFnbmFjY28xEzARBgNVBAcMClRhdmFnbmFjY28xDzANBgNVBAoMBkNvbXVuZTEMMAoGA1UECwwDQ0VEMSAwHgYDVQQDDBdjb211bmUudGF2YWduYWNjby51ZC5pdDEmMCQGCSqGSIb3DQEJARYXc2VjdXJpdHlAb3BlbmNvbnRlbnQuaXQwHhcNMjExMTExMTQyMDE1WhcNMzExMTA5MTQyMDE1WjCBqjELMAkGA1UEBhMCSVQxHTAbBgNVBAgMFENvbXVuZSBkaSBUYXZhZ25hY2NvMRMwEQYDVQQHDApUYXZhZ25hY2NvMQ8wDQYDVQQKDAZDb211bmUxDDAKBgNVBAsMA0NFRDEgMB4GA1UEAwwXY29tdW5lLnRhdmFnbmFjY28udWQuaXQxJjAkBgkqhkiG9w0BCQEWF3NlY3VyaXR5QG9wZW5jb250ZW50Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAr5Y5bKpgcr7x5KSHPjFIw/H+7m5LRIhWSEMHADNK8bPzccBYcA2j5ElEy4JMe97LvmLsxxwUYVM9LfnMzBTTjlJs8TJN10lsSJ4x0ZzYWEFnfP8eDWT7SpBjlUylRPTGVDG1lvyp8H/7wPZw3YRe0gZnivbY7Q6ZdKYojfjBmsDEeWvgKQaPxZuceMt4x5Iz6zo4tQZSs+jzKXHl+uAglfW3Tp7HcOO4dlLvQa8gJQiJivlvZLys2gfgLBTEH4oQ71hQMtMjv1eSXM6hGSXd1xfmKaFEFGs6gl7YI9oJiC8m6h7nFQm9bFrWE6rNibJGSGyd4K2J5+h07ketaK0Q3QIDAQABMA0GCSqGSIb3DQEBCwUAA4IBAQB2VHXQR9sroWFSGJaIfIoYEtxFDgOHZH1WLnEIjHVi0a14+wEw35Vz1KSn+/F/47dVl2lCWWKzfYiZkG+OhgeVt2EkYJgNyW0zFq9tlGykKxVyaHkQ73e6PGE0WwsZy0eBaJnWajedtKNHIGiLKrgOagz5JadWf4GxYLnkh1UtxgB6S03WK2v9Fkfm+v0YxUDHt3aMHwIGrwSE0+JvQr6a1Yl38jymS4RJG4KrXQyYPwe478rsTS/JlKqpjZwyL/vgKxd/HR6JRJiEglyElt5jUlpfIiILZiE27H/kX2c3C9Sqm7W1KtPqHyfRCLtmyJwJKOj9AZGBxdPKRoxW/Ufi
+                    </ds:X509Certificate>
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+            
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://login.comune.tavagnacco.ud.it/slo"/>
+                
+        
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+        
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://login.comune.tavagnacco.ud.it/acs" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        
+        
+        <md:AttributeConsumingService index="0">
+            
+            
+            <md:ServiceName xml:lang="it">
+                Set 0
+            </md:ServiceName>
+                   
+            
+            <md:RequestedAttribute Name="gender"/>
+            
+            
+            <md:RequestedAttribute Name="companyName"/>
+            
+            
+            <md:RequestedAttribute Name="registeredOffice"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="ivaCode"/>
+            
+            
+            <md:RequestedAttribute Name="idCard"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="address"/>
+            
+            
+            <md:RequestedAttribute Name="expirationDate"/>
+            
+            
+            <md:RequestedAttribute Name="digitalAddress"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Tavagnacco
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            openlogin-tavagnacco
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://login.comune.tavagnacco.ud.it
+        </md:OrganizationURL>
+        
+
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_l065
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            segreteria@comune.tavagnacco.ud.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            00390432577311
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

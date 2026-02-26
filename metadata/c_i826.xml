@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxcd14cda3-3034-2852-c9a3-7f80956d3237" entityID="https://servizionline.comune.sona.vr.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxcd14cda3-3034-2852-c9a3-7f80956d3237">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    BjMLKXQz5XyBjb3649uKAtlnSg8jakpaSmwqR3i0SHU=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+k3K1VmoxD4OKPnETH4gqbKvHJJULBq2nF9Ja4ASSfyPVEqI17R8rjjXGOrj/Ry6rK3JJMENf1ORM
+nUQcHbkUKeIrpJfvxUiDYooOVplEJ8fXCFGfOu3erAVPweWda7JJq4X8VT4SzMjjdtavw9G63G1/
+aCKri+tdtaA6Df3bTCvCX70ouGqQ3kfFH/Ud8ENO4JwK7Qm1zxLddH895JWA5AQltUzbDRcnWOBz
+0L1zZ4jRzfrf4dzPLQ7HzcZ3QYkDiUHq2fa4tKTqYL99YoAubs9DlxMCf+1oSostYUCG5JrSK5n+
+bRYZ4amr/IHz/rF7NiistQq28t7QemTnBNIjig==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+t9mjt7O/75FJEXtbgSbd9IXG3nkhtYbnq1DFUKCvC4M9SS+uz16b1hom3aVuLPpRbvgW7Uz4735q
+6RpOkEycxpCrUHAGMhddp92msS18nJosMptmp8ctG0Q/aTqy54L2uC5zikZR3SsCH2BHzVPxksp9
+wCXPxHo+QBIDzRAaTlI3+jI79ex+Y9DQi5duHoKO9DJhARx+vbEttuxfwisErC6PoxSvy/wTEGBP
+3ozyCbxjxId8pjA797P7y+zAVgb/CB3OykxgcgGis/IfxpptR3ke/CgzaVuqCaSI19315gsJb3uR
+84B4SLdWsa9hnAPP3Ssm+OLo/51m3YkuLabCHw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIENjCCAx6gAwIBAgIJAPcx+aNrKm8DMA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTENMAsGA1UEBxMEU29uYTEXMBUGA1UEChMOQ29tdW5lIGRpIFNvbmExKDAm
+BgNVBAMTH3NlcnZpemlvbmxpbmUuY29tdW5lLnNvbmEudnIuaXQwHhcNMjExMDIyMTAxMzA0WhcN
+MzExMDIyMTAxMzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDTALBgNVBAcTBFNv
+bmExFzAVBgNVBAoTDkNvbXVuZSBkaSBTb25hMSgwJgYDVQQDEx9zZXJ2aXppb25saW5lLmNvbXVu
+ZS5zb25hLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9mjt7O/75FJEXtb
+gSbd9IXG3nkhtYbnq1DFUKCvC4M9SS+uz16b1hom3aVuLPpRbvgW7Uz4735q6RpOkEycxpCrUHAG
+Mhddp92msS18nJosMptmp8ctG0Q/aTqy54L2uC5zikZR3SsCH2BHzVPxksp9wCXPxHo+QBIDzRAa
+TlI3+jI79ex+Y9DQi5duHoKO9DJhARx+vbEttuxfwisErC6PoxSvy/wTEGBP3ozyCbxjxId8pjA7
+97P7y+zAVgb/CB3OykxgcgGis/IfxpptR3ke/CgzaVuqCaSI19315gsJb3uR84B4SLdWsa9hnAPP
+3Ssm+OLo/51m3YkuLabCHwIDAQABo4HUMIHRMB0GA1UdDgQWBBQv58GGsflBMO2JyHf+B+QKaz8w
+ejCBoQYDVR0jBIGZMIGWgBQv58GGsflBMO2JyHf+B+QKaz8weqFzpHEwbzELMAkGA1UEBhMCSVQx
+DjAMBgNVBAgTBUl0YWx5MQ0wCwYDVQQHEwRTb25hMRcwFQYDVQQKEw5Db211bmUgZGkgU29uYTEo
+MCYGA1UEAxMfc2Vydml6aW9ubGluZS5jb211bmUuc29uYS52ci5pdIIJAPcx+aNrKm8DMAwGA1Ud
+EwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB1GEsDHzUMSylSpdBHAkYC4g6wyUV/6xkbiWMPf
+aAaKu7/TF+Tbase0chZVqPJaXG2R9ju8Gk6hPI2zT5IPBeJESlCiHBaEGWtASWoaqxdiYReJItQP
+mqleIgBcvlr/U6FCJxV9+81CRdyDqD+FtmpmTVs9DVYz86bw6BJx0lyLHVvg1svafWQhzasgP56e
+UFvyH5XHLI5mm3LmG6ChofAr3SERs4ftZC76Km9faQejEaJQH2+D1kpet3sy54LgKx1fjEmd33cg
+lns39zuKSQdVtv802azZyfnaRtA/D2rzUozPUe6CMrCCw3gjkcM3Wt4JZIVPYnAnF0BIcLKvf9k=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIENjCCAx6gAwIBAgIJAPcx+aNrKm8DMA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTENMAsGA1UEBxMEU29uYTEXMBUGA1UEChMOQ29tdW5lIGRpIFNvbmExKDAmBgNVBAMTH3NlcnZpemlvbmxpbmUuY29tdW5lLnNvbmEudnIuaXQwHhcNMjExMDIyMTAxMzA0WhcNMzExMDIyMTAxMzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDTALBgNVBAcTBFNvbmExFzAVBgNVBAoTDkNvbXVuZSBkaSBTb25hMSgwJgYDVQQDEx9zZXJ2aXppb25saW5lLmNvbXVuZS5zb25hLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9mjt7O/75FJEXtbgSbd9IXG3nkhtYbnq1DFUKCvC4M9SS+uz16b1hom3aVuLPpRbvgW7Uz4735q6RpOkEycxpCrUHAGMhddp92msS18nJosMptmp8ctG0Q/aTqy54L2uC5zikZR3SsCH2BHzVPxksp9wCXPxHo+QBIDzRAaTlI3+jI79ex+Y9DQi5duHoKO9DJhARx+vbEttuxfwisErC6PoxSvy/wTEGBP3ozyCbxjxId8pjA797P7y+zAVgb/CB3OykxgcgGis/IfxpptR3ke/CgzaVuqCaSI19315gsJb3uR84B4SLdWsa9hnAPP3Ssm+OLo/51m3YkuLabCHwIDAQABo4HUMIHRMB0GA1UdDgQWBBQv58GGsflBMO2JyHf+B+QKaz8wejCBoQYDVR0jBIGZMIGWgBQv58GGsflBMO2JyHf+B+QKaz8weqFzpHEwbzELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ0wCwYDVQQHEwRTb25hMRcwFQYDVQQKEw5Db211bmUgZGkgU29uYTEoMCYGA1UEAxMfc2Vydml6aW9ubGluZS5jb211bmUuc29uYS52ci5pdIIJAPcx+aNrKm8DMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB1GEsDHzUMSylSpdBHAkYC4g6wyUV/6xkbiWMPfaAaKu7/TF+Tbase0chZVqPJaXG2R9ju8Gk6hPI2zT5IPBeJESlCiHBaEGWtASWoaqxdiYReJItQPmqleIgBcvlr/U6FCJxV9+81CRdyDqD+FtmpmTVs9DVYz86bw6BJx0lyLHVvg1svafWQhzasgP56eUFvyH5XHLI5mm3LmG6ChofAr3SERs4ftZC76Km9faQejEaJQH2+D1kpet3sy54LgKx1fjEmd33cglns39zuKSQdVtv802azZyfnaRtA/D2rzUozPUe6CMrCCw3gjkcM3Wt4JZIVPYnAnF0BIcLKvf9k=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIENjCCAx6gAwIBAgIJAPcx+aNrKm8DMA0GCSqGSIb3DQEBCwUAMG8xCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTENMAsGA1UEBxMEU29uYTEXMBUGA1UEChMOQ29tdW5lIGRpIFNvbmExKDAmBgNVBAMTH3NlcnZpemlvbmxpbmUuY29tdW5lLnNvbmEudnIuaXQwHhcNMjExMDIyMTAxMzA0WhcNMzExMDIyMTAxMzA0WjBvMQswCQYDVQQGEwJJVDEOMAwGA1UECBMFSXRhbHkxDTALBgNVBAcTBFNvbmExFzAVBgNVBAoTDkNvbXVuZSBkaSBTb25hMSgwJgYDVQQDEx9zZXJ2aXppb25saW5lLmNvbXVuZS5zb25hLnZyLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAt9mjt7O/75FJEXtbgSbd9IXG3nkhtYbnq1DFUKCvC4M9SS+uz16b1hom3aVuLPpRbvgW7Uz4735q6RpOkEycxpCrUHAGMhddp92msS18nJosMptmp8ctG0Q/aTqy54L2uC5zikZR3SsCH2BHzVPxksp9wCXPxHo+QBIDzRAaTlI3+jI79ex+Y9DQi5duHoKO9DJhARx+vbEttuxfwisErC6PoxSvy/wTEGBP3ozyCbxjxId8pjA797P7y+zAVgb/CB3OykxgcgGis/IfxpptR3ke/CgzaVuqCaSI19315gsJb3uR84B4SLdWsa9hnAPP3Ssm+OLo/51m3YkuLabCHwIDAQABo4HUMIHRMB0GA1UdDgQWBBQv58GGsflBMO2JyHf+B+QKaz8wejCBoQYDVR0jBIGZMIGWgBQv58GGsflBMO2JyHf+B+QKaz8weqFzpHEwbzELMAkGA1UEBhMCSVQxDjAMBgNVBAgTBUl0YWx5MQ0wCwYDVQQHEwRTb25hMRcwFQYDVQQKEw5Db211bmUgZGkgU29uYTEoMCYGA1UEAxMfc2Vydml6aW9ubGluZS5jb211bmUuc29uYS52ci5pdIIJAPcx+aNrKm8DMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAB1GEsDHzUMSylSpdBHAkYC4g6wyUV/6xkbiWMPfaAaKu7/TF+Tbase0chZVqPJaXG2R9ju8Gk6hPI2zT5IPBeJESlCiHBaEGWtASWoaqxdiYReJItQPmqleIgBcvlr/U6FCJxV9+81CRdyDqD+FtmpmTVs9DVYz86bw6BJx0lyLHVvg1svafWQhzasgP56eUFvyH5XHLI5mm3LmG6ChofAr3SERs4ftZC76Km9faQejEaJQH2+D1kpet3sy54LgKx1fjEmd33cglns39zuKSQdVtv802azZyfnaRtA/D2rzUozPUe6CMrCCw3gjkcM3Wt4JZIVPYnAnF0BIcLKvf9k=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.sona.vr.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.sona.vr.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Sona
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Sona
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.sona.vr.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_i826
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Sona
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            admin@comune.sona.vr.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
