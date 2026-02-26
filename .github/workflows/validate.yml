@@ -59,7 +59,6 @@ jobs:
           echo "$INVALID" > .gh-pages-tmp/invalid_count
           echo "$TOTAL" > .gh-pages-tmp/total_count
 
-
       - name: Generate index.html
         run: |
           VALID=$(cat .gh-pages-tmp/valid_count)
@@ -67,95 +66,123 @@ jobs:
           TOTAL=$(cat .gh-pages-tmp/total_count)
 
           cat > gh-pages_index.html <<EOF
-          <!DOCTYPE html>
-          <html lang="it">
-          <head>
-            <meta charset="UTF-8">
-            <title>Registro SPID - Metadata Validati</title>
-            <style>
-              body { font-family: Arial, sans-serif; margin: 2em; background: #f9f9f9; }
-              h1 { color: #2c3e50; }
-              table { border-collapse: collapse; width: 100%; margin-top: 1em; }
-              th, td { padding: 8px 12px; border: 1px solid #ccc; }
-              th { background: #34495e; color: #fff; text-align: left; }
-              tr:nth-child(even) { background: #ecf0f1; }
-              .footer { margin-top: 2em; font-size: 0.9em; color: #777; }
-              #searchBox { margin: 1em 0; padding: 8px; width: 100%; max-width: 400px; }
-              .valid { color: green; font-weight: bold; }
-              .invalid { color: red; font-weight: bold; }
-            </style>
-            <script>
-              function searchTable() {
-                let input = document.getElementById("searchBox").value.toLowerCase();
-                let rows = document.querySelectorAll("#metadataTable tbody tr");
-                rows.forEach(row => {
-                  let filename = row.cells[0].textContent.toLowerCase();
-                  let status = row.cells[1].textContent.toLowerCase();
-                  let date = row.cells[2].textContent.toLowerCase();
-                  row.style.display = (filename.includes(input) || status.includes(input) || date.includes(input)) ? "" : "none";
-                });
-              }
-            </script>
-          </head>
-          <body>
-            <h1>Registro SPID - Metadata ✅❌</h1>
-            <p>Questa pagina elenca tutti i metadata presenti e il risultato dell’ultima validazione.</p>
+<!DOCTYPE html>
+<html lang="it">
+<head>
+<meta charset="UTF-8">
+<title>Registro SPID - Metadata</title>
 
-            <h2>Riepilogo validazione</h2>
-            <table>
-              <tr><th>Validi</th><td>$VALID</td></tr>
-              <tr><th>Invalidi</th><td>$INVALID</td></tr>
-              <tr><th>Totali</th><td>$TOTAL</td></tr>
-            </table>
+<style>
+body { font-family: Arial; margin: 2em; background:#f4f6f9; }
+h1 { color:#2c3e50; }
+.badge { padding:6px 12px; border-radius:20px; color:white; font-weight:bold; }
+.green { background:#27ae60; }
+.red { background:#c0392b; }
+.gray { background:#7f8c8d; }
+table { border-collapse: collapse; width:100%; margin-top:1em; }
+th, td { padding:10px; border:1px solid #ddd; }
+th { background:#34495e; color:white; cursor:pointer; }
+tr:nth-child(even) { background:#ecf0f1; }
+.valid { color:#27ae60; font-weight:bold; }
+.invalid { color:#c0392b; font-weight:bold; }
+.controls { margin:1em 0; }
+input, select { padding:8px; margin-right:10px; }
+.footer { margin-top:2em; font-size:0.9em; color:#777; }
+</style>
 
-            <p><a href="report.log">📄 Scarica il report completo</a></p>
+<script>
+function filterTable() {
+  let input = document.getElementById("searchBox").value.toLowerCase();
+  let showValidOnly = document.getElementById("onlyValid").checked;
+  let rows = document.querySelectorAll("#metadataTable tbody tr");
 
-            <h2>Metadata disponibili</h2>
-            <input type="text" id="searchBox" onkeyup="searchTable()" placeholder="🔍 Cerca per nome, stato o data...">
+  rows.forEach(row => {
+    let text = row.textContent.toLowerCase();
+    let isValid = row.dataset.status === "valid";
 
-            <table id="metadataTable">
-              <thead>
-                <tr>
-                  <th>Nome file</th>
-                  <th>Stato</th>
-                  <th>Ultima validazione</th>
-                </tr>
-              </thead>
-              <tbody>
-          EOF
+    let matchSearch = text.includes(input);
+    let matchValid = !showValidOnly || isValid;
+
+    row.style.display = (matchSearch && matchValid) ? "" : "none";
+  });
+}
+
+function sortTable(col) {
+  let table = document.getElementById("metadataTable");
+  let rows = Array.from(table.rows).slice(1);
+  let asc = table.dataset.sortDir !== "asc";
+  table.dataset.sortDir = asc ? "asc" : "desc";
+
+  rows.sort((a,b)=>{
+    let x = a.cells[col].innerText.toLowerCase();
+    let y = b.cells[col].innerText.toLowerCase();
+    return asc ? x.localeCompare(y) : y.localeCompare(x);
+  });
+
+  rows.forEach(r => table.tBodies[0].appendChild(r));
+}
+</script>
+</head>
+<body>
+
+<h1>Registro SPID - Metadata</h1>
+
+<div>
+<span class="badge green">Validi: $VALID</span>
+<span class="badge red">Non validi: $INVALID</span>
+<span class="badge gray">Totale: $TOTAL</span>
+</div>
+
+<p><a href="report.log">📄 Scarica il report completo</a></p>
+
+<div class="controls">
+<input type="text" id="searchBox" onkeyup="filterTable()" placeholder="🔍 Cerca metadata...">
+<label>
+<input type="checkbox" id="onlyValid" onchange="filterTable()">
+ Mostra solo validi
+</label>
+</div>
+
+<table id="metadataTable">
+<thead>
+<tr>
+<th onclick="sortTable(0)">Nome file</th>
+<th onclick="sortTable(1)">Stato</th>
+<th onclick="sortTable(2)">Ultima validazione</th>
+</tr>
+</thead>
+<tbody>
+EOF
 
           DATE=$(date +"%Y-%m-%d")
 
           for f in metadata/*.xml; do
             BASENAME=$(basename "$f")
             if [ -f validated/"$BASENAME" ]; then
-              STATUS="<span class='valid'>OK</span>"
-              LINK="validated/$BASENAME"
+              STATUS="<span class='valid'>Valido</span>"
+              LINK="<a href=\"validated/$BASENAME\">$BASENAME</a>"
+              DATA_STATUS="valid"
             else
-              STATUS="<span class='invalid'>KO</span>"
-              LINK="metadata/$BASENAME"
+              STATUS="<span class='invalid'>Non valido</span>"
+              LINK="$BASENAME"
+              DATA_STATUS="invalid"
             fi
-            echo "<tr><td><a href=\"$LINK\">$BASENAME</a></td><td>$STATUS</td><td>$DATE</td></tr>" >> gh-pages_index.html
+            echo "<tr data-status=\"$DATA_STATUS\"><td>$LINK</td><td>$STATUS</td><td>$DATE</td></tr>" >> gh-pages_index.html
           done
 
           cat >> gh-pages_index.html <<'EOF'
-              </tbody>
-            </table>
+</tbody>
+</table>
 
-            <div class="footer">
-              Generato automaticamente dal workflow GitHub Actions →
-              <code>gh-pages</code>
-            </div>
-          </body>
-          </html>
-          EOF
+<div class="footer">
+Generato automaticamente da GitHub Actions → branch gh-pages
+</div>
+
+</body>
+</html>
+EOF
 
           cp -r validated reports gh-pages_index.html .gh-pages-tmp/
-
-
-
-
-
       
 
 
