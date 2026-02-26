@@ -64,128 +64,30 @@ jobs:
           VALID=$(cat .gh-pages-tmp/valid_count)
           INVALID=$(cat .gh-pages-tmp/invalid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
-
-          cat > gh-pages_index.html <<EOF
-<!DOCTYPE html>
-<html lang="it">
-<head>
-<meta charset="UTF-8">
-<title>Registro SPID - Metadata</title>
-
-<style>
-body { font-family: Arial; margin: 2em; background:#f4f6f9; }
-h1 { color:#2c3e50; }
-.badge { padding:6px 12px; border-radius:20px; color:white; font-weight:bold; }
-.green { background:#27ae60; }
-.red { background:#c0392b; }
-.gray { background:#7f8c8d; }
-table { border-collapse: collapse; width:100%; margin-top:1em; }
-th, td { padding:10px; border:1px solid #ddd; }
-th { background:#34495e; color:white; cursor:pointer; }
-tr:nth-child(even) { background:#ecf0f1; }
-.valid { color:#27ae60; font-weight:bold; }
-.invalid { color:#c0392b; font-weight:bold; }
-.controls { margin:1em 0; }
-input, select { padding:8px; margin-right:10px; }
-.footer { margin-top:2em; font-size:0.9em; color:#777; }
-</style>
-
-<script>
-function filterTable() {
-  let input = document.getElementById("searchBox").value.toLowerCase();
-  let showValidOnly = document.getElementById("onlyValid").checked;
-  let rows = document.querySelectorAll("#metadataTable tbody tr");
-
-  rows.forEach(row => {
-    let text = row.textContent.toLowerCase();
-    let isValid = row.dataset.status === "valid";
-
-    let matchSearch = text.includes(input);
-    let matchValid = !showValidOnly || isValid;
-
-    row.style.display = (matchSearch && matchValid) ? "" : "none";
-  });
-}
-
-function sortTable(col) {
-  let table = document.getElementById("metadataTable");
-  let rows = Array.from(table.rows).slice(1);
-  let asc = table.dataset.sortDir !== "asc";
-  table.dataset.sortDir = asc ? "asc" : "desc";
-
-  rows.sort((a,b)=>{
-    let x = a.cells[col].innerText.toLowerCase();
-    let y = b.cells[col].innerText.toLowerCase();
-    return asc ? x.localeCompare(y) : y.localeCompare(x);
-  });
-
-  rows.forEach(r => table.tBodies[0].appendChild(r));
-}
-</script>
-</head>
-<body>
-
-<h1>Registro SPID - Metadata</h1>
-
-<div>
-<span class="badge green">Validi: $VALID</span>
-<span class="badge red">Non validi: $INVALID</span>
-<span class="badge gray">Totale: $TOTAL</span>
-</div>
-
-<p><a href="report.log">📄 Scarica il report completo</a></p>
-
-<div class="controls">
-<input type="text" id="searchBox" onkeyup="filterTable()" placeholder="🔍 Cerca metadata...">
-<label>
-<input type="checkbox" id="onlyValid" onchange="filterTable()">
- Mostra solo validi
-</label>
-</div>
-
-<table id="metadataTable">
-<thead>
-<tr>
-<th onclick="sortTable(0)">Nome file</th>
-<th onclick="sortTable(1)">Stato</th>
-<th onclick="sortTable(2)">Ultima validazione</th>
-</tr>
-</thead>
-<tbody>
-EOF
-
           DATE=$(date +"%Y-%m-%d")
+
+          ROWS=""
 
           for f in metadata/*.xml; do
             BASENAME=$(basename "$f")
             if [ -f validated/"$BASENAME" ]; then
               STATUS="<span class='valid'>Valido</span>"
               LINK="<a href=\"validated/$BASENAME\">$BASENAME</a>"
-              DATA_STATUS="valid"
             else
               STATUS="<span class='invalid'>Non valido</span>"
               LINK="$BASENAME"
-              DATA_STATUS="invalid"
             fi
-            echo "<tr data-status=\"$DATA_STATUS\"><td>$LINK</td><td>$STATUS</td><td>$DATE</td></tr>" >> gh-pages_index.html
+            ROWS="$ROWS<tr><td>$LINK</td><td>$STATUS</td><td>$DATE</td></tr>"
           done
 
-          cat >> gh-pages_index.html <<'EOF'
-</tbody>
-</table>
+          cp templates/index_template.html gh-pages_index.html
 
-<div class="footer">
-Generato automaticamente da GitHub Actions → branch gh-pages
-</div>
-
-</body>
-</html>
-EOF
+          sed -i "s/{{VALID}}/$VALID/g" gh-pages_index.html
+          sed -i "s/{{INVALID}}/$INVALID/g" gh-pages_index.html
+          sed -i "s/{{TOTAL}}/$TOTAL/g" gh-pages_index.html
+          sed -i "s|{{ROWS}}|$ROWS|g" gh-pages_index.html
 
           cp -r validated reports gh-pages_index.html .gh-pages-tmp/
-      
-
-
       - name: Setup Git user
         run: |
           git config user.name "github-actions[bot]"
