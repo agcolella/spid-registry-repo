@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion" ID="ID_c878aab6-1ac3-43ed-8672-308678a02c21" entityID="https://sso.anticorruzione.it">
+    <dsig:Signature xmlns:dsig="http://www.w3.org/2000/09/xmldsig#">
+        <dsig:SignedInfo>
+            <dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <dsig:Reference URI="#ID_c878aab6-1ac3-43ed-8672-308678a02c21">
+                <dsig:Transforms>
+                    <dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </dsig:Transforms>
+                <dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <dsig:DigestValue>
+                    8jl0UDXorso8yoJ1/kuoO+1BcxYj7j43IvkjGx3XFbI=
+                </dsig:DigestValue>
+            </dsig:Reference>
+        </dsig:SignedInfo>
+        <dsig:SignatureValue>
+            SuTGO0BFt+tZbmnrfV8rfsV5MxvVlJMAOEqfj13W7v3tqa2f5VYgiyPEsCyBqFWnbPyM5nYbzqIjEzE+KbDpA1iYbxEjaFQfBg2BPeMx+iqKyepq82p2K2BAJuAbD4rPqUKuTxtvfPh/BXENXrcVIBI1onZcvEQXMv1pyl9FKu3WNslLI4Nr6F/mlpwJMYWmEfOveuc6jYY4kwKyxYKYlUacMATLAgU3oHBSlWcIxWqZ81tDiwYs2POU6lx3qErhTjBzaKX54NVG+ENQugbryc1xgRVrLXfc8/FE60zmV+hNH2s0e1FXh/JZwJyFhutedtcX11gJ6fBPe95sxs/HCzOv5NOFL5Io25d8b0BjF8YSrCvmMpAk10SwmhwqndCSrlOx/r6/b9iNuPFK587mMokNI2nI8wWuf47wuNUioNtbfg0mytkNqzkUiyT65NnoUmHZACMCZks3MViSrgxOSYgE7XITvH6tnsm2HiL2dgGP/KcgNUTY/9x6G5v4cCVi
+        </dsig:SignatureValue>
+        <dsig:KeyInfo>
+            <dsig:KeyValue>
+                <dsig:RSAKeyValue>
+                    <dsig:Modulus>
+                        0P9fPodl4QIdYSvf1kfHTA+40Tbxs7BrtEPYPaOmRdos41GP0YHBsoKtuxGRurYfYafRUoBJqX/f/biMN3/I6VfdDXU0UsYq+RhvwxO9VYlMYNfhhw1Tt18ii+PtTcGRAtQ4hx7xpHUp9sNjGQrRlcR3Jt3UZJcPV94qK7V2flkeGWlM6TUajziES4FcMw0HtYkcNHFic3+e4Yz9/O2Ob90WCWD3+Rb0m6Y8l+lK2krDI432QbeVrvJQy9zYSzp316sw8sVtIp/xVA0zncNX93pHle6Zs0YNqLRYS5eDl3wE6oXQ3YfCYBWnbJhfO6cgLheFdnMmxiW8rU2snW+B9KlQOcSrCw7v1Zn3vpoo+bkFFP31k5Q7GUl2S3w1C0xoGlXpRwT8EcawiD2W88yOp7zJCmhmpQ4iWW4shYaZIZ3Y6qDuoWALqPGLryitg3Uo/DBkene+PHETuM5oSBOxnm+YfA6E7nnGWRmwe6iDch5SpR7X0s/A3Y6ECeNNLUOf
+                    </dsig:Modulus>
+                    <dsig:Exponent>
+                        AQAB
+                    </dsig:Exponent>
+                </dsig:RSAKeyValue>
+            </dsig:KeyValue>
+        </dsig:KeyInfo>
+    </dsig:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:KeyName>
+                    ANZAWLD6Njkds4-w0JrpLlZ500gXfOX3oOpAUaZ06yM
+                </ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFKDCCA5CgAwIBAgIJANw8Gzd1cD4zMA0GCSqGSIb3DQEBDQUAMIGZMQ0wCwYDVQQDDARBTkFDMQswCQYDVQQGEwJJVDENMAsGA1UEBwwEUm9tYTEVMBMGA1UEYQwMUEE6SVQtY3Z0aWFwMS0wKwYDVQQKDCRBdXRvcml0w4PCoCBOYXppb25hbGUgQW50aWNvcnJ1emlvbmUxJjAkBgNVBFMMHWh0dHBzOi8vc3NvLmFudGljb3JydXppb25lLml0MB4XDTIyMDEyNzExMTYyNloXDTMyMDEyNTExMTYyNlowgZkxDTALBgNVBAMMBEFOQUMxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMRUwEwYDVQRhDAxQQTpJVC1jdnRpYXAxLTArBgNVBAoMJEF1dG9yaXTDg8KgIE5hemlvbmFsZSBBbnRpY29ycnV6aW9uZTEmMCQGA1UEUwwdaHR0cHM6Ly9zc28uYW50aWNvcnJ1emlvbmUuaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDQ/18+h2XhAh1hK9/WR8dMD7jRNvGzsGu0Q9g9o6ZF2izjUY/RgcGygq27EZG6th9hp9FSgEmpf9/9uIw3f8jpV90NdTRSxir5GG/DE71ViUxg1+GHDVO3XyKL4+1NwZEC1DiHHvGkdSn2w2MZCtGVxHcm3dRklw9X3iortXZ+WR4ZaUzpNRqPOIRLgVwzDQe1iRw0cWJzf57hjP387Y5v3RYJYPf5FvSbpjyX6UraSsMjjfZBt5Wu8lDL3NhLOnfXqzDyxW0in/FUDTOdw1f3ekeV7pmzRg2otFhLl4OXfATqhdDdh8JgFadsmF87pyAuF4V2cybGJbytTaydb4H0qVA5xKsLDu/Vmfe+mij5uQUU/fWTlDsZSXZLfDULTGgaVelHBPwRxrCIPZbzzI6nvMkKaGalDiJZbiyFhpkhndjqoO6hYAuo8YuvKK2DdSj8MGR6d748cRO4zmhIE7Geb5h8DoTuecZZGbB7qINyHlKlHtfSz8DdjoQJ400tQ58CAwEAAaNxMG8wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwUgYDVR0gBEswSTAgBgQrTBAGMBgwFgYIKwYBBQUHAgIwChoIYWdJRGNlcnQwJQYGK0wQBAIBMBswGQYIKwYBBQUHAgIwDRoLY2VydF9TUF9QdWIwDQYJKoZIhvcNAQENBQADggGBAKuIns8HNriHqweZm/9foW3cHpA4YYot+ru+9oNoD6LbfjQrGlWNGaUmwOKtjb/D6z5ca+2W/lrI0BUsOduMN9duAOz74yULp6AZW+dflaR0lteInFtGG8Qg3A/rZ1yqzsqYYGa3Ihe/yV0zOUcEKfs5xgFYI2a5X7KJIHc9K0Jvw6CX7jsFqoTsh4ZUCoMbVWE6wgmZgtO0/c+6XAqlU3ubanvNkmJkay6lrnDDuoCP+VjyQmXUn7REQO0LDXE2KKmAYwnqHcTrwGe+eVhyGfXCKYk5B+Rtf3k/eRbZhUXF/JA1vcKqct4Xt2jZ54DOYb11PSWF7uChjxTW8a01kIQ/cipNDV04vcRkHtTS/EbvQ1YAx7VnW3296svKBUrlP97vVJPiv6n2HUggR4gCyJiUW9IM+OoV6SX05fAuoB9wC+I8KmgTZrwKeEpyfOM3+KjzDXqL/SlondCco64qqw6OzKWo8KTxzSuA2Y18HFOTfAqNTW7T11GL/aA3H4m2AA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:KeyName>
+                    w6Lei05gHsLD0LX93Dhu9Z8qAvs8ItYKZUyiaWj3lPU
+                </ds:KeyName>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIClzCCAX8CBgF+m3d7dTANBgkqhkiG9w0BAQsFADAPMQ0wCwYDVQQDDARhbmFjMB4XDTIyMDEyNzEyMTUwNVoXDTMyMDEyNzEyMTY0NVowDzENMAsGA1UEAwwEYW5hYzCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJInGcfUvGmrTyvgJn7Pdyv6AasZv4G1eWJTnTd6xcjpG5ENN8T4Opl/SzlQNycLujF+7DlaxDmQi2zCXvd9tF3UJDaRg6qwd4V9QcnygiWl4pQp0L60co5dLW6TGqBR/fth+cNpLcok29qThJe/w0TaiFxmgT9TLmCWIp1IpAR7fAmE6CcASSGYf+r6RIP/Krq9wAPJnCfrkTc2enpgVUUy0dc2bfNSt5dCP/EpUOSiiTHHn+YxkJx9rAXxhWoes+Y/X3/vfJUqD+3p7fOPLktgw+LyTB8M39swnaLoFhVfbFuRc06+42bUzpmJVYwijMKFuxywum1T3d+wm8ESmWUCAwEAATANBgkqhkiG9w0BAQsFAAOCAQEAUFags2/nSSp1jCjgto6BTkA2EtKrGwsJ4UU5FOPEy6pUBdvEH1d14TIn4eR/3mMn9oYj8gI41iKgMm26gW1dYPGWUiNvi4ROYWiCmC5zne+0kERWdM066UgIRMzIpMXI+sLf5G4i6l+4GHulyjI9IUSzWc46lBOA0IsI4+Yu5yLarXg2S923w6iVKomagyn3kOF4atflz4hf3KNXHA2GEhdUOFGuxOcng1aZhdAAsEhzqtz2KOj0xUTvMunvLjn2OSAboT5G7h0IPGAJScDbqWXoGkGRNowI9EgHks6IcLlwNEPbve7+1Xzm4JvHp9k0OUbR4dEz97URriCo3LFuKA==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.anticorruzione.it/auth/realms/anac/broker/spid/endpoint"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sso.anticorruzione.it/auth/realms/anac/broker/spid/endpoint" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Servizi Anac
+            </md:ServiceName>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Autorità Nazionale Anticorruzione
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            ANAC
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            www.anticorruzione.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">
+                cvtiap
+            </spid:IPACode>
+            <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+        </md:Extensions>
+        <md:Company>
+            Autorità Nazionale Anticorruzione
+        </md:Company>
+        <md:EmailAddress>
+            ufficio.uscp@anticorruzione.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            +39063671
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

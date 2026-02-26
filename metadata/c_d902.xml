@@ -1,0 +1,267 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxfcff63a9-f8cb-0f10-6d71-29edc4dd69df" entityID="https://www.comune.gambugliano.vi.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxfcff63a9-f8cb-0f10-6d71-29edc4dd69df">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    WqhpSbHwhWctLNyoCXw9p0xRNvfKJ/f+H3rUDXIa7jI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+quQuf9rI+lQM+ROVj8PJjSUZJVB9qzzmkzmoztC2GFudDw9EO8Y9ofvt2X02LGzyLLcgjA6iV6xc
+X8xYtAGujRUMts+wMo7Tv0Q+6dDrQL9JK7qEsoUBkiHx4uufFC/S0tn+OphGXLhXzZNjZEMlEOQn
+EjhP6E7ylGYZLBP5zvgFs6APYwfbYblD9a+hKNBhViVkq8dJRgeMByrw2o6p+/G3RJsywkplesX0
+EoSRby205CkuUNmsOlf3YwFaBXmy8MNjSoK+7wEPEeTHZyYRqv8YeGznFWKz1TShXOfhI/HaKl53
+jkb4WhgaZrBruWPcXDBSWyn0wWMxlDefU3Bjng==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+82JZv17q/wg4stP0ux6Ns09fOGTW8VA61m8PnRZ6hx3cWKIWezHDmmEdkqg43Ch6r/SLYx3Q1AI7
+cmhZZK3+NAtMD6lLtKYDyP1LYird4mP6Od72UVHmfu4tOJwZg5mdjrmz4nAsD8ay5Yf/GrOQX5Hu
+5DAJNzTYXnwwgCl+r3wvCI5vNNxhsmkDxZiSfZVCbo4TybvBWA99q1DrSYdNvdMUUw/M8izgtTvX
+Ae2zqJAqzULUedESOjxRboK9JcTcs+K8YpAPV7ovYIiWG6RjbWoV2XPeRziGkdkpYktXO/NJ5WpX
+FTqB36nbNCtcZASTyCbakwBqHaxPLKQfy9pjqw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIEVzCCAz+gAwIBAgIJAOy113ZuzQibMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBH
+YW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDAeFw0yMjAy
+MjExMjE4MzVaFw0zMjAyMjExMjE4MzVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEU
+MBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMG
+A1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAPNiWb9e6v8IOLLT9LsejbNPXzhk1vFQOtZvD50Weocd3FiiFnsxw5phHZKoONwo
+eq/0i2Md0NQCO3JoWWSt/jQLTA+pS7SmA8j9S2Iq3eJj+jne9lFR5n7uLTicGYOZnY65s+JwLA/G
+suWH/xqzkF+R7uQwCTc02F58MIApfq98LwiObzTcYbJpA8WYkn2VQm6OE8m7wVgPfatQ60mHTb3T
+FFMPzPIs4LU71wHts6iQKs1C1HnREjo8UW6CvSXE3LPivGKQD1e6L2CIlhukY21qFdlz3kc4hpHZ
+KWJLVzvzSeVqVxU6gd+p2zQrXGQEk8gm2pMAah2sTyykH8vaY6sCAwEAAaOB3zCB3DAdBgNVHQ4E
+FgQUMrLMiW99shp8yqsiJ0CXLwAcSE0wgawGA1UdIwSBpDCBoYAUMrLMiW99shp8yqsiJ0CXLwAc
+SE2hfqR8MHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlh
+bm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5n
+YW1idWdsaWFuby52aS5pdIIJAOy113ZuzQibMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQAD
+ggEBAMnpwbiFyXZe93ez6nbM+WhLmG2UIzK7UiGrfaB3PKWJSPZ7povg/Ymqgi1HI18YjwBqVw+I
+7NyjFizA3WPq5MBOJnTX7mmQaNeYlbwMCV522qOaim4D5S35GYMFy3x3uShC7LjxgPC3XxpGJTiN
+H/SGUNgKXkGa64A2OySqL0edUPScuqRGLXFEMSOpd0BmzW62B+PQO8/+h1F852LbkPS9ZWrmVEbp
+3KO44UNsZVWmmPdXzIltn/eIdY/LPLMOyz4u2Pik8h5I3IRHsqbjKRZU4oNgYga33yAI4OEi3FqG
+Wx+rzXZQNXhQAWP/1dbyQsqdC4ZlxUybGwTBWAS/i18=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEVzCCAz+gAwIBAgIJAOy113ZuzQibMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDAeFw0yMjAyMjExMjE4MzVaFw0zMjAyMjExMjE4MzVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPNiWb9e6v8IOLLT9LsejbNPXzhk1vFQOtZvD50Weocd3FiiFnsxw5phHZKoONwoeq/0i2Md0NQCO3JoWWSt/jQLTA+pS7SmA8j9S2Iq3eJj+jne9lFR5n7uLTicGYOZnY65s+JwLA/GsuWH/xqzkF+R7uQwCTc02F58MIApfq98LwiObzTcYbJpA8WYkn2VQm6OE8m7wVgPfatQ60mHTb3TFFMPzPIs4LU71wHts6iQKs1C1HnREjo8UW6CvSXE3LPivGKQD1e6L2CIlhukY21qFdlz3kc4hpHZKWJLVzvzSeVqVxU6gd+p2zQrXGQEk8gm2pMAah2sTyykH8vaY6sCAwEAAaOB3zCB3DAdBgNVHQ4EFgQUMrLMiW99shp8yqsiJ0CXLwAcSE0wgawGA1UdIwSBpDCBoYAUMrLMiW99shp8yqsiJ0CXLwAcSE2hfqR8MHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdIIJAOy113ZuzQibMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMnpwbiFyXZe93ez6nbM+WhLmG2UIzK7UiGrfaB3PKWJSPZ7povg/Ymqgi1HI18YjwBqVw+I7NyjFizA3WPq5MBOJnTX7mmQaNeYlbwMCV522qOaim4D5S35GYMFy3x3uShC7LjxgPC3XxpGJTiNH/SGUNgKXkGa64A2OySqL0edUPScuqRGLXFEMSOpd0BmzW62B+PQO8/+h1F852LbkPS9ZWrmVEbp3KO44UNsZVWmmPdXzIltn/eIdY/LPLMOyz4u2Pik8h5I3IRHsqbjKRZU4oNgYga33yAI4OEi3FqGWx+rzXZQNXhQAWP/1dbyQsqdC4ZlxUybGwTBWAS/i18=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEVzCCAz+gAwIBAgIJAOy113ZuzQibMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDAeFw0yMjAyMjExMjE4MzVaFw0zMjAyMjExMjE4MzVaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPNiWb9e6v8IOLLT9LsejbNPXzhk1vFQOtZvD50Weocd3FiiFnsxw5phHZKoONwoeq/0i2Md0NQCO3JoWWSt/jQLTA+pS7SmA8j9S2Iq3eJj+jne9lFR5n7uLTicGYOZnY65s+JwLA/GsuWH/xqzkF+R7uQwCTc02F58MIApfq98LwiObzTcYbJpA8WYkn2VQm6OE8m7wVgPfatQ60mHTb3TFFMPzPIs4LU71wHts6iQKs1C1HnREjo8UW6CvSXE3LPivGKQD1e6L2CIlhukY21qFdlz3kc4hpHZKWJLVzvzSeVqVxU6gd+p2zQrXGQEk8gm2pMAah2sTyykH8vaY6sCAwEAAaOB3zCB3DAdBgNVHQ4EFgQUMrLMiW99shp8yqsiJ0CXLwAcSE0wgawGA1UdIwSBpDCBoYAUMrLMiW99shp8yqsiJ0CXLwAcSE2hfqR8MHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTEUMBIGA1UEBxMLR2FtYnVnbGlhbm8xHjAcBgNVBAoTFUNvbXVuZSBkaSBHYW1idWdsaWFubzElMCMGA1UEAxMcd3d3LmNvbXVuZS5nYW1idWdsaWFuby52aS5pdIIJAOy113ZuzQibMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAMnpwbiFyXZe93ez6nbM+WhLmG2UIzK7UiGrfaB3PKWJSPZ7povg/Ymqgi1HI18YjwBqVw+I7NyjFizA3WPq5MBOJnTX7mmQaNeYlbwMCV522qOaim4D5S35GYMFy3x3uShC7LjxgPC3XxpGJTiNH/SGUNgKXkGa64A2OySqL0edUPScuqRGLXFEMSOpd0BmzW62B+PQO8/+h1F852LbkPS9ZWrmVEbp3KO44UNsZVWmmPdXzIltn/eIdY/LPLMOyz4u2Pik8h5I3IRHsqbjKRZU4oNgYga33yAI4OEi3FqGWx+rzXZQNXhQAWP/1dbyQsqdC4ZlxUybGwTBWAS/i18=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.gambugliano.vi.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.gambugliano.vi.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Gambugliano
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Gambugliano
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.gambugliano.vi.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_d902
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Gambugliano
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            anagrafe@comune.gambugliano.vi.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

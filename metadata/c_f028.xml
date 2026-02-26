@@ -1,0 +1,368 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx73777561-fe05-857e-7183-d9da4d09414e" entityID="https://massalengo.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx73777561-fe05-857e-7183-d9da4d09414e">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    XLlJ3Cc57tHWFzO/a2HAoHcVc+yuAJ7CP73eWwfog58=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+dr6ncY5Pn5D9XG0hhHieFfdKKtcCeFST/VnfUKhf6erifvUFJBoXMVxJYvSEMyYIsEKf48wFZJgb
+1rWG3P+Pj7uRo3Otu6CA1xGt2IZBuDYA8ssGT+mj2C8gX73ZF+l/yPNpbeOTgSub68676MZk+kiS
+QBYaQcvYBwHwpD8IpvKwBg1uxYs/46LGh5DXJnO7mszDkrHafGlTzHvHJFh7TUefGD7gBz40Gfg2
+q1p0R09w+lxORkpwUmF7ql80Wxeou3d4VI6CDojwYVMdU7kcTKF6UwVNtweB3RihreTs3WJgYvXF
+q1qYETy1lHDOVFVLPua6XbEeVtKeZPOKYtCaIw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+w5+cKZzD4QPSKoFQKoCTpmT/nflhSuji9J52SysYyScA1d70MNbkCa5fky6pUOc+d/2sOek/OfAI
+utSyz2LywR2BdBTMt5fZ4lN7KBn7c8x2jksk2ETB/crDZv9x1T/D/+BDTphS4KvTAT96j2GkuTsz
+dKklvUppvPA4iG84nm0RI7RojxXfHQdvHplQTKqlC8vOTx1QW89WOg3zshAeAmBJdETSfiJOGyyV
+Y9/CZhwwt44h1kB7UTMDGS43okCSH5tAJft/iJcejlYrFQlNMVnBQkl5djxPI0Ix7lt1z7gdc1KO
+Qzu5vWWaxTT19yMg4CnL5opEZaT+jTSFH6tKFQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDuTCCAqGgAwIBAgIJAPAvcPAt1SgNMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1h
+c3NhbGVuZ28xIDAeBgNVBAMMF21hc3NhbGVuZ28uaGFsbGV5d2ViLml0MB4XDTIxMDkyMzE2MjEy
+NloXDTMxMDkyMzE2MjEyNlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQH
+DApNYXNzYWxlbmdvMR0wGwYDVQQKDBRDb211bmUgZGkgTWFzc2FsZW5nbzEgMB4GA1UEAwwXbWFz
+c2FsZW5nby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDn5wp
+nMPhA9IqgVAqgJOmZP+d+WFK6OL0nnZLKxjJJwDV3vQw1uQJrl+TLqlQ5z53/aw56T858Ai61LLP
+YvLBHYF0FMy3l9niU3soGftzzHaOSyTYRMH9ysNm/3HVP8P/4ENOmFLgq9MBP3qPYaS5OzN0qSW9
+Smm88DiIbziebREjtGiPFd8dB28emVBMqqULy85PHVBbz1Y6DfOyEB4CYEl0RNJ+Ik4bLJVj38Jm
+HDC3jiHWQHtRMwMZLjeiQJIfm0Al+3+Ilx6OVisVCU0xWcFCSXl2PE8jQjHuW3XPuB1zUo5DO7m9
+ZZrFNPX3IyDgKcvmikRlpP6NNIUfq0oVAgMBAAGjUDBOMB0GA1UdDgQWBBTXBDlC4cTsQVTktu6B
+MWusK9mzeDAfBgNVHSMEGDAWgBTXBDlC4cTsQVTktu6BMWusK9mzeDAMBgNVHRMEBTADAQH/MA0G
+CSqGSIb3DQEBCwUAA4IBAQBdw+SSxm3YD9y5041MILHyS29HBHkVQRDcRKZks6ilx08jN9mXSDJ4
+cLaR/2c58eZs3BvRx4un0a+boDSSjtJ32voxQ1LSyIH9Y6jSQuJfPIfBzdEwO5hAyswzoRz+KIts
+JvIRQDTLIUZkWEM1mBHk5C0sxB3jb5bCLcMQyBh9kSkdSU971VKsYzgY45J+ByXbMrtoIcPGbg5m
+SsanSYUE+SlE9pBzq2Ns/ow8bPRbD2UVG6CUUqZ+Hm7Qec2RVYiAzeAdCpCZ8YqzlZwv4eI7hC3G
++MqGHP6rDg02fCdKB8CryOwlxyON1zJoBDSUhSAcBMHNTDAoc9GoNA3VWe69
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDuTCCAqGgAwIBAgIJAPAvcPAt1SgNMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xIDAeBgNVBAMMF21hc3NhbGVuZ28uaGFsbGV5d2ViLml0MB4XDTIxMDkyMzE2MjEyNloXDTMxMDkyMzE2MjEyNlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApNYXNzYWxlbmdvMR0wGwYDVQQKDBRDb211bmUgZGkgTWFzc2FsZW5nbzEgMB4GA1UEAwwXbWFzc2FsZW5nby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDn5wpnMPhA9IqgVAqgJOmZP+d+WFK6OL0nnZLKxjJJwDV3vQw1uQJrl+TLqlQ5z53/aw56T858Ai61LLPYvLBHYF0FMy3l9niU3soGftzzHaOSyTYRMH9ysNm/3HVP8P/4ENOmFLgq9MBP3qPYaS5OzN0qSW9Smm88DiIbziebREjtGiPFd8dB28emVBMqqULy85PHVBbz1Y6DfOyEB4CYEl0RNJ+Ik4bLJVj38JmHDC3jiHWQHtRMwMZLjeiQJIfm0Al+3+Ilx6OVisVCU0xWcFCSXl2PE8jQjHuW3XPuB1zUo5DO7m9ZZrFNPX3IyDgKcvmikRlpP6NNIUfq0oVAgMBAAGjUDBOMB0GA1UdDgQWBBTXBDlC4cTsQVTktu6BMWusK9mzeDAfBgNVHSMEGDAWgBTXBDlC4cTsQVTktu6BMWusK9mzeDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBdw+SSxm3YD9y5041MILHyS29HBHkVQRDcRKZks6ilx08jN9mXSDJ4cLaR/2c58eZs3BvRx4un0a+boDSSjtJ32voxQ1LSyIH9Y6jSQuJfPIfBzdEwO5hAyswzoRz+KItsJvIRQDTLIUZkWEM1mBHk5C0sxB3jb5bCLcMQyBh9kSkdSU971VKsYzgY45J+ByXbMrtoIcPGbg5mSsanSYUE+SlE9pBzq2Ns/ow8bPRbD2UVG6CUUqZ+Hm7Qec2RVYiAzeAdCpCZ8YqzlZwv4eI7hC3G+MqGHP6rDg02fCdKB8CryOwlxyON1zJoBDSUhSAcBMHNTDAoc9GoNA3VWe69
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIDuTCCAqGgAwIBAgIJAPAvcPAt1SgNMA0GCSqGSIb3DQEBCwUAMHMxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xIDAeBgNVBAMMF21hc3NhbGVuZ28uaGFsbGV5d2ViLml0MB4XDTIxMDkyMzE2MjEyNloXDTMxMDkyMzE2MjEyNlowczELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRMwEQYDVQQHDApNYXNzYWxlbmdvMR0wGwYDVQQKDBRDb211bmUgZGkgTWFzc2FsZW5nbzEgMB4GA1UEAwwXbWFzc2FsZW5nby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDDn5wpnMPhA9IqgVAqgJOmZP+d+WFK6OL0nnZLKxjJJwDV3vQw1uQJrl+TLqlQ5z53/aw56T858Ai61LLPYvLBHYF0FMy3l9niU3soGftzzHaOSyTYRMH9ysNm/3HVP8P/4ENOmFLgq9MBP3qPYaS5OzN0qSW9Smm88DiIbziebREjtGiPFd8dB28emVBMqqULy85PHVBbz1Y6DfOyEB4CYEl0RNJ+Ik4bLJVj38JmHDC3jiHWQHtRMwMZLjeiQJIfm0Al+3+Ilx6OVisVCU0xWcFCSXl2PE8jQjHuW3XPuB1zUo5DO7m9ZZrFNPX3IyDgKcvmikRlpP6NNIUfq0oVAgMBAAGjUDBOMB0GA1UdDgQWBBTXBDlC4cTsQVTktu6BMWusK9mzeDAfBgNVHSMEGDAWgBTXBDlC4cTsQVTktu6BMWusK9mzeDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBdw+SSxm3YD9y5041MILHyS29HBHkVQRDcRKZks6ilx08jN9mXSDJ4cLaR/2c58eZs3BvRx4un0a+boDSSjtJ32voxQ1LSyIH9Y6jSQuJfPIfBzdEwO5hAyswzoRz+KItsJvIRQDTLIUZkWEM1mBHk5C0sxB3jb5bCLcMQyBh9kSkdSU971VKsYzgY45J+ByXbMrtoIcPGbg5mSsanSYUE+SlE9pBzq2Ns/ow8bPRbD2UVG6CUUqZ+Hm7Qec2RVYiAzeAdCpCZ8YqzlZwv4eI7hC3G+MqGHP6rDg02fCdKB8CryOwlxyON1zJoBDSUhSAcBMHNTDAoc9GoNA3VWe69
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIEZTCCA02gAwIBAgIUbUoIbXGgO6TeTcqvwnJ7Oe9QGxswDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xHTAbBgNVBAsMFENvbXVuZSBkaSBNYXNzYWxlbmdvMS8wLQYDVQQDDCZodHRwczovL3dlYmFwcC5jb211bmUubWFzc2FsZW5nby5sby5pdDEVMBMGA1UEBRMMUEE6SVQtYy1mMDI4MB4XDTIxMDYxNzE1MDM1M1oXDTIyMDYxNzE1MDM1M1owgbgxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xHTAbBgNVBAsMFENvbXVuZSBkaSBNYXNzYWxlbmdvMS8wLQYDVQQDDCZodHRwczovL3dlYmFwcC5jb211bmUubWFzc2FsZW5nby5sby5pdDEVMBMGA1UEBRMMUEE6SVQtYy1mMDI4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+azSF66kerOu6ESnnLNyValkMWmLJ/kcSRuxo5VGdi9fMG3Ng1vXnuzk0GgEtxt9FZvtf+iCO/rV2Cgi+hCGdwl5GUXB0ZgzPTW66rQJPK7IoFKcAr87i8Hz4i5NEtH9AzPKqwuMkpwlr6tGfeNif6fPCO487HsbIcPLxoSQNBhv+q273D01NhTGsL48+3yVM8kCL/codbKFlnLqU0kcfLm3ZbKXVKKqHtotS9Qposrzef3FLaHDduvV7OlAVEkFsvDZx5xtS+RLsQI8r5SDnOD10dLAFazYPXaKVr052bMzmzDNEb/ii5X1M/+lH8a1lGkhBgRLH01V/3flTSUKwIDAQABo2UwYzAdBgNVHQ4EFgQUF+Un1ApNygKClrJMXMOeXL+Ah9owHwYDVR0jBBgwFoAUF+Un1ApNygKClrJMXMOeXL+Ah9owDAYDVR0TBAUwAwEB/zATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEANoCWWSmlZBhsORXPL41JKe12qfoULJ3/gbbTBRUeg/R1P7He6YVxXRCkoJUnWfXxKToyMlb+U75zcqraYN/HfV0L3nNZ7Ece/Va1Z4knTRdQ6BQdxUDCvyMre591sD07WYfJDdWFWl92XP65jGFmP3ivaxvWjs+CbWLTw6oSZPysi8+BGsvKnZ3+MLvMSxNigAbtzFRIOJLozGzDcqF9YyYE+3ljg52JNA7NVuZNhPk5EFZxHo2c21Of1jxS9cEWt2Ms1rioV5Xm5/dwN2mhvfSuPh+nTR3n/IksWCMvq9Z4J4Tb1dv7K0GuYZTn3/8brWk6XRqJI5+ny9DqyTIRlw==
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIIEZTCCA02gAwIBAgIUbUoIbXGgO6TeTcqvwnJ7Oe9QGxswDQYJKoZIhvcNAQELBQAwgbgxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xHTAbBgNVBAsMFENvbXVuZSBkaSBNYXNzYWxlbmdvMS8wLQYDVQQDDCZodHRwczovL3dlYmFwcC5jb211bmUubWFzc2FsZW5nby5sby5pdDEVMBMGA1UEBRMMUEE6SVQtYy1mMDI4MB4XDTIxMDYxNzE1MDM1M1oXDTIyMDYxNzE1MDM1M1owgbgxCzAJBgNVBAYTAml0MQ4wDAYDVQQIDAVJdGFseTETMBEGA1UEBwwKTWFzc2FsZW5nbzEdMBsGA1UECgwUQ29tdW5lIGRpIE1hc3NhbGVuZ28xHTAbBgNVBAsMFENvbXVuZSBkaSBNYXNzYWxlbmdvMS8wLQYDVQQDDCZodHRwczovL3dlYmFwcC5jb211bmUubWFzc2FsZW5nby5sby5pdDEVMBMGA1UEBRMMUEE6SVQtYy1mMDI4MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAw+azSF66kerOu6ESnnLNyValkMWmLJ/kcSRuxo5VGdi9fMG3Ng1vXnuzk0GgEtxt9FZvtf+iCO/rV2Cgi+hCGdwl5GUXB0ZgzPTW66rQJPK7IoFKcAr87i8Hz4i5NEtH9AzPKqwuMkpwlr6tGfeNif6fPCO487HsbIcPLxoSQNBhv+q273D01NhTGsL48+3yVM8kCL/codbKFlnLqU0kcfLm3ZbKXVKKqHtotS9Qposrzef3FLaHDduvV7OlAVEkFsvDZx5xtS+RLsQI8r5SDnOD10dLAFazYPXaKVr052bMzmzDNEb/ii5X1M/+lH8a1lGkhBgRLH01V/3flTSUKwIDAQABo2UwYzAdBgNVHQ4EFgQUF+Un1ApNygKClrJMXMOeXL+Ah9owHwYDVR0jBBgwFoAUF+Un1ApNygKClrJMXMOeXL+Ah9owDAYDVR0TBAUwAwEB/zATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAQEANoCWWSmlZBhsORXPL41JKe12qfoULJ3/gbbTBRUeg/R1P7He6YVxXRCkoJUnWfXxKToyMlb+U75zcqraYN/HfV0L3nNZ7Ece/Va1Z4knTRdQ6BQdxUDCvyMre591sD07WYfJDdWFWl92XP65jGFmP3ivaxvWjs+CbWLTw6oSZPysi8+BGsvKnZ3+MLvMSxNigAbtzFRIOJLozGzDcqF9YyYE+3ljg52JNA7NVuZNhPk5EFZxHo2c21Of1jxS9cEWt2Ms1rioV5Xm5/dwN2mhvfSuPh+nTR3n/IksWCMvq9Z4J4Tb1dv7K0GuYZTn3/8brWk6XRqJI5+ny9DqyTIRlw==
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://webapp.comune.massalengo.lo.it/GolemLogin/SAML/SLOService.aspx"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://massalengo.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://webapp.comune.massalengo.lo.it/GolemLogin/SAML/AssertionConsumerService.aspx" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://massalengo.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Classe1
+            </md:ServiceName>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Classe2
+            </md:ServiceName>
+            
+   	
+            <md:RequestedAttribute Name="familyName"/>
+            
+   	
+            <md:RequestedAttribute Name="name"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+   	
+            <md:RequestedAttribute Name="gender"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+   	
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+   	
+            <md:RequestedAttribute Name="email"/>
+            
+   	
+            <md:RequestedAttribute Name="address"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="2">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Massalengo
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Massalengo
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://comune.massalengo.lo.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f028
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Massalengo
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            protocollo@comune.massalengo.lo.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
