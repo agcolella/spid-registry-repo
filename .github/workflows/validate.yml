@@ -129,10 +129,10 @@ jobs:
           for f in metadata/*.xml; do
             BASENAME=$(basename "$f")
             if [ -f validated/"$BASENAME" ]; then
-              STATUS="<span class='valid'>Valido</span>"
+              STATUS="<span class='valid'>OK</span>"
               LINK="validated/$BASENAME"
             else
-              STATUS="<span class='invalid'>Non valido</span>"
+              STATUS="<span class='invalid'>KO</span>"
               LINK="metadata/$BASENAME"
             fi
             echo "<tr><td><a href=\"$LINK\">$BASENAME</a></td><td>$STATUS</td><td>$DATE</td></tr>" >> gh-pages_index.html
