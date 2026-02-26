@@ -1,0 +1,129 @@
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="_681a637-6cd4-434f-92c3-4fed720b2ad8" entityID="https://prod.auth.cbim.it/pub-op-full" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions">
+
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_681a637-6cd4-434f-92c3-4fed720b2ad8">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Y4IGc7sNGQiuWs7n1QbFckuIcabKVRD/VqLcj+FN3dE=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>LwQGyAteSAqlV48b7gmpo1lw43W0Wejjgw3Mujt+/4o5U8MZBMa/Svm+a9xko81V
+acDEf4/0dysTS5qNN/4iW1v4pfzeUq/3x+dy4Oip7/4uQsAz0iHIQVgASf/KrXZf
+k78o8YqmCGlSZcd5jhhMQ7YWN/0VMR23IhAFsjPV9ESDtXGbSVLZJu7iR0jK7mG+
+GBsWdOfHicWnuAmB/PjPtza5eVpONQ8QlhEs/6EICXK0TTW7Dt2xmx/iiPrdPFGh
+o+BJeyKEmD6dfodBmin7w+p6Hh6maHSOemViKUiQQCukTh/b4XfKJ3NjKMaMuLLR
+si8mJ/pXMiojLaDvF7bEaA==</ds:SignatureValue>
+<ds:KeyInfo><ds:KeyName>*.cbim.it</ds:KeyName><ds:X509Data><ds:X509SubjectName>2.5.4.83=#0C2568747470733A2F2F70726F642E617574682E6362696D2E69742F7075622D6F702D66756C6C,organizationIdentifier=VATIT-01515320180,emailAddress=a.stoppini@cbim.it,CN=*.cbim.it,OU=DT,O=CBIM,L=PAVIA,ST=ITALY,C=IT</ds:X509SubjectName><ds:X509Certificate>MIIICzCCBfOgAwIBAgIICTmtGA/rUeYwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEsMCoGA1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dldHRvIFNQSUQgLSBTb2dnZXR0aV9w
+dWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5nb3Yu
+aXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkzMDAwMDAwMFoX
+DTM2MDkyOTIzNTk1OVowgcwxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJVEFMWTEO
+MAwGA1UEBwwFUEFWSUExDTALBgNVBAoMBENCSU0xCzAJBgNVBAsMAkRUMRIwEAYD
+VQQDDAkqLmNiaW0uaXQxITAfBgkqhkiG9w0BCQEWEmEuc3RvcHBpbmlAY2JpbS5p
+dDEaMBgGA1UEYQwRVkFUSVQtMDE1MTUzMjAxODAxLjAsBgNVBFMMJWh0dHBzOi8v
+cHJvZC5hdXRoLmNiaW0uaXQvcHViLW9wLWZ1bGwwggEiMA0GCSqGSIb3DQEBAQUA
+A4IBDwAwggEKAoIBAQCb/wRR0OZrWnqR4lwAySDR+v5lR7i2xXpgOJfngGXRQ1Vt
+LgoEQBCPu59GqSonteM6cQaQJiYkTKEuTcslMVv9/co06ERxPiZ300c8Nm2tsL5p
+51qS+WulqlRpIWiyPbK9+fY2Tg9bhWcMH0biSuzQK2Nc/756CKXg7seaFL2KEO6A
++e93lFK0dkxuRUJY2Ko0HCH1G4xSnxfHxeG16eiSUQElJldQAT5iq2eLU6lGJ5YU
+716f1sEXJ1D0RS/2fMSy4QcYyWKhpuTgdxRdYz6grDulDUVvGU6qlUXjK2J2C9aH
+Dgm09J2E1VEAC2ImOvPyXESE2Wz4VTxQ3VItKmiJAgMBAAGjggLUMIIC0DAMBgNV
+HRMBAf8EAjAAMB0GA1UdDgQWBBSAzxOEIXHFrtF8fY78X2NjR6WsuzAfBgNVHSME
+GDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0S
+BA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6Ly9laWRh
+cy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcB
+AQQrMCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCC
+AdkGA1UdIASCAdAwggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUH
+AgIwOBo2RWxlY3Ryb25pYyBjZXJ0aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJ
+RCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNlcnRpZmljYXRvIGVsZXR0cm9u
+aWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYrTBAEAgIwczA6
+BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMg
+J2Z1bGwnIEFnZ3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcC
+ARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290
+Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRh
+cy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjANBgkq
+hkiG9w0BAQ0FAAOCAgEA06T8v4H5S53q51cYLVEsX+l+au+G82p6Pbnby9Ytv/f+
+78V0JKOOwpk1CyAdaZVAtdF9ryDT1rMIVIBF00uZBpH3P6TF5MBIjDUqTZouP1xn
+huNhVcovQKctjjNC+2hk//Kzr/VFee8LRk9oYau4Q5t3fbUjCKqZME1Hy64F1386
+s7DqsMqt2tjdJpz1g2NKaP1NlNJFTwLaRjIiiZO/saz4LmC2x5ULNUMxpdinvATV
+vXaI8eotVznxbI9gorl8JvrhXX4/eV9AtuO2I3rVV0HQ8hAH3EBAXjPxs+wMqAme
+R+aL91+FexnpbmWPbxT4f/JBPGevq0VNjqe7ErXLnEmdebt77pT1IGW2i5GLAwfB
+Osjv1Aqt65QHgsbQDlfFPTDH7jd1zvE4vh9F/F2l2n66ka8IHa4Uw5OAHJQBF6l5
++g3U7lnebRryB1DcbxKjL6NVEnhrUKU+mcH2JGnMMM+F+fHCo++lqZO0MnBMqMZq
+YDkC9q7eeIxuldFEXkJGsysTcCCOt7oTmEFaErjjZ00xrDJNgUDSADc6Ywl0+toL
+nqIIQ+5/5BfKek96JWXvNKm/HpRGilaJwEK5CmQe1Iq1CC2E42wqp10Yf+jWppQM
+6GYs9+maKf+xOzy99aiWJMXsKLQzHPjOxSH8yU+Kx2i7qpIa2VMUITQspAmv7f4=
+</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>
+MIIEJjCCAo6gAwIBAgIUJx/Q+Sv7U4hTqleflXpu+mXZ2fEwDQYJKoZIhvcNAQEL
+BQAwJzElMCMGA1UEAxMcaHR0cHM6Ly93Zi10ZXN0LmF1dGguY2JpbS5pdDAeFw0y
+MTAyMTExNzI3MDRaFw0zMTAyMDkxNzI3MDRaMCcxJTAjBgNVBAMTHGh0dHBzOi8v
+d2YtdGVzdC5hdXRoLmNiaW0uaXQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGK
+AoIBgQC4YwPAnKMrFSGJLdoinAC2/EmxNj72bs125xRhWjjEj/N4N7ktM5lrU+GN
+6ei5EBKTbpXDrUbvsqidelatxdoE3U55KbVZMIznn6eSgo91y0Cxhi6/LgUQpUgg
+k9E7c8ykYZ894GPJmrRIqx2p/8qENSfPwsIqHwdQBqrzfNHsJ2JNtKSGMdo+02Tc
+DJ0kp7tF1mbsN8NFgIMsTGNB6j+oTeVBz1t+k0sLBQV70BOox/62+S89UhX0iOVV
+z3unwhm+IdW23hpHC0UW+zQaIvnVatwfv7e3gy+KXtfZ4wNiYxfZYeQWgKnCjAkn
+ozxEvMPg4ym5O59X3XNVjuDTqfhha1MbICIugMzo2Af0I9RdWMRgTB0+o7N8Z56U
+5gzgeglnapAwaT8qaRCfKSGhVqESh6l+qrEXtVYb9rxJGBjdhge4UI+K07PoeMe3
+iAx9cnS6lGghTWaqoNrC7YTs0brKPIEqrwCGGDzzuPZixTFhTMdsz+RSHj772rtW
+8t1Vk0MCAwEAAaNKMEgwJwYDVR0RBCAwHoIcaHR0cHM6Ly93Zi10ZXN0LmF1dGgu
+Y2JpbS5pdDAdBgNVHQ4EFgQUMJ02qB681k/uPscE6/9kMvULVtUwDQYJKoZIhvcN
+AQELBQADggGBABlffPYNMQzBBnqVtQZETzvSHhgBAfIhUVQ/H7YbdO+IgOyiQ/yr
+l9y5HYR+67K51I3YnN0Wgbtx5PzgB9QIR3lAgv2WXSeo9K8MAGEtQeL/ZPUDXO+z
+4uyEe2tGH4Uv1R7DbDcZ42IUTyQlXUnjznT44dPGsh0UU8wO9Xxn/Y3BxV/xwiH3
+5czO3+CsrHPC7vdg4v6V+Odr7HA9leQL1bkDCM5virFuDUfIzeGYjW0r9jdOxUhB
+QgkfEJI3NcROxTJwh29AGt7E0wB3ZhcqR5n+BBiaEz5xLKxBRGQRpVCgdTUKaPKK
+pAhC2aYHutztiWSFte4fPgsZq3QwlrSC+M7hzxKAHwjKtQiCGZDrzpoCLQMLGjO+
+gOxKkVGv+ISJxnUTh6QL/xTpOn2LWYtZuoIP3/0lRXTZb6zFC+4A5AzfGWKC+Bkn
+mBwTwomntDoPzJvsNv6iMBEMaSt/H0PDskbZFHAVTH3Wc7AlWYLiPi0A3w3qOYR3
+/e3pfnaEU+W1Kw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://prod.auth.cbim.it/Shibboleth.sso/SLO/POST"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://prod.auth.cbim.it/Shibboleth.sso/SAML2/POST" index="0" isDefault="true"/>
+
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Consorzio di Bioingegneria e Informatica Medica</md:ServiceName>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+    </md:AttributeConsumingService>
+
+  </md:SPSSODescriptor>
+    <md:Organization>
+    <md:OrganizationName xml:lang="it">Consorzio di Bioingegneria e Informatica Medica</md:OrganizationName>         
+    <md:OrganizationDisplayName xml:lang="it">CBIM</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">http://www.cbim.it</md:OrganizationURL>
+  </md:Organization>
+<md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+        <md:Extensions>
+            <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">E6OTW8VC</spid:IPACode> 
+            <spid:VATNumber xmlns:spid="https://spid.gov.it/saml-extensions">IT01515320180</spid:VATNumber> 
+            <spid:FiscalCode xmlns:spid="https://spid.gov.it/saml-extensions">01515320180</spid:FiscalCode> 
+            <spid:PublicServicesFullOperator xmlns:spid="https://spid.gov.it/saml-extensions"/> 
+        </md:Extensions>
+        <md:Company>Consorzio di Bioingegneria e Informatica Medica</md:Company>
+        <md:EmailAddress>ricerca@cbim.it</md:EmailAddress>
+        <md:TelephoneNumber>+390382525100</md:TelephoneNumber>
+    </md:ContactPerson></md:EntityDescriptor>

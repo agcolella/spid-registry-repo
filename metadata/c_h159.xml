@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_828ebc02-bac4-4ad9-adfb-02585a30f2cd" entityID="https://www.comune.raffadali.ag.it">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    USPMXXBL3EiESJ+uGwu0kjd2oKNOdwk4bRXoqsWtn28=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            JPZowxKWe/zFrqh8JytPEj5NxXO3iCmCndv5hNndCvnK4VXhLZH6ZxOeY3S2dP2A1ABt150FFatA
+vdBva4YuO1vt7zSGUNsDilWNmL/fMwY3OkXlR/yQSEy9pZmRivA9jJecytuaSHYjWeUER8O5HuZZ
+v+PDjMN209K+sj6CR6Iw/2mBzX1I1fL4ura0cPG3Q7jwzkgl2YGy1wSUq948KHiDdTUG5rmeWxQc
+PlWi4h1k7NlZIZEf64wm+1aZ3iS2nCxyhow4jfnXrMI8kCem3HVmzF9wlfIUTYmZAvfs4zfTaeaE
+lVibJF6e2Vl9BvBxmOJz/cS27um1bha7mMaIPw==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDoDCCAoigAwIBAgIGAXgQ819uMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTAzMDgwODI4
+MDhaFw0zMDEyMDYwODI4MDhaMHAxKzApBgNVBAMMImh0dHBzOi8vd3d3LmNvbXVuZS5yYWZmYWRh
+bGkuYWcuaXQxCTAHBgNVBAoMADEVMBMGA1UEBRMMUEE6SVQtY19oMTU5MQswCQYDVQQGEwJJVDES
+MBAGA1UEBwwJUmFmZmFkYWxpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzADFudcF
+RfAgutYgIHoRiefQfnyqwTX5+WfKOUQ2pNuD+xd2EvpBQ2s5iBeYVqFcaseFncWdN/ZWJzooV4+3
+Y7HTpXoDfxJmFcG92M7l+c/HyEE2ratmO+zS/kp4UTDDiDGPfM0upXEm1y+nO5Do0QxrCozGMwpo
+IEdrv82IfesHDMXWqVV8hTNz8ScaGSYN7wI0TplBaQMcuwA/6xPdUOXYdm1PVza5Rp6Rln/JBRNG
+82dE+la3cRejy+ZThecKUl00HGnyNZMZHgghPWM0FzXbS3igc9ThAwpGSVXFQLJSK9S6ucUyvfOt
+fiEp7EZm9UxfjyRfI+uirXb5bQENGwIDAQABozkwNzA1BgNVHSAELjAsBgYrTBAEAgEwIjAgBggr
+BgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQELBQADggEBAHrJWrrybxYb
+0R+sSQGe7B0WmKqAzBeJOKsDT0D1ipwBXEKPQTrLlvO/6XreiIWsszB4SKEBagAyJEYgJWcuzrDY
+uTT7OzhdTeDEi040bi26pC6eocqGteAw6YWcGILrGso0hmkiJG+QmpfrRdfPCtpK4/l6tTS5Cp5Y
+0T9GkcTwgycQtVxlcPiBq5e29CdmMZ4iGvF55Jtr73GQY/seYulNs99FhePNA56w3PpuKxD3cqpV
+iO9wDqI5xpai/75hnMVdeseQOxAsAjlnqAU/1Ai8XxA48MO27Kl02GVMp/MTfOT8XI89yHgGzZ2K
+sKYUxjfbPSiinDzUEgla8lffKF8=
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDoDCCAoigAwIBAgIGAXgQ819uMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTAzMDgwODI4
+MDhaFw0zMDEyMDYwODI4MDhaMHAxKzApBgNVBAMMImh0dHBzOi8vd3d3LmNvbXVuZS5yYWZmYWRh
+bGkuYWcuaXQxCTAHBgNVBAoMADEVMBMGA1UEBRMMUEE6SVQtY19oMTU5MQswCQYDVQQGEwJJVDES
+MBAGA1UEBwwJUmFmZmFkYWxpMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAzADFudcF
+RfAgutYgIHoRiefQfnyqwTX5+WfKOUQ2pNuD+xd2EvpBQ2s5iBeYVqFcaseFncWdN/ZWJzooV4+3
+Y7HTpXoDfxJmFcG92M7l+c/HyEE2ratmO+zS/kp4UTDDiDGPfM0upXEm1y+nO5Do0QxrCozGMwpo
+IEdrv82IfesHDMXWqVV8hTNz8ScaGSYN7wI0TplBaQMcuwA/6xPdUOXYdm1PVza5Rp6Rln/JBRNG
+82dE+la3cRejy+ZThecKUl00HGnyNZMZHgghPWM0FzXbS3igc9ThAwpGSVXFQLJSK9S6ucUyvfOt
+fiEp7EZm9UxfjyRfI+uirXb5bQENGwIDAQABozkwNzA1BgNVHSAELjAsBgYrTBAEAgEwIjAgBggr
+BgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0b3ItU1AwDQYJKoZIhvcNAQELBQADggEBAHrJWrrybxYb
+0R+sSQGe7B0WmKqAzBeJOKsDT0D1ipwBXEKPQTrLlvO/6XreiIWsszB4SKEBagAyJEYgJWcuzrDY
+uTT7OzhdTeDEi040bi26pC6eocqGteAw6YWcGILrGso0hmkiJG+QmpfrRdfPCtpK4/l6tTS5Cp5Y
+0T9GkcTwgycQtVxlcPiBq5e29CdmMZ4iGvF55Jtr73GQY/seYulNs99FhePNA56w3PpuKxD3cqpV
+iO9wDqI5xpai/75hnMVdeseQOxAsAjlnqAU/1Ai8XxA48MO27Kl02GVMp/MTfOT8XI89yHgGzZ2K
+sKYUxjfbPSiinDzUEgla8lffKF8=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                SOL
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Raffadali
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Raffadali
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.raffadali.ag.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_h159
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            Comune di Raffadali
+        </md:Company>
+        <md:EmailAddress>
+            salvatoredomenico.danna@comune.raffadali.ag.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

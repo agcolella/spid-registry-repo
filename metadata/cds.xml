@@ -1,0 +1,465 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="ID_bf668ddc-242c-4199-ad80-75e3ccb38e0b" entityID="https://www.giustizia-amministrativa.it">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#ID_bf668ddc-242c-4199-ad80-75e3ccb38e0b">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    dif5LgDfXwpRm9Fd3ROZcN6eW/qE/aKszM7Uj8XJjnI=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+S7S2gAQJ5vgSw8NGHoTtIZ/L0GLM9+40fMRfgHx3AeWfaPn7N4Za70jsH9WkBt7iY6nsDVcZpcHd
+rEBycSD+GxGEU5Ehca+/p0EWGop0xdAjHggwr3eXSMNMBPkEdivpEOFRU9DWbFzJspF3ZKMZorDK
+n8V1m9/IwJZRXOQ7X+Yn6twRFM+Q8zbGH8sT8+C+V2IiNVjzXfL5drBg3M1HMX6P06Pay//OboK0
+WhuHpdfLKvB5UxTy8h38d85a1RZ8mShQyBSnhMZaqDRsL9KOanIYtXBgXw5YVcDjKei1cBcZM/PL
+qQkGvAqUznTH+1QPxyKbsvgovxsyRCaiLCd5EQ==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+1EJvH+qm+4a+//BqeSHGDI/nNutqWVXJzC8PBaTBzvk4Epx6MFxc+c/0NO0avQbsTg7uI3rJqf9+
+d+Jl4EPIXMNW7UGWtoPiUdBq6jRe93g9ME75ofLMkpM1lNqkHXVE36Yheu4RPi9HA09Lw83SCEIy
+vLS0s55m8UL1oQZmaa+X6rpqasing+Fn887omOVqVkswFjqEL7IgnPZvPD3BDXNIK36jBTxnwMYI
+xLuDkNuVOATPbM6kdS0M2p9pZbQOReD+lyWSdCbig7ic3avcirZdoFv7jOSVAep8IiBAzE/+l7Ni
+yIisN9qLJSxCyKi6wqrqDp9dqAGMUa2VciLHUw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIEwDCCA6igAwIBAgIJAPQsHMhBXKVoMA0GCSqGSIb3DQEBCwUAMIHwMUUwQwYDVQQKDDxVZmZp
+Y2kgQW1taW5pc3RyYXRpdmkgZGVsIENvbnNpZ2xpbyBkaSBTdGF0byBlIGRlaSBUVC5BQS5SUi4x
+RTBDBgNVBAMMPFVmZmljaSBBbW1pbmlzdHJhdGl2aSBkZWwgQ29uc2lnbGlvIGRpIFN0YXRvIGUg
+ZGVpIFRULkFBLlJSLjEwMC4GA1UEUwwnaHR0cHM6Ly93d3cuZ2l1c3RpemlhLWFtbWluaXN0cmF0
+aXZhLml0MRIwEAYDVQRhDAlQQTpJVC1jZHMxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMB4X
+DTIxMDEyNjAwNTAwM1oXDTMxMDEyNDAwNTAwM1owgfAxRTBDBgNVBAoMPFVmZmljaSBBbW1pbmlz
+dHJhdGl2aSBkZWwgQ29uc2lnbGlvIGRpIFN0YXRvIGUgZGVpIFRULkFBLlJSLjFFMEMGA1UEAww8
+VWZmaWNpIEFtbWluaXN0cmF0aXZpIGRlbCBDb25zaWdsaW8gZGkgU3RhdG8gZSBkZWkgVFQuQUEu
+UlIuMTAwLgYDVQRTDCdodHRwczovL3d3dy5naXVzdGl6aWEtYW1taW5pc3RyYXRpdmEuaXQxEjAQ
+BgNVBGEMCVBBOklULWNkczELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwggEiMA0GCSqGSIb3
+DQEBAQUAA4IBDwAwggEKAoIBAQDUQm8f6qb7hr7/8Gp5IcYMj+c262pZVcnMLw8FpMHO+TgSnHow
+XFz5z/Q07Rq9BuxODu4jesmp/3534mXgQ8hcw1btQZa2g+JR0GrqNF73eD0wTvmh8sySkzWU2qQd
+dUTfpiF67hE+L0cDT0vDzdIIQjK8tLSznmbxQvWhBmZpr5fqumpqyKeD4WfzzuiY5WpWSzAWOoQv
+siCc9m88PcENc0grfqMFPGfAxgjEu4OQ25U4BM9szqR1LQzan2lltA5F4P6XJZJ0JuKDuJzdq9yK
+tl2gW/uM5JUB6nwiIEDMT/6Xs2LIiKw32oslLELIqLrCquoOn12oAYxRrZVyIsdTAgMBAAGjWzBZ
+MAkGA1UdEwQCMAAwCwYDVR0PBAQDAgbAMD8GA1UdIAQ4MDYwNAYGK0wQBAIBMCowKAYIKwYBBQUH
+AgIwHBoa4oCcc3BpZC1wdWJsaWNzZWN0b3ItU1DigJ0wDQYJKoZIhvcNAQELBQADggEBAM5O8qxC
+S7ipmF1B4UF8W7evjO6QDW09jUHj+6WwMRDcPq76j7rBAtV3LL7VE4JWvxSe23uZN76hsqxHLc2j
+bDcS9pzhbBN4Sn41TEXIj0Ztd4DDbhBgsMkRwK0LbwV8tDqdlVRkW5DTCtepjwngquj69n6zC3uT
+enos+lKhP/QeWjw3n6gYIRb2zTLPZv+YwO6rr5yYXdIKc6isDvApvdRDiUoP5uUt0kBieXdf3K5u
+LJUp1nLLjpI7hsTk+Vg1ViO0D5aAl7q8mxsSJA5jcWBZysf8/phLZtj1+4j5/K3chDXHSKZkAoxU
+9Rr0y7duw2sG9JPBwoM1f5ZKSJP9KEM=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+	
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+		
+        <md:KeyDescriptor use="signing">
+            
+			
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+				
+                <ds:X509Data>
+                    
+					
+                    <ds:X509Certificate>
+                        
+						MIIEwDCCA6igAwIBAgIJAPQsHMhBXKVoMA0GCSqGSIb3DQEBCwUAMIHwMUUwQwYD
+						VQQKDDxVZmZpY2kgQW1taW5pc3RyYXRpdmkgZGVsIENvbnNpZ2xpbyBkaSBTdGF0
+						byBlIGRlaSBUVC5BQS5SUi4xRTBDBgNVBAMMPFVmZmljaSBBbW1pbmlzdHJhdGl2
+						aSBkZWwgQ29uc2lnbGlvIGRpIFN0YXRvIGUgZGVpIFRULkFBLlJSLjEwMC4GA1UE
+						UwwnaHR0cHM6Ly93d3cuZ2l1c3RpemlhLWFtbWluaXN0cmF0aXZhLml0MRIwEAYD
+						VQRhDAlQQTpJVC1jZHMxCzAJBgNVBAYTAklUMQ0wCwYDVQQHDARSb21hMB4XDTIx
+						MDEyNjAwNTAwM1oXDTMxMDEyNDAwNTAwM1owgfAxRTBDBgNVBAoMPFVmZmljaSBB
+						bW1pbmlzdHJhdGl2aSBkZWwgQ29uc2lnbGlvIGRpIFN0YXRvIGUgZGVpIFRULkFB
+						LlJSLjFFMEMGA1UEAww8VWZmaWNpIEFtbWluaXN0cmF0aXZpIGRlbCBDb25zaWds
+						aW8gZGkgU3RhdG8gZSBkZWkgVFQuQUEuUlIuMTAwLgYDVQRTDCdodHRwczovL3d3
+						dy5naXVzdGl6aWEtYW1taW5pc3RyYXRpdmEuaXQxEjAQBgNVBGEMCVBBOklULWNk
+						czELMAkGA1UEBhMCSVQxDTALBgNVBAcMBFJvbWEwggEiMA0GCSqGSIb3DQEBAQUA
+						A4IBDwAwggEKAoIBAQDUQm8f6qb7hr7/8Gp5IcYMj+c262pZVcnMLw8FpMHO+TgS
+						nHowXFz5z/Q07Rq9BuxODu4jesmp/3534mXgQ8hcw1btQZa2g+JR0GrqNF73eD0w
+						Tvmh8sySkzWU2qQddUTfpiF67hE+L0cDT0vDzdIIQjK8tLSznmbxQvWhBmZpr5fq
+						umpqyKeD4WfzzuiY5WpWSzAWOoQvsiCc9m88PcENc0grfqMFPGfAxgjEu4OQ25U4
+						BM9szqR1LQzan2lltA5F4P6XJZJ0JuKDuJzdq9yKtl2gW/uM5JUB6nwiIEDMT/6X
+						s2LIiKw32oslLELIqLrCquoOn12oAYxRrZVyIsdTAgMBAAGjWzBZMAkGA1UdEwQC
+						MAAwCwYDVR0PBAQDAgbAMD8GA1UdIAQ4MDYwNAYGK0wQBAIBMCowKAYIKwYBBQUH
+						AgIwHBoa4oCcc3BpZC1wdWJsaWNzZWN0b3ItU1DigJ0wDQYJKoZIhvcNAQELBQAD
+						ggEBAM5O8qxCS7ipmF1B4UF8W7evjO6QDW09jUHj+6WwMRDcPq76j7rBAtV3LL7V
+						E4JWvxSe23uZN76hsqxHLc2jbDcS9pzhbBN4Sn41TEXIj0Ztd4DDbhBgsMkRwK0L
+						bwV8tDqdlVRkW5DTCtepjwngquj69n6zC3uTenos+lKhP/QeWjw3n6gYIRb2zTLP
+						Zv+YwO6rr5yYXdIKc6isDvApvdRDiUoP5uUt0kBieXdf3K5uLJUp1nLLjpI7hsTk
+						+Vg1ViO0D5aAl7q8mxsSJA5jcWBZysf8/phLZtj1+4j5/K3chDXHSKZkAoxU9Rr0
+						y7duw2sG9JPBwoM1f5ZKSJP9KEM=
+
+					
+                    </ds:X509Certificate>
+                    
+				
+                </ds:X509Data>
+                
+			
+            </ds:KeyInfo>
+            
+		
+        </md:KeyDescriptor>
+        
+
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.giustizia-amministrativa.it/eid-gateway/saml2/spid/single-logout"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ga-test.it/eid-gateway/saml2/spid/single-logout"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ms-eid-gateway-ui-int.apps.coll.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/single-logout"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ms-eid-gateway-ui-coll.apps.coll.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/single-logout"/>
+        
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egw.prod.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/single-logout"/>
+        
+
+		
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.giustizia-amministrativa.it/eid-gateway/saml2/spid/assertion-consumer" index="0" isDefault="true"/>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.ga-test.it/eid-gateway/saml2/spid/assertion-consumer" index="1"/>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ms-eid-gateway-ui-int.apps.coll.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/assertion-consumer" index="2"/>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ms-eid-gateway-ui-coll.apps.coll.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/assertion-consumer" index="3"/>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://egw.prod.cloud.giustizia-amministrativa.it/eid-gateway/saml2/spid/assertion-consumer" index="4"/>
+        
+
+		
+        <md:AttributeConsumingService index="0">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set minimo
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="1">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set minimo con PEC
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="digitalAddress"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="3">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set minimo con PEC e CELL
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="digitalAddress"/>
+            
+			
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="4">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set esteso
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="gender"/>
+            
+			
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="5">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set esteso con PEC
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="gender"/>
+            
+			
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="digitalAddress"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="6">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Set esteso con PEC e CELL
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+			
+            <md:RequestedAttribute Name="familyName"/>
+            
+			
+            <md:RequestedAttribute Name="name"/>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="email"/>
+            
+			
+            <md:RequestedAttribute Name="gender"/>
+            
+			
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+			
+            <md:RequestedAttribute Name="digitalAddress"/>
+            
+			
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+	
+    </md:SPSSODescriptor>
+    
+	
+    <md:Organization>
+        
+		
+        <md:OrganizationName xml:lang="it">
+            Uffici Amministrativi del Consiglio di Stato e dei TT.AA.RR.
+        </md:OrganizationName>
+        
+		
+        <md:OrganizationDisplayName xml:lang="it">
+            Uffici Amministrativi del Consiglio di Stato e dei TT.AA.RR.
+        </md:OrganizationDisplayName>
+        
+		
+        <md:OrganizationURL xml:lang="it">
+            https://www.giustizia-amministrativa.it
+        </md:OrganizationURL>
+        
+	
+    </md:Organization>
+    
+	
+    <md:ContactPerson contactType="other">
+        
+		
+        <md:Extensions>
+            
+			
+            <spid:IPACode>
+                cds
+            </spid:IPACode>
+            
+			
+            <spid:Public/>
+            
+		
+        </md:Extensions>
+        
+		
+        <md:Company>
+            Uffici Amministrativi del Consiglio di Stato e dei TT.AA.RR.
+        </md:Company>
+        
+		
+        <md:EmailAddress>
+            giustizia-amministrativa@ga-cert.it
+        </md:EmailAddress>
+        
+	
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
