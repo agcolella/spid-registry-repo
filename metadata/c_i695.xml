@@ -1,0 +1,125 @@
+<md:EntityDescriptor entityID="https://www.comune.sestu.ca.it/" ID="_6d850fbe-b0e7-4fe2-bdc5-d088e812e16b" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_6d850fbe-b0e7-4fe2-bdc5-d088e812e16b">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    oDgzA0RTV3vxquT9QC0+KWJ2RZyXn+FWjt7Mb8ahEUU=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            XkjtlBnd7AalnN9fh4KDSWZcO1q113jdARUZriv0KAALr5JiXwnBbDxZd9Bdhk4smmSEiFYv08qIyYAxGX9Q6iHKiv39QzGz7VHjZ2gVW0PKX2B2oql6wVSQuooUGF5YgeuyYq40bgO5nZWUDsOkPnXImo6WtjATx36fYMBQhelR7r8vgSS6h1ceJf8QnM9/XBSeCAllwknx1tEznmF1rkHcjWFjpYuzSN2yOQBbaCS6gVuk/BiovLnBSKVRrAwnRlBwf9x2+DViLjBWV0dNs3DPhqyj/baEB9YaQWkvO4Go2GPlOHeWOtVShWQAnEd9bM4G7fk/GTfVJaXj2jpHjA==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDkzCCAnugAwIBAgIIdblMCBvbiHswDQYJKoZIhvcNAQELBQAweDEoMCYGA1UEAwwfaHR0cHM6Ly93d3cuY29tdW5lLnNlc3R1LmNhLml0LzEYMBYGA1UECgwPQ29tdW5lIGRpIFNlc3R1MRUwEwYDVQRhDAxQQTpJVC1jX2k2OTUxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVTZXN0dTAeFw0yMTAyMDgwMDAwMDBaFw0zMTAyMDgwMDAwMDBaMHgxKDAmBgNVBAMMH2h0dHBzOi8vd3d3LmNvbXVuZS5zZXN0dS5jYS5pdC8xGDAWBgNVBAoMD0NvbXVuZSBkaSBTZXN0dTEVMBMGA1UEYQwMUEE6SVQtY19pNjk1MQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFU2VzdHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCVNHP8SEy7aZ1xx62l8UNjIJcx2DMBzcc3RufOvjtZrKzikbT59sozRP+TufAnKHsKM7h8+rK0ak5htavgw8dPr8tPKADm22GhonozmT1JIoH0w76dCsU8QVMWC+bcgBia0/Sr30RIGXg5lg0xsALgyWmdywhMshb8T7N/1/RIj/OXS7NQ3Wm9/RNRCFgpg7cU+RpuriYD0mdk9F0LXFe/A5I420nWKAEF2bdldUV7avWXi58zHSJQGhBUWtYZWUr6Y31fPVWZCAArxv+WgLuH7XjoG4zSJnfIPryznYzijbntufZ+sLiClSr9nLzrMYtbNjf64lHoyw3tiZ1PK4r1AgMBAAGjITAfMB0GA1UdIAQWBBRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAtsN4us2kYvj8Mu0wMINQGgvx2PqQEA7PI9AbDINBsBhXx9lmgyi11FspTfNFSZtMXWYh2I0ProC8L1utiykwEl65GHhx5AXlEqY1RHGxklCJGZnjq7W5Ww9gyfeRjd+0YqjAWM2zwArkms+Nje2ZY9u8tpmZ2QJaMdwBb1Q7/3js7yEZ/LKXBmS4Gi0NwV8ppOpyU1ydXGNhgxCISB0eSoEJUTHBv6WtT2l2glG2l4TEuy5iLfVxU1gYV+QQwBYaA2jlixl5pzu9B1/eHRFJPajrGjylpZcoQQXIaCBwSCo08OtnnzktfLdc6UvEQ2VolEpJgee+iztnkN9+DzOeNg==
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDkzCCAnugAwIBAgIIdblMCBvbiHswDQYJKoZIhvcNAQELBQAweDEoMCYGA1UEAwwfaHR0cHM6Ly93d3cuY29tdW5lLnNlc3R1LmNhLml0LzEYMBYGA1UECgwPQ29tdW5lIGRpIFNlc3R1MRUwEwYDVQRhDAxQQTpJVC1jX2k2OTUxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVTZXN0dTAeFw0yMTAyMDgwMDAwMDBaFw0zMTAyMDgwMDAwMDBaMHgxKDAmBgNVBAMMH2h0dHBzOi8vd3d3LmNvbXVuZS5zZXN0dS5jYS5pdC8xGDAWBgNVBAoMD0NvbXVuZSBkaSBTZXN0dTEVMBMGA1UEYQwMUEE6SVQtY19pNjk1MQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFU2VzdHUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCVNHP8SEy7aZ1xx62l8UNjIJcx2DMBzcc3RufOvjtZrKzikbT59sozRP+TufAnKHsKM7h8+rK0ak5htavgw8dPr8tPKADm22GhonozmT1JIoH0w76dCsU8QVMWC+bcgBia0/Sr30RIGXg5lg0xsALgyWmdywhMshb8T7N/1/RIj/OXS7NQ3Wm9/RNRCFgpg7cU+RpuriYD0mdk9F0LXFe/A5I420nWKAEF2bdldUV7avWXi58zHSJQGhBUWtYZWUr6Y31fPVWZCAArxv+WgLuH7XjoG4zSJnfIPryznYzijbntufZ+sLiClSr9nLzrMYtbNjf64lHoyw3tiZ1PK4r1AgMBAAGjITAfMB0GA1UdIAQWBBRzcGlkLXB1YmxpY3NlY3Rvci1TUDANBgkqhkiG9w0BAQsFAAOCAQEAtsN4us2kYvj8Mu0wMINQGgvx2PqQEA7PI9AbDINBsBhXx9lmgyi11FspTfNFSZtMXWYh2I0ProC8L1utiykwEl65GHhx5AXlEqY1RHGxklCJGZnjq7W5Ww9gyfeRjd+0YqjAWM2zwArkms+Nje2ZY9u8tpmZ2QJaMdwBb1Q7/3js7yEZ/LKXBmS4Gi0NwV8ppOpyU1ydXGNhgxCISB0eSoEJUTHBv6WtT2l2glG2l4TEuy5iLfVxU1gYV+QQwBYaA2jlixl5pzu9B1/eHRFJPajrGjylpZcoQQXIaCBwSCo08OtnnzktfLdc6UvEQ2VolEpJgee+iztnkN9+DzOeNg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sestu.comuneweb.it/SPID/SSOLogout.ashx"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sestu.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sestu.comuneweb.it/SPID/SSOLogin.ashx" index="1"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cas.comuneweb.it/cas/spidAssertionConsumerService" index="2"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Accesso ai servizi ComuneWeb
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Sestu
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Sestu
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.sestu.ca.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_i695
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            protocollo.sestu@pec.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

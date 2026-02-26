@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxee6377c7-8573-b7c7-11c7-ed73fb2abbe1" entityID="https://roncofreddo.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxee6377c7-8573-b7c7-11c7-ed73fb2abbe1">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    nlpRKv+/IIZZC9wJwvQoiPjb4tr4eoNR/EjdmIC5mfc=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+SiFV2W6W4dps0GXkpWSU8eOGI3bN9CYOGiklUalEoUSO3VsD/gtWSYKMTZgjQBjEgtwkZBNp1Tsg
+9Lo3VyFsXIX758yVqn09/STTtASy58a6V5frO9CAtmRIu97DnGrVvm6k6dgEvQKm5iXMmr5ikzJB
+kFhHM02XgQvEiDEwErm7bTbrlmod3LVGioiB76hjT2EEkAttIUekN+/rHpsckLwBrbYXyqIr/gsS
+siNLRowDPmUptbbf8JPqZTiM4hFTleZAB+rGcLZ2Gvy7iJSG5keIG37NsBwwWeSvNAX2RFltE2BZ
++VTktRsN9wafX8PPOPTz6/sGpDqhSFDwZ/ARdA==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+17L6gIGZ3Kj+fagGfibthfXq5TL/oi6G0XcpQDu135WDvHpWuWX/mEtivf+7sk4c8o+0E6SaWWqD
+BMoGnwZicOebsAUPlB13IM96+0QSzwKb6P6i+55cc8iQzAaic9/Mb1MbQQfbhhViVhmT2E19fGdU
+A4beTHcPmFrp1jXIbrxe+TOKv3Y397Xe5tFAMtWg1NEQvBIsjkCUcRaJthg/Z6815ZrzFTiHVf5F
+HwYe5Ly5xsHndJF1B2MnCGd3+Glr2Q1QVP3VBmfSiM4x296/HmFZUgKdHfiGZRZuCq5+KuIN2qtB
+NkPOpX5W0GnGd+ijhT6AAeps53GtQqmrii7ytQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDvzCCAqegAwIBAgIJALsNS1aJS8hSMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLUm9uY29mcmVkZG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBS
+b25jb2ZyZWRkbzEhMB8GA1UEAwwYcm9uY29mcmVkZG8uaGFsbGV5d2ViLml0MB4XDTIxMDMyMzE1
+NDk1N1oXDTMxMDMyMzE1NDk1N1owdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYD
+VQQHDAtSb25jb2ZyZWRkbzEeMBwGA1UECgwVQ29tdW5lIGRpIFJvbmNvZnJlZGRvMSEwHwYDVQQD
+DBhyb25jb2ZyZWRkby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQDXsvqAgZncqP59qAZ+Ju2F9erlMv+iLobRdylAO7XflYO8ela5Zf+YS2K9/7uyThzyj7QTpJpZ
+aoMEygafBmJw55uwBQ+UHXcgz3r7RBLPApvo/qL7nlxzyJDMBqJz38xvUxtBB9uGFWJWGZPYTX18
+Z1QDht5Mdw+YWunWNchuvF75M4q/djf3td7m0UAy1aDU0RC8EiyOQJRxFom2GD9nrzXlmvMVOIdV
+/kUfBh7kvLnGwed0kXUHYycIZ3f4aWvZDVBU/dUGZ9KIzjHb3r8eYVlSAp0d+IZlFm4Krn4q4g3a
+q0E2Q86lflbQacZ36KOFPoAB6mznca1CqauKLvK1AgMBAAGjUDBOMB0GA1UdDgQWBBR9Fb02Z6H/
+/5G8y3Ms5qEiVEdUzDAfBgNVHSMEGDAWgBR9Fb02Z6H//5G8y3Ms5qEiVEdUzDAMBgNVHRMEBTAD
+AQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM6jTsHDHcQaLZ08GaQvpanL/461tsVihitNwJH3ZVV8sZ
+dZLUzm4nSIY4JoBLTFXShilyEhpRcPNI7TBJ67Li4yHUaq1Fy438pjfuo0+NC/pUNy81tRj2XKnU
+MWZW0ZHqJ0NAZ8isk4frqjXZdZM86gCxgmtuxToPeoPaic1M/CG/QoDPLBW9W2F8V1svQ3w9lcTY
+7HRQ47782U2xDFbaTuk7XhhdjznPaxewg2Z3x+uOWxMhocOnmabSNHghgsRrOc2GFHPetr5NQap2
+m9Eu/GzeW6zDrzsy9vgg/Osi/wlj0ypuXb0+ZQkXAqR+SaeeBov1sS6nvgB8dv76bt9Y
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDvzCCAqegAwIBAgIJALsNS1aJS8hSMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLUm9uY29mcmVkZG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBSb25jb2ZyZWRkbzEhMB8GA1UEAwwYcm9uY29mcmVkZG8uaGFsbGV5d2ViLml0MB4XDTIxMDMyMzE1NDk1N1oXDTMxMDMyMzE1NDk1N1owdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtSb25jb2ZyZWRkbzEeMBwGA1UECgwVQ29tdW5lIGRpIFJvbmNvZnJlZGRvMSEwHwYDVQQDDBhyb25jb2ZyZWRkby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXsvqAgZncqP59qAZ+Ju2F9erlMv+iLobRdylAO7XflYO8ela5Zf+YS2K9/7uyThzyj7QTpJpZaoMEygafBmJw55uwBQ+UHXcgz3r7RBLPApvo/qL7nlxzyJDMBqJz38xvUxtBB9uGFWJWGZPYTX18Z1QDht5Mdw+YWunWNchuvF75M4q/djf3td7m0UAy1aDU0RC8EiyOQJRxFom2GD9nrzXlmvMVOIdV/kUfBh7kvLnGwed0kXUHYycIZ3f4aWvZDVBU/dUGZ9KIzjHb3r8eYVlSAp0d+IZlFm4Krn4q4g3aq0E2Q86lflbQacZ36KOFPoAB6mznca1CqauKLvK1AgMBAAGjUDBOMB0GA1UdDgQWBBR9Fb02Z6H//5G8y3Ms5qEiVEdUzDAfBgNVHSMEGDAWgBR9Fb02Z6H//5G8y3Ms5qEiVEdUzDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM6jTsHDHcQaLZ08GaQvpanL/461tsVihitNwJH3ZVV8sZdZLUzm4nSIY4JoBLTFXShilyEhpRcPNI7TBJ67Li4yHUaq1Fy438pjfuo0+NC/pUNy81tRj2XKnUMWZW0ZHqJ0NAZ8isk4frqjXZdZM86gCxgmtuxToPeoPaic1M/CG/QoDPLBW9W2F8V1svQ3w9lcTY7HRQ47782U2xDFbaTuk7XhhdjznPaxewg2Z3x+uOWxMhocOnmabSNHghgsRrOc2GFHPetr5NQap2m9Eu/GzeW6zDrzsy9vgg/Osi/wlj0ypuXb0+ZQkXAqR+SaeeBov1sS6nvgB8dv76bt9Y
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDvzCCAqegAwIBAgIJALsNS1aJS8hSMA0GCSqGSIb3DQEBCwUAMHYxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLUm9uY29mcmVkZG8xHjAcBgNVBAoMFUNvbXVuZSBkaSBSb25jb2ZyZWRkbzEhMB8GA1UEAwwYcm9uY29mcmVkZG8uaGFsbGV5d2ViLml0MB4XDTIxMDMyMzE1NDk1N1oXDTMxMDMyMzE1NDk1N1owdjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRQwEgYDVQQHDAtSb25jb2ZyZWRkbzEeMBwGA1UECgwVQ29tdW5lIGRpIFJvbmNvZnJlZGRvMSEwHwYDVQQDDBhyb25jb2ZyZWRkby5oYWxsZXl3ZWIuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXsvqAgZncqP59qAZ+Ju2F9erlMv+iLobRdylAO7XflYO8ela5Zf+YS2K9/7uyThzyj7QTpJpZaoMEygafBmJw55uwBQ+UHXcgz3r7RBLPApvo/qL7nlxzyJDMBqJz38xvUxtBB9uGFWJWGZPYTX18Z1QDht5Mdw+YWunWNchuvF75M4q/djf3td7m0UAy1aDU0RC8EiyOQJRxFom2GD9nrzXlmvMVOIdV/kUfBh7kvLnGwed0kXUHYycIZ3f4aWvZDVBU/dUGZ9KIzjHb3r8eYVlSAp0d+IZlFm4Krn4q4g3aq0E2Q86lflbQacZ36KOFPoAB6mznca1CqauKLvK1AgMBAAGjUDBOMB0GA1UdDgQWBBR9Fb02Z6H//5G8y3Ms5qEiVEdUzDAfBgNVHSMEGDAWgBR9Fb02Z6H//5G8y3Ms5qEiVEdUzDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBM6jTsHDHcQaLZ08GaQvpanL/461tsVihitNwJH3ZVV8sZdZLUzm4nSIY4JoBLTFXShilyEhpRcPNI7TBJ67Li4yHUaq1Fy438pjfuo0+NC/pUNy81tRj2XKnUMWZW0ZHqJ0NAZ8isk4frqjXZdZM86gCxgmtuxToPeoPaic1M/CG/QoDPLBW9W2F8V1svQ3w9lcTY7HRQ47782U2xDFbaTuk7XhhdjznPaxewg2Z3x+uOWxMhocOnmabSNHghgsRrOc2GFHPetr5NQap2m9Eu/GzeW6zDrzsy9vgg/Osi/wlj0ypuXb0+ZQkXAqR+SaeeBov1sS6nvgB8dv76bt9Y
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://roncofreddo.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://roncofreddo.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Roncofreddo
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Roncofreddo
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.roncofreddo.fc.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_h542
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Roncofreddo
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            urp@comune.roncofreddo.fc.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

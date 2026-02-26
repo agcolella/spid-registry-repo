@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_fb9d7c4e-9309-4b19-9056-bbd0d13f3ce3" entityID="http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1201560">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    cEJrXV+wSSo9xQ2DLECUfm6bXcmU54nMEf3fNTTkrxY=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            SM5YsDvRfZ642/2gQ13cCgYbxC6xvkCSEIb+meT39oQy0fwKct6ugaNMNwj+dMFBSpvM0e4U+Xmu
+UZVJV1i8QqnbbU6sWCBuUI/MapyPYn6fgE8XMDARttFkSsWEuCmX4SaN4NumfEqhtxRLPZnUSxE1
+T9qmcXPCA8ahfP5ExrVXq/E4EwG+zS8vX656Pt/J9WSiPqSgg4fHybs3Nw0skDNAx5XM3ZoIMKvL
+C8lBVKHNqVJNsOFw+phLi0xMkC4CJk4bCMbu5XB2uRnok7vq5PCL4ZGkvwww4VwQmLsKqeHyJxlI
+5ae0WaV5j0Sv/WF2iKpB5a2ehCNpTbOgmx3knQ==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDwTCCAqmgAwIBAgIGAXnmx0YAMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA2MDcxNDAx
+MjlaFw0zMTAzMDcxNTAxMjlaMIGQMUkwRwYDVQQDDEBodHRwOi8vY2xvdWQudXJiaS5pdC91cmJp
+L3Byb2dzL3VycC9zb2xob21lLnN0bz9EQl9OQU1FPW4xMjAxNTYwMQkwBwYDVQQKDAAxFTATBgNV
+BAUTDFBBOklULWNfYTA0NTELMAkGA1UEBhMCSVQxFDASBgNVBAcMC0FjcXVhc3BhcnRhMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgHRpd0xYUphmXr4bDAUf4KrmjHZFxpxldW/XsVpb
+Fml7BejlLEOHMfO0v17ewIv59jnAkcTlUQ1K1oaOOzD32Qeev+EyuCPLtjP3/2yKgZMQ4Ut7q0jS
+GeBf05B8iOwiE/MZDHd7mtuQH40+vIlQ48VMv9wCzVNI6I6Nnwk0Mmd8gtg1nin4hCYHB2tiiG7b
+rTvmZJqsvvIy87tiSD+lYYV9vb9bqxzDgRDx2/F/KstdvR5xXaxx7hW2e6YS1pJC9gvNjNNE8Vy1
++axlCJNb3Dzxq8pTMKzQ8YfAFbxkzrZh8xnW/ztGF1qs5Hi1utx0P0Jq17pA9Gdr5F6Lhwfj9QID
+AQABozkwNzA1BgNVHSAELjAsBgYrTBAEAgEwIjAgBggrBgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0
+b3ItU1AwDQYJKoZIhvcNAQELBQADggEBACUfpl4lSX4y787Jst12+zaBH7HksZIoC+qaIYrBTq9w
+OXKcTyRNn26xATGOd04onTrc12kdRvf2XsYPyDciUTrK1BJfu3pwVocdYBupzY3Vj+6se6aWBfuv
+bH6E74iaI7Huh8oN6bqxW3TB21+rSYuVY+ViDhmUg1y6VeN5o9tCG2gvlVJYt1de/jAoYBvCf/KL
+TcwheDB4htGT0osWExWUjYwb0rSap5TYonH53K1tCoe6jCAA4MRkEIY83C9XSG6MYGuO3XEYaW+D
+qifQcIh7LsiJuv5kjomOG6rpslsZCHmfT3oLndjDbZKBU3QBeJOK3UcAKXOaZh+9CqG3JY4=
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDwTCCAqmgAwIBAgIGAXnmx0YAMA0GCSqGSIb3DQEBCwUAMHcxCzAJBgNVBAYTAklUMQswCQYD
+VQQIEwJMTzENMAsGA1UEBxMETG9kaTEYMBYGA1UEChMPUEEgRGlnaXRhbGUgU1BBMRgwFgYDVQQL
+Ew9QQSBEaWdpdGFsZSBTUEExGDAWBgNVBAMTD1BBIERpZ2l0YWxlIFNQQTAeFw0yMTA2MDcxNDAx
+MjlaFw0zMTAzMDcxNTAxMjlaMIGQMUkwRwYDVQQDDEBodHRwOi8vY2xvdWQudXJiaS5pdC91cmJp
+L3Byb2dzL3VycC9zb2xob21lLnN0bz9EQl9OQU1FPW4xMjAxNTYwMQkwBwYDVQQKDAAxFTATBgNV
+BAUTDFBBOklULWNfYTA0NTELMAkGA1UEBhMCSVQxFDASBgNVBAcMC0FjcXVhc3BhcnRhMIIBIjAN
+BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAgHRpd0xYUphmXr4bDAUf4KrmjHZFxpxldW/XsVpb
+Fml7BejlLEOHMfO0v17ewIv59jnAkcTlUQ1K1oaOOzD32Qeev+EyuCPLtjP3/2yKgZMQ4Ut7q0jS
+GeBf05B8iOwiE/MZDHd7mtuQH40+vIlQ48VMv9wCzVNI6I6Nnwk0Mmd8gtg1nin4hCYHB2tiiG7b
+rTvmZJqsvvIy87tiSD+lYYV9vb9bqxzDgRDx2/F/KstdvR5xXaxx7hW2e6YS1pJC9gvNjNNE8Vy1
++axlCJNb3Dzxq8pTMKzQ8YfAFbxkzrZh8xnW/ztGF1qs5Hi1utx0P0Jq17pA9Gdr5F6Lhwfj9QID
+AQABozkwNzA1BgNVHSAELjAsBgYrTBAEAgEwIjAgBggrBgEFBQcCARYUc3BpZC1wdWJsaWNzZWN0
+b3ItU1AwDQYJKoZIhvcNAQELBQADggEBACUfpl4lSX4y787Jst12+zaBH7HksZIoC+qaIYrBTq9w
+OXKcTyRNn26xATGOd04onTrc12kdRvf2XsYPyDciUTrK1BJfu3pwVocdYBupzY3Vj+6se6aWBfuv
+bH6E74iaI7Huh8oN6bqxW3TB21+rSYuVY+ViDhmUg1y6VeN5o9tCG2gvlVJYt1de/jAoYBvCf/KL
+TcwheDB4htGT0osWExWUjYwb0rSap5TYonH53K1tCoe6jCAA4MRkEIY83C9XSG6MYGuO3XEYaW+D
+qifQcIh7LsiJuv5kjomOG6rpslsZCHmfT3oLndjDbZKBU3QBeJOK3UcAKXOaZh+9CqG3JY4=
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/logoutService"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.urbi.it/sp-spid/assertionConsumerService" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                SOL
+            </md:ServiceName>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="address"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Acquasparta
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Acquasparta
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            http://cloud.urbi.it/urbi/progs/urp/solhome.sto?DB_NAME=n1201560
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_a045
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:Company>
+            Comune di Acquasparta
+        </md:Company>
+        <md:EmailAddress>
+            tributi@comune.acquasparta.tr.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

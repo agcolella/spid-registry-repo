@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxb3f497ab-3214-c080-a847-e46710ac2291" entityID="https://www.comune.stornarella.fg.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxb3f497ab-3214-c080-a847-e46710ac2291">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    097d53bOwhGIXUNY+7o6G3NPiv4qVGpfJB550aL+JDo=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+qgpJiFIRrvCrYXaO1pDMSjNFJxYha244jIH1E8GNei/citwydOnE540yYHp1J3oWtdE/vHo5gzaK
+aSQp71cvzpb3Utd06EyD+z+Z5SMwP2Frda98ib4+qn00w92cnIJnAsPkCwdveVBg9vtfgK5M+4YN
+dKGbYSw3szRb4A4TcyMOKSiDNkpptNtXcsiBBs6ix9nK+6Y/YpqR51sWL+t6I+KR/tvxhHeGVdmD
+vw9QFZnUJYP6ooFsQkQWgn8+WaQQmGdhYjTJ0xbX77+F0tcfQRaWF4cdTtlD+zM/4nn+xMAslX79
+n3/rN2eAeYmobvYCRAeC+vCqeNTfVs8icYOjgg==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+vuwMqtmoefQUdsRAz10waDqniA9YxeubhEJRRgXAG4bEndRndkplnlISsTUSGJhuqGtyn8WcVv0s
+y9y47+kP4xje7OBuvtxu1/4ykwSVpMR6pAvt681ExRUiyrdOdMJuwtiL+a5rqO26vuBi2Sphpb6V
+x9zRk3e9NNS4zupGP2biTq384imISEg08ehIkYNwFk8ys9nk7cJ+uflrGXQJXd0U7aKg4RRwI3ZK
+ihCL/PaCbC8z2WdPNxok44YMB+VFETAvdE3I/XnlujTDyq0555aYMr2+oduiX616OUgmC4IDGw08
+2u1LTGqnJuaqjYxB2cvwk9lKympy7gE6IWjXLQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDxzCCAq+gAwIBAgIJAO1we/UTUj3WMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBT
+dG9ybmFyZWxsYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDAeFw0yMTA2
+MDkwNzUwNDdaFw0zMTA2MDkwNzUwNDdaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEU
+MBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBTdG9ybmFyZWxsYTElMCMG
+A1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEP
+ADCCAQoCggEBAL7sDKrZqHn0FHbEQM9dMGg6p4gPWMXrm4RCUUYFwBuGxJ3UZ3ZKZZ5SErE1EhiY
+bqhrcp/FnFb9LMvcuO/pD+MY3uzgbr7cbtf+MpMElaTEeqQL7evNRMUVIsq3TnTCbsLYi/mua6jt
+ur7gYtkqYaW+lcfc0ZN3vTTUuM7qRj9m4k6t/OIpiEhINPHoSJGDcBZPMrPZ5O3Cfrn5axl0CV3d
+FO2ioOEUcCN2SooQi/z2gmwvM9lnTzcaJOOGDAflRREwL3RNyP155bo0w8qtOeeWmDK9vqHbol+t
+ejlIJguCAxsNPNrtS0xqpybmqo2MQdnL8JPZSspqcu4BOiFo1y0CAwEAAaNQME4wHQYDVR0OBBYE
+FO90+kBi/Q3F83WhB9zEfbYcBzTJMB8GA1UdIwQYMBaAFO90+kBi/Q3F83WhB9zEfbYcBzTJMAwG
+A1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEgJXweGMiMk04tE9qGn/8Sg+b8e8VPBX1O8
+ugbuDaE2OTXRXhyDJGccNnD+FqtpZqIx7K2K4oK/lq1ckMd4znjjMWiUwiCI019DWjO5T42rp2eQ
+XTNufzz/BGsSY5yxtpgIMT0ejYuKhCucTdsWHTLg10n8tYC22GtZjsnjMfjWNHJZEgttiNPd49j5
+i73H2t44QYEGhKvA1xqy7Vj4XCJP1TXMR/a2BbuxbzKIo9R3Ftjjfnlvvjl4Q/4y5yVsvJdBd7mS
+L9wYQCPpOfz9KzqBVPIO+IyRcMYs95mnmEPV9RmJDV/zS/+Cr5c5h2Y8N6IGApvb4t7yDyyTZZmS
+8a0=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDxzCCAq+gAwIBAgIJAO1we/UTUj3WMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBTdG9ybmFyZWxsYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDAeFw0yMTA2MDkwNzUwNDdaFw0zMTA2MDkwNzUwNDdaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBTdG9ybmFyZWxsYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7sDKrZqHn0FHbEQM9dMGg6p4gPWMXrm4RCUUYFwBuGxJ3UZ3ZKZZ5SErE1EhiYbqhrcp/FnFb9LMvcuO/pD+MY3uzgbr7cbtf+MpMElaTEeqQL7evNRMUVIsq3TnTCbsLYi/mua6jtur7gYtkqYaW+lcfc0ZN3vTTUuM7qRj9m4k6t/OIpiEhINPHoSJGDcBZPMrPZ5O3Cfrn5axl0CV3dFO2ioOEUcCN2SooQi/z2gmwvM9lnTzcaJOOGDAflRREwL3RNyP155bo0w8qtOeeWmDK9vqHbol+tejlIJguCAxsNPNrtS0xqpybmqo2MQdnL8JPZSspqcu4BOiFo1y0CAwEAAaNQME4wHQYDVR0OBBYEFO90+kBi/Q3F83WhB9zEfbYcBzTJMB8GA1UdIwQYMBaAFO90+kBi/Q3F83WhB9zEfbYcBzTJMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEgJXweGMiMk04tE9qGn/8Sg+b8e8VPBX1O8ugbuDaE2OTXRXhyDJGccNnD+FqtpZqIx7K2K4oK/lq1ckMd4znjjMWiUwiCI019DWjO5T42rp2eQXTNufzz/BGsSY5yxtpgIMT0ejYuKhCucTdsWHTLg10n8tYC22GtZjsnjMfjWNHJZEgttiNPd49j5i73H2t44QYEGhKvA1xqy7Vj4XCJP1TXMR/a2BbuxbzKIo9R3Ftjjfnlvvjl4Q/4y5yVsvJdBd7mSL9wYQCPpOfz9KzqBVPIO+IyRcMYs95mnmEPV9RmJDV/zS/+Cr5c5h2Y8N6IGApvb4t7yDyyTZZmS8a0=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDxzCCAq+gAwIBAgIJAO1we/UTUj3WMA0GCSqGSIb3DQEBCwUAMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBTdG9ybmFyZWxsYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDAeFw0yMTA2MDkwNzUwNDdaFw0zMTA2MDkwNzUwNDdaMHoxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEUMBIGA1UEBwwLU3Rvcm5hcmVsbGExHjAcBgNVBAoMFUNvbXVuZSBkaSBTdG9ybmFyZWxsYTElMCMGA1UEAwwcd3d3LmNvbXVuZS5zdG9ybmFyZWxsYS5mZy5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7sDKrZqHn0FHbEQM9dMGg6p4gPWMXrm4RCUUYFwBuGxJ3UZ3ZKZZ5SErE1EhiYbqhrcp/FnFb9LMvcuO/pD+MY3uzgbr7cbtf+MpMElaTEeqQL7evNRMUVIsq3TnTCbsLYi/mua6jtur7gYtkqYaW+lcfc0ZN3vTTUuM7qRj9m4k6t/OIpiEhINPHoSJGDcBZPMrPZ5O3Cfrn5axl0CV3dFO2ioOEUcCN2SooQi/z2gmwvM9lnTzcaJOOGDAflRREwL3RNyP155bo0w8qtOeeWmDK9vqHbol+tejlIJguCAxsNPNrtS0xqpybmqo2MQdnL8JPZSspqcu4BOiFo1y0CAwEAAaNQME4wHQYDVR0OBBYEFO90+kBi/Q3F83WhB9zEfbYcBzTJMB8GA1UdIwQYMBaAFO90+kBi/Q3F83WhB9zEfbYcBzTJMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAEgJXweGMiMk04tE9qGn/8Sg+b8e8VPBX1O8ugbuDaE2OTXRXhyDJGccNnD+FqtpZqIx7K2K4oK/lq1ckMd4znjjMWiUwiCI019DWjO5T42rp2eQXTNufzz/BGsSY5yxtpgIMT0ejYuKhCucTdsWHTLg10n8tYC22GtZjsnjMfjWNHJZEgttiNPd49j5i73H2t44QYEGhKvA1xqy7Vj4XCJP1TXMR/a2BbuxbzKIo9R3Ftjjfnlvvjl4Q/4y5yVsvJdBd7mSL9wYQCPpOfz9KzqBVPIO+IyRcMYs95mnmEPV9RmJDV/zS/+Cr5c5h2Y8N6IGApvb4t7yDyyTZZmS8a0=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.stornarella.fg.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.stornarella.fg.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Stornarella
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Stornarella
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.stornarella.fg.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_i963
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Stornarella
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            comunedistornarella@libero.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

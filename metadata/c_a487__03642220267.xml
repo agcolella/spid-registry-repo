@@ -1,0 +1,128 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxc7b68d51-12e1-4009-81a7-8715b6b46e15-atrani" entityID="https://hyksositalia.it/pub-ag-full/atrani"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfxc7b68d51-12e1-4009-81a7-8715b6b46e15-atrani">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>K/NoI/u/mDr8WadAqOHih/JExdSLjXPZiuAZAXQxI6E=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+at8YgVMqkGEycwsVFpbLFMOJLXHjO7IjvgX2+ctNSUaMtEpsNFqidFy8nmNFjJc44kBb1WTWpfPu
+NMLhAHC/zJVqb1Lmw3tpS8W26PRJ5Pg82HGqd9ZDkLMuy7kZhWVWV3F5Q93s32ujaDWL6IZtVPJd
+J14IGlNd4G9VOm3U0YKwt7H3UjlekxgDD+jlbt9ct96+hdOnu3SFEWKCcsXdoZ2HXKmZ4kwco6ds
+ktYqlupLTIv3Abt88y1IIWdkK2PMG8YR7Uy6acHl9TNigarnshp9ceojnRqDfkKLDDCDxsDC48Ff
+D0WLCRmtFv2YCdPb2ei40oldNiPBntSPsHKqbDuW1iuNLd3hRLqwvFcdzIelvO1gURkue1n/X31G
+pIAQtDbeaF203GW1sMm7UxirrenJtyORJWEc9bRzOp8ERVlrPsh3aK3W7yQ7FvK8CF+N1joRdTXf
+5pVTJhS6vxnOQLnJkBCUfDFZHc7lRBbFOeenYIlYWZkZcB27X0OGgYb1
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+2v0yHURs953wwxUE1qxgszjdp4YZ2v8Dwd7/Ik4wyBuSLi0b0OJix2uwIXMf4GTy1imUj24NRWFs
+a3Md4jJeKBKFmhVVEqvUd5i/EaMXpmAX3rRsgg3NXWfGc8ULE4lXBKjQphQOWJJAfQ2mL2QVSNyz
+4bybXGz1R3Sfw8226kA2wPEFLfVJzo/lEERIIXQWoD7sCXDcAIhddztQVMLC9CysL0oY+C/SwGQs
+0p9+n33VmE1pJYWWlqTA1jcrJT7Qf0kbRdOXhyvrb0vwdRCrRkr1j11t++jSLQ9Wy3C4nQqtMpgC
+SDQWpGGVL8a63HNpBOjag3+gZI49A9bL3wQ//4ejy51npMySfN+3P8sF42Oo9olIUW01WAAZAFem
+3OS1Qjr6jWLNIZD4XD5IAJ/S10HdZB3YhTZRKEC78UFxtFVDXv3rRv7k1FzbmVjiXWrJbHW9D5Ws
+8nMyo32bRkiw7xgyFLE/5A6OeQ8cGc3tEHz/cMRXvzr77cO3BooeGuiX
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIWzCCBkOgAwIBAgIIDtpTE7InJBQwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDUwMzAwMDAw
+MFoXDTM2MDUwMjIzNTk1OVowgZwxDzANBgNVBAMMBkh5a3NvczEWMBQGA1UECgwNSHlrc29zIHMu
+ci5sLjEaMBgGA1UEYQwRVkFUSVQtMDM2NDIyMjAyNjcxITAfBgNVBFMMGGh0dHBzOi8vaHlrc29z
+aXRhbGlhLml0LzEYMBYGA1UEBwwPTWFyZW5vIGRpIFBpYXZlMQswCQYDVQQIDAJUVjELMAkGA1UE
+BhMCSVQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQDa/TIdRGz3nfDDFQTWrGCzON2n
+hhna/wPB3v8iTjDIG5IuLRvQ4mLHa7Ahcx/gZPLWKZSPbg1FYWxrcx3iMl4oEoWaFVUSq9R3mL8R
+oxemYBfetGyCDc1dZ8ZzxQsTiVcEqNCmFA5YkkB9DaYvZBVI3LPhvJtcbPVHdJ/DzbbqQDbA8QUt
+9UnOj+UQREghdBagPuwJcNwAiF13O1BUwsL0LKwvShj4L9LAZCzSn36ffdWYTWklhZaWpMDWNysl
+PtB/SRtF05eHK+tvS/B1EKtGSvWPXW376NItD1bLcLidCq0ymAJINBakYZUvxrrcc2kE6NqDf6Bk
+jj0D1svfBD//h6PLnWekzJJ837c/ywXjY6j2iUhRbTVYABkAV6bc5LVCOvqNYs0hkPhcPkgAn9LX
+Qd1kHdiFNlEoQLvxQXG0VUNe/etG/uTUXNuZWOJdaslsdb0PlazyczKjfZtGSLDvGDIUsT/kDo55
+DxwZze0QfP9wxFe/Ovvtw7cGih4a6JcCAwEAAaOCAtQwggLQMAwGA1UdEwEB/wQCMAAwHQYDVR0O
+BBYEFOOgoQZxihrAhfqy5Ivowkjb5aAJMB8GA1UdIwQYMBaAFDy7bese/Z1uy+5U5uo51YmgR9c0
+MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtzcGlkLmdvdi5pdDBCBgNVHR8EOzA5MDegNaAz
+hjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9QdWJfU0EuY3JsMDcGCCsG
+AQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB2QYD
+VR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJv
+bmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUH
+AgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlkYSBB
+Z0lEMH0GBitMEAQCAjBzMDoGCCsGAQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0b3JlICdmdWxsJyBk
+aSBzZXJ2aXppIHB1YmJsaWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2aWNlcyAn
+ZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdodHRwczov
+L2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8GBgQAjkYB
+BTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFT
+X3Jvb3RDQV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQAB3z5OK+H37sGnR04qgP4M/82uROgj
+mkOXsnLP03wAy9+8F67X6QJyfnf3iQsYUeyq8e1Nd4UbdJamubdj8Oy+vhyacD2Qe9uhSplOnXNn
+OTVMk518v4+l+fBwlKrnLNlw2BZqTkeDztDaPtyaNSqGGz186wPF5c+SphocZLw0ibztte7DdG+k
+JcWyN9Fg6wOdiQfo7IXZybBGzAe+KNaDes8ADHnmG+KZ0wd5MK01hepGKmHP1mGVCQDJVqH4LxOF
+mXKmsQZusv76kdq29eWSe+aGYJhFhMADD/cKS4/d3ohQKIcJ5WVV9cBx/lAcARTXrqc1tlNKgcwo
+u07a+1EM+tPShJFVl2o1jeq4yikOcUdlIjIsPYU7po6kuw38QbKQQSz8HBUTqQGtpW3md6tDt3g2
+7Etbgz8NDiXwq4/rizK6M3TpBvCWRSaLBsZpdyabXvDeLdu4Bwm50g429KuTVBY10xK0gw1OImFs
+ZOkZ7fnqqrenRMq4StTE0xRrRC1/jXUnLH6JMkDJ9zzoSPmF3G3dFDGX9y1iAr61fXqPuKP9A9HM
+BQ0G44YDAE7mEOiHDHw2ItLqZJK4rv2m+cq87Q7CwgijgQj/mZlkTU7lML1ej/c7K6g6ylODYKw1
+2lBJ343H8x4n58DUhIdokEiEGWyD4rHcSC+fT2xpnLesAA==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imposta-soggiorno.org/atrani/spid.sso/SLO/POST"/>
+	  
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      
+	  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://imposta-soggiorno.org/atrani/spid.sso/SAML2/POST" index="0" isDefault="true"/>
+	  
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">imposta-soggiorno</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Imposta Soggiorno</md:ServiceDescription>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+	  
+   </md:SPSSODescriptor>
+   
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Atrani</md:OrganizationName>
+	  <md:OrganizationDisplayName xml:lang="it">Comune di Atrani</md:OrganizationDisplayName>
+	  <md:OrganizationURL xml:lang="it">https://comune.atrani.sa.it</md:OrganizationURL>
+   </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+      <md:Extensions>
+         <spid:VATNumber>03642220267</spid:VATNumber>
+         <spid:FiscalCode>03642220267</spid:FiscalCode>
+         <spid:PublicServicesFullAggregator/>
+      </md:Extensions>
+      <md:Company>Hyksos s.r.l.</md:Company>
+      <md:EmailAddress>info@hyksositalia.it</md:EmailAddress>
+      <md:TelephoneNumber>+390438499139</md:TelephoneNumber>
+   </md:ContactPerson>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_a487</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Atrani</md:Company>
+	</md:ContactPerson>
+   
+</md:EntityDescriptor>

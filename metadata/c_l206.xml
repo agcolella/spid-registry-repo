@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx5b3b795b-4ec7-f2aa-0059-09f8cc8017ba" entityID="https://sandonatodininea.halleyweb.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx5b3b795b-4ec7-f2aa-0059-09f8cc8017ba">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    oMQ9ucrPoeIrZjUWd8wTRW7XYnB8pbvmgx/bZOytfCo=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+OZuJVQ4yNnPDGgOXMZtMhvEVEhqpPmdN5LKHre2TzxApejO8/9wOW5yCZcyee8vVhreeUQPDzohs
+B1e2J7xqbeWe53c52OxIRlHurUG6lrr94iIZaKg+q8k+a2xDDF/uWyhmTbMZEh0ikaFY+TnAdz/B
+Iw9+ix9ykPnXxfR0zUmzDVtwL1WbLoS5rEGzV+NBjymPaxgS1MMR6PbinCfYLSOxIx1yYeH+Vqcy
+ueM22rh4PnWxSNdILzXnbXco37pn/iDYMy8XJ+FIfVfz24HhK75+tWVP7v9uVGXVZTNC+T862KLI
+YG9m+AciXmxh1mg1jmfPOzVv8g58pfXCkvP0Ig==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+vtCd3wKYL/b3nWpEokUkPV58z8Dkm+vXm871FHBtRoHMzHH25pv6JevFu32KAHg1iV4wDnMooAq6
+THnOOsT7LsuLFsq8bbVshF3u9MzD8lfGR2g4mBiL4MJUHy8hgVzJu0BA756MpEgcvXjhQA1jv2Nm
+2t0I9DcvF06odKnJx0xo0CKB14zSLqmiv+xSzaclJw3XGUCV7q5InyJ69twyz2dYzlps1NfStoBq
+gCdLa8twg8HSf1Q0VYq50GvsHYVYi2PHzl4hJvmkBSHZRKyL+8xnehxd1AU1BWH+QMhft4Pw4FDD
+x38kLicAFaM/9jEDPtjgjMZTwz5xy4ozQBNM8w==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIID6zCCAtOgAwIBAgIJAM8Gh7PVXb11MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoMHUNv
+bXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVhLmhh
+bGxleXdlYi5pdDAeFw0yMTA1MjYxMDU0NTdaFw0zMTA1MjYxMDU0NTdaMIGLMQswCQYDVQQGEwJJ
+VDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoM
+HUNvbXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVh
+LmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7Qnd8CmC/2951q
+RKJFJD1efM/A5Jvr15vO9RRwbUaBzMxx9uab+iXrxbt9igB4NYleMA5zKKAKukx5zjrE+y7LixbK
+vG21bIRd7vTMw/JXxkdoOJgYi+DCVB8vIYFcybtAQO+ejKRIHL144UANY79jZtrdCPQ3LxdOqHSp
+ycdMaNAigdeM0i6por/sUs2nJScN1xlAle6uSJ8ievbcMs9nWM5abNTX0raAaoAnS2vLcIPB0n9U
+NFWKudBr7B2FWItjx85eISb5pAUh2USsi/vMZ3ocXdQFNQVh/kDIX7eD8OBQw8d/JC4nABWjP/Yx
+Az7Y4IzGU8M+ccuKM0ATTPMCAwEAAaNQME4wHQYDVR0OBBYEFDoXjszVZR9T2mgUeD26oT9roZ15
+MB8GA1UdIwQYMBaAFDoXjszVZR9T2mgUeD26oT9roZ15MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcN
+AQELBQADggEBAKbir9Btx7E8e9To0NpN436BJ935Izf91MkFHlt1R8ZtVjqd9gBE/XDNg9xFM4pj
+ys2SczOS+zPKsBSjnEeaModrw/o0n14JRFXTj12XH4CyXO9s964SBb6/hQ3s3eg2nUeUpIuRqbzl
+4hoCWidx9s8RnbLI2rl4/mW/8XzAtffQDqed/r2NCKT69nHQSPo7xopTzCds1kMi7yUU6ACDDwxa
+9sF372jKeFL8AMFCoFWTDPw2ghQlsTTobGIM0vdld/rC05D7dRqeezYjP/52uKHV76PI7XKn4g/7
+ql3VTgiEbF1MMQk3k4wlYCh31N6qBEH2/zB/52C5yReXzGL5gLQ=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID6zCCAtOgAwIBAgIJAM8Gh7PVXb11MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoMHUNvbXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVhLmhhbGxleXdlYi5pdDAeFw0yMTA1MjYxMDU0NTdaFw0zMTA1MjYxMDU0NTdaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoMHUNvbXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVhLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7Qnd8CmC/2951qRKJFJD1efM/A5Jvr15vO9RRwbUaBzMxx9uab+iXrxbt9igB4NYleMA5zKKAKukx5zjrE+y7LixbKvG21bIRd7vTMw/JXxkdoOJgYi+DCVB8vIYFcybtAQO+ejKRIHL144UANY79jZtrdCPQ3LxdOqHSpycdMaNAigdeM0i6por/sUs2nJScN1xlAle6uSJ8ievbcMs9nWM5abNTX0raAaoAnS2vLcIPB0n9UNFWKudBr7B2FWItjx85eISb5pAUh2USsi/vMZ3ocXdQFNQVh/kDIX7eD8OBQw8d/JC4nABWjP/YxAz7Y4IzGU8M+ccuKM0ATTPMCAwEAAaNQME4wHQYDVR0OBBYEFDoXjszVZR9T2mgUeD26oT9roZ15MB8GA1UdIwQYMBaAFDoXjszVZR9T2mgUeD26oT9roZ15MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKbir9Btx7E8e9To0NpN436BJ935Izf91MkFHlt1R8ZtVjqd9gBE/XDNg9xFM4pjys2SczOS+zPKsBSjnEeaModrw/o0n14JRFXTj12XH4CyXO9s964SBb6/hQ3s3eg2nUeUpIuRqbzl4hoCWidx9s8RnbLI2rl4/mW/8XzAtffQDqed/r2NCKT69nHQSPo7xopTzCds1kMi7yUU6ACDDwxa9sF372jKeFL8AMFCoFWTDPw2ghQlsTTobGIM0vdld/rC05D7dRqeezYjP/52uKHV76PI7XKn4g/7ql3VTgiEbF1MMQk3k4wlYCh31N6qBEH2/zB/52C5yReXzGL5gLQ=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID6zCCAtOgAwIBAgIJAM8Gh7PVXb11MA0GCSqGSIb3DQEBCwUAMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoMHUNvbXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVhLmhhbGxleXdlYi5pdDAeFw0yMTA1MjYxMDU0NTdaFw0zMTA1MjYxMDU0NTdaMIGLMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHDAaBgNVBAcME1NhbiBEb25hdG8gZGkgTmluZWExJjAkBgNVBAoMHUNvbXVuZSBkaSBTYW4gRG9uYXRvIGRpIE5pbmVhMSYwJAYDVQQDDB1zYW5kb25hdG9kaW5pbmVhLmhhbGxleXdlYi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAL7Qnd8CmC/2951qRKJFJD1efM/A5Jvr15vO9RRwbUaBzMxx9uab+iXrxbt9igB4NYleMA5zKKAKukx5zjrE+y7LixbKvG21bIRd7vTMw/JXxkdoOJgYi+DCVB8vIYFcybtAQO+ejKRIHL144UANY79jZtrdCPQ3LxdOqHSpycdMaNAigdeM0i6por/sUs2nJScN1xlAle6uSJ8ievbcMs9nWM5abNTX0raAaoAnS2vLcIPB0n9UNFWKudBr7B2FWItjx85eISb5pAUh2USsi/vMZ3ocXdQFNQVh/kDIX7eD8OBQw8d/JC4nABWjP/YxAz7Y4IzGU8M+ccuKM0ATTPMCAwEAAaNQME4wHQYDVR0OBBYEFDoXjszVZR9T2mgUeD26oT9roZ15MB8GA1UdIwQYMBaAFDoXjszVZR9T2mgUeD26oT9roZ15MAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAKbir9Btx7E8e9To0NpN436BJ935Izf91MkFHlt1R8ZtVjqd9gBE/XDNg9xFM4pjys2SczOS+zPKsBSjnEeaModrw/o0n14JRFXTj12XH4CyXO9s964SBb6/hQ3s3eg2nUeUpIuRqbzl4hoCWidx9s8RnbLI2rl4/mW/8XzAtffQDqed/r2NCKT69nHQSPo7xopTzCds1kMi7yUU6ACDDwxa9sF372jKeFL8AMFCoFWTDPw2ghQlsTTobGIM0vdld/rC05D7dRqeezYjP/52uKHV76PI7XKn4g/7ql3VTgiEbF1MMQk3k4wlYCh31N6qBEH2/zB/52C5yReXzGL5gLQ=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sandonatodininea.halleyweb.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sandonatodininea.halleyweb.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di San Donato di Ninea
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di San Donato di Ninea
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.sandonatodininea.cs.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_l206
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di San Donato di Ninea
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            municipio@comune.sandonatodininea.cs.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.strambinello.to.it" ID="ep4150f59c-85aa-4467-a310-0b10c6398340">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#ep4150f59c-85aa-4467-a310-0b10c6398340">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    AC62Aj+WmBAiT322JcAOWWifA3u1SX0P7ekennam110=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            jMyksfkkEt1DbsW4zxOzXQ7b8Nqjf58cMyoecxuTowNSoSvPFLG5bGFeibfiYnemEsYUmQPql1nnPknTnTzZmlm7uusW0q+ix9aNTNqWF5OD+opa8TVcyDDufVTaamZhXzWOneDOe6ZK431bDPc7gMsvOIAzEbd3gavqGCXZSi3rTomN/TNzacqj1L3lRzDeykqv7ABsYt3fMZXFGUUaV38DMdurEQSRLFrhvjWbsRl40Qi+lzSmXV8FslqPpd9znYpfHnMiFPh0USr0B/gk/vV+Ne6zvphZNhoeHNJJN7PULmjQ5Fh6YY2jQ+Ea5tpM3ryGMRvudPaWMhPWw8EAMtsvJPc9oy8iY6fJXyOWZMeQGiFBsyjyfc1ENdOLnQOHInUqwhGLwA8EkJ240yRU9RiDboaZf6wJUHmbI5LMQDydsu3AjcxxWZN4vkI6hSmk3lqkI/TShibWR2ssFNFkUru2FX0EEYkYga98IYzmL0dVa3296FjpvBy6Wdiha74Tt+LaM40Moxpbq0jhESiaGhQY1kCsZM6Sv5NB/I65IMjRAgHMfxclxeZr3enSZjR0qv3AIm37g1LIDcLmYRaQGV60DmLOo22IAn6ungc86HptihcX3CUIqosQOLafWxmDGzhzvRJ65kOqyetDm+bkIQqhiNAifbcoJCf+viPejC4=
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        qw+6o9vPbsDafjFbh28GfYot6HTrQ5gaFTHadTN635BAB4400GEu6qCAWYaQwqRt6P7wJtUfovJBqwB6GNOsvGpNPRELXasuvLiNkqbG2OaSF9Tlldz37LlHdCytJBwa5lUyTKYWgAEHOZ5Mvwz42jGTFEs21KO2yuGvsmK2yl+GtwEAdOLPuVg9TbuMHYBTfqddSNxvToVfD5a78IIVak1hew66+cxjMjpD5eFcUz+8vsVZcCHXfRBoHPoHSX355Nbe9LZYV2w2rrioZYpYRikAIRzyv5AHIG2sW0ZNf1czgpsRdMJADcxzx0DUCPVclIStfQbMrZ7yr9hyXjGAqQHvaPdS5tgSIIqybE/i3asSpwdxGJd5AqGzXxjCC/B2MPxM+zlcf7PSORBeYBoF+ZHM3WdxlSzRucdtroCnUpC/IHkrSdq3zJYN9XxDIpum0DL2jgNHs6Gdv6M0eeUrbnwkJ8vsdJO7gct1nESkneM8Xen6dvBZugdXTTGD+yuh5V980zAWzOjfon7OyZOAToJ8ciL2DoEecDLdlJW6qxQYtZAJ1a5g1d8noon7EqveaxNLtZlfrgTMVPlpK1WIlxsvi1wPZYKLd8v9WV2bbzzRAJXyT2Fy4hI2BHAA+tJA/k9/Zl9bM8gjfLDYZai14tOzjWY/nnYk797joR7dB5k=
+                    </ds:Modulus>
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIFxDCCA6wCCQCk0FnagxibCTANBgkqhkiG9w0BAQsFADCBozEmMCQGA1UEAwwdd3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNvbXVuZSBkaSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJhbWJpbmVsbG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwHhcNMjEwNjA4MTQ1NTM4WhcNNDgxMDI0MTQ1NTM4WjCBozEmMCQGA1UEAwwdd3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNvbXVuZSBkaSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJhbWJpbmVsbG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCrD7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrmVTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0wkANzHPHQNQI9VyUhK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EYl3kCobNfGMIL8HYw/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ2rfMlg31fEMim6bQMvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp28Fm6B1dNMYP7K6HlX3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnVrmDV3yeiifsSq95rE0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEBCwUAA4ICAQCLikzytuKTwBnw/tX5sJtRSot3yAMW6gL6p2PYxyh33c7GrlENPqORLQss6/AcjtqLLgJ6gggo08Jy/D5uw7g0gRORPk5exkknSPpX7iHeDYd4e3MOoqRueZsDuZdBuI9vBM356/cFl5ZxZkcp7lNMxuLwhIDZcJRpu71urxbp18ppS7g8DFBKF3S9w5sT3q1o4Ae+NW6Bfj6Iqn2HierrlzNyXo2fPHFVXR0qnHxEgQg0jaKkhxVlBM3kjxR4Le2mXviGUpvfgrVupDNMyrVHwjLI9Jc85lHPvrL5rmKrtaHNTMNVtJyIpG8IbYgYEtFnK0Q73FxqCr0DNh6iBURSzHztTGsmSPmyOwD1soPYbYxFuE149usFJ+NrxEXSFQ9waVypR7VTQME8hcFD119RTmewoR9xqsfAkvJ617OL1/J+w7HXuCr029Gp9NQtf6cajNIxu6+tyQNKzdQUbIom7yOf8CsaNV1bNNFbjDWpSWkTGMUt04K9IvIYciyErhHpZLxlZzLRkyevTn5qP8JOPivdAGJP1YiWYX4InIewTieNzGj847128WCwVy4WLIi1Dat/AGPBGgm5t5QpbKNG33xzbhuD7mb/bZXsbgqhzAXvJBHQmQfOkq9NTtwn4wmpmzgabZmh35U3qxygTCRpk0VekdPAhHLqXG/BVbjQzg==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFxDCCA6wCCQCk0FnagxibCTANBgkqhkiG9w0BAQsFADCBozEmMCQGA1UEAwwd
+d3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNvbXVuZSBk
+aSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJhbWJpbmVs
+bG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1wdWJsaWNz
+ZWN0b3ItU1AwHhcNMjEwNjA4MTQ1NTM4WhcNNDgxMDI0MTQ1NTM4WjCBozEmMCQG
+A1UEAwwdd3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNv
+bXVuZSBkaSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJh
+bWJpbmVsbG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1w
+dWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCr
+D7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o
+/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrm
+VTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+
+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk
+1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0wkANzHPHQNQI9VyU
+hK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EYl3kCobNfGMIL8HYw
+/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ2rfMlg31fEMim6bQ
+MvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp28Fm6B1dNMYP7K6Hl
+X3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnVrmDV3yeiifsSq95r
+E0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+
+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEB
+CwUAA4ICAQCLikzytuKTwBnw/tX5sJtRSot3yAMW6gL6p2PYxyh33c7GrlENPqOR
+LQss6/AcjtqLLgJ6gggo08Jy/D5uw7g0gRORPk5exkknSPpX7iHeDYd4e3MOoqRu
+eZsDuZdBuI9vBM356/cFl5ZxZkcp7lNMxuLwhIDZcJRpu71urxbp18ppS7g8DFBK
+F3S9w5sT3q1o4Ae+NW6Bfj6Iqn2HierrlzNyXo2fPHFVXR0qnHxEgQg0jaKkhxVl
+BM3kjxR4Le2mXviGUpvfgrVupDNMyrVHwjLI9Jc85lHPvrL5rmKrtaHNTMNVtJyI
+pG8IbYgYEtFnK0Q73FxqCr0DNh6iBURSzHztTGsmSPmyOwD1soPYbYxFuE149usF
+J+NrxEXSFQ9waVypR7VTQME8hcFD119RTmewoR9xqsfAkvJ617OL1/J+w7HXuCr0
+29Gp9NQtf6cajNIxu6+tyQNKzdQUbIom7yOf8CsaNV1bNNFbjDWpSWkTGMUt04K9
+IvIYciyErhHpZLxlZzLRkyevTn5qP8JOPivdAGJP1YiWYX4InIewTieNzGj84712
+8WCwVy4WLIi1Dat/AGPBGgm5t5QpbKNG33xzbhuD7mb/bZXsbgqhzAXvJBHQmQfO
+kq9NTtwn4wmpmzgabZmh35U3qxygTCRpk0VekdPAhHLqXG/BVbjQzg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="encryption">
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIFxDCCA6wCCQCk0FnagxibCTANBgkqhkiG9w0BAQsFADCBozEmMCQGA1UEAwwd
+d3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNvbXVuZSBk
+aSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJhbWJpbmVs
+bG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1wdWJsaWNz
+ZWN0b3ItU1AwHhcNMjEwNjA4MTQ1NTM4WhcNNDgxMDI0MTQ1NTM4WjCBozEmMCQG
+A1UEAwwdd3d3LmNvbXVuZS5zdHJhbWJpbmVsbG8udG8uaXQxHzAdBgNVBAoMFkNv
+bXVuZSBkaSBTdHJhbWJpbmVsbG8xCzAJBgNVBAYTAklUMRUwEwYDVQQHDAxTdHJh
+bWJpbmVsbG8xFTATBgNVBGEMDFBBOklULWNfaTk2OTEdMBsGAytMEAwUc3BpZC1w
+dWJsaWNzZWN0b3ItU1AwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCr
+D7qj289uwNp+MVuHbwZ9ii3odOtDmBoVMdp1M3rfkEAHjjTQYS7qoIBZhpDCpG3o
+/vAm1R+i8kGrAHoY06y8ak09EQtdqy68uI2SpsbY5pIX1OWV3PfsuUd0LK0kHBrm
+VTJMphaAAQc5nky/DPjaMZMUSzbUo7bK4a+yYrbKX4a3AQB04s+5WD1Nu4wdgFN+
+p11I3G9OhV8PlrvwghVqTWF7Drr5zGMyOkPl4VxTP7y+xVlwIdd9EGgc+gdJffnk
+1t70tlhXbDauuKhlilhGKQAhHPK/kAcgbaxbRk1/VzOCmxF0wkANzHPHQNQI9VyU
+hK19BsytnvKv2HJeMYCpAe9o91Lm2BIgirJsT+LdqxKnB3EYl3kCobNfGMIL8HYw
+/Ez7OVx/s9I5EF5gGgX5kczdZ3GVLNG5x22ugKdSkL8geStJ2rfMlg31fEMim6bQ
+MvaOA0ezoZ2/ozR55StufCQny+x0k7uBy3WcRKSd4zxd6fp28Fm6B1dNMYP7K6Hl
+X3zTMBbM6N+ifs7Jk4BOgnxyIvYOgR5wMt2UlbqrFBi1kAnVrmDV3yeiifsSq95r
+E0u1mV+uBMxU+WkrVYiXGy+LXA9lgot3y/1ZXZtvPNEAlfJPYXLiEjYEcAD60kD+
+T39mX1szyCN8sNhlqLXi07ONZj+ediTv3uOhHt0HmQIDAQABMA0GCSqGSIb3DQEB
+CwUAA4ICAQCLikzytuKTwBnw/tX5sJtRSot3yAMW6gL6p2PYxyh33c7GrlENPqOR
+LQss6/AcjtqLLgJ6gggo08Jy/D5uw7g0gRORPk5exkknSPpX7iHeDYd4e3MOoqRu
+eZsDuZdBuI9vBM356/cFl5ZxZkcp7lNMxuLwhIDZcJRpu71urxbp18ppS7g8DFBK
+F3S9w5sT3q1o4Ae+NW6Bfj6Iqn2HierrlzNyXo2fPHFVXR0qnHxEgQg0jaKkhxVl
+BM3kjxR4Le2mXviGUpvfgrVupDNMyrVHwjLI9Jc85lHPvrL5rmKrtaHNTMNVtJyI
+pG8IbYgYEtFnK0Q73FxqCr0DNh6iBURSzHztTGsmSPmyOwD1soPYbYxFuE149usF
+J+NrxEXSFQ9waVypR7VTQME8hcFD119RTmewoR9xqsfAkvJ617OL1/J+w7HXuCr0
+29Gp9NQtf6cajNIxu6+tyQNKzdQUbIom7yOf8CsaNV1bNNFbjDWpSWkTGMUt04K9
+IvIYciyErhHpZLxlZzLRkyevTn5qP8JOPivdAGJP1YiWYX4InIewTieNzGj84712
+8WCwVy4WLIi1Dat/AGPBGgm5t5QpbKNG33xzbhuD7mb/bZXsbgqhzAXvJBHQmQfO
+kq9NTtwn4wmpmzgabZmh35U3qxygTCRpk0VekdPAhHLqXG/BVbjQzg==
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.strambinello.to.it/it-it/spid/logoutresp"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.strambinello.to.it/it-it/spid/loginresp" index="0" isDefault="true"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Servizi Online
+            </md:ServiceName>
+            <md:ServiceDescription xml:lang="it">
+                Accesso ai Servizi Online
+            </md:ServiceDescription>
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Strambinello
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Strambinello
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.strambinello.to.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_i969
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            strambinello@ruparpiemonte.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            +39012576691
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

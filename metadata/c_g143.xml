@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://luni.dgegovpa.it" ID="dgd3be09ce-cfd7-48e8-afcd-8be94b13dfd3" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#dgd3be09ce-cfd7-48e8-afcd-8be94b13dfd3">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    ZB9IK9gucO9Wpcn6lluQyzyjEh6RxFM/+6wMo8e5aDI=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            zNPoKIVCuU4y0KxdOXTS4COFS8Jt+WWQB7Uvgb4atFr2iPX1jdjbcmUCXK/gzaCu+KvtVR6ow6qlUp4o4Go/DBwwviuzdIk9iQZ8CyKBUipOWG3TeVhCnOcsVCgDTjA890epG4wJyAilgPwgzPA/L8VwfPE9FXXeMirp2dU+V12i6j+eg8Qaf8PjwxCO3WJfIug2o0N3sJ7N6500qkkT/3HLnZq68ZSw79n6n9tbZ3nCG/R10BSwl1wTn8Tj2WSVWZS53er0/+Wk0itVmmJ1r740Fl6z6/zNMKi/VzN0rK783UcOgwUI07t3cr0LRT8SgVOaI9kDt7/oWhDu54SmJg==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIID1TCCAr2gAwIBAgIJAPEvrE2HhKYXMA0GCSqGSIb3DQEBCwUAMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTAeFw0yMTAyMTgxMDM3NDdaFw0yNDAyMTgxMDM3NDdaMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPc56aWT6yZHZ4rzrKPT5vZ85b4wZP36gPkNNiWVG5jUfi0T9q4Mff6bO2Citu9kVrMf25T3I4ZLVoA/wpxTVf6WcXcdtknx4nOGW4rTuO1/epo/QOCZ1AuSfpZHhBIVRK8e3vxx7ygiJpBFW0PhlVJ3dy9gwvFSu9wr2mPBtRmEsi/7j8PA6szFkLPSMTTJZEmdreG0/oCIkXJEXR/e4YnyUTsiVsoijNY85bH4d76RqCYnh6ASlwD5eAB9l3rEhyTbKnZIHSZM4xPwbYTjpEJfCIhrWi5q3Nitv7w2xByI186k+WiJY2rUzEE8ZZM3DjbMDqaYNQVqqtK2K+Xqb3sCAwEAAaOBhzCBhDALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwOwYDVR0gBDQwMjAwBgYrTBAEAgEwJjAkBggrBgEFBQcCAjAYGhaTc3BpZC1wdWJsaWNzZWN0b3ItU1CUMCMGA1UdEQQcMBqGGGh0dHBzOi8vbHVuaS5kZ2Vnb3ZwYS5pdDANBgkqhkiG9w0BAQsFAAOCAQEAnxqBxMIAe1N9tazFdT7pzkPQfZZYD4OQNkdg0/awo5u4dVhsk8vZcEbZW0EF2NOqX2ZjlB/+eup3w98y243s+2Cxd8uJc+4jiFC1snv/03POmxd0qmq2bGEUej8GyVlcxxRHpNbgjmyQoKPL/TxHw4ZUlyT4Fms15tlBs5Batxf+UXIjM49l9RG42hnSGjyfNnncamjs0mqgZoNPeQaajwHtklfxYZE9luITRr+m+4TCtYyd6tGLyN6Cq4SgXtg3XZdCeWLAha3yWIfQxqNbHC+sUIc6l3/dgbGrsMlmz9wxCZ/ucmQWg8gS/pjk3MM2vLoet9JwnlBBZUZ/dOSeQg==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID1TCCAr2gAwIBAgIJAPEvrE2HhKYXMA0GCSqGSIb3DQEBCwUAMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTAeFw0yMTAyMTgxMDM3NDdaFw0yNDAyMTgxMDM3NDdaMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPc56aWT6yZHZ4rzrKPT5vZ85b4wZP36gPkNNiWVG5jUfi0T9q4Mff6bO2Citu9kVrMf25T3I4ZLVoA/wpxTVf6WcXcdtknx4nOGW4rTuO1/epo/QOCZ1AuSfpZHhBIVRK8e3vxx7ygiJpBFW0PhlVJ3dy9gwvFSu9wr2mPBtRmEsi/7j8PA6szFkLPSMTTJZEmdreG0/oCIkXJEXR/e4YnyUTsiVsoijNY85bH4d76RqCYnh6ASlwD5eAB9l3rEhyTbKnZIHSZM4xPwbYTjpEJfCIhrWi5q3Nitv7w2xByI186k+WiJY2rUzEE8ZZM3DjbMDqaYNQVqqtK2K+Xqb3sCAwEAAaOBhzCBhDALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwOwYDVR0gBDQwMjAwBgYrTBAEAgEwJjAkBggrBgEFBQcCAjAYGhaTc3BpZC1wdWJsaWNzZWN0b3ItU1CUMCMGA1UdEQQcMBqGGGh0dHBzOi8vbHVuaS5kZ2Vnb3ZwYS5pdDANBgkqhkiG9w0BAQsFAAOCAQEAnxqBxMIAe1N9tazFdT7pzkPQfZZYD4OQNkdg0/awo5u4dVhsk8vZcEbZW0EF2NOqX2ZjlB/+eup3w98y243s+2Cxd8uJc+4jiFC1snv/03POmxd0qmq2bGEUej8GyVlcxxRHpNbgjmyQoKPL/TxHw4ZUlyT4Fms15tlBs5Batxf+UXIjM49l9RG42hnSGjyfNnncamjs0mqgZoNPeQaajwHtklfxYZE9luITRr+m+4TCtYyd6tGLyN6Cq4SgXtg3XZdCeWLAha3yWIfQxqNbHC+sUIc6l3/dgbGrsMlmz9wxCZ/ucmQWg8gS/pjk3MM2vLoet9JwnlBBZUZ/dOSeQg==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIID1TCCAr2gAwIBAgIJAPEvrE2HhKYXMA0GCSqGSIb3DQEBCwUAMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTAeFw0yMTAyMTgxMDM3NDdaFw0yNDAyMTgxMDM3NDdaMGUxFzAVBgNVBAoMDkNvbXVuZSBkaSBMdW5pMRcwFQYDVQQDDA5Db211bmUgZGkgTHVuaTEVMBMGA1UEYQwMUEE6SVQtY19nMTQzMQswCQYDVQQGEwJJVDENMAsGA1UEBwwETHVuaTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAPc56aWT6yZHZ4rzrKPT5vZ85b4wZP36gPkNNiWVG5jUfi0T9q4Mff6bO2Citu9kVrMf25T3I4ZLVoA/wpxTVf6WcXcdtknx4nOGW4rTuO1/epo/QOCZ1AuSfpZHhBIVRK8e3vxx7ygiJpBFW0PhlVJ3dy9gwvFSu9wr2mPBtRmEsi/7j8PA6szFkLPSMTTJZEmdreG0/oCIkXJEXR/e4YnyUTsiVsoijNY85bH4d76RqCYnh6ASlwD5eAB9l3rEhyTbKnZIHSZM4xPwbYTjpEJfCIhrWi5q3Nitv7w2xByI186k+WiJY2rUzEE8ZZM3DjbMDqaYNQVqqtK2K+Xqb3sCAwEAAaOBhzCBhDALBgNVHQ8EBAMCB4AwEwYDVR0lBAwwCgYIKwYBBQUHAwMwOwYDVR0gBDQwMjAwBgYrTBAEAgEwJjAkBggrBgEFBQcCAjAYGhaTc3BpZC1wdWJsaWNzZWN0b3ItU1CUMCMGA1UdEQQcMBqGGGh0dHBzOi8vbHVuaS5kZ2Vnb3ZwYS5pdDANBgkqhkiG9w0BAQsFAAOCAQEAnxqBxMIAe1N9tazFdT7pzkPQfZZYD4OQNkdg0/awo5u4dVhsk8vZcEbZW0EF2NOqX2ZjlB/+eup3w98y243s+2Cxd8uJc+4jiFC1snv/03POmxd0qmq2bGEUej8GyVlcxxRHpNbgjmyQoKPL/TxHw4ZUlyT4Fms15tlBs5Batxf+UXIjM49l9RG42hnSGjyfNnncamjs0mqgZoNPeQaajwHtklfxYZE9luITRr+m+4TCtYyd6tGLyN6Cq4SgXtg3XZdCeWLAha3yWIfQxqNbHC+sUIc6l3/dgbGrsMlmz9wxCZ/ucmQWg8gS/pjk3MM2vLoet9JwnlBBZUZ/dOSeQg==
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/luni/CNS/idpSpid/logout.ashx"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://dgegovpa.it/luni/CNS/idpSpid/ACS.ashx" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale"/>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Luni
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Luni
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.luni.sp.it/
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_g143
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>
+            urp@comune.luni.sp.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>
