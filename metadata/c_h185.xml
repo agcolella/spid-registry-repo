@@ -1,0 +1,107 @@
+<md:EntityDescriptor entityID="https://rapolanoterme.comuneweb.it" ID="_5aae83e8-9b0e-49af-bb70-ccebbef6b206" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:xsi="http://www.w3.org/2001/XMLSchemainstance" xmlns:spid="https://spid.gov.it/saml-extensions">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_5aae83e8-9b0e-49af-bb70-ccebbef6b206">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    JOrtjQ0X1H/lgtQ2C0wP+TOCoLC0mSTssWnZzpRE+Eo=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            bfeK2KI3h67VYJTqDEO0NyXq+5q0hPemul7qKoT2roea8yi5kGm1GzJLcpe6Y2XMe4IUJjC1SUdGqnPL9C1pBOlTW9hDVtWGdhRqOT49fXjHgUUCfVhnMACc/Md3ZO0Y1ppI1y/UigYQsT006cCyT+x7nDtiWsgf31cxMB+ihyRHttQLPfqrQ+2nRaHV+tnaNtqTEVT8pffxBg0HnhjcT/EaZkf3JwmryHeGK7uGl5s4OMriCeC75ZTjAgXiyRUhnrVBU+f/6sQm3eTUoAyM/7HrLp/HTcanBFhnIkrLdQ1Lt9MOhjNSTZ7Nb2r3ei/4JeP1uOUuu0jZ3ar5/28h5A==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDvzCCAqegAwIBAgIIfdTCCjmc4K0wDQYJKoZIhvcNAQELBQAwgY0xKzApBgNVBAMMImh0dHBzOi8vcmFwb2xhbm90ZXJtZS5jb211bmV3ZWIuaXQxITAfBgNVBAoMGENvbXVuZSBkaSBSYXBvbGFubyBUZXJtZTEVMBMGA1UEYQwMUEE6SVQtY19oMTg1MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOUmFwb2xhbm8gVGVybWUwHhcNMjEwMjE1MDAwMDAwWhcNMzEwMjE1MDAwMDAwWjCBjTErMCkGA1UEAwwiaHR0cHM6Ly9yYXBvbGFub3Rlcm1lLmNvbXVuZXdlYi5pdDEhMB8GA1UECgwYQ29tdW5lIGRpIFJhcG9sYW5vIFRlcm1lMRUwEwYDVQRhDAxQQTpJVC1jX2gxODUxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5SYXBvbGFubyBUZXJtZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIIeB8KxVKsb/NNTF8JyuImZ9Y6Qur9paOssQ0kQ0SJCH/HmDft0UvxFjX4X+01G+BtLXloWDbuTkQjv66UepXfyqkMgfeHwopGrBWXgMJqm9CczZAye80i3+RKmIWajgaBr6ep4330DoPk9Qy3l9rBMestImb5XHgDZxyp73OPukiu5euvK60Y29gq1LhtGcuCVkVEfp1FFB41bWLmstaWxmwnc8rsFhuo5UT6CSy4m0OQcRGgCbRNe40MwMLpF9L03b743YVUqsuYGoHb6PVioAWv/bIeV0pINgjB8a8rKzilKvbS41c7N+ZH/GbeAd3wco9stTKEe4YcNrb3ozu8CAwEAAaMhMB8wHQYDVR0gBBYEFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQAsSYaVloNRZMGXsbolqYWm9oxTu8QcMhtSlXb7uwAYajpPopHMhW0Aw0z44L8b87vJPMRw4Ekj1pgYW4JZCY7udPGbbFWX79iQkPRBXpjBe4kllMlVePmEO07up3APQvIf4Nj8sutuTPkwV53EfSwM90SH5GGtuiSfwHdmvZe37jrJ1tqTgoQjB7MimZUOcWOUfS4NMleP8n3aoMEzJJGQngK85w+vLqy71hUY+vqSmcdqYVwzhucGeljkHEWGTiAbll7S56KLiebo6Wmw95miQR+dlHHD5sEQEh+KqtWwJu9Xm9gM7gMqhFH1ZTFIRpRxePdNBrWLkF84OFntY4Mn
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" WantAssertionsSigned="true" AuthnRequestsSigned="true">
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIDvzCCAqegAwIBAgIIfdTCCjmc4K0wDQYJKoZIhvcNAQELBQAwgY0xKzApBgNVBAMMImh0dHBzOi8vcmFwb2xhbm90ZXJtZS5jb211bmV3ZWIuaXQxITAfBgNVBAoMGENvbXVuZSBkaSBSYXBvbGFubyBUZXJtZTEVMBMGA1UEYQwMUEE6SVQtY19oMTg1MQswCQYDVQQGEwJJVDEXMBUGA1UEBwwOUmFwb2xhbm8gVGVybWUwHhcNMjEwMjE1MDAwMDAwWhcNMzEwMjE1MDAwMDAwWjCBjTErMCkGA1UEAwwiaHR0cHM6Ly9yYXBvbGFub3Rlcm1lLmNvbXVuZXdlYi5pdDEhMB8GA1UECgwYQ29tdW5lIGRpIFJhcG9sYW5vIFRlcm1lMRUwEwYDVQRhDAxQQTpJVC1jX2gxODUxCzAJBgNVBAYTAklUMRcwFQYDVQQHDA5SYXBvbGFubyBUZXJtZTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAIIeB8KxVKsb/NNTF8JyuImZ9Y6Qur9paOssQ0kQ0SJCH/HmDft0UvxFjX4X+01G+BtLXloWDbuTkQjv66UepXfyqkMgfeHwopGrBWXgMJqm9CczZAye80i3+RKmIWajgaBr6ep4330DoPk9Qy3l9rBMestImb5XHgDZxyp73OPukiu5euvK60Y29gq1LhtGcuCVkVEfp1FFB41bWLmstaWxmwnc8rsFhuo5UT6CSy4m0OQcRGgCbRNe40MwMLpF9L03b743YVUqsuYGoHb6PVioAWv/bIeV0pINgjB8a8rKzilKvbS41c7N+ZH/GbeAd3wco9stTKEe4YcNrb3ozu8CAwEAAaMhMB8wHQYDVR0gBBYEFHNwaWQtcHVibGljc2VjdG9yLVNQMA0GCSqGSIb3DQEBCwUAA4IBAQAsSYaVloNRZMGXsbolqYWm9oxTu8QcMhtSlXb7uwAYajpPopHMhW0Aw0z44L8b87vJPMRw4Ekj1pgYW4JZCY7udPGbbFWX79iQkPRBXpjBe4kllMlVePmEO07up3APQvIf4Nj8sutuTPkwV53EfSwM90SH5GGtuiSfwHdmvZe37jrJ1tqTgoQjB7MimZUOcWOUfS4NMleP8n3aoMEzJJGQngK85w+vLqy71hUY+vqSmcdqYVwzhucGeljkHEWGTiAbll7S56KLiebo6Wmw95miQR+dlHHD5sEQEh+KqtWwJu9Xm9gM7gMqhFH1ZTFIRpRxePdNBrWLkF84OFntY4Mn
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:KeyDescriptor use="signing">
+            <ds:KeyInfo>
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                    </ds:X509Certificate>
+                </ds:X509Data>
+            </ds:KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rapolanoterme.comuneweb.it/SPID/SSOLogout.ashx"/>
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rapolanoterme.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://rapolanoterme.comuneweb.it/SPID/SSOLogin.ashx" index="1"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">
+                Accesso ai servizi ComuneWeb
+            </md:ServiceName>
+            <md:RequestedAttribute Name="spidCode"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">
+            Comune di Rapolano Terme
+        </md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Rapolano Terme
+        </md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.rapolanoterme.si.it
+        </md:OrganizationURL>
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_h185
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            comune.rapolanoterme@postacert.toscana.it
+        </md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>

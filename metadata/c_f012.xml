@@ -1,0 +1,504 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx7d061348-6848-b9d4-6ae6-87c77f94bd5f" entityID="https://servizionline.comune.maserada.tv.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfx7d061348-6848-b9d4-6ae6-87c77f94bd5f">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    Trt/BTwpBtv1VWTwMqfOQpT2FWsaLvVpn0BHPFkx40M=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+DZ0OobkLFgIaouMFzh7Ldb1U2mY+d8m9d9XqJkoJHMPbN68gubea/g9myDQt3er0emvriD4uTItQ
+s+N8RH9oyo5eyNOL6+79QTZBufzs+xvuq+Rggo/ljeqFWZtdbs76jPGIG9YVRdruzw4dRwlveMao
+2Pwe0+JyAmyGDz7olYyAfHUCcOAkZEd7lVEjT2X6OpWboAE2r5TSpQ70KV9hOIdwEM4it3SfKo+l
+4FZNuDwkVD1iw/QoLc19omqHkKNTVxM7nJ9rdhtqCCwjzOMUxhumA04yDaE3BYGrGtQSc90h2g+J
+0ZvPfyQgN32sBGxmWNc0QPKfMSQ9sjbKHD8dnw==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+2TkaN+kqOsamsxbaH7Ru84KTIlQ3vAGZtfD3gbGCNOXAu2c5ELQ/0VC6OfVo5KeEnQVKpPV9xgyp
+wPwSQ4B5MAa7ekhkfJyea7rVWHV9yB0RPL9T6R0UpTOgKo7IWFD/6MTHsUxdBFjxyWxgyISXYoYd
+oCRnbjdDpbxwrcwyjt5GfDJIsuwhoAPjMGiP8Y8FCKRd3uH8SyE/QEg8aqMxtLz8e/oA1tFYg6NH
+vvA/zVhU4UGPtQBHwZjPo15e/iPetJSq5YrNNepHkbN9KbsBZ31usp8YB2SjBZEm45wuojK8Kh4z
+pW+ddUKMmt6TspHRev2WjFOBTTakREK+p1GMCw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIID8zCCAtugAwIBAgIJAPa65bilf0hZMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hc2VyYWRhIHN1bCBQaWF2ZTElMCMGA1UECgwcQ29t
+dW5lIGRpIE1hc2VyYWRhIHN1bCBQaWF2ZTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUu
+bWFzZXJhZGEudHYuaXQwHhcNMjExMTE1MDgwMTI3WhcNMzExMTE1MDgwMTI3WjCBjzELMAkGA1UE
+BhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJNYXNlcmFkYSBzdWwgUGlhdmUxJTAjBgNV
+BAoMHENvbXVuZSBkaSBNYXNlcmFkYSBzdWwgUGlhdmUxLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUu
+Y29tdW5lLm1hc2VyYWRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2Tka
+N+kqOsamsxbaH7Ru84KTIlQ3vAGZtfD3gbGCNOXAu2c5ELQ/0VC6OfVo5KeEnQVKpPV9xgypwPwS
+Q4B5MAa7ekhkfJyea7rVWHV9yB0RPL9T6R0UpTOgKo7IWFD/6MTHsUxdBFjxyWxgyISXYoYdoCRn
+bjdDpbxwrcwyjt5GfDJIsuwhoAPjMGiP8Y8FCKRd3uH8SyE/QEg8aqMxtLz8e/oA1tFYg6NHvvA/
+zVhU4UGPtQBHwZjPo15e/iPetJSq5YrNNepHkbN9KbsBZ31usp8YB2SjBZEm45wuojK8Kh4zpW+d
+dUKMmt6TspHRev2WjFOBTTakREK+p1GMCwIDAQABo1AwTjAdBgNVHQ4EFgQUrxW2E92050pRwlXA
+jgwM4r+nGEUwHwYDVR0jBBgwFoAUrxW2E92050pRwlXAjgwM4r+nGEUwDAYDVR0TBAUwAwEB/zAN
+BgkqhkiG9w0BAQsFAAOCAQEAh+hxdj6UVqP9D373vRqFUg6mYdB/2/MD5nwfgTMo9qxEX6XYVAyz
+6UDdpa7wfn31AFnl1nqbnHqKcU0n43pnfSTmwe+j5G5MQz+TT3KJ5ZpjP+XY6WnTjAo29URZqjir
+VsK2ovLcArQ2+x2+n5dDLYkci0XtHSdeuOl+UCVolLHwwBDB2qM8m2xJ1tPIw5yGP2qmIwZNJEn0
+xJo8ncafJU0DtnLHpQVNmYTmrDXSf1BsfAAFTqwFjX9sHTX80rZBywNv2RgY2w1jGrKHEOSk5Qws
+AahpbR/FPPfokqc2hTuIX6ApgqYRXP3BKyiyExpKCFqaPtmsmriGnlI0okDKog==
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIID8zCCAtugAwIBAgIJAPa65bilf0hZMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hc2VyYWRhIHN1bCBQaWF2ZTElMCMGA1UECgwcQ29tdW5lIGRpIE1hc2VyYWRhIHN1bCBQaWF2ZTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUubWFzZXJhZGEudHYuaXQwHhcNMjExMTE1MDgwMTI3WhcNMzExMTE1MDgwMTI3WjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJNYXNlcmFkYSBzdWwgUGlhdmUxJTAjBgNVBAoMHENvbXVuZSBkaSBNYXNlcmFkYSBzdWwgUGlhdmUxLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLm1hc2VyYWRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2TkaN+kqOsamsxbaH7Ru84KTIlQ3vAGZtfD3gbGCNOXAu2c5ELQ/0VC6OfVo5KeEnQVKpPV9xgypwPwSQ4B5MAa7ekhkfJyea7rVWHV9yB0RPL9T6R0UpTOgKo7IWFD/6MTHsUxdBFjxyWxgyISXYoYdoCRnbjdDpbxwrcwyjt5GfDJIsuwhoAPjMGiP8Y8FCKRd3uH8SyE/QEg8aqMxtLz8e/oA1tFYg6NHvvA/zVhU4UGPtQBHwZjPo15e/iPetJSq5YrNNepHkbN9KbsBZ31usp8YB2SjBZEm45wuojK8Kh4zpW+ddUKMmt6TspHRev2WjFOBTTakREK+p1GMCwIDAQABo1AwTjAdBgNVHQ4EFgQUrxW2E92050pRwlXAjgwM4r+nGEUwHwYDVR0jBBgwFoAUrxW2E92050pRwlXAjgwM4r+nGEUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAh+hxdj6UVqP9D373vRqFUg6mYdB/2/MD5nwfgTMo9qxEX6XYVAyz6UDdpa7wfn31AFnl1nqbnHqKcU0n43pnfSTmwe+j5G5MQz+TT3KJ5ZpjP+XY6WnTjAo29URZqjirVsK2ovLcArQ2+x2+n5dDLYkci0XtHSdeuOl+UCVolLHwwBDB2qM8m2xJ1tPIw5yGP2qmIwZNJEn0xJo8ncafJU0DtnLHpQVNmYTmrDXSf1BsfAAFTqwFjX9sHTX80rZBywNv2RgY2w1jGrKHEOSk5QwsAahpbR/FPPfokqc2hTuIX6ApgqYRXP3BKyiyExpKCFqaPtmsmriGnlI0okDKog==
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIID8zCCAtugAwIBAgIJAPa65bilf0hZMA0GCSqGSIb3DQEBCwUAMIGPMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxGzAZBgNVBAcMEk1hc2VyYWRhIHN1bCBQaWF2ZTElMCMGA1UECgwcQ29tdW5lIGRpIE1hc2VyYWRhIHN1bCBQaWF2ZTEsMCoGA1UEAwwjc2Vydml6aW9ubGluZS5jb211bmUubWFzZXJhZGEudHYuaXQwHhcNMjExMTE1MDgwMTI3WhcNMzExMTE1MDgwMTI3WjCBjzELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRswGQYDVQQHDBJNYXNlcmFkYSBzdWwgUGlhdmUxJTAjBgNVBAoMHENvbXVuZSBkaSBNYXNlcmFkYSBzdWwgUGlhdmUxLDAqBgNVBAMMI3NlcnZpemlvbmxpbmUuY29tdW5lLm1hc2VyYWRhLnR2Lml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2TkaN+kqOsamsxbaH7Ru84KTIlQ3vAGZtfD3gbGCNOXAu2c5ELQ/0VC6OfVo5KeEnQVKpPV9xgypwPwSQ4B5MAa7ekhkfJyea7rVWHV9yB0RPL9T6R0UpTOgKo7IWFD/6MTHsUxdBFjxyWxgyISXYoYdoCRnbjdDpbxwrcwyjt5GfDJIsuwhoAPjMGiP8Y8FCKRd3uH8SyE/QEg8aqMxtLz8e/oA1tFYg6NHvvA/zVhU4UGPtQBHwZjPo15e/iPetJSq5YrNNepHkbN9KbsBZ31usp8YB2SjBZEm45wuojK8Kh4zpW+ddUKMmt6TspHRev2WjFOBTTakREK+p1GMCwIDAQABo1AwTjAdBgNVHQ4EFgQUrxW2E92050pRwlXAjgwM4r+nGEUwHwYDVR0jBBgwFoAUrxW2E92050pRwlXAjgwM4r+nGEUwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAh+hxdj6UVqP9D373vRqFUg6mYdB/2/MD5nwfgTMo9qxEX6XYVAyz6UDdpa7wfn31AFnl1nqbnHqKcU0n43pnfSTmwe+j5G5MQz+TT3KJ5ZpjP+XY6WnTjAo29URZqjirVsK2ovLcArQ2+x2+n5dDLYkci0XtHSdeuOl+UCVolLHwwBDB2qM8m2xJ1tPIw5yGP2qmIwZNJEn0xJo8ncafJU0DtnLHpQVNmYTmrDXSf1BsfAAFTqwFjX9sHTX80rZBywNv2RgY2w1jGrKHEOSk5QwsAahpbR/FPPfokqc2hTuIX6ApgqYRXP3BKyiyExpKCFqaPtmsmriGnlI0okDKog==
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIID4TCCAsmgAwIBAgIIDdeqj2sIVY4wDQYJKoZIhvcNAQELBQAwgZ4xNDAyBgNVBAMMK2h0dHBzOi8vc2Vydml6aW9ubGluZS5jb211bmUubWFzZXJhZGEudHYuaXQxJTAjBgNVBAoMHENvbXVuZSBkaSBNYXNlcmFkYSBzdWwgUGlhdmUxFTATBgNVBGEMDFBBOklULWNfZjAxMjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEk1hc2VyYWRhIHN1bCBQaWF2ZTAeFw0yMDExMDMwMDAwMDBaFw0zMDExMDMwMDAwMDBaMIGeMTQwMgYDVQQDDCtodHRwczovL3NlcnZpemlvbmxpbmUuY29tdW5lLm1hc2VyYWRhLnR2Lml0MSUwIwYDVQQKDBxDb211bmUgZGkgTWFzZXJhZGEgc3VsIFBpYXZlMRUwEwYDVQRhDAxQQTpJVC1jX2YwMTIxCzAJBgNVBAYTAklUMRswGQYDVQQHDBJNYXNlcmFkYSBzdWwgUGlhdmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUsB5n
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        MIID4TCCAsmgAwIBAgIIDdeqj2sIVY4wDQYJKoZIhvcNAQELBQAwgZ4xNDAyBgNVBAMMK2h0dHBzOi8vc2Vydml6aW9ubGluZS5jb211bmUubWFzZXJhZGEudHYuaXQxJTAjBgNVBAoMHENvbXVuZSBkaSBNYXNlcmFkYSBzdWwgUGlhdmUxFTATBgNVBGEMDFBBOklULWNfZjAxMjELMAkGA1UEBhMCSVQxGzAZBgNVBAcMEk1hc2VyYWRhIHN1bCBQaWF2ZTAeFw0yMDExMDMwMDAwMDBaFw0zMDExMDMwMDAwMDBaMIGeMTQwMgYDVQQDDCtodHRwczovL3NlcnZpemlvbmxpbmUuY29tdW5lLm1hc2VyYWRhLnR2Lml0MSUwIwYDVQQKDBxDb211bmUgZGkgTWFzZXJhZGEgc3VsIFBpYXZlMRUwEwYDVQRhDAxQQTpJVC1jX2YwMTIxCzAJBgNVBAYTAklUMRswGQYDVQQHDBJNYXNlcmFkYSBzdWwgUGlhdmUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDUsB5n
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+   		
+            <ds:KeyInfo>
+                
+   			
+                <ds:X509Data>
+                    
+    			
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+    		
+                </ds:X509Data>
+                
+    	
+            </ds:KeyInfo>
+            
+   	
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://servizionline.comune.maserada.tv.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://maseradasulpiave.comuneweb.it/SPID/SSOLogout.ashx"/>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://mycalendar.comune.maserada.tv.it/spid/logout"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://servizionline.comune.maserada.tv.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://maseradasulpiave.comuneweb.it/SPID/SSOLogin.ashx" index="1"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mycalendar.comune.maserada.tv.it/spid/acs" index="2"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://cas.comuneweb.it/cas/spidAssertionConsumerService" index="3"/>
+        
+    
+        <md:AttributeConsumingService index="0">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Accesso ai servizi ComuneWeb
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Accesso ai servizi ComuneWeb
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="2">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Mycalendar
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Portale prenotazione appuntamenti
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+    
+        <md:AttributeConsumingService index="3">
+            
+   		
+            <md:ServiceName xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceName>
+            
+
+            <md:ServiceDescription xml:lang="it">
+                Portale dei pagamenti del cittadino
+            </md:ServiceDescription>
+            
+   	
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+   	
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Maserada sul Piave
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Maserada sul Piave
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.maserada.tv.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_f012
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Maserada sul Piave
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            segreteria@comune.maserada.tv.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

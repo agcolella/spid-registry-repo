@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxc160bcfb-e091-4e83-bfb1-773ef40a517d" entityID="https://www.comuneverolengo.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxc160bcfb-e091-4e83-bfb1-773ef40a517d">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    8JQkMb9yeJ3Mq/7eZ84wi3vSpc36m0F1/5ndinMRSWY=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+UWM9zAI0DHooQ4hkjfubwy90VOAl80e0dvWzGayy6OWInVCQXRShW/GOd5EU1KqzwWoUJ4QKBgj2
+FrEeXat0UrVjn2Tmb5KGWntdzPXNOn/3g+B8jRSimOwcAxdQwpb9i6rQ/KF3P7USU5CP7ZGx0uPw
+8iC37TXse8JScxJkElbYFXJgguoGLcml9i1CLAcFYHTeyMDTv4CUUDBe8QwRLpFExNoiUmr68BVL
+7dwlLMkQZ9SMjb07orlH8AIuBcE0cdbDnHmKkMZLS3sUbrZnixn7vIAV6gXKntCD5p/sne+FpFuy
+z9nEtah4mpjlkmE0SJD7Hhf/551N/KZf6etJkg==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+5Fj8+983udMwkXsqNyxpZWk05SgFdG03lG/vGBzOdiemslc14Ds6KCi0ZDOZ74E4lmZcNjlDMUUL
+oy4UlqQJOwUlJJlbz1cIHpTH+gzQOLMogm0yMPYN6S5Tllu/ywdtBe7hfEFnNfp5FPDdvPpHceM2
+dHL47pIph+jpTYVp4e8K7RDcnQY1IlMuo28aFfVPV2GpTAd7zIUy2DRYZ7tqWvgQCysvvsu6YhNZ
+jWdnAOwrTPlsSIQLTLzqXvYpNP4vuKq0mLej/Jh21tvHas80QIouK71SuyPQK9BfFYtamKXBZheY
+spUiYonyUprcOK/iJHy7kcAE0etK+4/w16bgWw==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIDszCCApugAwIBAgIJANWps93Scje8MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJVmVyb2xlbmdvMRwwGgYDVQQKDBNDb211bmUgZGkgVmVy
+b2xlbmdvMR8wHQYDVQQDDBZ3d3cuY29tdW5ldmVyb2xlbmdvLml0MB4XDTIxMTExMTEyMzM1OFoX
+DTMxMTExMTEyMzM1OFowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlW
+ZXJvbGVuZ28xHDAaBgNVBAoME0NvbXVuZSBkaSBWZXJvbGVuZ28xHzAdBgNVBAMMFnd3dy5jb211
+bmV2ZXJvbGVuZ28uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkWPz73ze50zCR
+eyo3LGllaTTlKAV0bTeUb+8YHM52J6ayVzXgOzooKLRkM5nvgTiWZlw2OUMxRQujLhSWpAk7BSUk
+mVvPVwgelMf6DNA4syiCbTIw9g3pLlOWW7/LB20F7uF8QWc1+nkU8N28+kdx4zZ0cvjukimH6OlN
+hWnh7wrtENydBjUiUy6jbxoV9U9XYalMB3vMhTLYNFhnu2pa+BALKy++y7piE1mNZ2cA7CtM+WxI
+hAtMvOpe9ik0/i+4qrSYt6P8mHbW28dqzzRAii4rvVK7I9Ar0F8Vi1qYpcFmF5iylSJiifJSmtw4
+r+IkfLuRwATR60r7j/DXpuBbAgMBAAGjUDBOMB0GA1UdDgQWBBQAy1aTM9O2LFSnJfE/O1lUIIwt
+LDAfBgNVHSMEGDAWgBQAy1aTM9O2LFSnJfE/O1lUIIwtLDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3
+DQEBCwUAA4IBAQBuGKIaFe0B5qICAcNeuQgGfdwiLs4H42V/L2HH+MHKYK+Opfhc4aYxoqpYuNev
+YZFETBwbN37s5w5p1G4vdkVjhVUrLQXT9NBmxBpOfnqM8fNNknW9hzNSQL4orWDXfmaW8BQr55cL
+YiEnShBZpyT8NASXlUuTiSGbSQMmvVtq7NbrgmcnIC/GSqpov47UyQ0su06vBiMP/TeoZgZyVUMk
+OsF5G5z0sJfM7FMJMlSLeKOgMI6zffUXSPZKC2GJG60pPdaQaTQ24nGeVDQ4lIjnxJXzN+eQrX6k
+Vii9CCFhaD7gzzQAVBnmzvbjNJLj/GxXBzd5D2j5yMht5riztahK
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJANWps93Scje8MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJVmVyb2xlbmdvMRwwGgYDVQQKDBNDb211bmUgZGkgVmVyb2xlbmdvMR8wHQYDVQQDDBZ3d3cuY29tdW5ldmVyb2xlbmdvLml0MB4XDTIxMTExMTEyMzM1OFoXDTMxMTExMTEyMzM1OFowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlWZXJvbGVuZ28xHDAaBgNVBAoME0NvbXVuZSBkaSBWZXJvbGVuZ28xHzAdBgNVBAMMFnd3dy5jb211bmV2ZXJvbGVuZ28uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkWPz73ze50zCReyo3LGllaTTlKAV0bTeUb+8YHM52J6ayVzXgOzooKLRkM5nvgTiWZlw2OUMxRQujLhSWpAk7BSUkmVvPVwgelMf6DNA4syiCbTIw9g3pLlOWW7/LB20F7uF8QWc1+nkU8N28+kdx4zZ0cvjukimH6OlNhWnh7wrtENydBjUiUy6jbxoV9U9XYalMB3vMhTLYNFhnu2pa+BALKy++y7piE1mNZ2cA7CtM+WxIhAtMvOpe9ik0/i+4qrSYt6P8mHbW28dqzzRAii4rvVK7I9Ar0F8Vi1qYpcFmF5iylSJiifJSmtw4r+IkfLuRwATR60r7j/DXpuBbAgMBAAGjUDBOMB0GA1UdDgQWBBQAy1aTM9O2LFSnJfE/O1lUIIwtLDAfBgNVHSMEGDAWgBQAy1aTM9O2LFSnJfE/O1lUIIwtLDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBuGKIaFe0B5qICAcNeuQgGfdwiLs4H42V/L2HH+MHKYK+Opfhc4aYxoqpYuNevYZFETBwbN37s5w5p1G4vdkVjhVUrLQXT9NBmxBpOfnqM8fNNknW9hzNSQL4orWDXfmaW8BQr55cLYiEnShBZpyT8NASXlUuTiSGbSQMmvVtq7NbrgmcnIC/GSqpov47UyQ0su06vBiMP/TeoZgZyVUMkOsF5G5z0sJfM7FMJMlSLeKOgMI6zffUXSPZKC2GJG60pPdaQaTQ24nGeVDQ4lIjnxJXzN+eQrX6kVii9CCFhaD7gzzQAVBnmzvbjNJLj/GxXBzd5D2j5yMht5riztahK
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIDszCCApugAwIBAgIJANWps93Scje8MA0GCSqGSIb3DQEBCwUAMHAxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJVmVyb2xlbmdvMRwwGgYDVQQKDBNDb211bmUgZGkgVmVyb2xlbmdvMR8wHQYDVQQDDBZ3d3cuY29tdW5ldmVyb2xlbmdvLml0MB4XDTIxMTExMTEyMzM1OFoXDTMxMTExMTEyMzM1OFowcDELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRIwEAYDVQQHDAlWZXJvbGVuZ28xHDAaBgNVBAoME0NvbXVuZSBkaSBWZXJvbGVuZ28xHzAdBgNVBAMMFnd3dy5jb211bmV2ZXJvbGVuZ28uaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDkWPz73ze50zCReyo3LGllaTTlKAV0bTeUb+8YHM52J6ayVzXgOzooKLRkM5nvgTiWZlw2OUMxRQujLhSWpAk7BSUkmVvPVwgelMf6DNA4syiCbTIw9g3pLlOWW7/LB20F7uF8QWc1+nkU8N28+kdx4zZ0cvjukimH6OlNhWnh7wrtENydBjUiUy6jbxoV9U9XYalMB3vMhTLYNFhnu2pa+BALKy++y7piE1mNZ2cA7CtM+WxIhAtMvOpe9ik0/i+4qrSYt6P8mHbW28dqzzRAii4rvVK7I9Ar0F8Vi1qYpcFmF5iylSJiifJSmtw4r+IkfLuRwATR60r7j/DXpuBbAgMBAAGjUDBOMB0GA1UdDgQWBBQAy1aTM9O2LFSnJfE/O1lUIIwtLDAfBgNVHSMEGDAWgBQAy1aTM9O2LFSnJfE/O1lUIIwtLDAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQBuGKIaFe0B5qICAcNeuQgGfdwiLs4H42V/L2HH+MHKYK+Opfhc4aYxoqpYuNevYZFETBwbN37s5w5p1G4vdkVjhVUrLQXT9NBmxBpOfnqM8fNNknW9hzNSQL4orWDXfmaW8BQr55cLYiEnShBZpyT8NASXlUuTiSGbSQMmvVtq7NbrgmcnIC/GSqpov47UyQ0su06vBiMP/TeoZgZyVUMkOsF5G5z0sJfM7FMJMlSLeKOgMI6zffUXSPZKC2GJG60pPdaQaTQ24nGeVDQ4lIjnxJXzN+eQrX6kVii9CCFhaD7gzzQAVBnmzvbjNJLj/GxXBzd5D2j5yMht5riztahK
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comuneverolengo.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comuneverolengo.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Verolengo
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Verolengo
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comuneverolengo.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_l779
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Verolengo
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            segreteria.verolengo@ruparpiemonte.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

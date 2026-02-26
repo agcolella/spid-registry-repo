@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://trasparenza.comune.capovalle.bs.it/moduli/espid/spid/metadata.php" ID="pfx977644e6-6978-0bff-3186-d00a222049ad">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#pfx977644e6-6978-0bff-3186-d00a222049ad">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    ljPEOdT3gumFcJWkOjpz6NcrLKYLtCKNGRwAQCHIOv4=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            lULGiPBBF5FKcznagyRhFLLXJI3N7+pdbRMg0qfIQQB2PAOuGNbz9oJ+OwT9bK5dr8RfE/wQesQWRk5Edg0Oqo0DIuVDqI+8C359cv0WHhDJWOb4K5xY2ZXgmq8fLsgaXArKVy+Sd6BmrZF1lsBT6Vu9XTz9IqbBmfgydWNX9NKqZFFlDx+8pZgxEzhi3aIP6a3qB8F3kbGzppw65l82bA+H8TBs1NmU6XiTCF2eky5hfIS9annCc9mO/2SMbSiC+dO8oTkcIcxzvxv85KGfDHL61LXfnPocgwx+42f1vLC4BizOi2QdiaffoDOmtXV8Q4c+Y90hx5FJ6I6ah7OXJ8TMRHxkJcd9mrOUJYlYBzF/jHBO6mLQy9H3LYGfY9J88EyJ7Adx7NpVi/gfhXlXqZ6rT8XjUo0dxa9LghQaR707VoWms9srqxK5K1LROUw1GeV5DGhTzUfYsl9sM89CpTjgv1mUCuRnlbEmZBHwO2PQFxDcp1IgU7OpaiAiqbfIIBYuVbM7yoBQ9aae4uUg/jJH6P4s5RFF0t36y936sahh+pE8JQCouwymyGXc4sqo7Z1fMNK63UX362ecfY+le0J9y0Iytu6XJgPedW3ybw8NvUV3fY9jR13AVZGqon6lDPqOHL6QcLBAzaJUbLgapM7gR8BUzvZ8P26rnL9gaU0=
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    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
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trasparenza.comune.capovalle.bs.it/index.php?sls"/>
+        
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trasparenza.comune.capovalle.bs.it/index.php?acs" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizio SPID-eTrasparenza per Comune di Capovalle
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Descrizione SPID per Comune di Capovalle
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Capovalle
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Capovalle
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://trasparenza.comune.capovalle.bs.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_b676
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>
+            trasformazionedigitale@secoval.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

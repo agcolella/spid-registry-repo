@@ -1,0 +1,348 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_f24a5e0e0672d317e449db9ac7ccd059" entityID="https://idpcgel.crs.lombardia.it/gelmetadata/013047">
+    
+    
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/TR/2001/REC-xml-c14n-20010315"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="#_f24a5e0e0672d317e449db9ac7ccd059">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    YzTshMaV++15IGZ0si23rPGWCl/07K8N+tAcWiHbUX4=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            VnqswOs13ffq2zfUwLU87B8TztuO51xEBI8KFiroeMtOvkR6TnfX4oGQ4Q4t18+FA0pPCriq5AMr&#13;
+AXEG17kGO8okkaHbYky5gu+FofUdzlQusv+Y9tkyuUAKXy1W5EKVyVSWFXXvypxN0To11ijEGR/t&#13;
+aLhOnubqrnoXKik0+WDgp/NHv25g9iJbQxm6yg8LWIqvZLPppUCt9DpSRyfJ88dCBt8OS9dgfb0n&#13;
+KPF60iMlcsxue0m30K6nzGvzM632Qv8ibQb4r3437XrSt3mRAaRkewMKOIjpq0yN/wLD8TAfed6E&#13;
+3op9ShmW4rpfsoTE3h53FB3W5Mky0eiMuNyj/A==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIEUzCCAzugAwIBAgIUeKAEIFVmsuShkbSO6m5bpO2469MwDQYJKoZIhvcNAQELBQAwgZExCzAJ&#13;
+BgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNVBAcMBk1pbGFubzEPMA0GA1UECgwGMDEz&#13;
+MDQ3MRswGQYDVQQLDBJDb211bmUgZGkgQ2FybGF6em8xGzAZBgNVBAMMEkNvbXVuZSBkaSBDYXJs&#13;
+YXp6bzEVMBMGA1UEYQwMUEE6SVQtY19iNzg1MB4XDTIxMTEwOTE0MjcyNFoXDTI0MTEwODE0Mjcy&#13;
+NFowgZExCzAJBgNVBAYTAklUMQ8wDQYDVQQIDAZNaWxhbm8xDzANBgNVBAcMBk1pbGFubzEPMA0G&#13;
+A1UECgwGMDEzMDQ3MRswGQYDVQQLDBJDb211bmUgZGkgQ2FybGF6em8xGzAZBgNVBAMMEkNvbXVu&#13;
+ZSBkaSBDYXJsYXp6bzEVMBMGA1UEYQwMUEE6SVQtY19iNzg1MIIBIjANBgkqhkiG9w0BAQEFAAOC&#13;
+AQ8AMIIBCgKCAQEA06HFTLopegdngjz7pMCw1cAyUffcJ7kgifdzJ9j/tSIl1mFgqam7km8sP+sa&#13;
+I2lsZGt4zN5rxgjNhW5do7mYozRGM+P4lZezfVDqPkQEz2nkbjZj7nLRfzte7xZMkACcDtLDjkxe&#13;
+k2q0neTFTRgEhZ2UbGI/ZRt+rnGBn4pisbYOhVkdeODspa4xMOVOc3KIBKmlYdmMJG8zlYlQBmT0&#13;
+RdiClSb2scEsC0cykCwaiYcvnRMvlFQ/MUvrXTPGuodcZVtL9xNmXwHB/NAlBeKrvnPXp6IMWSQD&#13;
+T1aP0DK/v5wqxGMnTkRx5P9qHpbeoMSMDgmrg6sDnu6Wn9UFsKzQxQIDAQABo4GgMIGdMAsGA1Ud&#13;
+DwQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDAzA5BgNVHSAEMjAwMC4GBitMEAQCATAkMCIGCCsG&#13;
+AQUFBwICMBYaFHNwaWQtcHVibGljc2VjdG9yLVNQMD4GA1UdEQQ3MDWGM2h0dHBzOi8vaWRwY2dl&#13;
+bC5jcnMubG9tYmFyZGlhLml0L2dlbG1ldGFkYXRhLzAxMzA0NzANBgkqhkiG9w0BAQsFAAOCAQEA&#13;
+0ScQmquN7/mAS2PtRJQSMyFVUJEgQU4ABqfET7RNuCH5vP1hGYs3laS/31OnJOEEDd3i75VZeF7/&#13;
+iGZ7QFI2F4Lj/r2PWjb/RGkyhx5O3OwvKaWVyLhXBSjKwzQ3g1SLbdhP6TrSjLCMcq/wKcqgmBsN&#13;
+9d6JC/UIhaAkYMUsBb4osN5wdAhkzgZOG2ujTICoYBL7Z43wkRepDj9Aa99PHZGLBh3W4bt1DTms&#13;
+dXePy9AUfhjos6OUq9ISJtPpNG2OC6fkuY+0jV9OeEuHpHPNWf9V+kJ1hy9c7bVGPFwqzxGhGjBv&#13;
+Ru1UHqsZ9EeQv7i7ZRKYv+Yyjcqxrg/JDCb14w==
+                </X509Certificate>
+            </X509Data>
+            <KeyValue>
+                <RSAKeyValue>
+                    <Modulus>
+                        06HFTLopegdngjz7pMCw1cAyUffcJ7kgifdzJ9j/tSIl1mFgqam7km8sP+saI2lsZGt4zN5rxgjN&#13;
+hW5do7mYozRGM+P4lZezfVDqPkQEz2nkbjZj7nLRfzte7xZMkACcDtLDjkxek2q0neTFTRgEhZ2U&#13;
+bGI/ZRt+rnGBn4pisbYOhVkdeODspa4xMOVOc3KIBKmlYdmMJG8zlYlQBmT0RdiClSb2scEsC0cy&#13;
+kCwaiYcvnRMvlFQ/MUvrXTPGuodcZVtL9xNmXwHB/NAlBeKrvnPXp6IMWSQDT1aP0DK/v5wqxGMn&#13;
+TkRx5P9qHpbeoMSMDgmrg6sDnu6Wn9UFsKzQxQ==
+                    </Modulus>
+                    <Exponent>
+                        AQAB
+                    </Exponent>
+                </RSAKeyValue>
+            </KeyValue>
+        </KeyInfo>
+    </Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+        
+        <md:KeyDescriptor use="signing">
+            
+            
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+                
+                <ds:X509Data>
+                    
+                    
+                    <ds:X509Certificate>
+                        MIIEOzCCAyOgAwIBAgIETfNI4TANBgkqhkiG9w0BAQsFADCBjTEVMBMGA1UEYQwMUEE6SVQtY19iNzg1MRswGQYDVQQDDBJDb211bmUgZGkgQ2FybGF6em8xGzAZBgNVBAsMEkNvbXVuZSBkaSBDYXJsYXp6bzEPMA0GA1UECgwGMDEyMDIxMQ8wDQYDVQQHDAZNaWxhbm8xCzAJBgNVBAgMAk1JMQswCQYDVQQGEwJJVDAeFw0yMTExMTAxMDMyMzJaFw0yNDExMTAxMDMyMzJaMIGNMRUwEwYDVQRhDAxQQTpJVC1jX2I3ODUxGzAZBgNVBAMMEkNvbXVuZSBkaSBDYXJsYXp6bzEbMBkGA1UECwwSQ29tdW5lIGRpIENhcmxhenpvMQ8wDQYDVQQKDAYwMTIwMjExDzANBgNVBAcMBk1pbGFubzELMAkGA1UECAwCTUkxCzAJBgNVBAYTAklUMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAlOT2OsdLFbByxB+Mu1MfiF+Yu6odazhvNjAsdbCOSuBNqPRX0KoWlGzth2NfQGhC/7rydgd0wrB7Cm2Na8IOJOAfy6uhWaGROGatBQqPGRNWya14OuIHP0REDKW0iZ1fqgG3gI/7sQnpE7tnURLfOSVP4gg5pJPJompF2EGoGPHeUzikvuSpkGCYyqSBofHEzQPgKiAT5e/ZgwnOtsWXLwffA+sU3IV2znpLkdT0/qUdxsUKZj8MuP1QGu1jrtZwHQ6wToOWXX2vNOSXLM4aX4ENXQfBkdYgGBP+/SIGJZH2tbWO9zjHOVfDgP5DkPw8cNuZkXUYfC7RN6RBoS0DmwIDAQABo4GgMIGdMDkGA1UdIAQyMDAwLgYGK0wQBAIBMCQwIgYIKwYBBQUHAgIwFgwUc3BpZC1wdWJsaWNzZWN0b3ItU1AwCwYDVR0PBAQDAgeAMBMGA1UdJQQMMAoGCCsGAQUFBwMDMD4GA1UdEQQ3MDWGM2h0dHBzOi8vaWRwY2dlbC5jcnMubG9tYmFyZGlhLml0L2dlbG1ldGFkYXRhLzAxMzA0NzANBgkqhkiG9w0BAQsFAAOCAQEANHRBUNUOeyOg5adUqj1vS2fF0QVhI/dqDN6Fb1JJoxMmUjS2Xfg+HvAkGvhFjaERtjkLUJeQZZtGA5FWlNRRiTGF+J5aXei/qS6LVtpeJLnkAdo/7mlqonsw0IonkYpJs1pt/DqV88EIOAFJcnZoU3dISADCJGeLUMGVBP7NKwvjSpNbH93kHqdh/0eUG+umImht2rFC4CMTpRCmd0Gxm0ShzsIp3HNMv+SCnEH62jvS+rdVsekHQ7xlBZQRZGPo8ndWdfZHbzgLP9r/Lo6/zcOjH/A6Kc+aiJjBLXDhN9hnprc7/Y0iae1oe0Aqm0l6b9mz0lo3f63ARLtOQP8cnQ==
+                    </ds:X509Certificate>
+                    
+                
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idpcgel.crs.lombardia.it/idpcgel/MetadataPublisherServlet"/>
+        
+        
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+        
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://idpcgel.crs.lombardia.it/idpcgel/AssertionConsumerService" index="0" isDefault="true"/>
+        
+        
+        <md:AttributeConsumingService index="0">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set0
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+        
+        <md:AttributeConsumingService index="1">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set1
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="gender"/>
+            
+            
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+        
+        <md:AttributeConsumingService index="2">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set2
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="gender"/>
+            
+            
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+        
+        <md:AttributeConsumingService index="3">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set3
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="gender"/>
+            
+            
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            
+            
+            <md:RequestedAttribute Name="mobilePhone"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+        
+        <md:AttributeConsumingService index="4">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set4
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+        
+        <md:AttributeConsumingService index="5">
+            
+            
+            <md:ServiceName xml:lang="it">
+                set5
+            </md:ServiceName>
+            
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="spidCode"/>
+            
+            
+            <md:RequestedAttribute Name="companyName"/>
+            
+            
+            <md:RequestedAttribute Name="registeredOffice"/>
+            
+            
+            <md:RequestedAttribute Name="ivaCode"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+    
+    </md:SPSSODescriptor>
+    
+    
+    <md:Organization>
+        
+        
+        <md:OrganizationName xml:lang="it">
+            Comune di Carlazzo
+        </md:OrganizationName>
+        
+        
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Carlazzo
+        </md:OrganizationDisplayName>
+        
+        
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.carlazzo.co.it
+        </md:OrganizationURL>
+        
+    
+    </md:Organization>
+    
+    
+    <md:ContactPerson contactType="other">
+        
+        
+        <md:Extensions>
+            
+            
+            <spid:IPACode>
+                c_b785
+            </spid:IPACode>
+            
+            
+            <spid:Public/>
+            
+        
+        </md:Extensions>
+        
+        
+        <md:EmailAddress>
+            protocollo@comune.carlazzo.co.it
+        </md:EmailAddress>
+        
+    
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

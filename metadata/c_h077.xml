@@ -1,0 +1,192 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://trasparenza.comune.provagliovalsabbia.bs.it/moduli/espid/spid/metadata.php" ID="pfx585a81b9-11a5-8564-c627-950ea33da5e6">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#pfx585a81b9-11a5-8564-c627-950ea33da5e6">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    TKxmECl3wU1A3gPV58bkmK420yygJ/DNUjlIASdk03s=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            RdU9jrehfGd2x4SJRCAPKG1niIUHJmdUOYipCnV49JKzEMXg1TR/9xFVGDk1b7qX7+D99v1K5DAZk1NOP2QV3+eE6XV0YLncVS54gyPmqnYLFLiujzsl48/Mxsh6CrDNJQ9XRWkPqxyNg4VBvYqHrDkNXdaOpXFZSGnujiFq6r0zaI9CLumw0z5a5/jD1Dg2GdSXP90q24T1ztXxn3+CHY7201JhKqWbt/cfihRbDpFKpYRIHZ4zWpIa9Ct5+wucERXvmCHSjddShG6mjBzbjsBBolaI2FhX0sGnHP6K143z6Z9MPTl4cJQWMZz4czGrizqWYhatvaccnW8FamGbEGTl+qbMR6UsqcLrXLW4C7cgz5kywbmw0WjZGCMKHVV6PwPCWnqRugM1MFiSVv6ia6ka7vUr0hNWqKECrJYoujnl05emRHomb0WKZQxy+qvqne7y8bXTVQgG8DzUo3P/eZXW04+4sUl03+D2UKLVX5lP+EhsffsqIyv4xl0DOHoNdf1ccC2r9UTPlK3WP+lVexkSR3EhbForOGMPcR5M8rY66auyeBmllY1+MhnHrYqFLF66Dz/WlDQBXsNGuVF33sXDYNhbYE5hzv8grzgMcAnJLLn15QuoaGwFl96wlJzoQ5uPiTaeeqly9Y1rH75L+OpHdDl/0l1Qt1WchjAUzNY=
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    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
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        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
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trasparenza.comune.provagliovalsabbia.bs.it/index.php?sls"/>
+        
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trasparenza.comune.provagliovalsabbia.bs.it/index.php?acs" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizio SPID-eTrasparenza per Comune di Provaglio Val Sabbia
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Descrizione SPID per Comune di Provaglio Val Sabbia
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Provaglio Val Sabbia
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Provaglio Val Sabbia
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://trasparenza.comune.provagliovalsabbia.bs.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_h077
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:EmailAddress>
+            trasformazionedigitale@secoval.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

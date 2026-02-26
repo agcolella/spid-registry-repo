@@ -1,0 +1,125 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www.comune.altilia.cs.it" ID="https___www_comune_altilia_cs_it">
+    <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        
+  
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+    
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+  
+            <ds:Reference URI="#https___www_comune_altilia_cs_it">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    JNe2DSf9LWyKHSn/EVIOC0VkIc6PPa50cmSMTymAzeA=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            NlNNgejXcHBESMfjQrZIzquL/tIMS6Jcpp4ZgHdvPpKvjNh93OMEn4SiOWQFCECD801YJ4Ln0/T4Oo+hD5tTPTjBDzAC7xKVHHOSSCS5l6CHb8sSBGdt6ANNCvx1gLwHHb7pL/vKqpu/RQ/jyyh1ixwlP4matcPhPQd18791RkwDIQXko0v8GGpwh+YiLje/qCBSwlkGYmYV5E0Tnf4kvKYDqrV83aGJA6PuyAJOZN1bO2uqi7IMAgJhs4qEBFxG9ywB0YO1Aj9LnxRgFtC4kLYBlqfY6Of5ueW/LsxmV4TNrqHECXt8Zyz8tZ39QPfoXNsJ+C0FbaysDc1fCbHIAw==
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIEQzCCAyugAwIBAgIIedqRSSNwCkAwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDb3NlbnphMRAwDgYDVQQHDAdBbHRpbGlhMRowGAYDVQQKDBFDb211bmUgZGkgQWx0aWxpYTEaMBgGA1UECwwRQ29tdW5lIGRpIEFsdGlsaWExITAfBgNVBAMMGHd3dy5jb211bmUuYWx0aWxpYS5jcy5pdDEoMCYGCSqGSIb3DQEJARYZaW5mb0Bjb211bmUuYWx0aWxpYS5jcy5pdDAeFw0yMTExMTUxNTUyMjhaFw00MTExMTQxNTUyMjhaMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ29zZW56YTEQMA4GA1UEBwwHQWx0aWxpYTEaMBgGA1UECgwRQ29tdW5lIGRpIEFsdGlsaWExGjAYBgNVBAsMEUNvbXVuZSBkaSBBbHRpbGlhMSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsdGlsaWEuY3MuaXQxKDAmBgkqhkiG9w0BCQEWGWluZm9AY29tdW5lLmFsdGlsaWEuY3MuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD0dprpu6knbmUBkZXbQLgEoZg6wXqMgWoDfNPL9icEgi4jdMYTUgJORSLcEy5eULr1ok0imGdPjRF+/eptRCPy4dhglIE/WRpDJxhTpiTyUHu7bQ39Ibk8KVOP9t2XD3FxiaJoKtw5VoH/6KeTiv1LuKNL3lNOpt8acdwauTqVBnWBOZAfdlO9oYi5OPdwugjIse5fo0/ttnzm5FykBJTPhg7GNElMGquUb6ax809mBs1J3iuWYJsl0v8/ZEhUWpl7PmdZTfN+1NZP5MRoxgGJ93j7u6+za9CAt+20DBuuDZkQmneELfneeyyLldAtbOuZbXRS6XqQinInayY/HBsFAgMBAAGjUzBRMB0GA1UdDgQWBBTf7opDg1b5WkOqILHi7v4H5TNS2DAfBgNVHSMEGDAWgBTf7opDg1b5WkOqILHi7v4H5TNS2DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOYMjVo7aL2NNOBdMhvduromWOKocr+FkmaeePg3KN7Z3l1YzU1K+LodlRwIgzFfjXqwCqjbZmMpLEVf649dLbBhR2TwQWM8k7k/3J8kjrMe3GCm5YcRkDGXBmhpj1E0nF4lHoewI+IAAQRvyP7dmLlJEYRGG5WHneOWnt0kbkqQE4LN8qN+N6DrWmdjTcKj0dP7jCsPUO2dA4LZIHGf2hURSHfK1ZXvIcW/PH/fwpB3TQg53y1jFZlekqBuGZJl2LT6K/2bBErSb8uJpyIhUfnSXK9RsN/Zg4JaD56z6GU2tLTty37G0kP/QOTLRBM8U4GyzeY3L/pFoLUkpxC820
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+    
+    <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+        
+        
+        <md:KeyDescriptor use="signing">
+            
+            
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+                
+                <ds:X509Data>
+                    <ds:X509Certificate>
+                        MIIEQzCCAyugAwIBAgIIedqRSSNwCkAwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAklUMRAwDgYDVQQIDAdDb3NlbnphMRAwDgYDVQQHDAdBbHRpbGlhMRowGAYDVQQKDBFDb211bmUgZGkgQWx0aWxpYTEaMBgGA1UECwwRQ29tdW5lIGRpIEFsdGlsaWExITAfBgNVBAMMGHd3dy5jb211bmUuYWx0aWxpYS5jcy5pdDEoMCYGCSqGSIb3DQEJARYZaW5mb0Bjb211bmUuYWx0aWxpYS5jcy5pdDAeFw0yMTExMTUxNTUyMjhaFw00MTExMTQxNTUyMjhaMIG2MQswCQYDVQQGEwJJVDEQMA4GA1UECAwHQ29zZW56YTEQMA4GA1UEBwwHQWx0aWxpYTEaMBgGA1UECgwRQ29tdW5lIGRpIEFsdGlsaWExGjAYBgNVBAsMEUNvbXVuZSBkaSBBbHRpbGlhMSEwHwYDVQQDDBh3d3cuY29tdW5lLmFsdGlsaWEuY3MuaXQxKDAmBgkqhkiG9w0BCQEWGWluZm9AY29tdW5lLmFsdGlsaWEuY3MuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQD0dprpu6knbmUBkZXbQLgEoZg6wXqMgWoDfNPL9icEgi4jdMYTUgJORSLcEy5eULr1ok0imGdPjRF+/eptRCPy4dhglIE/WRpDJxhTpiTyUHu7bQ39Ibk8KVOP9t2XD3FxiaJoKtw5VoH/6KeTiv1LuKNL3lNOpt8acdwauTqVBnWBOZAfdlO9oYi5OPdwugjIse5fo0/ttnzm5FykBJTPhg7GNElMGquUb6ax809mBs1J3iuWYJsl0v8/ZEhUWpl7PmdZTfN+1NZP5MRoxgGJ93j7u6+za9CAt+20DBuuDZkQmneELfneeyyLldAtbOuZbXRS6XqQinInayY/HBsFAgMBAAGjUzBRMB0GA1UdDgQWBBTf7opDg1b5WkOqILHi7v4H5TNS2DAfBgNVHSMEGDAWgBTf7opDg1b5WkOqILHi7v4H5TNS2DAPBgNVHRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCOYMjVo7aL2NNOBdMhvduromWOKocr+FkmaeePg3KN7Z3l1YzU1K+LodlRwIgzFfjXqwCqjbZmMpLEVf649dLbBhR2TwQWM8k7k/3J8kjrMe3GCm5YcRkDGXBmhpj1E0nF4lHoewI+IAAQRvyP7dmLlJEYRGG5WHneOWnt0kbkqQE4LN8qN+N6DrWmdjTcKj0dP7jCsPUO2dA4LZIHGf2hURSHfK1ZXvIcW/PH/fwpB3TQg53y1jFZlekqBuGZJl2LT6K/2bBErSb8uJpyIhUfnSXK9RsN/Zg4JaD56z6GU2tLTty37G0kP/QOTLRBM8U4GyzeY3L/pFoLUkpxC820
+                    </ds:X509Certificate>
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+            
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.altilia.cs.it/wp-login.php?spid_sso=out"/>
+                
+        
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+        
+        <md:AssertionConsumerService index="0" isDefault="true" Location="https://www.comune.altilia.cs.it/wp-login.php?spid_sso=in" Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"/>
+        
+        
+        <md:AttributeConsumingService index="0">
+            
+            
+            <md:ServiceName xml:lang="it">
+                Set 0
+            </md:ServiceName>
+                   
+            
+            <md:RequestedAttribute Name="name"/>
+            
+            
+            <md:RequestedAttribute Name="familyName"/>
+            
+            
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            
+            
+            <md:RequestedAttribute Name="email"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Altilia
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Altilia
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.altilia.cs.it
+        </md:OrganizationURL>
+        
+
+    </md:Organization>
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>
+                c_a234
+            </spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>
+            info@comune.altilia.cs.it
+        </md:EmailAddress>
+        <md:TelephoneNumber>
+            0984964094
+        </md:TelephoneNumber>
+    </md:ContactPerson>
+</md:EntityDescriptor>

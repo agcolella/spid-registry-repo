@@ -1,0 +1,226 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_ba0a22ee-4b17-46fc-aad6-c935ebadfb34" entityID="https://www.unioneterradeigonzaga.it/serviziSPID">
+    <ds:Signature>
+        <ds:SignedInfo>
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <ds:Reference URI="#_ba0a22ee-4b17-46fc-aad6-c935ebadfb34">
+                <ds:Transforms>
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                </ds:Transforms>
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <ds:DigestValue>
+                    xmSKDWtgDP1czNGib/79uEi7pmp8q80Fp5ozS/hcT54=
+                </ds:DigestValue>
+            </ds:Reference>
+        </ds:SignedInfo>
+        <ds:SignatureValue>
+            CrxrNy5uOtJ0UZhFLeiH3OcEqTPXD04xxwSqqriDsnPvcA+4yQtlnH9LOxaZJ4DHLHoi7+DokR0I3UCDGCYSMvmgAVokQuyo3Oy6EVZqRZUhyxNkzWqeteWgbeJ42mZlJjR3/C9xq4403WuDYqaf5Pex+q6Zxg4qoD3iu28R31P1dhhhIZweKvZaTwOAiTIRac5NfJ6R6JlsOzIB1vWHTXBs37RN3n9pwBS2SsCc3s5pSbpDRvrjoJznwCpAF6TLiyBL4zcFUZiwyd44wS7Qczhk2jQBHrA4c3EMLoQDhhvASxz9303pmuxTWwRWV/UnIiy+F/GMl0Brn61F/rj2hg==
+        </ds:SignatureValue>
+        <ds:KeyInfo>
+            <ds:KeyValue>
+                <ds:RSAKeyValue>
+                    <ds:Modulus>
+                        uW515H5mBuJvK7YcrL5fi6mHcA5iXaTvzJCsEMZAdCtBO6We3T9aJZQa6Rdf5svHgNXZaTgIoiUy9nGJEOmbsudyBFSmQqCE5cFdwTYvwHgLTEpgfsaGijzx/VYD9zazjh7M+IiIrJGVmBp1/najhsdCZ4SVfNbSb8SuJhJPOCMF/Mc+v3i/r15WWliOGjgEeE22Zrkiy1Hq+iGb7cb5cSUwDeMWdSvTe38jc5Gu06tY/a4cczz/1R9TMUtxFIgmMDDv9910pylcsJFbUmaO13/+cunoarqKZu3KWS/6Dk1/wVOEW20N/pxbb5VPUJjoovFPsMgJNYcrekvY+DSB4w==
+                    </ds:Modulus>
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                </ds:RSAKeyValue>
+            </ds:KeyValue>
+            <ds:X509Data>
+                <ds:X509Certificate>
+                    MIIDSzCCAjOgAwIBAgIUIy59NIpNbwnPx5lMtv0ocwVHbP4wDQYJKoZIhvcNAQELBQAwNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MB4XDTIxMDMwOTA4NDExNloXDTMxMDMwOTA4NDExNlowNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuW515H5mBuJvK7YcrL5fi6mHcA5iXaTvzJCsEMZAdCtBO6We3T9aJZQa6Rdf5svHgNXZaTgIoiUy9nGJEOmbsudyBFSmQqCE5cFdwTYvwHgLTEpgfsaGijzx/VYD9zazjh7M+IiIrJGVmBp1/najhsdCZ4SVfNbSb8SuJhJPOCMF/Mc+v3i/r15WWliOGjgEeE22Zrkiy1Hq+iGb7cb5cSUwDeMWdSvTe38jc5Gu06tY/a4cczz/1R9TMUtxFIgmMDDv9910pylcsJFbUmaO13/+cunoarqKZu3KWS/6Dk1/wVOEW20N/pxbb5VPUJjoovFPsMgJNYcrekvY+DSB4wIDAQABo1MwUTAdBgNVHQ4EFgQU+pgUItL8AJLPrvxYqkUg6LumHkowHwYDVR0jBBgwFoAU+pgUItL8AJLPrvxYqkUg6LumHkowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAI74/dWBeCOiuQ/1z8pPs4PO7g1gsgSWLYPxPczm7jPuFZ1/lkopTXz9M4SMjiOqKe59esRTDeq48MSP3susL5dYZ7xCNTTY8NQOLPDUUkOsTklT9diUYqj+4uHBIXEUrcarSxzeLLSrENIqdmGNWOC2HHwFR/YV7tt2m19DkKK4Uvvnxl2vAEYowJKzIfimH6svSmVr4xscRLhyhOHkeMPBsUWbYXM/V3cN1Ij8/Yqq1Ip/xqe63d+oS2wotXKMg8Kv9iTon0QLhZWHfjnqkP/UmskJwYeY0Be/zAwIo7SEE3DWneWSVfjDp8hLT9WULWOmUwW+EQL/yU3vJGWBDNQ==
+                </ds:X509Certificate>
+            </ds:X509Data>
+        </ds:KeyInfo>
+    </ds:Signature>
+    
+    
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+        
+        <md:KeyDescriptor use="signing">
+            
+            
+            <ds:KeyInfo>
+                
+                
+                <ds:X509Data>
+                    
+                    
+                    <ds:X509Certificate>
+                        MIIDSzCCAjOgAwIBAgIUIy59NIpNbwnPx5lMtv0ocwVHbP4wDQYJKoZIhvcNAQELBQAwNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MB4XDTIxMDMwOTA4NDExNloXDTMxMDMwOTA4NDExNlowNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuW515H5mBuJvK7YcrL5fi6mHcA5iXaTvzJCsEMZAdCtBO6We3T9aJZQa6Rdf5svHgNXZaTgIoiUy9nGJEOmbsudyBFSmQqCE5cFdwTYvwHgLTEpgfsaGijzx/VYD9zazjh7M+IiIrJGVmBp1/najhsdCZ4SVfNbSb8SuJhJPOCMF/Mc+v3i/r15WWliOGjgEeE22Zrkiy1Hq+iGb7cb5cSUwDeMWdSvTe38jc5Gu06tY/a4cczz/1R9TMUtxFIgmMDDv9910pylcsJFbUmaO13/+cunoarqKZu3KWS/6Dk1/wVOEW20N/pxbb5VPUJjoovFPsMgJNYcrekvY+DSB4wIDAQABo1MwUTAdBgNVHQ4EFgQU+pgUItL8AJLPrvxYqkUg6LumHkowHwYDVR0jBBgwFoAU+pgUItL8AJLPrvxYqkUg6LumHkowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAI74/dWBeCOiuQ/1z8pPs4PO7g1gsgSWLYPxPczm7jPuFZ1/lkopTXz9M4SMjiOqKe59esRTDeq48MSP3susL5dYZ7xCNTTY8NQOLPDUUkOsTklT9diUYqj+4uHBIXEUrcarSxzeLLSrENIqdmGNWOC2HHwFR/YV7tt2m19DkKK4Uvvnxl2vAEYowJKzIfimH6svSmVr4xscRLhyhOHkeMPBsUWbYXM/V3cN1Ij8/Yqq1Ip/xqe63d+oS2wotXKMg8Kv9iTon0QLhZWHfjnqkP/UmskJwYeY0Be/zAwIo7SEE3DWneWSVfjDp8hLT9WULWOmUwW+EQL/yU3vJGWBDNQ==
+                    </ds:X509Certificate>
+                    
+                
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+        
+        <md:KeyDescriptor use="encryption">
+            
+            
+            <ds:KeyInfo>
+                
+                
+                <ds:X509Data>
+                    
+                    
+                    <ds:X509Certificate>
+                        MIIDSzCCAjOgAwIBAgIUIy59NIpNbwnPx5lMtv0ocwVHbP4wDQYJKoZIhvcNAQELBQAwNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MB4XDTIxMDMwOTA4NDExNloXDTMxMDMwOTA4NDExNlowNTELMAkGA1UEBhMCSVQxDTALBgNVBAsMBFNQSUQxFzAVBgNVBAMMDioucmlzdG9ub3ZhLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAuW515H5mBuJvK7YcrL5fi6mHcA5iXaTvzJCsEMZAdCtBO6We3T9aJZQa6Rdf5svHgNXZaTgIoiUy9nGJEOmbsudyBFSmQqCE5cFdwTYvwHgLTEpgfsaGijzx/VYD9zazjh7M+IiIrJGVmBp1/najhsdCZ4SVfNbSb8SuJhJPOCMF/Mc+v3i/r15WWliOGjgEeE22Zrkiy1Hq+iGb7cb5cSUwDeMWdSvTe38jc5Gu06tY/a4cczz/1R9TMUtxFIgmMDDv9910pylcsJFbUmaO13/+cunoarqKZu3KWS/6Dk1/wVOEW20N/pxbb5VPUJjoovFPsMgJNYcrekvY+DSB4wIDAQABo1MwUTAdBgNVHQ4EFgQU+pgUItL8AJLPrvxYqkUg6LumHkowHwYDVR0jBBgwFoAU+pgUItL8AJLPrvxYqkUg6LumHkowDwYDVR0TAQH/BAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAI74/dWBeCOiuQ/1z8pPs4PO7g1gsgSWLYPxPczm7jPuFZ1/lkopTXz9M4SMjiOqKe59esRTDeq48MSP3susL5dYZ7xCNTTY8NQOLPDUUkOsTklT9diUYqj+4uHBIXEUrcarSxzeLLSrENIqdmGNWOC2HHwFR/YV7tt2m19DkKK4Uvvnxl2vAEYowJKzIfimH6svSmVr4xscRLhyhOHkeMPBsUWbYXM/V3cN1Ij8/Yqq1Ip/xqe63d+oS2wotXKMg8Kv9iTon0QLhZWHfjnqkP/UmskJwYeY0Be/zAwIo7SEE3DWneWSVfjDp8hLT9WULWOmUwW+EQL/yU3vJGWBDNQ==
+                    </ds:X509Certificate>
+                    
+                
+                </ds:X509Data>
+                
+            
+            </ds:KeyInfo>
+            
+        
+        </md:KeyDescriptor>
+        
+        
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://terradeigonzaga.ristonova.it/novaspid/slo"/>
+        
+        
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+        
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://terradeigonzaga.ristonova.it/novaspid/sso" index="0" isDefault="true"/>
+        
+        
+        <md:AttributeConsumingService index="1">
+            
+          
+            <md:ServiceName xml:lang="it">
+                E.MealSchool
+            </md:ServiceName>
+            
+          
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+          
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+          
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+          
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+          
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+        
+        </md:AttributeConsumingService>
+        
+    
+    </md:SPSSODescriptor>
+    
+    
+    <md:Organization>
+        
+       
+        <md:OrganizationName xml:lang="it">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationName>
+        
+       
+        <md:OrganizationName xml:lang="en">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationName>
+        
+       
+        <md:OrganizationName xml:lang="fr">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationName>
+        
+       
+        <md:OrganizationName xml:lang="de">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationName>
+        
+       
+        <md:OrganizationDisplayName xml:lang="it">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationDisplayName>
+        
+       
+        <md:OrganizationDisplayName xml:lang="en">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationDisplayName>
+        
+       
+        <md:OrganizationDisplayName xml:lang="fr">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationDisplayName>
+        
+       
+        <md:OrganizationDisplayName xml:lang="de">
+            Unione di Comuni Lombarda Terra Dei Gonzaga
+        </md:OrganizationDisplayName>
+        
+       
+        <md:OrganizationURL xml:lang="it">
+            https://www.unioneterradeigonzaga.it/
+        </md:OrganizationURL>
+        
+       
+        <md:OrganizationURL xml:lang="en">
+            https://www.unioneterradeigonzaga.it/
+        </md:OrganizationURL>
+        
+       
+        <md:OrganizationURL xml:lang="fr">
+            https://www.unioneterradeigonzaga.it/
+        </md:OrganizationURL>
+        
+       
+        <md:OrganizationURL xml:lang="de">
+            https://www.unioneterradeigonzaga.it/
+        </md:OrganizationURL>
+        
+    
+    </md:Organization>
+    
+    
+    <md:ContactPerson contactType="other">
+        
+      
+        <md:Extensions>
+            
+        
+            <spid:IPACode>
+                ucltdg
+            </spid:IPACode>
+            
+        
+            <spid:FiscalCode>
+                02510510205
+            </spid:FiscalCode>
+            
+        
+            <spid:Public/>
+            
+      
+        </md:Extensions>
+        
+      
+        <md:EmailAddress>
+            segreteriadue@comune.bozzolo.mn.it
+        </md:EmailAddress>
+        
+   
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

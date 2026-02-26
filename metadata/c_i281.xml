@@ -1,0 +1,266 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfxb9455e19-c285-af76-298e-8536c293d8a2" entityID="https://www.comune.santangelodeilombardi.av.it">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="#pfxb9455e19-c285-af76-298e-8536c293d8a2">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    jviQNRuvSuA6F3Z/QwQb0NRExGB/AGwi8fmLYiIoL38=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+GQfpMYaROj8mYsJJAKVkuxrSO7AuxJPt7nVBF9K4zjMU2dhAQPh2rMUaBDX+svWhSjB8p+zb3P85
+vjIxTvgGXpqovt/Duke7jX3lF7pvF7ewjngDdLo8iXTz7y4X250if2vnJMgoyjGiOg460YBkHsT2
+AxVAJmNdW/Qw0c9ywPlD9eGe+5/VwQLVQH49MyuXxQSWMdCBjjKRA/GTaFPMg5khNYVdH6/dZ74m
+vsk1JN7h3pwuOWRRaWK++JGnucEzdDLkwPvdwBswhh2mjVzvluj3MV4xWd45PS5+g9S8Y/Qy1c4g
+4lw5TdDuK0HwFp720HuFDeFuVT0j2Hvd26wYoA==
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+zBRYtyIOVDDtxXWJzHkBrd6o6hgWQ3ZAuwqfHqxOGbq9RbjvP7owRS6+N/e+xKlRTmCzcnf88+2P
+R48vkNRvALzgpa0yxwemrZ32jbTVo/N0AjFWQ+LaTuF5s1kYQ9IDUn5YWMl2v+BAZbHCtcx+RMwE
+YqjLxvEy/QyuE77QNF+6cC4mDe1m9xglPk5dhYduHCjj8GoxjaCntHixrZCrR6KfQi0aJ1Afexcl
+UXnW3DXUxe1FPE37gPvqmyxoAc456C/g3iB8pyA0ZXiPvv8xvkAymThOw7if3H3UGGcKz0ue53he
+6XOBHQOSf8GydIv0O49K7HMs7vNaF0D+BeFSjQ==
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIEFTCCAv2gAwIBAgIJAJp1zmhFpHmCMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5nZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNV
+BAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9tYmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29t
+dW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDAeFw0yMTExMTIxNDEyNDRaFw0zMTExMTIx
+NDEyNDRaMIGgMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5n
+ZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNVBAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9t
+YmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29tdW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDCC
+ASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwUWLciDlQw7cV1icx5Aa3eqOoYFkN2QLsK
+nx6sThm6vUW47z+6MEUuvjf3vsSpUU5gs3J3/PPtj0ePL5DUbwC84KWtMscHpq2d9o201aPzdAIx
+VkPi2k7hebNZGEPSA1J+WFjJdr/gQGWxwrXMfkTMBGKoy8bxMv0MrhO+0DRfunAuJg3tZvcYJT5O
+XYWHbhwo4/BqMY2gp7R4sa2Qq0ein0ItGidQH3sXJVF51tw11MXtRTxN+4D76pssaAHOOegv4N4g
+fKcgNGV4j77/Mb5AMpk4TsO4n9x91BhnCs9Lnud4XulzgR0Dkn/BsnSL9DuPSuxzLO7zWhdA/gXh
+Uo0CAwEAAaNQME4wHQYDVR0OBBYEFIaKRPd1f40mSajqISzoRnzt3pHjMB8GA1UdIwQYMBaAFIaK
+RPd1f40mSajqISzoRnzt3pHjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABHtQB5D
+ys4yXFq01wqed4FtCfGRHCRg+ZZlPl6CAByzWeEU4vyYv8p/FAgqAuYMcuiCPWeShf3b6r3vFBwA
+xt99Hg34kwj2EktXrjVlFcSGhfudGgfJA26bKzx0AFyUutFiwXBNY+TdmJ8wYTE39IMCbGRPkzCr
+IjQxCmy+i2JM5j6sBMjRV3J4u3Ym3rBhPx7Kzxi7vkkp2HeBlAz10R0BLYqqGv82h6AKZE3lr3Uh
+fWENK+1NI9olL8oJ3GUWFRvSb+jbN4XNMp4R5VWm67rKT3uIvenlVeMb4yXv1Z8ONIwJ3IduYmBX
+mhsucYaN1X5JSHAgh8K6TFobK0jDcFw=
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEFTCCAv2gAwIBAgIJAJp1zmhFpHmCMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5nZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNVBAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9tYmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29tdW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDAeFw0yMTExMTIxNDEyNDRaFw0zMTExMTIxNDEyNDRaMIGgMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5nZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNVBAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9tYmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29tdW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwUWLciDlQw7cV1icx5Aa3eqOoYFkN2QLsKnx6sThm6vUW47z+6MEUuvjf3vsSpUU5gs3J3/PPtj0ePL5DUbwC84KWtMscHpq2d9o201aPzdAIxVkPi2k7hebNZGEPSA1J+WFjJdr/gQGWxwrXMfkTMBGKoy8bxMv0MrhO+0DRfunAuJg3tZvcYJT5OXYWHbhwo4/BqMY2gp7R4sa2Qq0ein0ItGidQH3sXJVF51tw11MXtRTxN+4D76pssaAHOOegv4N4gfKcgNGV4j77/Mb5AMpk4TsO4n9x91BhnCs9Lnud4XulzgR0Dkn/BsnSL9DuPSuxzLO7zWhdA/gXhUo0CAwEAAaNQME4wHQYDVR0OBBYEFIaKRPd1f40mSajqISzoRnzt3pHjMB8GA1UdIwQYMBaAFIaKRPd1f40mSajqISzoRnzt3pHjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABHtQB5Dys4yXFq01wqed4FtCfGRHCRg+ZZlPl6CAByzWeEU4vyYv8p/FAgqAuYMcuiCPWeShf3b6r3vFBwAxt99Hg34kwj2EktXrjVlFcSGhfudGgfJA26bKzx0AFyUutFiwXBNY+TdmJ8wYTE39IMCbGRPkzCrIjQxCmy+i2JM5j6sBMjRV3J4u3Ym3rBhPx7Kzxi7vkkp2HeBlAz10R0BLYqqGv82h6AKZE3lr3UhfWENK+1NI9olL8oJ3GUWFRvSb+jbN4XNMp4R5VWm67rKT3uIvenlVeMb4yXv1Z8ONIwJ3IduYmBXmhsucYaN1X5JSHAgh8K6TFobK0jDcFw=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:KeyDescriptor use="encryption">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        MIIEFTCCAv2gAwIBAgIJAJp1zmhFpHmCMA0GCSqGSIb3DQEBCwUAMIGgMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5nZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNVBAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9tYmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29tdW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDAeFw0yMTExMTIxNDEyNDRaFw0zMTExMTIxNDEyNDRaMIGgMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxIjAgBgNVBAcMGVNhbnQgQW5nZWxvIGRlaSBMb21iYXJkaSAxLDAqBgNVBAoMI0NvbXVuZSBkaSBTYW50IEFuZ2VsbyBkZWkgTG9tYmFyZGkgMS8wLQYDVQQDDCZ3d3cuY29tdW5lLnNhbnRhbmdlbG9kZWlsb21iYXJkaS5hdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMwUWLciDlQw7cV1icx5Aa3eqOoYFkN2QLsKnx6sThm6vUW47z+6MEUuvjf3vsSpUU5gs3J3/PPtj0ePL5DUbwC84KWtMscHpq2d9o201aPzdAIxVkPi2k7hebNZGEPSA1J+WFjJdr/gQGWxwrXMfkTMBGKoy8bxMv0MrhO+0DRfunAuJg3tZvcYJT5OXYWHbhwo4/BqMY2gp7R4sa2Qq0ein0ItGidQH3sXJVF51tw11MXtRTxN+4D76pssaAHOOegv4N4gfKcgNGV4j77/Mb5AMpk4TsO4n9x91BhnCs9Lnud4XulzgR0Dkn/BsnSL9DuPSuxzLO7zWhdA/gXhUo0CAwEAAaNQME4wHQYDVR0OBBYEFIaKRPd1f40mSajqISzoRnzt3pHjMB8GA1UdIwQYMBaAFIaKRPd1f40mSajqISzoRnzt3pHjMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBABHtQB5Dys4yXFq01wqed4FtCfGRHCRg+ZZlPl6CAByzWeEU4vyYv8p/FAgqAuYMcuiCPWeShf3b6r3vFBwAxt99Hg34kwj2EktXrjVlFcSGhfudGgfJA26bKzx0AFyUutFiwXBNY+TdmJ8wYTE39IMCbGRPkzCrIjQxCmy+i2JM5j6sBMjRV3J4u3Ym3rBhPx7Kzxi7vkkp2HeBlAz10R0BLYqqGv82h6AKZE3lr3UhfWENK+1NI9olL8oJ3GUWFRvSb+jbN4XNMp4R5VWm67rKT3uIvenlVeMb4yXv1Z8ONIwJ3IduYmBXmhsucYaN1X5JSHAgh8K6TFobK0jDcFw=
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.santangelodeilombardi.av.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+        
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.santangelodeilombardi.av.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+        
+    
+        <md:AttributeConsumingService index="1">
+            
+      
+            <md:ServiceName xml:lang="it">
+                Servizi online
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                Servizi online
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+  
+    </md:SPSSODescriptor>
+    
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Sant Angelo dei Lombardi
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Sant Angelo dei Lombardi
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            https://www.comune.santangelodeilombardi.av.it
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_i281
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Comune di Sant Angelo dei Lombardi
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            segretario.santangelodeilombardi@asmepec.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+</md:EntityDescriptor>

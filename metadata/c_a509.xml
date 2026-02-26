@@ -1,0 +1,379 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://www6.eticasoluzioni.com/avellinoportalegen">
+    <ds:Signature>
+        
+
+        <ds:SignedInfo>
+            
+
+            <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+            
+
+            <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            
+
+            <ds:Reference URI="">
+                
+
+                <ds:Transforms>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                    
+
+                    <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+                    
+
+                </ds:Transforms>
+                
+
+                <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                
+
+                <ds:DigestValue>
+                    ve/0FW7dMNaX31IPIw841hJnLcRLNHq8iT+sfZ9b09I=
+                </ds:DigestValue>
+                
+
+            </ds:Reference>
+            
+
+        </ds:SignedInfo>
+        
+
+        <ds:SignatureValue>
+            
+wL1dO8sG1ygokWLmdUcqDcSwdgiPSOvAH8iOaFUJlFT+fAeOhJT816AaXLV6I+X6fvLGZ95l0Xts
+Uwe3yT2TahelVjLxJFgdTd6+yu0V1cQrhNKnJ5fbtvKYynWjt8ZA5/ZvEwK6LCFwf8LkFnEuGmSF
+JEeDRFtiywJKO7KX0kM7XUKtYYBEO4G8qlRg++hNLgQ2/QesNiIBbvUobJUW62ldm+KJJmrRZEIZ
+R5Rkd0cl668JA9Q855O3AWtYf8XKaael+Vle7WyKks3K2LDFVqrENCeZEDFLizSWRjJ5/741jr7B
+lZiHayjLO4VBXE49WMeYz6EVyjcmwvdpubI9BisqTK4XRDD9XRn55DzUJlRfFIexEs8Sdlwissp0
+Y2c2AW24y3wf4wuJO7dCsNXxL9bG7e82pZ/J0vsa6OdR56jdHnd4ZDo2fsc5DMcVQST1vyYjg/6e
+uorwUkv9BvtD+lXQEnBxtMVF3n53ApvumLA9En7VXk/3E4SrxZlncZyYI3HOWtVroCUUk7QtpRcs
+FgdRTD/5pgPWScS+U3akFx9/CYQxHHiWfrf/QI/wiSNt/MJdAwJkC+ZXe3/OQPVll7nprYnjriAC
+opmrPRZ8fCQg627bS+AzINdn+P0mkvzcLY9LJc+HF3y0uEF8el9WZrPw0J3p4BF9rk/duhlgZsQ=
+
+        </ds:SignatureValue>
+        
+
+        <ds:KeyInfo>
+            
+
+            <ds:KeyValue>
+                
+
+                <ds:RSAKeyValue>
+                    
+
+                    <ds:Modulus>
+                        
+1T953ENG+P6C33kFL0jF7qpVH3IUC1UavwJ9M9XSRUxwSIAAG/mYudTtzcZgWMvD3L7681LlwnYm
+a7hqMDOj0i4dHyVkoPmZ/z6L7Kd4d6kQZ7VyAZqRAg9MsaTb1slIArFoH3IvUd0tUpqLvUM5Xou8
+Vc8oznniO6L1aYVtGEdwrcfl9NLCNi1VYsY+IlsemcrmHoq8JDYeHqQtNWK2qlpjiB/f4O5P5sqy
+wdeV4LpFccmpOqu2rjI5OIGERmi0TGAmBzdO74Ha1gS8aBG6J+dVvNXlUxBNATWYiu866SMEihgn
+sRJw40adN8CiBU6Lm9wXWSjcRQbPWNcwDDmet5Y6NRMjEl+eBVoY2udRUF9mm1z4NcFsIobSoOdA
+jIPndcrG/+yld3HKWw1ljA+eqyKsnc4yqZfyv1oBgAPCEOAmKyRSJOcQtU0dfoDCLd/IUCAarVkH
+oBKwjXgTc8UT6PxrdlPbB5EQsfMkfLX9Rdp3qZvhtDxLugwxuNYl/0TTNDbl9IAj77iw8qdxflC7
+/D6DGpgh7ZhZ0Xc/DGSc8yP1jX1jghGMZ6Mypb5c3VFvtcvYaLdVuQMiirTXMUpfBbTk1dXlMm1y
+bwxcK9J+LNj3aOqUYo2qEEsL2KPFbfIq6S1D9HDBr1eYd4FbZuxUxJ86BqGNHoNg087scy5KMhc=
+
+                    </ds:Modulus>
+                    
+
+                    <ds:Exponent>
+                        AQAB
+                    </ds:Exponent>
+                    
+
+                </ds:RSAKeyValue>
+                
+
+            </ds:KeyValue>
+            
+
+            <ds:X509Data>
+                
+
+                <ds:X509Certificate>
+                    
+MIIGLDCCBBSgAwIBAgIJAOhRBld3FRc/MA0GCSqGSIb3DQEBCwUAMIGqMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxDjAMBgNVBAcMBUl0YWx5MRMwEQYDVQQKDAphcHBuZXQgc3JsMRswGQYD
+VQQLDBJhc3Npc3RlbnphIHRlY25pY2ExGzAZBgNVBAMMEmV0aWNhc29sdXppb25pLmNvbTEsMCoG
+CSqGSIb3DQEJARYdYW5nZWxvLmZyYW5jZXNlQGFwcG5ldC1pdC5jb20wHhcNMjExMTExMTY1MTI5
+WhcNMjUxMTEwMTY1MTI5WjCBqjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQH
+DAVJdGFseTETMBEGA1UECgwKYXBwbmV0IHNybDEbMBkGA1UECwwSYXNzaXN0ZW56YSB0ZWNuaWNh
+MRswGQYDVQQDDBJldGljYXNvbHV6aW9uaS5jb20xLDAqBgkqhkiG9w0BCQEWHWFuZ2Vsby5mcmFu
+Y2VzZUBhcHBuZXQtaXQuY29tMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA1T953ENG
++P6C33kFL0jF7qpVH3IUC1UavwJ9M9XSRUxwSIAAG/mYudTtzcZgWMvD3L7681LlwnYma7hqMDOj
+0i4dHyVkoPmZ/z6L7Kd4d6kQZ7VyAZqRAg9MsaTb1slIArFoH3IvUd0tUpqLvUM5Xou8Vc8oznni
+O6L1aYVtGEdwrcfl9NLCNi1VYsY+IlsemcrmHoq8JDYeHqQtNWK2qlpjiB/f4O5P5sqywdeV4LpF
+ccmpOqu2rjI5OIGERmi0TGAmBzdO74Ha1gS8aBG6J+dVvNXlUxBNATWYiu866SMEihgnsRJw40ad
+N8CiBU6Lm9wXWSjcRQbPWNcwDDmet5Y6NRMjEl+eBVoY2udRUF9mm1z4NcFsIobSoOdAjIPndcrG
+/+yld3HKWw1ljA+eqyKsnc4yqZfyv1oBgAPCEOAmKyRSJOcQtU0dfoDCLd/IUCAarVkHoBKwjXgT
+c8UT6PxrdlPbB5EQsfMkfLX9Rdp3qZvhtDxLugwxuNYl/0TTNDbl9IAj77iw8qdxflC7/D6DGpgh
+7ZhZ0Xc/DGSc8yP1jX1jghGMZ6Mypb5c3VFvtcvYaLdVuQMiirTXMUpfBbTk1dXlMm1ybwxcK9J+
+LNj3aOqUYo2qEEsL2KPFbfIq6S1D9HDBr1eYd4FbZuxUxJ86BqGNHoNg087scy5KMhcCAwEAAaNT
+MFEwHQYDVR0OBBYEFMgMt11gUYAq/rHqmNNLxzsGH5VAMB8GA1UdIwQYMBaAFMgMt11gUYAq/rHq
+mNNLxzsGH5VAMA8GA1UdEwEB/wQFMAMBAf8wDQYJKoZIhvcNAQELBQADggIBABy1CexBA1lROwkh
+jImA5t/OZtjcEFxmu2QNdATFlOeZpWGiKEa/DJ3IGbc5VslpYkkKNJl8Y4pnR4MItT/shP4ZDN2r
+wKXtTQ9OJhZgpzMLl9QHLy3IobZKVUFB8VSBQG2t3RXkyRzlV7S/yMZ5v/RPbWbmnFVjJuUsB0Bu
+8Ci6ySrukXm5ZrXPZNllvcvf5P1XJYDQDw9u+SIbBQq/kurD7mws6fZE49dH+vf+DRjKK6EDtj1n
+CsbpEXpGp451MmTc2WgkEKbNm0capjDiwnn8rQ/Ag/l3b0NZnnmrwbzjvnk3lUBVwQgFVY8apqU6
+CjeWrAE85JIJ6vegZt9DzOMU5nHbojJnL5QUxBRYbeXRdNsVtubvnvMzFPrn4WsJ1uz7NiHoMG9G
+dMftiACsI5gkkkJ9VRNBSFW9yiz1Bs80qs2MaS31uQGUUXbhrwne/AJriBbphrXQZPXDTzO91uTu
+C5MVrziIJ+jpjUwMlrSAkkJj5u/u9B0uDDZHC/4utJk/5++L8NXS6cPPCn3+oEOjj+piyQjyrhD+
+mqNRCbmG9UKkCReqj4rQaan7d6bin6YdZaC33F8q0J1ZO7D2UJGltN2DLI3P8uqfattFYTuVfWSQ
+RZ38x3Re8rIPvIou5smSAZAuBvDLOKZCY8EqwTDNkKphEsARNbxat2ogB8uC
+
+                </ds:X509Certificate>
+                
+
+            </ds:X509Data>
+            
+
+        </ds:KeyInfo>
+        
+
+    </ds:Signature>
+    
+  
+  
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+
+    
+        <md:KeyDescriptor use="signing">
+            
+      
+            <ds:KeyInfo>
+                
+        
+                <ds:X509Data>
+                    
+          
+                    <ds:X509Certificate>
+                        
+MIIGLDCCBBSgAwIBAgIJAOhRBld3FRc/MA0GCSqGSIb3DQEBCwUAMIGqMQswCQYD
+VQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxDjAMBgNVBAcMBUl0YWx5MRMwEQYDVQQK
+DAphcHBuZXQgc3JsMRswGQYDVQQLDBJhc3Npc3RlbnphIHRlY25pY2ExGzAZBgNV
+BAMMEmV0aWNhc29sdXppb25pLmNvbTEsMCoGCSqGSIb3DQEJARYdYW5nZWxvLmZy
+YW5jZXNlQGFwcG5ldC1pdC5jb20wHhcNMjExMTExMTY1MTI5WhcNMjUxMTEwMTY1
+MTI5WjCBqjELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MQ4wDAYDVQQHDAVJ
+dGFseTETMBEGA1UECgwKYXBwbmV0IHNybDEbMBkGA1UECwwSYXNzaXN0ZW56YSB0
+ZWNuaWNhMRswGQYDVQQDDBJldGljYXNvbHV6aW9uaS5jb20xLDAqBgkqhkiG9w0B
+CQEWHWFuZ2Vsby5mcmFuY2VzZUBhcHBuZXQtaXQuY29tMIICIjANBgkqhkiG9w0B
+AQEFAAOCAg8AMIICCgKCAgEA1T953ENG+P6C33kFL0jF7qpVH3IUC1UavwJ9M9XS
+RUxwSIAAG/mYudTtzcZgWMvD3L7681LlwnYma7hqMDOj0i4dHyVkoPmZ/z6L7Kd4
+d6kQZ7VyAZqRAg9MsaTb1slIArFoH3IvUd0tUpqLvUM5Xou8Vc8oznniO6L1aYVt
+GEdwrcfl9NLCNi1VYsY+IlsemcrmHoq8JDYeHqQtNWK2qlpjiB/f4O5P5sqywdeV
+4LpFccmpOqu2rjI5OIGERmi0TGAmBzdO74Ha1gS8aBG6J+dVvNXlUxBNATWYiu86
+6SMEihgnsRJw40adN8CiBU6Lm9wXWSjcRQbPWNcwDDmet5Y6NRMjEl+eBVoY2udR
+UF9mm1z4NcFsIobSoOdAjIPndcrG/+yld3HKWw1ljA+eqyKsnc4yqZfyv1oBgAPC
+EOAmKyRSJOcQtU0dfoDCLd/IUCAarVkHoBKwjXgTc8UT6PxrdlPbB5EQsfMkfLX9
+Rdp3qZvhtDxLugwxuNYl/0TTNDbl9IAj77iw8qdxflC7/D6DGpgh7ZhZ0Xc/DGSc
+8yP1jX1jghGMZ6Mypb5c3VFvtcvYaLdVuQMiirTXMUpfBbTk1dXlMm1ybwxcK9J+
+LNj3aOqUYo2qEEsL2KPFbfIq6S1D9HDBr1eYd4FbZuxUxJ86BqGNHoNg087scy5K
+MhcCAwEAAaNTMFEwHQYDVR0OBBYEFMgMt11gUYAq/rHqmNNLxzsGH5VAMB8GA1Ud
+IwQYMBaAFMgMt11gUYAq/rHqmNNLxzsGH5VAMA8GA1UdEwEB/wQFMAMBAf8wDQYJ
+KoZIhvcNAQELBQADggIBABy1CexBA1lROwkhjImA5t/OZtjcEFxmu2QNdATFlOeZ
+pWGiKEa/DJ3IGbc5VslpYkkKNJl8Y4pnR4MItT/shP4ZDN2rwKXtTQ9OJhZgpzML
+l9QHLy3IobZKVUFB8VSBQG2t3RXkyRzlV7S/yMZ5v/RPbWbmnFVjJuUsB0Bu8Ci6
+ySrukXm5ZrXPZNllvcvf5P1XJYDQDw9u+SIbBQq/kurD7mws6fZE49dH+vf+DRjK
+K6EDtj1nCsbpEXpGp451MmTc2WgkEKbNm0capjDiwnn8rQ/Ag/l3b0NZnnmrwbzj
+vnk3lUBVwQgFVY8apqU6CjeWrAE85JIJ6vegZt9DzOMU5nHbojJnL5QUxBRYbeXR
+dNsVtubvnvMzFPrn4WsJ1uz7NiHoMG9GdMftiACsI5gkkkJ9VRNBSFW9yiz1Bs80
+qs2MaS31uQGUUXbhrwne/AJriBbphrXQZPXDTzO91uTuC5MVrziIJ+jpjUwMlrSA
+kkJj5u/u9B0uDDZHC/4utJk/5++L8NXS6cPPCn3+oEOjj+piyQjyrhD+mqNRCbmG
+9UKkCReqj4rQaan7d6bin6YdZaC33F8q0J1ZO7D2UJGltN2DLI3P8uqfattFYTuV
+fWSQRZ38x3Re8rIPvIou5smSAZAuBvDLOKZCY8EqwTDNkKphEsARNbxat2ogB8uC
+          
+                    </ds:X509Certificate>
+                    
+        
+                </ds:X509Data>
+                
+      
+            </ds:KeyInfo>
+            
+    
+        </md:KeyDescriptor>
+        
+
+    
+ 
+    
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www6.eticasoluzioni.com/avellinoportalegen/Spid/Logout"/>
+        
+    
+    
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+
+    
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www6.eticasoluzioni.com/avellinoportalegen/Spid/ACS" index="0" isDefault="true"/>
+        
+
+
+    
+        <md:AttributeConsumingService index="0">
+            
+      
+            <md:ServiceName xml:lang="it">
+                acs
+            </md:ServiceName>
+            
+      
+            <md:ServiceDescription xml:lang="it">
+                acs
+            </md:ServiceDescription>
+            
+      
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+      
+            <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+    
+        </md:AttributeConsumingService>
+        
+
+
+  
+    </md:SPSSODescriptor>
+    
+
+  
+  
+    <md:Organization>
+        
+    
+        <md:OrganizationName xml:lang="it">
+            Comune di Avellino
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="en">
+            Comune di Avellino
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="fr">
+            Comune di Avellino
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationName xml:lang="de">
+            Comune di Avellino
+        </md:OrganizationName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="it">
+            Comune di Avellino
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="en">
+            Comune di Avellino
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="fr">
+            Comune di Avellino
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationDisplayName xml:lang="de">
+            Comune di Avellino
+        </md:OrganizationDisplayName>
+        
+    
+        <md:OrganizationURL xml:lang="it">
+            http://www.comune.avellino.it/
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="en">
+            http://www.comune.avellino.it/
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="fr">
+            http://www.comune.avellino.it/
+        </md:OrganizationURL>
+        
+    
+        <md:OrganizationURL xml:lang="de">
+            http://www.comune.avellino.it/
+        </md:OrganizationURL>
+        
+  
+    </md:Organization>
+    
+
+
+  
+    <md:ContactPerson contactType="other">
+        
+    
+        <md:Extensions>
+            
+      
+            <spid:IPACode>
+                c_a509
+            </spid:IPACode>
+            
+      
+            <spid:Public/>
+            
+    
+        </md:Extensions>
+        
+    
+        <md:Company>
+            Avellino
+        </md:Company>
+        
+    
+        <md:EmailAddress>
+            ufficioprotocollo@cert.comune.avellino.it
+        </md:EmailAddress>
+        
+  
+    </md:ContactPerson>
+    
+
+
+
+</md:EntityDescriptor>
