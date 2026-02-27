@@ -1,0 +1,223 @@
+<?xml version='1.0' encoding='utf-8'?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" entityID="https://splogin.intesa.it/m/spid/sp" ID="id-bbdaa071-f66a-42ff-b431-6c15fdce346a">
+  <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+    <ds:SignedInfo>
+      <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+      <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+      <ds:Reference URI="#id-bbdaa071-f66a-42ff-b431-6c15fdce346a">
+        <ds:Transforms>
+          <ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+          <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+        </ds:Transforms>
+        <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+        <ds:DigestValue>rx7MrGZOQyxvLtluqcR6x2qJMKOo4SHYfxW/U+g0tk8=</ds:DigestValue>
+      </ds:Reference>
+    </ds:SignedInfo>
+    <ds:SignatureValue>tnaNwZH7eX2MlQynEA0iri8rxmcEAYZPgXlaSWP5sOeB4GUdftSDnB+iqEnHCrOcBhfFPmJfVOdWoSjb9/HRClSvgcL0JFrk6YCW0b0Lf1Q7yjNBcWLMaO6N4xxI0MEgFPCxVcD4SOILNLry4LnBwOWCeneYPP9/ID6AwtpMTaCCkqY1UGKV5dqFQ3AHgX9eOBNX32KdNra542bToG5cKxZX9gK3Z+DtI6dM5nCj/+s3S4fnIGEdBRJzOhRD5Mmxdbn57TKB4+RNg/WxFYxrKL5VNrCysK+GhEE0+Reu4RwPolgYC2UrBVmTtfFMBq7Jmt9lz4oIFzpXcgAGyI/3zw==</ds:SignatureValue>
+    <ds:KeyInfo>
+      <ds:X509Data>
+        <ds:X509Certificate>MIIIOTCCBiGgAwIBAgIIarV8dDstIs0wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDUzMTAwMDAw
+MFoXDTM2MDUzMDIzNTk1OVowgeUxKDAmBgNVBAoMH0lOLlRFLlMuQS4gUy5QLkEu
+IEEgU09DSU8gVU5JQ08xQDA+BgNVBAMMN0luaXppYXRpdmUgVGVsZW1hdGljaGUg
+cGVyIGkgU2Vydml6aSBBcHBsaWNhdGl2aSBTLlAuQS4xLDAqBgNVBFMMI2h0dHBz
+Oi8vc3Bsb2dpbi5pbnRlc2EuaXQvbS9zcGlkL3NwMRowGAYDVQRhDBFWQVRJVC0w
+NTI2Mjg5MDAxNDELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlRvcmlubzEPMA0GA1UE
+CAwGVG9yaW5vMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5DY05GrT
+Wm3Rwxp5tYd0H+1ADBpf0mc1l+n6Zx3IlK3uwEMYZ3N1eGw421Fb2BAd7l+k+fUg
++Eu5K3mhPZ3JxBx8VlG3O0n5VyFCzFVQqJbb3jAy1LarrC6YUxn/uIH/s8eklXpp
+eXPnPpLguj3fxWRoKQTUppjgr5oPrG9vmiMaD1O4PlPIWMlFiuhM4/1UqlnP2EEj
+cxhbtaGd/2UG4d2p9MY8Scq56vT5N+CiGIeyC4qQFa7k3CiwzWqxDsLLFLzPGTI1
+n8Sax1hiEM+GUcEZ5sJUHruHgkUP0uRXfaIxz+XVoIfRQ2m5l7cwSJzZ/7WHLUmi
+aDfjm17SeBqV4wIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU
+suSv8ktmC1qr61jObhzD45IGyXMwHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDW
+B2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEMG
+A1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2Ny
+bF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYb
+aHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCCAcowCQYH
+BACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNl
+cnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYB
+BQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBM
+aW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCkaJ1NQSUQ6
+IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEFBQcCAjAs
+GipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChTUCkwCAYG
+BACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUw
+RTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJ
+RF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZI
+hvcNAQENBQADggIBAAqkZJLBseGdPtKQ2P2OCJ1hi9g4kPMR2OPvOBYjNDWFWHiT
+2tegV+EBmktz+6CSsr4yzwkpn8c5t4x0qeJxH5ZzMW11NRS5YrC7ESGjeFtRe2O4
+yE1NVgPJQZibFtCo22f9QbWagSJnPzVfShIgNHctdNRJL60ZbPvmcc7YGRCEycRa
+K4t5gA6qrIHNGVgspOjUZUaQngk+Dbmt4AxllT4IWRfrT0CrcihDAH0O6WDp885X
+rOe2SYeF/ElklWnvGfA4qMkqo/VvyZWZMxJMmN9XjobTxIAL4nC8n0LzA3e2a+RF
+vRKwDQe/XZObDKd+9AVKWZp9MCZy+aBiCKtQrfE7nQn3H6A6XEGPAD13Q4DtGQOI
+a/y5UDJ3DS/n+DWJn8LFQKf05Q0wJBYDudBrz45smssx/zr/blyIeLFnNQVLMRQm
+V+4KTOFcaECHnRXGTF7whDt/QQQTO9603oQRydmYOQeF9Uv7VI1Jpw6IL8MQFidP
+e9k2CJKPhXQdvjqH9G9Y3GT4ETGZAQIQBCYmg2okxyd6TR7bU+5aUNXcn2I1KBl4
+PBgIesMiwhU9KWFABIxMX+8zfKL5+JslskLgw0GWy26KHNriCCaDRT+GoxXCTZ8H
+zguMzNU06Gbl4WtgfJNEvYfBSJFL2ZWU6SxNS9LpOdc/+kaxdl4hMRNcRiif</ds:X509Certificate>
+      </ds:X509Data>
+    </ds:KeyInfo>
+  </ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIIOTCCBiGgAwIBAgIIarV8dDstIs0wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDUzMTAwMDAw
+MFoXDTM2MDUzMDIzNTk1OVowgeUxKDAmBgNVBAoMH0lOLlRFLlMuQS4gUy5QLkEu
+IEEgU09DSU8gVU5JQ08xQDA+BgNVBAMMN0luaXppYXRpdmUgVGVsZW1hdGljaGUg
+cGVyIGkgU2Vydml6aSBBcHBsaWNhdGl2aSBTLlAuQS4xLDAqBgNVBFMMI2h0dHBz
+Oi8vc3Bsb2dpbi5pbnRlc2EuaXQvbS9zcGlkL3NwMRowGAYDVQRhDBFWQVRJVC0w
+NTI2Mjg5MDAxNDELMAkGA1UEBhMCSVQxDzANBgNVBAcMBlRvcmlubzEPMA0GA1UE
+CAwGVG9yaW5vMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5DY05GrT
+Wm3Rwxp5tYd0H+1ADBpf0mc1l+n6Zx3IlK3uwEMYZ3N1eGw421Fb2BAd7l+k+fUg
++Eu5K3mhPZ3JxBx8VlG3O0n5VyFCzFVQqJbb3jAy1LarrC6YUxn/uIH/s8eklXpp
+eXPnPpLguj3fxWRoKQTUppjgr5oPrG9vmiMaD1O4PlPIWMlFiuhM4/1UqlnP2EEj
+cxhbtaGd/2UG4d2p9MY8Scq56vT5N+CiGIeyC4qQFa7k3CiwzWqxDsLLFLzPGTI1
+n8Sax1hiEM+GUcEZ5sJUHruHgkUP0uRXfaIxz+XVoIfRQ2m5l7cwSJzZ/7WHLUmi
+aDfjm17SeBqV4wIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQU
+suSv8ktmC1qr61jObhzD45IGyXMwHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDW
+B2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEMG
+A1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2Ny
+bF9TUElEX3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYb
+aHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCCAcowCQYH
+BACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNl
+cnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYB
+BQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBM
+aW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCkaJ1NQSUQ6
+IGZvcm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEFBQcCAjAs
+GipTUElEOiBwcml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChTUCkwCAYG
+BACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lk
+Lmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUw
+RTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJ
+RF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZI
+hvcNAQENBQADggIBAAqkZJLBseGdPtKQ2P2OCJ1hi9g4kPMR2OPvOBYjNDWFWHiT
+2tegV+EBmktz+6CSsr4yzwkpn8c5t4x0qeJxH5ZzMW11NRS5YrC7ESGjeFtRe2O4
+yE1NVgPJQZibFtCo22f9QbWagSJnPzVfShIgNHctdNRJL60ZbPvmcc7YGRCEycRa
+K4t5gA6qrIHNGVgspOjUZUaQngk+Dbmt4AxllT4IWRfrT0CrcihDAH0O6WDp885X
+rOe2SYeF/ElklWnvGfA4qMkqo/VvyZWZMxJMmN9XjobTxIAL4nC8n0LzA3e2a+RF
+vRKwDQe/XZObDKd+9AVKWZp9MCZy+aBiCKtQrfE7nQn3H6A6XEGPAD13Q4DtGQOI
+a/y5UDJ3DS/n+DWJn8LFQKf05Q0wJBYDudBrz45smssx/zr/blyIeLFnNQVLMRQm
+V+4KTOFcaECHnRXGTF7whDt/QQQTO9603oQRydmYOQeF9Uv7VI1Jpw6IL8MQFidP
+e9k2CJKPhXQdvjqH9G9Y3GT4ETGZAQIQBCYmg2okxyd6TR7bU+5aUNXcn2I1KBl4
+PBgIesMiwhU9KWFABIxMX+8zfKL5+JslskLgw0GWy26KHNriCCaDRT+GoxXCTZ8H
+zguMzNU06Gbl4WtgfJNEvYfBSJFL2ZWU6SxNS9LpOdc/+kaxdl4hMRNcRiif</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://splogin.intesa.it/m/spid/logout/post"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://splogin.intesa.it/m/spid/logout/redirect"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP" Location="https://splogin.intesa.it/m/spid/logout/soap"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://splogin.intesa.it/m/spid/consume-assertion/post" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://splogin.intesa.it/m/spid/consume-assertion/redirect" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">identificativo</md:ServiceName>
+      <md:ServiceName xml:lang="en">identifier</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">anagrafica</md:ServiceName>
+      <md:ServiceName xml:lang="en">registry</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="2">
+      <md:ServiceName xml:lang="it">profilo</md:ServiceName>
+      <md:ServiceName xml:lang="en">profile</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="3">
+      <md:ServiceName xml:lang="it">profilo esteso</md:ServiceName>
+      <md:ServiceName xml:lang="en">extended profile</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+      <md:RequestedAttribute Name="expirationDate"/>
+      <md:RequestedAttribute Name="fiscalNumber"/>
+      <md:RequestedAttribute Name="name"/>
+      <md:RequestedAttribute Name="familyName"/>
+      <md:RequestedAttribute Name="placeOfBirth"/>
+      <md:RequestedAttribute Name="countyOfBirth"/>
+      <md:RequestedAttribute Name="dateOfBirth"/>
+      <md:RequestedAttribute Name="gender"/>
+      <md:RequestedAttribute Name="email"/>
+      <md:RequestedAttribute Name="idCard"/>
+      <md:RequestedAttribute Name="mobilePhone"/>
+      <md:RequestedAttribute Name="address"/>
+      <md:RequestedAttribute Name="digitalAddress"/>
+      <md:RequestedAttribute Name="companyName"/>
+      <md:RequestedAttribute Name="registeredOffice"/>
+      <md:RequestedAttribute Name="ivaCode"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">IN.TE.S.A. S.P.A. A SOCIO UNICO</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">IN.TE.S.A. S.P.A. A SOCIO UNICO</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Iniziative Telematiche per i Servizi Applicativi S.P.A.</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Iniziative Telematiche per i Servizi Applicativi S.P.A.</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.intesa.it/</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.intesa.it/en/</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions xmlns:spid="https://spid.gov.it/saml-extensions">
+      <spid:VATNumber>IT05262890014</spid:VATNumber>
+      <spid:Private/>
+    </md:Extensions>
+    <md:Company>IN.TE.S.A. S.P.A. A SOCIO UNICO</md:Company>
+    <md:EmailAddress>INTESA@pec.trustedmail.intesa.it</md:EmailAddress>
+    <md:TelephoneNumber>+3901119216111</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="billing">
+    <md:Extensions xmlns:fpa="http://ivaservizi.agenziaentrate.gov.it/docs/xsd/fatture/v1.2">
+      <fpa:CessionarioCommittente>
+        <fpa:DatiAnagrafici>
+          <fpa:IdFiscaleIVA>
+            <fpa:IdPaese>IT</fpa:IdPaese>
+            <fpa:IdCodice>05262890014</fpa:IdCodice>
+          </fpa:IdFiscaleIVA>
+          <fpa:Anagrafica>
+            <fpa:Denominazione>IN.TE.S.A. S.P.A. A SOCIO UNICO</fpa:Denominazione>
+          </fpa:Anagrafica>
+        </fpa:DatiAnagrafici>
+        <fpa:Sede>
+          <fpa:Indirizzo>STRADA PIANEZZA</fpa:Indirizzo>
+          <fpa:NumeroCivico>289</fpa:NumeroCivico>
+          <fpa:CAP>10151</fpa:CAP>
+          <fpa:Comune>TORINO</fpa:Comune>
+          <fpa:Provincia>TO</fpa:Provincia>
+          <fpa:Nazione>IT</fpa:Nazione>
+        </fpa:Sede>
+      </fpa:CessionarioCommittente>
+    </md:Extensions>
+    <md:Company>IN.TE.S.A. S.P.A. A SOCIO UNICO</md:Company>
+    <md:EmailAddress>gestionefatturepassive@intesa.it</md:EmailAddress>
+    <md:TelephoneNumber>+3901119216111</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

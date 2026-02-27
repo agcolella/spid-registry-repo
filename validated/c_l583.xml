@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_2af82bede730431a7cb773d806a48364b4dc5cf40a49dfdadbf9d4aceb6c1c4f" entityID="https://trasparenza.comune.valguarnera.en.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_2af82bede730431a7cb773d806a48364b4dc5cf40a49dfdadbf9d4aceb6c1c4f">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>iYX5QhXEUFRQ/StE6gnzHv7nRGtR7/NXsmtUIjw+Nog=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+FksD1y1JVDe7hyRv53z9fYRpwTLtQQEMP6oRP8+30tp7jJiRPHvAdZ9iBtU2WS3HwnQ3ibeVUwHX
+S6nZk9VGdC9eZ9SVrB+mN1u1g6SPNP7z6vRpJ5QKzVTIifTb47sfGJCbJ0GCVBsNYKgnDpE60+uQ
+0ej5Ej+baKJT4FLLFJRYP7HLo3v0CF8/l2ViKShp73Cjzydg5zcaQ0njtyjZLK70UR2MHl0ibFgN
+RITwUrP3P6VfgQbt7TM806Hwnlu4UAwOSb0++NZ60JcmtmGLIeX8vp4wU1ZM91NF+vwhZDsYMdOs
+AWrJyqVYL8FJOEhvLWgK3wVJwWtIzMmMcOCwEQ==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+vKMPHB/IzhYnJPdkDeDA0jVKa3zCGNE2oryz809WNRqIUyIYHLlzCboK+vyZsNNBQLznMakB53TL
+s++66QFlhTcxOe675E+408ufbHlxrp7l6WRtQsC7sgYtOgyLhhXLXjWZeqXRuyIVHuWwk5qzlCK3
+1YVb2ojTxtlikI8C0kgw0PcvpPfNXVOzJflTyUVlGYFdidsAW3JbRQ35JItByQCTXGjGMpxGUcqB
+HlDhusTUWxooDXIGMJiaPgT40QTIegk4Dv3JwUnFvLtHXXZoUwddkTEiZSS1C2doqNCO0OoglzWG
+Bt8rqAKvT2Pcp8FuRNBnhvpjfBJ/1cW92U5kLw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIID/TCCAuWgAwIBAgIJAKf1nl9fvcWZMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEO
+MAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBlMScwJQYDVQQKDB5D
+b211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNwYXJlbnphLmNvbXVu
+ZS52YWxndWFybmVyYS5lbi5pdDAeFw0yMzA0MjcxNTMxNDBaFw0zMzA0MjYxNTMxNDBaMIGUMQsw
+CQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBl
+MScwJQYDVQQKDB5Db211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNw
+YXJlbnphLmNvbXVuZS52YWxndWFybmVyYS5lbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCC
+AQoCggEBALyjDxwfyM4WJyT3ZA3gwNI1Smt8whjRNqK8s/NPVjUaiFMiGBy5cwm6Cvr8mbDTQUC8
+5zGpAed0y7PvuukBZYU3MTnuu+RPuNPLn2x5ca6e5elkbULAu7IGLToMi4YVy141mXql0bsiFR7l
+sJOas5Qit9WFW9qI08bZYpCPAtJIMND3L6T3zV1TsyX5U8lFZRmBXYnbAFtyW0UN+SSLQckAk1xo
+xjKcRlHKgR5Q4brE1FsaKA1yBjCYmj4E+NEEyHoJOA79ycFJxby7R112aFMHXZExImUktQtnaKjQ
+jtDqIJc1hgbfK6gCr09j3KfBbkTQZ4b6Y3wSf9XFvdlOZC8CAwEAAaNQME4wHQYDVR0OBBYEFDuL
+KPvBBnvm9YanJVQlLIZzo0SaMB8GA1UdIwQYMBaAFDuLKPvBBnvm9YanJVQlLIZzo0SaMAwGA1Ud
+EwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIFDBVKcC46WbZ0itcyzEbQDWfwaVi12scQ4mgoK
+5SNp8fbMUh46ipEMhSZnXXnaKLFX891dk6bNW2LJiqrPHN2D1fwOgfGZCL1jfy9hwW4VYcRK7HcQ
+mT80N66v0BOlJ01mAUiPEg1oBl0ftjqp6cPkI6xk7ZRVodjvEx46t7d2TR65JsgU0ZDtGsFXxSiO
+s5y97RZjuw2bsDPk7EioBHomZM9FNhH9leb+oPi0F3B39VkYHqppDfaay4L4qICwNYCdeBpbsuEF
+XccfZXn21BwYlRWKyuyzhSwVey4DAKpQxLGQkIF7ORwN2qlaKXjNnPklSrMa6p9yfQc0BuDeupo=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJAKf1nl9fvcWZMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBlMScwJQYDVQQKDB5Db211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNwYXJlbnphLmNvbXVuZS52YWxndWFybmVyYS5lbi5pdDAeFw0yMzA0MjcxNTMxNDBaFw0zMzA0MjYxNTMxNDBaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBlMScwJQYDVQQKDB5Db211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNwYXJlbnphLmNvbXVuZS52YWxndWFybmVyYS5lbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyjDxwfyM4WJyT3ZA3gwNI1Smt8whjRNqK8s/NPVjUaiFMiGBy5cwm6Cvr8mbDTQUC85zGpAed0y7PvuukBZYU3MTnuu+RPuNPLn2x5ca6e5elkbULAu7IGLToMi4YVy141mXql0bsiFR7lsJOas5Qit9WFW9qI08bZYpCPAtJIMND3L6T3zV1TsyX5U8lFZRmBXYnbAFtyW0UN+SSLQckAk1xoxjKcRlHKgR5Q4brE1FsaKA1yBjCYmj4E+NEEyHoJOA79ycFJxby7R112aFMHXZExImUktQtnaKjQjtDqIJc1hgbfK6gCr09j3KfBbkTQZ4b6Y3wSf9XFvdlOZC8CAwEAAaNQME4wHQYDVR0OBBYEFDuLKPvBBnvm9YanJVQlLIZzo0SaMB8GA1UdIwQYMBaAFDuLKPvBBnvm9YanJVQlLIZzo0SaMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIFDBVKcC46WbZ0itcyzEbQDWfwaVi12scQ4mgoK5SNp8fbMUh46ipEMhSZnXXnaKLFX891dk6bNW2LJiqrPHN2D1fwOgfGZCL1jfy9hwW4VYcRK7HcQmT80N66v0BOlJ01mAUiPEg1oBl0ftjqp6cPkI6xk7ZRVodjvEx46t7d2TR65JsgU0ZDtGsFXxSiOs5y97RZjuw2bsDPk7EioBHomZM9FNhH9leb+oPi0F3B39VkYHqppDfaay4L4qICwNYCdeBpbsuEFXccfZXn21BwYlRWKyuyzhSwVey4DAKpQxLGQkIF7ORwN2qlaKXjNnPklSrMa6p9yfQc0BuDeupo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIID/TCCAuWgAwIBAgIJAKf1nl9fvcWZMA0GCSqGSIb3DQEBCwUAMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBlMScwJQYDVQQKDB5Db211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNwYXJlbnphLmNvbXVuZS52YWxndWFybmVyYS5lbi5pdDAeFw0yMzA0MjcxNTMxNDBaFw0zMzA0MjYxNTMxNDBaMIGUMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxHTAbBgNVBAcMFFZhbGd1YXJuZXJhIENhcm9wZXBlMScwJQYDVQQKDB5Db211bmUgZGkgVmFsZ3Vhcm5lcmEgQ2Fyb3BlcGUxLTArBgNVBAMMJHRyYXNwYXJlbnphLmNvbXVuZS52YWxndWFybmVyYS5lbi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBALyjDxwfyM4WJyT3ZA3gwNI1Smt8whjRNqK8s/NPVjUaiFMiGBy5cwm6Cvr8mbDTQUC85zGpAed0y7PvuukBZYU3MTnuu+RPuNPLn2x5ca6e5elkbULAu7IGLToMi4YVy141mXql0bsiFR7lsJOas5Qit9WFW9qI08bZYpCPAtJIMND3L6T3zV1TsyX5U8lFZRmBXYnbAFtyW0UN+SSLQckAk1xoxjKcRlHKgR5Q4brE1FsaKA1yBjCYmj4E+NEEyHoJOA79ycFJxby7R112aFMHXZExImUktQtnaKjQjtDqIJc1hgbfK6gCr09j3KfBbkTQZ4b6Y3wSf9XFvdlOZC8CAwEAAaNQME4wHQYDVR0OBBYEFDuLKPvBBnvm9YanJVQlLIZzo0SaMB8GA1UdIwQYMBaAFDuLKPvBBnvm9YanJVQlLIZzo0SaMAwGA1UdEwQFMAMBAf8wDQYJKoZIhvcNAQELBQADggEBAIFDBVKcC46WbZ0itcyzEbQDWfwaVi12scQ4mgoK5SNp8fbMUh46ipEMhSZnXXnaKLFX891dk6bNW2LJiqrPHN2D1fwOgfGZCL1jfy9hwW4VYcRK7HcQmT80N66v0BOlJ01mAUiPEg1oBl0ftjqp6cPkI6xk7ZRVodjvEx46t7d2TR65JsgU0ZDtGsFXxSiOs5y97RZjuw2bsDPk7EioBHomZM9FNhH9leb+oPi0F3B39VkYHqppDfaay4L4qICwNYCdeBpbsuEFXccfZXn21BwYlRWKyuyzhSwVey4DAKpQxLGQkIF7ORwN2qlaKXjNnPklSrMa6p9yfQc0BuDeupo=</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trasparenza.comune.valguarnera.en.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://trasparenza.comune.valguarnera.en.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://trasparenza.comune.valguarnera.en.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Valguarnera Caropepe</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Valguarnera Caropepe</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Valguarnera Caropepe</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Valguarnera Caropepe</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.valguarnera.en.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.valguarnera.en.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l583</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Valguarnera Caropepe</md:Company>
+    <md:EmailAddress>settoretributi@comune.valguarnera.en.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

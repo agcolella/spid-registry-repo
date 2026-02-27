@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_682f4dcee1786699e4afad6e7458f0b840b81782c1fd4c0e7fb0d1f51c38904b" entityID="https://www.comunedipastorano.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_682f4dcee1786699e4afad6e7458f0b840b81782c1fd4c0e7fb0d1f51c38904b">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>jdSl7iBamVc8Mu9/4fWSD37R6OETxnivmWb5HqogOAk=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+JCh7Ss7Mg52h4UVh6NODjGRDegoTkWxckdPD0rH6zySlQKzMWyasWhz8nurxwgM8KqIOolyMuZf5
+k59bboTCBopJth2E6hZWdiDJwf8f5k/ElHVLUKc50BHtcR8t/iiijN/tI9wjBqyWX5qhxYI9r5Lk
+fK0TJknLBJwcC00aflG0N8REHQnjCxlbiNQnCAapApVmv7Y3QjkPbmO4h5pnOp1i7XipTV8hBxbQ
+LW6qiEZh2PsFQcHHyA1Xiv4rN3q599GEy1hvm7mBnAqtYipZ9z1Q+w57GgVRwrJO5J1cHyTNbB5a
+kPe/nBHOf7VpWdNf9UT1w5rjOIrE8d44yG5iww==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+nmqMIQsOXctDE6um5ag/wLKNtNUhFI6l0IDFk7QCwzMZKp//jIenZKZpYibT+nIhr1wc+KqB1HsD
+MnTeKt6PaOCyHXjgZcjY+aweOooDufnV9PKnD2u/xY6/Bs587++UUsnL0UZPoeBp5nalnEhdHibd
+HYd7e/zgpRjruyUe33nRVvrYzRzKPm4cF97RzTU0c2JS/IqQMYf6DbyhuBJDHgnz6yHJdUzJUOjw
+nUuuvfr345mgD96qH3ntmtuha6RhB/c/qo9ArDpfBeZuSXTUXK/tUses4uOtOZCdCsPcg3brbZUk
+vybmk65nC8eYnjUAHdaVMPeEoFv8ElMISjoHnw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDtzCCAp+gAwIBAgIJALgrka1wCCjIMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUGFzdG9yYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgUGFz
+dG9yYW5vMSEwHwYDVQQDDBh3d3cuY29tdW5lZGlwYXN0b3Jhbm8uaXQwHhcNMjIwOTI4MDg0NDQy
+WhcNMzIwOTI3MDg0NDQyWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcM
+CVBhc3RvcmFubzEcMBoGA1UECgwTQ29tdW5lIGRpIFBhc3RvcmFubzEhMB8GA1UEAwwYd3d3LmNv
+bXVuZWRpcGFzdG9yYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnmqMIQsO
+XctDE6um5ag/wLKNtNUhFI6l0IDFk7QCwzMZKp//jIenZKZpYibT+nIhr1wc+KqB1HsDMnTeKt6P
+aOCyHXjgZcjY+aweOooDufnV9PKnD2u/xY6/Bs587++UUsnL0UZPoeBp5nalnEhdHibdHYd7e/zg
+pRjruyUe33nRVvrYzRzKPm4cF97RzTU0c2JS/IqQMYf6DbyhuBJDHgnz6yHJdUzJUOjwnUuuvfr3
+45mgD96qH3ntmtuha6RhB/c/qo9ArDpfBeZuSXTUXK/tUses4uOtOZCdCsPcg3brbZUkvybmk65n
+C8eYnjUAHdaVMPeEoFv8ElMISjoHnwIDAQABo1AwTjAdBgNVHQ4EFgQU3Xnah0elq1JRyoaRMirZ
+b5UEXlEwHwYDVR0jBBgwFoAU3Xnah0elq1JRyoaRMirZb5UEXlEwDAYDVR0TBAUwAwEB/zANBgkq
+hkiG9w0BAQsFAAOCAQEAFbQwVRnnZ5tFt352UsmwvVpIA/Jn7zdHY7phchOAsuCfQsxph6fiLzPO
+oe+j/IASqvMD53sICDacS49sGJmXeIeF1Rpf1YeN4IJSJf/5EAxlYXgkn4rN+AxXGvrDQ8uOr22w
+LXwUpX9DCo3c1UJkhNjq7aP9gcrW8FUaSpsM+VkQXPiHf3gbhNmctn50K7Vffz6VyvCKwJlvzmXl
+/ouniJBwbHyc154efn7svTg5+5UvnKdwIH+jWF1T8DP7/OHeLQqYixoDbtd/wfy6wJRUxJxdKtep
+xmKqRqCrGh4QG8Lo5YoCcpzOPU1Z3G6PC7ll8gJN796+C3M0K2miIB3W8w==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJALgrka1wCCjIMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUGFzdG9yYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgUGFzdG9yYW5vMSEwHwYDVQQDDBh3d3cuY29tdW5lZGlwYXN0b3Jhbm8uaXQwHhcNMjIwOTI4MDg0NDQyWhcNMzIwOTI3MDg0NDQyWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCVBhc3RvcmFubzEcMBoGA1UECgwTQ29tdW5lIGRpIFBhc3RvcmFubzEhMB8GA1UEAwwYd3d3LmNvbXVuZWRpcGFzdG9yYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnmqMIQsOXctDE6um5ag/wLKNtNUhFI6l0IDFk7QCwzMZKp//jIenZKZpYibT+nIhr1wc+KqB1HsDMnTeKt6PaOCyHXjgZcjY+aweOooDufnV9PKnD2u/xY6/Bs587++UUsnL0UZPoeBp5nalnEhdHibdHYd7e/zgpRjruyUe33nRVvrYzRzKPm4cF97RzTU0c2JS/IqQMYf6DbyhuBJDHgnz6yHJdUzJUOjwnUuuvfr345mgD96qH3ntmtuha6RhB/c/qo9ArDpfBeZuSXTUXK/tUses4uOtOZCdCsPcg3brbZUkvybmk65nC8eYnjUAHdaVMPeEoFv8ElMISjoHnwIDAQABo1AwTjAdBgNVHQ4EFgQU3Xnah0elq1JRyoaRMirZb5UEXlEwHwYDVR0jBBgwFoAU3Xnah0elq1JRyoaRMirZb5UEXlEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAFbQwVRnnZ5tFt352UsmwvVpIA/Jn7zdHY7phchOAsuCfQsxph6fiLzPOoe+j/IASqvMD53sICDacS49sGJmXeIeF1Rpf1YeN4IJSJf/5EAxlYXgkn4rN+AxXGvrDQ8uOr22wLXwUpX9DCo3c1UJkhNjq7aP9gcrW8FUaSpsM+VkQXPiHf3gbhNmctn50K7Vffz6VyvCKwJlvzmXl/ouniJBwbHyc154efn7svTg5+5UvnKdwIH+jWF1T8DP7/OHeLQqYixoDbtd/wfy6wJRUxJxdKtepxmKqRqCrGh4QG8Lo5YoCcpzOPU1Z3G6PC7ll8gJN796+C3M0K2miIB3W8w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDtzCCAp+gAwIBAgIJALgrka1wCCjIMA0GCSqGSIb3DQEBCwUAMHIxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTESMBAGA1UEBwwJUGFzdG9yYW5vMRwwGgYDVQQKDBNDb211bmUgZGkgUGFzdG9yYW5vMSEwHwYDVQQDDBh3d3cuY29tdW5lZGlwYXN0b3Jhbm8uaXQwHhcNMjIwOTI4MDg0NDQyWhcNMzIwOTI3MDg0NDQyWjByMQswCQYDVQQGEwJJVDEOMAwGA1UECAwFSXRhbHkxEjAQBgNVBAcMCVBhc3RvcmFubzEcMBoGA1UECgwTQ29tdW5lIGRpIFBhc3RvcmFubzEhMB8GA1UEAwwYd3d3LmNvbXVuZWRpcGFzdG9yYW5vLml0MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnmqMIQsOXctDE6um5ag/wLKNtNUhFI6l0IDFk7QCwzMZKp//jIenZKZpYibT+nIhr1wc+KqB1HsDMnTeKt6PaOCyHXjgZcjY+aweOooDufnV9PKnD2u/xY6/Bs587++UUsnL0UZPoeBp5nalnEhdHibdHYd7e/zgpRjruyUe33nRVvrYzRzKPm4cF97RzTU0c2JS/IqQMYf6DbyhuBJDHgnz6yHJdUzJUOjwnUuuvfr345mgD96qH3ntmtuha6RhB/c/qo9ArDpfBeZuSXTUXK/tUses4uOtOZCdCsPcg3brbZUkvybmk65nC8eYnjUAHdaVMPeEoFv8ElMISjoHnwIDAQABo1AwTjAdBgNVHQ4EFgQU3Xnah0elq1JRyoaRMirZb5UEXlEwHwYDVR0jBBgwFoAU3Xnah0elq1JRyoaRMirZb5UEXlEwDAYDVR0TBAUwAwEB/zANBgkqhkiG9w0BAQsFAAOCAQEAFbQwVRnnZ5tFt352UsmwvVpIA/Jn7zdHY7phchOAsuCfQsxph6fiLzPOoe+j/IASqvMD53sICDacS49sGJmXeIeF1Rpf1YeN4IJSJf/5EAxlYXgkn4rN+AxXGvrDQ8uOr22wLXwUpX9DCo3c1UJkhNjq7aP9gcrW8FUaSpsM+VkQXPiHf3gbhNmctn50K7Vffz6VyvCKwJlvzmXl/ouniJBwbHyc154efn7svTg5+5UvnKdwIH+jWF1T8DP7/OHeLQqYixoDbtd/wfy6wJRUxJxdKtepxmKqRqCrGh4QG8Lo5YoCcpzOPU1Z3G6PC7ll8gJN796+C3M0K2miIB3W8w==</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunedipastorano.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comunedipastorano.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comunedipastorano.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Pastorano</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Pastorano</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Pastorano</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Pastorano</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comunedipastorano.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comunedipastorano.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_g364</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Pastorano</md:Company>
+    <md:EmailAddress>m.valle@comunedipastorano.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor ID="_SPGW-cb3b51bd-436b-42dc-a35a-dabbf540a551" entityID="https://spspid.aruba.it" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_SPGW-cb3b51bd-436b-42dc-a35a-dabbf540a551">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>INLtx2mlC0v24yNHStRHElcJ4X1qvvNN2Mm9HNl0q48=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+YAzhwj8fZKRZ91fDuAqyzft6UJvhQwlbsmVpv2RbXtxvDjWtVqw9eytWey5NAKfORS+UFP60IM+w
+pNHoO2qEYFYEGayk812b+GQwEc5uns2TbA2HUuc2ctjJ24Elm95dTDTbCTrpDh/LZlRqu9DddT5N
+0F+ZivYgoCjCocMUk47f7EzSmqS/eZEb/BsaSXrBHVPWQNznM1Zh+nFAzhxKHPfnyeExVN4oPMBR
+V3KNu5tG7nS0brLVyd8I6rxc2B7PDaX3brcvW69wrD5BCeF6uDdrqqNVZLgZBN0NQizgkp4s+xBC
+8ti6SDdN4ur6ov8MOExZQ7X/glVKxodeenkBSW0WcKY6TGopWvDq6+Md0S/eTz1ACpIaiH7lkA3e
+YN4NPnYS0zsnd0zlqhVCJY+Br+NZxePlWyGcnC0qhZcrl0+odeyaSp8ZvdVYEJ0qXODVH1rSEY4X
+XjjqiUEKw2Wk5lesEFCYK2AUeDQQ6iOmw1UMRnaC5SSP/TN0ajvKKIzQkogIqP9DhOUf5uiVdnxS
+uM4IFWRDiGAaSHNjyeTid2jKeD3Lvz5yuFcH/CLek0l3wgMjXYFetF5R7dCVEXeCsppJSAyb9IgI
+TsZ28vwbn2++vbxs7HlC6xl3snMXAHIWrGjU7LQ3YY58sG0z3v1Pfi36wpVhDztMCy0rpTZ0WuA=
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+u44U4fDX8kzRuwD8vfhH93uDSgF0ffW2z/O8HlVGyGUgrrGkcS7pUJ/DuoF13z4kMfPDg1554/r4
+irh6t8ma5RJ8iuBixHI08bR/fNQCVel/HjpXoC0H2UA0hGQjSY4fKo19ofupqt0hOZm6+0zPJSlG
+60+csRbHQ46Bt+2iW9d42eVAmLTDs9B3+4++saBJKbacSAk7BaohTl2c5ZhPkEYRstLJ/0qyCEAt
+BAo1k9mQ2F+zoP1a1Yyb3CM4OF1MI7kR6OCt7StzwhyvFCHN7BeQV7veFS688JFVx0+ZkRzH8mrx
+0IzWquPavhqeW/OKWBTbvjDe1kB/acPQh188EqNtgUbmJa0IKqI4V5OqxL03NIZmQ8WY/78/oxTZ
+R8MqyA68J+gMOodYFnOcTktrf56S+fj6wVy4oWZsyZPJ80+LCjGkssOYoVqAgKTEVJWW/8Qc267e
+8d2qMMVLot8ymbb400C/O3aLbGoSPhHuzniJWYHjJ1Ht2aBATPyJvZlqK7AaeOTG46M1NCFZTpmz
+SWd8wFJpZNLKU8mRaeg2lkTiuZ+HM6zLjv8/cFQcVv8RGaiNLElb/8smLmmGmeULQeQFoSXF/fVR
+K2MvWwj9LxUZrML9gWyZr9CCciWtc0/829qi1rk1Gq4kfQilkE2yRk/ZRugPMbLYwwEBJsntezc=
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIII8DCCBtigAwIBAgIIbHLc3l5fMV0wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEwMC4G
+A1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQ
+cm9nZXR0byBTUElEIC0gU29nZ2V0dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xs
+b0BwZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExODAw
+MDAwMFoXDTM3MDExNzIzNTk1OVowgZwxGTAXBgNVBAMMEEFydWJhIFBFQyBTLnAuQS4xCzAJBgNV
+BAYTAklUMRkwFwYDVQQHDBBQb250ZSBTYW4gUGlldHJvMRowGAYDVQRhDBFWQVRJVC0wMTg3OTAy
+MDUxNzEZMBcGA1UECgwQQXJ1YmEgUEVDIFMucC5BLjEgMB4GA1UEUwwXaHR0cHM6Ly9zcHNwaWQu
+YXJ1YmEuaXQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC7jhTh8NfyTNG7APy9+Ef3
+e4NKAXR99bbP87weVUbIZSCusaRxLulQn8O6gXXfPiQx88ODXnnj+viKuHq3yZrlEnyK4GLEcjTx
+tH981AJV6X8eOlegLQfZQDSEZCNJjh8qjX2h+6mq3SE5mbr7TM8lKUbrT5yxFsdDjoG37aJb13jZ
+5UCYtMOz0Hf7j76xoEkptpxICTsFqiFOXZzlmE+QRhGy0sn/SrIIQC0ECjWT2ZDYX7Og/VrVjJvc
+Izg4XUwjuRHo4K3tK3PCHK8UIc3sF5BXu94VLrzwkVXHT5mRHMfyavHQjNaq49q+Gp5b84pYFNu+
+MN7WQH9pw9CHXzwSo22BRuYlrQgqojhXk6rEvTc0hmZDxZj/vz+jFNlHwyrIDrwn6Aw6h1gWc5xO
+S2t/npL5+PrBXLihZmzJk8nzT4sKMaSyw5ihWoCApMRUlZb/xBzbrt7x3aowxUui3zKZtvjTQL87
+dotsahI+Ee7OeIlZgeMnUe3ZoEBM/Im9mWorsBp45MbjozU0IVlOmbNJZ3zAUmlk0spTyZFp6DaW
+ROK5n4czrMuO/z9wVBxW/xEZqI0sSVv/yyYuaYaZ5QtB5AWhJcX99VErYy9bCP0vFRmswv2BbJmv
+0IJyJa1zT/zb2qLWuTUariR9CKWQTbJGT9lG6A8xstjDAQEmye17NwIDAQABo4IC5jCCAuIwDAYD
+VR0TAQH/BAIwADAdBgNVHQ4EFgQUYKa+zM8wwwOCDxkDSeHvOCdfh5swHwYDVR0jBBgwFoAUnEUw
+xE0PoPomD6nW/CDWB2zOZFYwDgYDVR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0
+MEMGA1UdHwQ8MDowOKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElE
+X3ByaXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NB
+LmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCCAcowCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggr
+BgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1
+aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUg
+YWxsZSBMaW5lZSBndWlkYSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IGZv
+cm5pdG9yZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEFBQcCAjAsGipTUElEOiBwcml2
+YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChTUCkwCAYGBACPegEDME0GBCtMEAQwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5p
+dC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZI
+hvcNAQENBQADggIBAOe4SQ7jkCUN0poOR9/RB31pTVkH3QaHzs8lXVnBxsbjJdJcpRmwdj2c+Vf0
+1voWEGPEWiaJ2IIj5DT1PFj3SJIn6jA2ZpbFIgeu8SHTZMYegGSDqjlpPDCLdOzf1YaRKfh+dYA5
+Cb3eMf6PYp9g8oG+HwvYz4tl6ZvinyK2kCg+y037abCysXkN3cX0oTBUqguYujfzLrprbrFpdnkH
+3sPZSCZuComHh9kf9PWP+4lzKQIBi0j16jKLHm9VF/vBPiv4Nw6wfa9xS1+4g2hg2kv6rv+LJDc6
+enJknO92vZbeDjq6f4Xb2ZUrdGQjFWffIu3clzy9Kfpp+4RGb64BMOrz6hKjBjCJNiE74826cySb
+MwSlNds3P/CKD4NZ3KEXkTCw6BY9nhhfQPZxYupvhTeJhwxu57N8DQAWDciNJByMBEAcDfYrAs+6
+wPE7oogI/SE2hwT2lBvTxQMPb/a9tVXNM17ureSFegxERNB1Ki0+jSvpSmY4StSLpNBsbGRwhodU
+ny5YZ/I1AlkPoDxeeGauDSj/2dR1DBzgDesk+FBizLSufYJ7ypNHxhziw3idAa4+ouv6CxrbVcpn
+IwOia9COdFqa6TZbi78AF6FBZ0s9+o0n8wDlv3ai+1PpfmJgI0ipr04WubUm685i2U0rmiylJkQ5
+veSBn/b0IZi+tI/d
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+	<md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+		<md:KeyDescriptor use="signing">
+			<ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+				<ds:X509Data>
+					<ds:X509Certificate>
+MIII8DCCBtigAwIBAgIIbHLc3l5fMV0wDQYJKoZIhvcNAQENBQAwgegxCzAJBgNV
+BAYTAklUMQ0wCwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0
+YWxpYSBEaWdpdGFsZTEwMC4GA1UECwwnU2Vydml6aW8gQWNjcmVkaXRhbWVudG8g
+ZSBwcm9nZXR0byBTUElEMSkwJwYDVQQDDCBQcm9nZXR0byBTUElEIC0gU29nZ2V0
+dGkgcHJpdmF0aTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0BwZWMuYWdpZC5n
+b3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIyMDExODAwMDAw
+MFoXDTM3MDExNzIzNTk1OVowgZwxGTAXBgNVBAMMEEFydWJhIFBFQyBTLnAuQS4x
+CzAJBgNVBAYTAklUMRkwFwYDVQQHDBBQb250ZSBTYW4gUGlldHJvMRowGAYDVQRh
+DBFWQVRJVC0wMTg3OTAyMDUxNzEZMBcGA1UECgwQQXJ1YmEgUEVDIFMucC5BLjEg
+MB4GA1UEUwwXaHR0cHM6Ly9zcHNwaWQuYXJ1YmEuaXQwggIiMA0GCSqGSIb3DQEB
+AQUAA4ICDwAwggIKAoICAQC7jhTh8NfyTNG7APy9+Ef3e4NKAXR99bbP87weVUbI
+ZSCusaRxLulQn8O6gXXfPiQx88ODXnnj+viKuHq3yZrlEnyK4GLEcjTxtH981AJV
+6X8eOlegLQfZQDSEZCNJjh8qjX2h+6mq3SE5mbr7TM8lKUbrT5yxFsdDjoG37aJb
+13jZ5UCYtMOz0Hf7j76xoEkptpxICTsFqiFOXZzlmE+QRhGy0sn/SrIIQC0ECjWT
+2ZDYX7Og/VrVjJvcIzg4XUwjuRHo4K3tK3PCHK8UIc3sF5BXu94VLrzwkVXHT5mR
+HMfyavHQjNaq49q+Gp5b84pYFNu+MN7WQH9pw9CHXzwSo22BRuYlrQgqojhXk6rE
+vTc0hmZDxZj/vz+jFNlHwyrIDrwn6Aw6h1gWc5xOS2t/npL5+PrBXLihZmzJk8nz
+T4sKMaSyw5ihWoCApMRUlZb/xBzbrt7x3aowxUui3zKZtvjTQL87dotsahI+Ee7O
+eIlZgeMnUe3ZoEBM/Im9mWorsBp45MbjozU0IVlOmbNJZ3zAUmlk0spTyZFp6DaW
+ROK5n4czrMuO/z9wVBxW/xEZqI0sSVv/yyYuaYaZ5QtB5AWhJcX99VErYy9bCP0v
+FRmswv2BbJmv0IJyJa1zT/zb2qLWuTUariR9CKWQTbJGT9lG6A8xstjDAQEmye17
+NwIDAQABo4IC5jCCAuIwDAYDVR0TAQH/BAIwADAdBgNVHQ4EFgQUYKa+zM8wwwOC
+DxkDSeHvOCdfh5swHwYDVR0jBBgwFoAUnEUwxE0PoPomD6nW/CDWB2zOZFYwDgYD
+VR0PAQH/BAQDAgbAMBYGA1UdEgQPMA2CC3NwaWQuZ292Lml0MEMGA1UdHwQ8MDow
+OKA2oDSGMmh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3JsL2NybF9TUElEX3By
+aXZfU0EuY3JsMDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9v
+Y3NwX1NBLmFnaWQuZ292Lml0MIIB1wYDVR0gBIIBzjCCAcowCQYHBACORgEGAjCB
+lQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZFbGVjdHJvbmljIGNlcnRpZmljYXRl
+IGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYIKwYBBQUHAgIwOBo2
+Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBndWlk
+YSBBZ0lEMHsGBitMEAQDATBxMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IGZvcm5pdG9y
+ZSBkaSBzZXJ2aXppIChTUCkgcHJpdmF0bzA4BggrBgEFBQcCAjAsGipTUElEOiBw
+cml2YXRlLXNlY3RvciBTZXJ2aWNlIFByb3ZpZGVyIChTUCkwCAYGBACPegEDME0G
+BCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9j
+cHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggrBgEF
+BQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19y
+b290Q0FfY3BzLnBkZjARBglghkgBhvhCAQEEBAMCAAcwDQYJKoZIhvcNAQENBQAD
+ggIBAOe4SQ7jkCUN0poOR9/RB31pTVkH3QaHzs8lXVnBxsbjJdJcpRmwdj2c+Vf0
+1voWEGPEWiaJ2IIj5DT1PFj3SJIn6jA2ZpbFIgeu8SHTZMYegGSDqjlpPDCLdOzf
+1YaRKfh+dYA5Cb3eMf6PYp9g8oG+HwvYz4tl6ZvinyK2kCg+y037abCysXkN3cX0
+oTBUqguYujfzLrprbrFpdnkH3sPZSCZuComHh9kf9PWP+4lzKQIBi0j16jKLHm9V
+F/vBPiv4Nw6wfa9xS1+4g2hg2kv6rv+LJDc6enJknO92vZbeDjq6f4Xb2ZUrdGQj
+FWffIu3clzy9Kfpp+4RGb64BMOrz6hKjBjCJNiE74826cySbMwSlNds3P/CKD4NZ
+3KEXkTCw6BY9nhhfQPZxYupvhTeJhwxu57N8DQAWDciNJByMBEAcDfYrAs+6wPE7
+oogI/SE2hwT2lBvTxQMPb/a9tVXNM17ureSFegxERNB1Ki0+jSvpSmY4StSLpNBs
+bGRwhodUny5YZ/I1AlkPoDxeeGauDSj/2dR1DBzgDesk+FBizLSufYJ7ypNHxhzi
+w3idAa4+ouv6CxrbVcpnIwOia9COdFqa6TZbi78AF6FBZ0s9+o0n8wDlv3ai+1Pp
+fmJgI0ipr04WubUm685i2U0rmiylJkQ5veSBn/b0IZi+tI/d
+</ds:X509Certificate>
+				</ds:X509Data>
+			</ds:KeyInfo>
+		</md:KeyDescriptor>
+		<md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spspid.aruba.it/ui/slo" ResponseLocation="https://spspid.aruba.it/ui/sloResp"/>
+		<md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spspid.aruba.it/ui/acs" index="0" isDefault="true"/>
+		<md:AttributeConsumingService index="0" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+			<md:ServiceName xml:lang="it">Authentication Service</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="name" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="familyName" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="gender" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+		</md:AttributeConsumingService>
+		<md:AttributeConsumingService index="1" xmlns:saml="urn:oasis:names:tc:SAML:2.0:assertion">
+			<md:ServiceName xml:lang="it">Registration Service</md:ServiceName>
+			<md:RequestedAttribute FriendlyName="spidCode" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="name" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="familyName" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="placeOfBirth" Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="countyOfBirth" Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="dateOfBirth" Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="gender" Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="fiscalNumber" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="idCard" Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="mobilePhone" Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="email" Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="address" Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="expirationDate" Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+			<md:RequestedAttribute FriendlyName="digitalAddress" Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" isRequired="true"/>
+		</md:AttributeConsumingService>
+	</md:SPSSODescriptor>
+	<md:Organization>
+		<md:OrganizationName xml:lang="it">Aruba PEC S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="en">Aruba PEC S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="fr">Aruba PEC S.p.A.</md:OrganizationName>
+		<md:OrganizationName xml:lang="de">Aruba PEC S.p.A.</md:OrganizationName>
+		<md:OrganizationDisplayName xml:lang="it">Aruba PEC S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="en">Aruba PEC S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="fr">Aruba PEC S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationDisplayName xml:lang="de">Aruba PEC S.p.A.</md:OrganizationDisplayName>
+		<md:OrganizationURL xml:lang="it">https://pec.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="en">https://pec.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="fr">https://pec.it</md:OrganizationURL>
+		<md:OrganizationURL xml:lang="de">https://pec.it</md:OrganizationURL>
+	</md:Organization>
+	<md:ContactPerson contactType="other">
+		<md:Extensions>
+			<spid:VATNumber>IT01879020517</spid:VATNumber>
+			<spid:Private/>
+		</md:Extensions>
+		<md:EmailAddress>assistenzatecnicaspid@staff.aruba.it</md:EmailAddress>
+	</md:ContactPerson>
+	<md:ContactPerson contactType="billing">
+		<md:Extensions xmlns:fpa="https://spid.gov.it/invoicing-extensions">
+			<fpa:CessionarioCommittente>
+				<fpa:DatiAnagrafici>
+					<fpa:IdFiscaleIVA>
+						<fpa:IdPaese>IT</fpa:IdPaese>
+						<fpa:IdCodice>KRRH6B9</fpa:IdCodice>
+					</fpa:IdFiscaleIVA>
+					<fpa:Anagrafica>
+						<fpa:Denominazione>Aruba PEC S.p.A.</fpa:Denominazione>
+					</fpa:Anagrafica>
+				</fpa:DatiAnagrafici>
+				<fpa:Sede>
+					<fpa:Indirizzo>Via San Clemente</fpa:Indirizzo>
+					<fpa:NumeroCivico>53</fpa:NumeroCivico>
+					<fpa:CAP>24036</fpa:CAP>
+					<fpa:Comune>Ponte San Pietro</fpa:Comune>
+					<fpa:Provincia>BG</fpa:Provincia>
+					<fpa:Nazione>IT</fpa:Nazione>
+				</fpa:Sede>
+			</fpa:CessionarioCommittente>
+		</md:Extensions>
+		<md:Company>Aruba PEC S.p.A.</md:Company>
+		<md:EmailAddress>reparto.amministrazione@staff.aruba.it</md:EmailAddress>
+		<md:TelephoneNumber>+3905750505</md:TelephoneNumber>
+	</md:ContactPerson>
+</md:EntityDescriptor>

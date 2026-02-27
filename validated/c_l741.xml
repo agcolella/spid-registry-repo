@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" ID="Ventimiglia" entityID="https://www.comune.ventimiglia.it/serviziSPID"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#Ventimiglia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>MFvPld6eXwnMbRBVNkjUrN2w1OCd8W95R8EfnUfcVRs=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+kBzCH9u23z6vJfyuZqce+kyKnxD8ps5zY4IL0c0Ch7ydA7lDpsSGv24nHWK484FlIS/NEXxzk+Zr
+BNMlcAiuCyLKpFg0OYnDji3xXGFrnrUVBkGAIcV4FP0lvMh0Y29jGaNfd/+33qOD4AGbnyY8S970
+WletAuvhOBzeXZ2cO3GNxqcwteCYlU56FkDDNlKDnoLmA0c3us7x+3gzD9szgG2Xea237ic9ZLK+
+8K1vJmdUhln1JTww+TQWsDcCmiEKLsGA9MjWeHIGfqnRk6fl6CTUC80p7bW2E6xyXSv8dbD4W8+G
+zoDC1OgOUVw1XXN0i77MachAFkYVTfHgHVW/Vw==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qcGsG/9xOHivhprQ8tPfg8mMhqD14BKU8p+J0Ckxf03/MXeCkCaFWVzzGVGk+hnAhS5Ny/vm9ASP
+MteiaI0h0iHBtMVCZtGf293Zf52OOKqWF0EsbZHZRHCNBHYbAdpU5hH6U6l0Nirim1Ca+QqDwXC9
+xZuN267LNE+VBwSkG3iOEWr+OJSEjBNB4HDu6huBZVDhHS3GjD+E3B70C38IMxO0dwQcwxhVFSLr
+kF7W4aueEi/TKyjiN3ivi5LdBpIwz/Ofga/RQvlxUetb7piy87PwF0tWjjijoqkRfRiZyaFvWNRn
+nI/1gpuuE4G+/VKCZXXHOqfUGX1IQA30GWETZQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDUzCCAjugAwIBAgIJAIcjoBxR46P9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5j
+b211bmUudmVudGltaWdsaWEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDIw
+MjA5MTMzNVoXDTI4MDEzMTA5MTMzNVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS52ZW50aW1pZ2xp
+YS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQCpwawb/3E4eK+GmtDy09+DyYyGoPXgEpTyn4nQKTF/Tf8xd4KQJoVZXPMZUaT6GcCF
+Lk3L++b0BI8y16JojSHSIcG0xUJm0Z/b3dl/nY44qpYXQSxtkdlEcI0EdhsB2lTmEfpTqXQ2KuKb
+UJr5CoPBcL3Fm43brss0T5UHBKQbeI4Rav44lISME0HgcO7qG4FlUOEdLcaMP4TcHvQLfwgzE7R3
+BBzDGFUVIuuQXtbhq54SL9MrKOI3eK+Lkt0GkjDP85+Br9FC+XFR61vumLLzs/AXS1aOOKOiqRF9
+GJnJoW9Y1Gecj/WCm64Tgb79UoJldcc6p9QZfUhADfQZYRNlAgMBAAGjUDBOMB0GA1UdDgQWBBRa
+qSwwe3fQVzrgz9pBTPoPSV66lTAfBgNVHSMEGDAWgBRaqSwwe3fQVzrgz9pBTPoPSV66lTAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA98GKEdW8tokUFfO7wM4iMnwI8vj1GA85UUEop
+uJsLOzygSS/3Sw1Y7XASFY+JFgUCu7H08CDB3sNUQ4eWatS5D8QCMzAuPfn0xp4dy4eTPk0ejXx2
+ZE258TOLjkPoqklYTr8w9FmVDAH4mM3T3x01c9aaxD/u5YlWUbB9k/bsKV2bquAE1ejOzANPhcLg
+q+dSczZWLZjPNAzSsYSy+FzVQ7ZnKeoCyQiRsCE7wTgb8C6hM6H5V/+PHmCWWl0ATZ+MRQP0s13i
+zWdd0vHWsrvbL4Rtbv6aTokULqU4hBIAJbysb3o7/R92EwYlAdmQ06QJdv39hE4TNhgQ4Nza+FUS
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDUzCCAjugAwIBAgIJAIcjoBxR46P9MA0GCSqGSIb3DQEBCwUAMEAxIjAgBgNVBAMMGXd3dy5jb211bmUudmVudGltaWdsaWEuaXQxDTALBgNVBAsMBFNQSUQxCzAJBgNVBAYTAklUMB4XDTE4MDIwMjA5MTMzNVoXDTI4MDEzMTA5MTMzNVowQDEiMCAGA1UEAwwZd3d3LmNvbXVuZS52ZW50aW1pZ2xpYS5pdDENMAsGA1UECwwEU1BJRDELMAkGA1UEBhMCSVQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpwawb/3E4eK+GmtDy09+DyYyGoPXgEpTyn4nQKTF/Tf8xd4KQJoVZXPMZUaT6GcCFLk3L++b0BI8y16JojSHSIcG0xUJm0Z/b3dl/nY44qpYXQSxtkdlEcI0EdhsB2lTmEfpTqXQ2KuKbUJr5CoPBcL3Fm43brss0T5UHBKQbeI4Rav44lISME0HgcO7qG4FlUOEdLcaMP4TcHvQLfwgzE7R3BBzDGFUVIuuQXtbhq54SL9MrKOI3eK+Lkt0GkjDP85+Br9FC+XFR61vumLLzs/AXS1aOOKOiqRF9GJnJoW9Y1Gecj/WCm64Tgb79UoJldcc6p9QZfUhADfQZYRNlAgMBAAGjUDBOMB0GA1UdDgQWBBRaqSwwe3fQVzrgz9pBTPoPSV66lTAfBgNVHSMEGDAWgBRaqSwwe3fQVzrgz9pBTPoPSV66lTAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQA98GKEdW8tokUFfO7wM4iMnwI8vj1GA85UUEopuJsLOzygSS/3Sw1Y7XASFY+JFgUCu7H08CDB3sNUQ4eWatS5D8QCMzAuPfn0xp4dy4eTPk0ejXx2ZE258TOLjkPoqklYTr8w9FmVDAH4mM3T3x01c9aaxD/u5YlWUbB9k/bsKV2bquAE1ejOzANPhcLgq+dSczZWLZjPNAzSsYSy+FzVQ7ZnKeoCyQiRsCE7wTgb8C6hM6H5V/+PHmCWWl0ATZ+MRQP0s13izWdd0vHWsrvbL4Rtbv6aTokULqU4hBIAJbysb3o7/R92EwYlAdmQ06QJdv39hE4TNhgQ4Nza+FUS
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SingleLogout/alias/ventimiglia"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ventimiglia" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.comune-online.it/AuthServiceSPID/saml/SSO/alias/ventimiglia" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">ServiziAvanzati</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Luogo di nascita" Name="placeOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Nazione nascita" Name="countyOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Data nascita" Name="dateOfBirth"/>
+      <md:RequestedAttribute FriendlyName="Sesso" Name="gender"/>
+      <md:RequestedAttribute FriendlyName="Azienda" Name="companyName"/>
+      <md:RequestedAttribute FriendlyName="Sede legale" Name="registeredOffice"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode"/>
+      <md:RequestedAttribute FriendlyName="Carta Identita" Name="idCard"/>
+      <md:RequestedAttribute FriendlyName="Tel Cellulare" Name="mobilePhone"/>
+      <md:RequestedAttribute FriendlyName="Posta elettronica" Name="email"/>
+      <md:RequestedAttribute FriendlyName="Indirizzo" Name="address"/>
+      <md:RequestedAttribute FriendlyName="Valido fino" Name="expirationDate"/>
+      <md:RequestedAttribute FriendlyName="Domicilio Digitale" Name="digitalAddress"/>
+    </md:AttributeConsumingService>
+    <md:AttributeConsumingService index="1">
+      <md:ServiceName xml:lang="it">ServiziBase</md:ServiceName>
+      <md:RequestedAttribute FriendlyName="Codice SPID" Name="spidCode"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName"/>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Ventimiglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Ventimiglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="fr">Comune di Ventimiglia</md:OrganizationName>
+    <md:OrganizationName xml:lang="de">Comune di Ventimiglia</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Ventimiglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Ventimiglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="fr">Comune di Ventimiglia</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="de">Comune di Ventimiglia</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.ventimiglia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.ventimiglia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="fr">https://www.comune.ventimiglia.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="de">https://www.comune.ventimiglia.it</md:OrganizationURL>
+  </md:Organization>
+</md:EntityDescriptor>

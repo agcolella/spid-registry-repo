@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_612bd3b0e5412cc388a1ad04aaa516e0d4ce6e281e41467b1671b10582f01c4e" entityID="https://www.comune.condofuri.rc.it"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_612bd3b0e5412cc388a1ad04aaa516e0d4ce6e281e41467b1671b10582f01c4e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>9AIQvVncm5rRvW8lx1Irtb+K20s99nQ34iProTqCOC8=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+thwza0tT+I61xDkFQuqvDOiO2nPG5KVFkx1cW8OQ0+iNKuwooW2+2+EnHtzrlG0viwlHm+Mbp0NH
+QZIXn+px7tfJ+LAPq9eTGUU4I4+IU1TyiNs5Hlkkd/KgqG5lVEonTR889rN/zYLTRczhiCRatiU1
+4vkPjXoYjHgMGXbUDg6UVzsON2HNIakrGyzo9cUxzd+IteIIFeVsaJq6SZP3ART9hmf7Ahirxp7h
+g4DctfAc0rOkRhFAC05fK3W6JlnSmAk1UTPx1sFwxLVXqdflsknNBkBbPUTc2ak8WmQhTJ8efcPL
+2KDSQ6QLCbgDQadupKsvEOKpHekrspTCVYNs2Q==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+t7NRrAoCQJuM7CV7etTVyhdjoPDF98JciZ2LfHVmCr/uVqJmKmzLeDLMgSDZKsu4JvScIVEtJz4A
+XmtV8IojbGc7EfbEKjPmOy6fUX0ZUnIPmIKrOPcGWKLlW69fi/OFsWuUX5D+pBPujF1w58e5w4mH
+QV4hSa3G4YHduudPDVJ7r3gzJeWQkZo4VJtfEsiAJHkmnc/DtdTi/APHpyAG1QOdzAJ+kvn4Z10p
+OxWewN86cG0Lyi+ssOLTPViyWMUHtgRkMBb8U78ERF0dr+Un8kvCSCvujDJ9lwiTMTwHMWvYQm1A
+o5UK5BgWaWno6bxSmndNcsjrE8PZHu0hQa+JUQ==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIDxTCCAq2gAwIBAgIJAI4cpSQFnRHlMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4w
+DAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOQ29uZG9mdXJpIChSQykxHDAaBgNVBAoME0NvbXVuZSBk
+aSBDb25kb2Z1cmkxIzAhBgNVBAMMGnd3dy5jb211bmUuY29uZG9mdXJpLnJjLml0MB4XDTIyMTIw
+MTEwNTgzNVoXDTMyMTEzMDEwNTgzNVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcw
+FQYDVQQHDA5Db25kb2Z1cmkgKFJDKTEcMBoGA1UECgwTQ29tdW5lIGRpIENvbmRvZnVyaTEjMCEG
+A1UEAwwad3d3LmNvbXVuZS5jb25kb2Z1cmkucmMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAw
+ggEKAoIBAQC3s1GsCgJAm4zsJXt61NXKF2Og8MX3wlyJnYt8dWYKv+5WomYqbMt4MsyBINkqy7gm
+9JwhUS0nPgBea1XwiiNsZzsR9sQqM+Y7Lp9RfRlScg+Ygqs49wZYouVbr1+L84Wxa5RfkP6kE+6M
+XXDnx7nDiYdBXiFJrcbhgd26508NUnuveDMl5ZCRmjhUm18SyIAkeSadz8O11OL8A8enIAbVA53M
+An6S+fhnXSk7FZ7A3zpwbQvKL6yw4tM9WLJYxQe2BGQwFvxTvwREXR2v5SfyS8JIK+6MMn2XCJMx
+PAcxa9hCbUCjlQrkGBZpaejpvFKad01yyOsTw9ke7SFBr4lRAgMBAAGjUDBOMB0GA1UdDgQWBBTF
+FfiHmjFBOZzv6KclSPK6olv4yjAfBgNVHSMEGDAWgBTFFfiHmjFBOZzv6KclSPK6olv4yjAMBgNV
+HRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCC3fMK+U108rdhnm8Q6eafgf3EScXLW0AvHwuA
+SDBKrxA/CmATZQfCRxwcMBOH8mSAxo/Qfh3NECU3ofAj4XN0x71awWaSBZESjLvFF/JBiEaRHNdA
+/RbMC70iOukldYCqwYnGzGuiVRF+IiXfZyuNflvgqcxOGJjaD2v/fAseMlLTdK0/RjwCKfvhCbqV
+WscFdgz8dUegS/ygAbPkYFZrtUotp67fn4UyYbsNMy2YDUxM1mftbZibMwC5RiYb20RzTEqiQV9T
+GnJchCmLS4LIF4RfjwGuvYmEA+J7DE1Ko77jC+EKWtKlf4XzVW42fpfFOi9x2uYMvB4ahQjkzs0t
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAI4cpSQFnRHlMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOQ29uZG9mdXJpIChSQykxHDAaBgNVBAoME0NvbXVuZSBkaSBDb25kb2Z1cmkxIzAhBgNVBAMMGnd3dy5jb211bmUuY29uZG9mdXJpLnJjLml0MB4XDTIyMTIwMTEwNTgzNVoXDTMyMTEzMDEwNTgzNVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Db25kb2Z1cmkgKFJDKTEcMBoGA1UECgwTQ29tdW5lIGRpIENvbmRvZnVyaTEjMCEGA1UEAwwad3d3LmNvbXVuZS5jb25kb2Z1cmkucmMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3s1GsCgJAm4zsJXt61NXKF2Og8MX3wlyJnYt8dWYKv+5WomYqbMt4MsyBINkqy7gm9JwhUS0nPgBea1XwiiNsZzsR9sQqM+Y7Lp9RfRlScg+Ygqs49wZYouVbr1+L84Wxa5RfkP6kE+6MXXDnx7nDiYdBXiFJrcbhgd26508NUnuveDMl5ZCRmjhUm18SyIAkeSadz8O11OL8A8enIAbVA53MAn6S+fhnXSk7FZ7A3zpwbQvKL6yw4tM9WLJYxQe2BGQwFvxTvwREXR2v5SfyS8JIK+6MMn2XCJMxPAcxa9hCbUCjlQrkGBZpaejpvFKad01yyOsTw9ke7SFBr4lRAgMBAAGjUDBOMB0GA1UdDgQWBBTFFfiHmjFBOZzv6KclSPK6olv4yjAfBgNVHSMEGDAWgBTFFfiHmjFBOZzv6KclSPK6olv4yjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCC3fMK+U108rdhnm8Q6eafgf3EScXLW0AvHwuASDBKrxA/CmATZQfCRxwcMBOH8mSAxo/Qfh3NECU3ofAj4XN0x71awWaSBZESjLvFF/JBiEaRHNdA/RbMC70iOukldYCqwYnGzGuiVRF+IiXfZyuNflvgqcxOGJjaD2v/fAseMlLTdK0/RjwCKfvhCbqVWscFdgz8dUegS/ygAbPkYFZrtUotp67fn4UyYbsNMy2YDUxM1mftbZibMwC5RiYb20RzTEqiQV9TGnJchCmLS4LIF4RfjwGuvYmEA+J7DE1Ko77jC+EKWtKlf4XzVW42fpfFOi9x2uYMvB4ahQjkzs0t</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIDxTCCAq2gAwIBAgIJAI4cpSQFnRHlMA0GCSqGSIb3DQEBCwUAMHkxCzAJBgNVBAYTAklUMQ4wDAYDVQQIDAVJdGFseTEXMBUGA1UEBwwOQ29uZG9mdXJpIChSQykxHDAaBgNVBAoME0NvbXVuZSBkaSBDb25kb2Z1cmkxIzAhBgNVBAMMGnd3dy5jb211bmUuY29uZG9mdXJpLnJjLml0MB4XDTIyMTIwMTEwNTgzNVoXDTMyMTEzMDEwNTgzNVoweTELMAkGA1UEBhMCSVQxDjAMBgNVBAgMBUl0YWx5MRcwFQYDVQQHDA5Db25kb2Z1cmkgKFJDKTEcMBoGA1UECgwTQ29tdW5lIGRpIENvbmRvZnVyaTEjMCEGA1UEAwwad3d3LmNvbXVuZS5jb25kb2Z1cmkucmMuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3s1GsCgJAm4zsJXt61NXKF2Og8MX3wlyJnYt8dWYKv+5WomYqbMt4MsyBINkqy7gm9JwhUS0nPgBea1XwiiNsZzsR9sQqM+Y7Lp9RfRlScg+Ygqs49wZYouVbr1+L84Wxa5RfkP6kE+6MXXDnx7nDiYdBXiFJrcbhgd26508NUnuveDMl5ZCRmjhUm18SyIAkeSadz8O11OL8A8enIAbVA53MAn6S+fhnXSk7FZ7A3zpwbQvKL6yw4tM9WLJYxQe2BGQwFvxTvwREXR2v5SfyS8JIK+6MMn2XCJMxPAcxa9hCbUCjlQrkGBZpaejpvFKad01yyOsTw9ke7SFBr4lRAgMBAAGjUDBOMB0GA1UdDgQWBBTFFfiHmjFBOZzv6KclSPK6olv4yjAfBgNVHSMEGDAWgBTFFfiHmjFBOZzv6KclSPK6olv4yjAMBgNVHRMEBTADAQH/MA0GCSqGSIb3DQEBCwUAA4IBAQCC3fMK+U108rdhnm8Q6eafgf3EScXLW0AvHwuASDBKrxA/CmATZQfCRxwcMBOH8mSAxo/Qfh3NECU3ofAj4XN0x71awWaSBZESjLvFF/JBiEaRHNdA/RbMC70iOukldYCqwYnGzGuiVRF+IiXfZyuNflvgqcxOGJjaD2v/fAseMlLTdK0/RjwCKfvhCbqVWscFdgz8dUegS/ygAbPkYFZrtUotp67fn4UyYbsNMy2YDUxM1mftbZibMwC5RiYb20RzTEqiQV9TGnJchCmLS4LIF4RfjwGuvYmEA+J7DE1Ko77jC+EKWtKlf4XzVW42fpfFOi9x2uYMvB4ahQjkzs0t</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.condofuri.rc.it/spid/module.php/saml/sp/saml2-logout.php/spid"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.condofuri.rc.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://www.comune.condofuri.rc.it/spid/module.php/saml/sp/saml2-acs.php/spid" index="1"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute FriendlyName="Codice fiscale" Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Cognome" Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Nome" Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Codice identificativo SPID" Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Partita IVA" Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute FriendlyName="Ragione o denominazione sociale" Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Condofuri</md:OrganizationName>
+    <md:OrganizationName xml:lang="en">Comune di Condofuri</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Condofuri</md:OrganizationDisplayName>
+    <md:OrganizationDisplayName xml:lang="en">Comune di Condofuri</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.condofuri.rc.it</md:OrganizationURL>
+    <md:OrganizationURL xml:lang="en">https://www.comune.condofuri.rc.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_c954</spid:IPACode>
+      <spid:Public/>
+    </md:Extensions>
+    <md:Company>Comune di Condofuri</md:Company>
+    <md:EmailAddress>protocollo@condofuri.net</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

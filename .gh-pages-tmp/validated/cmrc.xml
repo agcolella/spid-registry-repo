@@ -1,0 +1,258 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_8c890ba8-5a75-11e7-907b-a6006ad3dba0" entityID="https://myidspid.cittametropolitanaroma.it/gw/metadata" xmlns:xml="http://www.w3.org/XML/1998/namespace">
+    <Signature xmlns="http://www.w3.org/2000/09/xmldsig#">
+        <SignedInfo>
+            <CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#WithComments"/>
+            <SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+            <Reference URI="">
+                <Transforms>
+                    <Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+                </Transforms>
+                <DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+                <DigestValue>
+                    eOXnrDSmHDYPIqCfkIhcT4nzRMK9KZzZkW3Gh4biAQc=
+                </DigestValue>
+            </Reference>
+        </SignedInfo>
+        <SignatureValue>
+            IFreeuGotBEcRqtAoBTR7h9n9KPOpf5WPKeOvSTS1oSBXJaun1vKkHCQiW2Piak2OWhqVsw9Hmp7
+wQQTEwmGFl8aVo8NevphbZ3zU1QtXqVIZTj6aDfrRn92PMKjhyt9tUxtmbcPUFLOABePRCUBjt1C
+PteeEOmYxXdiOTf2iw7Cjo0mZedJ8Cbsn6PDFfnGtcfz8sgWRjzrw0CxJqXX6RPnrjKqrSuorKuK
+hODT7MkKPyKPJywwXemJfOfppK7TZ872+Rn3p8DKbYLWQbAsE/SfI1e5sQuc2Dbnbe7rjCENDw2A
+A9/WhHy2u/dWPBRYarBgdIutR8Rf+WjNLG95LA==
+        </SignatureValue>
+        <KeyInfo>
+            <X509Data>
+                <X509Certificate>
+                    MIIDazCCAlOgAwIBAgIEV7ygLTANBgkqhkiG9w0BAQsFADBlMQswCQYDVQQGEwJJVDEOMAwGA1UE
+CBMFSXRhbHkxDTALBgNVBAcTBFJvbWUxDTALBgNVBAoTBENNUkMxDjAMBgNVBAsTBVNpcml0MRgw
+FgYDVQQDEw9BbGVzc2lhIFNhbnRpbmkwIBcNMjAxMDI4MTYzOTQ5WhgPMjA3MDEwMTYxNjM5NDla
+MGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQIEwVJdGFseTENMAsGA1UEBxMEUm9tZTENMAsGA1UEChME
+Q01SQzEOMAwGA1UECxMFU2lyaXQxGDAWBgNVBAMTD0FsZXNzaWEgU2FudGluaTCCASIwDQYJKoZI
+hvcNAQEBBQADggEPADCCAQoCggEBAJbDFDH0GCPs54u2ACfdVlAOHAbR80V96v+Yy1oHfRhH82jZ
+FtNaSjWoW9XAPLlr0cmeG1mKS7PC84Tu4hdhfTQaLXWm8febE6lcjCskEeDVb/7ULpRKPHaPIahb
+/Mqabb7DCgamEXeSGdq9Q6Lby+ZDMgVs+Jbnx/5WIOA1P30F/uRZa2zAK0Q7jZMDtYWnqLV6817p
+IPAo45QnJOe5pQD+rAS5WoN92J12z1ux52TFufeTyZbBAHGqKT0CnNPCyoXfaQeVPlPXyVRNNO3y
+a3J9C06CPgL9EGCJAGcV88To5/JcpQSbQPbPVJ2UNKqZ6A1N6InWymy9AiTajLptB3cCAwEAAaMh
+MB8wHQYDVR0OBBYEFGVnDRNsv5EpSNqD6uvFHjlqPDr8MA0GCSqGSIb3DQEBCwUAA4IBAQA4MuR2
+w866c1jdrg4WTfWmY2H5L5IlR0Lb5Oj6UIiOqFSGNhBa7rj2q0IwpQ3dDnK4E7Nd6IAXXwMY5iRx
+RsspsSWuv3zQYjDfNR4EwiXcN5f6yQ48cWoW9tdkUctZOQd2SbKkhu0mpC/W1M693EW488GXwwF1
+aCiYQykskgt767vQ0rF9c5cN1llLKSRHB3FwUfHeQ8Tj4PZdvzrYsOFDamM7qpUZ3qY6HJiSmVwa
++lsuKlUg8ffndVQRy9ffWdo0RrwY4hZ/SszgJNdkfVsA7EBrDQmJ7QFJ8+Ww7jIX0zkRAb+xv8Na
+rwCxg+0sWmWJbyOIL5sJ7hfoRSfBWqCU
+                </X509Certificate>
+            </X509Data>
+        </KeyInfo>
+    </Signature>
+    
+	
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        
+		
+        <md:KeyDescriptor use="signing">
+            
+			
+            <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+                
+				
+                <ds:X509Data>
+                    
+					
+                    <ds:X509Certificate>
+                        MIIDazCCAlOgAwIBAgIEV7ygLTANBgkqhkiG9w0BAQsFADBlMQswCQYDVQQGEwJJ
+VDEOMAwGA1UECBMFSXRhbHkxDTALBgNVBAcTBFJvbWUxDTALBgNVBAoTBENNUkMx
+DjAMBgNVBAsTBVNpcml0MRgwFgYDVQQDEw9BbGVzc2lhIFNhbnRpbmkwIBcNMjAx
+MDI4MTYzOTQ5WhgPMjA3MDEwMTYxNjM5NDlaMGUxCzAJBgNVBAYTAklUMQ4wDAYD
+VQQIEwVJdGFseTENMAsGA1UEBxMEUm9tZTENMAsGA1UEChMEQ01SQzEOMAwGA1UE
+CxMFU2lyaXQxGDAWBgNVBAMTD0FsZXNzaWEgU2FudGluaTCCASIwDQYJKoZIhvcN
+AQEBBQADggEPADCCAQoCggEBAJbDFDH0GCPs54u2ACfdVlAOHAbR80V96v+Yy1oH
+fRhH82jZFtNaSjWoW9XAPLlr0cmeG1mKS7PC84Tu4hdhfTQaLXWm8febE6lcjCsk
+EeDVb/7ULpRKPHaPIahb/Mqabb7DCgamEXeSGdq9Q6Lby+ZDMgVs+Jbnx/5WIOA1
+P30F/uRZa2zAK0Q7jZMDtYWnqLV6817pIPAo45QnJOe5pQD+rAS5WoN92J12z1ux
+52TFufeTyZbBAHGqKT0CnNPCyoXfaQeVPlPXyVRNNO3ya3J9C06CPgL9EGCJAGcV
+88To5/JcpQSbQPbPVJ2UNKqZ6A1N6InWymy9AiTajLptB3cCAwEAAaMhMB8wHQYD
+VR0OBBYEFGVnDRNsv5EpSNqD6uvFHjlqPDr8MA0GCSqGSIb3DQEBCwUAA4IBAQA4
+MuR2w866c1jdrg4WTfWmY2H5L5IlR0Lb5Oj6UIiOqFSGNhBa7rj2q0IwpQ3dDnK4
+E7Nd6IAXXwMY5iRxRsspsSWuv3zQYjDfNR4EwiXcN5f6yQ48cWoW9tdkUctZOQd2
+SbKkhu0mpC/W1M693EW488GXwwF1aCiYQykskgt767vQ0rF9c5cN1llLKSRHB3Fw
+UfHeQ8Tj4PZdvzrYsOFDamM7qpUZ3qY6HJiSmVwa+lsuKlUg8ffndVQRy9ffWdo0
+RrwY4hZ/SszgJNdkfVsA7EBrDQmJ7QFJ8+Ww7jIX0zkRAb+xv8NarwCxg+0sWmWJ
+byOIL5sJ7hfoRSfBWqCU
+                    </ds:X509Certificate>
+                    
+				
+                </ds:X509Data>
+                
+			
+            </ds:KeyInfo>
+            
+		
+        </md:KeyDescriptor>
+        		
+		
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://myidspid.cittametropolitanaroma.it/gw/SingleLogoutProxy/SP" ResponseLocation="https://myidspid.cittametropolitanaroma.it/gw/SingleLogoutProxy/SP/Response"/>
+        
+		
+        <md:NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </md:NameIDFormat>
+        
+		
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://myidspid.cittametropolitanaroma.it/gw/AssertionConsumerProxy/SAML2" index="0" isDefault="true"/>
+        					
+				
+        <md:AttributeConsumingService index="55">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Pagamenti PA
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="69">
+            
+			
+            <md:ServiceName xml:lang="it">
+                MyGateway.IO
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+        <md:AttributeConsumingService index="73">
+            
+			
+            <md:ServiceName xml:lang="it">
+                Concorsi CMRC
+            </md:ServiceName>
+            
+			
+            <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+			
+            <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+            
+		
+        </md:AttributeConsumingService>
+        
+		
+	
+    </md:SPSSODescriptor>
+    
+	
+    <md:Organization>
+        
+		
+        <md:OrganizationName xml:lang="it">
+            CittC  metropolitana di Roma Capitale
+        </md:OrganizationName>
+        
+		
+        <md:OrganizationName xml:lang="en">
+            CittC  metropolitana di Roma Capitale
+        </md:OrganizationName>
+        
+		
+        <md:OrganizationDisplayName xml:lang="it">
+            CMRC
+        </md:OrganizationDisplayName>
+        
+		
+        <md:OrganizationDisplayName xml:lang="en">
+            CMRC
+        </md:OrganizationDisplayName>
+        
+		
+        <md:OrganizationURL xml:lang="it">
+            https://www.cittametropolitanaroma.it
+        </md:OrganizationURL>
+        
+		
+        <md:OrganizationURL xml:lang="en">
+            https://www.cittametropolitanaroma.it
+        </md:OrganizationURL>
+        
+	
+    </md:Organization>
+    
+    
+    <md:ContactPerson contactType="other">
+        
+        
+        <md:Extensions>
+            
+            
+            <spid:IPACode>
+                cmrc
+            </spid:IPACode>
+            
+            
+            <spid:Public/>
+            
+        
+        </md:Extensions>
+        
+        
+        <md:EmailAddress>
+            sp-spid@cittametropolitanaroma.it
+        </md:EmailAddress>
+        
+        
+        <md:TelephoneNumber>
+            +390667661
+        </md:TelephoneNumber>
+        
+    
+    </md:ContactPerson>
+    	
+
+</md:EntityDescriptor>
