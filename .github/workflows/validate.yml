@@ -133,51 +133,28 @@ jobs:
 
           cp $OUT .gh-pages-tmp/
 
-      - name: Deploy Enterprise Registry
+      -       - name: Deploy to gh-pages (clean rebuild)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
 
-          rm -rf .publish
-          git fetch origin gh-pages || true
-          git worktree add .publish gh-pages || git worktree add .publish -b gh-pages
+          # Elimina eventuale branch locale
+          git branch -D gh-pages 2>/dev/null || true
 
-          cp -r .gh-pages-tmp/* .publish/
+          # Crea branch orfano
+          git checkout --orphan gh-pages
+          git rm -rf .
 
-          mkdir -p .publish/history
-          TS=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
-          mkdir -p .publish/history/$TS
-          cp .gh-pages-tmp/validation_data.json .publish/history/$TS/
-          cp .gh-pages-tmp/reports/report.log .publish/history/$TS/
+          # Copia sito generato
+          cp -r .gh-pages-tmp/* .
 
-          # Generate history summary
-          jq -s '.' .publish/history/*/validation_data.json > .publish/history_summary.json
+          # Disabilita Jekyll
+          touch .nojekyll
 
-          # Generate API aggregated endpoint
-          jq '{total: length,
-               valid: [.[] | select(.status=="valid")] | length,
-               invalid: [.[] | select(.status=="invalid")] | length,
-               metadata: .}' .gh-pages-tmp/validation_data.json > .publish/api_status.json
-
-          # Sign report
-          openssl genrsa -out private.key 2048
-          openssl dgst -sha256 -sign private.key -out .publish/report.sig reports/report.log
-          openssl rsa -in private.key -pubout -out .publish/public.pem
-          cp reports/report.log .publish/
-
-          # Badge JSON
-          VALID=$(cat .gh-pages-tmp/valid_count)
-          TOTAL=$(cat .gh-pages-tmp/total_count)
-          COLOR="green"
-          if [ "$VALID" -lt "$TOTAL" ]; then COLOR="yellow"; fi
-
-          printf '{ "schemaVersion":1, "label":"SPID Metadata", "message":"%s validi / %s totali", "color":"%s" }' "$VALID" "$TOTAL" "$COLOR" > .publish/badge.json
-
-          touch .publish/.nojekyll
-
-          cd .publish
           git add .
-          git commit -m "Enterprise registry update [skip ci]" || echo "No changes"
-          git push https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages --force
+          git commit -m "Full rebuild registry [skip ci]"
+
+          # Push forzato
+          git push -f https://x-access-token:${GITHUB_TOKEN}@github.com/${{ github.repository }} gh-pages
