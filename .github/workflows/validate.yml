@@ -133,7 +133,7 @@ jobs:
 
           cp $OUT .gh-pages-tmp/
 
-      -       - name: Deploy to gh-pages (clean rebuild)
+      - name: Deploy to gh-pages (clean rebuild)
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
