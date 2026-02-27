@@ -1,4 +1,4 @@
-name: Validate SPID Metadata
+name: Validate SPID Metadata (Enterprise)
 
 on:
   push:
@@ -26,12 +26,13 @@ jobs:
         run: |
           pip install lxml xmlsec cryptography
           sudo apt-get update
-          sudo apt-get install -y jq
+          sudo apt-get install -y jq openssl
 
-      - name: Validate metadata
+      - name: Validate metadata and build JSON
         run: |
           mkdir -p validated reports .gh-pages-tmp
           echo "{}" > validation_data.json
+          echo "=== Validation Report ===" > reports/report.log
 
           VALID=0
           INVALID=0
@@ -40,7 +41,9 @@ jobs:
             FILE=$(basename "$f")
             NOW=$(date -u +"%Y-%m-%dT%H:%M:%SZ")
 
-            if python scripts/validate_metadata_qad.py "$f" > /dev/null 2>&1; then
+            echo "Validating $FILE"
+
+            if python scripts/validate_metadata_qad.py "$f" >> reports/report.log 2>&1; then
               STATUS="valid"
               cp "$f" validated/
               VALID=$((VALID+1))
@@ -63,29 +66,47 @@ jobs:
           echo "$TOTAL" > .gh-pages-tmp/total_count
 
           cp validation_data.json .gh-pages-tmp/
-          cp -r validated .gh-pages-tmp/
+          cp -r validated reports .gh-pages-tmp/
 
-      - name: Generate index.html
+      - name: Generate Enterprise index.html
         run: |
           VALID=$(cat .gh-pages-tmp/valid_count)
           INVALID=$(cat .gh-pages-tmp/invalid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
 
           OUT="gh-pages_index.html"
+          echo "" > $OUT
 
-          printf '<!DOCTYPE html>\n' > $OUT
-          printf '<html lang="it">\n<head>\n<meta charset="UTF-8">\n' >> $OUT
-          printf '<title>Registro Metadata SPID</title>\n' >> $OUT
-          printf '<style>body{font-family:Arial;background:#f4f6f9;margin:0;} header{background:#005ea5;color:white;padding:1.5em;} .container{padding:2em;} .badge{padding:6px 12px;border-radius:20px;color:white;font-weight:bold;} .green{background:#27ae60;} .red{background:#c0392b;} .gray{background:#7f8c8d;} table{border-collapse:collapse;width:100%%;margin-top:1em;background:white;} th,td{padding:10px;border:1px solid #ddd;} th{background:#003d73;color:white;} .valid{color:#27ae60;font-weight:bold;} .invalid{color:#c0392b;font-weight:bold;}</style>\n' >> $OUT
-          printf '</head><body>\n' >> $OUT
+          printf '<!DOCTYPE html>\n<html lang="it">\n<head>\n<meta charset="UTF-8">\n' >> $OUT
+          printf '<title>Registro Pubblico Metadata SPID</title>\n' >> $OUT
+          printf '<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>\n' >> $OUT
+          printf '<style>\n' >> $OUT
+          printf 'body{font-family:Arial;margin:0;background:#f4f6f9;}\n' >> $OUT
+          printf 'header{background:#005ea5;color:white;padding:20px;}\n' >> $OUT
+          printf '.container{padding:2em;max-width:1200px;margin:auto;}\n' >> $OUT
+          printf '.badge{padding:6px 12px;border-radius:20px;color:white;font-weight:bold;margin-right:10px;}\n' >> $OUT
+          printf '.green{background:#27ae60;} .red{background:#c0392b;} .gray{background:#7f8c8d;}\n' >> $OUT
+          printf 'table{border-collapse:collapse;width:100%%;margin-top:1em;background:white;}\n' >> $OUT
+          printf 'th,td{padding:10px;border:1px solid #ddd;}\n' >> $OUT
+          printf 'th{background:#003d73;color:white;}\n' >> $OUT
+          printf '.valid{color:#27ae60;font-weight:bold;}\n' >> $OUT
+          printf '.invalid{color:#c0392b;font-weight:bold;}\n' >> $OUT
+          printf '</style>\n</head>\n<body>\n' >> $OUT
 
-          printf '<header><h1>Registro Pubblico Metadata SPID</h1><p>Validazione automatica</p></header>\n' >> $OUT
+          printf '<header><h1>Registro Pubblico Metadata SPID</h1>' >> $OUT
+          printf '<p>Sistema automatico di validazione e monitoraggio</p></header>\n' >> $OUT
+
           printf '<div class="container">\n' >> $OUT
-
-          printf '<span class="badge green">Validi: %s</span> ' "$VALID" >> $OUT
-          printf '<span class="badge red">Non validi: %s</span> ' "$INVALID" >> $OUT
+          printf '<span class="badge green">Validi: %s</span>' "$VALID" >> $OUT
+          printf '<span class="badge red">Non validi: %s</span>' "$INVALID" >> $OUT
           printf '<span class="badge gray">Totale: %s</span>' "$TOTAL" >> $OUT
 
+          printf '<h2>API Pubblica</h2>\n' >> $OUT
+          printf '<p><a href="validation_data.json">Stato corrente (JSON)</a></p>\n' >> $OUT
+          printf '<p><a href="api_status.json">API aggregata</a></p>\n' >> $OUT
+          printf '<p><a href="history/">Storico validazioni</a></p>\n' >> $OUT
+
+          printf '<h2>Elenco Metadata</h2>\n' >> $OUT
           printf '<table><thead><tr><th>Nome file</th><th>Stato</th><th>Ultima validazione (UTC)</th></tr></thead><tbody>\n' >> $OUT
 
           jq -r 'to_entries[] | "\(.key)|\(.value.status)|\(.value.validated_at)"' .gh-pages-tmp/validation_data.json | sort | while IFS="|" read FILE STATUS DATE; do
@@ -96,11 +117,23 @@ jobs:
             fi
           done
 
-          printf '</tbody></table></div></body></html>' >> $OUT
+          printf '</tbody></table>\n' >> $OUT
+
+          printf '<h2>Andamento validazioni</h2>\n' >> $OUT
+          printf '<canvas id="trendChart"></canvas>\n' >> $OUT
+
+          printf '<script>\n' >> $OUT
+          printf 'fetch("history_summary.json").then(r=>r.json()).then(data=>{\n' >> $OUT
+          printf 'const labels=[];const values=[];\n' >> $OUT
+          printf 'data.forEach((snap,i)=>{labels.push("Run "+(i+1));let v=0;Object.values(snap).forEach(x=>{if(x.status==="valid")v++;});values.push(v);});\n' >> $OUT
+          printf 'new Chart(document.getElementById("trendChart"),{type:"line",data:{labels:labels,datasets:[{label:"Metadata validi",data:values,borderColor:"#005ea5",fill:false}]}});\n' >> $OUT
+          printf '});\n</script>\n' >> $OUT
+
+          printf '</div></body></html>' >> $OUT
 
           cp $OUT .gh-pages-tmp/
 
-      - name: Deploy to gh-pages
+      - name: Deploy Enterprise Registry
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: |
@@ -117,10 +150,26 @@ jobs:
           TS=$(date -u +"%Y-%m-%dT%H-%M-%SZ")
           mkdir -p .publish/history/$TS
           cp .gh-pages-tmp/validation_data.json .publish/history/$TS/
+          cp .gh-pages-tmp/reports/report.log .publish/history/$TS/
 
+          # Generate history summary
+          jq -s '.' .publish/history/*/validation_data.json > .publish/history_summary.json
+
+          # Generate API aggregated endpoint
+          jq '{total: length,
+               valid: [.[] | select(.status=="valid")] | length,
+               invalid: [.[] | select(.status=="invalid")] | length,
+               metadata: .}' .gh-pages-tmp/validation_data.json > .publish/api_status.json
+
+          # Sign report
+          openssl genrsa -out private.key 2048
+          openssl dgst -sha256 -sign private.key -out .publish/report.sig reports/report.log
+          openssl rsa -in private.key -pubout -out .publish/public.pem
+          cp reports/report.log .publish/
+
+          # Badge JSON
           VALID=$(cat .gh-pages-tmp/valid_count)
           TOTAL=$(cat .gh-pages-tmp/total_count)
-
           COLOR="green"
           if [ "$VALID" -lt "$TOTAL" ]; then COLOR="yellow"; fi
 
