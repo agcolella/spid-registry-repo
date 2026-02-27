@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_m0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://palazzo.wemapp.eu"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_m0io45c1j6ulfn34teba4vzrw0ju8ui1xrpnuiznwbd" cacheDuration="PT604800S" entityID="https://www.comune.palazzo.pz.it"><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
 <ds:SignedInfo>
 <ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
@@ -8,19 +8,19 @@
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
-<ds:DigestValue>49vHxctjmY0Wx2NWKC7tC7TN/8dWS8EK1SmWfPSpTVM=</ds:DigestValue>
+<ds:DigestValue>68V5rleZ6jPOT+gwerhN5wDurIr99f/U8yXZisvruqs=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue>
-VyXx4SGYe6uzqmjMq2SUYJRb2koqYNPodWV0C/Ukp3dY39dnoHW16tVRTbdiq/xw5+qU2bYAnzvI
-m4xPAtn4D/2mkVwHNiVd8JXXGYPYlpFDfXgYEsOd7+6Z+X+nveIj3msQhzxdv+9j3zqKcwKVs7nJ
-pQc8cPxpb2gqI4gc14wSTg57u6NL6882yfUnkR+/cuMibs4OImgfhce6XaMzOlqolL0drWHZIyrL
-aR2E1M+0XofoA2KHrxFCM97YOAf/ovXQGat+A4eIHKasvvT1o3fUY5P5rn7ID9r9/tKn87+mlGPe
-XMEGh5h4fXJ2UqNbjPriAacJXMmXfguVpXXjhymBwh9XUYy1keqo1eSWLapWxp4iF/Ar+3d9QNpL
-CtjASU9LZHVY51Oo4BnJJroVdOSGMs1beNeFuMtJp0pcMyb/dA554MDag5OwVnJVtwq32VsRxGrs
-oBabVdKSvs3UjkfoK3kA5YauF2Id75ZPHZTW6ZdMYFtY1K0rpSUbnYqrfhukh28B0DexPu1hm86Y
-siTWktUXLVwcQECpzMzbFomBynVg5j5AyIwpwA2pxIp1XdyzIDMX0ALcL2EDF6SLww6gTqKrciNN
-pgQrkxR1UEkBeThUSaDpg9c478eWpWD3SFHvl8vZ2jLYiZbs4zvcrX4RcNIFRsMJn8Fonr9y9U4=
+HwFXA2TTJitob3YjF4CGhjKLAuQANQBE7fdt7GBediwxsbCqIABGT7pbf40gvgr3FT/WBMC/ymp9
+wSt/UaGiG0pUQkEENMH+OIC7KVqWwBCqiSYFnRQ+5xyr1zADZFXmJJbzqwFksAkzXqeXAApF61EJ
+ZDnkky4CbewuRLrix4v/YZFklcazUA4bVCMQ/YcQDje8/W/oca+NWcWyZlI+oZIIHL9rpk19KTQs
+MxVVZQPKKtLncs+K30d8qOyQWqtEqRMOZ300tsZ06ezYTBYhxMGzsHbtT4aoltgo7QgeGDTzCdgW
+cRUVdf4Q+2G0nM1HDqMP7sHQi6EZmW5OIhuI6NIYq1IT03vUslIKQwC2AYFxjrR+2R8lt174VOze
+/7vzo8pbJNxI3QTeUTet5HkLkiHw2PorxsXrseWDRO/DjzwqvF0X6UcQ6eizXdkhG/xQxeR20j4+
+E43JQUIszyv2ueyTl7Ysa5iXWrU9fAEnx8bx22xtYAg8AZF0ZdOFKawtvPg1e555LAXrdFzUFfZS
+JsZgAoUjk7QEg9PpgPlR53i3o8Z3xSVzwTHnaL77kJW/m3o7h59HYHnx6euPHiSTdor2+wdgWWaz
++AyCtnyrqdO28JlpRxgAhZNkd5LEUYGtY0PGospAV2GfAGpha4DxPFywIN4HuaZpUSiS2bRex7s=
 </ds:SignatureValue>
 <ds:KeyInfo>
 <ds:KeyValue>
@@ -155,10 +155,11 @@ PVSv9xRWBLEaITCFqAqD82B1IvvYP8/glS+99b9m+sQ/BWNKMDhlYw==</ds:X509Certificate>
         </ds:X509Data>
       </ds:KeyInfo>
     </md:KeyDescriptor>
-    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://palazzo.wemapp.eu/api/logout"/>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://www.comune.palazzo.pz.it/api/logout"/>
     <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
-    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://palazzo.wemapp.eu/api/acs" index="0" isDefault="true"/>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="http://www.comune.palazzo.pz.it/api/acs" index="0" isDefault="true"/>
     <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sudepalazzosangervasio.paesit.it/api/acs" index="1"/>
+   <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://palazzo.wemapp.eu/api/acs" index="2"/>	
             <md:AttributeConsumingService index="0"> 
                 <md:ServiceName xml:lang="it">Wemapp.SPID</md:ServiceName> 
                 <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
@@ -201,6 +202,27 @@ PVSv9xRWBLEaITCFqAqD82B1IvvYP8/glS+99b9m+sQ/BWNKMDhlYw==</ds:X509Certificate>
 	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
 	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
         </md:AttributeConsumingService> 
+                        <md:AttributeConsumingService index="2"> 
+	                <md:ServiceName xml:lang="it">Sportello unico del cittadino</md:ServiceName> 
+	                <md:ServiceDescription xml:lang="it">Servizio SPID di Wemapp</md:ServiceDescription> 
+	                <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+	                <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/> 
+        </md:AttributeConsumingService>   	
   </md:SPSSODescriptor>
   <md:Organization>
     <md:OrganizationName xml:lang="it">Comune di Palazzo San Gervasio</md:OrganizationName>
@@ -215,6 +237,6 @@ PVSv9xRWBLEaITCFqAqD82B1IvvYP8/glS+99b9m+sQ/BWNKMDhlYw==</ds:X509Certificate>
 </md:Extensions> 
 <md:Company>Comune di Palazzo San Gervasio</md:Company> 
 <md:EmailAddress>comune.palazzo@cert.ruparbasilicata.it</md:EmailAddress> 
-<md:TelephoneNumber>95000410761</md:TelephoneNumber> 
+<md:TelephoneNumber>+39097244246</md:TelephoneNumber> 
 </md:ContactPerson> 
 </md:EntityDescriptor>

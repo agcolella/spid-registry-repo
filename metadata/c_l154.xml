@@ -1,0 +1,40 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<md:EntityDescriptor xmlns:spid="https://spid.gov.it/saml-extensions" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" entityID="https://spid_mensa_teulada.comune.it/" ID="dg07e359d2-336a-46f4-b7ce-a024c198dce2" xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata"><ds:Signature><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256" /><ds:Reference URI="#dg07e359d2-336a-46f4-b7ce-a024c198dce2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature" /><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#" /></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256" /><ds:DigestValue>RYcciY6PQcnco7JCRQ5jIz1mDSoOms7nGPMAZJ3MXWY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>cfoSftG49fndUjcahuYX01uHIKeWQtk1DbhZvCspPLNdyEx6MVlZaKVPP/aAxAvpi0Iq8h6P42AzJ/DP2IL24DGhWF3YaftzJFfWhsEzHYNVkdDEw4ZrTw3vZvhFcZkkqYeFkUS/8KL284cUpBvVAuYBeQaxdv6bUKLFwGNoihL+RZAkLQGs9YvPCC4R/cT5Y9PBLpC1UydbzETGKZl/3B+KlX4GclqG/uQ7z5mlMdnfWGRYRGoO15iwwQyYyHkbLwyn9IuXFX8E3URJaXMRorqh6Asj1LUV29a1BC6dlwdsknLLmYW+jGHlDB/SMB7ux7SjZCsTvMbm0IPNfGuFzw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAI2TOq3VaDOIMA0GCSqGSIb3DQEBCwUAMIGTMRowGAYDVQQKDBFDb211bmUgZGkgVGV1bGFkYTEbMBkGA1UEAwwSQ29tdW5lIGRpIFRldWxhZGEgMRUwEwYDVQRhDAxQQTpJVC1jX2wxNTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdUZXVsYWRhMSIwIAYDVQRTDBlodHRwczovL3RldWxhZGEuY29tdW5lLml0MB4XDTIyMDkyMDA5MzUyM1oXDTI1MDkxOTA5MzUyM1owgZMxGjAYBgNVBAoMEUNvbXVuZSBkaSBUZXVsYWRhMRswGQYDVQQDDBJDb211bmUgZGkgVGV1bGFkYSAxFTATBgNVBGEMDFBBOklULWNfbDE1NDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RldWxhZGExIjAgBgNVBFMMGWh0dHBzOi8vdGV1bGFkYS5jb211bmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXkBZWFZBu8bs+W0W2xMbyEymZYuuQFpKN2N2ivRgtuO6MSqsWF4BUB2+ex0zL8tMkT+/Go8ggFM0L7xvDEd9lkNwBAdr1j1rjTeCLht7Bc7OjWW+PVVCrgPTW1BC1aLJ/03YkJqwkQJMUJaW3+11/SFKtkvLkP5EIz0dBEHHYX+DH7SLCHFoabahNil1mXZmfCESarkbAaLBu92xuWkOC/avOdRRg4RcRGwHsCB8PAPYYmfjp8Nji/FVe6oKlmgQysH/V6rr/MK75sn42csX8EOlTHxuHjK3nc4b22ldilyliiUgPY4pyJPHbf2cyej3ZY9+PmoWjj5SJDkFfe3zlAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBCwUAA4IBAQCMlkGYwlhe5vQG5/JjraV47zkktrUcd9QRiI+gLDaagWrZhxnvUNgHYEG/vBZAJfZbIhqwA0ii5ExVGq9xbBc9923X7dlK/DpISw24SMOSonYpxNAv4qyNDy2YZg7ryntmWyFoG5abReecYxAzbUgdciMwYFmkraVT9lzLrs8qnfdmbH8VVpvWT2IetDbEoqvWnBR1ZkHc/C7q7qE7qYtwvHIF+SikWqBLmGXL03ilNr0WWAWzqFRVNyRE/ICGN3bst0E5ifAOQgdKO2W6Je3VKwTLMf55/m0WbNv6MGl/fwLZhuzVGxgXbkUG9hI5x5oeKHVI6kUKMTNlymdPXF7W</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAI2TOq3VaDOIMA0GCSqGSIb3DQEBCwUAMIGTMRowGAYDVQQKDBFDb211bmUgZGkgVGV1bGFkYTEbMBkGA1UEAwwSQ29tdW5lIGRpIFRldWxhZGEgMRUwEwYDVQRhDAxQQTpJVC1jX2wxNTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdUZXVsYWRhMSIwIAYDVQRTDBlodHRwczovL3RldWxhZGEuY29tdW5lLml0MB4XDTIyMDkyMDA5MzUyM1oXDTI1MDkxOTA5MzUyM1owgZMxGjAYBgNVBAoMEUNvbXVuZSBkaSBUZXVsYWRhMRswGQYDVQQDDBJDb211bmUgZGkgVGV1bGFkYSAxFTATBgNVBGEMDFBBOklULWNfbDE1NDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RldWxhZGExIjAgBgNVBFMMGWh0dHBzOi8vdGV1bGFkYS5jb211bmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXkBZWFZBu8bs+W0W2xMbyEymZYuuQFpKN2N2ivRgtuO6MSqsWF4BUB2+ex0zL8tMkT+/Go8ggFM0L7xvDEd9lkNwBAdr1j1rjTeCLht7Bc7OjWW+PVVCrgPTW1BC1aLJ/03YkJqwkQJMUJaW3+11/SFKtkvLkP5EIz0dBEHHYX+DH7SLCHFoabahNil1mXZmfCESarkbAaLBu92xuWkOC/avOdRRg4RcRGwHsCB8PAPYYmfjp8Nji/FVe6oKlmgQysH/V6rr/MK75sn42csX8EOlTHxuHjK3nc4b22ldilyliiUgPY4pyJPHbf2cyej3ZY9+PmoWjj5SJDkFfe3zlAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBCwUAA4IBAQCMlkGYwlhe5vQG5/JjraV47zkktrUcd9QRiI+gLDaagWrZhxnvUNgHYEG/vBZAJfZbIhqwA0ii5ExVGq9xbBc9923X7dlK/DpISw24SMOSonYpxNAv4qyNDy2YZg7ryntmWyFoG5abReecYxAzbUgdciMwYFmkraVT9lzLrs8qnfdmbH8VVpvWT2IetDbEoqvWnBR1ZkHc/C7q7qE7qYtwvHIF+SikWqBLmGXL03ilNr0WWAWzqFRVNyRE/ICGN3bst0E5ifAOQgdKO2W6Je3VKwTLMf55/m0WbNv6MGl/fwLZhuzVGxgXbkUG9hI5x5oeKHVI6kUKMTNlymdPXF7W</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIEHDCCAwSgAwIBAgIJAI2TOq3VaDOIMA0GCSqGSIb3DQEBCwUAMIGTMRowGAYDVQQKDBFDb211bmUgZGkgVGV1bGFkYTEbMBkGA1UEAwwSQ29tdW5lIGRpIFRldWxhZGEgMRUwEwYDVQRhDAxQQTpJVC1jX2wxNTQxCzAJBgNVBAYTAklUMRAwDgYDVQQHDAdUZXVsYWRhMSIwIAYDVQRTDBlodHRwczovL3RldWxhZGEuY29tdW5lLml0MB4XDTIyMDkyMDA5MzUyM1oXDTI1MDkxOTA5MzUyM1owgZMxGjAYBgNVBAoMEUNvbXVuZSBkaSBUZXVsYWRhMRswGQYDVQQDDBJDb211bmUgZGkgVGV1bGFkYSAxFTATBgNVBGEMDFBBOklULWNfbDE1NDELMAkGA1UEBhMCSVQxEDAOBgNVBAcMB1RldWxhZGExIjAgBgNVBFMMGWh0dHBzOi8vdGV1bGFkYS5jb211bmUuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDXkBZWFZBu8bs+W0W2xMbyEymZYuuQFpKN2N2ivRgtuO6MSqsWF4BUB2+ex0zL8tMkT+/Go8ggFM0L7xvDEd9lkNwBAdr1j1rjTeCLht7Bc7OjWW+PVVCrgPTW1BC1aLJ/03YkJqwkQJMUJaW3+11/SFKtkvLkP5EIz0dBEHHYX+DH7SLCHFoabahNil1mXZmfCESarkbAaLBu92xuWkOC/avOdRRg4RcRGwHsCB8PAPYYmfjp8Nji/FVe6oKlmgQysH/V6rr/MK75sn42csX8EOlTHxuHjK3nc4b22ldilyliiUgPY4pyJPHbf2cyej3ZY9+PmoWjj5SJDkFfe3zlAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBCwUAA4IBAQCMlkGYwlhe5vQG5/JjraV47zkktrUcd9QRiI+gLDaagWrZhxnvUNgHYEG/vBZAJfZbIhqwA0ii5ExVGq9xbBc9923X7dlK/DpISw24SMOSonYpxNAv4qyNDy2YZg7ryntmWyFoG5abReecYxAzbUgdciMwYFmkraVT9lzLrs8qnfdmbH8VVpvWT2IetDbEoqvWnBR1ZkHc/C7q7qE7qYtwvHIF+SikWqBLmGXL03ilNr0WWAWzqFRVNyRE/ICGN3bst0E5ifAOQgdKO2W6Je3VKwTLMf55/m0WbNv6MGl/fwLZhuzVGxgXbkUG9hI5x5oeKHVI6kUKMTNlymdPXF7W</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mensa.comune.it/app/spid/teulada" />
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://mensa.comune.it/app/spid/teulada" index="0" isDefault="true" />
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Servizi online</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Servizi online</md:ServiceDescription>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice fiscale" />
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Codice SPID" />
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic" FriendlyName="Indirizzo di posta elettronica" />
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Comune di Teulada</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Comune di Teulada</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.comune.teulada.ca.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode>c_l154</spid:IPACode>
+      <spid:Public />
+    </md:Extensions>
+    <md:EmailAddress>protocollo@pec.comune.teulada.ca.it</md:EmailAddress>
+  </md:ContactPerson>
+</md:EntityDescriptor>

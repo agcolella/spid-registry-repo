@@ -1,0 +1,66 @@
+<?xml version="1.0"?>
+<md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" entityID="https://spid.conservatoriolecce.it/conservatorio" ID="spid-php_ea949b516bfc0642568ba6c96ae8f7545418a575950e11c9e61f69d5cabaedba"><ds:Signature>
+  <ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+    <ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+  <ds:Reference URI="#spid-php_ea949b516bfc0642568ba6c96ae8f7545418a575950e11c9e61f69d5cabaedba"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Ua2DCTfF9RT3ZdV8/tOVB/tHDbZHoFKyigtGKQu2WU0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Doy3MSNhjhqandvMTKs8zBvyiXafeDIkiNOjfMj9071ufkV5G7a0qV/7By4kwh1W/D0+YFy11Ku3GxcPl9dIqLKV++xDCOtijLzXWKyhr5r3Bwww4x7HNz6K0KEAmTiHnOA20V1JhAzhiFsGIwb/89tNMfjedr9F4aB+RYUNbklUBNC4kSXZABxaksbsCFoVeU5xwJLQ679NKmzj4FV7ZpI6dkxOJ0P3847bs6qT7RdAE5XUYpVSRbAhm8AVle/TVt6mYvzym3H3gcAvf6smu5hHBXsTyfPCUpImcTjkik072XahGZAJtQYOoWaOP20uztXVMe0PCVn/BwB9TVUs9xZD+X/Hl5AE/v2P9AcxG0LWgnYdcJd7I/EZFL3bw/2S6I3ngDzJtcJSrlvl6CvkMozEo3eZQOjjsQqERVyYdc2cIMdLjrd4YuIKtdlYABLVJdUNjtg4v8ejO6+cDkx5ACWnzX/tdZULNG+Tn2nW0oUC+uWU8OfBhDMq7UtIdcYz</ds:SignatureValue>
+<ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVzCCA7+gAwIBAgIUX79AzUWCDKx7hfYfZcU1quKpy2YwDQYJKoZIhvcNAQELBQAwgdgxMjAwBgNVBAoMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTIwMAYDVQQDDClDb25zZXJ2YXRvcmlvIGRpIE11c2ljYSBUaXRvIFNjaGlwYSBMZWNjZTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLmNvbnNlcnZhdG9yaW9sZWNjZS5pdC9jb25zZXJ2YXRvcmlvMRYwFAYDVQRhDA1QQTpJVC1jbV90c2xlMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFTGVjY2UwHhcNMjIwOTMwMDgzNjIxWhcNMjQwOTI5MDgzNjIxWjCB2DEyMDAGA1UECgwpQ29uc2VydmF0b3JpbyBkaSBNdXNpY2EgVGl0byBTY2hpcGEgTGVjY2UxMjAwBgNVBAMMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTkwNwYDVQRTDDBodHRwczovL3NwaWQuY29uc2VydmF0b3Jpb2xlY2NlLml0L2NvbnNlcnZhdG9yaW8xFjAUBgNVBGEMDVBBOklULWNtX3RzbGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVMZWNjZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALCQbjFRVuQU0VHHMfzPpWO+wO6cEcC8uWUKQ2uU8tA58vEG+1nkyjtWCJYSFrngEXq56Khrx+rtOMn42aKJ1KjruG3deZqX4GrwneQl0HmorWdOh0/x7/ZQYhgi3CQkJRbcRS3otwxXO9q95wpmIcwdX/bDCQpKsafHNVILJCn6niHn3clnhG/PnHJnFR1b+KEL/D2ei/twtXwKxwIrGUzc8CI+1TCbowsRWm6QJwenOMG9tMBU13MNT4DuUncMrfKDlyMubuLah04PyLoJXTggxgWKmTmoSH6cPyhI7Ry6CYUN4r4GqDCbbpGfSRnDq1XJzKkAb10REAdOlxVa73GkmrqpOE2lWDaUN5ZZ7U3BqWJIvro7QeZChKkKufu5WZ4mX+3YHFTPsxWmIacHOCPizxH8sGeqUQWWvXO31ALGT8bpxsP2yD7p/Mf0mtvirRDgVp0QXghWEyRkdn74Idvmn3m+kPoC1x+3++A0PntKW/3jKi7jjAlh99WaEDRYHQIDAQABoxcwFTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAYEAkbA5JlEfj7FwynVbHz2MXuLb2W4fDrOrRh1SPYjZrnU7SHJrfW6ORToZDOXCooqxF9/7wNjDW0OBWjoGFSGWOp2ZaYrC3VxyQXrxscJtSnyc4Lb/bbJbNS4VU8Ifxof7u5SCC7+gBuRsZVY9tRklFYcAP+WPXZ2I/lrdtIbsQN35cyDlrmhcg6wTmO9Vh4DT5blqPQ6pLAuTj9TgppN/f3y9jHIg9FTHduiEljQUuWPBK+g+uX6CT62kbznq1umw8VXXRywAX7Ek06TG6FBdEZx/HItPlISeSVzwXLlvzw0xAU+UUfuZDFy0kbYVWYAEJA4pKLJ+oeYJQB73LPQMpZTZf3zNaDvNoIS3CihcZl1ffY986/V/hZOvQXxMN6OvgxIwcr5KAesd9auOlciqDA9cZG8HN+xkaKviPm7AARhem+gEt5ZLmG+7i8Gfgd21pEsO8QZxP0ML2WKr2qmWrCzSoc7yxIAzZxTRDrySBcyGlSwj2gpZq5RbNg6DEaAZ</ds:X509Certificate></ds:X509Data></ds:KeyInfo></ds:Signature>
+  <md:SPSSODescriptor protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol" AuthnRequestsSigned="true" WantAssertionsSigned="true">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFVzCCA7+gAwIBAgIUX79AzUWCDKx7hfYfZcU1quKpy2YwDQYJKoZIhvcNAQELBQAwgdgxMjAwBgNVBAoMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTIwMAYDVQQDDClDb25zZXJ2YXRvcmlvIGRpIE11c2ljYSBUaXRvIFNjaGlwYSBMZWNjZTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLmNvbnNlcnZhdG9yaW9sZWNjZS5pdC9jb25zZXJ2YXRvcmlvMRYwFAYDVQRhDA1QQTpJVC1jbV90c2xlMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFTGVjY2UwHhcNMjIwOTMwMDgzNjIxWhcNMjQwOTI5MDgzNjIxWjCB2DEyMDAGA1UECgwpQ29uc2VydmF0b3JpbyBkaSBNdXNpY2EgVGl0byBTY2hpcGEgTGVjY2UxMjAwBgNVBAMMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTkwNwYDVQRTDDBodHRwczovL3NwaWQuY29uc2VydmF0b3Jpb2xlY2NlLml0L2NvbnNlcnZhdG9yaW8xFjAUBgNVBGEMDVBBOklULWNtX3RzbGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVMZWNjZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALCQbjFRVuQU0VHHMfzPpWO+wO6cEcC8uWUKQ2uU8tA58vEG+1nkyjtWCJYSFrngEXq56Khrx+rtOMn42aKJ1KjruG3deZqX4GrwneQl0HmorWdOh0/x7/ZQYhgi3CQkJRbcRS3otwxXO9q95wpmIcwdX/bDCQpKsafHNVILJCn6niHn3clnhG/PnHJnFR1b+KEL/D2ei/twtXwKxwIrGUzc8CI+1TCbowsRWm6QJwenOMG9tMBU13MNT4DuUncMrfKDlyMubuLah04PyLoJXTggxgWKmTmoSH6cPyhI7Ry6CYUN4r4GqDCbbpGfSRnDq1XJzKkAb10REAdOlxVa73GkmrqpOE2lWDaUN5ZZ7U3BqWJIvro7QeZChKkKufu5WZ4mX+3YHFTPsxWmIacHOCPizxH8sGeqUQWWvXO31ALGT8bpxsP2yD7p/Mf0mtvirRDgVp0QXghWEyRkdn74Idvmn3m+kPoC1x+3++A0PntKW/3jKi7jjAlh99WaEDRYHQIDAQABoxcwFTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAYEAkbA5JlEfj7FwynVbHz2MXuLb2W4fDrOrRh1SPYjZrnU7SHJrfW6ORToZDOXCooqxF9/7wNjDW0OBWjoGFSGWOp2ZaYrC3VxyQXrxscJtSnyc4Lb/bbJbNS4VU8Ifxof7u5SCC7+gBuRsZVY9tRklFYcAP+WPXZ2I/lrdtIbsQN35cyDlrmhcg6wTmO9Vh4DT5blqPQ6pLAuTj9TgppN/f3y9jHIg9FTHduiEljQUuWPBK+g+uX6CT62kbznq1umw8VXXRywAX7Ek06TG6FBdEZx/HItPlISeSVzwXLlvzw0xAU+UUfuZDFy0kbYVWYAEJA4pKLJ+oeYJQB73LPQMpZTZf3zNaDvNoIS3CihcZl1ffY986/V/hZOvQXxMN6OvgxIwcr5KAesd9auOlciqDA9cZG8HN+xkaKviPm7AARhem+gEt5ZLmG+7i8Gfgd21pEsO8QZxP0ML2WKr2qmWrCzSoc7yxIAzZxTRDrySBcyGlSwj2gpZq5RbNg6DEaAZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:KeyDescriptor use="encryption">
+      <ds:KeyInfo xmlns:ds="http://www.w3.org/2000/09/xmldsig#">
+        <ds:X509Data>
+          <ds:X509Certificate>MIIFVzCCA7+gAwIBAgIUX79AzUWCDKx7hfYfZcU1quKpy2YwDQYJKoZIhvcNAQELBQAwgdgxMjAwBgNVBAoMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTIwMAYDVQQDDClDb25zZXJ2YXRvcmlvIGRpIE11c2ljYSBUaXRvIFNjaGlwYSBMZWNjZTE5MDcGA1UEUwwwaHR0cHM6Ly9zcGlkLmNvbnNlcnZhdG9yaW9sZWNjZS5pdC9jb25zZXJ2YXRvcmlvMRYwFAYDVQRhDA1QQTpJVC1jbV90c2xlMQswCQYDVQQGEwJJVDEOMAwGA1UEBwwFTGVjY2UwHhcNMjIwOTMwMDgzNjIxWhcNMjQwOTI5MDgzNjIxWjCB2DEyMDAGA1UECgwpQ29uc2VydmF0b3JpbyBkaSBNdXNpY2EgVGl0byBTY2hpcGEgTGVjY2UxMjAwBgNVBAMMKUNvbnNlcnZhdG9yaW8gZGkgTXVzaWNhIFRpdG8gU2NoaXBhIExlY2NlMTkwNwYDVQRTDDBodHRwczovL3NwaWQuY29uc2VydmF0b3Jpb2xlY2NlLml0L2NvbnNlcnZhdG9yaW8xFjAUBgNVBGEMDVBBOklULWNtX3RzbGUxCzAJBgNVBAYTAklUMQ4wDAYDVQQHDAVMZWNjZTCCAaIwDQYJKoZIhvcNAQEBBQADggGPADCCAYoCggGBALCQbjFRVuQU0VHHMfzPpWO+wO6cEcC8uWUKQ2uU8tA58vEG+1nkyjtWCJYSFrngEXq56Khrx+rtOMn42aKJ1KjruG3deZqX4GrwneQl0HmorWdOh0/x7/ZQYhgi3CQkJRbcRS3otwxXO9q95wpmIcwdX/bDCQpKsafHNVILJCn6niHn3clnhG/PnHJnFR1b+KEL/D2ei/twtXwKxwIrGUzc8CI+1TCbowsRWm6QJwenOMG9tMBU13MNT4DuUncMrfKDlyMubuLah04PyLoJXTggxgWKmTmoSH6cPyhI7Ry6CYUN4r4GqDCbbpGfSRnDq1XJzKkAb10REAdOlxVa73GkmrqpOE2lWDaUN5ZZ7U3BqWJIvro7QeZChKkKufu5WZ4mX+3YHFTPsxWmIacHOCPizxH8sGeqUQWWvXO31ALGT8bpxsP2yD7p/Mf0mtvirRDgVp0QXghWEyRkdn74Idvmn3m+kPoC1x+3++A0PntKW/3jKi7jjAlh99WaEDRYHQIDAQABoxcwFTATBgNVHSAEDDAKMAgGBitMEAQCATANBgkqhkiG9w0BAQsFAAOCAYEAkbA5JlEfj7FwynVbHz2MXuLb2W4fDrOrRh1SPYjZrnU7SHJrfW6ORToZDOXCooqxF9/7wNjDW0OBWjoGFSGWOp2ZaYrC3VxyQXrxscJtSnyc4Lb/bbJbNS4VU8Ifxof7u5SCC7+gBuRsZVY9tRklFYcAP+WPXZ2I/lrdtIbsQN35cyDlrmhcg6wTmO9Vh4DT5blqPQ6pLAuTj9TgppN/f3y9jHIg9FTHduiEljQUuWPBK+g+uX6CT62kbznq1umw8VXXRywAX7Ek06TG6FBdEZx/HItPlISeSVzwXLlvzw0xAU+UUfuZDFy0kbYVWYAEJA4pKLJ+oeYJQB73LPQMpZTZf3zNaDvNoIS3CihcZl1ffY986/V/hZOvQXxMN6OvgxIwcr5KAesd9auOlciqDA9cZG8HN+xkaKviPm7AARhem+gEt5ZLmG+7i8Gfgd21pEsO8QZxP0ML2WKr2qmWrCzSoc7yxIAzZxTRDrySBcyGlSwj2gpZq5RbNg6DEaAZ</ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://spid.conservatoriolecce.it/conservatorio/spid/module.php/saml/sp/saml2-logout.php/service"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spid.conservatoriolecce.it/conservatorio/spid/module.php/saml/sp/saml2-acs.php/service" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Conservatorio di Musica Tito Schipa Lecce</md:ServiceName>
+      <md:ServiceDescription xml:lang="it">Conservatorio di Musica Tito Schipa Lecce</md:ServiceDescription>
+      <md:RequestedAttribute Name="spidCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="placeOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="countyOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="dateOfBirth" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="gender" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="companyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="registeredOffice" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="ivaCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="idCard" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="expirationDate" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="mobilePhone" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="email" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="address" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="digitalAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileStreetAddress" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicilePostalCode" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileMunicipality" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileProvince" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      <md:RequestedAttribute Name="domicileNation" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+    </md:AttributeConsumingService>
+  </md:SPSSODescriptor>
+  <md:Organization>
+    <md:OrganizationName xml:lang="it">Conservatorio di Musica Tito Schipa Lecce</md:OrganizationName>
+    <md:OrganizationDisplayName xml:lang="it">Conservatorio di Musica Tito Schipa Lecce</md:OrganizationDisplayName>
+    <md:OrganizationURL xml:lang="it">https://www.conservatoriolecce.it</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other">
+    <md:Extensions>
+      <spid:IPACode xmlns:spid="https://spid.gov.it/saml-extensions">cm_tsle</spid:IPACode>
+      <spid:Public xmlns:spid="https://spid.gov.it/saml-extensions"/>
+    </md:Extensions>
+    <md:Company>Conservatorio di Musica Tito Schipa Lecce</md:Company>
+    <md:EmailAddress>cmlecce@conservatoriolecce.it</md:EmailAddress>
+    <md:TelephoneNumber>+390832344267</md:TelephoneNumber>
+  </md:ContactPerson>
+</md:EntityDescriptor>

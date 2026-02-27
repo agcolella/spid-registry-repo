@@ -1,0 +1,159 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e" entityID="https://www.e-fil.it/pub-ag-full/c_l704"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#a088bc6e-33c5-4ff2-b35b-d9c3ff9a2c9e">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>ULs3l0POi71bAcwxSQJ+8yUl0Hc4P16OP/G8IwQ2rTg=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+LaRPTWFoGKLJtHlTeclw/n1D202pim8zaj6iu0z216+VLdYGGG/0ToCdRCWjTxEVNdfuQFDIYDPx
+fcFxup9slCsYfo5Dit3iPzYrgDALSGSE2Tvo8/qymYkCbsrg8sgdsm8moWUkT9OPZrkPRYae8DE/
+rl6nm67WRsT+0kF3miQoPfSPLeyOVIL2bF7oaKVAgDw/2HST0Y5IuZHhpH/gEgDzuuW6zkunRNpX
+xd9n0j8nBilsEORrXKpAFL2bqY0VLSFliLFw+9Z0wWwuP6H1GZjuXl5H0GaI7wb21XK7LrQGI6l9
+bZUba+yeK9gKQ5qBB9xsgFzqPtxgPw3EGPn9+w==
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+qY4H/GWTewBiu2WSlYEBgj8A43JfVxYrWgJD3qdxocfWPPSM5E7MWIKXzXCFl+zrjeCnfeO3vg+I
+IDgN76rUKxK75XW1gvU0BEzaf7qaKNxYrvKDxKlcrzT20ZRppJ7GaMq4b5ygiFXM91bhmPkeiYGS
+I3VNgl+ZDxpMqEQuvJY1wG+iECe9p7WKVKWebj9lU4cserbIVdTT45/x0lJD+00zeuKrTQ5FQD+7
+FKjg4PThQbPIojaXwekwtZxApbz329zJsY57zomJE6phJl1gJ7+b3dN3otHMUNoGoR2KcTWy74CY
+skWOZs/wD0hbCH4QstxhHSdXH+srFN6tBkJzQw==
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIH4TCCBcmgAwIBAgIIbMDMGjctYe8wDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDkxNTAwMDAw
+MFoXDTM2MDkxNDIzNTk1OVowgaIxCzAJBgNVBAYTAklUMQswCQYDVQQIDAJSTTENMAsGA1UEBwwE
+Um9tYTEOMAwGA1UECgwFRS1GSUwxFTATBgNVBAsMDEUtRklMIFMuUi5MLjEVMBMGA1UEAwwMRS1G
+SUwgUy5SLkwuMRowGAYDVQRhDBFWQVRJVC0wMzc4OTc1MDEwMDEdMBsGA1UEUwwUaHR0cHM6Ly93
+d3cuZS1maWwuaXQwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCpjgf8ZZN7AGK7ZZKV
+gQGCPwDjcl9XFitaAkPep3Ghx9Y89IzkTsxYgpfNcIWX7OuN4Kd947e+D4ggOA3vqtQrErvldbWC
+9TQETNp/upoo3Fiu8oPEqVyvNPbRlGmknsZoyrhvnKCIVcz3VuGY+R6JgZIjdU2CX5kPGkyoRC68
+ljXAb6IQJ72ntYpUpZ5uP2VThyx6tshV1NPjn/HSUkP7TTN64qtNDkVAP7sUqODg9OFBs8iiNpfB
+6TC1nEClvPfb3MmxjnvOiYkTqmEmXWAnv5vd03ei0cxQ2gahHYpxNbLvgJiyRY5mz/APSFsIfhCy
+3GEdJ1cf6ysU3q0GQnNDAgMBAAGjggLUMIIC0DAMBgNVHRMBAf8EAjAAMB0GA1UdDgQWBBRKUCpu
+F1YOLaPUB3lqAjXk+HWScTAfBgNVHSMEGDAWgBQ8u23rHv2dbsvuVObqOdWJoEfXNDAOBgNVHQ8B
+Af8EBAMCBsAwFgYDVR0SBA8wDYILc3BpZC5nb3YuaXQwQgYDVR0fBDswOTA3oDWgM4YxaHR0cHM6
+Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvY3JsX1NQSURfUHViX1NBLmNybDA3BggrBgEFBQcBAQQr
+MCkwJwYIKwYBBQUHMAGGG2h0dHBzOi8vb2NzcF9TQS5hZ2lkLmdvdi5pdDCCAdkGA1UdIASCAdAw
+ggHMMAkGBwQAjkYBBgIwgZUGBCtMEAYwgYwwRAYIKwYBBQUHAgIwOBo2RWxlY3Ryb25pYyBjZXJ0
+aWZpY2F0ZSBjb25mb3JtaW5nIHdpdGggQUdJRCBHdWlkZWxpbmVzMEQGCCsGAQUFBwICMDgaNkNl
+cnRpZmljYXRvIGVsZXR0cm9uaWNvIGNvbmZvcm1lIGFsbGUgTGluZWUgZ3VpZGEgQWdJRDB9BgYr
+TBAEAgIwczA6BggrBgEFBQcCAjAuGixTUElEOiBhZ2dyZWdhdG9yZSAnZnVsbCcgZGkgc2Vydml6
+aSBwdWJibGljaTA1BggrBgEFBQcCAjApGidTUElEOiBwdWJsaWMtc2VydmljZXMgJ2Z1bGwnIEFn
+Z3JlZ2F0b3IwCAYGBACPegEDME0GBCtMEAQwRTBDBggrBgEFBQcCARY3aHR0cHM6Ly9laWRhcy5h
+Z2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0FfY3BzLnBkZjBPBgYEAI5GAQUwRTBDBggr
+BgEFBQcCARY3aHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcHMvQWdJRF9lSURBU19yb290Q0Ff
+Y3BzLnBkZjANBgkqhkiG9w0BAQ0FAAOCAgEAO9XfbJaLZEb7P7U+yJyE7mIuNsYJGSf18XzG/7sn
+C4POvFLhYOP/IAw/nrKPkXU5z6KH1NCnoKwS/8SxJbpXxU4gn29U4NFlaDYYat9LYXu/a0g75Den
+AsOtNsYH6Qx/iiPk+Ksehly+tBjMOj6EWqQmr+0I8EI5DUgIMCLbiUD0U5yAGMt8lKFlUw6SClEe
+ppp615autplBNWyUNEOVTnu+z2t+uP5midU9JRWm0HRsUOoHATa6zKE7o74fzDCebvJRXJQtH1Cf
+SYprddOg8tcxqrsUY7a0m9FH/no98fmquUwgY9CWnM7byYHAMdKOhGTqLW/TGSuhBNgYnm7mS6RS
+sB/jhC2n5eh2JYYbBw5ku/Vxkwqqt70s5V0zDIYVb5pZ1IYhgUBVuE0WYmLK8SL7FhPEilp4ZRfo
++J3YCs4zd/ncloQhdma+VksA/C06wldIRcVplrcYfJAKTUphoVC0b7o3uh9UR68FzUrdID6qWu0Z
+sQcVuPp3yu++8KpNnYGEdntKS1Kay4VeZB4ZR3qVvz0YP89c+Ia1ht0Q5KnV49BzyXjbZOeGtmnA
+TXZGdKmZCB1UZi1n2q0wPCGCbo/iZxqzLgAbZyYTKxzLgbKnhllUw7yE24F8C9EW0Ad3WgTvQB2j
+inV2kz2IRS9ixUd/8XwEWKVPa6id/0Et5Y4=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+  <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+    <md:KeyDescriptor use="signing">
+      <ds:KeyInfo>
+        <ds:X509Data>
+          <ds:X509Certificate>MIIGbDCCBFSgAwIBAgIJANge8prPalaSMA0GCSqGSIb3DQEBCwUAMIHKMQswCQYD
+                              VQQGEwJJVDENMAsGA1UECAwEUm9tYTEXMBUGA1UEBwwOVmVkYW5vYWxMYW1icm8x
+                              FzAVBgNVBAoMDlZlZGFub2FsTGFtYnJvMQ0wCwYDVQQLDARTcGlkMSwwKgYDVQQD
+                              DCN2ZWRhbm9hbGxhbWJyby5jb211bmUucGx1Z2FuZHBheS5pdDE9MDsGCSqGSIb3
+                              DQEJARYuY29tdW5lLnZlZGFub2FsbGFtYnJvQHBlYy5yZWdpb25lLmxvbWJhcmRp
+                              YS5pdDAeFw0yMjA5MjgxMjUwMjdaFw0yNTA5MjcxMjUwMjdaMIHKMQswCQYDVQQG
+                              EwJJVDENMAsGA1UECAwEUm9tYTEXMBUGA1UEBwwOVmVkYW5vYWxMYW1icm8xFzAV
+                              BgNVBAoMDlZlZGFub2FsTGFtYnJvMQ0wCwYDVQQLDARTcGlkMSwwKgYDVQQDDCN2
+                              ZWRhbm9hbGxhbWJyby5jb211bmUucGx1Z2FuZHBheS5pdDE9MDsGCSqGSIb3DQEJ
+                              ARYuY29tdW5lLnZlZGFub2FsbGFtYnJvQHBlYy5yZWdpb25lLmxvbWJhcmRpYS5p
+                              dDCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAL5E4nxR25gfmcIUel3w
+                              FRAbJ/HJfj2xw1UnYObcbSjetYJxmeRdN+9k8pydu/PeyYZfFciWBIt7iKaBcEDa
+                              RFW2k2jSI1SD6P4O7Ek6Yl0vGdGDfufmRpg2Y+FchdfwaifEtW6/PzasCVyupBt0
+                              f7ORtsBqJ9Gtcsp89idaU2u7X8hlgLthDYNcSsuFiAPCPbTIWErxrwpRD7DoHoB8
+                              t+eyAJu9Plf+OP4EVGAWxk3EhpXD87fBu06ZodQyCVOiESkkvbMboK8F1ukzserc
+                              fzPUFtXgDYpb4/NlW/1kpUd8MM3sJlONXxbjDpwN02HlCTXqpfGzAE5GJ+6TIile
+                              ecPVzYnsvKfjs7IClR7kF6bmY3xYr/oNP50GtwKwPZUJW6441KVE2NwMmF1NN3fR
+                              3tWaAREUvrYNAF9BwzSPreEe+peZUW9J8eVd9VVdzJgMxhIIoPdcROD9BqiwFgn/
+                              pkxDqiFGOqfBHjS2LhB8fn6dWLZuvwQAZTmN3QA0REoHIUpX6aPS9pTLlgYrdDyJ
+                              XrOe0uV4kvANrT8UebicpNF17/Zt9LrkIH2vZueI4LvmB59U0jQ5C6lN+Tb2sWon
+                              scSFpWqpVWu4id1yD5hHLFYgw1oz5lNOoYlQDVOsSu65GcH2Z13p7JYUVtWbwG2/
+                              bQT+A5+axirEcxyvhVb5/VbnAgMBAAGjUzBRMB0GA1UdDgQWBBQ5rORCieZ5Yok6
+                              8IQHv/WQYGp/kTAfBgNVHSMEGDAWgBQ5rORCieZ5Yok68IQHv/WQYGp/kTAPBgNV
+                              HRMBAf8EBTADAQH/MA0GCSqGSIb3DQEBCwUAA4ICAQC6Pkj//+Yj7Rd8mWyoZ/LW
+                              j0FIdpy1VMi99V0nH+cBvUTh0/Bv09FLB13Zl0duZyCRcsM6tyzHoNPBpZBSluUM
+                              yxR/dOuwZryzTmUSgD5a5GkpCvm2ddFIBsp7tTb6dVpI2sQ5JbpUpBVD0inaqLuT
+                              rHd9j4EoYPhUzvkgMBNSRYGjeWPy290KXljIlBOPOYRS5u+Mlti3+6a+VUzfr/MY
+                              B/aCHvEsVWDQWDjQmtb++yWLvBDLdF6CSFeSAXrKdfL6a4gis816QUHZTrVEAne6
+                              6ZIsgGF66d3dIRO81EfUi0FTyNLsUkv6n+K9DRPVp8Y5mVMruFOsQtU1rhI/0S6M
+                              WAN7IdU7onA3TQg8KQxUdvUZUtRcs6mh42LslLXIUMz/NrdMysb8G7/DcNV/wfjB
+                              VTA4XDVKnJBbo72FSP0GessdKHfVGJGDMtmyPLfyv2qEbl6uaAgMN2ZfyE+e/P+V
+                              fCYF3oydgoxMf7Cq/NxsAwatr9wFNPVOEyjcjMaLliHZmT3rjWu8vtw6T8PZC8fT
+                              g08iD0L6Sc4FVKndWwOCzrQSH4hm6A+mRR5DJvTweGkA4SxIbgpTyhgKBXNUsxWy
+                              ZRE12EJ05clagHqocVl3NYE9bWCOJpkrwBv9pSXz7HCWFz8XhVrP5Tfa9I8849IC
+                              lByKxeqHDy+Ns1mt0+RBiw==
+          </ds:X509Certificate>
+        </ds:X509Data>
+      </ds:KeyInfo>
+    </md:KeyDescriptor>
+    <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://vedanoallambro.comune.plugandpay.it/spidslo"/>
+    <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+    <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://vedanoallambro.comune.plugandpay.it/spidacs" index="0" isDefault="true"/>
+    <md:AttributeConsumingService index="0">
+      <md:ServiceName xml:lang="it">Portale dei pagamenti del cittadino</md:ServiceName>
+      <md:RequestedAttribute Name="spidCode"/>
+	  <md:RequestedAttribute Name="familyName"/>
+	  <md:RequestedAttribute Name="name"/>
+	  <md:RequestedAttribute Name="companyName"/>
+	  <md:RequestedAttribute Name="fiscalNumber"/>
+	  <md:RequestedAttribute Name="ivaCode"/>
+	  <md:RequestedAttribute Name="email"/>
+	  <md:RequestedAttribute Name="gender"/>
+	  <md:RequestedAttribute Name="placeOfBirth"/>
+	  <md:RequestedAttribute Name="countyOfBirth"/>
+	  <md:RequestedAttribute Name="dateOfBirth"/>
+    </md:AttributeConsumingService>   
+  </md:SPSSODescriptor>
+  <md:Organization>
+  	<md:OrganizationName xml:lang="it">Comune di Vedano al Lambro</md:OrganizationName>
+  	<md:OrganizationDisplayName xml:lang="it">Comune di Vedano al Lambro</md:OrganizationDisplayName>
+  	<md:OrganizationURL xml:lang="it">https://www.comune.vedanoallambro.mb.it/home</md:OrganizationURL>
+  </md:Organization>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+  	<md:Extensions>
+  		<spid:VATNumber>IT03789750100</spid:VATNumber>
+  		<spid:FiscalCode>03789750100</spid:FiscalCode>
+  		<spid:PublicServicesFullAggregator/>
+  	</md:Extensions>
+  	<md:Company>E-fil srl</md:Company>
+  	<md:EmailAddress>segreteria@pec.e-fil.eu</md:EmailAddress>
+  	<md:TelephoneNumber>+390688805363</md:TelephoneNumber>
+  </md:ContactPerson>
+  <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+  	<md:Extensions>
+  		<spid:IPACode>c_l704</spid:IPACode>
+		<spid:Public/>
+  	</md:Extensions>
+  	<md:Company>Comune di Vedano al Lambro</md:Company>
+   </md:ContactPerson>
+</md:EntityDescriptor>

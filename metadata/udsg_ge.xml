@@ -1,0 +1,172 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="_b818a821-1116-49d5-b5c3-3eabc9d574be" entityID="http://sts.unige.it/adfs/services/trust"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#_b818a821-1116-49d5-b5c3-3eabc9d574be">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>VWOC110qjkkz0tsBCVaM+2+eecvFDV9/AHz+6X9DPe4=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+k3T/WB8cMiI+j+cfNb4N3LkmK/mve4HE4tNDLD4t0thB7g9uH/YTQCwAt/TjgXcnJ//qhJbKV1eZ
+olvRduJpVZ2tOu3XRg9ETAVw2Y7ubaA2d0nNXlMYgedQLfDsq6q0iyiyx8wkkyRpZdAYyG3bsGXU
+tY9Qgn+2aCsEfRE/ZuCQxQwv9HELvvWNxNv/yxIhrayK22JYO1/xLzsSSzkmhUmBnSMy4YEXf9/H
+9jmfRpnJedArG8sZEtBnetFHhaoSp+mIT+BTCs1XYFJOgOd2w3rcYKEPTJZxhd2f3pIqJYv9PBYP
+lw8W2hDG0SQAGEqsQCHhOaXzAQnuhyywwuBpHd2zBYA7U3XKeKHfrEvbnfysAQE9PSYnBx9TQAHx
+TYcBkrLM2u+2uaTCU90LbG9H18yf6bOBO369+XljsrQtEcxmQ5RvfvZvN3hVgKZp3PUpOOtsdXr8
+MNIGjWg2MRBGQsOuyvO9TC/l253eB+GsOExeqMWjUgo1xeyKqPlpt2kO
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+w8kI5vLnE/0zfxLcYHShiVaLi/kSTFouqEmOTBtqgqw8kc0EFAO95yU6XdrWbThDjT/2Ec7KGcP4
+iF93NZhz7eifN3Fd4IJCS1JdKm9dKLUTTGT/PpNY6F9i75lUbDnmNgQSpcHJAl94I4yT/jJ/FgoG
+VkVq7an5e/2UUvJMgccNiuj3tgbqUlVgC7ZLuFUS1Xc4QQYnL2S5B+Hi2xjw6xuGm45W21k9PTup
+BaHJ6cqtMRWh+VkG3IDhlZkIY7k049/3EZsh450EgdinWQ3QAW6RrKX8bnSLPqJxEYu76pDvkn2K
+WO8qRPSiA5F03fj1DwqCX1/SNrQ/md+YKiDZUXZyckhKpLIM9E8j1Xgqv58rTq70xd1hNcS8ZFj+
+28zCb5JK23nt32z6x/wLESZ4+7MGIpKAo5y2EKNQSo4uIiBT3g7ayE86VUXqCZ7gn9D2OspHynnm
+VLDqVEdCZvRIDhRvS/5vsGG8nZA5/KfduWJSF6wHWPBFgWth3RtSsndP
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIFiTCCA/GgAwIBAgIUMkO5tzJZ14bB6dLRxfbOEy8+HsswDQYJKoZIhvcNAQENBQAwgcQxLDAq
+BgNVBAMMI1VuaXZlcnNpdMODwqAgZGVnbGkgc3R1ZGkgZGkgR2Vub3ZhMQswCQYDVQQGEwJJVDEP
+MA0GA1UEBwwGR2Vub3ZhMRYwFAYDVQRhDA1QQTpJVC11ZHNnX2dlMSwwKgYDVQQKDCNVbml2ZXJz
+aXTDg8KgIGRlZ2xpIHN0dWRpIGRpIEdlbm92YTEwMC4GA1UEUwwnaHR0cDovL3N0cy51bmlnZS5p
+dC9hZGZzL3NlcnZpY2VzL3RydXN0MB4XDTIyMTAxMjE0MTIzNloXDTQyMTAwNzE0MTIzNlowgcQx
+LDAqBgNVBAMMI1VuaXZlcnNpdMODwqAgZGVnbGkgc3R1ZGkgZGkgR2Vub3ZhMQswCQYDVQQGEwJJ
+VDEPMA0GA1UEBwwGR2Vub3ZhMRYwFAYDVQRhDA1QQTpJVC11ZHNnX2dlMSwwKgYDVQQKDCNVbml2
+ZXJzaXTDg8KgIGRlZ2xpIHN0dWRpIGRpIEdlbm92YTEwMC4GA1UEUwwnaHR0cDovL3N0cy51bmln
+ZS5pdC9hZGZzL3NlcnZpY2VzL3RydXN0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEA
+w8kI5vLnE/0zfxLcYHShiVaLi/kSTFouqEmOTBtqgqw8kc0EFAO95yU6XdrWbThDjT/2Ec7KGcP4
+iF93NZhz7eifN3Fd4IJCS1JdKm9dKLUTTGT/PpNY6F9i75lUbDnmNgQSpcHJAl94I4yT/jJ/FgoG
+VkVq7an5e/2UUvJMgccNiuj3tgbqUlVgC7ZLuFUS1Xc4QQYnL2S5B+Hi2xjw6xuGm45W21k9PTup
+BaHJ6cqtMRWh+VkG3IDhlZkIY7k049/3EZsh450EgdinWQ3QAW6RrKX8bnSLPqJxEYu76pDvkn2K
+WO8qRPSiA5F03fj1DwqCX1/SNrQ/md+YKiDZUXZyckhKpLIM9E8j1Xgqv58rTq70xd1hNcS8ZFj+
+28zCb5JK23nt32z6x/wLESZ4+7MGIpKAo5y2EKNQSo4uIiBT3g7ayE86VUXqCZ7gn9D2OspHynnm
+VLDqVEdCZvRIDhRvS/5vsGG8nZA5/KfduWJSF6wHWPBFgWth3RtSsndPAgMBAAGjcTBvMAkGA1Ud
+EwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoa
+CGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3
+DQEBDQUAA4IBgQDBJDhUmePP9yKk8WX/9Yyy5GqPh9rBYWX6P417D95kGUSXiW0V/nSWr52kcSwg
+mIJLwoQXyi2ercyT4Cj00JW7/TV77fgBC/ljPwO0PcwvR4ria0L6QyjVIdfesRARoli5F9naeMnX
+jN7b8PaFViBObkS3VufCq+zKm6xcDhQxanPhH6aeq9JqX1Ew4aP/QJg1r868TW0MYzZ997hcOmuo
+mnAdCS8RHn2xpAWCUo6GW8LHKKhSxrE528G7lmZq7uWADi/lavSIUj7LmDSL/OGgytzKwH64zDhS
+2T/VJqtAmnIRWnIvf/d/9xGMvtclMzU2KJ8hs8ZiZ6yc11Aj/OeTIaOQZBjxLFeFc+BuPzZuSmZQ
+Nk9NvSDaET7saOUjlK2bfBjX+9aCAPvRPLAoVhpqQ3yesYg89y6q0Ake02bKo7rFaQwWsdlQ4Usf
+UAajYs8gzUrAaT+DJeoiKGc7izKFgIN31o118KJokUNWpA5zbzf/q5PNOZPjWL9tIUYBaU0=
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+    <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <md:KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>MIIFiTCCA/GgAwIBAgIUMkO5tzJZ14bB6dLRxfbOEy8+HsswDQYJKoZIhvcNAQENBQAwgcQxLDAqBgNVBAMMI1VuaXZlcnNpdMODwqAgZGVnbGkgc3R1ZGkgZGkgR2Vub3ZhMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2Vub3ZhMRYwFAYDVQRhDA1QQTpJVC11ZHNnX2dlMSwwKgYDVQQKDCNVbml2ZXJzaXTDg8KgIGRlZ2xpIHN0dWRpIGRpIEdlbm92YTEwMC4GA1UEUwwnaHR0cDovL3N0cy51bmlnZS5pdC9hZGZzL3NlcnZpY2VzL3RydXN0MB4XDTIyMTAxMjE0MTIzNloXDTQyMTAwNzE0MTIzNlowgcQxLDAqBgNVBAMMI1VuaXZlcnNpdMODwqAgZGVnbGkgc3R1ZGkgZGkgR2Vub3ZhMQswCQYDVQQGEwJJVDEPMA0GA1UEBwwGR2Vub3ZhMRYwFAYDVQRhDA1QQTpJVC11ZHNnX2dlMSwwKgYDVQQKDCNVbml2ZXJzaXTDg8KgIGRlZ2xpIHN0dWRpIGRpIEdlbm92YTEwMC4GA1UEUwwnaHR0cDovL3N0cy51bmlnZS5pdC9hZGZzL3NlcnZpY2VzL3RydXN0MIIBojANBgkqhkiG9w0BAQEFAAOCAY8AMIIBigKCAYEAw8kI5vLnE/0zfxLcYHShiVaLi/kSTFouqEmOTBtqgqw8kc0EFAO95yU6XdrWbThDjT/2Ec7KGcP4iF93NZhz7eifN3Fd4IJCS1JdKm9dKLUTTGT/PpNY6F9i75lUbDnmNgQSpcHJAl94I4yT/jJ/FgoGVkVq7an5e/2UUvJMgccNiuj3tgbqUlVgC7ZLuFUS1Xc4QQYnL2S5B+Hi2xjw6xuGm45W21k9PTupBaHJ6cqtMRWh+VkG3IDhlZkIY7k049/3EZsh450EgdinWQ3QAW6RrKX8bnSLPqJxEYu76pDvkn2KWO8qRPSiA5F03fj1DwqCX1/SNrQ/md+YKiDZUXZyckhKpLIM9E8j1Xgqv58rTq70xd1hNcS8ZFj+28zCb5JK23nt32z6x/wLESZ4+7MGIpKAo5y2EKNQSo4uIiBT3g7ayE86VUXqCZ7gn9D2OspHynnmVLDqVEdCZvRIDhRvS/5vsGG8nZA5/KfduWJSF6wHWPBFgWth3RtSsndPAgMBAAGjcTBvMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMFIGA1UdIARLMEkwIAYEK0wQBjAYMBYGCCsGAQUFBwICMAoaCGFnSURjZXJ0MCUGBitMEAQCATAbMBkGCCsGAQUFBwICMA0aC2NlcnRfU1BfUHViMA0GCSqGSIb3DQEBDQUAA4IBgQDBJDhUmePP9yKk8WX/9Yyy5GqPh9rBYWX6P417D95kGUSXiW0V/nSWr52kcSwgmIJLwoQXyi2ercyT4Cj00JW7/TV77fgBC/ljPwO0PcwvR4ria0L6QyjVIdfesRARoli5F9naeMnXjN7b8PaFViBObkS3VufCq+zKm6xcDhQxanPhH6aeq9JqX1Ew4aP/QJg1r868TW0MYzZ997hcOmuomnAdCS8RHn2xpAWCUo6GW8LHKKhSxrE528G7lmZq7uWADi/lavSIUj7LmDSL/OGgytzKwH64zDhS2T/VJqtAmnIRWnIvf/d/9xGMvtclMzU2KJ8hs8ZiZ6yc11Aj/OeTIaOQZBjxLFeFc+BuPzZuSmZQNk9NvSDaET7saOUjlK2bfBjX+9aCAPvRPLAoVhpqQ3yesYg89y6q0Ake02bKo7rFaQwWsdlQ4UsfUAajYs8gzUrAaT+DJeoiKGc7izKFgIN31o118KJokUNWpA5zbzf/q5PNOZPjWL9tIUYBaU0=</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </md:KeyDescriptor>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.unige.it/adfs/ls/"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sts.unige.it/adfs/ls/"/>
+
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidproxy.unige.it/proxy/logout"/>
+        <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidproxy.unige.it/proxy/assertionconsumer"/>
+
+        <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://sts.unige.it/adfs/ls/" index="0" isDefault="true"/>
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://spidproxy.unige.it/proxy/assertionconsumer" index="1"/>
+
+        <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect" Location="https://sts.unige.it/adfs/ls/" index="2"/>
+        <md:AttributeConsumingService index="0">
+            <md:ServiceName xml:lang="it">SetMinimum</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio minimi</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="1">
+            <md:ServiceName xml:lang="it">SetMedium</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio medi</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="2">
+            <md:ServiceName xml:lang="it">SetFull</md:ServiceName>
+            <md:ServiceDescription xml:lang="it">Attributi servizio totali</md:ServiceDescription>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="email"/>
+            <md:RequestedAttribute Name="fiscalNumber"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="countyOfBirth"/>
+            <md:RequestedAttribute Name="companyName"/>
+            <md:RequestedAttribute Name="registeredOffice"/>
+            <md:RequestedAttribute Name="ivaCode"/>
+            <md:RequestedAttribute Name="idCard"/>
+            <md:RequestedAttribute Name="digitalAddress"/>
+            <md:RequestedAttribute Name="mobilePhone"/>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="expirationDate"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="99">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Minimum Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+        <md:AttributeConsumingService index="100">
+            <md:ServiceName xml:lang="it">eIDAS Natural Person Full Attribute Set</md:ServiceName>
+            <md:RequestedAttribute Name="address"/>
+            <md:RequestedAttribute Name="dateOfBirth"/>
+            <md:RequestedAttribute Name="familyName"/>
+            <md:RequestedAttribute Name="gender"/>
+            <md:RequestedAttribute Name="name"/>
+            <md:RequestedAttribute Name="placeOfBirth"/>
+            <md:RequestedAttribute Name="spidCode"/>
+        </md:AttributeConsumingService>
+    </md:SPSSODescriptor>
+    <md:Organization>
+        <md:OrganizationName xml:lang="it">Università degli studi di Genova</md:OrganizationName>
+        <md:OrganizationDisplayName xml:lang="it">Università degli studi di Genova</md:OrganizationDisplayName>
+        <md:OrganizationURL xml:lang="it">www.unige.it</md:OrganizationURL>
+    </md:Organization>
+
+    <md:ContactPerson contactType="other">
+        <md:Extensions>
+            <spid:IPACode>udsg_ge</spid:IPACode>
+            <spid:Public/>
+        </md:Extensions>
+        <md:EmailAddress>assistenza@unige.it</md:EmailAddress>
+    </md:ContactPerson>
+</md:EntityDescriptor>
