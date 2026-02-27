@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><md:EntityDescriptor xmlns:md="urn:oasis:names:tc:SAML:2.0:metadata" xmlns:ds="http://www.w3.org/2000/09/xmldsig#" xmlns:spid="https://spid.gov.it/saml-extensions" ID="pfx9c517898-8a13-46d2-b83d-ede29e7c4a76-ventimiglia" entityID="https://proximasrl.net/pub-ag-full/ventimiglia"><ds:Signature>
+<ds:SignedInfo>
+<ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+<ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/>
+<ds:Reference URI="#pfx9c517898-8a13-46d2-b83d-ede29e7c4a76-ventimiglia">
+<ds:Transforms>
+<ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/>
+<ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/>
+</ds:Transforms>
+<ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/>
+<ds:DigestValue>Ttbz12nRheMgNHApzlOr/cRYbnNL3UEEPX4/BEiU6/0=</ds:DigestValue>
+</ds:Reference>
+</ds:SignedInfo>
+<ds:SignatureValue>
+M0+TdtHzO1VB2q88ZdQOctIe72rqlz4yPUIotkiJm4uG8tbbJKlaCwET52t1/+/u/LatIeJTNrWT
+bAF8QWFOEdO6SJZ8o7+rgnhl6x3PI2OMMJDNI8gfnUwpjXzM0O2ML15rrXTnUZ0V0xg/bGmQtBxw
+rhSRS4g1OQZrZszCCo4D7qtKDQzCbxdw76r2IXwIVA+G+F7bAD7Bv2n4cauqNaz9O9GS3LmAo3q3
+UrkscS14UOVm8hGUNze9ADCPOWooVd9GXMIlrky1LclrpOn6mnnwZG1lrq2zRz4JKMFO6xb3kzbE
+G0cL9I+sXMgcSgeiNzWLpe5mmyr0EnwWvHpLmDvujEppr7YNfxTxVwKfYamRYT6mI2f8F8pvJW6a
++4DHBzlM0LAL3yN/CxMikjevwKkg7tImJhQ9MjlnDFm8oTAtLUtT9IGQFsEiweupEF98tqFNxsi7
+2I3YugE4Kegd6/e4Ra+mn4KT0iRn4X/cTz0rTRhwXEtKLD/x9/RNr942
+</ds:SignatureValue>
+<ds:KeyInfo>
+<ds:KeyValue>
+<ds:RSAKeyValue>
+<ds:Modulus>
+ns2vFli8UQkRUPHlEqhsPcKPCIH4uzgOB9LbaaoZNusCHUr3j1+N6Jbl02f6PDke+lgL8rYaTBjY
+lQNwdGYscsfC/oASDZ0YueGrrcs9KWtxWBnAdH2ltd3YFT6XKOw8ZmkQLypbQI/u3vbErdGq3a1l
+JQ6QnBvkJ7PmS6PBSoMsMGkbmYGq8m+aS5J8UpCmf9zMLe19Xb+RQ/fGzd25dou9d1PdEoVuKnyQ
+dUww9ld7P4c4MalDm6ngiR1H3snnVYInWtkQr586KCINdX81g7WAZlSsyDj6oci1ekY4POwiUVnl
+KgaQ2Qnb3lLA3wHG18mqEW4OsYedw4ko14v/2MKTzOUlEH7U97HxaBr9XCe3H6yRqNDrRyLwyovM
+ZgILNjfvmck4X6oMc6Uy7gvhFae98BlWhETErridg9ap0VZr5DU0Zs8cQ14hDflp/AA9eCsaQMfJ
+H4mUPZxnCOPvOcSSAvtM5jln+VKPOdj/CoUHaXrCz/4B0D5Frz05AsoN
+</ds:Modulus>
+<ds:Exponent>AQAB</ds:Exponent>
+</ds:RSAKeyValue>
+</ds:KeyValue>
+<ds:X509Data>
+<ds:X509Certificate>
+MIIIYTCCBkmgAwIBAgIIbDxMAeXOYVEwDQYJKoZIhvcNAQENBQAwgeUxCzAJBgNVBAYTAklUMQ0w
+CwYDVQQHDARSb21lMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEsMCoG
+A1UECwwjU2Vydml6aW8gQWNjcmVkaXRhbWVudG8gZSBWaWdpbGFuemExKjAoBgNVBAMMIVByb2dl
+dHRvIFNQSUQgLSBTb2dnZXR0aV9wdWJibGljaTEpMCcGCSqGSIb3DQEJARYacHJvdG9jb2xsb0Bw
+ZWMuYWdpZC5nb3YuaXQxGjAYBgNVBAUTEVZBVElULTk3NzM1MDIwNTg0MB4XDTIxMDQxMzAwMDAw
+MFoXDTM2MDQxMjIzNTk1OVowgaIxEDAOBgNVBAMMB1Byb3hpbWExFjAUBgNVBAoMDVByb3hpbWEg
+cy5yLmwxGjAYBgNVBGEMEVZBVElULTEwOTE1MzQwOTYxMSAwHgYDVQRTDBdodHRwczovL3Byb3hp
+bWFzcmwubmV0LzEeMBwGA1UEBwwVVHJlenphbm8gc3VsIE5hdmlnbGlvMQswCQYDVQQIDAJNSTEL
+MAkGA1UEBhMCSVQwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCeza8WWLxRCRFQ8eUS
+qGw9wo8Igfi7OA4H0ttpqhk26wIdSvePX43oluXTZ/o8OR76WAvythpMGNiVA3B0Zixyx8L+gBIN
+nRi54autyz0pa3FYGcB0faW13dgVPpco7DxmaRAvKltAj+7e9sSt0ardrWUlDpCcG+Qns+ZLo8FK
+gywwaRuZgaryb5pLknxSkKZ/3Mwt7X1dv5FD98bN3bl2i713U90ShW4qfJB1TDD2V3s/hzgxqUOb
+qeCJHUfeyedVgida2RCvnzooIg11fzWDtYBmVKzIOPqhyLV6Rjg87CJRWeUqBpDZCdveUsDfAcbX
+yaoRbg6xh53DiSjXi//YwpPM5SUQftT3sfFoGv1cJ7cfrJGo0OtHIvDKi8xmAgs2N++ZyThfqgxz
+pTLuC+EVp73wGVaERMSuuJ2D1qnRVmvkNTRmzxxDXiEN+Wn8AD14KxpAx8kfiZQ9nGcI4+85xJIC
++0zmOWf5Uo852P8KhQdpesLP/gHQPkWvPTkCyg0CAwEAAaOCAtQwggLQMAwGA1UdEwEB/wQCMAAw
+HQYDVR0OBBYEFLcghAqf9b9SJ+F5Hq6gAlV/3u5IMB8GA1UdIwQYMBaAFDy7bese/Z1uy+5U5uo5
+1YmgR9c0MA4GA1UdDwEB/wQEAwIGwDAWBgNVHRIEDzANggtzcGlkLmdvdi5pdDBCBgNVHR8EOzA5
+MDegNaAzhjFodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2NybC9jcmxfU1BJRF9QdWJfU0EuY3Js
+MDcGCCsGAQUFBwEBBCswKTAnBggrBgEFBQcwAYYbaHR0cHM6Ly9vY3NwX1NBLmFnaWQuZ292Lml0
+MIIB2QYDVR0gBIIB0DCCAcwwCQYHBACORgEGAjCBlQYEK0wQBjCBjDBEBggrBgEFBQcCAjA4GjZF
+bGVjdHJvbmljIGNlcnRpZmljYXRlIGNvbmZvcm1pbmcgd2l0aCBBR0lEIEd1aWRlbGluZXMwRAYI
+KwYBBQUHAgIwOBo2Q2VydGlmaWNhdG8gZWxldHRyb25pY28gY29uZm9ybWUgYWxsZSBMaW5lZSBn
+dWlkYSBBZ0lEMH0GBitMEAQCAjBzMDoGCCsGAQUFBwICMC4aLFNQSUQ6IGFnZ3JlZ2F0b3JlICdm
+dWxsJyBkaSBzZXJ2aXppIHB1YmJsaWNpMDUGCCsGAQUFBwICMCkaJ1NQSUQ6IHB1YmxpYy1zZXJ2
+aWNlcyAnZnVsbCcgQWdncmVnYXRvcjAIBgYEAI96AQMwTQYEK0wQBDBFMEMGCCsGAQUFBwIBFjdo
+dHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lEX2VJREFTX3Jvb3RDQV9jcHMucGRmME8G
+BgQAjkYBBTBFMEMGCCsGAQUFBwIBFjdodHRwczovL2VpZGFzLmFnaWQuZ292Lml0L2Nwcy9BZ0lE
+X2VJREFTX3Jvb3RDQV9jcHMucGRmMA0GCSqGSIb3DQEBDQUAA4ICAQANvbMZECCEFztfSYHQl5tt
+7pwZya7OXyM0+zOGvr5YwKezZNFYJviZk4VyGQdd9q8qm/0DMEmnpGLbFp8ecp3gFH9QLEYwushL
+zN+x/l1BQSk26mlY+N62yvWvZMOGebJ+ib4eey4cPfJ23syO5B5oAmCDhlN8Y55W17Ph94lau8EY
+lU0PZMAtKoQHV5U/HxfEEyxSotB5Vux1+mYqi5TZAolQ6SoqsA+AfwavMuV+g1vHhE8ry89hzXCG
+7f5xfsUjLS7Wm8MDrM8xNT5PKvlN1MwbLE0LC9RTE9bJXEInBpqAp/1NlMxmFmDXG7tbJ7AImXCM
+MGMFhhTgrvoRF8wwN3xENnqxO3faA2lXdhqvx38/hSj8Rvgehz9gZZiigIOHGEtyKR0+y/OZ50Gk
+EybXlLEthRJIySjMrHQJCwJfX4waH2HlXXVD9e578TLUBmbvyfnW+JiCvI9uhEcnfQdJZ2gx/nVf
+FYPagnS17Neh4xddyw5dtZMTIhGxhZjjmbzS2WB5+5qCRXsoNQC03ZjAJkBf004OrmetAFREshiC
+vjyUz4jbexVDwbzNw+g0gF5KwqTPlxZvnpcwhO8rV2ow4kgdl3n9NXIM66+Nqi3D78NdeEbu0YOZ
+W6pbo0SFHgz7pwmhSoHna9zW+iqkJ16HPfQJIqClrgYFMWFQ1L81DQ==
+</ds:X509Certificate>
+</ds:X509Data>
+</ds:KeyInfo>
+</ds:Signature>
+   <md:SPSSODescriptor AuthnRequestsSigned="true" WantAssertionsSigned="true" protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+      <md:KeyDescriptor use="signing">
+         <ds:KeyInfo>
+            <ds:X509Data>
+               <ds:X509Certificate>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</ds:X509Certificate>
+            </ds:X509Data>
+         </ds:KeyInfo>
+      </md:KeyDescriptor>
+      <md:SingleLogoutService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ventimiglia.imposta-soggiorno.it/spid-login/spid.sso/SLO/POST"/>
+	  
+      <md:NameIDFormat>urn:oasis:names:tc:SAML:2.0:nameid-format:transient</md:NameIDFormat>
+      
+	  <md:AssertionConsumerService Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST" Location="https://ventimiglia.imposta-soggiorno.it/spid-login/spid.sso/SAML2/POST" index="0" isDefault="true"/>
+	  
+      <md:AttributeConsumingService index="0">
+         <md:ServiceName xml:lang="it">imposta-soggiorno</md:ServiceName>
+         <md:ServiceDescription xml:lang="it">Imposta Soggiorno</md:ServiceDescription>
+         <md:RequestedAttribute Name="fiscalNumber" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="name" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+         <md:RequestedAttribute Name="familyName" NameFormat="urn:oasis:names:tc:SAML:2.0:attrname-format:basic"/>
+      </md:AttributeConsumingService>
+	  
+   </md:SPSSODescriptor>
+   
+   <md:Organization>
+      <md:OrganizationName xml:lang="it">Comune di Ventimiglia</md:OrganizationName>
+	  <md:OrganizationDisplayName xml:lang="it">Comune di Ventimiglia</md:OrganizationDisplayName>
+	  <md:OrganizationURL xml:lang="it">https://www.comune.ventimiglia.it/</md:OrganizationURL>
+   </md:Organization>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregator">
+      <md:Extensions>
+         <spid:VATNumber>10915340961</spid:VATNumber>
+         <spid:FiscalCode>10915340961</spid:FiscalCode>
+         <spid:PublicServicesFullAggregator/>
+      </md:Extensions>
+      <md:Company>Proxima s.r.l.</md:Company>
+      <md:EmailAddress>info@proximasrl.net</md:EmailAddress>
+      <md:TelephoneNumber>+390294961024</md:TelephoneNumber>
+   </md:ContactPerson>
+   <md:ContactPerson contactType="other" spid:entityType="spid:aggregated">
+		<md:Extensions>
+			<spid:IPACode>c_l741</spid:IPACode>
+			<spid:Public/>
+		</md:Extensions>
+		<md:Company>Comune di Ventimiglia</md:Company>
+	</md:ContactPerson>
+   
+</md:EntityDescriptor>
